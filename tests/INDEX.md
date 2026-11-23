@@ -3,13 +3,13 @@
 ## Exécution Rapide
 
 ```bash
-# Tous les tests (Node.js + jsdom) : 2 274 tests, 57 fichiers
+# Tous les tests (Node.js + jsdom) : 2 433 tests, 57 fichiers
 npm test                        # = node tests/node-runner.cjs
 
 # Un ou plusieurs fichiers : sous-chaîne du nom de fichier
 TEST_FILTER=storage npm test
 
-# End-to-end (Playwright, Chromium, 206 tests, contre index.html : lancer d'abord node scripts/build.js)
+# End-to-end (Playwright, Chromium, 208 tests, contre index.html : lancer d'abord node scripts/build.js)
 npm run test:e2e
 E2E_APP=tmp/app.html npm run test:e2e   # contre un autre build
 npm run test:e2e:lint                   # contrôle statique des specs
@@ -45,7 +45,7 @@ Nombre de tests au 2026-11-23.
 | `a11y.test.js` | `a11y.js` accessibilité | 32 |
 | `answer-check.test.js` | `GameAnswerValidator.checkAnswer`, examen, défi, `alternatives` | 13 |
 | `app-appearance.test.js` | `App._applyPlayerAppearance` : thème et accessibilité par joueur | 5 |
-| `audio.test.js` | `audio.js` sons Web Audio | 104 |
+| `audio.test.js` | `audio.js` sons Web Audio | 245 |
 | `badges.test.js` | `badges.js` | 48 |
 | `card-media.test.js` | `CardMedia` : aucune ressource distante automatique | 15 |
 | `challenges.test.js` | `challenges.js` : défis quotidiens, quêtes, mode défi | 22 |
@@ -91,7 +91,7 @@ Nombre de tests au 2026-11-23.
 | `text-normalization-unicode.test.js` | `TextUtils.normalizeText` Unicode | 55 |
 | `text-utils.test.js` | `text-utils.js` | 30 |
 | `themes.test.js` | `themes.js` | 61 |
-| `tutorial.test.js` | `ui/tutorial.js` | 51 |
+| `tutorial.test.js` | `ui/tutorial.js` | 69 |
 | `types.test.js` | `types.js` (syntaxe JSDoc) | 15 |
 | `ui-a11y-fixes.test.js` | accessibilité de l'interface (annonces, messages éphémères) | 5 |
 | `ui-xss.test.js` | échappement HTML (pages et composants) | 29 |
@@ -99,7 +99,7 @@ Nombre de tests au 2026-11-23.
 | `xp.test.js` | `xp.js` | 39 |
 | `yaml-export-roundtrip.test.js` | `Exporter.toYAML`, `YAML.stringifyDeck` (aller-retour) | 36 |
 | `yaml.test.js` | `yaml.js` | 20 |
-| **Total** | **57 fichiers** | **2 274** |
+| **Total** | **57 fichiers** | **2 433** |
 
 ### Tests e2e (`tests/e2e/`)
 
@@ -108,13 +108,13 @@ Nombre de tests au 2026-11-23.
 | `challenge-mode.spec.cjs` | 31 |
 | `deck-editor.spec.cjs` | 24 |
 | `dictation.spec.cjs` | 15 |
-| `game.spec.cjs` | 28 |
+| `game.spec.cjs` | 29 |
 | `gamification.spec.cjs` | 19 |
 | `import-export.spec.cjs` | 16 |
 | `missions.spec.cjs` | 17 |
 | `navigation.spec.cjs` | 28 |
-| `settings.spec.cjs` | 28 |
-| **Total** | **206** |
+| `settings.spec.cjs` | 29 |
+| **Total** | **208** |
 
 ---
 

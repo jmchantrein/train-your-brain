@@ -166,7 +166,11 @@
   --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
   --transition-normal: 300ms cubic-bezier(0.4, 0, 0.2, 1);
   --transition-slow: 500ms cubic-bezier(0.4, 0, 0.2, 1);
-  --transition-bounce: 500ms cubic-bezier(0.34, 1.56, 0.64, 1);
+  /* Courbe à rebond seule, pour les animations : `animation: nom 0.4s var(--ease-bounce)`.
+     --transition-bounce contient en plus une durée : placé après une durée dans `animation`,
+     ses 500ms deviennent un délai (l'élément s'affiche, puis retombe et rebondit). */
+  --ease-bounce: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --transition-bounce: 500ms var(--ease-bounce);
 
   /* Z-index */
   --z-dropdown: 100;
@@ -2915,7 +2919,7 @@ h1[tabindex="-1"]:focus {
   background: linear-gradient(135deg, var(--color-orange), #dc2626);
   border-radius: var(--border-radius-full);
   font-size: var(--font-size-sm);
-  animation: streakPop 0.3s var(--transition-bounce);
+  animation: streakPop 0.3s var(--ease-bounce);
 }
 
 .game__streak--hot {
@@ -3568,7 +3572,7 @@ h1[tabindex="-1"]:focus {
   font-size: var(--font-size-3xl);
   font-weight: bold;
   margin-bottom: var(--spacing-md);
-  animation: resultBounce 0.5s var(--transition-bounce);
+  animation: resultBounce 0.5s var(--ease-bounce);
 }
 
 @keyframes resultBounce {
@@ -3715,7 +3719,7 @@ h1[tabindex="-1"]:focus {
   font-weight: var(--font-weight-bold);
   color: var(--color-yellow);
   margin-bottom: var(--spacing-md);
-  animation: xpPop 0.4s var(--transition-bounce) 0.2s both;
+  animation: xpPop 0.4s var(--ease-bounce) 0.2s both;
 }
 
 @keyframes xpPop {
@@ -10326,7 +10330,7 @@ h1[tabindex="-1"]:focus {
   font-size: var(--font-size-2xl);
   font-weight: var(--font-weight-bold);
   border-radius: 50%;
-  animation: feedbackPop 0.4s var(--transition-bounce);
+  animation: feedbackPop 0.4s var(--ease-bounce);
 }
 
 .exam__feedback--correct .exam__feedback-icon {
@@ -12387,9 +12391,7 @@ h1[tabindex="-1"]:focus {
 }
 
 /* Modal : créée une fois par ouverture. L'animation d'entrée ne joue qu'à l'ouverture.
-   (--transition-bounce contient une durée : placée après 0.4s, elle devenait un délai de 500 ms,
-   la fenêtre s'affichait puis disparaissait et réapparaissait.) Le pied reste visible,
-   seul le corps défile si la carte ne tient pas (petit écran, zoom). */
+   Le pied reste visible, seul le corps défile si la carte ne tient pas (petit écran, zoom). */
 .tutorial-modal {
   background: var(--color-bg-card);
   border-radius: var(--border-radius-xl);
@@ -12402,7 +12404,7 @@ h1[tabindex="-1"]:focus {
   overflow: hidden;
   position: relative;
   box-shadow: var(--shadow-xl), 0 0 60px rgba(139, 92, 246, 0.2);
-  animation: tutorial-modal-in 0.4s cubic-bezier(0.34, 1.56, 0.64, 1) both;
+  animation: tutorial-modal-in 0.4s var(--ease-bounce) both;
 }
 
 .tutorial-modal__body {

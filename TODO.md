@@ -13,6 +13,8 @@
 
 ### Défauts connus, non traités
 
+- [ ] Sons : rendu à juger à l'oreille (niveau moyen plus bas de 4 à 5 dB ; réglage `OUTPUT.mixGain` de `audio.js`) ; mesures faites dans Chromium seulement
+- [ ] Le badge de série rejoue son rebond deux fois par carte (la page de jeu est remontée au retour de réponse puis à la carte suivante)
 - [ ] Code sans appelant restant : six méthodes de `PromptLearner` (`exportLearning`, `importLearning`, `getQualityTrend`, `resetDomain`, `compareIterations`, `getCurrentSession`), `Audio.setVolume`, `Badges.getByRarity`, historique d'erreurs d'`ErrorHandler` sans lecteur (`docs/CODE_ANALYSIS.md`)
 - [ ] Sauvegarde de secours : la copie a un enregistrement de retard, une récupération perd au plus le dernier enregistrement
 - [ ] En interface anglaise, restent en français : taxonomie de tags (`tags-taxonomy.js`), formulaire du générateur de consignes (`prompt-generator.js`), messages du validateur de decks
@@ -86,3 +88,5 @@
 - [x] 2026-11-23 doc-keeper : seconde passe de renommage, documentation et compteurs resynchronisés (2 274 tests unitaires, 206 tests e2e)
 - [x] 2026-11-23 `index.html` et captures du site régénérés ; pull request vers `main` ouverte (jmchantrein/offline-train-your-brain#12)
 - [x] 2026-11-23 Publication : commit initial unique poussé dans le dépôt neuf `jmchantrein/train-your-brain` (sans l'ancien historique)
+- [x] 2026-11-23 core-engine : sons adoucis (enveloppe commune sans clic, compresseur doux, plus d'écrêtage), son de palier de série 6 à 11 réparé
+- [x] 2026-11-23 ui-renderer : tutoriel de démarrage sans saut entre deux cartes (fenêtre construite une fois, taille stable), clavier, focus, annonces, cibles tactiles ; retours de réponse sans le délai de 500 ms, animation du gain d'XP rétablie
