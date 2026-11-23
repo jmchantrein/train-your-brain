@@ -353,7 +353,7 @@ const Tutorial = {
 
   /**
    * Affiche l'étape courante dans la fenêtre existante (classes, attributs, libellés)
-   * @param {{announce?: boolean}} [options] - announce : annoncer la carte aux lecteurs d'écran
+   * @param {{announce: (boolean|undefined)}} [options] - announce : annoncer la carte aux lecteurs d'écran
    * @private
    */
   _renderStep(options = {}) {
