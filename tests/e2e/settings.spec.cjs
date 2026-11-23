@@ -472,6 +472,59 @@ test.describe('Settings', () => {
       await expect(overlay).toBeVisible();
       await expect(overlay).toHaveAttribute('role', 'dialog');
     });
+
+    test('should keep the tutorial window steady from one card to the next', async ({ page }) => {
+      await openSettings(page);
+      await page.locator('.settings__tutorial').click();
+      const modal = page.locator('.tutorial-modal');
+      await expect(modal).toBeVisible();
+      // Fin de l'animation d'ouverture : plus aucune animation finie en cours sur la fenêtre
+      await expect.poll(() => page.evaluate(() =>
+        document.querySelector('.tutorial-modal').getAnimations().filter(a => a.playState === 'running').length
+      )).toBe(0);
+
+      // Chaque passage (avant puis arrière) est échantillonné à chaque frame pendant 700 ms :
+      // la fenêtre et le bouton Suivant ne bougent pas, ne disparaissent pas et ne sont pas remplacés.
+      const report = await page.evaluate(async () => {
+        const total = Tutorial.steps.length;
+        const rect = (el) => { const r = el.getBoundingClientRect(); return [r.x, r.y, r.width, r.height]; };
+        const modalEl = document.querySelector('.tutorial-modal');
+        const nextEl = document.querySelector('[data-action="next"]');
+        const ref = { modal: rect(modalEl), next: rect(nextEl) };
+        const issues = [];
+        const sampleAfter = (action, label) => new Promise((resolve) => {
+          action();
+          const t0 = performance.now();
+          const tick = () => {
+            const m = document.querySelector('.tutorial-modal');
+            const n = document.querySelector('[data-action="next"]');
+            if (m !== modalEl || n !== nextEl) issues.push(`${label}: élément remplacé`);
+            {
+              const dm = Math.max(...rect(m).map((v, i) => Math.abs(v - ref.modal[i])));
+              const dn = Math.max(...rect(n).map((v, i) => Math.abs(v - ref.next[i])));
+              const opacity = parseFloat(getComputedStyle(m).opacity);
+              if (dm > 1) issues.push(`${label}: fenêtre décalée de ${Math.round(dm)} px`);
+              if (dn > 1) issues.push(`${label}: Suivant décalé de ${Math.round(dn)} px`);
+              if (opacity < 1) issues.push(`${label}: fenêtre à l'opacité ${opacity}`);
+            }
+            if (performance.now() - t0 < 700) requestAnimationFrame(tick); else resolve();
+          };
+          requestAnimationFrame(tick);
+        });
+        for (let i = 1; i < total; i++) {
+          await sampleAfter(() => document.querySelector('[data-action="next"]').click(), `${i}→${i + 1}`);
+        }
+        for (let i = total; i > 1; i--) {
+          await sampleAfter(() => document.querySelector('[data-action="prev"]').click(), `${i}→${i - 1}`);
+        }
+        return { step: Tutorial.currentStep, issues: [...new Set(issues)] };
+      });
+
+      expect(report.issues).toEqual([]);
+      expect(report.step).toBe(0);
+      await expect(page.locator('.tutorial-modal__step--active .tutorial-modal__title'))
+        .toHaveText('Bienvenue dans Train Your Brain !');
+    });
   });
 
   test.describe('Accessibility Settings', () => {
