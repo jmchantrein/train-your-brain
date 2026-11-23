@@ -19,6 +19,9 @@ Toutes les modifications notables de ce projet sont décrites ici, en français,
 
 - **Export** : l'export YAML et JSON d'un deck n'efface plus `metadata.license` ni `metadata.source` (l'attribution CC BY-SA est conservée) ; l'import YAML relit ce bloc.
 - **Taxonomie** : `pythagore` n'a plus `trigonometrie` pour parent.
+- Sons plus doux : enveloppe commune sans clic, compresseur doux sur la sortie, niveaux homogènes (plus d'écrêtage) ; le son de palier de série entre 6 et 11 cartes vertes, qui levait une exception, joue de nouveau.
+- Tutoriel de démarrage : plus de saut d'une carte à l'autre (fenêtre stable, entrée non rejouée) ; clavier, focus, annonces et cibles tactiles corrigés.
+- Retours de réponse (icône du verso, série, icône d'examen) : le rebond part dès l'apparition au lieu de s'afficher 500 ms puis de retomber ; l'animation du gain d'XP, jusqu'ici ignorée par le navigateur, joue.
 
 ### Données des joueurs
 

@@ -355,9 +355,9 @@ Action utilisateur → State.set() → abonnés notifiés → rendu de la page
 | `npm run build:prod` | Build minifié, puis JSDoc dans `docs/api/` (ignoré par git) |
 | `npm run build:site` | Construit `_site/` (page d'accueil `site/`, application minifiée dans `app/`, JSDoc dans `api/`) ; échoue si JSDoc échoue |
 | `npm run dev` | Construit dans `.dev/`, sert `http://localhost:3000`, reconstruit quand `src/`, `decks/` ou le manifest changent (rechargement du navigateur à la main) |
-| `npm test` (= `node tests/node-runner.cjs`) | Tous les `tests/*.test.js` (2 274 tests, 57 fichiers) |
+| `npm test` (= `node tests/node-runner.cjs`) | Tous les `tests/*.test.js` (2 433 tests, 57 fichiers) |
 | `TEST_FILTER=storage npm test` | Fichiers dont le nom contient la sous-chaîne |
-| `npm run test:e2e` | Playwright, Chromium seul (206 tests, 9 specs), contre `index.html` en `file://` : construire d'abord |
+| `npm run test:e2e` | Playwright, Chromium seul (208 tests, 9 specs), contre `index.html` en `file://` : construire d'abord |
 | `E2E_APP=tmp/app.html npm run test:e2e` | Même suite contre un autre build (chemin relatif au dossier courant) |
 | `npm run test:e2e:lint` | Contrôle statique des specs e2e (`tests/e2e/lint-specs.cjs`) |
 | `npm run test:browser` | `scripts/dev-server.js --test` : sert le dépôt, page `tests/runner.html` (voir Règle 3) |
@@ -499,6 +499,14 @@ Un test qui échoue est soit un bug du code, soit un test périmé : investiguer
 ### 16. Commits Partagés entre Agents
 
 Un `git commit` sans liste de fichiers emporte tout ce qui est indexé, y compris les `git rm` d'un autre agent : contrôler `git diff --cached --name-only` avant de valider.
+
+### 17. Sons : Passer par l'Enveloppe Commune
+
+Toute voix de `src/modules/audio.js` passe par `Audio._scheduleEnvelope` (attaque d'au moins 12 ms, retour à 0, `stop()` après le relâchement) et se connecte à `Audio._output()` (bus, compresseur doux, volume du joueur). Ne pas programmer de rampes à la main : un `stop()` avant la fin du relâchement fait un clic, un temps négatif lève un `RangeError`. Pas d'onde carrée ni en dents de scie sans filtre.
+
+### 18. Animations CSS : Courbe Seule dans `animation`
+
+Écrire la courbe avec `var(--ease-bounce)` (fonction de temps seule). `--transition-*` contient une durée : placé après une durée dans `animation`, il devient un délai (c'était la cause du saut du tutoriel), et deux délais rendent la déclaration invalide.
 
 ---
 

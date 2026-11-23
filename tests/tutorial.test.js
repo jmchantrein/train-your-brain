@@ -106,7 +106,6 @@ describe('Tutorial - Module', () => {
       Tutorial.isOpen = true;
       // Mock overlay to prevent DOM errors
       Tutorial.overlay = document.createElement('div');
-      Tutorial._bindEvents = () => {}; // Mock binding
     });
 
     afterEach(() => {
@@ -155,7 +154,6 @@ describe('Tutorial - Module', () => {
       Tutorial.currentStep = 0;
       Tutorial.isOpen = true;
       Tutorial.overlay = document.createElement('div');
-      Tutorial._bindEvents = () => {};
     });
 
     afterEach(() => {
@@ -373,5 +371,217 @@ describe('LeitnerExplanation - Component', () => {
       expect(container.innerHTML).not.toContain('Old content');
       expect(container.innerHTML).toContain('leitner-explanation');
     });
+  });
+});
+
+// ═══════════════════════════════════════════════════════════════
+// Fenêtre réelle : transitions entre cartes, clavier, focus, annonces
+// ═══════════════════════════════════════════════════════════════
+
+describe('Tutorial - Fenêtre et transitions', () => {
+  const wait = (ms) => new Promise(resolve => setTimeout(resolve, ms));
+  const q = (sel) => Tutorial.overlay.querySelector(sel);
+  const key = (k, opts = {}) => {
+    const e = new KeyboardEvent('keydown', { key: k, bubbles: true, cancelable: true, ...opts });
+    (document.activeElement || document.body).dispatchEvent(e);
+    return e;
+  };
+  let announced;
+  let originalAnnounce;
+
+  beforeEach(() => {
+    // Fermer proprement un tutoriel resté ouvert et retirer les fenêtres orphelines
+    if (Tutorial.isOpen) Tutorial.close(false);
+    document.querySelectorAll('.tutorial-overlay').forEach(el => el.remove());
+    Tutorial.isOpen = false;
+    Tutorial.overlay = null;
+    announced = [];
+    originalAnnounce = A11y.announce;
+    A11y.announce = (msg) => { announced.push(msg); };
+    Tutorial.start(null, true);
+  });
+
+  afterEach(() => {
+    if (Tutorial.isOpen) Tutorial.close(false);
+    document.querySelectorAll('.tutorial-overlay').forEach(el => el.remove());
+    A11y.announce = originalAnnounce;
+  });
+
+  it('garde la même fenêtre et les mêmes boutons d\'une carte à l\'autre', () => {
+    const modal = q('.tutorial-modal');
+    const next = q('[data-action="next"]');
+    const prev = q('[data-action="prev"]');
+    Tutorial.next();
+    Tutorial.next();
+    Tutorial.prev();
+    expect(q('.tutorial-modal') === modal).toBe(true);
+    expect(q('[data-action="next"]') === next).toBe(true);
+    expect(q('[data-action="prev"]') === prev).toBe(true);
+    expect(document.querySelectorAll('.tutorial-modal').length).toBe(1);
+  });
+
+  it('rend une carte par étape, seule la carte courante est exposée', () => {
+    const panels = Tutorial.overlay.querySelectorAll('[data-step-panel]');
+    expect(panels.length).toBe(Tutorial.steps.length);
+    Tutorial.goToStep(2);
+    panels.forEach((panel, i) => {
+      const active = i === 2;
+      expect(panel.classList.contains('tutorial-modal__step--active')).toBe(active);
+      expect(panel.hasAttribute('inert')).toBe(!active);
+      expect(panel.getAttribute('aria-hidden')).toBe(active ? null : 'true');
+    });
+  });
+
+  it('nomme la fenêtre par le titre de la carte courante', () => {
+    Tutorial.goToStep(3);
+    const labelId = Tutorial.overlay.getAttribute('aria-labelledby');
+    const title = document.getElementById(labelId);
+    expect(title).toBeTruthy();
+    expect(title.textContent.trim()).toBe(Tutorial.steps[3].title);
+  });
+
+  it('garde la place du bouton Précédent sur la première carte', () => {
+    const prev = q('[data-action="prev"]');
+    expect(prev).toBeTruthy();
+    expect(prev.disabled).toBe(true);
+    expect(prev.getAttribute('aria-hidden')).toBe('true');
+    Tutorial.next();
+    expect(prev.disabled).toBe(false);
+    expect(prev.hasAttribute('aria-hidden')).toBe(false);
+  });
+
+  it('change le libellé des boutons sur la dernière carte', () => {
+    expect(q('[data-action="next"]').textContent.trim()).toBe('Suivant →');
+    expect(q('[data-action="skip"]').textContent.trim()).toBe('Passer');
+    Tutorial.goToStep(Tutorial.steps.length - 1);
+    expect(q('[data-action="next"]').textContent.trim()).toBe('Commencer !');
+    expect(q('[data-action="skip"]').textContent.trim()).toBe('Fermer');
+    Tutorial.prev();
+    expect(q('[data-action="next"]').textContent.trim()).toBe('Suivant →');
+  });
+
+  it('met à jour l\'indicateur de progression', () => {
+    Tutorial.goToStep(2);
+    const dots = Tutorial.overlay.querySelectorAll('[data-step]');
+    dots.forEach((dot, i) => {
+      expect(dot.getAttribute('aria-current')).toBe(i === 2 ? 'step' : null);
+      expect(dot.classList.contains('tutorial-modal__dot--completed')).toBe(i < 2);
+    });
+    expect(q('.tutorial-modal__step-counter').textContent.trim()).toBe(`3 / ${Tutorial.steps.length}`);
+    dots[5].click();
+    expect(Tutorial.currentStep).toBe(5);
+  });
+
+  it('avance d\'une carte par clic, même avec des clics rapides', () => {
+    const next = q('[data-action="next"]');
+    next.click();
+    next.click();
+    next.click();
+    expect(Tutorial.currentStep).toBe(3);
+    q('[data-action="prev"]').click();
+    expect(Tutorial.currentStep).toBe(2);
+  });
+
+  it('navigue aux flèches sans fermer à la dernière carte', () => {
+    key('ArrowRight');
+    expect(Tutorial.currentStep).toBe(1);
+    key('ArrowLeft');
+    expect(Tutorial.currentStep).toBe(0);
+    Tutorial.goToStep(Tutorial.steps.length - 1);
+    key('ArrowRight');
+    expect(Tutorial.isOpen).toBe(true);
+    expect(Tutorial.currentStep).toBe(Tutorial.steps.length - 1);
+  });
+
+  it('laisse Entrée activer le bouton qui a le focus', () => {
+    Tutorial.goToStep(2);
+    q('[data-action="prev"]').focus();
+    key('Enter');
+    // Le gestionnaire global ne doit pas avancer : c'est le bouton Précédent qui a le focus
+    expect(Tutorial.currentStep).toBe(2);
+  });
+
+  it('ferme avec Échap sans marquer le tutoriel comme terminé', () => {
+    let completedArg = null;
+    Tutorial.onCompleteCallback = (c) => { completedArg = c; };
+    key('Escape');
+    expect(Tutorial.isOpen).toBe(false);
+    expect(completedArg).toBe(false);
+  });
+
+  it('termine le tutoriel par le bouton de la dernière carte', () => {
+    let completedArg = null;
+    Tutorial.onCompleteCallback = (c) => { completedArg = c; };
+    Tutorial.goToStep(Tutorial.steps.length - 1);
+    q('[data-action="next"]').click();
+    expect(Tutorial.isOpen).toBe(false);
+    expect(completedArg).toBe(true);
+  });
+
+  it('place le focus sur Suivant à l\'ouverture et le garde en avançant', () => {
+    const next = q('[data-action="next"]');
+    expect(document.activeElement === next).toBe(true);
+    next.click();
+    expect(document.activeElement === next).toBe(true);
+  });
+
+  it('remet le focus sur Suivant quand Précédent disparaît', () => {
+    Tutorial.goToStep(1);
+    q('[data-action="prev"]').focus();
+    q('[data-action="prev"]').click();
+    expect(Tutorial.currentStep).toBe(0);
+    expect(document.activeElement === q('[data-action="next"]')).toBe(true);
+  });
+
+  it('garde le focus dans la fenêtre (Tab et Maj+Tab)', () => {
+    const close = q('[data-action="close"]');
+    const next = q('[data-action="next"]');
+    next.focus();
+    const e1 = key('Tab');
+    expect(e1.defaultPrevented).toBe(true);
+    expect(document.activeElement === close).toBe(true);
+    const e2 = key('Tab', { shiftKey: true });
+    expect(e2.defaultPrevented).toBe(true);
+    expect(document.activeElement === next).toBe(true);
+  });
+
+  it('rend le focus à l\'élément qui l\'avait avant l\'ouverture', () => {
+    Tutorial.close(false);
+    const opener = document.createElement('button');
+    document.body.appendChild(opener);
+    opener.focus();
+    Tutorial.start(null, true);
+    expect(document.activeElement === opener).toBe(false);
+    Tutorial.close(false);
+    expect(document.activeElement === opener).toBe(true);
+    opener.remove();
+  });
+
+  it('ne supprime pas une fenêtre rouverte pendant l\'animation de fermeture', async () => {
+    Tutorial.close(false);
+    Tutorial.start(null, true);
+    const reopened = Tutorial.overlay;
+    await wait(400);
+    expect(reopened.isConnected).toBe(true);
+    expect(Tutorial.isOpen).toBe(true);
+  });
+
+  it('annonce chaque carte une seule fois, même après des clics rapides', async () => {
+    expect(announced.length).toBe(1); // ouverture
+    const next = q('[data-action="next"]');
+    next.click();
+    next.click();
+    next.click();
+    await wait(450);
+    expect(announced.length).toBe(2);
+    expect(announced[1]).toContain(`4 sur ${Tutorial.steps.length}`);
+    expect(announced[1]).toContain(Tutorial.steps[3].title);
+  });
+
+  it('n\'annonce rien après la fermeture', async () => {
+    q('[data-action="next"]').click();
+    Tutorial.close(false);
+    await wait(450);
+    expect(announced.length).toBe(1);
   });
 });

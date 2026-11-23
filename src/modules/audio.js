@@ -15,11 +15,50 @@ const Audio = {
   /** @type {GainNode|null} */
   _masterGain: null,
 
+  /**
+   * Entrée commune de la chaîne de sortie : toutes les voix s'y connectent.
+   * Chaîne : voix → _bus (niveau de mixage) → limiteur doux → _masterGain (volume du joueur) → sortie.
+   * @type {GainNode|null}
+   */
+  _bus: null,
+
   /** @type {boolean} */
   _enabled: true,
 
   /** @type {number} Volume global (0-1) */
   _volume: 0.5,
+
+  // ═══════════════════════════════════════════════════════════════
+  // ENVELOPPE ET CHAÎNE DE SORTIE (source de vérité unique)
+  // ═══════════════════════════════════════════════════════════════
+
+  /**
+   * Enveloppe commune à toutes les voix (secondes, sauf `overshoot`).
+   * Chaque voix démarre à 0 et revient à 0 avant l'arrêt de l'oscillateur :
+   * ni démarrage ni coupure à niveau non nul (donc pas de clic).
+   */
+  ENVELOPE: {
+    minAttack: 0.012,   // attaque minimale : jamais de front raide
+    minRelease: 0.06,   // relâchement minimal
+    stopPad: 0.03,      // l'oscillateur s'arrête APRÈS la fin du relâchement
+    overshoot: 1.25,    // crête d'attaque = niveau de maintien × overshoot
+    peakCeiling: 0.8    // plafond du gain programmé d'une voix
+  },
+
+  /**
+   * Chaîne de sortie commune : niveau de mixage puis compresseur doux
+   * (limiteur : attrape les superpositions de sons avant le volume du joueur).
+   */
+  OUTPUT: {
+    mixGain: 1.0,
+    limiter: { threshold: -16, knee: 12, ratio: 8, attack: 0.005, release: 0.25 }
+  },
+
+  /** Ondes riches : toujours filtrées par un passe-bas (aucune n'est utilisée aujourd'hui). */
+  SOFT_FILTER_HZ: 1800,
+
+  /** Niveau de référence d'une mélodie : au-delà, ses voix sont atténuées (somme en puissance). */
+  MELODY_REFERENCE_LEVEL: 0.6,
 
   // ═══════════════════════════════════════════════════════════════
   // FRÉQUENCES DES NOTES (La4 = 440 Hz, tempérament égal)
@@ -106,6 +145,7 @@ const Audio = {
       this._masterGain = this._context.createGain();
       this._masterGain.gain.value = this._volume;
       this._masterGain.connect(this._context.destination);
+      this._buildOutputChain();
     } catch (e) {
       console.warn('Web Audio API non supportée:', e);
       this._enabled = false;
@@ -137,7 +177,78 @@ const Audio = {
   // ═══════════════════════════════════════════════════════════════
 
   /**
-   * Crée un oscillateur avec enveloppe ADSR
+   * Construit la chaîne de sortie commune (bus de mixage + limiteur doux) devant le gain maître.
+   * Sans compresseur disponible, le bus se connecte directement au gain maître.
+   * @private
+   */
+  _buildOutputChain() {
+    const ctx = this._context;
+    const bus = ctx.createGain();
+    bus.gain.value = this.OUTPUT.mixGain;
+    if (typeof ctx.createDynamicsCompressor === 'function') {
+      const lim = this.OUTPUT.limiter;
+      const comp = ctx.createDynamicsCompressor();
+      comp.threshold.value = lim.threshold;
+      comp.knee.value = lim.knee;
+      comp.ratio.value = lim.ratio;
+      comp.attack.value = lim.attack;
+      comp.release.value = lim.release;
+      bus.connect(comp);
+      comp.connect(this._masterGain);
+    } else {
+      bus.connect(this._masterGain);
+    }
+    this._bus = bus;
+  },
+
+  /**
+   * Point d'entrée des voix dans la chaîne de sortie
+   * @returns {AudioNode|null}
+   * @private
+   */
+  _output() {
+    return this._bus || this._masterGain;
+  },
+
+  /**
+   * Programme l'enveloppe commune sur un paramètre de gain.
+   * Part de 0, monte linéairement, décroît vers le maintien, puis revient à 0 à
+   * `start + duration`. Attaque et relâchement sont bornés par ENVELOPE et par la durée
+   * (jamais d'événements désordonnés, même pour une note très courte).
+   * @param {AudioParam} param - Paramètre gain de la voix
+   * @param {number} start - Début (s, temps du contexte)
+   * @param {number} duration - Durée de la note (s)
+   * @param {number} peak - Niveau de crête de l'attaque
+   * @param {number} sustain - Niveau de maintien
+   * @param {number} attack - Attaque demandée (s)
+   * @param {number} decay - Décroissance demandée (s)
+   * @param {number} release - Relâchement demandé (s)
+   * @returns {number} Instant où le gain est revenu à 0
+   * @private
+   */
+  _scheduleEnvelope(param, start, duration, peak, sustain, attack, decay, release) {
+    const E = this.ENVELOPE;
+    const t0 = Math.max(0, start);
+    const dur = Math.max(0.02, duration);
+    const a = Math.min(Math.max(attack, E.minAttack), dur * 0.4);
+    const r = Math.min(Math.max(release, E.minRelease), dur * 0.6);
+    const d = Math.max(0, Math.min(decay, dur - a - r));
+    const top = Math.min(Math.max(peak, 0), E.peakCeiling);
+    const hold = d > 0 ? Math.min(Math.max(sustain, 0), E.peakCeiling) : top;
+
+    param.setValueAtTime(0, t0);
+    param.linearRampToValueAtTime(top, t0 + a);
+    if (d > 0) param.linearRampToValueAtTime(hold, t0 + a + d);
+    // le maintien ne peut pas précéder la fin de la décroissance (arrondis flottants compris)
+    param.setValueAtTime(hold, Math.max(t0 + a + d, t0 + dur - r));
+    param.linearRampToValueAtTime(0, t0 + dur);
+    return t0 + dur;
+  },
+
+  /**
+   * Crée un oscillateur avec enveloppe ADSR commune (voir _scheduleEnvelope).
+   * Le niveau de crête est dérivé du niveau de maintien (`sustain`).
+   * Une onde riche (carrée, dents de scie) passe par un passe-bas.
    * @private
    */
   _createTone(frequency, type, startTime, duration, attack, decay, sustain, release) {
@@ -149,19 +260,24 @@ const Audio = {
     osc.type = type;
     osc.frequency.value = frequency;
 
-    // Enveloppe ADSR
-    const now = startTime;
-    gainNode.gain.setValueAtTime(0, now);
-    gainNode.gain.linearRampToValueAtTime(0.8, now + attack);
-    gainNode.gain.linearRampToValueAtTime(sustain, now + attack + decay);
-    gainNode.gain.setValueAtTime(sustain, now + duration - release);
-    gainNode.gain.linearRampToValueAtTime(0, now + duration);
+    const end = this._scheduleEnvelope(
+      gainNode.gain, startTime, duration,
+      sustain * this.ENVELOPE.overshoot, sustain, attack, decay, release
+    );
 
-    osc.connect(gainNode);
-    gainNode.connect(this._masterGain);
+    if (type === 'square' || type === 'sawtooth') {
+      const filter = this._context.createBiquadFilter();
+      filter.type = 'lowpass';
+      filter.frequency.value = this.SOFT_FILTER_HZ;
+      osc.connect(filter);
+      filter.connect(gainNode);
+    } else {
+      osc.connect(gainNode);
+    }
+    gainNode.connect(this._output());
 
     osc.start(startTime);
-    osc.stop(startTime + duration + 0.1);
+    osc.stop(end + this.ENVELOPE.stopPad);
 
     return osc;
   },
@@ -268,6 +384,9 @@ const Audio = {
     const timbreData = this.TIMBRES[timbre] || this.TIMBRES.sine;
     const now = this._context.currentTime;
 
+    // Amplitudes normalisées : la crête d'une note est la même quel que soit le timbre
+    const total = timbreData.amplitudes.reduce((sum, x) => sum + x, 0) || 1;
+
     // Créer les harmoniques pour simuler le timbre
     timbreData.harmonics.forEach((harmonic, index) => {
       const harmonicFreq = frequency * harmonic;
@@ -275,7 +394,7 @@ const Audio = {
       // Limiter aux fréquences audibles
       if (harmonicFreq > 20000) return;
 
-      const amplitude = timbreData.amplitudes[index] || 0;
+      const share = (timbreData.amplitudes[index] || 0) / total;
 
       const osc = this._context.createOscillator();
       const gainNode = this._context.createGain();
@@ -286,20 +405,18 @@ const Audio = {
       // Enveloppe ADSR adaptée au timbre
       const attack = timbre === 'organ' ? 0.05 : 0.02;
       const decay = timbre === 'piano' ? 0.2 : 0.1;
-      const sustain = amplitude * 0.5;
       const release = timbre === 'piano' ? 0.3 : 0.15;
 
-      gainNode.gain.setValueAtTime(0, now);
-      gainNode.gain.linearRampToValueAtTime(amplitude * 0.4, now + attack);
-      gainNode.gain.linearRampToValueAtTime(sustain, now + attack + decay);
-      gainNode.gain.setValueAtTime(sustain, now + duration - release);
-      gainNode.gain.linearRampToValueAtTime(0, now + duration);
+      const end = this._scheduleEnvelope(
+        gainNode.gain, now, duration,
+        share, share * 0.75, attack, decay, release
+      );
 
       osc.connect(gainNode);
-      gainNode.connect(this._masterGain);
+      gainNode.connect(this._output());
 
       osc.start(now);
-      osc.stop(now + duration + 0.1);
+      osc.stop(end + this.ENVELOPE.stopPad);
     });
 
     return true;
@@ -326,9 +443,9 @@ const Audio = {
     const now = this._context.currentTime;
 
     if (simultaneous) {
-      // Jouer les deux notes en même temps
-      this._createTone(freq1, 'sine', now, duration, 0.02, 0.1, 0.5, 0.15);
-      this._createTone(freq2, 'sine', now, duration, 0.02, 0.1, 0.5, 0.15);
+      // Jouer les deux notes en même temps (niveau réduit : la somme reste au niveau d'une note)
+      this._createTone(freq1, 'sine', now, duration, 0.02, 0.1, 0.35, 0.15);
+      this._createTone(freq2, 'sine', now, duration, 0.02, 0.1, 0.35, 0.15);
     } else {
       // Jouer séquentiellement avec une petite pause
       const gap = 0.1;
@@ -393,6 +510,21 @@ const Audio = {
 
     const startTime = baseTime || this._context.currentTime;
 
+    // Niveau d'une voix : son maintien (défaut 0.3)
+    const levelOf = (note) => note.sustain || 0.3;
+
+    // Puissance maximale des voix qui se chevauchent (somme en puissance)
+    let maxPower = 0;
+    notes.forEach(a => {
+      let power = 0;
+      notes.forEach(b => {
+        if (b.time <= a.time && a.time < b.time + b.duration) power += levelOf(b) ** 2;
+      });
+      maxPower = Math.max(maxPower, power);
+    });
+    // Une mélodie dense est atténuée pour garder un niveau homogène entre les sons
+    const scale = maxPower > 0 ? Math.min(1, this.MELODY_REFERENCE_LEVEL / Math.sqrt(maxPower)) : 1;
+
     notes.forEach(note => {
       this._createTone(
         note.freq,
@@ -401,7 +533,7 @@ const Audio = {
         note.duration,
         note.attack || 0.02,
         note.decay || 0.1,
-        note.sustain || 0.3,
+        levelOf(note) * scale,
         note.release || 0.1
       );
     });
@@ -414,26 +546,35 @@ const Audio = {
   _playPercussion(frequency, duration, type = 'sine') {
     if (!this._context || !this._enabled) return;
 
+    const t0 = this._context.currentTime;
+    const E = this.ENVELOPE;
+    const peak = E.peakCeiling;
+    const attack = Math.max(E.minAttack, 0.008);
+    const tail = E.minRelease;     // retour linéaire à 0 après la décroissance exponentielle
+
     const osc = this._context.createOscillator();
     const gainNode = this._context.createGain();
     const filter = this._context.createBiquadFilter();
 
     osc.type = type;
-    osc.frequency.setValueAtTime(frequency, this._context.currentTime);
-    osc.frequency.exponentialRampToValueAtTime(frequency * 0.5, this._context.currentTime + duration);
+    osc.frequency.setValueAtTime(frequency, t0);
+    osc.frequency.exponentialRampToValueAtTime(frequency * 0.5, t0 + duration);
 
     filter.type = 'lowpass';
     filter.frequency.value = 2000;
 
-    gainNode.gain.setValueAtTime(0.5, this._context.currentTime);
-    gainNode.gain.exponentialRampToValueAtTime(0.01, this._context.currentTime + duration);
+    // 0 → crête → décroissance exponentielle (jamais 0 : plancher) → 0 avant l'arrêt
+    gainNode.gain.setValueAtTime(0, t0);
+    gainNode.gain.linearRampToValueAtTime(peak, t0 + attack);
+    gainNode.gain.exponentialRampToValueAtTime(0.001, t0 + duration);
+    gainNode.gain.linearRampToValueAtTime(0, t0 + duration + tail);
 
     osc.connect(filter);
     filter.connect(gainNode);
-    gainNode.connect(this._masterGain);
+    gainNode.connect(this._output());
 
-    osc.start();
-    osc.stop(this._context.currentTime + duration);
+    osc.start(t0);
+    osc.stop(t0 + duration + tail + E.stopPad);
   },
 
   // ═══════════════════════════════════════════════════════════════

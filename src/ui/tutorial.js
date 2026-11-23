@@ -111,6 +111,14 @@ const Tutorial = {
   overlay: null,
   isOpen: false,
   onCompleteCallback: null,
+  /** Élément qui avait le focus avant l'ouverture (rendu à la fermeture) */
+  _returnFocus: null,
+  /** Minuteur de l'annonce de la carte courante (une seule annonce après des clics rapides) */
+  _announceTimer: null,
+  /** Délai avant l'annonce d'une carte (ms) */
+  ANNOUNCE_DELAY_MS: 300,
+  /** Durée de l'animation de fermeture (ms), alignée sur .tutorial-overlay--closing */
+  CLOSE_DURATION_MS: 300,
 
   // ═══════════════════════════════════════════════════════════════
   // API PUBLIQUE
@@ -152,22 +160,27 @@ const Tutorial = {
     this.currentStep = 0;
     this.onCompleteCallback = onComplete;
     this.isOpen = true;
+    this._returnFocus = document.activeElement;
     this._createOverlay();
     this._renderStep();
 
-    // Annoncer pour les lecteurs d'écran
+    // Focus sur « Suivant » (le bouton existe déjà : pas de délai)
+    const nextButton = this.overlay.querySelector('[data-action="next"]');
+    if (nextButton) nextButton.focus({ preventScroll: true });
+
+    // Annoncer pour les lecteurs d'écran (une annonce pour la première carte)
     if (typeof A11y !== 'undefined') {
       A11y.announce(i18n.t('tutorial.started', { total: this.steps.length }));
     }
   },
 
   /**
-   * Passe à l'étape suivante
+   * Passe à l'étape suivante (ferme le tutoriel, terminé, depuis la dernière)
    */
   next() {
     if (this.currentStep < this.steps.length - 1) {
       this.currentStep++;
-      this._renderStep();
+      this._renderStep({ announce: true });
     } else {
       this.close(true);
     }
@@ -179,7 +192,7 @@ const Tutorial = {
   prev() {
     if (this.currentStep > 0) {
       this.currentStep--;
-      this._renderStep();
+      this._renderStep({ announce: true });
     }
   },
 
@@ -191,6 +204,8 @@ const Tutorial = {
     if (!this.isOpen) return;
 
     this.isOpen = false;
+    clearTimeout(this._announceTimer);
+    this._announceTimer = null;
 
     // Nettoyer l'écouteur de clavier (TOUJOURS, pas seulement quand completed)
     if (this._handleKeydown) {
@@ -198,15 +213,19 @@ const Tutorial = {
       this._handleKeydown = null;
     }
 
-    // Animation de sortie
-    if (this.overlay) {
-      this.overlay.classList.add('tutorial-overlay--closing');
-      setTimeout(() => {
-        if (this.overlay) {
-          this.overlay.remove();
-          this.overlay = null;
-        }
-      }, 300);
+    // Animation de sortie : la fenêtre fermée est retirée elle-même, jamais une fenêtre rouverte entre-temps
+    const overlay = this.overlay;
+    this.overlay = null;
+    if (overlay) {
+      overlay.classList.add('tutorial-overlay--closing');
+      setTimeout(() => overlay.remove(), this.CLOSE_DURATION_MS);
+    }
+
+    // Rendre le focus à l'élément qui l'avait avant l'ouverture
+    const returnFocus = this._returnFocus;
+    this._returnFocus = null;
+    if (returnFocus && returnFocus !== document.body && returnFocus.isConnected && typeof returnFocus.focus === 'function') {
+      returnFocus.focus({ preventScroll: true });
     }
 
     // Marquer comme complété si terminé
@@ -227,8 +246,9 @@ const Tutorial = {
    */
   goToStep(stepIndex) {
     if (stepIndex >= 0 && stepIndex < this.steps.length) {
+      const changed = stepIndex !== this.currentStep;
       this.currentStep = stepIndex;
-      this._renderStep();
+      this._renderStep({ announce: changed });
     }
   },
 
@@ -237,7 +257,7 @@ const Tutorial = {
   // ═══════════════════════════════════════════════════════════════
 
   /**
-   * Crée l'overlay du tutoriel
+   * Crée l'overlay du tutoriel et sa fenêtre (une seule fois par ouverture)
    * @private
    */
   _createOverlay() {
@@ -245,95 +265,192 @@ const Tutorial = {
     this.overlay.className = 'tutorial-overlay';
     this.overlay.setAttribute('role', 'dialog');
     this.overlay.setAttribute('aria-modal', 'true');
-    this.overlay.setAttribute('aria-labelledby', 'tutorial-title');
+    this.overlay.setAttribute('aria-labelledby', 'tutorial-title-0');
 
-    // Gérer la fermeture via Escape
+    // Échap ferme, les flèches changent de carte, Tab reste dans la fenêtre.
+    // Entrée n'est pas interceptée : elle active le bouton qui a le focus (Suivant à l'ouverture).
     this._handleKeydown = (e) => {
+      if (!this.isOpen || e.altKey || e.ctrlKey || e.metaKey) return;
       if (e.key === 'Escape') {
+        e.preventDefault();
         this.close(false);
-      } else if (e.key === 'ArrowRight' || e.key === 'Enter') {
-        this.next();
+      } else if (e.key === 'ArrowRight') {
+        e.preventDefault();
+        // Les flèches parcourent les cartes ; seul le bouton de la dernière carte termine le tutoriel
+        if (this.currentStep < this.steps.length - 1) this.next();
       } else if (e.key === 'ArrowLeft') {
+        e.preventDefault();
         this.prev();
+      } else if (e.key === 'Tab') {
+        this._trapFocus(e);
       }
     };
     document.addEventListener('keydown', this._handleKeydown);
 
+    this._buildShell();
     document.body.appendChild(this.overlay);
   },
 
   /**
-   * Rend l'étape courante
+   * Construit la fenêtre : toutes les cartes sont empilées dans la même cellule de grille,
+   * la fenêtre prend donc la hauteur de la plus haute et ne change pas de taille d'une carte à l'autre.
+   * Les étapes suivantes ne font que changer des classes et des attributs (aucun nœud remplacé).
    * @private
    */
-  _renderStep() {
-    const step = this.steps[this.currentStep];
-    const isFirst = this.currentStep === 0;
-    const isLast = this.currentStep === this.steps.length - 1;
+  _buildShell() {
     const _t = PageUtils.getTranslator();
-
-    const illustrationHtml = this._renderIllustration(step.illustration);
+    const total = this.steps.length;
 
     this.overlay.innerHTML = `
       <div class="tutorial-modal">
-        <button class="tutorial-modal__close" aria-label="${escapeHtml(_t('tutorial.closeLabel'))}" data-action="close">
+        <button type="button" class="tutorial-modal__close" aria-label="${escapeHtml(_t('tutorial.closeLabel'))}" data-action="close">
           <span aria-hidden="true">×</span>
         </button>
 
-        <div class="tutorial-modal__header">
-          <div class="tutorial-modal__emoji">${step.emoji}</div>
-          <h2 class="tutorial-modal__title" id="tutorial-title">${step.title}</h2>
-        </div>
-
-        <div class="tutorial-modal__illustration">
-          ${illustrationHtml}
-        </div>
-
-        <div class="tutorial-modal__content">
-          ${step.content}
+        <div class="tutorial-modal__body">
+          <div class="tutorial-modal__steps">
+            ${this.steps.map((step, i) => `
+              <section class="tutorial-modal__step" data-step-panel="${i}">
+                <div class="tutorial-modal__header">
+                  <div class="tutorial-modal__emoji" aria-hidden="true">${step.emoji}</div>
+                  <h2 class="tutorial-modal__title" id="tutorial-title-${i}">${step.title}</h2>
+                </div>
+                <div class="tutorial-modal__illustration" aria-hidden="true">
+                  ${this._renderIllustration(step.illustration)}
+                </div>
+                <div class="tutorial-modal__content">
+                  ${step.content}
+                </div>
+              </section>
+            `).join('')}
+          </div>
         </div>
 
         <div class="tutorial-modal__progress">
           ${this.steps.map((_, i) => `
-            <button
-              class="tutorial-modal__dot ${i === this.currentStep ? 'tutorial-modal__dot--active' : ''} ${i < this.currentStep ? 'tutorial-modal__dot--completed' : ''}"
-              data-step="${i}"
-              aria-label="${escapeHtml(_t('tutorial.stepLabel', { n: i + 1 }))}"
-              ${i === this.currentStep ? 'aria-current="step"' : ''}
-            ></button>
+            <button type="button" class="tutorial-modal__dot" data-step="${i}"
+              aria-label="${escapeHtml(_t('tutorial.stepLabel', { n: i + 1 }))}"></button>
           `).join('')}
         </div>
 
         <div class="tutorial-modal__footer">
-          <button class="tutorial-modal__btn tutorial-modal__btn--secondary" data-action="skip">
-            ${isLast ? _t('tutorial.close') : _t('tutorial.skip')}
-          </button>
+          <button type="button" class="tutorial-modal__btn tutorial-modal__btn--secondary" data-action="skip"></button>
 
           <div class="tutorial-modal__nav">
-            ${!isFirst ? `
-              <button class="tutorial-modal__btn tutorial-modal__btn--nav" data-action="prev" aria-label="${escapeHtml(_t('tutorial.prevLabel'))}">
-                ${_t('tutorial.prev')}
-              </button>
-            ` : ''}
-
-            <button class="tutorial-modal__btn tutorial-modal__btn--primary" data-action="next">
-              ${isLast ? _t('tutorial.start') : _t('tutorial.next')}
+            <button type="button" class="tutorial-modal__btn tutorial-modal__btn--nav" data-action="prev" aria-label="${escapeHtml(_t('tutorial.prevLabel'))}">
+              ${escapeHtml(_t('tutorial.prev'))}
             </button>
+            <button type="button" class="tutorial-modal__btn tutorial-modal__btn--primary" data-action="next"></button>
           </div>
         </div>
 
-        <div class="tutorial-modal__step-counter">
-          ${this.currentStep + 1} / ${this.steps.length}
-        </div>
+        <div class="tutorial-modal__step-counter" aria-hidden="true">1 / ${total}</div>
       </div>
     `;
 
     this._bindEvents();
+  },
 
-    // Focus le premier bouton focusable
-    const firstButton = this.overlay.querySelector('.tutorial-modal__btn--primary');
-    if (firstButton) {
-      setTimeout(() => firstButton.focus(), 100);
+  /**
+   * Affiche l'étape courante dans la fenêtre existante (classes, attributs, libellés)
+   * @param {{announce: (boolean|undefined)}} [options] - announce : annoncer la carte aux lecteurs d'écran
+   * @private
+   */
+  _renderStep(options = {}) {
+    if (!this.overlay) return;
+    if (!this.overlay.querySelector('.tutorial-modal')) this._buildShell();
+
+    const _t = PageUtils.getTranslator();
+    const index = this.currentStep;
+    const total = this.steps.length;
+    const isFirst = index === 0;
+    const isLast = index === total - 1;
+    const overlay = this.overlay;
+
+    overlay.querySelectorAll('[data-step-panel]').forEach((panel) => {
+      const active = Number(panel.dataset.stepPanel) === index;
+      panel.classList.toggle('tutorial-modal__step--active', active);
+      panel.toggleAttribute('inert', !active);
+      if (active) panel.removeAttribute('aria-hidden');
+      else panel.setAttribute('aria-hidden', 'true');
+    });
+    overlay.setAttribute('aria-labelledby', `tutorial-title-${index}`);
+
+    // Nouvelle carte : le texte repart du haut
+    const body = overlay.querySelector('.tutorial-modal__body');
+    if (body) body.scrollTop = 0;
+
+    overlay.querySelectorAll('[data-step]').forEach((dot) => {
+      const i = Number(dot.dataset.step);
+      dot.classList.toggle('tutorial-modal__dot--active', i === index);
+      dot.classList.toggle('tutorial-modal__dot--completed', i < index);
+      if (i === index) dot.setAttribute('aria-current', 'step');
+      else dot.removeAttribute('aria-current');
+    });
+
+    const prev = overlay.querySelector('[data-action="prev"]');
+    const next = overlay.querySelector('[data-action="next"]');
+    const skip = overlay.querySelector('[data-action="skip"]');
+
+    if (prev) {
+      // Sur la première carte, le bouton garde sa place (invisible) : Suivant ne bouge pas
+      const prevHadFocus = document.activeElement === prev;
+      prev.disabled = isFirst;
+      prev.classList.toggle('tutorial-modal__btn--placeholder', isFirst);
+      if (isFirst) prev.setAttribute('aria-hidden', 'true');
+      else prev.removeAttribute('aria-hidden');
+      if (isFirst && prevHadFocus && next) next.focus({ preventScroll: true });
+    }
+    if (next) next.textContent = isLast ? _t('tutorial.start') : _t('tutorial.next');
+    if (skip) skip.textContent = isLast ? _t('tutorial.close') : _t('tutorial.skip');
+
+    const counter = overlay.querySelector('.tutorial-modal__step-counter');
+    if (counter) counter.textContent = `${index + 1} / ${total}`;
+
+    if (options.announce) this._scheduleAnnounce();
+  },
+
+  /**
+   * Annonce la carte courante après un court délai : des clics rapides ne produisent qu'une annonce
+   * @private
+   */
+  _scheduleAnnounce() {
+    clearTimeout(this._announceTimer);
+    this._announceTimer = setTimeout(() => {
+      this._announceTimer = null;
+      if (!this.isOpen || typeof A11y === 'undefined') return;
+      const step = this.steps[this.currentStep];
+      // Le titre peut contenir du balisage de traduction : on n'en garde que le texte
+      const holder = document.createElement('div');
+      holder.innerHTML = step.title;
+      A11y.announce(i18n.t('tutorial.stepAnnounce', {
+        n: this.currentStep + 1,
+        total: this.steps.length,
+        title: holder.textContent.trim()
+      }));
+    }, this.ANNOUNCE_DELAY_MS);
+  },
+
+  /**
+   * Garde le focus dans la fenêtre (Tab sur le dernier bouton revient au premier, et inversement)
+   * @param {KeyboardEvent} e
+   * @private
+   */
+  _trapFocus(e) {
+    if (!this.overlay) return;
+    const focusables = [...this.overlay.querySelectorAll('button')]
+      .filter(el => !el.disabled && !el.closest('[inert]') && el.getAttribute('aria-hidden') !== 'true');
+    if (focusables.length === 0) return;
+    const first = focusables[0];
+    const last = focusables[focusables.length - 1];
+    const active = document.activeElement;
+    const inside = this.overlay.contains(active);
+    if (e.shiftKey && (active === first || !inside)) {
+      e.preventDefault();
+      last.focus();
+    } else if (!e.shiftKey && (active === last || !inside)) {
+      e.preventDefault();
+      first.focus();
     }
   },
 
@@ -455,13 +572,7 @@ const Tutorial = {
       });
     });
 
-    // Clic sur l'overlay pour fermer (sauf sur la modal)
-    this.overlay.addEventListener('click', (e) => {
-      if (e.target === this.overlay) {
-        // On ne ferme pas au clic sur l'overlay pour éviter les fermetures accidentelles
-        // this.close(false);
-      }
-    });
+    // Le clic sur le fond ne ferme pas la fenêtre (évite les fermetures accidentelles)
   },
 
   /**

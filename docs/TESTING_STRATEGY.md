@@ -33,7 +33,7 @@ tests/
 
 Le nom d'un fichier de test suit celui du module (`leitner.test.js`, `storage.test.js`). Plusieurs fichiers peuvent viser un même module (`deck-validator*.test.js`, `storage-*.test.js`). La liste complète avec le nombre de tests par fichier est dans [`tests/INDEX.md`](../tests/INDEX.md).
 
-**Total** : 2 274 tests unitaires dans 57 fichiers, plus 206 tests e2e dans 9 fichiers.
+**Total** : 2 433 tests unitaires dans 57 fichiers, plus 208 tests e2e dans 9 fichiers.
 
 ### Découverte des fichiers
 
@@ -136,6 +136,7 @@ TEST_FILTER=storage npm test      # fichiers dont le nom contient "storage"
 - `TEST_FILTER=<sous-chaîne>` restreint l'exécution aux fichiers dont le nom contient la sous-chaîne (`storage` sélectionne `storage.test.js`, `storage-integrity.test.js` et `storage-multiplayer.test.js`). Pour un fichier précis, passer son nom complet (`TEST_FILTER=xp.test.js`).
 - Les tests asynchrones sont supportés : un test qui retourne une promesse est attendu.
 - Les APIs absentes de jsdom sont simulées par le runner : `AudioContext`, `fetch` (réponse vide), `FileReader`, contexte 2D de `<canvas>` (no-op).
+- `audio.test.js` vérifie des propriétés sur un faux contexte audio qui consigne l'automation (attaque depuis 0, retour à 0 avant `stop()`, plafond de crête).
 
 ### Runner navigateur (non maintenu)
 
@@ -155,7 +156,7 @@ E2E_APP=tmp/app.html npm run test:e2e   # contre un autre build (chemin relatif 
 npm run test:e2e:lint             # contrôle statique des specs
 ```
 
-- **Périmètre** : 206 tests, Chromium seul, dans 9 fichiers `tests/e2e/*.spec.cjs` : navigation, jeu, éditeur de deck, import/export, gamification, missions, mode défi, dictée, paramètres. L'interface est testée en français (`locale: 'fr-FR'`, joueurs de test en `language: 'fr'`).
+- **Périmètre** : 208 tests, Chromium seul, dans 9 fichiers `tests/e2e/*.spec.cjs` : navigation, jeu, éditeur de deck, import/export, gamification, missions, mode défi, dictée, paramètres. L'interface est testée en français (`locale: 'fr-FR'`, joueurs de test en `language: 'fr'`).
 - **Cible** : `tests/e2e/app-path.cjs` résout le fichier ouvert en `file://` : `index.html` à la racine, ou `E2E_APP`. Playwright est une devDependency (version épinglée dans `package.json`) ; le navigateur se télécharge par `npx playwright install chromium`. `PLAYWRIGHT_CHROMIUM_EXECUTABLE_PATH` désigne un Chrome système.
 - **Réseau bloqué** : `blockExternalNetwork(page)` (`helpers.cjs`) interrompt toute requête `http(s)` / `ws(s)` et renvoie la liste des requêtes tentées ; `dictation.spec.cjs` vérifie qu'elle reste vide.
 - **Horloge fixée** : `missions.spec.cjs` et `challenge-mode.spec.cjs` installent `page.clock` à une date précise (jour local) pour les défis et quêtes ; `game.spec.cjs` pilote l'horloge pour le chronométrage des réponses.

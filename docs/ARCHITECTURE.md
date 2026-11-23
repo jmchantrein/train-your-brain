@@ -133,7 +133,7 @@ L'application doit fonctionner en ouvrant directement le fichier HTML :
 | `tags-taxonomy.js` | Taxonomie hiérarchique des tags |
 | `tags.js` | Système de tags/filtrage |
 | `themes.js` | Thèmes visuels (dark/light) |
-| `audio.js` | Sons Web Audio API |
+| `audio.js` | Sons Web Audio API. Chaîne de sortie : voix → `_bus` → compresseur doux (`DynamicsCompressor`) → `_masterGain` (volume du joueur) → sortie ; sans compresseur disponible, le bus se branche sur le gain maître. Enveloppe commune `ENVELOPE` appliquée par `_scheduleEnvelope` (départ et retour à 0, oscillateur arrêté après le relâchement). |
 | `latex.js` | Rendu LaTeX (KaTeX) |
 | `yaml.js` | Parser/sérialiseur YAML ; `YAML.parseDeck` restitue le bloc `metadata` du deck |
 | `moodle.js` | Import/export format Moodle XML |
@@ -155,7 +155,7 @@ L'application doit fonctionner en ouvrant directement le fichier HTML :
 | `pages-base.js` | Déclaration objet `Pages` vide |
 | `page-utils.js` | Utilitaires partagés entre pages |
 | `effects.js` | Effets visuels (confettis, particles) |
-| `tutorial.js` | Système de tutoriels interactifs |
+| `tutorial.js` | Système de tutoriels interactifs. Le tutoriel construit sa fenêtre une fois par ouverture (`_buildShell`) : les cartes sont empilées dans une cellule de grille (hauteur de la plus haute) et `_renderStep` ne change que des classes et des attributs, sans remplacer de nœud. Focus piégé dans la fenêtre et rendu à l'élément d'origine à la fermeture ; une annonce par carte (`tutorial.stepAnnounce`). |
 | `charts.js` | Graphiques statistiques (canvas) |
 | **Page Game (modulaire)** | |
 | `game/card-type-renderer.js` | Rendu carte selon type (text, qcm, etc.) |
@@ -428,7 +428,7 @@ Une sauvegarde JSON, un fichier de progression ou un deck importé est une entr�
 
 ## Tests
 
-Runner principal : `npm test` (= `node tests/node-runner.cjs`), qui exécute tous les `tests/*.test.js` dans une fenêtre jsdom (2 274 tests, 57 fichiers). Filtre : `TEST_FILTER=<sous-chaîne>`. Runner navigateur (`npm run test:browser`, `tests/runner.html`) et e2e Playwright (`npm run test:e2e`, 206 tests) : voir `docs/TESTING_STRATEGY.md` et `tests/INDEX.md`.
+Runner principal : `npm test` (= `node tests/node-runner.cjs`), qui exécute tous les `tests/*.test.js` dans une fenêtre jsdom (2 433 tests, 57 fichiers). Filtre : `TEST_FILTER=<sous-chaîne>`. Runner navigateur (`npm run test:browser`, `tests/runner.html`) et e2e Playwright (`npm run test:e2e`, 208 tests) : voir `docs/TESTING_STRATEGY.md` et `tests/INDEX.md`.
 
 ---
 

@@ -138,6 +138,34 @@ test.describe('Game', () => {
       await expect(page.locator('.game__card-xp')).toHaveText('+3 XP');
     });
 
+    test('should start the answer feedback animations as soon as the back face appears', async ({ page }) => {
+      await createTestDeck(page, { id: 'single-numeric', name: 'Single Numeric', cards: [num('n1', '2 + 2 = ?', 4)] });
+      await navigateTo(page, '/game/single-numeric');
+      await page.locator('#answer-input').fill('4');
+
+      // Relevé des animations dans la mutation qui insère la face verso (avant la première frame peinte)
+      await page.evaluate(() => {
+        window.__feedbackAnims = null;
+        const observer = new MutationObserver(() => {
+          const icon = document.querySelector('.game__card-result-icon');
+          const xp = document.querySelector('.game__card-xp');
+          if (!icon || !xp) return;
+          observer.disconnect();
+          const timing = (el) => el.getAnimations().map(a => ({ name: a.animationName, delay: a.effect.getTiming().delay }));
+          window.__feedbackAnims = { icon: timing(icon), xp: timing(xp) };
+        });
+        observer.observe(document.body, { childList: true, subtree: true });
+      });
+      await page.locator('#submit-btn').click();
+
+      await expect.poll(() => page.evaluate(() => window.__feedbackAnims)).not.toBeNull();
+      const anims = await page.evaluate(() => window.__feedbackAnims);
+      // L'icône rebondit dès son apparition (pas d'affichage à l'état final puis de retombée)
+      expect(anims.icon).toEqual([{ name: 'resultBounce', delay: 0 }]);
+      // Le gain d'XP suit 200 ms plus tard (décalage voulu, l'élément reste caché jusque-là)
+      expect(anims.xp).toEqual([{ name: 'xpPop', delay: 200 }]);
+    });
+
     test('should reject an incorrect answer and show the right one', async ({ page }) => {
       await createTestDeck(page, { id: 'single-numeric', name: 'Single Numeric', cards: [num('n1', '2 + 2 = ?', 4)] });
       await navigateTo(page, '/game/single-numeric');

@@ -727,3 +727,398 @@ describe('Audio - Musical notes integration', () => {
     });
   });
 });
+
+// ═══════════════════════════════════════════════════════════════
+// TESTS DOUCEUR : enveloppe, timbres, niveaux, chaîne de sortie
+// (faux contexte audio qui consigne l'automation, comme un navigateur
+//  il refuse les temps négatifs ou non finis)
+// ═══════════════════════════════════════════════════════════════
+
+const AudioSoftness = (() => {
+  const PARAM_METHODS = ['setValueAtTime', 'linearRampToValueAtTime', 'exponentialRampToValueAtTime', 'setTargetAtTime'];
+
+  function makeParam(initial = 0) {
+    const p = { value: initial, events: [] };
+    PARAM_METHODS.forEach(m => {
+      p[m] = (value, time) => {
+        if (typeof time !== 'number' || !isFinite(time) || time < 0) {
+          throw new RangeError(`Time must be a finite non-negative number: ${time}`);
+        }
+        if (m === 'exponentialRampToValueAtTime' && !(value > 0)) {
+          throw new RangeError('exponentialRamp cannot reach 0');
+        }
+        p.events.push({ type: m, value, time });
+        return p;
+      };
+    });
+    return p;
+  }
+
+  function makeContext() {
+    const log = { oscillators: [], gains: [], filters: [], compressors: [] };
+    const ctx = {
+      currentTime: 0,
+      state: 'running',
+      sampleRate: 44100,
+      destination: { name: 'destination', outputs: [] },
+      createOscillator() {
+        const o = {
+          type: 'sine', frequency: makeParam(440), outputs: [], startAt: null, stopAt: null,
+          connect(n) { o.outputs.push(n); return n; },
+          start(t = 0) { o.startAt = t; },
+          stop(t) {
+            if (typeof t !== 'number' || !isFinite(t) || t < 0) throw new RangeError('bad stop time');
+            o.stopAt = t;
+          }
+        };
+        log.oscillators.push(o);
+        return o;
+      },
+      createGain() {
+        const g = { name: 'gain', gain: makeParam(1), outputs: [], connect(n) { g.outputs.push(n); return n; } };
+        log.gains.push(g);
+        return g;
+      },
+      createBiquadFilter() {
+        const f = { name: 'filter', type: 'lowpass', frequency: makeParam(350), outputs: [], connect(n) { f.outputs.push(n); return n; } };
+        log.filters.push(f);
+        return f;
+      },
+      createDynamicsCompressor() {
+        const c = {
+          name: 'compressor', threshold: makeParam(-24), knee: makeParam(30), ratio: makeParam(12),
+          attack: makeParam(0.003), release: makeParam(0.25), outputs: [], connect(n) { c.outputs.push(n); return n; }
+        };
+        log.compressors.push(c);
+        return c;
+      },
+      resume() { return Promise.resolve(); }
+    };
+    ctx.log = log;
+    return ctx;
+  }
+
+  /** Branche le faux contexte dans Audio (init() réel) et renvoie de quoi restaurer. */
+  function install() {
+    const saved = {
+      context: Audio._context, masterGain: Audio._masterGain, bus: Audio._bus,
+      enabled: Audio._enabled, volume: Audio._volume,
+      AC: window.AudioContext, webkit: window.webkitAudioContext
+    };
+    const ctx = makeContext();
+    window.AudioContext = function () { return ctx; };
+    window.webkitAudioContext = window.AudioContext;
+    Audio._context = null;
+    Audio._masterGain = null;
+    Audio._bus = null;
+    Audio._enabled = true;
+    Audio._volume = 0.5;
+    Audio.init();
+    return {
+      ctx,
+      restore() {
+        window.AudioContext = saved.AC;
+        window.webkitAudioContext = saved.webkit;
+        Audio._context = saved.context;
+        Audio._masterGain = saved.masterGain;
+        Audio._bus = saved.bus;
+        Audio._enabled = saved.enabled;
+        Audio._volume = saved.volume;
+      }
+    };
+  }
+
+  /** Voix = oscillateur + chaîne (filtre éventuel) + gain d'enveloppe. */
+  function voices(ctx) {
+    return ctx.log.oscillators.map(osc => {
+      let node = osc.outputs[0];
+      let filtered = false;
+      while (node && node.name === 'filter') { filtered = true; node = node.outputs[0]; }
+      const events = node && node.gain ? node.gain.events : [];
+      const values = events.map(e => e.value);
+      const last = events[events.length - 1];
+      return {
+        osc, gain: node, filtered, events, type: osc.type,
+        start: osc.startAt, stop: osc.stopAt,
+        peak: values.length ? Math.max(...values) : 0,
+        endTime: last ? last.time : null,
+        endValue: last ? last.value : null
+      };
+    });
+  }
+
+  /** Plus grande somme des crêtes de voix qui se chevauchent */
+  function overlapPeakSum(vs) {
+    let max = 0;
+    vs.forEach(a => {
+      const sum = vs.filter(b => b.start <= a.start && a.start < b.endTime).reduce((s, b) => s + b.peak, 0);
+      max = Math.max(max, sum);
+    });
+    return max;
+  }
+
+  const SOUNDS = [
+    ['playCardToPurple', () => Audio.playCardToPurple()],
+    ['playCardToOrange', () => Audio.playCardToOrange()],
+    ['playCardToGreen', () => Audio.playCardToGreen()],
+    ['playCardLand', () => Audio.playCardLand()],
+    ['playCardToBox(never_played)', () => Audio.playCardToBox('never_played')],
+    ['playStreakMilestone(3)', () => Audio.playStreakMilestone(3)],
+    ['playStreakMilestone(6)', () => Audio.playStreakMilestone(6)],
+    ['playStreakMilestone(12)', () => Audio.playStreakMilestone(12)],
+    ['playStreakMilestone(25)', () => Audio.playStreakMilestone(25)],
+    ['playStreakMilestone(50)', () => Audio.playStreakMilestone(50)],
+    ['playLevelUp', () => Audio.playLevelUp()],
+    ['playBadgeUnlocked', () => Audio.playBadgeUnlocked()],
+    ['playNote', () => Audio.playNote('do', 4, 1)],
+    ['playNote court', () => Audio.playNote('do', 4, 0.05)],
+    ['playNoteWithTimbre piano', () => Audio.playNoteWithTimbre('la', 3, 'piano', 1)],
+    ['playNoteWithTimbre organ', () => Audio.playNoteWithTimbre('do', 4, 'organ', 1)],
+    ['playNoteWithTimbre brass', () => Audio.playNoteWithTimbre('do', 4, 'brass', 0.5)],
+    ['playInterval simultané', () => Audio.playInterval('do', 'sol', 4, true, 1)],
+    ['playInterval successif', () => Audio.playInterval('do', 'sol', 4, false, 0.5)],
+    ['playChord', () => Audio.playChord(['do', 'mi', 'sol'], 4, 1.5)],
+    ['playChord 5 notes', () => Audio.playChord(['do', 'mi', 'sol', 'si', 're'], 4, 1)]
+  ];
+
+  return { makeContext, install, voices, overlapPeakSum, SOUNDS };
+})();
+
+describe('Audio - Douceur : enveloppe de chaque voix', () => {
+  let env;
+  beforeEach(() => { env = AudioSoftness.install(); });
+  afterEach(() => { env.restore(); });
+
+  AudioSoftness.SOUNDS.forEach(([name, play]) => {
+    it(`${name} : aucune exception et au moins une voix`, () => {
+      expect(() => play()).not.toThrow();
+      expect(AudioSoftness.voices(env.ctx).length).toBeGreaterThan(0);
+    });
+
+    it(`${name} : chaque voix démarre à 0 avec une attaque progressive`, () => {
+      play();
+      AudioSoftness.voices(env.ctx).forEach(v => {
+        const first = v.events[0];
+        expect(first.type).toBe('setValueAtTime');
+        expect(first.value).toBe(0);
+        expect(first.time).toBe(v.start);
+        const rise = v.events[1];
+        expect(rise.type).toBe('linearRampToValueAtTime');
+        expect(rise.value).toBeGreaterThan(0);
+        expect(rise.time - v.start).toBeGreaterThanOrEqual(Audio.ENVELOPE.minAttack - 1e-9);
+      });
+    });
+
+    it(`${name} : chaque voix revient à 0 avec un relâchement progressif, avant l'arrêt de l'oscillateur`, () => {
+      play();
+      AudioSoftness.voices(env.ctx).forEach(v => {
+        expect(v.endValue).toBe(0);
+        const last = v.events[v.events.length - 1];
+        expect(last.type).toBe('linearRampToValueAtTime');
+        const hold = v.events[v.events.length - 2];
+        expect(last.time - hold.time).toBeGreaterThanOrEqual(Math.min(Audio.ENVELOPE.minRelease, (last.time - v.start) * 0.6) - 1e-9);
+        // aucun stop() avant la fin du relâchement
+        expect(v.stop).toBeGreaterThanOrEqual(v.endTime + Audio.ENVELOPE.stopPad - 1e-9);
+      });
+    });
+
+    it(`${name} : événements d'automation ordonnés, sans temps négatif ni rampe exponentielle vers 0`, () => {
+      play();
+      AudioSoftness.voices(env.ctx).forEach(v => {
+        for (let i = 1; i < v.events.length; i++) {
+          expect(v.events[i].time).toBeGreaterThanOrEqual(v.events[i - 1].time);
+        }
+        v.events.forEach(e => {
+          expect(e.time).toBeGreaterThanOrEqual(0);
+          expect(e.value).toBeGreaterThanOrEqual(0);
+        });
+      });
+    });
+
+    it(`${name} : aucune onde carrée ni en dents de scie sans filtre`, () => {
+      play();
+      AudioSoftness.voices(env.ctx).forEach(v => {
+        if (v.type === 'square' || v.type === 'sawtooth') {
+          expect(v.filtered).toBe(true);
+        } else {
+          expect(v.type === 'sine' || v.type === 'triangle').toBe(true);
+        }
+      });
+    });
+
+    it(`${name} : crêtes programmées sous le plafond commun`, () => {
+      play();
+      const vs = AudioSoftness.voices(env.ctx);
+      vs.forEach(v => expect(v.peak).toBeLessThanOrEqual(Audio.ENVELOPE.peakCeiling + 1e-9));
+      // somme cohérente (pire cas) des crêtes qui se chevauchent : le limiteur rattrape le reste
+      expect(AudioSoftness.overlapPeakSum(vs)).toBeLessThanOrEqual(1.8);
+    });
+  });
+});
+
+describe('Audio - Douceur : cas limites de l\'enveloppe', () => {
+  let env;
+  beforeEach(() => { env = AudioSoftness.install(); });
+  afterEach(() => { env.restore(); });
+
+  it('une note plus courte que attaque + décroissance + relâchement reste ordonnée et revient à 0', () => {
+    // cas réel de l'ancienne version : durée 0.08 s pour un relâchement de 0.1 s (RangeError, temps négatif)
+    expect(() => Audio._createTone(440, 'sine', 0, 0.08, 0.02, 0.1, 0.5, 0.1)).not.toThrow();
+    const v = AudioSoftness.voices(env.ctx)[0];
+    expect(v.endValue).toBe(0);
+    expect(v.endTime).toBeLessThanOrEqual(0.08 + 1e-9);
+    for (let i = 1; i < v.events.length; i++) {
+      expect(v.events[i].time).toBeGreaterThanOrEqual(v.events[i - 1].time);
+    }
+  });
+
+  it('une note de départ non nul (enchaînement) garde la même forme', () => {
+    Audio._createTone(440, 'sine', 0.15, 0.2, 0.02, 0.1, 0.4, 0.1);
+    const v = AudioSoftness.voices(env.ctx)[0];
+    expect(v.events[0].time).toBe(0.15);
+    expect(v.events[0].value).toBe(0);
+    expect(v.stop).toBeGreaterThanOrEqual(0.35);
+  });
+
+  it('une onde carrée passe par un passe-bas, une sinusoïde non', () => {
+    Audio._createTone(440, 'square', 0, 0.3, 0.02, 0.1, 0.4, 0.1);
+    Audio._createTone(440, 'sawtooth', 0, 0.3, 0.02, 0.1, 0.4, 0.1);
+    Audio._createTone(440, 'sine', 0, 0.3, 0.02, 0.1, 0.4, 0.1);
+    const vs = AudioSoftness.voices(env.ctx);
+    expect(vs[0].filtered).toBe(true);
+    expect(vs[1].filtered).toBe(true);
+    expect(vs[2].filtered).toBe(false);
+    env.ctx.log.filters.forEach(f => {
+      expect(f.type).toBe('lowpass');
+      expect(f.frequency.value).toBe(Audio.SOFT_FILTER_HZ);
+    });
+  });
+
+  it('la percussion démarre à 0, décroît sans viser 0 en exponentiel et revient à 0 avant l\'arrêt', () => {
+    Audio.playCardLand();
+    const perc = AudioSoftness.voices(env.ctx)[0];
+    expect(perc.events[0].value).toBe(0);
+    expect(perc.events[1].time).toBeGreaterThanOrEqual(Audio.ENVELOPE.minAttack - 1e-9);
+    perc.events.filter(e => e.type === 'exponentialRampToValueAtTime').forEach(e => expect(e.value).toBeGreaterThan(0));
+    expect(perc.endValue).toBe(0);
+    expect(perc.stop).toBeGreaterThanOrEqual(perc.endTime);
+  });
+});
+
+describe('Audio - Douceur : chaîne de sortie commune', () => {
+  let env;
+  beforeEach(() => { env = AudioSoftness.install(); });
+  afterEach(() => { env.restore(); });
+
+  it('init() construit voix → bus → limiteur → gain maître → sortie', () => {
+    expect(Audio._bus).toBeTruthy();
+    expect(Audio._bus.outputs[0].name).toBe('compressor');
+    expect(Audio._bus.outputs[0].outputs[0]).toBe(Audio._masterGain);
+    expect(Audio._masterGain.outputs[0]).toBe(env.ctx.destination);
+  });
+
+  it('le limiteur est doux (seuil bas, genou large)', () => {
+    const comp = env.ctx.log.compressors[0];
+    expect(comp.threshold.value).toBeLessThan(-6);
+    expect(comp.knee.value).toBeGreaterThanOrEqual(6);
+    expect(comp.ratio.value).toBeGreaterThan(1);
+  });
+
+  it('toutes les voix se connectent au bus (aucune sortie directe vers le gain maître)', () => {
+    AudioSoftness.SOUNDS.forEach(([, play]) => play());
+    AudioSoftness.voices(env.ctx).forEach(v => {
+      expect(v.gain.outputs[0]).toBe(Audio._bus);
+    });
+  });
+
+  it('le volume du joueur ne règle que le gain maître', () => {
+    Audio.setVolume(0.3);
+    expect(Audio._masterGain.gain.value).toBe(0.3);
+    expect(Audio._bus.gain.value).toBe(Audio.OUTPUT.mixGain);
+    Audio.setVolume(1);
+    expect(Audio._masterGain.gain.value).toBe(1);
+    expect(Audio._bus.gain.value).toBe(Audio.OUTPUT.mixGain);
+  });
+
+  it('sans compresseur disponible, le bus se connecte au gain maître', () => {
+    env.ctx.createDynamicsCompressor = undefined;
+    Audio._context = null; Audio._masterGain = null; Audio._bus = null;
+    Audio.init();
+    expect(Audio._bus.outputs[0]).toBe(Audio._masterGain);
+    expect(() => Audio.playCardToGreen()).not.toThrow();
+  });
+
+  it('audio désactivé ou contexte absent : aucune exception, aucune voix', () => {
+    Audio._enabled = false;
+    AudioSoftness.SOUNDS.forEach(([, play]) => expect(() => play()).not.toThrow());
+    expect(env.ctx.log.oscillators.length).toBe(0);
+    Audio._enabled = true;
+    Audio._context = null;
+    AudioSoftness.SOUNDS.forEach(([, play]) => expect(() => play()).not.toThrow());
+  });
+});
+
+describe('Audio - Douceur : rôles des sons conservés', () => {
+  let env;
+  beforeEach(() => { env = AudioSoftness.install(); });
+  afterEach(() => { env.restore(); });
+
+  function profile(play) {
+    env.ctx.log.oscillators.length = 0;
+    play();
+    const vs = AudioSoftness.voices(env.ctx);
+    const freqs = vs.map(v => v.osc.frequency.value);
+    return {
+      freqs,
+      count: vs.length,
+      maxFreq: Math.max(...freqs),
+      length: Math.max(...vs.map(v => v.endTime)) - Math.min(...vs.map(v => v.start)),
+      first: freqs[0]
+    };
+  }
+
+  it('carte verte, orange et violette restent distinctes', () => {
+    const p = profile(() => Audio.playCardToPurple());
+    const o = profile(() => Audio.playCardToOrange());
+    const g = profile(() => Audio.playCardToGreen());
+    expect(JSON.stringify(p.freqs)).not.toBe(JSON.stringify(o.freqs));
+    expect(JSON.stringify(o.freqs)).not.toBe(JSON.stringify(g.freqs));
+    expect(JSON.stringify(p.freqs)).not.toBe(JSON.stringify(g.freqs));
+    expect(g.maxFreq).toBeGreaterThan(o.maxFreq);
+    expect(g.maxFreq).toBeGreaterThan(p.maxFreq);
+  });
+
+  it('le son d\'erreur reste bref et grave (jamais punitif)', () => {
+    const p = profile(() => Audio.playCardToPurple());
+    expect(p.length).toBeLessThanOrEqual(0.8);
+    expect(p.maxFreq).toBeLessThanOrEqual(440);
+    AudioSoftness.voices(env.ctx).forEach(v => expect(v.type).toBe('sine'));
+  });
+
+  it('les paliers de série restent croissants en durée et en richesse', () => {
+    const tiers = [3, 6, 12, 25, 50].map(m => profile(() => Audio.playStreakMilestone(m)));
+    for (let i = 1; i < tiers.length; i++) {
+      expect(tiers[i].length).toBeGreaterThan(tiers[i - 1].length);
+      expect(tiers[i].count).toBeGreaterThan(tiers[i - 1].count);
+    }
+  });
+
+  it('les hauteurs des notes de deck ne changent pas (440 Hz, harmoniques entières)', () => {
+    let p = profile(() => Audio.playNote('la', 4, 1));
+    expect(p.freqs).toEqual([440]);
+    p = profile(() => Audio.playNoteWithTimbre('la', 4, 'piano', 1));
+    expect(p.freqs).toEqual([440, 880, 1320, 1760, 2200, 2640]);
+    p = profile(() => Audio.playChord(['do', 'mi', 'sol'], 4, 1));
+    expect(p.freqs).toEqual([261.63, 329.63, 392]);
+  });
+
+  it('les timbres ont la même crête quel que soit le nombre d\'harmoniques', () => {
+    const peaks = ['sine', 'piano', 'organ', 'flute', 'clarinet', 'brass'].map(t => {
+      env.ctx.log.oscillators.length = 0;
+      Audio.playNoteWithTimbre('do', 4, t, 1);
+      return AudioSoftness.overlapPeakSum(AudioSoftness.voices(env.ctx));
+    });
+    peaks.forEach(x => expect(x).toBeLessThanOrEqual(1 + 1e-9));
+    expect(Math.max(...peaks) - Math.min(...peaks)).toBeLessThanOrEqual(0.25);
+  });
+});
