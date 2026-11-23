@@ -1,0 +1,77 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  unit:
+    name: Tests unitaires et build
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm ci
+      - name: Tests unitaires
+        run: npm test
+      - name: Build minifié
+        run: node scripts/build.js --minify
+
+  e2e:
+    name: Tests e2e (chromium)
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm ci
+      # Les tests e2e ouvrent index.html à la racine en file:// : on le régénère
+      # (minifié) dans l'espace de travail du job, sans l'enregistrer.
+      - name: Build minifié
+        run: node scripts/build.js --minify
+      - name: Installer chromium
+        run: npx playwright install --with-deps chromium
+      - name: Contrôle statique des specs e2e
+        run: node tests/e2e/lint-specs.cjs
+      - name: Tests e2e
+        run: npx playwright test -c tests/e2e/playwright.config.cjs --project=chromium
+      - name: Rapport Playwright
+        if: failure()
+        uses: actions/upload-artifact@v7
+        with:
+          name: playwright-report
+          path: |
+            tests/e2e/playwright-report/
+            tests/e2e/test-results/
+            playwright-report/
+            test-results/
+          if-no-files-found: ignore
+          retention-days: 7
+
+  site:
+    name: Build du site
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm ci
+      - name: Construire le site
+        run: npm run build:site

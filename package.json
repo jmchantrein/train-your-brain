@@ -1,0 +1,39 @@
+{
+  "name": "train-your-brain",
+  "version": "1.0.0-alpha",
+  "description": "Application de révision par flashcards - Version offline single-file",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmchantrein/train-your-brain.git"
+  },
+  "homepage": "https://jmchantrein.github.io/train-your-brain/",
+  "bugs": {
+    "url": "https://github.com/jmchantrein/train-your-brain/issues"
+  },
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/dev-server.js",
+    "build": "node scripts/build.js",
+    "build:site": "node scripts/build-site.js",
+    "build:prod": "node scripts/build.js --minify && npm run docs",
+    "test": "node tests/node-runner.cjs",
+    "test:browser": "node scripts/dev-server.js --test",
+    "test:e2e": "playwright test -c tests/e2e/playwright.config.cjs",
+    "test:e2e:lint": "node tests/e2e/lint-specs.cjs",
+    "docs": "jsdoc -c jsdoc.json",
+    "clean": "rm -f index.html && rm -rf docs/api"
+  },
+  "devDependencies": {
+    "@fontsource/opendyslexic": "5.3.0",
+    "@playwright/test": "1.63.0",
+    "clean-css": "^5.3.3",
+    "js-yaml": "^4.1.1",
+    "jsdoc": "^4.0.5",
+    "jsdom": "^27.2.0",
+    "katex": "^0.16.25",
+    "terser": "^5.44.1"
+  },
+  "author": "Jean-Mathieu Chantrein",
+  "license": "AGPL-3.0-or-later"
+}

@@ -1,0 +1,203 @@
+name: Conversions de longueurs
+description: "km, m, cm, mm"
+tags: [math, conversions, longueurs, ce2, cm1]
+category: [sciences, maths, arithmetique, mesures, conversions, ce2, cm1]
+settings:
+  sequential: false
+  bidirectional: false
+metadata:
+  license: CC-BY-SA-4.0
+  source:
+    type: procedural
+    generator: conversions
+    version: 1.0.0
+    generatedAt: "2026-11-22"
+    parameters:
+      type: length
+resources:
+  - type: summary
+    title: "Les conversions d'unités"
+    content: "Les **conversions** permettent d'exprimer une même mesure avec différentes unités.\n\nLe système métrique est basé sur des puissances de 10 :\n- kilo (k) = 1000\n- hecto (h) = 100\n- déca (da) = 10\n- unité = 1\n- déci (d) = 0,1\n- centi (c) = 0,01\n- milli (m) = 0,001\n\nConvertir c'est multiplier ou diviser par 10, 100, 1000..."
+    aiGenerated: true
+    icon: 📝
+  - type: link
+    title: "Wikipedia : Système métrique"
+    url: https://fr.wikipedia.org/wiki/Système_métrique
+    icon: 📖
+  - type: glossary
+    title: Vocabulaire clé
+    content: "- **Conversion** : Changement d'unité pour une même mesure\n- **Préfixe** : Symbole indiquant le multiple (k, c, m...)\n- **Unité SI** : Unité du Système International\n- **Multiple** : Unité plus grande (km, kg)\n- **Sous-multiple** : Unité plus petite (mm, mg)"
+    icon: 📚
+  - type: objective
+    title: "Objectifs d'apprentissage"
+    content: "- ✅ Convertir km ↔ m ↔ cm ↔ mm\n- ✅ Multiplier/diviser par 10, 100, 1000\n- ✅ Mémoriser les équivalences"
+    icon: 🎯
+  - type: tip
+    title: Conversions de longueurs
+    content: "Rappels :\n• 1 km = 1000 m\n• 1 m = 100 cm = 1000 mm\n• 1 cm = 10 mm\n\nPour convertir :\n• Vers plus petit → multiplier\n• Vers plus grand → diviser"
+    icon: 💡
+cards:
+  - id: conv_km_to_m_1
+    question: 1 km = ? m
+    answer: "1000"
+    feedback: 1 km × 1000 = 1000 m
+  - id: conv_km_to_m_2
+    question: 2 km = ? m
+    answer: "2000"
+    feedback: 2 km × 1000 = 2000 m
+  - id: conv_km_to_m_3
+    question: 3 km = ? m
+    answer: "3000"
+    feedback: 3 km × 1000 = 3000 m
+  - id: conv_km_to_m_5
+    question: 5 km = ? m
+    answer: "5000"
+    feedback: 5 km × 1000 = 5000 m
+  - id: conv_km_to_m_10
+    question: 10 km = ? m
+    answer: "10000"
+    feedback: 10 km × 1000 = 10000 m
+  - id: conv_km_to_m_0_5
+    question: 0.5 km = ? m
+    answer: "500"
+    feedback: 0.5 km × 1000 = 500 m
+  - id: conv_km_to_m_0_1
+    question: 0.1 km = ? m
+    answer: "100"
+    feedback: 0.1 km × 1000 = 100 m
+  - id: conv_km_to_m_1_5
+    question: 1.5 km = ? m
+    answer: "1500"
+    feedback: 1.5 km × 1000 = 1500 m
+  - id: conv_km_to_m_2_5
+    question: 2.5 km = ? m
+    answer: "2500"
+    feedback: 2.5 km × 1000 = 2500 m
+  - id: conv_m_to_km_1000
+    question: 1000 m = ? km
+    answer: "1"
+    feedback: 1000 m ÷ 1000 = 1 km
+  - id: conv_m_to_km_2000
+    question: 2000 m = ? km
+    answer: "2"
+    feedback: 2000 m ÷ 1000 = 2 km
+  - id: conv_m_to_km_5000
+    question: 5000 m = ? km
+    answer: "5"
+    feedback: 5000 m ÷ 1000 = 5 km
+  - id: conv_m_to_km_500
+    question: 500 m = ? km
+    answer: "0.5"
+    feedback: 500 m ÷ 1000 = 0.5 km
+  - id: conv_m_to_km_100
+    question: 100 m = ? km
+    answer: "0.1"
+    feedback: 100 m ÷ 1000 = 0.1 km
+  - id: conv_m_to_km_250
+    question: 250 m = ? km
+    answer: "0.25"
+    feedback: 250 m ÷ 1000 = 0.25 km
+  - id: conv_m_to_km_1500
+    question: 1500 m = ? km
+    answer: "1.5"
+    feedback: 1500 m ÷ 1000 = 1.5 km
+  - id: conv_m_to_km_3500
+    question: 3500 m = ? km
+    answer: "3.5"
+    feedback: 3500 m ÷ 1000 = 3.5 km
+  - id: conv_m_to_cm_1
+    question: 1 m = ? cm
+    answer: "100"
+    feedback: 1 m × 100 = 100 cm
+  - id: conv_m_to_cm_2
+    question: 2 m = ? cm
+    answer: "200"
+    feedback: 2 m × 100 = 200 cm
+  - id: conv_m_to_cm_5
+    question: 5 m = ? cm
+    answer: "500"
+    feedback: 5 m × 100 = 500 cm
+  - id: conv_m_to_cm_10
+    question: 10 m = ? cm
+    answer: "1000"
+    feedback: 10 m × 100 = 1000 cm
+  - id: conv_m_to_cm_0_5
+    question: 0.5 m = ? cm
+    answer: "50"
+    feedback: 0.5 m × 100 = 50 cm
+  - id: conv_m_to_cm_1_5
+    question: 1.5 m = ? cm
+    answer: "150"
+    feedback: 1.5 m × 100 = 150 cm
+  - id: conv_m_to_cm_0_25
+    question: 0.25 m = ? cm
+    answer: "25"
+    feedback: 0.25 m × 100 = 25 cm
+  - id: conv_m_to_cm_3_5
+    question: 3.5 m = ? cm
+    answer: "350"
+    feedback: 3.5 m × 100 = 350 cm
+  - id: conv_cm_to_m_100
+    question: 100 cm = ? m
+    answer: "1"
+    feedback: 100 cm ÷ 100 = 1 m
+  - id: conv_cm_to_m_200
+    question: 200 cm = ? m
+    answer: "2"
+    feedback: 200 cm ÷ 100 = 2 m
+  - id: conv_cm_to_m_50
+    question: 50 cm = ? m
+    answer: "0.5"
+    feedback: 50 cm ÷ 100 = 0.5 m
+  - id: conv_cm_to_m_150
+    question: 150 cm = ? m
+    answer: "1.5"
+    feedback: 150 cm ÷ 100 = 1.5 m
+  - id: conv_cm_to_m_250
+    question: 250 cm = ? m
+    answer: "2.5"
+    feedback: 250 cm ÷ 100 = 2.5 m
+  - id: conv_cm_to_m_500
+    question: 500 cm = ? m
+    answer: "5"
+    feedback: 500 cm ÷ 100 = 5 m
+  - id: conv_cm_to_m_75
+    question: 75 cm = ? m
+    answer: "0.75"
+    feedback: 75 cm ÷ 100 = 0.75 m
+  - id: conv_cm_to_m_125
+    question: 125 cm = ? m
+    answer: "1.25"
+    feedback: 125 cm ÷ 100 = 1.25 m
+  - id: conv_cm_to_mm_1
+    question: 1 cm = ? mm
+    answer: "10"
+    feedback: 1 cm × 10 = 10 mm
+  - id: conv_cm_to_mm_2
+    question: 2 cm = ? mm
+    answer: "20"
+    feedback: 2 cm × 10 = 20 mm
+  - id: conv_cm_to_mm_5
+    question: 5 cm = ? mm
+    answer: "50"
+    feedback: 5 cm × 10 = 50 mm
+  - id: conv_cm_to_mm_10
+    question: 10 cm = ? mm
+    answer: "100"
+    feedback: 10 cm × 10 = 100 mm
+  - id: conv_cm_to_mm_15
+    question: 15 cm = ? mm
+    answer: "150"
+    feedback: 15 cm × 10 = 150 mm
+  - id: conv_cm_to_mm_20
+    question: 20 cm = ? mm
+    answer: "200"
+    feedback: 20 cm × 10 = 200 mm
+  - id: conv_cm_to_mm_0_5
+    question: 0.5 cm = ? mm
+    answer: "5"
+    feedback: 0.5 cm × 10 = 5 mm
+  - id: conv_cm_to_mm_2_5
+    question: 2.5 cm = ? mm
+    answer: "25"
+    feedback: 2.5 cm × 10 = 25 mm

@@ -1,0 +1,620 @@
+name: Équations soustractives (x - a = b)
+description: Trouver x dans les équations de type x - a = b
+tags: [math, equations, soustraction, cm1]
+category: [sciences, maths, algebre, equations, equations-premier-degre, cm1]
+settings:
+  maxCards: 20
+  sequential: false
+  bidirectional: false
+metadata:
+  license: CC-BY-SA-4.0
+  source:
+    type: procedural
+    generator: equations
+    version: 1.0.0
+    generatedAt: "2026-11-22"
+    parameters:
+      type: subtraction-equations
+resources:
+  - type: summary
+    title: "Qu'est-ce qu'une équation ?"
+    content: "Une **équation** est une égalité contenant une inconnue (souvent notée x) qu'il faut trouver.\n\nPar exemple : **x + 5 = 12** → On cherche quel nombre additionné à 5 donne 12.\n\nLa réponse est x = 7 car 7 + 5 = 12.\n\nLes équations sont la base de l'algèbre et permettent de :\n- Résoudre des problèmes mathématiques\n- Modéliser des situations réelles\n- Comprendre les relations entre les nombres"
+    aiGenerated: true
+    icon: 📝
+  - type: link
+    title: "Wikipedia : Équation"
+    url: https://fr.wikipedia.org/wiki/Équation
+    icon: 📖
+  - type: glossary
+    title: Vocabulaire clé
+    content: "- **Équation** : Égalité contenant une inconnue\n- **Inconnue** : La valeur que l'on cherche (x)\n- **Solution** : La valeur qui rend l'équation vraie\n- **Membre** : Chaque côté de l'égalité (gauche/droit)"
+    icon: 📚
+  - type: objective
+    title: "Objectifs d'apprentissage"
+    content: "- ✅ Résoudre des équations de type x - a = b\n- ✅ Comprendre l'opération inverse (addition)\n- ✅ Répondre en moins de 5 secondes"
+    icon: 🎯
+  - type: tip
+    title: Méthode de résolution
+    content: "Pour résoudre x - a = b :\n\n1. Isoler x en ajoutant a des deux côtés\n2. x = b + a\n\nExemple : x - 3 = 8 → x = 8 + 3 = 11"
+    icon: 💡
+cards:
+  - id: eq_sub_2_1
+    question: x - 1 = 1
+    answer: "2"
+    feedback: x = 1 + 1 = 2
+  - id: eq_sub_3_1
+    question: x - 1 = 2
+    answer: "3"
+    feedback: x = 2 + 1 = 3
+  - id: eq_sub_3_2
+    question: x - 2 = 1
+    answer: "3"
+    feedback: x = 1 + 2 = 3
+  - id: eq_sub_4_1
+    question: x - 1 = 3
+    answer: "4"
+    feedback: x = 3 + 1 = 4
+  - id: eq_sub_4_2
+    question: x - 2 = 2
+    answer: "4"
+    feedback: x = 2 + 2 = 4
+  - id: eq_sub_4_3
+    question: x - 3 = 1
+    answer: "4"
+    feedback: x = 1 + 3 = 4
+  - id: eq_sub_5_1
+    question: x - 1 = 4
+    answer: "5"
+    feedback: x = 4 + 1 = 5
+  - id: eq_sub_5_2
+    question: x - 2 = 3
+    answer: "5"
+    feedback: x = 3 + 2 = 5
+  - id: eq_sub_5_3
+    question: x - 3 = 2
+    answer: "5"
+    feedback: x = 2 + 3 = 5
+  - id: eq_sub_5_4
+    question: x - 4 = 1
+    answer: "5"
+    feedback: x = 1 + 4 = 5
+  - id: eq_sub_6_1
+    question: x - 1 = 5
+    answer: "6"
+    feedback: x = 5 + 1 = 6
+  - id: eq_sub_6_2
+    question: x - 2 = 4
+    answer: "6"
+    feedback: x = 4 + 2 = 6
+  - id: eq_sub_6_3
+    question: x - 3 = 3
+    answer: "6"
+    feedback: x = 3 + 3 = 6
+  - id: eq_sub_6_4
+    question: x - 4 = 2
+    answer: "6"
+    feedback: x = 2 + 4 = 6
+  - id: eq_sub_6_5
+    question: x - 5 = 1
+    answer: "6"
+    feedback: x = 1 + 5 = 6
+  - id: eq_sub_7_1
+    question: x - 1 = 6
+    answer: "7"
+    feedback: x = 6 + 1 = 7
+  - id: eq_sub_7_2
+    question: x - 2 = 5
+    answer: "7"
+    feedback: x = 5 + 2 = 7
+  - id: eq_sub_7_3
+    question: x - 3 = 4
+    answer: "7"
+    feedback: x = 4 + 3 = 7
+  - id: eq_sub_7_4
+    question: x - 4 = 3
+    answer: "7"
+    feedback: x = 3 + 4 = 7
+  - id: eq_sub_7_5
+    question: x - 5 = 2
+    answer: "7"
+    feedback: x = 2 + 5 = 7
+  - id: eq_sub_7_6
+    question: x - 6 = 1
+    answer: "7"
+    feedback: x = 1 + 6 = 7
+  - id: eq_sub_8_1
+    question: x - 1 = 7
+    answer: "8"
+    feedback: x = 7 + 1 = 8
+  - id: eq_sub_8_2
+    question: x - 2 = 6
+    answer: "8"
+    feedback: x = 6 + 2 = 8
+  - id: eq_sub_8_3
+    question: x - 3 = 5
+    answer: "8"
+    feedback: x = 5 + 3 = 8
+  - id: eq_sub_8_4
+    question: x - 4 = 4
+    answer: "8"
+    feedback: x = 4 + 4 = 8
+  - id: eq_sub_8_5
+    question: x - 5 = 3
+    answer: "8"
+    feedback: x = 3 + 5 = 8
+  - id: eq_sub_8_6
+    question: x - 6 = 2
+    answer: "8"
+    feedback: x = 2 + 6 = 8
+  - id: eq_sub_8_7
+    question: x - 7 = 1
+    answer: "8"
+    feedback: x = 1 + 7 = 8
+  - id: eq_sub_9_1
+    question: x - 1 = 8
+    answer: "9"
+    feedback: x = 8 + 1 = 9
+  - id: eq_sub_9_2
+    question: x - 2 = 7
+    answer: "9"
+    feedback: x = 7 + 2 = 9
+  - id: eq_sub_9_3
+    question: x - 3 = 6
+    answer: "9"
+    feedback: x = 6 + 3 = 9
+  - id: eq_sub_9_4
+    question: x - 4 = 5
+    answer: "9"
+    feedback: x = 5 + 4 = 9
+  - id: eq_sub_9_5
+    question: x - 5 = 4
+    answer: "9"
+    feedback: x = 4 + 5 = 9
+  - id: eq_sub_9_6
+    question: x - 6 = 3
+    answer: "9"
+    feedback: x = 3 + 6 = 9
+  - id: eq_sub_9_7
+    question: x - 7 = 2
+    answer: "9"
+    feedback: x = 2 + 7 = 9
+  - id: eq_sub_9_8
+    question: x - 8 = 1
+    answer: "9"
+    feedback: x = 1 + 8 = 9
+  - id: eq_sub_10_1
+    question: x - 1 = 9
+    answer: "10"
+    feedback: x = 9 + 1 = 10
+  - id: eq_sub_10_2
+    question: x - 2 = 8
+    answer: "10"
+    feedback: x = 8 + 2 = 10
+  - id: eq_sub_10_3
+    question: x - 3 = 7
+    answer: "10"
+    feedback: x = 7 + 3 = 10
+  - id: eq_sub_10_4
+    question: x - 4 = 6
+    answer: "10"
+    feedback: x = 6 + 4 = 10
+  - id: eq_sub_10_5
+    question: x - 5 = 5
+    answer: "10"
+    feedback: x = 5 + 5 = 10
+  - id: eq_sub_10_6
+    question: x - 6 = 4
+    answer: "10"
+    feedback: x = 4 + 6 = 10
+  - id: eq_sub_10_7
+    question: x - 7 = 3
+    answer: "10"
+    feedback: x = 3 + 7 = 10
+  - id: eq_sub_10_8
+    question: x - 8 = 2
+    answer: "10"
+    feedback: x = 2 + 8 = 10
+  - id: eq_sub_10_9
+    question: x - 9 = 1
+    answer: "10"
+    feedback: x = 1 + 9 = 10
+  - id: eq_sub_11_1
+    question: x - 1 = 10
+    answer: "11"
+    feedback: x = 10 + 1 = 11
+  - id: eq_sub_11_2
+    question: x - 2 = 9
+    answer: "11"
+    feedback: x = 9 + 2 = 11
+  - id: eq_sub_11_3
+    question: x - 3 = 8
+    answer: "11"
+    feedback: x = 8 + 3 = 11
+  - id: eq_sub_11_4
+    question: x - 4 = 7
+    answer: "11"
+    feedback: x = 7 + 4 = 11
+  - id: eq_sub_11_5
+    question: x - 5 = 6
+    answer: "11"
+    feedback: x = 6 + 5 = 11
+  - id: eq_sub_11_6
+    question: x - 6 = 5
+    answer: "11"
+    feedback: x = 5 + 6 = 11
+  - id: eq_sub_11_7
+    question: x - 7 = 4
+    answer: "11"
+    feedback: x = 4 + 7 = 11
+  - id: eq_sub_11_8
+    question: x - 8 = 3
+    answer: "11"
+    feedback: x = 3 + 8 = 11
+  - id: eq_sub_11_9
+    question: x - 9 = 2
+    answer: "11"
+    feedback: x = 2 + 9 = 11
+  - id: eq_sub_11_10
+    question: x - 10 = 1
+    answer: "11"
+    feedback: x = 1 + 10 = 11
+  - id: eq_sub_12_1
+    question: x - 1 = 11
+    answer: "12"
+    feedback: x = 11 + 1 = 12
+  - id: eq_sub_12_2
+    question: x - 2 = 10
+    answer: "12"
+    feedback: x = 10 + 2 = 12
+  - id: eq_sub_12_3
+    question: x - 3 = 9
+    answer: "12"
+    feedback: x = 9 + 3 = 12
+  - id: eq_sub_12_4
+    question: x - 4 = 8
+    answer: "12"
+    feedback: x = 8 + 4 = 12
+  - id: eq_sub_12_5
+    question: x - 5 = 7
+    answer: "12"
+    feedback: x = 7 + 5 = 12
+  - id: eq_sub_12_6
+    question: x - 6 = 6
+    answer: "12"
+    feedback: x = 6 + 6 = 12
+  - id: eq_sub_12_7
+    question: x - 7 = 5
+    answer: "12"
+    feedback: x = 5 + 7 = 12
+  - id: eq_sub_12_8
+    question: x - 8 = 4
+    answer: "12"
+    feedback: x = 4 + 8 = 12
+  - id: eq_sub_12_9
+    question: x - 9 = 3
+    answer: "12"
+    feedback: x = 3 + 9 = 12
+  - id: eq_sub_12_10
+    question: x - 10 = 2
+    answer: "12"
+    feedback: x = 2 + 10 = 12
+  - id: eq_sub_13_1
+    question: x - 1 = 12
+    answer: "13"
+    feedback: x = 12 + 1 = 13
+  - id: eq_sub_13_2
+    question: x - 2 = 11
+    answer: "13"
+    feedback: x = 11 + 2 = 13
+  - id: eq_sub_13_3
+    question: x - 3 = 10
+    answer: "13"
+    feedback: x = 10 + 3 = 13
+  - id: eq_sub_13_4
+    question: x - 4 = 9
+    answer: "13"
+    feedback: x = 9 + 4 = 13
+  - id: eq_sub_13_5
+    question: x - 5 = 8
+    answer: "13"
+    feedback: x = 8 + 5 = 13
+  - id: eq_sub_13_6
+    question: x - 6 = 7
+    answer: "13"
+    feedback: x = 7 + 6 = 13
+  - id: eq_sub_13_7
+    question: x - 7 = 6
+    answer: "13"
+    feedback: x = 6 + 7 = 13
+  - id: eq_sub_13_8
+    question: x - 8 = 5
+    answer: "13"
+    feedback: x = 5 + 8 = 13
+  - id: eq_sub_13_9
+    question: x - 9 = 4
+    answer: "13"
+    feedback: x = 4 + 9 = 13
+  - id: eq_sub_13_10
+    question: x - 10 = 3
+    answer: "13"
+    feedback: x = 3 + 10 = 13
+  - id: eq_sub_14_1
+    question: x - 1 = 13
+    answer: "14"
+    feedback: x = 13 + 1 = 14
+  - id: eq_sub_14_2
+    question: x - 2 = 12
+    answer: "14"
+    feedback: x = 12 + 2 = 14
+  - id: eq_sub_14_3
+    question: x - 3 = 11
+    answer: "14"
+    feedback: x = 11 + 3 = 14
+  - id: eq_sub_14_4
+    question: x - 4 = 10
+    answer: "14"
+    feedback: x = 10 + 4 = 14
+  - id: eq_sub_14_5
+    question: x - 5 = 9
+    answer: "14"
+    feedback: x = 9 + 5 = 14
+  - id: eq_sub_14_6
+    question: x - 6 = 8
+    answer: "14"
+    feedback: x = 8 + 6 = 14
+  - id: eq_sub_14_7
+    question: x - 7 = 7
+    answer: "14"
+    feedback: x = 7 + 7 = 14
+  - id: eq_sub_14_8
+    question: x - 8 = 6
+    answer: "14"
+    feedback: x = 6 + 8 = 14
+  - id: eq_sub_14_9
+    question: x - 9 = 5
+    answer: "14"
+    feedback: x = 5 + 9 = 14
+  - id: eq_sub_14_10
+    question: x - 10 = 4
+    answer: "14"
+    feedback: x = 4 + 10 = 14
+  - id: eq_sub_15_1
+    question: x - 1 = 14
+    answer: "15"
+    feedback: x = 14 + 1 = 15
+  - id: eq_sub_15_2
+    question: x - 2 = 13
+    answer: "15"
+    feedback: x = 13 + 2 = 15
+  - id: eq_sub_15_3
+    question: x - 3 = 12
+    answer: "15"
+    feedback: x = 12 + 3 = 15
+  - id: eq_sub_15_4
+    question: x - 4 = 11
+    answer: "15"
+    feedback: x = 11 + 4 = 15
+  - id: eq_sub_15_5
+    question: x - 5 = 10
+    answer: "15"
+    feedback: x = 10 + 5 = 15
+  - id: eq_sub_15_6
+    question: x - 6 = 9
+    answer: "15"
+    feedback: x = 9 + 6 = 15
+  - id: eq_sub_15_7
+    question: x - 7 = 8
+    answer: "15"
+    feedback: x = 8 + 7 = 15
+  - id: eq_sub_15_8
+    question: x - 8 = 7
+    answer: "15"
+    feedback: x = 7 + 8 = 15
+  - id: eq_sub_15_9
+    question: x - 9 = 6
+    answer: "15"
+    feedback: x = 6 + 9 = 15
+  - id: eq_sub_15_10
+    question: x - 10 = 5
+    answer: "15"
+    feedback: x = 5 + 10 = 15
+  - id: eq_sub_16_1
+    question: x - 1 = 15
+    answer: "16"
+    feedback: x = 15 + 1 = 16
+  - id: eq_sub_16_2
+    question: x - 2 = 14
+    answer: "16"
+    feedback: x = 14 + 2 = 16
+  - id: eq_sub_16_3
+    question: x - 3 = 13
+    answer: "16"
+    feedback: x = 13 + 3 = 16
+  - id: eq_sub_16_4
+    question: x - 4 = 12
+    answer: "16"
+    feedback: x = 12 + 4 = 16
+  - id: eq_sub_16_5
+    question: x - 5 = 11
+    answer: "16"
+    feedback: x = 11 + 5 = 16
+  - id: eq_sub_16_6
+    question: x - 6 = 10
+    answer: "16"
+    feedback: x = 10 + 6 = 16
+  - id: eq_sub_16_7
+    question: x - 7 = 9
+    answer: "16"
+    feedback: x = 9 + 7 = 16
+  - id: eq_sub_16_8
+    question: x - 8 = 8
+    answer: "16"
+    feedback: x = 8 + 8 = 16
+  - id: eq_sub_16_9
+    question: x - 9 = 7
+    answer: "16"
+    feedback: x = 7 + 9 = 16
+  - id: eq_sub_16_10
+    question: x - 10 = 6
+    answer: "16"
+    feedback: x = 6 + 10 = 16
+  - id: eq_sub_17_1
+    question: x - 1 = 16
+    answer: "17"
+    feedback: x = 16 + 1 = 17
+  - id: eq_sub_17_2
+    question: x - 2 = 15
+    answer: "17"
+    feedback: x = 15 + 2 = 17
+  - id: eq_sub_17_3
+    question: x - 3 = 14
+    answer: "17"
+    feedback: x = 14 + 3 = 17
+  - id: eq_sub_17_4
+    question: x - 4 = 13
+    answer: "17"
+    feedback: x = 13 + 4 = 17
+  - id: eq_sub_17_5
+    question: x - 5 = 12
+    answer: "17"
+    feedback: x = 12 + 5 = 17
+  - id: eq_sub_17_6
+    question: x - 6 = 11
+    answer: "17"
+    feedback: x = 11 + 6 = 17
+  - id: eq_sub_17_7
+    question: x - 7 = 10
+    answer: "17"
+    feedback: x = 10 + 7 = 17
+  - id: eq_sub_17_8
+    question: x - 8 = 9
+    answer: "17"
+    feedback: x = 9 + 8 = 17
+  - id: eq_sub_17_9
+    question: x - 9 = 8
+    answer: "17"
+    feedback: x = 8 + 9 = 17
+  - id: eq_sub_17_10
+    question: x - 10 = 7
+    answer: "17"
+    feedback: x = 7 + 10 = 17
+  - id: eq_sub_18_1
+    question: x - 1 = 17
+    answer: "18"
+    feedback: x = 17 + 1 = 18
+  - id: eq_sub_18_2
+    question: x - 2 = 16
+    answer: "18"
+    feedback: x = 16 + 2 = 18
+  - id: eq_sub_18_3
+    question: x - 3 = 15
+    answer: "18"
+    feedback: x = 15 + 3 = 18
+  - id: eq_sub_18_4
+    question: x - 4 = 14
+    answer: "18"
+    feedback: x = 14 + 4 = 18
+  - id: eq_sub_18_5
+    question: x - 5 = 13
+    answer: "18"
+    feedback: x = 13 + 5 = 18
+  - id: eq_sub_18_6
+    question: x - 6 = 12
+    answer: "18"
+    feedback: x = 12 + 6 = 18
+  - id: eq_sub_18_7
+    question: x - 7 = 11
+    answer: "18"
+    feedback: x = 11 + 7 = 18
+  - id: eq_sub_18_8
+    question: x - 8 = 10
+    answer: "18"
+    feedback: x = 10 + 8 = 18
+  - id: eq_sub_18_9
+    question: x - 9 = 9
+    answer: "18"
+    feedback: x = 9 + 9 = 18
+  - id: eq_sub_18_10
+    question: x - 10 = 8
+    answer: "18"
+    feedback: x = 8 + 10 = 18
+  - id: eq_sub_19_1
+    question: x - 1 = 18
+    answer: "19"
+    feedback: x = 18 + 1 = 19
+  - id: eq_sub_19_2
+    question: x - 2 = 17
+    answer: "19"
+    feedback: x = 17 + 2 = 19
+  - id: eq_sub_19_3
+    question: x - 3 = 16
+    answer: "19"
+    feedback: x = 16 + 3 = 19
+  - id: eq_sub_19_4
+    question: x - 4 = 15
+    answer: "19"
+    feedback: x = 15 + 4 = 19
+  - id: eq_sub_19_5
+    question: x - 5 = 14
+    answer: "19"
+    feedback: x = 14 + 5 = 19
+  - id: eq_sub_19_6
+    question: x - 6 = 13
+    answer: "19"
+    feedback: x = 13 + 6 = 19
+  - id: eq_sub_19_7
+    question: x - 7 = 12
+    answer: "19"
+    feedback: x = 12 + 7 = 19
+  - id: eq_sub_19_8
+    question: x - 8 = 11
+    answer: "19"
+    feedback: x = 11 + 8 = 19
+  - id: eq_sub_19_9
+    question: x - 9 = 10
+    answer: "19"
+    feedback: x = 10 + 9 = 19
+  - id: eq_sub_19_10
+    question: x - 10 = 9
+    answer: "19"
+    feedback: x = 9 + 10 = 19
+  - id: eq_sub_20_1
+    question: x - 1 = 19
+    answer: "20"
+    feedback: x = 19 + 1 = 20
+  - id: eq_sub_20_2
+    question: x - 2 = 18
+    answer: "20"
+    feedback: x = 18 + 2 = 20
+  - id: eq_sub_20_3
+    question: x - 3 = 17
+    answer: "20"
+    feedback: x = 17 + 3 = 20
+  - id: eq_sub_20_4
+    question: x - 4 = 16
+    answer: "20"
+    feedback: x = 16 + 4 = 20
+  - id: eq_sub_20_5
+    question: x - 5 = 15
+    answer: "20"
+    feedback: x = 15 + 5 = 20
+  - id: eq_sub_20_6
+    question: x - 6 = 14
+    answer: "20"
+    feedback: x = 14 + 6 = 20
+  - id: eq_sub_20_7
+    question: x - 7 = 13
+    answer: "20"
+    feedback: x = 13 + 7 = 20
+  - id: eq_sub_20_8
+    question: x - 8 = 12
+    answer: "20"
+    feedback: x = 12 + 8 = 20
+  - id: eq_sub_20_9
+    question: x - 9 = 11
+    answer: "20"
+    feedback: x = 11 + 9 = 20
+  - id: eq_sub_20_10
+    question: x - 10 = 10
+    answer: "20"
+    feedback: x = 10 + 10 = 20

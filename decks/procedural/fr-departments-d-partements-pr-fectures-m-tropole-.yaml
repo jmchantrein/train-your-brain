@@ -1,0 +1,881 @@
+name: Départements - Préfectures (Métropole)
+description: Préfectures des départements métropolitains
+tags: [geographie, france, departements, prefectures, culture-generale]
+category: [geographie, culture-generale]
+settings:
+  sequential: false
+  bidirectional: false
+metadata:
+  license: CC-BY-SA-4.0
+  source:
+    type: procedural
+    generator: fr-departments
+    version: 1.0.0
+    generatedAt: "2026-11-22"
+    parameters:
+      type: prefectures-metro
+cards:
+  - id: dept_01_to_pref
+    question: Préfecture de Ain ?
+    answer: Bourg-en-Bresse
+    feedback: Bourg-en-Bresse est la préfecture de Ain (01).
+  - id: dept_01_from_pref
+    question: Bourg-en-Bresse est la préfecture de quel département ?
+    answer: Ain
+    alternatives: ["01"]
+    feedback: Bourg-en-Bresse est la préfecture de Ain (01).
+  - id: dept_02_to_pref
+    question: Préfecture de Aisne ?
+    answer: Laon
+    feedback: Laon est la préfecture de Aisne (02).
+  - id: dept_02_from_pref
+    question: Laon est la préfecture de quel département ?
+    answer: Aisne
+    alternatives: ["02"]
+    feedback: Laon est la préfecture de Aisne (02).
+  - id: dept_03_to_pref
+    question: Préfecture de Allier ?
+    answer: Moulins
+    feedback: Moulins est la préfecture de Allier (03).
+  - id: dept_03_from_pref
+    question: Moulins est la préfecture de quel département ?
+    answer: Allier
+    alternatives: ["03"]
+    feedback: Moulins est la préfecture de Allier (03).
+  - id: dept_04_to_pref
+    question: Préfecture de Alpes-de-Haute-Provence ?
+    answer: Digne-les-Bains
+    feedback: Digne-les-Bains est la préfecture de Alpes-de-Haute-Provence (04).
+  - id: dept_04_from_pref
+    question: Digne-les-Bains est la préfecture de quel département ?
+    answer: Alpes-de-Haute-Provence
+    alternatives: ["04"]
+    feedback: Digne-les-Bains est la préfecture de Alpes-de-Haute-Provence (04).
+  - id: dept_05_to_pref
+    question: Préfecture de Hautes-Alpes ?
+    answer: Gap
+    feedback: Gap est la préfecture de Hautes-Alpes (05).
+  - id: dept_05_from_pref
+    question: Gap est la préfecture de quel département ?
+    answer: Hautes-Alpes
+    alternatives: ["05"]
+    feedback: Gap est la préfecture de Hautes-Alpes (05).
+  - id: dept_06_to_pref
+    question: Préfecture de Alpes-Maritimes ?
+    answer: Nice
+    feedback: Nice est la préfecture de Alpes-Maritimes (06).
+  - id: dept_06_from_pref
+    question: Nice est la préfecture de quel département ?
+    answer: Alpes-Maritimes
+    alternatives: ["06"]
+    feedback: Nice est la préfecture de Alpes-Maritimes (06).
+  - id: dept_07_to_pref
+    question: Préfecture de Ardèche ?
+    answer: Privas
+    feedback: Privas est la préfecture de Ardèche (07).
+  - id: dept_07_from_pref
+    question: Privas est la préfecture de quel département ?
+    answer: Ardèche
+    alternatives: ["07"]
+    feedback: Privas est la préfecture de Ardèche (07).
+  - id: dept_08_to_pref
+    question: Préfecture de Ardennes ?
+    answer: Charleville-Mézières
+    feedback: Charleville-Mézières est la préfecture de Ardennes (08).
+  - id: dept_08_from_pref
+    question: Charleville-Mézières est la préfecture de quel département ?
+    answer: Ardennes
+    alternatives: ["08"]
+    feedback: Charleville-Mézières est la préfecture de Ardennes (08).
+  - id: dept_09_to_pref
+    question: Préfecture de Ariège ?
+    answer: Foix
+    feedback: Foix est la préfecture de Ariège (09).
+  - id: dept_09_from_pref
+    question: Foix est la préfecture de quel département ?
+    answer: Ariège
+    alternatives: ["09"]
+    feedback: Foix est la préfecture de Ariège (09).
+  - id: dept_10_to_pref
+    question: Préfecture de Aube ?
+    answer: Troyes
+    feedback: Troyes est la préfecture de Aube (10).
+  - id: dept_10_from_pref
+    question: Troyes est la préfecture de quel département ?
+    answer: Aube
+    alternatives: ["10"]
+    feedback: Troyes est la préfecture de Aube (10).
+  - id: dept_11_to_pref
+    question: Préfecture de Aude ?
+    answer: Carcassonne
+    feedback: Carcassonne est la préfecture de Aude (11).
+  - id: dept_11_from_pref
+    question: Carcassonne est la préfecture de quel département ?
+    answer: Aude
+    alternatives: ["11"]
+    feedback: Carcassonne est la préfecture de Aude (11).
+  - id: dept_12_to_pref
+    question: Préfecture de Aveyron ?
+    answer: Rodez
+    feedback: Rodez est la préfecture de Aveyron (12).
+  - id: dept_12_from_pref
+    question: Rodez est la préfecture de quel département ?
+    answer: Aveyron
+    alternatives: ["12"]
+    feedback: Rodez est la préfecture de Aveyron (12).
+  - id: dept_13_to_pref
+    question: Préfecture de Bouches-du-Rhône ?
+    answer: Marseille
+    feedback: Marseille est la préfecture de Bouches-du-Rhône (13).
+  - id: dept_13_from_pref
+    question: Marseille est la préfecture de quel département ?
+    answer: Bouches-du-Rhône
+    alternatives: ["13"]
+    feedback: Marseille est la préfecture de Bouches-du-Rhône (13).
+  - id: dept_14_to_pref
+    question: Préfecture de Calvados ?
+    answer: Caen
+    feedback: Caen est la préfecture de Calvados (14).
+  - id: dept_14_from_pref
+    question: Caen est la préfecture de quel département ?
+    answer: Calvados
+    alternatives: ["14"]
+    feedback: Caen est la préfecture de Calvados (14).
+  - id: dept_15_to_pref
+    question: Préfecture de Cantal ?
+    answer: Aurillac
+    feedback: Aurillac est la préfecture de Cantal (15).
+  - id: dept_15_from_pref
+    question: Aurillac est la préfecture de quel département ?
+    answer: Cantal
+    alternatives: ["15"]
+    feedback: Aurillac est la préfecture de Cantal (15).
+  - id: dept_16_to_pref
+    question: Préfecture de Charente ?
+    answer: Angoulême
+    feedback: Angoulême est la préfecture de Charente (16).
+  - id: dept_16_from_pref
+    question: Angoulême est la préfecture de quel département ?
+    answer: Charente
+    alternatives: ["16"]
+    feedback: Angoulême est la préfecture de Charente (16).
+  - id: dept_17_to_pref
+    question: Préfecture de Charente-Maritime ?
+    answer: La Rochelle
+    feedback: La Rochelle est la préfecture de Charente-Maritime (17).
+  - id: dept_17_from_pref
+    question: La Rochelle est la préfecture de quel département ?
+    answer: Charente-Maritime
+    alternatives: ["17"]
+    feedback: La Rochelle est la préfecture de Charente-Maritime (17).
+  - id: dept_18_to_pref
+    question: Préfecture de Cher ?
+    answer: Bourges
+    feedback: Bourges est la préfecture de Cher (18).
+  - id: dept_18_from_pref
+    question: Bourges est la préfecture de quel département ?
+    answer: Cher
+    alternatives: ["18"]
+    feedback: Bourges est la préfecture de Cher (18).
+  - id: dept_19_to_pref
+    question: Préfecture de Corrèze ?
+    answer: Tulle
+    feedback: Tulle est la préfecture de Corrèze (19).
+  - id: dept_19_from_pref
+    question: Tulle est la préfecture de quel département ?
+    answer: Corrèze
+    alternatives: ["19"]
+    feedback: Tulle est la préfecture de Corrèze (19).
+  - id: dept_2A_to_pref
+    question: Préfecture de Corse-du-Sud ?
+    answer: Ajaccio
+    feedback: Ajaccio est la préfecture de Corse-du-Sud (2A).
+  - id: dept_2A_from_pref
+    question: Ajaccio est la préfecture de quel département ?
+    answer: Corse-du-Sud
+    alternatives: [2A]
+    feedback: Ajaccio est la préfecture de Corse-du-Sud (2A).
+  - id: dept_2B_to_pref
+    question: Préfecture de Haute-Corse ?
+    answer: Bastia
+    feedback: Bastia est la préfecture de Haute-Corse (2B).
+  - id: dept_2B_from_pref
+    question: Bastia est la préfecture de quel département ?
+    answer: Haute-Corse
+    alternatives: [2B]
+    feedback: Bastia est la préfecture de Haute-Corse (2B).
+  - id: dept_21_to_pref
+    question: "Préfecture de Côte-d'Or ?"
+    answer: Dijon
+    feedback: "Dijon est la préfecture de Côte-d'Or (21)."
+  - id: dept_21_from_pref
+    question: Dijon est la préfecture de quel département ?
+    answer: "Côte-d'Or"
+    alternatives: ["21"]
+    feedback: "Dijon est la préfecture de Côte-d'Or (21)."
+  - id: dept_22_to_pref
+    question: "Préfecture de Côtes-d'Armor ?"
+    answer: Saint-Brieuc
+    feedback: "Saint-Brieuc est la préfecture de Côtes-d'Armor (22)."
+  - id: dept_22_from_pref
+    question: Saint-Brieuc est la préfecture de quel département ?
+    answer: "Côtes-d'Armor"
+    alternatives: ["22"]
+    feedback: "Saint-Brieuc est la préfecture de Côtes-d'Armor (22)."
+  - id: dept_23_to_pref
+    question: Préfecture de Creuse ?
+    answer: Guéret
+    feedback: Guéret est la préfecture de Creuse (23).
+  - id: dept_23_from_pref
+    question: Guéret est la préfecture de quel département ?
+    answer: Creuse
+    alternatives: ["23"]
+    feedback: Guéret est la préfecture de Creuse (23).
+  - id: dept_24_to_pref
+    question: Préfecture de Dordogne ?
+    answer: Périgueux
+    feedback: Périgueux est la préfecture de Dordogne (24).
+  - id: dept_24_from_pref
+    question: Périgueux est la préfecture de quel département ?
+    answer: Dordogne
+    alternatives: ["24"]
+    feedback: Périgueux est la préfecture de Dordogne (24).
+  - id: dept_25_to_pref
+    question: Préfecture de Doubs ?
+    answer: Besançon
+    feedback: Besançon est la préfecture de Doubs (25).
+  - id: dept_25_from_pref
+    question: Besançon est la préfecture de quel département ?
+    answer: Doubs
+    alternatives: ["25"]
+    feedback: Besançon est la préfecture de Doubs (25).
+  - id: dept_26_to_pref
+    question: Préfecture de Drôme ?
+    answer: Valence
+    feedback: Valence est la préfecture de Drôme (26).
+  - id: dept_26_from_pref
+    question: Valence est la préfecture de quel département ?
+    answer: Drôme
+    alternatives: ["26"]
+    feedback: Valence est la préfecture de Drôme (26).
+  - id: dept_27_to_pref
+    question: Préfecture de Eure ?
+    answer: Évreux
+    feedback: Évreux est la préfecture de Eure (27).
+  - id: dept_27_from_pref
+    question: Évreux est la préfecture de quel département ?
+    answer: Eure
+    alternatives: ["27"]
+    feedback: Évreux est la préfecture de Eure (27).
+  - id: dept_28_to_pref
+    question: Préfecture de Eure-et-Loir ?
+    answer: Chartres
+    feedback: Chartres est la préfecture de Eure-et-Loir (28).
+  - id: dept_28_from_pref
+    question: Chartres est la préfecture de quel département ?
+    answer: Eure-et-Loir
+    alternatives: ["28"]
+    feedback: Chartres est la préfecture de Eure-et-Loir (28).
+  - id: dept_29_to_pref
+    question: Préfecture de Finistère ?
+    answer: Quimper
+    feedback: Quimper est la préfecture de Finistère (29).
+  - id: dept_29_from_pref
+    question: Quimper est la préfecture de quel département ?
+    answer: Finistère
+    alternatives: ["29"]
+    feedback: Quimper est la préfecture de Finistère (29).
+  - id: dept_30_to_pref
+    question: Préfecture de Gard ?
+    answer: Nîmes
+    feedback: Nîmes est la préfecture de Gard (30).
+  - id: dept_30_from_pref
+    question: Nîmes est la préfecture de quel département ?
+    answer: Gard
+    alternatives: ["30"]
+    feedback: Nîmes est la préfecture de Gard (30).
+  - id: dept_31_to_pref
+    question: Préfecture de Haute-Garonne ?
+    answer: Toulouse
+    feedback: Toulouse est la préfecture de Haute-Garonne (31).
+  - id: dept_31_from_pref
+    question: Toulouse est la préfecture de quel département ?
+    answer: Haute-Garonne
+    alternatives: ["31"]
+    feedback: Toulouse est la préfecture de Haute-Garonne (31).
+  - id: dept_32_to_pref
+    question: Préfecture de Gers ?
+    answer: Auch
+    feedback: Auch est la préfecture de Gers (32).
+  - id: dept_32_from_pref
+    question: Auch est la préfecture de quel département ?
+    answer: Gers
+    alternatives: ["32"]
+    feedback: Auch est la préfecture de Gers (32).
+  - id: dept_33_to_pref
+    question: Préfecture de Gironde ?
+    answer: Bordeaux
+    feedback: Bordeaux est la préfecture de Gironde (33).
+  - id: dept_33_from_pref
+    question: Bordeaux est la préfecture de quel département ?
+    answer: Gironde
+    alternatives: ["33"]
+    feedback: Bordeaux est la préfecture de Gironde (33).
+  - id: dept_34_to_pref
+    question: Préfecture de Hérault ?
+    answer: Montpellier
+    feedback: Montpellier est la préfecture de Hérault (34).
+  - id: dept_34_from_pref
+    question: Montpellier est la préfecture de quel département ?
+    answer: Hérault
+    alternatives: ["34"]
+    feedback: Montpellier est la préfecture de Hérault (34).
+  - id: dept_35_to_pref
+    question: Préfecture de Ille-et-Vilaine ?
+    answer: Rennes
+    feedback: Rennes est la préfecture de Ille-et-Vilaine (35).
+  - id: dept_35_from_pref
+    question: Rennes est la préfecture de quel département ?
+    answer: Ille-et-Vilaine
+    alternatives: ["35"]
+    feedback: Rennes est la préfecture de Ille-et-Vilaine (35).
+  - id: dept_36_to_pref
+    question: Préfecture de Indre ?
+    answer: Châteauroux
+    feedback: Châteauroux est la préfecture de Indre (36).
+  - id: dept_36_from_pref
+    question: Châteauroux est la préfecture de quel département ?
+    answer: Indre
+    alternatives: ["36"]
+    feedback: Châteauroux est la préfecture de Indre (36).
+  - id: dept_37_to_pref
+    question: Préfecture de Indre-et-Loire ?
+    answer: Tours
+    feedback: Tours est la préfecture de Indre-et-Loire (37).
+  - id: dept_37_from_pref
+    question: Tours est la préfecture de quel département ?
+    answer: Indre-et-Loire
+    alternatives: ["37"]
+    feedback: Tours est la préfecture de Indre-et-Loire (37).
+  - id: dept_38_to_pref
+    question: Préfecture de Isère ?
+    answer: Grenoble
+    feedback: Grenoble est la préfecture de Isère (38).
+  - id: dept_38_from_pref
+    question: Grenoble est la préfecture de quel département ?
+    answer: Isère
+    alternatives: ["38"]
+    feedback: Grenoble est la préfecture de Isère (38).
+  - id: dept_39_to_pref
+    question: Préfecture de Jura ?
+    answer: Lons-le-Saunier
+    feedback: Lons-le-Saunier est la préfecture de Jura (39).
+  - id: dept_39_from_pref
+    question: Lons-le-Saunier est la préfecture de quel département ?
+    answer: Jura
+    alternatives: ["39"]
+    feedback: Lons-le-Saunier est la préfecture de Jura (39).
+  - id: dept_40_to_pref
+    question: Préfecture de Landes ?
+    answer: Mont-de-Marsan
+    feedback: Mont-de-Marsan est la préfecture de Landes (40).
+  - id: dept_40_from_pref
+    question: Mont-de-Marsan est la préfecture de quel département ?
+    answer: Landes
+    alternatives: ["40"]
+    feedback: Mont-de-Marsan est la préfecture de Landes (40).
+  - id: dept_41_to_pref
+    question: Préfecture de Loir-et-Cher ?
+    answer: Blois
+    feedback: Blois est la préfecture de Loir-et-Cher (41).
+  - id: dept_41_from_pref
+    question: Blois est la préfecture de quel département ?
+    answer: Loir-et-Cher
+    alternatives: ["41"]
+    feedback: Blois est la préfecture de Loir-et-Cher (41).
+  - id: dept_42_to_pref
+    question: Préfecture de Loire ?
+    answer: Saint-Étienne
+    feedback: Saint-Étienne est la préfecture de Loire (42).
+  - id: dept_42_from_pref
+    question: Saint-Étienne est la préfecture de quel département ?
+    answer: Loire
+    alternatives: ["42"]
+    feedback: Saint-Étienne est la préfecture de Loire (42).
+  - id: dept_43_to_pref
+    question: Préfecture de Haute-Loire ?
+    answer: Le Puy-en-Velay
+    feedback: Le Puy-en-Velay est la préfecture de Haute-Loire (43).
+  - id: dept_43_from_pref
+    question: Le Puy-en-Velay est la préfecture de quel département ?
+    answer: Haute-Loire
+    alternatives: ["43"]
+    feedback: Le Puy-en-Velay est la préfecture de Haute-Loire (43).
+  - id: dept_44_to_pref
+    question: Préfecture de Loire-Atlantique ?
+    answer: Nantes
+    feedback: Nantes est la préfecture de Loire-Atlantique (44).
+  - id: dept_44_from_pref
+    question: Nantes est la préfecture de quel département ?
+    answer: Loire-Atlantique
+    alternatives: ["44"]
+    feedback: Nantes est la préfecture de Loire-Atlantique (44).
+  - id: dept_45_to_pref
+    question: Préfecture de Loiret ?
+    answer: Orléans
+    feedback: Orléans est la préfecture de Loiret (45).
+  - id: dept_45_from_pref
+    question: Orléans est la préfecture de quel département ?
+    answer: Loiret
+    alternatives: ["45"]
+    feedback: Orléans est la préfecture de Loiret (45).
+  - id: dept_46_to_pref
+    question: Préfecture de Lot ?
+    answer: Cahors
+    feedback: Cahors est la préfecture de Lot (46).
+  - id: dept_46_from_pref
+    question: Cahors est la préfecture de quel département ?
+    answer: Lot
+    alternatives: ["46"]
+    feedback: Cahors est la préfecture de Lot (46).
+  - id: dept_47_to_pref
+    question: Préfecture de Lot-et-Garonne ?
+    answer: Agen
+    feedback: Agen est la préfecture de Lot-et-Garonne (47).
+  - id: dept_47_from_pref
+    question: Agen est la préfecture de quel département ?
+    answer: Lot-et-Garonne
+    alternatives: ["47"]
+    feedback: Agen est la préfecture de Lot-et-Garonne (47).
+  - id: dept_48_to_pref
+    question: Préfecture de Lozère ?
+    answer: Mende
+    feedback: Mende est la préfecture de Lozère (48).
+  - id: dept_48_from_pref
+    question: Mende est la préfecture de quel département ?
+    answer: Lozère
+    alternatives: ["48"]
+    feedback: Mende est la préfecture de Lozère (48).
+  - id: dept_49_to_pref
+    question: Préfecture de Maine-et-Loire ?
+    answer: Angers
+    feedback: Angers est la préfecture de Maine-et-Loire (49).
+  - id: dept_49_from_pref
+    question: Angers est la préfecture de quel département ?
+    answer: Maine-et-Loire
+    alternatives: ["49"]
+    feedback: Angers est la préfecture de Maine-et-Loire (49).
+  - id: dept_50_to_pref
+    question: Préfecture de Manche ?
+    answer: Saint-Lô
+    feedback: Saint-Lô est la préfecture de Manche (50).
+  - id: dept_50_from_pref
+    question: Saint-Lô est la préfecture de quel département ?
+    answer: Manche
+    alternatives: ["50"]
+    feedback: Saint-Lô est la préfecture de Manche (50).
+  - id: dept_51_to_pref
+    question: Préfecture de Marne ?
+    answer: Châlons-en-Champagne
+    feedback: Châlons-en-Champagne est la préfecture de Marne (51).
+  - id: dept_51_from_pref
+    question: Châlons-en-Champagne est la préfecture de quel département ?
+    answer: Marne
+    alternatives: ["51"]
+    feedback: Châlons-en-Champagne est la préfecture de Marne (51).
+  - id: dept_52_to_pref
+    question: Préfecture de Haute-Marne ?
+    answer: Chaumont
+    feedback: Chaumont est la préfecture de Haute-Marne (52).
+  - id: dept_52_from_pref
+    question: Chaumont est la préfecture de quel département ?
+    answer: Haute-Marne
+    alternatives: ["52"]
+    feedback: Chaumont est la préfecture de Haute-Marne (52).
+  - id: dept_53_to_pref
+    question: Préfecture de Mayenne ?
+    answer: Laval
+    feedback: Laval est la préfecture de Mayenne (53).
+  - id: dept_53_from_pref
+    question: Laval est la préfecture de quel département ?
+    answer: Mayenne
+    alternatives: ["53"]
+    feedback: Laval est la préfecture de Mayenne (53).
+  - id: dept_54_to_pref
+    question: Préfecture de Meurthe-et-Moselle ?
+    answer: Nancy
+    feedback: Nancy est la préfecture de Meurthe-et-Moselle (54).
+  - id: dept_54_from_pref
+    question: Nancy est la préfecture de quel département ?
+    answer: Meurthe-et-Moselle
+    alternatives: ["54"]
+    feedback: Nancy est la préfecture de Meurthe-et-Moselle (54).
+  - id: dept_55_to_pref
+    question: Préfecture de Meuse ?
+    answer: Bar-le-Duc
+    feedback: Bar-le-Duc est la préfecture de Meuse (55).
+  - id: dept_55_from_pref
+    question: Bar-le-Duc est la préfecture de quel département ?
+    answer: Meuse
+    alternatives: ["55"]
+    feedback: Bar-le-Duc est la préfecture de Meuse (55).
+  - id: dept_56_to_pref
+    question: Préfecture de Morbihan ?
+    answer: Vannes
+    feedback: Vannes est la préfecture de Morbihan (56).
+  - id: dept_56_from_pref
+    question: Vannes est la préfecture de quel département ?
+    answer: Morbihan
+    alternatives: ["56"]
+    feedback: Vannes est la préfecture de Morbihan (56).
+  - id: dept_57_to_pref
+    question: Préfecture de Moselle ?
+    answer: Metz
+    feedback: Metz est la préfecture de Moselle (57).
+  - id: dept_57_from_pref
+    question: Metz est la préfecture de quel département ?
+    answer: Moselle
+    alternatives: ["57"]
+    feedback: Metz est la préfecture de Moselle (57).
+  - id: dept_58_to_pref
+    question: Préfecture de Nièvre ?
+    answer: Nevers
+    feedback: Nevers est la préfecture de Nièvre (58).
+  - id: dept_58_from_pref
+    question: Nevers est la préfecture de quel département ?
+    answer: Nièvre
+    alternatives: ["58"]
+    feedback: Nevers est la préfecture de Nièvre (58).
+  - id: dept_59_to_pref
+    question: Préfecture de Nord ?
+    answer: Lille
+    feedback: Lille est la préfecture de Nord (59).
+  - id: dept_59_from_pref
+    question: Lille est la préfecture de quel département ?
+    answer: Nord
+    alternatives: ["59"]
+    feedback: Lille est la préfecture de Nord (59).
+  - id: dept_60_to_pref
+    question: Préfecture de Oise ?
+    answer: Beauvais
+    feedback: Beauvais est la préfecture de Oise (60).
+  - id: dept_60_from_pref
+    question: Beauvais est la préfecture de quel département ?
+    answer: Oise
+    alternatives: ["60"]
+    feedback: Beauvais est la préfecture de Oise (60).
+  - id: dept_61_to_pref
+    question: Préfecture de Orne ?
+    answer: Alençon
+    feedback: Alençon est la préfecture de Orne (61).
+  - id: dept_61_from_pref
+    question: Alençon est la préfecture de quel département ?
+    answer: Orne
+    alternatives: ["61"]
+    feedback: Alençon est la préfecture de Orne (61).
+  - id: dept_62_to_pref
+    question: Préfecture de Pas-de-Calais ?
+    answer: Arras
+    feedback: Arras est la préfecture de Pas-de-Calais (62).
+  - id: dept_62_from_pref
+    question: Arras est la préfecture de quel département ?
+    answer: Pas-de-Calais
+    alternatives: ["62"]
+    feedback: Arras est la préfecture de Pas-de-Calais (62).
+  - id: dept_63_to_pref
+    question: Préfecture de Puy-de-Dôme ?
+    answer: Clermont-Ferrand
+    feedback: Clermont-Ferrand est la préfecture de Puy-de-Dôme (63).
+  - id: dept_63_from_pref
+    question: Clermont-Ferrand est la préfecture de quel département ?
+    answer: Puy-de-Dôme
+    alternatives: ["63"]
+    feedback: Clermont-Ferrand est la préfecture de Puy-de-Dôme (63).
+  - id: dept_64_to_pref
+    question: Préfecture de Pyrénées-Atlantiques ?
+    answer: Pau
+    feedback: Pau est la préfecture de Pyrénées-Atlantiques (64).
+  - id: dept_64_from_pref
+    question: Pau est la préfecture de quel département ?
+    answer: Pyrénées-Atlantiques
+    alternatives: ["64"]
+    feedback: Pau est la préfecture de Pyrénées-Atlantiques (64).
+  - id: dept_65_to_pref
+    question: Préfecture de Hautes-Pyrénées ?
+    answer: Tarbes
+    feedback: Tarbes est la préfecture de Hautes-Pyrénées (65).
+  - id: dept_65_from_pref
+    question: Tarbes est la préfecture de quel département ?
+    answer: Hautes-Pyrénées
+    alternatives: ["65"]
+    feedback: Tarbes est la préfecture de Hautes-Pyrénées (65).
+  - id: dept_66_to_pref
+    question: Préfecture de Pyrénées-Orientales ?
+    answer: Perpignan
+    feedback: Perpignan est la préfecture de Pyrénées-Orientales (66).
+  - id: dept_66_from_pref
+    question: Perpignan est la préfecture de quel département ?
+    answer: Pyrénées-Orientales
+    alternatives: ["66"]
+    feedback: Perpignan est la préfecture de Pyrénées-Orientales (66).
+  - id: dept_67_to_pref
+    question: Préfecture de Bas-Rhin ?
+    answer: Strasbourg
+    feedback: Strasbourg est la préfecture de Bas-Rhin (67).
+  - id: dept_67_from_pref
+    question: Strasbourg est la préfecture de quel département ?
+    answer: Bas-Rhin
+    alternatives: ["67"]
+    feedback: Strasbourg est la préfecture de Bas-Rhin (67).
+  - id: dept_68_to_pref
+    question: Préfecture de Haut-Rhin ?
+    answer: Colmar
+    feedback: Colmar est la préfecture de Haut-Rhin (68).
+  - id: dept_68_from_pref
+    question: Colmar est la préfecture de quel département ?
+    answer: Haut-Rhin
+    alternatives: ["68"]
+    feedback: Colmar est la préfecture de Haut-Rhin (68).
+  - id: dept_69_to_pref
+    question: Préfecture de Rhône ?
+    answer: Lyon
+    feedback: Lyon est la préfecture de Rhône (69).
+  - id: dept_69_from_pref
+    question: Lyon est la préfecture de quel département ?
+    answer: Rhône
+    alternatives: ["69"]
+    feedback: Lyon est la préfecture de Rhône (69).
+  - id: dept_70_to_pref
+    question: Préfecture de Haute-Saône ?
+    answer: Vesoul
+    feedback: Vesoul est la préfecture de Haute-Saône (70).
+  - id: dept_70_from_pref
+    question: Vesoul est la préfecture de quel département ?
+    answer: Haute-Saône
+    alternatives: ["70"]
+    feedback: Vesoul est la préfecture de Haute-Saône (70).
+  - id: dept_71_to_pref
+    question: Préfecture de Saône-et-Loire ?
+    answer: Mâcon
+    feedback: Mâcon est la préfecture de Saône-et-Loire (71).
+  - id: dept_71_from_pref
+    question: Mâcon est la préfecture de quel département ?
+    answer: Saône-et-Loire
+    alternatives: ["71"]
+    feedback: Mâcon est la préfecture de Saône-et-Loire (71).
+  - id: dept_72_to_pref
+    question: Préfecture de Sarthe ?
+    answer: Le Mans
+    feedback: Le Mans est la préfecture de Sarthe (72).
+  - id: dept_72_from_pref
+    question: Le Mans est la préfecture de quel département ?
+    answer: Sarthe
+    alternatives: ["72"]
+    feedback: Le Mans est la préfecture de Sarthe (72).
+  - id: dept_73_to_pref
+    question: Préfecture de Savoie ?
+    answer: Chambéry
+    feedback: Chambéry est la préfecture de Savoie (73).
+  - id: dept_73_from_pref
+    question: Chambéry est la préfecture de quel département ?
+    answer: Savoie
+    alternatives: ["73"]
+    feedback: Chambéry est la préfecture de Savoie (73).
+  - id: dept_74_to_pref
+    question: Préfecture de Haute-Savoie ?
+    answer: Annecy
+    feedback: Annecy est la préfecture de Haute-Savoie (74).
+  - id: dept_74_from_pref
+    question: Annecy est la préfecture de quel département ?
+    answer: Haute-Savoie
+    alternatives: ["74"]
+    feedback: Annecy est la préfecture de Haute-Savoie (74).
+  - id: dept_75_to_pref
+    question: Préfecture de Paris ?
+    answer: Paris
+    feedback: Paris est la préfecture de Paris (75).
+  - id: dept_75_from_pref
+    question: Paris est la préfecture de quel département ?
+    answer: Paris
+    alternatives: ["75"]
+    feedback: Paris est la préfecture de Paris (75).
+  - id: dept_76_to_pref
+    question: Préfecture de Seine-Maritime ?
+    answer: Rouen
+    feedback: Rouen est la préfecture de Seine-Maritime (76).
+  - id: dept_76_from_pref
+    question: Rouen est la préfecture de quel département ?
+    answer: Seine-Maritime
+    alternatives: ["76"]
+    feedback: Rouen est la préfecture de Seine-Maritime (76).
+  - id: dept_77_to_pref
+    question: Préfecture de Seine-et-Marne ?
+    answer: Melun
+    feedback: Melun est la préfecture de Seine-et-Marne (77).
+  - id: dept_77_from_pref
+    question: Melun est la préfecture de quel département ?
+    answer: Seine-et-Marne
+    alternatives: ["77"]
+    feedback: Melun est la préfecture de Seine-et-Marne (77).
+  - id: dept_78_to_pref
+    question: Préfecture de Yvelines ?
+    answer: Versailles
+    feedback: Versailles est la préfecture de Yvelines (78).
+  - id: dept_78_from_pref
+    question: Versailles est la préfecture de quel département ?
+    answer: Yvelines
+    alternatives: ["78"]
+    feedback: Versailles est la préfecture de Yvelines (78).
+  - id: dept_79_to_pref
+    question: Préfecture de Deux-Sèvres ?
+    answer: Niort
+    feedback: Niort est la préfecture de Deux-Sèvres (79).
+  - id: dept_79_from_pref
+    question: Niort est la préfecture de quel département ?
+    answer: Deux-Sèvres
+    alternatives: ["79"]
+    feedback: Niort est la préfecture de Deux-Sèvres (79).
+  - id: dept_80_to_pref
+    question: Préfecture de Somme ?
+    answer: Amiens
+    feedback: Amiens est la préfecture de Somme (80).
+  - id: dept_80_from_pref
+    question: Amiens est la préfecture de quel département ?
+    answer: Somme
+    alternatives: ["80"]
+    feedback: Amiens est la préfecture de Somme (80).
+  - id: dept_81_to_pref
+    question: Préfecture de Tarn ?
+    answer: Albi
+    feedback: Albi est la préfecture de Tarn (81).
+  - id: dept_81_from_pref
+    question: Albi est la préfecture de quel département ?
+    answer: Tarn
+    alternatives: ["81"]
+    feedback: Albi est la préfecture de Tarn (81).
+  - id: dept_82_to_pref
+    question: Préfecture de Tarn-et-Garonne ?
+    answer: Montauban
+    feedback: Montauban est la préfecture de Tarn-et-Garonne (82).
+  - id: dept_82_from_pref
+    question: Montauban est la préfecture de quel département ?
+    answer: Tarn-et-Garonne
+    alternatives: ["82"]
+    feedback: Montauban est la préfecture de Tarn-et-Garonne (82).
+  - id: dept_83_to_pref
+    question: Préfecture de Var ?
+    answer: Toulon
+    feedback: Toulon est la préfecture de Var (83).
+  - id: dept_83_from_pref
+    question: Toulon est la préfecture de quel département ?
+    answer: Var
+    alternatives: ["83"]
+    feedback: Toulon est la préfecture de Var (83).
+  - id: dept_84_to_pref
+    question: Préfecture de Vaucluse ?
+    answer: Avignon
+    feedback: Avignon est la préfecture de Vaucluse (84).
+  - id: dept_84_from_pref
+    question: Avignon est la préfecture de quel département ?
+    answer: Vaucluse
+    alternatives: ["84"]
+    feedback: Avignon est la préfecture de Vaucluse (84).
+  - id: dept_85_to_pref
+    question: Préfecture de Vendée ?
+    answer: La Roche-sur-Yon
+    feedback: La Roche-sur-Yon est la préfecture de Vendée (85).
+  - id: dept_85_from_pref
+    question: La Roche-sur-Yon est la préfecture de quel département ?
+    answer: Vendée
+    alternatives: ["85"]
+    feedback: La Roche-sur-Yon est la préfecture de Vendée (85).
+  - id: dept_86_to_pref
+    question: Préfecture de Vienne ?
+    answer: Poitiers
+    feedback: Poitiers est la préfecture de Vienne (86).
+  - id: dept_86_from_pref
+    question: Poitiers est la préfecture de quel département ?
+    answer: Vienne
+    alternatives: ["86"]
+    feedback: Poitiers est la préfecture de Vienne (86).
+  - id: dept_87_to_pref
+    question: Préfecture de Haute-Vienne ?
+    answer: Limoges
+    feedback: Limoges est la préfecture de Haute-Vienne (87).
+  - id: dept_87_from_pref
+    question: Limoges est la préfecture de quel département ?
+    answer: Haute-Vienne
+    alternatives: ["87"]
+    feedback: Limoges est la préfecture de Haute-Vienne (87).
+  - id: dept_88_to_pref
+    question: Préfecture de Vosges ?
+    answer: Épinal
+    feedback: Épinal est la préfecture de Vosges (88).
+  - id: dept_88_from_pref
+    question: Épinal est la préfecture de quel département ?
+    answer: Vosges
+    alternatives: ["88"]
+    feedback: Épinal est la préfecture de Vosges (88).
+  - id: dept_89_to_pref
+    question: Préfecture de Yonne ?
+    answer: Auxerre
+    feedback: Auxerre est la préfecture de Yonne (89).
+  - id: dept_89_from_pref
+    question: Auxerre est la préfecture de quel département ?
+    answer: Yonne
+    alternatives: ["89"]
+    feedback: Auxerre est la préfecture de Yonne (89).
+  - id: dept_90_to_pref
+    question: Préfecture de Territoire de Belfort ?
+    answer: Belfort
+    feedback: Belfort est la préfecture de Territoire de Belfort (90).
+  - id: dept_90_from_pref
+    question: Belfort est la préfecture de quel département ?
+    answer: Territoire de Belfort
+    alternatives: ["90"]
+    feedback: Belfort est la préfecture de Territoire de Belfort (90).
+  - id: dept_91_to_pref
+    question: Préfecture de Essonne ?
+    answer: Évry-Courcouronnes
+    feedback: Évry-Courcouronnes est la préfecture de Essonne (91).
+  - id: dept_91_from_pref
+    question: Évry-Courcouronnes est la préfecture de quel département ?
+    answer: Essonne
+    alternatives: ["91"]
+    feedback: Évry-Courcouronnes est la préfecture de Essonne (91).
+  - id: dept_92_to_pref
+    question: Préfecture de Hauts-de-Seine ?
+    answer: Nanterre
+    feedback: Nanterre est la préfecture de Hauts-de-Seine (92).
+  - id: dept_92_from_pref
+    question: Nanterre est la préfecture de quel département ?
+    answer: Hauts-de-Seine
+    alternatives: ["92"]
+    feedback: Nanterre est la préfecture de Hauts-de-Seine (92).
+  - id: dept_93_to_pref
+    question: Préfecture de Seine-Saint-Denis ?
+    answer: Bobigny
+    feedback: Bobigny est la préfecture de Seine-Saint-Denis (93).
+  - id: dept_93_from_pref
+    question: Bobigny est la préfecture de quel département ?
+    answer: Seine-Saint-Denis
+    alternatives: ["93"]
+    feedback: Bobigny est la préfecture de Seine-Saint-Denis (93).
+  - id: dept_94_to_pref
+    question: Préfecture de Val-de-Marne ?
+    answer: Créteil
+    feedback: Créteil est la préfecture de Val-de-Marne (94).
+  - id: dept_94_from_pref
+    question: Créteil est la préfecture de quel département ?
+    answer: Val-de-Marne
+    alternatives: ["94"]
+    feedback: Créteil est la préfecture de Val-de-Marne (94).
+  - id: dept_95_to_pref
+    question: "Préfecture de Val-d'Oise ?"
+    answer: Cergy
+    feedback: "Cergy est la préfecture de Val-d'Oise (95)."
+  - id: dept_95_from_pref
+    question: Cergy est la préfecture de quel département ?
+    answer: "Val-d'Oise"
+    alternatives: ["95"]
+    feedback: "Cergy est la préfecture de Val-d'Oise (95)."

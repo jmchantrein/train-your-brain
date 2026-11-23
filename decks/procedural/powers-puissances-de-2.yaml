@@ -1,0 +1,92 @@
+id: maths-puissances-de-2-jusqu-a-2-12
+name: Maths - Puissances de 2 (2^0 à 2^12)
+description: Les puissances de 2 de 2⁰ à 2¹²
+tags: [math, puissances, informatique, quatrieme]
+category: [sciences, maths, arithmetique, puissances, informatique, quatrieme]
+settings:
+  sequential: false
+  bidirectional: false
+metadata:
+  license: CC-BY-SA-4.0
+  source:
+    type: procedural
+    generator: powers
+    version: 1.0.0
+    generatedAt: "2026-11-22"
+    parameters:
+      type: powers-of-2
+resources:
+  - type: summary
+    title: "Qu'est-ce qu'une puissance ?"
+    content: "Une **puissance** indique combien de fois un nombre est multiplié par lui-même.\n\n**Notation** : aⁿ = a × a × ... × a (n fois)\n\nExemples :\n- 3² = 3 × 3 = 9 (carré de 3)\n- 2³ = 2 × 2 × 2 = 8 (cube de 2)\n- 10⁴ = 10 × 10 × 10 × 10 = 10000\n\nLes puissances sont essentielles en :\n- Sciences (notation scientifique)\n- Informatique (puissances de 2)\n- Géométrie (aires et volumes)"
+    aiGenerated: true
+    icon: 📝
+  - type: link
+    title: "Wikipedia : Puissance"
+    url: https://fr.wikipedia.org/wiki/Puissance_(mathématiques)
+    icon: 📖
+  - type: glossary
+    title: Vocabulaire clé
+    content: "- **Puissance** : Multiplication répétée d'un nombre\n- **Base** : Le nombre qui est multiplié\n- **Exposant** : Le nombre de fois qu'on multiplie\n- **Carré** : Puissance 2 (n²)\n- **Cube** : Puissance 3 (n³)\n- **Racine carrée** : Opération inverse du carré (√)"
+    icon: 📚
+  - type: objective
+    title: "Objectifs d'apprentissage"
+    content: "- ✅ Mémoriser les puissances de 2 de 2⁰ à 2¹²\n- ✅ Comprendre leur importance en informatique\n- ✅ Convertir rapidement"
+    icon: 🎯
+  - type: tip
+    title: Puissances de 2 en informatique
+    content: "Les puissances de 2 sont fondamentales :\n- 2⁸ = 256 (un octet)\n- 2¹⁰ = 1024 ≈ 1 kilo\n- 2²⁰ ≈ 1 méga\n- 2³⁰ ≈ 1 giga\n\nAstuce : chaque puissance double la précédente !"
+    icon: 💡
+cards:
+  - id: pow_2_0
+    question: 2^0 = ?
+    answer: "1"
+    feedback: 2^0 = 1
+  - id: pow_2_1
+    question: 2^1 = ?
+    answer: "2"
+    feedback: 2^1 = 2
+  - id: pow_2_2
+    question: 2^2 = ?
+    answer: "4"
+    feedback: 2^2 = 4
+  - id: pow_2_3
+    question: 2^3 = ?
+    answer: "8"
+    feedback: 2^3 = 8
+  - id: pow_2_4
+    question: 2^4 = ?
+    answer: "16"
+    feedback: 2^4 = 16
+  - id: pow_2_5
+    question: 2^5 = ?
+    answer: "32"
+    feedback: 2^5 = 32
+  - id: pow_2_6
+    question: 2^6 = ?
+    answer: "64"
+    feedback: 2^6 = 64
+  - id: pow_2_7
+    question: 2^7 = ?
+    answer: "128"
+    feedback: 2^7 = 128
+  - id: pow_2_8
+    question: 2^8 = ?
+    answer: "256"
+    feedback: 2^8 = 256
+  - id: pow_2_9
+    question: 2^9 = ?
+    answer: "512"
+    feedback: 2^9 = 512
+  - id: pow_2_10
+    question: 2^10 = ?
+    answer: "1024"
+    feedback: 2^10 = 1024
+  - id: pow_2_11
+    question: 2^11 = ?
+    answer: "2048"
+    feedback: 2^11 = 2048
+  - id: pow_2_12
+    question: 2^12 = ?
+    answer: "4096"
+    feedback: 2^12 = 4096

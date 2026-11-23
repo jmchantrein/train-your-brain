@@ -1,0 +1,79 @@
+name: Cubes (1³ à 10³)
+description: Les cubes des nombres de 1 à 10
+tags: [math, puissances, cubes, cinquieme]
+category: [sciences, maths, arithmetique, puissances, cinquieme]
+settings:
+  sequential: false
+  bidirectional: false
+metadata:
+  license: CC-BY-SA-4.0
+  source:
+    type: procedural
+    generator: powers
+    version: 1.0.0
+    generatedAt: "2026-11-22"
+    parameters:
+      type: cubes
+resources:
+  - type: summary
+    title: "Qu'est-ce qu'une puissance ?"
+    content: "Une **puissance** indique combien de fois un nombre est multiplié par lui-même.\n\n**Notation** : aⁿ = a × a × ... × a (n fois)\n\nExemples :\n- 3² = 3 × 3 = 9 (carré de 3)\n- 2³ = 2 × 2 × 2 = 8 (cube de 2)\n- 10⁴ = 10 × 10 × 10 × 10 = 10000\n\nLes puissances sont essentielles en :\n- Sciences (notation scientifique)\n- Informatique (puissances de 2)\n- Géométrie (aires et volumes)"
+    aiGenerated: true
+    icon: 📝
+  - type: link
+    title: "Wikipedia : Puissance"
+    url: https://fr.wikipedia.org/wiki/Puissance_(mathématiques)
+    icon: 📖
+  - type: glossary
+    title: Vocabulaire clé
+    content: "- **Puissance** : Multiplication répétée d'un nombre\n- **Base** : Le nombre qui est multiplié\n- **Exposant** : Le nombre de fois qu'on multiplie\n- **Carré** : Puissance 2 (n²)\n- **Cube** : Puissance 3 (n³)\n- **Racine carrée** : Opération inverse du carré (√)"
+    icon: 📚
+  - type: objective
+    title: "Objectifs d'apprentissage"
+    content: "- ✅ Mémoriser les cubes de 1 à 10\n- ✅ Comprendre le lien avec les volumes\n- ✅ Calculer mentalement"
+    icon: 🎯
+  - type: tip
+    title: Cubes à retenir
+    content: "Les cubes les plus courants :\n- 1³ = 1\n- 2³ = 8\n- 3³ = 27\n- 4³ = 64\n- 5³ = 125\n- 10³ = 1000"
+    icon: 💡
+cards:
+  - id: pow_cube_1
+    question: 1³ = ?
+    answer: "1"
+    feedback: 1³ = 1 × 1 × 1 = 1
+  - id: pow_cube_2
+    question: 2³ = ?
+    answer: "8"
+    feedback: 2³ = 2 × 2 × 2 = 8
+  - id: pow_cube_3
+    question: 3³ = ?
+    answer: "27"
+    feedback: 3³ = 3 × 3 × 3 = 27
+  - id: pow_cube_4
+    question: 4³ = ?
+    answer: "64"
+    feedback: 4³ = 4 × 4 × 4 = 64
+  - id: pow_cube_5
+    question: 5³ = ?
+    answer: "125"
+    feedback: 5³ = 5 × 5 × 5 = 125
+  - id: pow_cube_6
+    question: 6³ = ?
+    answer: "216"
+    feedback: 6³ = 6 × 6 × 6 = 216
+  - id: pow_cube_7
+    question: 7³ = ?
+    answer: "343"
+    feedback: 7³ = 7 × 7 × 7 = 343
+  - id: pow_cube_8
+    question: 8³ = ?
+    answer: "512"
+    feedback: 8³ = 8 × 8 × 8 = 512
+  - id: pow_cube_9
+    question: 9³ = ?
+    answer: "729"
+    feedback: 9³ = 9 × 9 × 9 = 729
+  - id: pow_cube_10
+    question: 10³ = ?
+    answer: "1000"
+    feedback: 10³ = 10 × 10 × 10 = 1000

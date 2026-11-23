@@ -1,0 +1,496 @@
+id: "regles-de-puissances-en-notation-algebrique-mj4xp8zc"
+name: "Règles de puissances en notation algébrique"
+description: "Deck de flashcards pour maîtriser les règles de calcul des puissances en notation algébrique : produit, quotient, puissance de puissance, exposants négatifs et nuls. Adapté au niveau collège (4ème)."
+category:
+  - "puissances"
+  - "arithmetique"
+  - "maths"
+  - "sciences"
+  - "algebre"
+  - "quatrieme"
+  - "college"
+difficulty: 2
+metadata:
+  license: CC-BY-SA-4.0
+  source:
+    type: ai
+    model: claude
+
+settings:
+  bidirectional: true
+  sequential: false
+  similarityMatching: false
+
+cards:
+  # ==========================================
+  # RÈGLE 1 : Produit de puissances (même base)
+  # ==========================================
+
+  - id: "puis_001"
+    question: "Quelle est la forme simplifiée de $a^n \\times a^m$ ?"
+    type: mcq
+    choices:
+      - id: A
+        text: "$a^{n+m}$"
+      - id: B
+        text: "$a^{n \\times m}$"
+      - id: C
+        text: "$a^{n-m}$"
+      - id: D
+        text: "$(2a)^{n+m}$"
+    answer: "A"
+    hint: "On garde la même base et on fait une opération sur les exposants."
+    feedback: "Quand on multiplie deux puissances de même base, on additionne les exposants : $a^n \\times a^m = a^{n+m}$. Astuce : « multiplier = additionner les exposants »."
+
+  - id: "puis_002"
+    question: "La règle $a^{n+m}$ correspond à quelle opération ?"
+    type: mcq
+    choices:
+      - id: A
+        text: "$a^n \\times a^m$"
+      - id: B
+        text: "$a^n \\div a^m$"
+      - id: C
+        text: "$(a^n)^m$"
+      - id: D
+        text: "$a^n + a^m$"
+    answer: "A"
+    feedback: "L'exposant $n+m$ résulte de la multiplication de deux puissances de même base : $a^n \\times a^m = a^{n+m}$."
+
+  - id: "puis_003"
+    question: "Simplifier : $x^3 \\times x^5$"
+    type: mcq
+    choices:
+      - id: A
+        text: "$x^8$"
+      - id: B
+        text: "$x^{15}$"
+      - id: C
+        text: "$x^2$"
+      - id: D
+        text: "$2x^8$"
+    answer: "A"
+    hint: "Quand on multiplie des puissances de même base..."
+    feedback: "On additionne les exposants : $x^3 \\times x^5 = x^{3+5} = x^8$."
+
+  # ==========================================
+  # RÈGLE 2 : Quotient de puissances (même base)
+  # ==========================================
+
+  - id: "puis_004"
+    question: "Quelle est la forme simplifiée de $\\frac{a^n}{a^m}$ ?"
+    type: mcq
+    choices:
+      - id: A
+        text: "$a^{n-m}$"
+      - id: B
+        text: "$a^{n+m}$"
+      - id: C
+        text: "$a^{\\frac{n}{m}}$"
+      - id: D
+        text: "$a^{n \\times m}$"
+    answer: "A"
+    hint: "On garde la même base et on fait une opération sur les exposants."
+    feedback: "Quand on divise deux puissances de même base, on soustrait les exposants : $\\frac{a^n}{a^m} = a^{n-m}$. Astuce : « diviser = soustraire les exposants »."
+
+  - id: "puis_005"
+    question: "La règle $a^{n-m}$ correspond à quelle opération ?"
+    type: mcq
+    choices:
+      - id: A
+        text: "$\\frac{a^n}{a^m}$"
+      - id: B
+        text: "$a^n \\times a^m$"
+      - id: C
+        text: "$a^n - a^m$"
+      - id: D
+        text: "$(a^n)^m$"
+    answer: "A"
+    feedback: "L'exposant $n-m$ résulte de la division de deux puissances de même base : $\\frac{a^n}{a^m} = a^{n-m}$."
+
+  - id: "puis_006"
+    question: "Simplifier : $\\frac{y^7}{y^4}$"
+    type: mcq
+    choices:
+      - id: A
+        text: "$y^3$"
+      - id: B
+        text: "$y^{11}$"
+      - id: C
+        text: "$y^{28}$"
+      - id: D
+        text: "$y^{\\frac{7}{4}}$"
+    answer: "A"
+    hint: "Quand on divise des puissances de même base..."
+    feedback: "On soustrait les exposants : $\\frac{y^7}{y^4} = y^{7-4} = y^3$."
+
+  # ==========================================
+  # RÈGLE 3 : Puissance d'une puissance
+  # ==========================================
+
+  - id: "puis_007"
+    question: "Quelle est la forme simplifiée de $(a^n)^m$ ?"
+    type: mcq
+    choices:
+      - id: A
+        text: "$a^{n \\times m}$"
+      - id: B
+        text: "$a^{n+m}$"
+      - id: C
+        text: "$a^{n-m}$"
+      - id: D
+        text: "$a^{\\frac{n}{m}}$"
+    answer: "A"
+    hint: "On fait une opération entre les deux exposants."
+    feedback: "Quand on élève une puissance à une puissance, on multiplie les exposants : $(a^n)^m = a^{n \\times m}$. Astuce : « puissance de puissance = multiplier les exposants »."
+
+  - id: "puis_008"
+    question: "La règle $a^{n \\times m}$ correspond à quelle opération ?"
+    type: mcq
+    choices:
+      - id: A
+        text: "$(a^n)^m$"
+      - id: B
+        text: "$a^n \\times a^m$"
+      - id: C
+        text: "$\\frac{a^n}{a^m}$"
+      - id: D
+        text: "$a^n \\times b^m$"
+    answer: "A"
+    feedback: "L'exposant $n \\times m$ résulte d'une puissance élevée à une autre puissance : $(a^n)^m = a^{n \\times m}$."
+
+  - id: "puis_009"
+    question: "Simplifier : $(z^4)^3$"
+    type: mcq
+    choices:
+      - id: A
+        text: "$z^{12}$"
+      - id: B
+        text: "$z^7$"
+      - id: C
+        text: "$z^1$"
+      - id: D
+        text: "$3z^4$"
+    answer: "A"
+    hint: "Puissance d'une puissance..."
+    feedback: "On multiplie les exposants : $(z^4)^3 = z^{4 \\times 3} = z^{12}$."
+
+  # ==========================================
+  # RÈGLE 4 : Puissance d'un produit
+  # ==========================================
+
+  - id: "puis_010"
+    question: "Quelle est la forme développée de $(a \\times b)^n$ ?"
+    type: mcq
+    choices:
+      - id: A
+        text: "$a^n \\times b^n$"
+      - id: B
+        text: "$a^n \\times b$"
+      - id: C
+        text: "$(a \\times b)^{2n}$"
+      - id: D
+        text: "$a \\times b^n$"
+    answer: "A"
+    hint: "La puissance s'applique à chaque facteur du produit."
+    feedback: "Une puissance d'un produit égale le produit des puissances : $(a \\times b)^n = a^n \\times b^n$. On distribue l'exposant sur chaque facteur."
+
+  - id: "puis_011"
+    question: "L'expression $a^n \\times b^n$ peut s'écrire sous la forme :"
+    type: mcq
+    choices:
+      - id: A
+        text: "$(a \\times b)^n$"
+      - id: B
+        text: "$(a \\times b)^{2n}$"
+      - id: C
+        text: "$(a + b)^n$"
+      - id: D
+        text: "$a^n + b^n$"
+    answer: "A"
+    feedback: "Quand deux facteurs ont le même exposant, on peut les regrouper : $a^n \\times b^n = (a \\times b)^n$."
+
+  - id: "puis_012"
+    question: "Développer : $(2x)^3$"
+    type: mcq
+    choices:
+      - id: A
+        text: "$2^3 \\times x^3$"
+      - id: B
+        text: "$2 \\times x^3$"
+      - id: C
+        text: "$2^3 + x^3$"
+      - id: D
+        text: "$6x$"
+    answer: "A"
+    hint: "L'exposant s'applique à chaque facteur à l'intérieur de la parenthèse."
+    feedback: "On applique l'exposant à chaque facteur : $(2x)^3 = 2^3 \\times x^3$."
+
+  # ==========================================
+  # RÈGLE 5 : Puissance d'un quotient
+  # ==========================================
+
+  - id: "puis_013"
+    question: "Quelle est la forme développée de $\\left(\\frac{a}{b}\\right)^n$ ?"
+    type: mcq
+    choices:
+      - id: A
+        text: "$\\frac{a^n}{b^n}$"
+      - id: B
+        text: "$\\frac{a^n}{b}$"
+      - id: C
+        text: "$\\frac{a}{b^n}$"
+      - id: D
+        text: "$\\left(\\frac{a}{b}\\right)^{2n}$"
+    answer: "A"
+    hint: "La puissance s'applique au numérateur ET au dénominateur."
+    feedback: "Une puissance d'un quotient égale le quotient des puissances : $\\left(\\frac{a}{b}\\right)^n = \\frac{a^n}{b^n}$."
+
+  - id: "puis_014"
+    question: "L'expression $\\frac{a^n}{b^n}$ peut s'écrire sous la forme :"
+    type: mcq
+    choices:
+      - id: A
+        text: "$\\left(\\frac{a}{b}\\right)^n$"
+      - id: B
+        text: "$\\left(\\frac{a}{b}\\right)^{2n}$"
+      - id: C
+        text: "$\\frac{a^n - b^n}{1}$"
+      - id: D
+        text: "$(a - b)^n$"
+    answer: "A"
+    feedback: "Quand le numérateur et le dénominateur ont le même exposant, on peut écrire : $\\frac{a^n}{b^n} = \\left(\\frac{a}{b}\\right)^n$."
+
+  # ==========================================
+  # RÈGLE 6 : Exposant nul
+  # ==========================================
+
+  - id: "puis_015"
+    question: "Que vaut $a^0$ (avec $a \\neq 0$) ?"
+    type: mcq
+    choices:
+      - id: A
+        text: "$1$"
+      - id: B
+        text: "$0$"
+      - id: C
+        text: "$a$"
+      - id: D
+        text: "Indéfini"
+    answer: "A"
+    hint: "Pense à $\\frac{a^n}{a^n}$."
+    feedback: "Tout nombre non nul élevé à la puissance 0 vaut 1 : $a^0 = 1$. Explication : $a^0 = \\frac{a^n}{a^n} = a^{n-n} = a^0 = 1$."
+
+  - id: "puis_016"
+    question: "Quelle expression est toujours égale à $1$ (pour $a \\neq 0$) ?"
+    type: mcq
+    choices:
+      - id: A
+        text: "$a^0$"
+      - id: B
+        text: "$a^1$"
+      - id: C
+        text: "$a^{-1}$"
+      - id: D
+        text: "$0^a$"
+    answer: "A"
+    feedback: "Par définition, $a^0 = 1$ pour tout $a \\neq 0$. Attention : $0^0$ est une forme indéterminée."
+
+  # ==========================================
+  # RÈGLE 7 : Exposant négatif
+  # ==========================================
+
+  - id: "puis_017"
+    question: "Quelle est la forme équivalente de $a^{-n}$ ?"
+    type: mcq
+    choices:
+      - id: A
+        text: "$\\frac{1}{a^n}$"
+      - id: B
+        text: "$-a^n$"
+      - id: C
+        text: "$\\frac{a}{n}$"
+      - id: D
+        text: "$(-a)^n$"
+    answer: "A"
+    hint: "Un exposant négatif « inverse » la puissance."
+    feedback: "Un exposant négatif signifie l'inverse : $a^{-n} = \\frac{1}{a^n}$. Astuce : l'exposant négatif fait « passer de l'autre côté de la barre de fraction »."
+
+  - id: "puis_018"
+    question: "L'expression $\\frac{1}{a^n}$ peut s'écrire sous la forme :"
+    type: mcq
+    choices:
+      - id: A
+        text: "$a^{-n}$"
+      - id: B
+        text: "$-a^n$"
+      - id: C
+        text: "$a^{\\frac{1}{n}}$"
+      - id: D
+        text: "$(-a)^n$"
+    answer: "A"
+    feedback: "L'inverse d'une puissance s'écrit avec un exposant négatif : $\\frac{1}{a^n} = a^{-n}$."
+
+  - id: "puis_019"
+    question: "Simplifier : $x^{-2}$"
+    type: mcq
+    choices:
+      - id: A
+        text: "$\\frac{1}{x^2}$"
+      - id: B
+        text: "$-x^2$"
+      - id: C
+        text: "$\\frac{x}{2}$"
+      - id: D
+        text: "$(-x)^2$"
+    answer: "A"
+    hint: "L'exposant négatif transforme en inverse."
+    feedback: "$x^{-2} = \\frac{1}{x^2}$. L'exposant négatif place la puissance au dénominateur."
+
+  - id: "puis_020"
+    question: "Que vaut $a^{-1}$ ?"
+    type: mcq
+    choices:
+      - id: A
+        text: "$\\frac{1}{a}$"
+      - id: B
+        text: "$-a$"
+      - id: C
+        text: "$-1$"
+      - id: D
+        text: "$a$"
+    answer: "A"
+    feedback: "$a^{-1} = \\frac{1}{a^1} = \\frac{1}{a}$. C'est l'inverse de $a$."
+
+  # ==========================================
+  # RÈGLE 8 : Exposant 1
+  # ==========================================
+
+  - id: "puis_021"
+    question: "Que vaut $a^1$ ?"
+    type: mcq
+    choices:
+      - id: A
+        text: "$a$"
+      - id: B
+        text: "$1$"
+      - id: C
+        text: "$0$"
+      - id: D
+        text: "$a + 1$"
+    answer: "A"
+    feedback: "Tout nombre élevé à la puissance 1 est égal à lui-même : $a^1 = a$."
+
+  # ==========================================
+  # QUESTIONS DE SYNTHÈSE ET PIÈGES COURANTS
+  # ==========================================
+
+  - id: "puis_022"
+    question: "Attention aux erreurs ! Que vaut $a^2 \\times a^3$ ?"
+    type: mcq
+    choices:
+      - id: A
+        text: "$a^5$"
+      - id: B
+        text: "$a^6$"
+      - id: C
+        text: "$2a^5$"
+      - id: D
+        text: "$a^{23}$"
+    answer: "A"
+    hint: "On additionne les exposants, on ne les multiplie pas."
+    feedback: "Erreur fréquente : multiplier les exposants au lieu de les additionner. La bonne réponse est $a^2 \\times a^3 = a^{2+3} = a^5$."
+
+  - id: "puis_023"
+    question: "Attention aux erreurs ! Que vaut $(a^2)^3$ ?"
+    type: mcq
+    choices:
+      - id: A
+        text: "$a^6$"
+      - id: B
+        text: "$a^5$"
+      - id: C
+        text: "$a^9$"
+      - id: D
+        text: "$a^{23}$"
+    answer: "A"
+    hint: "C'est une puissance DE puissance : on multiplie les exposants."
+    feedback: "Erreur fréquente : additionner les exposants au lieu de les multiplier. La bonne réponse est $(a^2)^3 = a^{2 \\times 3} = a^6$."
+
+  - id: "puis_024"
+    question: "Quelle règle utilise-t-on pour simplifier $\\frac{b^8}{b^3}$ ?"
+    type: mcq
+    choices:
+      - id: A
+        text: "On soustrait les exposants : $b^{8-3}$"
+      - id: B
+        text: "On additionne les exposants : $b^{8+3}$"
+      - id: C
+        text: "On multiplie les exposants : $b^{8 \\times 3}$"
+      - id: D
+        text: "On divise les exposants : $b^{\\frac{8}{3}}$"
+    answer: "A"
+    feedback: "Pour un quotient de puissances de même base, on soustrait les exposants : $\\frac{b^8}{b^3} = b^{8-3} = b^5$."
+
+  - id: "puis_025"
+    question: "Simplifier : $\\frac{a^5 \\times a^2}{a^3}$"
+    type: mcq
+    choices:
+      - id: A
+        text: "$a^4$"
+      - id: B
+        text: "$a^{10}$"
+      - id: C
+        text: "$a^0$"
+      - id: D
+        text: "$a^6$"
+    answer: "A"
+    hint: "D'abord simplifier le numérateur, puis diviser."
+    feedback: "Étape 1 : $a^5 \\times a^2 = a^7$. Étape 2 : $\\frac{a^7}{a^3} = a^{7-3} = a^4$."
+
+  - id: "puis_026"
+    question: "Écrire $\\frac{1}{x^3}$ avec un exposant négatif :"
+    type: mcq
+    choices:
+      - id: A
+        text: "$x^{-3}$"
+      - id: B
+        text: "$-x^3$"
+      - id: C
+        text: "$x^{-\\frac{1}{3}}$"
+      - id: D
+        text: "$(-x)^3$"
+    answer: "A"
+    feedback: "$\\frac{1}{x^3} = x^{-3}$. L'inverse d'une puissance s'écrit avec l'opposé de l'exposant."
+
+  - id: "puis_027"
+    question: "Quelle affirmation est FAUSSE ?"
+    type: mcq
+    choices:
+      - id: A
+        text: "$a^0 = 0$"
+      - id: B
+        text: "$a^1 = a$"
+      - id: C
+        text: "$a^{-1} = \\frac{1}{a}$"
+      - id: D
+        text: "$(ab)^n = a^n \\times b^n$"
+    answer: "A"
+    hint: "Une seule de ces affirmations contient une erreur classique."
+    feedback: "L'affirmation FAUSSE est « $a^0 = 0$ ». En réalité, $a^0 = 1$ (pour $a \\neq 0$). C'est une erreur très courante de confondre l'exposant 0 avec le résultat 0."
+
+  - id: "puis_028"
+    question: "Simplifier $(a^{-2})^3$ :"
+    type: mcq
+    choices:
+      - id: A
+        text: "$a^{-6}$"
+      - id: B
+        text: "$a^{-5}$"
+      - id: C
+        text: "$a^1$"
+      - id: D
+        text: "$a^6$"
+    answer: "A"
+    hint: "Puissance d'une puissance : on multiplie les exposants."
+    feedback: "$(a^{-2})^3 = a^{(-2) \\times 3} = a^{-6}$. On peut aussi écrire $a^{-6} = \\frac{1}{a^6}$."

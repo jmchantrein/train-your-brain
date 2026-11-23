@@ -1,0 +1,73 @@
+name: Chiffres romains - Symboles
+description: "Les 7 symboles de base (I, V, X, L, C, D, M)"
+tags: [sciences, maths, arithmetique, chiffres-romains, numeration, ce2]
+category: [sciences, maths, arithmetique, ce2]
+settings:
+  sequential: true
+  bidirectional: false
+metadata:
+  license: CC-BY-SA-4.0
+  source:
+    type: procedural
+    generator: roman-numerals
+    version: 1.0.0
+    generatedAt: "2026-11-22"
+    parameters:
+      type: symbols
+cards:
+  - id: roman_sym_I_to_val
+    question: Quelle est la valeur du symbole romain I ?
+    answer: "1"
+    feedback: I = 1
+  - id: roman_val_1_to_sym
+    question: Quel symbole romain représente 1 ?
+    answer: I
+    feedback: 1 = I
+  - id: roman_sym_V_to_val
+    question: Quelle est la valeur du symbole romain V ?
+    answer: "5"
+    feedback: V = 5
+  - id: roman_val_5_to_sym
+    question: Quel symbole romain représente 5 ?
+    answer: V
+    feedback: 5 = V
+  - id: roman_sym_X_to_val
+    question: Quelle est la valeur du symbole romain X ?
+    answer: "10"
+    feedback: X = 10
+  - id: roman_val_10_to_sym
+    question: Quel symbole romain représente 10 ?
+    answer: X
+    feedback: 10 = X
+  - id: roman_sym_L_to_val
+    question: Quelle est la valeur du symbole romain L ?
+    answer: "50"
+    feedback: L = 50
+  - id: roman_val_50_to_sym
+    question: Quel symbole romain représente 50 ?
+    answer: L
+    feedback: 50 = L
+  - id: roman_sym_C_to_val
+    question: Quelle est la valeur du symbole romain C ?
+    answer: "100"
+    feedback: C = 100
+  - id: roman_val_100_to_sym
+    question: Quel symbole romain représente 100 ?
+    answer: C
+    feedback: 100 = C
+  - id: roman_sym_D_to_val
+    question: Quelle est la valeur du symbole romain D ?
+    answer: "500"
+    feedback: D = 500
+  - id: roman_val_500_to_sym
+    question: Quel symbole romain représente 500 ?
+    answer: D
+    feedback: 500 = D
+  - id: roman_sym_M_to_val
+    question: Quelle est la valeur du symbole romain M ?
+    answer: "1000"
+    feedback: M = 1000
+  - id: roman_val_1000_to_sym
+    question: Quel symbole romain représente 1000 ?
+    answer: M
+    feedback: 1000 = M

@@ -1,0 +1,121 @@
+name: Musique - Intervalles
+description: Intervalles musicaux et demi-tons
+tags: [musique, solfege, intervalles, autodidacte]
+category: [musique, solfege, intervalles, autodidacte]
+settings:
+  sequential: true
+  bidirectional: false
+metadata:
+  license: CC-BY-SA-4.0
+  source:
+    type: procedural
+    generator: notes-intervals
+    version: 1.0.0
+    generatedAt: "2026-11-22"
+    parameters:
+      type: intervals
+cards:
+  - id: interval_st_0_to_name
+    question: Quel intervalle fait 0 demi-ton ?
+    answer: unisson
+    feedback: 0 demi-ton = unisson
+  - id: interval_name_0_to_st
+    question: Combien de demi-tons dans un unisson ?
+    answer: "0"
+    feedback: unisson = 0 demi-ton
+  - id: interval_st_1_to_name
+    question: Quel intervalle fait 1 demi-ton ?
+    answer: seconde mineure
+    feedback: 1 demi-ton = seconde mineure
+  - id: interval_name_1_to_st
+    question: Combien de demi-tons dans une seconde mineure ?
+    answer: "1"
+    feedback: seconde mineure = 1 demi-ton
+  - id: interval_st_2_to_name
+    question: Quel intervalle fait 2 demi-tons ?
+    answer: seconde majeure
+    feedback: 2 demi-tons = seconde majeure
+  - id: interval_name_2_to_st
+    question: Combien de demi-tons dans une seconde majeure ?
+    answer: "2"
+    feedback: seconde majeure = 2 demi-tons
+  - id: interval_st_3_to_name
+    question: Quel intervalle fait 3 demi-tons ?
+    answer: tierce mineure
+    feedback: 3 demi-tons = tierce mineure
+  - id: interval_name_3_to_st
+    question: Combien de demi-tons dans une tierce mineure ?
+    answer: "3"
+    feedback: tierce mineure = 3 demi-tons
+  - id: interval_st_4_to_name
+    question: Quel intervalle fait 4 demi-tons ?
+    answer: tierce majeure
+    feedback: 4 demi-tons = tierce majeure
+  - id: interval_name_4_to_st
+    question: Combien de demi-tons dans une tierce majeure ?
+    answer: "4"
+    feedback: tierce majeure = 4 demi-tons
+  - id: interval_st_5_to_name
+    question: Quel intervalle fait 5 demi-tons ?
+    answer: quarte juste
+    feedback: 5 demi-tons = quarte juste
+  - id: interval_name_5_to_st
+    question: Combien de demi-tons dans une quarte juste ?
+    answer: "5"
+    feedback: quarte juste = 5 demi-tons
+  - id: interval_st_6_to_name
+    question: Quel intervalle fait 6 demi-tons ?
+    answer: triton
+    feedback: 6 demi-tons = triton
+  - id: interval_name_6_to_st
+    question: Combien de demi-tons dans un triton ?
+    answer: "6"
+    feedback: triton = 6 demi-tons
+  - id: interval_st_7_to_name
+    question: Quel intervalle fait 7 demi-tons ?
+    answer: quinte juste
+    feedback: 7 demi-tons = quinte juste
+  - id: interval_name_7_to_st
+    question: Combien de demi-tons dans une quinte juste ?
+    answer: "7"
+    feedback: quinte juste = 7 demi-tons
+  - id: interval_st_8_to_name
+    question: Quel intervalle fait 8 demi-tons ?
+    answer: sixte mineure
+    feedback: 8 demi-tons = sixte mineure
+  - id: interval_name_8_to_st
+    question: Combien de demi-tons dans une sixte mineure ?
+    answer: "8"
+    feedback: sixte mineure = 8 demi-tons
+  - id: interval_st_9_to_name
+    question: Quel intervalle fait 9 demi-tons ?
+    answer: sixte majeure
+    feedback: 9 demi-tons = sixte majeure
+  - id: interval_name_9_to_st
+    question: Combien de demi-tons dans une sixte majeure ?
+    answer: "9"
+    feedback: sixte majeure = 9 demi-tons
+  - id: interval_st_10_to_name
+    question: Quel intervalle fait 10 demi-tons ?
+    answer: septième mineure
+    feedback: 10 demi-tons = septième mineure
+  - id: interval_name_10_to_st
+    question: Combien de demi-tons dans une septième mineure ?
+    answer: "10"
+    feedback: septième mineure = 10 demi-tons
+  - id: interval_st_11_to_name
+    question: Quel intervalle fait 11 demi-tons ?
+    answer: septième majeure
+    feedback: 11 demi-tons = septième majeure
+  - id: interval_name_11_to_st
+    question: Combien de demi-tons dans une septième majeure ?
+    answer: "11"
+    feedback: septième majeure = 11 demi-tons
+  - id: interval_st_12_to_name
+    question: Quel intervalle fait 12 demi-tons ?
+    answer: octave
+    feedback: 12 demi-tons = octave
+  - id: interval_name_12_to_st
+    question: Combien de demi-tons dans une octave ?
+    answer: "12"
+    feedback: octave = 12 demi-tons

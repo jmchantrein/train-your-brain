@@ -1,0 +1,129 @@
+name: Musique - Notes
+description: Noms des notes en français et anglais
+tags: [musique, solfege, notes, autodidacte]
+category: [musique, solfege, notes, autodidacte]
+settings:
+  sequential: false
+  bidirectional: false
+metadata:
+  license: CC-BY-SA-4.0
+  source:
+    type: procedural
+    generator: notes-intervals
+    version: 1.0.0
+    generatedAt: "2026-11-22"
+    parameters:
+      type: notes
+cards:
+  - id: note_fr_to_en_0
+    question: "\"do\" en notation anglaise ?"
+    answer: C
+    feedback: do = C
+  - id: note_en_to_fr_0
+    question: "\"C\" en notation française ?"
+    answer: do
+    feedback: C = do
+  - id: note_fr_to_en_1
+    question: "\"ré\" en notation anglaise ?"
+    answer: D
+    feedback: ré = D
+  - id: note_en_to_fr_1
+    question: "\"D\" en notation française ?"
+    answer: ré
+    feedback: D = ré
+  - id: note_fr_to_en_2
+    question: "\"mi\" en notation anglaise ?"
+    answer: E
+    feedback: mi = E
+  - id: note_en_to_fr_2
+    question: "\"E\" en notation française ?"
+    answer: mi
+    feedback: E = mi
+  - id: note_fr_to_en_3
+    question: "\"fa\" en notation anglaise ?"
+    answer: F
+    feedback: fa = F
+  - id: note_en_to_fr_3
+    question: "\"F\" en notation française ?"
+    answer: fa
+    feedback: F = fa
+  - id: note_fr_to_en_4
+    question: "\"sol\" en notation anglaise ?"
+    answer: G
+    feedback: sol = G
+  - id: note_en_to_fr_4
+    question: "\"G\" en notation française ?"
+    answer: sol
+    feedback: G = sol
+  - id: note_fr_to_en_5
+    question: "\"la\" en notation anglaise ?"
+    answer: A
+    feedback: la = A
+  - id: note_en_to_fr_5
+    question: "\"A\" en notation française ?"
+    answer: la
+    feedback: A = la
+  - id: note_fr_to_en_6
+    question: "\"si\" en notation anglaise ?"
+    answer: B
+    feedback: si = B
+  - id: note_en_to_fr_6
+    question: "\"B\" en notation française ?"
+    answer: si
+    feedback: B = si
+  - id: note_next_0
+    question: Quelle note vient après do ?
+    answer: ré
+    feedback: do → ré
+  - id: note_prev_0
+    question: Quelle note vient avant do ?
+    answer: si
+    feedback: si → do
+  - id: note_next_1
+    question: Quelle note vient après ré ?
+    answer: mi
+    feedback: ré → mi
+  - id: note_prev_1
+    question: Quelle note vient avant ré ?
+    answer: do
+    feedback: do → ré
+  - id: note_next_2
+    question: Quelle note vient après mi ?
+    answer: fa
+    feedback: mi → fa
+  - id: note_prev_2
+    question: Quelle note vient avant mi ?
+    answer: ré
+    feedback: ré → mi
+  - id: note_next_3
+    question: Quelle note vient après fa ?
+    answer: sol
+    feedback: fa → sol
+  - id: note_prev_3
+    question: Quelle note vient avant fa ?
+    answer: mi
+    feedback: mi → fa
+  - id: note_next_4
+    question: Quelle note vient après sol ?
+    answer: la
+    feedback: sol → la
+  - id: note_prev_4
+    question: Quelle note vient avant sol ?
+    answer: fa
+    feedback: fa → sol
+  - id: note_next_5
+    question: Quelle note vient après la ?
+    answer: si
+    feedback: la → si
+  - id: note_prev_5
+    question: Quelle note vient avant la ?
+    answer: sol
+    feedback: sol → la
+  - id: note_next_6
+    question: Quelle note vient après si ?
+    answer: do
+    feedback: si → do
+  - id: note_prev_6
+    question: Quelle note vient avant si ?
+    answer: la
+    feedback: la → si

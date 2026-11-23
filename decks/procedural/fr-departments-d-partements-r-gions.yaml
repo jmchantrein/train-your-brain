@@ -1,0 +1,421 @@
+name: Départements - Régions
+description: Associer chaque département à sa région
+tags: [geographie, france, departements, regions, culture-generale, cinquieme]
+category: [geographie, culture-generale, cinquieme]
+settings:
+  sequential: false
+  bidirectional: false
+metadata:
+  license: CC-BY-SA-4.0
+  source:
+    type: procedural
+    generator: fr-departments
+    version: 1.0.0
+    generatedAt: "2026-11-22"
+    parameters:
+      type: regions
+cards:
+  - id: dept_01_to_region
+    question: Dans quelle région se trouve Ain ?
+    answer: Auvergne-Rhône-Alpes
+    feedback: Ain (01) est dans la région Auvergne-Rhône-Alpes.
+  - id: dept_02_to_region
+    question: Dans quelle région se trouve Aisne ?
+    answer: Hauts-de-France
+    feedback: Aisne (02) est dans la région Hauts-de-France.
+  - id: dept_03_to_region
+    question: Dans quelle région se trouve Allier ?
+    answer: Auvergne-Rhône-Alpes
+    feedback: Allier (03) est dans la région Auvergne-Rhône-Alpes.
+  - id: dept_04_to_region
+    question: Dans quelle région se trouve Alpes-de-Haute-Provence ?
+    answer: "Provence-Alpes-Côte d'Azur"
+    feedback: "Alpes-de-Haute-Provence (04) est dans la région Provence-Alpes-Côte d'Azur."
+  - id: dept_05_to_region
+    question: Dans quelle région se trouve Hautes-Alpes ?
+    answer: "Provence-Alpes-Côte d'Azur"
+    feedback: "Hautes-Alpes (05) est dans la région Provence-Alpes-Côte d'Azur."
+  - id: dept_06_to_region
+    question: Dans quelle région se trouve Alpes-Maritimes ?
+    answer: "Provence-Alpes-Côte d'Azur"
+    feedback: "Alpes-Maritimes (06) est dans la région Provence-Alpes-Côte d'Azur."
+  - id: dept_07_to_region
+    question: Dans quelle région se trouve Ardèche ?
+    answer: Auvergne-Rhône-Alpes
+    feedback: Ardèche (07) est dans la région Auvergne-Rhône-Alpes.
+  - id: dept_08_to_region
+    question: Dans quelle région se trouve Ardennes ?
+    answer: Grand Est
+    feedback: Ardennes (08) est dans la région Grand Est.
+  - id: dept_09_to_region
+    question: Dans quelle région se trouve Ariège ?
+    answer: Occitanie
+    feedback: Ariège (09) est dans la région Occitanie.
+  - id: dept_10_to_region
+    question: Dans quelle région se trouve Aube ?
+    answer: Grand Est
+    feedback: Aube (10) est dans la région Grand Est.
+  - id: dept_11_to_region
+    question: Dans quelle région se trouve Aude ?
+    answer: Occitanie
+    feedback: Aude (11) est dans la région Occitanie.
+  - id: dept_12_to_region
+    question: Dans quelle région se trouve Aveyron ?
+    answer: Occitanie
+    feedback: Aveyron (12) est dans la région Occitanie.
+  - id: dept_13_to_region
+    question: Dans quelle région se trouve Bouches-du-Rhône ?
+    answer: "Provence-Alpes-Côte d'Azur"
+    feedback: "Bouches-du-Rhône (13) est dans la région Provence-Alpes-Côte d'Azur."
+  - id: dept_14_to_region
+    question: Dans quelle région se trouve Calvados ?
+    answer: Normandie
+    feedback: Calvados (14) est dans la région Normandie.
+  - id: dept_15_to_region
+    question: Dans quelle région se trouve Cantal ?
+    answer: Auvergne-Rhône-Alpes
+    feedback: Cantal (15) est dans la région Auvergne-Rhône-Alpes.
+  - id: dept_16_to_region
+    question: Dans quelle région se trouve Charente ?
+    answer: Nouvelle-Aquitaine
+    feedback: Charente (16) est dans la région Nouvelle-Aquitaine.
+  - id: dept_17_to_region
+    question: Dans quelle région se trouve Charente-Maritime ?
+    answer: Nouvelle-Aquitaine
+    feedback: Charente-Maritime (17) est dans la région Nouvelle-Aquitaine.
+  - id: dept_18_to_region
+    question: Dans quelle région se trouve Cher ?
+    answer: Centre-Val de Loire
+    feedback: Cher (18) est dans la région Centre-Val de Loire.
+  - id: dept_19_to_region
+    question: Dans quelle région se trouve Corrèze ?
+    answer: Nouvelle-Aquitaine
+    feedback: Corrèze (19) est dans la région Nouvelle-Aquitaine.
+  - id: dept_2A_to_region
+    question: Dans quelle région se trouve Corse-du-Sud ?
+    answer: Corse
+    feedback: Corse-du-Sud (2A) est dans la région Corse.
+  - id: dept_2B_to_region
+    question: Dans quelle région se trouve Haute-Corse ?
+    answer: Corse
+    feedback: Haute-Corse (2B) est dans la région Corse.
+  - id: dept_21_to_region
+    question: "Dans quelle région se trouve Côte-d'Or ?"
+    answer: Bourgogne-Franche-Comté
+    feedback: "Côte-d'Or (21) est dans la région Bourgogne-Franche-Comté."
+  - id: dept_22_to_region
+    question: "Dans quelle région se trouve Côtes-d'Armor ?"
+    answer: Bretagne
+    feedback: "Côtes-d'Armor (22) est dans la région Bretagne."
+  - id: dept_23_to_region
+    question: Dans quelle région se trouve Creuse ?
+    answer: Nouvelle-Aquitaine
+    feedback: Creuse (23) est dans la région Nouvelle-Aquitaine.
+  - id: dept_24_to_region
+    question: Dans quelle région se trouve Dordogne ?
+    answer: Nouvelle-Aquitaine
+    feedback: Dordogne (24) est dans la région Nouvelle-Aquitaine.
+  - id: dept_25_to_region
+    question: Dans quelle région se trouve Doubs ?
+    answer: Bourgogne-Franche-Comté
+    feedback: Doubs (25) est dans la région Bourgogne-Franche-Comté.
+  - id: dept_26_to_region
+    question: Dans quelle région se trouve Drôme ?
+    answer: Auvergne-Rhône-Alpes
+    feedback: Drôme (26) est dans la région Auvergne-Rhône-Alpes.
+  - id: dept_27_to_region
+    question: Dans quelle région se trouve Eure ?
+    answer: Normandie
+    feedback: Eure (27) est dans la région Normandie.
+  - id: dept_28_to_region
+    question: Dans quelle région se trouve Eure-et-Loir ?
+    answer: Centre-Val de Loire
+    feedback: Eure-et-Loir (28) est dans la région Centre-Val de Loire.
+  - id: dept_29_to_region
+    question: Dans quelle région se trouve Finistère ?
+    answer: Bretagne
+    feedback: Finistère (29) est dans la région Bretagne.
+  - id: dept_30_to_region
+    question: Dans quelle région se trouve Gard ?
+    answer: Occitanie
+    feedback: Gard (30) est dans la région Occitanie.
+  - id: dept_31_to_region
+    question: Dans quelle région se trouve Haute-Garonne ?
+    answer: Occitanie
+    feedback: Haute-Garonne (31) est dans la région Occitanie.
+  - id: dept_32_to_region
+    question: Dans quelle région se trouve Gers ?
+    answer: Occitanie
+    feedback: Gers (32) est dans la région Occitanie.
+  - id: dept_33_to_region
+    question: Dans quelle région se trouve Gironde ?
+    answer: Nouvelle-Aquitaine
+    feedback: Gironde (33) est dans la région Nouvelle-Aquitaine.
+  - id: dept_34_to_region
+    question: Dans quelle région se trouve Hérault ?
+    answer: Occitanie
+    feedback: Hérault (34) est dans la région Occitanie.
+  - id: dept_35_to_region
+    question: Dans quelle région se trouve Ille-et-Vilaine ?
+    answer: Bretagne
+    feedback: Ille-et-Vilaine (35) est dans la région Bretagne.
+  - id: dept_36_to_region
+    question: Dans quelle région se trouve Indre ?
+    answer: Centre-Val de Loire
+    feedback: Indre (36) est dans la région Centre-Val de Loire.
+  - id: dept_37_to_region
+    question: Dans quelle région se trouve Indre-et-Loire ?
+    answer: Centre-Val de Loire
+    feedback: Indre-et-Loire (37) est dans la région Centre-Val de Loire.
+  - id: dept_38_to_region
+    question: Dans quelle région se trouve Isère ?
+    answer: Auvergne-Rhône-Alpes
+    feedback: Isère (38) est dans la région Auvergne-Rhône-Alpes.
+  - id: dept_39_to_region
+    question: Dans quelle région se trouve Jura ?
+    answer: Bourgogne-Franche-Comté
+    feedback: Jura (39) est dans la région Bourgogne-Franche-Comté.
+  - id: dept_40_to_region
+    question: Dans quelle région se trouve Landes ?
+    answer: Nouvelle-Aquitaine
+    feedback: Landes (40) est dans la région Nouvelle-Aquitaine.
+  - id: dept_41_to_region
+    question: Dans quelle région se trouve Loir-et-Cher ?
+    answer: Centre-Val de Loire
+    feedback: Loir-et-Cher (41) est dans la région Centre-Val de Loire.
+  - id: dept_42_to_region
+    question: Dans quelle région se trouve Loire ?
+    answer: Auvergne-Rhône-Alpes
+    feedback: Loire (42) est dans la région Auvergne-Rhône-Alpes.
+  - id: dept_43_to_region
+    question: Dans quelle région se trouve Haute-Loire ?
+    answer: Auvergne-Rhône-Alpes
+    feedback: Haute-Loire (43) est dans la région Auvergne-Rhône-Alpes.
+  - id: dept_44_to_region
+    question: Dans quelle région se trouve Loire-Atlantique ?
+    answer: Pays de la Loire
+    feedback: Loire-Atlantique (44) est dans la région Pays de la Loire.
+  - id: dept_45_to_region
+    question: Dans quelle région se trouve Loiret ?
+    answer: Centre-Val de Loire
+    feedback: Loiret (45) est dans la région Centre-Val de Loire.
+  - id: dept_46_to_region
+    question: Dans quelle région se trouve Lot ?
+    answer: Occitanie
+    feedback: Lot (46) est dans la région Occitanie.
+  - id: dept_47_to_region
+    question: Dans quelle région se trouve Lot-et-Garonne ?
+    answer: Nouvelle-Aquitaine
+    feedback: Lot-et-Garonne (47) est dans la région Nouvelle-Aquitaine.
+  - id: dept_48_to_region
+    question: Dans quelle région se trouve Lozère ?
+    answer: Occitanie
+    feedback: Lozère (48) est dans la région Occitanie.
+  - id: dept_49_to_region
+    question: Dans quelle région se trouve Maine-et-Loire ?
+    answer: Pays de la Loire
+    feedback: Maine-et-Loire (49) est dans la région Pays de la Loire.
+  - id: dept_50_to_region
+    question: Dans quelle région se trouve Manche ?
+    answer: Normandie
+    feedback: Manche (50) est dans la région Normandie.
+  - id: dept_51_to_region
+    question: Dans quelle région se trouve Marne ?
+    answer: Grand Est
+    feedback: Marne (51) est dans la région Grand Est.
+  - id: dept_52_to_region
+    question: Dans quelle région se trouve Haute-Marne ?
+    answer: Grand Est
+    feedback: Haute-Marne (52) est dans la région Grand Est.
+  - id: dept_53_to_region
+    question: Dans quelle région se trouve Mayenne ?
+    answer: Pays de la Loire
+    feedback: Mayenne (53) est dans la région Pays de la Loire.
+  - id: dept_54_to_region
+    question: Dans quelle région se trouve Meurthe-et-Moselle ?
+    answer: Grand Est
+    feedback: Meurthe-et-Moselle (54) est dans la région Grand Est.
+  - id: dept_55_to_region
+    question: Dans quelle région se trouve Meuse ?
+    answer: Grand Est
+    feedback: Meuse (55) est dans la région Grand Est.
+  - id: dept_56_to_region
+    question: Dans quelle région se trouve Morbihan ?
+    answer: Bretagne
+    feedback: Morbihan (56) est dans la région Bretagne.
+  - id: dept_57_to_region
+    question: Dans quelle région se trouve Moselle ?
+    answer: Grand Est
+    feedback: Moselle (57) est dans la région Grand Est.
+  - id: dept_58_to_region
+    question: Dans quelle région se trouve Nièvre ?
+    answer: Bourgogne-Franche-Comté
+    feedback: Nièvre (58) est dans la région Bourgogne-Franche-Comté.
+  - id: dept_59_to_region
+    question: Dans quelle région se trouve Nord ?
+    answer: Hauts-de-France
+    feedback: Nord (59) est dans la région Hauts-de-France.
+  - id: dept_60_to_region
+    question: Dans quelle région se trouve Oise ?
+    answer: Hauts-de-France
+    feedback: Oise (60) est dans la région Hauts-de-France.
+  - id: dept_61_to_region
+    question: Dans quelle région se trouve Orne ?
+    answer: Normandie
+    feedback: Orne (61) est dans la région Normandie.
+  - id: dept_62_to_region
+    question: Dans quelle région se trouve Pas-de-Calais ?
+    answer: Hauts-de-France
+    feedback: Pas-de-Calais (62) est dans la région Hauts-de-France.
+  - id: dept_63_to_region
+    question: Dans quelle région se trouve Puy-de-Dôme ?
+    answer: Auvergne-Rhône-Alpes
+    feedback: Puy-de-Dôme (63) est dans la région Auvergne-Rhône-Alpes.
+  - id: dept_64_to_region
+    question: Dans quelle région se trouve Pyrénées-Atlantiques ?
+    answer: Nouvelle-Aquitaine
+    feedback: Pyrénées-Atlantiques (64) est dans la région Nouvelle-Aquitaine.
+  - id: dept_65_to_region
+    question: Dans quelle région se trouve Hautes-Pyrénées ?
+    answer: Occitanie
+    feedback: Hautes-Pyrénées (65) est dans la région Occitanie.
+  - id: dept_66_to_region
+    question: Dans quelle région se trouve Pyrénées-Orientales ?
+    answer: Occitanie
+    feedback: Pyrénées-Orientales (66) est dans la région Occitanie.
+  - id: dept_67_to_region
+    question: Dans quelle région se trouve Bas-Rhin ?
+    answer: Grand Est
+    feedback: Bas-Rhin (67) est dans la région Grand Est.
+  - id: dept_68_to_region
+    question: Dans quelle région se trouve Haut-Rhin ?
+    answer: Grand Est
+    feedback: Haut-Rhin (68) est dans la région Grand Est.
+  - id: dept_69_to_region
+    question: Dans quelle région se trouve Rhône ?
+    answer: Auvergne-Rhône-Alpes
+    feedback: Rhône (69) est dans la région Auvergne-Rhône-Alpes.
+  - id: dept_70_to_region
+    question: Dans quelle région se trouve Haute-Saône ?
+    answer: Bourgogne-Franche-Comté
+    feedback: Haute-Saône (70) est dans la région Bourgogne-Franche-Comté.
+  - id: dept_71_to_region
+    question: Dans quelle région se trouve Saône-et-Loire ?
+    answer: Bourgogne-Franche-Comté
+    feedback: Saône-et-Loire (71) est dans la région Bourgogne-Franche-Comté.
+  - id: dept_72_to_region
+    question: Dans quelle région se trouve Sarthe ?
+    answer: Pays de la Loire
+    feedback: Sarthe (72) est dans la région Pays de la Loire.
+  - id: dept_73_to_region
+    question: Dans quelle région se trouve Savoie ?
+    answer: Auvergne-Rhône-Alpes
+    feedback: Savoie (73) est dans la région Auvergne-Rhône-Alpes.
+  - id: dept_74_to_region
+    question: Dans quelle région se trouve Haute-Savoie ?
+    answer: Auvergne-Rhône-Alpes
+    feedback: Haute-Savoie (74) est dans la région Auvergne-Rhône-Alpes.
+  - id: dept_75_to_region
+    question: Dans quelle région se trouve Paris ?
+    answer: Île-de-France
+    feedback: Paris (75) est dans la région Île-de-France.
+  - id: dept_76_to_region
+    question: Dans quelle région se trouve Seine-Maritime ?
+    answer: Normandie
+    feedback: Seine-Maritime (76) est dans la région Normandie.
+  - id: dept_77_to_region
+    question: Dans quelle région se trouve Seine-et-Marne ?
+    answer: Île-de-France
+    feedback: Seine-et-Marne (77) est dans la région Île-de-France.
+  - id: dept_78_to_region
+    question: Dans quelle région se trouve Yvelines ?
+    answer: Île-de-France
+    feedback: Yvelines (78) est dans la région Île-de-France.
+  - id: dept_79_to_region
+    question: Dans quelle région se trouve Deux-Sèvres ?
+    answer: Nouvelle-Aquitaine
+    feedback: Deux-Sèvres (79) est dans la région Nouvelle-Aquitaine.
+  - id: dept_80_to_region
+    question: Dans quelle région se trouve Somme ?
+    answer: Hauts-de-France
+    feedback: Somme (80) est dans la région Hauts-de-France.
+  - id: dept_81_to_region
+    question: Dans quelle région se trouve Tarn ?
+    answer: Occitanie
+    feedback: Tarn (81) est dans la région Occitanie.
+  - id: dept_82_to_region
+    question: Dans quelle région se trouve Tarn-et-Garonne ?
+    answer: Occitanie
+    feedback: Tarn-et-Garonne (82) est dans la région Occitanie.
+  - id: dept_83_to_region
+    question: Dans quelle région se trouve Var ?
+    answer: "Provence-Alpes-Côte d'Azur"
+    feedback: "Var (83) est dans la région Provence-Alpes-Côte d'Azur."
+  - id: dept_84_to_region
+    question: Dans quelle région se trouve Vaucluse ?
+    answer: "Provence-Alpes-Côte d'Azur"
+    feedback: "Vaucluse (84) est dans la région Provence-Alpes-Côte d'Azur."
+  - id: dept_85_to_region
+    question: Dans quelle région se trouve Vendée ?
+    answer: Pays de la Loire
+    feedback: Vendée (85) est dans la région Pays de la Loire.
+  - id: dept_86_to_region
+    question: Dans quelle région se trouve Vienne ?
+    answer: Nouvelle-Aquitaine
+    feedback: Vienne (86) est dans la région Nouvelle-Aquitaine.
+  - id: dept_87_to_region
+    question: Dans quelle région se trouve Haute-Vienne ?
+    answer: Nouvelle-Aquitaine
+    feedback: Haute-Vienne (87) est dans la région Nouvelle-Aquitaine.
+  - id: dept_88_to_region
+    question: Dans quelle région se trouve Vosges ?
+    answer: Grand Est
+    feedback: Vosges (88) est dans la région Grand Est.
+  - id: dept_89_to_region
+    question: Dans quelle région se trouve Yonne ?
+    answer: Bourgogne-Franche-Comté
+    feedback: Yonne (89) est dans la région Bourgogne-Franche-Comté.
+  - id: dept_90_to_region
+    question: Dans quelle région se trouve Territoire de Belfort ?
+    answer: Bourgogne-Franche-Comté
+    feedback: Territoire de Belfort (90) est dans la région Bourgogne-Franche-Comté.
+  - id: dept_91_to_region
+    question: Dans quelle région se trouve Essonne ?
+    answer: Île-de-France
+    feedback: Essonne (91) est dans la région Île-de-France.
+  - id: dept_92_to_region
+    question: Dans quelle région se trouve Hauts-de-Seine ?
+    answer: Île-de-France
+    feedback: Hauts-de-Seine (92) est dans la région Île-de-France.
+  - id: dept_93_to_region
+    question: Dans quelle région se trouve Seine-Saint-Denis ?
+    answer: Île-de-France
+    feedback: Seine-Saint-Denis (93) est dans la région Île-de-France.
+  - id: dept_94_to_region
+    question: Dans quelle région se trouve Val-de-Marne ?
+    answer: Île-de-France
+    feedback: Val-de-Marne (94) est dans la région Île-de-France.
+  - id: dept_95_to_region
+    question: "Dans quelle région se trouve Val-d'Oise ?"
+    answer: Île-de-France
+    feedback: "Val-d'Oise (95) est dans la région Île-de-France."
+  - id: dept_971_to_region
+    question: Dans quelle région se trouve Guadeloupe ?
+    answer: Guadeloupe
+    feedback: Guadeloupe (971) est dans la région Guadeloupe.
+  - id: dept_972_to_region
+    question: Dans quelle région se trouve Martinique ?
+    answer: Martinique
+    feedback: Martinique (972) est dans la région Martinique.
+  - id: dept_973_to_region
+    question: Dans quelle région se trouve Guyane ?
+    answer: Guyane
+    feedback: Guyane (973) est dans la région Guyane.
+  - id: dept_974_to_region
+    question: Dans quelle région se trouve La Réunion ?
+    answer: La Réunion
+    feedback: La Réunion (974) est dans la région La Réunion.
+  - id: dept_976_to_region
+    question: Dans quelle région se trouve Mayotte ?
+    answer: Mayotte
+    feedback: Mayotte (976) est dans la région Mayotte.

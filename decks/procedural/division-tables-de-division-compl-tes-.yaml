@@ -1,0 +1,588 @@
+name: Tables de division (complètes)
+description: Toutes les divisions exactes de 1 à 10 (100 cartes mélangées)
+tags: [math, division, calcul-mental, ce2, cm1, revision]
+category: [sciences, maths, arithmetique, operations-base, divisions, calcul-mental, ce2, cm1, revision]
+settings:
+  sequential: false
+  bidirectional: false
+metadata:
+  license: CC-BY-SA-4.0
+  source:
+    type: procedural
+    generator: division
+    version: 1.0.0
+    generatedAt: "2026-11-22"
+    parameters:
+      type: complete-table
+resources:
+  - type: summary
+    title: "Qu'est-ce que la division ?"
+    content: "La **division** est l'opération inverse de la multiplication. Elle permet de partager une quantité en parts égales ou de savoir combien de fois un nombre est contenu dans un autre.\n\nPar exemple : **12 ÷ 4 = 3** signifie que 12 partagé en 4 parts égales donne 3 par part.\n\nLes tables de division sont essentielles pour :\n- Le calcul mental rapide\n- Les fractions et pourcentages\n- La résolution de problèmes"
+    aiGenerated: true
+    icon: 📝
+  - type: link
+    title: "Wikipedia : Division"
+    url: https://fr.wikipedia.org/wiki/Division
+    icon: 📖
+  - type: glossary
+    title: Vocabulaire clé
+    content: "- **Division** : Opération qui partage un nombre en parts égales\n- **Dividende** : Le nombre que l'on divise\n- **Diviseur** : Le nombre par lequel on divise\n- **Quotient** : Résultat d'une division\n- **Reste** : Ce qui reste quand la division n'est pas exacte"
+    icon: 📚
+  - type: image
+    title: Table de division
+    image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMTQgMzMyIiB3aWR0aD0iMzE0IiBoZWlnaHQ9IjMzMiI+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjMxNCIgaGVpZ2h0PSIzMzIiIGZpbGw9IiMxZTI5M2IiIHJ4PSI4Ii8+PHRleHQgeD0iMTU3IiB5PSIxNyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIGZpbGw9IiNmOTczMTYiIGZvbnQtd2VpZ2h0PSJib2xkIj5UYWJsZSBkZSBkaXZpc2lvbjwvdGV4dD48dGV4dCB4PSIxNyIgeT0iNDEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iMTAiIGZpbGw9IiM5NGEzYjgiIGZvbnQtd2VpZ2h0PSJib2xkIj7DtzwvdGV4dD48dGV4dCB4PSI0MyIgeT0iNDEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iMTAiIGZpbGw9IiMyMmM1NWUiIGZvbnQtd2VpZ2h0PSJib2xkIj49MTwvdGV4dD48dGV4dCB4PSI3MSIgeT0iNDEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iMTAiIGZpbGw9IiMyMmM1NWUiIGZvbnQtd2VpZ2h0PSJib2xkIj49MjwvdGV4dD48dGV4dCB4PSI5OSIgeT0iNDEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iMTAiIGZpbGw9IiMyMmM1NWUiIGZvbnQtd2VpZ2h0PSJib2xkIj49MzwvdGV4dD48dGV4dCB4PSIxMjciIHk9IjQxIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiBmb250LXNpemU9IjEwIiBmaWxsPSIjMjJjNTVlIiBmb250LXdlaWdodD0iYm9sZCI+PTQ8L3RleHQ+PHRleHQgeD0iMTU1IiB5PSI0MSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9Im1vbm9zcGFjZSIgZm9udC1zaXplPSIxMCIgZmlsbD0iIzIyYzU1ZSIgZm9udC13ZWlnaHQ9ImJvbGQiPj01PC90ZXh0Pjx0ZXh0IHg9IjE4MyIgeT0iNDEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iMTAiIGZpbGw9IiMyMmM1NWUiIGZvbnQtd2VpZ2h0PSJib2xkIj49NjwvdGV4dD48dGV4dCB4PSIyMTEiIHk9IjQxIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiBmb250LXNpemU9IjEwIiBmaWxsPSIjMjJjNTVlIiBmb250LXdlaWdodD0iYm9sZCI+PTc8L3RleHQ+PHRleHQgeD0iMjM5IiB5PSI0MSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9Im1vbm9zcGFjZSIgZm9udC1zaXplPSIxMCIgZmlsbD0iIzIyYzU1ZSIgZm9udC13ZWlnaHQ9ImJvbGQiPj04PC90ZXh0Pjx0ZXh0IHg9IjI2NyIgeT0iNDEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iMTAiIGZpbGw9IiMyMmM1NWUiIGZvbnQtd2VpZ2h0PSJib2xkIj49OTwvdGV4dD48dGV4dCB4PSIyOTUiIHk9IjQxIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiBmb250LXNpemU9IjEwIiBmaWxsPSIjMjJjNTVlIiBmb250LXdlaWdodD0iYm9sZCI+PTEwPC90ZXh0Pjx0ZXh0IHg9IjE3IiB5PSI2NSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9Im1vbm9zcGFjZSIgZm9udC1zaXplPSIxMCIgZmlsbD0iI2Y5NzMxNiIgZm9udC13ZWlnaHQ9ImJvbGQiPsO3MTwvdGV4dD48dGV4dCB4PSI0MyIgeT0iNjUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iOSIgZmlsbD0iI2Y4ZmFmYyI+MTwvdGV4dD48dGV4dCB4PSI3MSIgeT0iNjUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iOSIgZmlsbD0iI2Y4ZmFmYyI+MjwvdGV4dD48dGV4dCB4PSI5OSIgeT0iNjUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iOSIgZmlsbD0iI2Y4ZmFmYyI+MzwvdGV4dD48dGV4dCB4PSIxMjciIHk9IjY1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiBmb250LXNpemU9IjkiIGZpbGw9IiNmOGZhZmMiPjQ8L3RleHQ+PHRleHQgeD0iMTU1IiB5PSI2NSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9Im1vbm9zcGFjZSIgZm9udC1zaXplPSI5IiBmaWxsPSIjZjhmYWZjIj41PC90ZXh0Pjx0ZXh0IHg9IjE4MyIgeT0iNjUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iOSIgZmlsbD0iI2Y4ZmFmYyI+NjwvdGV4dD48dGV4dCB4PSIyMTEiIHk9IjY1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiBmb250LXNpemU9IjkiIGZpbGw9IiNmOGZhZmMiPjc8L3RleHQ+PHRleHQgeD0iMjM5IiB5PSI2NSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9Im1vbm9zcGFjZSIgZm9udC1zaXplPSI5IiBmaWxsPSIjZjhmYWZjIj44PC90ZXh0Pjx0ZXh0IHg9IjI2NyIgeT0iNjUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iOSIgZmlsbD0iI2Y4ZmFmYyI+OTwvdGV4dD48dGV4dCB4PSIyOTUiIHk9IjY1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiBmb250LXNpemU9IjkiIGZpbGw9IiNmOGZhZmMiPjEwPC90ZXh0Pjx0ZXh0IHg9IjE3IiB5PSI5MyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9Im1vbm9zcGFjZSIgZm9udC1zaXplPSIxMCIgZmlsbD0iI2Y5NzMxNiIgZm9udC13ZWlnaHQ9ImJvbGQiPsO3MjwvdGV4dD48dGV4dCB4PSI0MyIgeT0iOTMiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iOSIgZmlsbD0iI2Y4ZmFmYyI+MjwvdGV4dD48dGV4dCB4PSI3MSIgeT0iOTMiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iOSIgZmlsbD0iI2Y4ZmFmYyI+NDwvdGV4dD48dGV4dCB4PSI5OSIgeT0iOTMiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iOSIgZmlsbD0iI2Y4ZmFmYyI+NjwvdGV4dD48dGV4dCB4PSIxMjciIHk9IjkzIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiBmb250LXNpemU9IjkiIGZpbGw9IiNmOGZhZmMiPjg8L3RleHQ+PHRleHQgeD0iMTU1IiB5PSI5MyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9Im1vbm9zcGFjZSIgZm9udC1zaXplPSI5IiBmaWxsPSIjZjhmYWZjIj4xMDwvdGV4dD48dGV4dCB4PSIxODMiIHk9IjkzIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiBmb250LXNpemU9IjkiIGZpbGw9IiNmOGZhZmMiPjEyPC90ZXh0Pjx0ZXh0IHg9IjIxMSIgeT0iOTMiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iOSIgZmlsbD0iI2Y4ZmFmYyI+MTQ8L3RleHQ+PHRleHQgeD0iMjM5IiB5PSI5MyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9Im1vbm9zcGFjZSIgZm9udC1zaXplPSI5IiBmaWxsPSIjZjhmYWZjIj4xNjwvdGV4dD48dGV4dCB4PSIyNjciIHk9IjkzIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiBmb250LXNpemU9IjkiIGZpbGw9IiNmOGZhZmMiPjE4PC90ZXh0Pjx0ZXh0IHg9IjI5NSIgeT0iOTMiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iOSIgZmlsbD0iI2Y4ZmFmYyI+MjA8L3RleHQ+PHRleHQgeD0iMTciIHk9IjEyMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9Im1vbm9zcGFjZSIgZm9udC1zaXplPSIxMCIgZmlsbD0iI2Y5NzMxNiIgZm9udC13ZWlnaHQ9ImJvbGQiPsO3MzwvdGV4dD48dGV4dCB4PSI0MyIgeT0iMTIxIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiBmb250LXNpemU9IjkiIGZpbGw9IiNmOGZhZmMiPjM8L3RleHQ+PHRleHQgeD0iNzEiIHk9IjEyMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9Im1vbm9zcGFjZSIgZm9udC1zaXplPSI5IiBmaWxsPSIjZjhmYWZjIj42PC90ZXh0Pjx0ZXh0IHg9Ijk5IiB5PSIxMjEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iOSIgZmlsbD0iI2Y4ZmFmYyI+OTwvdGV4dD48dGV4dCB4PSIxMjciIHk9IjEyMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9Im1vbm9zcGFjZSIgZm9udC1zaXplPSI5IiBmaWxsPSIjZjhmYWZjIj4xMjwvdGV4dD48dGV4dCB4PSIxNTUiIHk9IjEyMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9Im1vbm9zcGFjZSIgZm9udC1zaXplPSI5IiBmaWxsPSIjZjhmYWZjIj4xNTwvdGV4dD48dGV4dCB4PSIxODMiIHk9IjEyMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9Im1vbm9zcGFjZSIgZm9udC1zaXplPSI5IiBmaWxsPSIjZjhmYWZjIj4xODwvdGV4dD48dGV4dCB4PSIyMTEiIHk9IjEyMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9Im1vbm9zcGFjZSIgZm9udC1zaXplPSI5IiBmaWxsPSIjZjhmYWZjIj4yMTwvdGV4dD48dGV4dCB4PSIyMzkiIHk9IjEyMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9Im1vbm9zcGFjZSIgZm9udC1zaXplPSI5IiBmaWxsPSIjZjhmYWZjIj4yNDwvdGV4dD48dGV4dCB4PSIyNjciIHk9IjEyMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9Im1vbm9zcGFjZSIgZm9udC1zaXplPSI5IiBmaWxsPSIjZjhmYWZjIj4yNzwvdGV4dD48dGV4dCB4PSIyOTUiIHk9IjEyMSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9Im1vbm9zcGFjZSIgZm9udC1zaXplPSI5IiBmaWxsPSIjZjhmYWZjIj4zMDwvdGV4dD48dGV4dCB4PSIxNyIgeT0iMTQ5IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiBmb250LXNpemU9IjEwIiBmaWxsPSIjZjk3MzE2IiBmb250LXdlaWdodD0iYm9sZCI+w7c0PC90ZXh0Pjx0ZXh0IHg9IjQzIiB5PSIxNDkiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iOSIgZmlsbD0iI2Y4ZmFmYyI+NDwvdGV4dD48dGV4dCB4PSI3MSIgeT0iMTQ5IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiBmb250LXNpemU9IjkiIGZpbGw9IiNmOGZhZmMiPjg8L3RleHQ+PHRleHQgeD0iOTkiIHk9IjE0OSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9Im1vbm9zcGFjZSIgZm9udC1zaXplPSI5IiBmaWxsPSIjZjhmYWZjIj4xMjwvdGV4dD48dGV4dCB4PSIxMjciIHk9IjE0OSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9Im1vbm9zcGFjZSIgZm9udC1zaXplPSI5IiBmaWxsPSIjZjhmYWZjIj4xNjwvdGV4dD48dGV4dCB4PSIxNTUiIHk9IjE0OSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9Im1vbm9zcGFjZSIgZm9udC1zaXplPSI5IiBmaWxsPSIjZjhmYWZjIj4yMDwvdGV4dD48dGV4dCB4PSIxODMiIHk9IjE0OSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9Im1vbm9zcGFjZSIgZm9udC1zaXplPSI5IiBmaWxsPSIjZjhmYWZjIj4yNDwvdGV4dD48dGV4dCB4PSIyMTEiIHk9IjE0OSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9Im1vbm9zcGFjZSIgZm9udC1zaXplPSI5IiBmaWxsPSIjZjhmYWZjIj4yODwvdGV4dD48dGV4dCB4PSIyMzkiIHk9IjE0OSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9Im1vbm9zcGFjZSIgZm9udC1zaXplPSI5IiBmaWxsPSIjZjhmYWZjIj4zMjwvdGV4dD48dGV4dCB4PSIyNjciIHk9IjE0OSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9Im1vbm9zcGFjZSIgZm9udC1zaXplPSI5IiBmaWxsPSIjZjhmYWZjIj4zNjwvdGV4dD48dGV4dCB4PSIyOTUiIHk9IjE0OSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9Im1vbm9zcGFjZSIgZm9udC1zaXplPSI5IiBmaWxsPSIjZjhmYWZjIj40MDwvdGV4dD48dGV4dCB4PSIxNyIgeT0iMTc3IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiBmb250LXNpemU9IjEwIiBmaWxsPSIjZjk3MzE2IiBmb250LXdlaWdodD0iYm9sZCI+w7c1PC90ZXh0Pjx0ZXh0IHg9IjQzIiB5PSIxNzciIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iOSIgZmlsbD0iI2Y4ZmFmYyI+NTwvdGV4dD48dGV4dCB4PSI3MSIgeT0iMTc3IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiBmb250LXNpemU9IjkiIGZpbGw9IiNmOGZhZmMiPjEwPC90ZXh0Pjx0ZXh0IHg9Ijk5IiB5PSIxNzciIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iOSIgZmlsbD0iI2Y4ZmFmYyI+MTU8L3RleHQ+PHRleHQgeD0iMTI3IiB5PSIxNzciIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iOSIgZmlsbD0iI2Y4ZmFmYyI+MjA8L3RleHQ+PHRleHQgeD0iMTU1IiB5PSIxNzciIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iOSIgZmlsbD0iI2Y4ZmFmYyI+MjU8L3RleHQ+PHRleHQgeD0iMTgzIiB5PSIxNzciIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iOSIgZmlsbD0iI2Y4ZmFmYyI+MzA8L3RleHQ+PHRleHQgeD0iMjExIiB5PSIxNzciIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iOSIgZmlsbD0iI2Y4ZmFmYyI+MzU8L3RleHQ+PHRleHQgeD0iMjM5IiB5PSIxNzciIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iOSIgZmlsbD0iI2Y4ZmFmYyI+NDA8L3RleHQ+PHRleHQgeD0iMjY3IiB5PSIxNzciIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iOSIgZmlsbD0iI2Y4ZmFmYyI+NDU8L3RleHQ+PHRleHQgeD0iMjk1IiB5PSIxNzciIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iOSIgZmlsbD0iI2Y4ZmFmYyI+NTA8L3RleHQ+PHRleHQgeD0iMTciIHk9IjIwNSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9Im1vbm9zcGFjZSIgZm9udC1zaXplPSIxMCIgZmlsbD0iI2Y5NzMxNiIgZm9udC13ZWlnaHQ9ImJvbGQiPsO3NjwvdGV4dD48dGV4dCB4PSI0MyIgeT0iMjA1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiBmb250LXNpemU9IjkiIGZpbGw9IiNmOGZhZmMiPjY8L3RleHQ+PHRleHQgeD0iNzEiIHk9IjIwNSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9Im1vbm9zcGFjZSIgZm9udC1zaXplPSI5IiBmaWxsPSIjZjhmYWZjIj4xMjwvdGV4dD48dGV4dCB4PSI5OSIgeT0iMjA1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiBmb250LXNpemU9IjkiIGZpbGw9IiNmOGZhZmMiPjE4PC90ZXh0Pjx0ZXh0IHg9IjEyNyIgeT0iMjA1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiBmb250LXNpemU9IjkiIGZpbGw9IiNmOGZhZmMiPjI0PC90ZXh0Pjx0ZXh0IHg9IjE1NSIgeT0iMjA1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiBmb250LXNpemU9IjkiIGZpbGw9IiNmOGZhZmMiPjMwPC90ZXh0Pjx0ZXh0IHg9IjE4MyIgeT0iMjA1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiBmb250LXNpemU9IjkiIGZpbGw9IiNmOGZhZmMiPjM2PC90ZXh0Pjx0ZXh0IHg9IjIxMSIgeT0iMjA1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiBmb250LXNpemU9IjkiIGZpbGw9IiNmOGZhZmMiPjQyPC90ZXh0Pjx0ZXh0IHg9IjIzOSIgeT0iMjA1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiBmb250LXNpemU9IjkiIGZpbGw9IiNmOGZhZmMiPjQ4PC90ZXh0Pjx0ZXh0IHg9IjI2NyIgeT0iMjA1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiBmb250LXNpemU9IjkiIGZpbGw9IiNmOGZhZmMiPjU0PC90ZXh0Pjx0ZXh0IHg9IjI5NSIgeT0iMjA1IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiBmb250LXNpemU9IjkiIGZpbGw9IiNmOGZhZmMiPjYwPC90ZXh0Pjx0ZXh0IHg9IjE3IiB5PSIyMzMiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iMTAiIGZpbGw9IiNmOTczMTYiIGZvbnQtd2VpZ2h0PSJib2xkIj7Dtzc8L3RleHQ+PHRleHQgeD0iNDMiIHk9IjIzMyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9Im1vbm9zcGFjZSIgZm9udC1zaXplPSI5IiBmaWxsPSIjZjhmYWZjIj43PC90ZXh0Pjx0ZXh0IHg9IjcxIiB5PSIyMzMiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iOSIgZmlsbD0iI2Y4ZmFmYyI+MTQ8L3RleHQ+PHRleHQgeD0iOTkiIHk9IjIzMyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9Im1vbm9zcGFjZSIgZm9udC1zaXplPSI5IiBmaWxsPSIjZjhmYWZjIj4yMTwvdGV4dD48dGV4dCB4PSIxMjciIHk9IjIzMyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9Im1vbm9zcGFjZSIgZm9udC1zaXplPSI5IiBmaWxsPSIjZjhmYWZjIj4yODwvdGV4dD48dGV4dCB4PSIxNTUiIHk9IjIzMyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9Im1vbm9zcGFjZSIgZm9udC1zaXplPSI5IiBmaWxsPSIjZjhmYWZjIj4zNTwvdGV4dD48dGV4dCB4PSIxODMiIHk9IjIzMyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9Im1vbm9zcGFjZSIgZm9udC1zaXplPSI5IiBmaWxsPSIjZjhmYWZjIj40MjwvdGV4dD48dGV4dCB4PSIyMTEiIHk9IjIzMyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9Im1vbm9zcGFjZSIgZm9udC1zaXplPSI5IiBmaWxsPSIjZjhmYWZjIj40OTwvdGV4dD48dGV4dCB4PSIyMzkiIHk9IjIzMyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9Im1vbm9zcGFjZSIgZm9udC1zaXplPSI5IiBmaWxsPSIjZjhmYWZjIj41NjwvdGV4dD48dGV4dCB4PSIyNjciIHk9IjIzMyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9Im1vbm9zcGFjZSIgZm9udC1zaXplPSI5IiBmaWxsPSIjZjhmYWZjIj42MzwvdGV4dD48dGV4dCB4PSIyOTUiIHk9IjIzMyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9Im1vbm9zcGFjZSIgZm9udC1zaXplPSI5IiBmaWxsPSIjZjhmYWZjIj43MDwvdGV4dD48dGV4dCB4PSIxNyIgeT0iMjYxIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiBmb250LXNpemU9IjEwIiBmaWxsPSIjZjk3MzE2IiBmb250LXdlaWdodD0iYm9sZCI+w7c4PC90ZXh0Pjx0ZXh0IHg9IjQzIiB5PSIyNjEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iOSIgZmlsbD0iI2Y4ZmFmYyI+ODwvdGV4dD48dGV4dCB4PSI3MSIgeT0iMjYxIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiBmb250LXNpemU9IjkiIGZpbGw9IiNmOGZhZmMiPjE2PC90ZXh0Pjx0ZXh0IHg9Ijk5IiB5PSIyNjEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iOSIgZmlsbD0iI2Y4ZmFmYyI+MjQ8L3RleHQ+PHRleHQgeD0iMTI3IiB5PSIyNjEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iOSIgZmlsbD0iI2Y4ZmFmYyI+MzI8L3RleHQ+PHRleHQgeD0iMTU1IiB5PSIyNjEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iOSIgZmlsbD0iI2Y4ZmFmYyI+NDA8L3RleHQ+PHRleHQgeD0iMTgzIiB5PSIyNjEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iOSIgZmlsbD0iI2Y4ZmFmYyI+NDg8L3RleHQ+PHRleHQgeD0iMjExIiB5PSIyNjEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iOSIgZmlsbD0iI2Y4ZmFmYyI+NTY8L3RleHQ+PHRleHQgeD0iMjM5IiB5PSIyNjEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iOSIgZmlsbD0iI2Y4ZmFmYyI+NjQ8L3RleHQ+PHRleHQgeD0iMjY3IiB5PSIyNjEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iOSIgZmlsbD0iI2Y4ZmFmYyI+NzI8L3RleHQ+PHRleHQgeD0iMjk1IiB5PSIyNjEiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iOSIgZmlsbD0iI2Y4ZmFmYyI+ODA8L3RleHQ+PHRleHQgeD0iMTciIHk9IjI4OSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9Im1vbm9zcGFjZSIgZm9udC1zaXplPSIxMCIgZmlsbD0iI2Y5NzMxNiIgZm9udC13ZWlnaHQ9ImJvbGQiPsO3OTwvdGV4dD48dGV4dCB4PSI0MyIgeT0iMjg5IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiBmb250LXNpemU9IjkiIGZpbGw9IiNmOGZhZmMiPjk8L3RleHQ+PHRleHQgeD0iNzEiIHk9IjI4OSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9Im1vbm9zcGFjZSIgZm9udC1zaXplPSI5IiBmaWxsPSIjZjhmYWZjIj4xODwvdGV4dD48dGV4dCB4PSI5OSIgeT0iMjg5IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiBmb250LXNpemU9IjkiIGZpbGw9IiNmOGZhZmMiPjI3PC90ZXh0Pjx0ZXh0IHg9IjEyNyIgeT0iMjg5IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiBmb250LXNpemU9IjkiIGZpbGw9IiNmOGZhZmMiPjM2PC90ZXh0Pjx0ZXh0IHg9IjE1NSIgeT0iMjg5IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiBmb250LXNpemU9IjkiIGZpbGw9IiNmOGZhZmMiPjQ1PC90ZXh0Pjx0ZXh0IHg9IjE4MyIgeT0iMjg5IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiBmb250LXNpemU9IjkiIGZpbGw9IiNmOGZhZmMiPjU0PC90ZXh0Pjx0ZXh0IHg9IjIxMSIgeT0iMjg5IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiBmb250LXNpemU9IjkiIGZpbGw9IiNmOGZhZmMiPjYzPC90ZXh0Pjx0ZXh0IHg9IjIzOSIgeT0iMjg5IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiBmb250LXNpemU9IjkiIGZpbGw9IiNmOGZhZmMiPjcyPC90ZXh0Pjx0ZXh0IHg9IjI2NyIgeT0iMjg5IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiBmb250LXNpemU9IjkiIGZpbGw9IiNmOGZhZmMiPjgxPC90ZXh0Pjx0ZXh0IHg9IjI5NSIgeT0iMjg5IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiBmb250LXNpemU9IjkiIGZpbGw9IiNmOGZhZmMiPjkwPC90ZXh0Pjx0ZXh0IHg9IjE3IiB5PSIzMTciIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iMTAiIGZpbGw9IiNmOTczMTYiIGZvbnQtd2VpZ2h0PSJib2xkIj7DtzEwPC90ZXh0Pjx0ZXh0IHg9IjQzIiB5PSIzMTciIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iOSIgZmlsbD0iI2Y4ZmFmYyI+MTA8L3RleHQ+PHRleHQgeD0iNzEiIHk9IjMxNyIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9Im1vbm9zcGFjZSIgZm9udC1zaXplPSI5IiBmaWxsPSIjZjhmYWZjIj4yMDwvdGV4dD48dGV4dCB4PSI5OSIgeT0iMzE3IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiBmb250LXNpemU9IjkiIGZpbGw9IiNmOGZhZmMiPjMwPC90ZXh0Pjx0ZXh0IHg9IjEyNyIgeT0iMzE3IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiBmb250LXNpemU9IjkiIGZpbGw9IiNmOGZhZmMiPjQwPC90ZXh0Pjx0ZXh0IHg9IjE1NSIgeT0iMzE3IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiBmb250LXNpemU9IjkiIGZpbGw9IiNmOGZhZmMiPjUwPC90ZXh0Pjx0ZXh0IHg9IjE4MyIgeT0iMzE3IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiBmb250LXNpemU9IjkiIGZpbGw9IiNmOGZhZmMiPjYwPC90ZXh0Pjx0ZXh0IHg9IjIxMSIgeT0iMzE3IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiBmb250LXNpemU9IjkiIGZpbGw9IiNmOGZhZmMiPjcwPC90ZXh0Pjx0ZXh0IHg9IjIzOSIgeT0iMzE3IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiBmb250LXNpemU9IjkiIGZpbGw9IiNmOGZhZmMiPjgwPC90ZXh0Pjx0ZXh0IHg9IjI2NyIgeT0iMzE3IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiBmb250LXNpemU9IjkiIGZpbGw9IiNmOGZhZmMiPjkwPC90ZXh0Pjx0ZXh0IHg9IjI5NSIgeT0iMzE3IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiBmb250LXNpemU9IjkiIGZpbGw9IiNmOGZhZmMiPjEwMDwvdGV4dD48bGluZSB4MT0iMjkiIHkxPSI0NyIgeDI9IjMwOSIgeTI9IjQ3IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMC41Ii8+PGxpbmUgeDE9IjI5IiB5MT0iNDciIHgyPSIyOSIgeTI9IjMyNyIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjAuNSIvPjxsaW5lIHgxPSIyOSIgeTE9Ijc1IiB4Mj0iMzA5IiB5Mj0iNzUiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIwLjUiLz48bGluZSB4MT0iNTciIHkxPSI0NyIgeDI9IjU3IiB5Mj0iMzI3IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMC41Ii8+PGxpbmUgeDE9IjI5IiB5MT0iMTAzIiB4Mj0iMzA5IiB5Mj0iMTAzIiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMC41Ii8+PGxpbmUgeDE9Ijg1IiB5MT0iNDciIHgyPSI4NSIgeTI9IjMyNyIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjAuNSIvPjxsaW5lIHgxPSIyOSIgeTE9IjEzMSIgeDI9IjMwOSIgeTI9IjEzMSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjAuNSIvPjxsaW5lIHgxPSIxMTMiIHkxPSI0NyIgeDI9IjExMyIgeTI9IjMyNyIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjAuNSIvPjxsaW5lIHgxPSIyOSIgeTE9IjE1OSIgeDI9IjMwOSIgeTI9IjE1OSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjAuNSIvPjxsaW5lIHgxPSIxNDEiIHkxPSI0NyIgeDI9IjE0MSIgeTI9IjMyNyIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjAuNSIvPjxsaW5lIHgxPSIyOSIgeTE9IjE4NyIgeDI9IjMwOSIgeTI9IjE4NyIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjAuNSIvPjxsaW5lIHgxPSIxNjkiIHkxPSI0NyIgeDI9IjE2OSIgeTI9IjMyNyIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjAuNSIvPjxsaW5lIHgxPSIyOSIgeTE9IjIxNSIgeDI9IjMwOSIgeTI9IjIxNSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjAuNSIvPjxsaW5lIHgxPSIxOTciIHkxPSI0NyIgeDI9IjE5NyIgeTI9IjMyNyIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjAuNSIvPjxsaW5lIHgxPSIyOSIgeTE9IjI0MyIgeDI9IjMwOSIgeTI9IjI0MyIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjAuNSIvPjxsaW5lIHgxPSIyMjUiIHkxPSI0NyIgeDI9IjIyNSIgeTI9IjMyNyIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjAuNSIvPjxsaW5lIHgxPSIyOSIgeTE9IjI3MSIgeDI9IjMwOSIgeTI9IjI3MSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjAuNSIvPjxsaW5lIHgxPSIyNTMiIHkxPSI0NyIgeDI9IjI1MyIgeTI9IjMyNyIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjAuNSIvPjxsaW5lIHgxPSIyOSIgeTE9IjI5OSIgeDI9IjMwOSIgeTI9IjI5OSIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjAuNSIvPjxsaW5lIHgxPSIyODEiIHkxPSI0NyIgeDI9IjI4MSIgeTI9IjMyNyIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjAuNSIvPjxsaW5lIHgxPSIyOSIgeTE9IjMyNyIgeDI9IjMwOSIgeTI9IjMyNyIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjAuNSIvPjxsaW5lIHgxPSIzMDkiIHkxPSI0NyIgeDI9IjMwOSIgeTI9IjMyNyIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjAuNSIvPjwvc3ZnPg=="
+    aiGenerated: false
+    icon: 📊
+  - type: objective
+    title: "Objectifs d'apprentissage"
+    content: "- ✅ Maîtriser toutes les divisions exactes de 1 à 10\n- ✅ Répondre en moins de 3 secondes\n- ✅ Faire le lien avec les multiplications (opération inverse)"
+    icon: 🎯
+  - type: tip
+    title: Relation avec la multiplication
+    content: "La division est l'inverse de la multiplication :\n\nSi 7 × 8 = 56, alors 56 ÷ 8 = 7 et 56 ÷ 7 = 8\n\nConnaître les tables de multiplication est indispensable !"
+    icon: 💡
+cards:
+  - id: div_complete_10_10
+    question: 10 ÷ 10 = ?
+    answer: "1"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 220 32\" width=\"220\" height=\"32\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"30\" cy=\"10\" r=\"4\" fill=\"#f97316\"/><circle cx=\"50\" cy=\"10\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"70\" cy=\"10\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"90\" cy=\"10\" r=\"4\" fill=\"#ec4899\"/><circle cx=\"110\" cy=\"10\" r=\"4\" fill=\"#14b8a6\"/><circle cx=\"130\" cy=\"10\" r=\"4\" fill=\"#f59e0b\"/><circle cx=\"150\" cy=\"10\" r=\"4\" fill=\"#6366f1\"/><circle cx=\"170\" cy=\"10\" r=\"4\" fill=\"#84cc16\"/><circle cx=\"190\" cy=\"10\" r=\"4\" fill=\"#ef4444\"/></svg>"
+  - id: div_complete_21_3
+    question: 21 ÷ 3 = ?
+    answer: "7"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 80 104\" width=\"80\" height=\"104\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"22\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"34\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"46\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"58\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"70\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"82\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"30\" cy=\"10\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"22\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"34\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"46\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"58\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"70\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"82\" r=\"4\" fill=\"#f97316\"/><circle cx=\"50\" cy=\"10\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"22\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"34\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"46\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"58\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"70\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"82\" r=\"4\" fill=\"#22c55e\"/></svg>"
+  - id: div_complete_10_1
+    question: 10 ÷ 1 = ?
+    answer: "10"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 40 140\" width=\"40\" height=\"140\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"22\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"34\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"46\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"58\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"70\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"82\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"94\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"106\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"118\" r=\"4\" fill=\"#8b5cf6\"/></svg>"
+  - id: div_complete_25_5
+    question: 25 ÷ 5 = ?
+    answer: "5"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 120 80\" width=\"120\" height=\"80\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"22\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"34\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"46\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"58\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"30\" cy=\"10\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"22\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"34\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"46\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"58\" r=\"4\" fill=\"#f97316\"/><circle cx=\"50\" cy=\"10\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"22\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"34\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"46\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"58\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"70\" cy=\"10\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"22\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"34\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"46\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"58\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"90\" cy=\"10\" r=\"4\" fill=\"#ec4899\"/><circle cx=\"90\" cy=\"22\" r=\"4\" fill=\"#ec4899\"/><circle cx=\"90\" cy=\"34\" r=\"4\" fill=\"#ec4899\"/><circle cx=\"90\" cy=\"46\" r=\"4\" fill=\"#ec4899\"/><circle cx=\"90\" cy=\"58\" r=\"4\" fill=\"#ec4899\"/></svg>"
+  - id: div_complete_54_9
+    question: 54 ÷ 9 = ?
+    answer: "6"
+  - id: div_complete_27_3
+    question: 27 ÷ 3 = ?
+    answer: "9"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 80 128\" width=\"80\" height=\"128\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"22\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"34\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"46\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"58\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"70\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"82\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"94\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"106\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"30\" cy=\"10\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"22\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"34\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"46\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"58\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"70\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"82\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"94\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"106\" r=\"4\" fill=\"#f97316\"/><circle cx=\"50\" cy=\"10\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"22\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"34\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"46\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"58\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"70\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"82\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"94\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"106\" r=\"4\" fill=\"#22c55e\"/></svg>"
+  - id: div_complete_9_3
+    question: 9 ÷ 3 = ?
+    answer: "3"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 80 56\" width=\"80\" height=\"56\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"22\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"34\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"30\" cy=\"10\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"22\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"34\" r=\"4\" fill=\"#f97316\"/><circle cx=\"50\" cy=\"10\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"22\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"34\" r=\"4\" fill=\"#22c55e\"/></svg>"
+  - id: div_complete_28_7
+    question: 28 ÷ 7 = ?
+    answer: "4"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 160 68\" width=\"160\" height=\"68\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"22\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"34\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"46\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"30\" cy=\"10\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"22\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"34\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"46\" r=\"4\" fill=\"#f97316\"/><circle cx=\"50\" cy=\"10\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"22\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"34\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"46\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"70\" cy=\"10\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"22\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"34\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"46\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"90\" cy=\"10\" r=\"4\" fill=\"#ec4899\"/><circle cx=\"90\" cy=\"22\" r=\"4\" fill=\"#ec4899\"/><circle cx=\"90\" cy=\"34\" r=\"4\" fill=\"#ec4899\"/><circle cx=\"90\" cy=\"46\" r=\"4\" fill=\"#ec4899\"/><circle cx=\"110\" cy=\"10\" r=\"4\" fill=\"#14b8a6\"/><circle cx=\"110\" cy=\"22\" r=\"4\" fill=\"#14b8a6\"/><circle cx=\"110\" cy=\"34\" r=\"4\" fill=\"#14b8a6\"/><circle cx=\"110\" cy=\"46\" r=\"4\" fill=\"#14b8a6\"/><circle cx=\"130\" cy=\"10\" r=\"4\" fill=\"#f59e0b\"/><circle cx=\"130\" cy=\"22\" r=\"4\" fill=\"#f59e0b\"/><circle cx=\"130\" cy=\"34\" r=\"4\" fill=\"#f59e0b\"/><circle cx=\"130\" cy=\"46\" r=\"4\" fill=\"#f59e0b\"/></svg>"
+  - id: div_complete_36_4
+    question: 36 ÷ 4 = ?
+    answer: "9"
+  - id: div_complete_15_5
+    question: 15 ÷ 5 = ?
+    answer: "3"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 120 56\" width=\"120\" height=\"56\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"22\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"34\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"30\" cy=\"10\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"22\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"34\" r=\"4\" fill=\"#f97316\"/><circle cx=\"50\" cy=\"10\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"22\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"34\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"70\" cy=\"10\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"22\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"34\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"90\" cy=\"10\" r=\"4\" fill=\"#ec4899\"/><circle cx=\"90\" cy=\"22\" r=\"4\" fill=\"#ec4899\"/><circle cx=\"90\" cy=\"34\" r=\"4\" fill=\"#ec4899\"/></svg>"
+  - id: div_complete_6_1
+    question: 6 ÷ 1 = ?
+    answer: "6"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 40 92\" width=\"40\" height=\"92\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"22\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"34\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"46\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"58\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"70\" r=\"4\" fill=\"#8b5cf6\"/></svg>"
+  - id: div_complete_12_4
+    question: 12 ÷ 4 = ?
+    answer: "3"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 100 56\" width=\"100\" height=\"56\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"22\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"34\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"30\" cy=\"10\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"22\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"34\" r=\"4\" fill=\"#f97316\"/><circle cx=\"50\" cy=\"10\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"22\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"34\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"70\" cy=\"10\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"22\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"34\" r=\"4\" fill=\"#3b82f6\"/></svg>"
+  - id: div_complete_72_9
+    question: 72 ÷ 9 = ?
+    answer: "8"
+  - id: div_complete_21_7
+    question: 21 ÷ 7 = ?
+    answer: "3"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 160 56\" width=\"160\" height=\"56\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"22\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"34\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"30\" cy=\"10\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"22\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"34\" r=\"4\" fill=\"#f97316\"/><circle cx=\"50\" cy=\"10\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"22\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"34\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"70\" cy=\"10\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"22\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"34\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"90\" cy=\"10\" r=\"4\" fill=\"#ec4899\"/><circle cx=\"90\" cy=\"22\" r=\"4\" fill=\"#ec4899\"/><circle cx=\"90\" cy=\"34\" r=\"4\" fill=\"#ec4899\"/><circle cx=\"110\" cy=\"10\" r=\"4\" fill=\"#14b8a6\"/><circle cx=\"110\" cy=\"22\" r=\"4\" fill=\"#14b8a6\"/><circle cx=\"110\" cy=\"34\" r=\"4\" fill=\"#14b8a6\"/><circle cx=\"130\" cy=\"10\" r=\"4\" fill=\"#f59e0b\"/><circle cx=\"130\" cy=\"22\" r=\"4\" fill=\"#f59e0b\"/><circle cx=\"130\" cy=\"34\" r=\"4\" fill=\"#f59e0b\"/></svg>"
+  - id: div_complete_40_4
+    question: 40 ÷ 4 = ?
+    answer: "10"
+  - id: div_complete_32_8
+    question: 32 ÷ 8 = ?
+    answer: "4"
+  - id: div_complete_9_9
+    question: 9 ÷ 9 = ?
+    answer: "1"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 200 32\" width=\"200\" height=\"32\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"30\" cy=\"10\" r=\"4\" fill=\"#f97316\"/><circle cx=\"50\" cy=\"10\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"70\" cy=\"10\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"90\" cy=\"10\" r=\"4\" fill=\"#ec4899\"/><circle cx=\"110\" cy=\"10\" r=\"4\" fill=\"#14b8a6\"/><circle cx=\"130\" cy=\"10\" r=\"4\" fill=\"#f59e0b\"/><circle cx=\"150\" cy=\"10\" r=\"4\" fill=\"#6366f1\"/><circle cx=\"170\" cy=\"10\" r=\"4\" fill=\"#84cc16\"/></svg>"
+  - id: div_complete_30_10
+    question: 30 ÷ 10 = ?
+    answer: "3"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 220 56\" width=\"220\" height=\"56\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"22\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"34\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"30\" cy=\"10\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"22\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"34\" r=\"4\" fill=\"#f97316\"/><circle cx=\"50\" cy=\"10\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"22\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"34\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"70\" cy=\"10\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"22\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"34\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"90\" cy=\"10\" r=\"4\" fill=\"#ec4899\"/><circle cx=\"90\" cy=\"22\" r=\"4\" fill=\"#ec4899\"/><circle cx=\"90\" cy=\"34\" r=\"4\" fill=\"#ec4899\"/><circle cx=\"110\" cy=\"10\" r=\"4\" fill=\"#14b8a6\"/><circle cx=\"110\" cy=\"22\" r=\"4\" fill=\"#14b8a6\"/><circle cx=\"110\" cy=\"34\" r=\"4\" fill=\"#14b8a6\"/><circle cx=\"130\" cy=\"10\" r=\"4\" fill=\"#f59e0b\"/><circle cx=\"130\" cy=\"22\" r=\"4\" fill=\"#f59e0b\"/><circle cx=\"130\" cy=\"34\" r=\"4\" fill=\"#f59e0b\"/><circle cx=\"150\" cy=\"10\" r=\"4\" fill=\"#6366f1\"/><circle cx=\"150\" cy=\"22\" r=\"4\" fill=\"#6366f1\"/><circle cx=\"150\" cy=\"34\" r=\"4\" fill=\"#6366f1\"/><circle cx=\"170\" cy=\"10\" r=\"4\" fill=\"#84cc16\"/><circle cx=\"170\" cy=\"22\" r=\"4\" fill=\"#84cc16\"/><circle cx=\"170\" cy=\"34\" r=\"4\" fill=\"#84cc16\"/><circle cx=\"190\" cy=\"10\" r=\"4\" fill=\"#ef4444\"/><circle cx=\"190\" cy=\"22\" r=\"4\" fill=\"#ef4444\"/><circle cx=\"190\" cy=\"34\" r=\"4\" fill=\"#ef4444\"/></svg>"
+  - id: div_complete_48_6
+    question: 48 ÷ 6 = ?
+    answer: "8"
+  - id: div_complete_7_7
+    question: 7 ÷ 7 = ?
+    answer: "1"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 160 32\" width=\"160\" height=\"32\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"30\" cy=\"10\" r=\"4\" fill=\"#f97316\"/><circle cx=\"50\" cy=\"10\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"70\" cy=\"10\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"90\" cy=\"10\" r=\"4\" fill=\"#ec4899\"/><circle cx=\"110\" cy=\"10\" r=\"4\" fill=\"#14b8a6\"/><circle cx=\"130\" cy=\"10\" r=\"4\" fill=\"#f59e0b\"/></svg>"
+  - id: div_complete_10_5
+    question: 10 ÷ 5 = ?
+    answer: "2"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 120 44\" width=\"120\" height=\"44\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"22\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"30\" cy=\"10\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"22\" r=\"4\" fill=\"#f97316\"/><circle cx=\"50\" cy=\"10\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"22\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"70\" cy=\"10\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"22\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"90\" cy=\"10\" r=\"4\" fill=\"#ec4899\"/><circle cx=\"90\" cy=\"22\" r=\"4\" fill=\"#ec4899\"/></svg>"
+  - id: div_complete_30_5
+    question: 30 ÷ 5 = ?
+    answer: "6"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 120 92\" width=\"120\" height=\"92\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"22\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"34\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"46\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"58\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"70\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"30\" cy=\"10\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"22\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"34\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"46\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"58\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"70\" r=\"4\" fill=\"#f97316\"/><circle cx=\"50\" cy=\"10\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"22\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"34\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"46\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"58\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"70\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"70\" cy=\"10\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"22\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"34\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"46\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"58\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"70\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"90\" cy=\"10\" r=\"4\" fill=\"#ec4899\"/><circle cx=\"90\" cy=\"22\" r=\"4\" fill=\"#ec4899\"/><circle cx=\"90\" cy=\"34\" r=\"4\" fill=\"#ec4899\"/><circle cx=\"90\" cy=\"46\" r=\"4\" fill=\"#ec4899\"/><circle cx=\"90\" cy=\"58\" r=\"4\" fill=\"#ec4899\"/><circle cx=\"90\" cy=\"70\" r=\"4\" fill=\"#ec4899\"/></svg>"
+  - id: div_complete_80_8
+    question: 80 ÷ 8 = ?
+    answer: "10"
+  - id: div_complete_70_10
+    question: 70 ÷ 10 = ?
+    answer: "7"
+  - id: div_complete_6_3
+    question: 6 ÷ 3 = ?
+    answer: "2"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 80 44\" width=\"80\" height=\"44\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"22\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"30\" cy=\"10\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"22\" r=\"4\" fill=\"#f97316\"/><circle cx=\"50\" cy=\"10\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"22\" r=\"4\" fill=\"#22c55e\"/></svg>"
+  - id: div_complete_12_6
+    question: 12 ÷ 6 = ?
+    answer: "2"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 140 44\" width=\"140\" height=\"44\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"22\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"30\" cy=\"10\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"22\" r=\"4\" fill=\"#f97316\"/><circle cx=\"50\" cy=\"10\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"22\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"70\" cy=\"10\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"22\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"90\" cy=\"10\" r=\"4\" fill=\"#ec4899\"/><circle cx=\"90\" cy=\"22\" r=\"4\" fill=\"#ec4899\"/><circle cx=\"110\" cy=\"10\" r=\"4\" fill=\"#14b8a6\"/><circle cx=\"110\" cy=\"22\" r=\"4\" fill=\"#14b8a6\"/></svg>"
+  - id: div_complete_18_9
+    question: 18 ÷ 9 = ?
+    answer: "2"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 200 44\" width=\"200\" height=\"44\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"22\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"30\" cy=\"10\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"22\" r=\"4\" fill=\"#f97316\"/><circle cx=\"50\" cy=\"10\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"22\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"70\" cy=\"10\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"22\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"90\" cy=\"10\" r=\"4\" fill=\"#ec4899\"/><circle cx=\"90\" cy=\"22\" r=\"4\" fill=\"#ec4899\"/><circle cx=\"110\" cy=\"10\" r=\"4\" fill=\"#14b8a6\"/><circle cx=\"110\" cy=\"22\" r=\"4\" fill=\"#14b8a6\"/><circle cx=\"130\" cy=\"10\" r=\"4\" fill=\"#f59e0b\"/><circle cx=\"130\" cy=\"22\" r=\"4\" fill=\"#f59e0b\"/><circle cx=\"150\" cy=\"10\" r=\"4\" fill=\"#6366f1\"/><circle cx=\"150\" cy=\"22\" r=\"4\" fill=\"#6366f1\"/><circle cx=\"170\" cy=\"10\" r=\"4\" fill=\"#84cc16\"/><circle cx=\"170\" cy=\"22\" r=\"4\" fill=\"#84cc16\"/></svg>"
+  - id: div_complete_50_5
+    question: 50 ÷ 5 = ?
+    answer: "10"
+  - id: div_complete_90_10
+    question: 90 ÷ 10 = ?
+    answer: "9"
+  - id: div_complete_24_6
+    question: 24 ÷ 6 = ?
+    answer: "4"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 140 68\" width=\"140\" height=\"68\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"22\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"34\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"46\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"30\" cy=\"10\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"22\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"34\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"46\" r=\"4\" fill=\"#f97316\"/><circle cx=\"50\" cy=\"10\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"22\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"34\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"46\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"70\" cy=\"10\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"22\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"34\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"46\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"90\" cy=\"10\" r=\"4\" fill=\"#ec4899\"/><circle cx=\"90\" cy=\"22\" r=\"4\" fill=\"#ec4899\"/><circle cx=\"90\" cy=\"34\" r=\"4\" fill=\"#ec4899\"/><circle cx=\"90\" cy=\"46\" r=\"4\" fill=\"#ec4899\"/><circle cx=\"110\" cy=\"10\" r=\"4\" fill=\"#14b8a6\"/><circle cx=\"110\" cy=\"22\" r=\"4\" fill=\"#14b8a6\"/><circle cx=\"110\" cy=\"34\" r=\"4\" fill=\"#14b8a6\"/><circle cx=\"110\" cy=\"46\" r=\"4\" fill=\"#14b8a6\"/></svg>"
+  - id: div_complete_2_1
+    question: 2 ÷ 1 = ?
+    answer: "2"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 40 44\" width=\"40\" height=\"44\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"22\" r=\"4\" fill=\"#8b5cf6\"/></svg>"
+  - id: div_complete_42_7
+    question: 42 ÷ 7 = ?
+    answer: "6"
+  - id: div_complete_5_5
+    question: 5 ÷ 5 = ?
+    answer: "1"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 120 32\" width=\"120\" height=\"32\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"30\" cy=\"10\" r=\"4\" fill=\"#f97316\"/><circle cx=\"50\" cy=\"10\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"70\" cy=\"10\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"90\" cy=\"10\" r=\"4\" fill=\"#ec4899\"/></svg>"
+  - id: div_complete_49_7
+    question: 49 ÷ 7 = ?
+    answer: "7"
+  - id: div_complete_50_10
+    question: 50 ÷ 10 = ?
+    answer: "5"
+  - id: div_complete_35_5
+    question: 35 ÷ 5 = ?
+    answer: "7"
+  - id: div_complete_6_6
+    question: 6 ÷ 6 = ?
+    answer: "1"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 140 32\" width=\"140\" height=\"32\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"30\" cy=\"10\" r=\"4\" fill=\"#f97316\"/><circle cx=\"50\" cy=\"10\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"70\" cy=\"10\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"90\" cy=\"10\" r=\"4\" fill=\"#ec4899\"/><circle cx=\"110\" cy=\"10\" r=\"4\" fill=\"#14b8a6\"/></svg>"
+  - id: div_complete_3_3
+    question: 3 ÷ 3 = ?
+    answer: "1"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 80 32\" width=\"80\" height=\"32\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"30\" cy=\"10\" r=\"4\" fill=\"#f97316\"/><circle cx=\"50\" cy=\"10\" r=\"4\" fill=\"#22c55e\"/></svg>"
+  - id: div_complete_35_7
+    question: 35 ÷ 7 = ?
+    answer: "5"
+  - id: div_complete_1_1
+    question: 1 ÷ 1 = ?
+    answer: "1"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 40 32\" width=\"40\" height=\"32\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/></svg>"
+  - id: div_complete_5_1
+    question: 5 ÷ 1 = ?
+    answer: "5"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 40 80\" width=\"40\" height=\"80\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"22\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"34\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"46\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"58\" r=\"4\" fill=\"#8b5cf6\"/></svg>"
+  - id: div_complete_6_2
+    question: 6 ÷ 2 = ?
+    answer: "3"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 60 56\" width=\"60\" height=\"56\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"22\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"34\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"30\" cy=\"10\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"22\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"34\" r=\"4\" fill=\"#f97316\"/></svg>"
+  - id: div_complete_10_2
+    question: 10 ÷ 2 = ?
+    answer: "5"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 60 80\" width=\"60\" height=\"80\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"22\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"34\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"46\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"58\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"30\" cy=\"10\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"22\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"34\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"46\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"58\" r=\"4\" fill=\"#f97316\"/></svg>"
+  - id: div_complete_4_2
+    question: 4 ÷ 2 = ?
+    answer: "2"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 60 44\" width=\"60\" height=\"44\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"22\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"30\" cy=\"10\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"22\" r=\"4\" fill=\"#f97316\"/></svg>"
+  - id: div_complete_24_4
+    question: 24 ÷ 4 = ?
+    answer: "6"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 100 92\" width=\"100\" height=\"92\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"22\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"34\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"46\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"58\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"70\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"30\" cy=\"10\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"22\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"34\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"46\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"58\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"70\" r=\"4\" fill=\"#f97316\"/><circle cx=\"50\" cy=\"10\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"22\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"34\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"46\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"58\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"70\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"70\" cy=\"10\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"22\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"34\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"46\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"58\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"70\" r=\"4\" fill=\"#3b82f6\"/></svg>"
+  - id: div_complete_8_4
+    question: 8 ÷ 4 = ?
+    answer: "2"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 100 44\" width=\"100\" height=\"44\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"22\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"30\" cy=\"10\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"22\" r=\"4\" fill=\"#f97316\"/><circle cx=\"50\" cy=\"10\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"22\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"70\" cy=\"10\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"22\" r=\"4\" fill=\"#3b82f6\"/></svg>"
+  - id: div_complete_28_4
+    question: 28 ÷ 4 = ?
+    answer: "7"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 100 104\" width=\"100\" height=\"104\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"22\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"34\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"46\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"58\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"70\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"82\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"30\" cy=\"10\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"22\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"34\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"46\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"58\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"70\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"82\" r=\"4\" fill=\"#f97316\"/><circle cx=\"50\" cy=\"10\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"22\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"34\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"46\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"58\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"70\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"82\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"70\" cy=\"10\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"22\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"34\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"46\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"58\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"70\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"82\" r=\"4\" fill=\"#3b82f6\"/></svg>"
+  - id: div_complete_14_2
+    question: 14 ÷ 2 = ?
+    answer: "7"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 60 104\" width=\"60\" height=\"104\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"22\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"34\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"46\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"58\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"70\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"82\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"30\" cy=\"10\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"22\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"34\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"46\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"58\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"70\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"82\" r=\"4\" fill=\"#f97316\"/></svg>"
+  - id: div_complete_18_3
+    question: 18 ÷ 3 = ?
+    answer: "6"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 80 92\" width=\"80\" height=\"92\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"22\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"34\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"46\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"58\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"70\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"30\" cy=\"10\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"22\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"34\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"46\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"58\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"70\" r=\"4\" fill=\"#f97316\"/><circle cx=\"50\" cy=\"10\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"22\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"34\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"46\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"58\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"70\" r=\"4\" fill=\"#22c55e\"/></svg>"
+  - id: div_complete_81_9
+    question: 81 ÷ 9 = ?
+    answer: "9"
+  - id: div_complete_80_10
+    question: 80 ÷ 10 = ?
+    answer: "8"
+  - id: div_complete_30_3
+    question: 30 ÷ 3 = ?
+    answer: "10"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 80 140\" width=\"80\" height=\"140\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"22\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"34\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"46\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"58\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"70\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"82\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"94\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"106\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"118\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"30\" cy=\"10\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"22\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"34\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"46\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"58\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"70\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"82\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"94\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"106\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"118\" r=\"4\" fill=\"#f97316\"/><circle cx=\"50\" cy=\"10\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"22\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"34\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"46\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"58\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"70\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"82\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"94\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"106\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"118\" r=\"4\" fill=\"#22c55e\"/></svg>"
+  - id: div_complete_12_3
+    question: 12 ÷ 3 = ?
+    answer: "4"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 80 68\" width=\"80\" height=\"68\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"22\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"34\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"46\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"30\" cy=\"10\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"22\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"34\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"46\" r=\"4\" fill=\"#f97316\"/><circle cx=\"50\" cy=\"10\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"22\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"34\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"46\" r=\"4\" fill=\"#22c55e\"/></svg>"
+  - id: div_complete_4_1
+    question: 4 ÷ 1 = ?
+    answer: "4"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 40 68\" width=\"40\" height=\"68\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"22\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"34\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"46\" r=\"4\" fill=\"#8b5cf6\"/></svg>"
+  - id: div_complete_40_5
+    question: 40 ÷ 5 = ?
+    answer: "8"
+  - id: div_complete_45_9
+    question: 45 ÷ 9 = ?
+    answer: "5"
+  - id: div_complete_24_8
+    question: 24 ÷ 8 = ?
+    answer: "3"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 180 56\" width=\"180\" height=\"56\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"22\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"34\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"30\" cy=\"10\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"22\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"34\" r=\"4\" fill=\"#f97316\"/><circle cx=\"50\" cy=\"10\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"22\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"34\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"70\" cy=\"10\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"22\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"34\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"90\" cy=\"10\" r=\"4\" fill=\"#ec4899\"/><circle cx=\"90\" cy=\"22\" r=\"4\" fill=\"#ec4899\"/><circle cx=\"90\" cy=\"34\" r=\"4\" fill=\"#ec4899\"/><circle cx=\"110\" cy=\"10\" r=\"4\" fill=\"#14b8a6\"/><circle cx=\"110\" cy=\"22\" r=\"4\" fill=\"#14b8a6\"/><circle cx=\"110\" cy=\"34\" r=\"4\" fill=\"#14b8a6\"/><circle cx=\"130\" cy=\"10\" r=\"4\" fill=\"#f59e0b\"/><circle cx=\"130\" cy=\"22\" r=\"4\" fill=\"#f59e0b\"/><circle cx=\"130\" cy=\"34\" r=\"4\" fill=\"#f59e0b\"/><circle cx=\"150\" cy=\"10\" r=\"4\" fill=\"#6366f1\"/><circle cx=\"150\" cy=\"22\" r=\"4\" fill=\"#6366f1\"/><circle cx=\"150\" cy=\"34\" r=\"4\" fill=\"#6366f1\"/></svg>"
+  - id: div_complete_8_1
+    question: 8 ÷ 1 = ?
+    answer: "8"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 40 116\" width=\"40\" height=\"116\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"22\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"34\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"46\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"58\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"70\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"82\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"94\" r=\"4\" fill=\"#8b5cf6\"/></svg>"
+  - id: div_complete_18_2
+    question: 18 ÷ 2 = ?
+    answer: "9"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 60 128\" width=\"60\" height=\"128\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"22\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"34\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"46\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"58\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"70\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"82\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"94\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"106\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"30\" cy=\"10\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"22\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"34\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"46\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"58\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"70\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"82\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"94\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"106\" r=\"4\" fill=\"#f97316\"/></svg>"
+  - id: div_complete_8_8
+    question: 8 ÷ 8 = ?
+    answer: "1"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 180 32\" width=\"180\" height=\"32\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"30\" cy=\"10\" r=\"4\" fill=\"#f97316\"/><circle cx=\"50\" cy=\"10\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"70\" cy=\"10\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"90\" cy=\"10\" r=\"4\" fill=\"#ec4899\"/><circle cx=\"110\" cy=\"10\" r=\"4\" fill=\"#14b8a6\"/><circle cx=\"130\" cy=\"10\" r=\"4\" fill=\"#f59e0b\"/><circle cx=\"150\" cy=\"10\" r=\"4\" fill=\"#6366f1\"/></svg>"
+  - id: div_complete_40_10
+    question: 40 ÷ 10 = ?
+    answer: "4"
+  - id: div_complete_56_8
+    question: 56 ÷ 8 = ?
+    answer: "7"
+  - id: div_complete_20_2
+    question: 20 ÷ 2 = ?
+    answer: "10"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 60 140\" width=\"60\" height=\"140\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"22\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"34\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"46\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"58\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"70\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"82\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"94\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"106\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"118\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"30\" cy=\"10\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"22\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"34\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"46\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"58\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"70\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"82\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"94\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"106\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"118\" r=\"4\" fill=\"#f97316\"/></svg>"
+  - id: div_complete_14_7
+    question: 14 ÷ 7 = ?
+    answer: "2"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 160 44\" width=\"160\" height=\"44\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"22\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"30\" cy=\"10\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"22\" r=\"4\" fill=\"#f97316\"/><circle cx=\"50\" cy=\"10\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"22\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"70\" cy=\"10\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"22\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"90\" cy=\"10\" r=\"4\" fill=\"#ec4899\"/><circle cx=\"90\" cy=\"22\" r=\"4\" fill=\"#ec4899\"/><circle cx=\"110\" cy=\"10\" r=\"4\" fill=\"#14b8a6\"/><circle cx=\"110\" cy=\"22\" r=\"4\" fill=\"#14b8a6\"/><circle cx=\"130\" cy=\"10\" r=\"4\" fill=\"#f59e0b\"/><circle cx=\"130\" cy=\"22\" r=\"4\" fill=\"#f59e0b\"/></svg>"
+  - id: div_complete_18_6
+    question: 18 ÷ 6 = ?
+    answer: "3"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 140 56\" width=\"140\" height=\"56\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"22\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"34\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"30\" cy=\"10\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"22\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"34\" r=\"4\" fill=\"#f97316\"/><circle cx=\"50\" cy=\"10\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"22\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"34\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"70\" cy=\"10\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"22\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"34\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"90\" cy=\"10\" r=\"4\" fill=\"#ec4899\"/><circle cx=\"90\" cy=\"22\" r=\"4\" fill=\"#ec4899\"/><circle cx=\"90\" cy=\"34\" r=\"4\" fill=\"#ec4899\"/><circle cx=\"110\" cy=\"10\" r=\"4\" fill=\"#14b8a6\"/><circle cx=\"110\" cy=\"22\" r=\"4\" fill=\"#14b8a6\"/><circle cx=\"110\" cy=\"34\" r=\"4\" fill=\"#14b8a6\"/></svg>"
+  - id: div_complete_42_6
+    question: 42 ÷ 6 = ?
+    answer: "7"
+  - id: div_complete_16_2
+    question: 16 ÷ 2 = ?
+    answer: "8"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 60 116\" width=\"60\" height=\"116\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"22\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"34\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"46\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"58\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"70\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"82\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"94\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"30\" cy=\"10\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"22\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"34\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"46\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"58\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"70\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"82\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"94\" r=\"4\" fill=\"#f97316\"/></svg>"
+  - id: div_complete_16_8
+    question: 16 ÷ 8 = ?
+    answer: "2"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 180 44\" width=\"180\" height=\"44\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"22\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"30\" cy=\"10\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"22\" r=\"4\" fill=\"#f97316\"/><circle cx=\"50\" cy=\"10\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"22\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"70\" cy=\"10\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"22\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"90\" cy=\"10\" r=\"4\" fill=\"#ec4899\"/><circle cx=\"90\" cy=\"22\" r=\"4\" fill=\"#ec4899\"/><circle cx=\"110\" cy=\"10\" r=\"4\" fill=\"#14b8a6\"/><circle cx=\"110\" cy=\"22\" r=\"4\" fill=\"#14b8a6\"/><circle cx=\"130\" cy=\"10\" r=\"4\" fill=\"#f59e0b\"/><circle cx=\"130\" cy=\"22\" r=\"4\" fill=\"#f59e0b\"/><circle cx=\"150\" cy=\"10\" r=\"4\" fill=\"#6366f1\"/><circle cx=\"150\" cy=\"22\" r=\"4\" fill=\"#6366f1\"/></svg>"
+  - id: div_complete_36_9
+    question: 36 ÷ 9 = ?
+    answer: "4"
+  - id: div_complete_12_2
+    question: 12 ÷ 2 = ?
+    answer: "6"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 60 92\" width=\"60\" height=\"92\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"22\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"34\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"46\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"58\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"70\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"30\" cy=\"10\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"22\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"34\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"46\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"58\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"70\" r=\"4\" fill=\"#f97316\"/></svg>"
+  - id: div_complete_8_2
+    question: 8 ÷ 2 = ?
+    answer: "4"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 60 68\" width=\"60\" height=\"68\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"22\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"34\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"46\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"30\" cy=\"10\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"22\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"34\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"46\" r=\"4\" fill=\"#f97316\"/></svg>"
+  - id: div_complete_4_4
+    question: 4 ÷ 4 = ?
+    answer: "1"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 100 32\" width=\"100\" height=\"32\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"30\" cy=\"10\" r=\"4\" fill=\"#f97316\"/><circle cx=\"50\" cy=\"10\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"70\" cy=\"10\" r=\"4\" fill=\"#3b82f6\"/></svg>"
+  - id: div_complete_72_8
+    question: 72 ÷ 8 = ?
+    answer: "9"
+  - id: div_complete_24_3
+    question: 24 ÷ 3 = ?
+    answer: "8"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 80 116\" width=\"80\" height=\"116\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"22\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"34\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"46\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"58\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"70\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"82\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"94\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"30\" cy=\"10\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"22\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"34\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"46\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"58\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"70\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"82\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"94\" r=\"4\" fill=\"#f97316\"/><circle cx=\"50\" cy=\"10\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"22\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"34\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"46\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"58\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"70\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"82\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"94\" r=\"4\" fill=\"#22c55e\"/></svg>"
+  - id: div_complete_36_6
+    question: 36 ÷ 6 = ?
+    answer: "6"
+  - id: div_complete_20_4
+    question: 20 ÷ 4 = ?
+    answer: "5"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 100 80\" width=\"100\" height=\"80\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"22\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"34\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"46\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"58\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"30\" cy=\"10\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"22\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"34\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"46\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"58\" r=\"4\" fill=\"#f97316\"/><circle cx=\"50\" cy=\"10\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"22\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"34\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"46\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"58\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"70\" cy=\"10\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"22\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"34\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"46\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"58\" r=\"4\" fill=\"#3b82f6\"/></svg>"
+  - id: div_complete_40_8
+    question: 40 ÷ 8 = ?
+    answer: "5"
+  - id: div_complete_60_6
+    question: 60 ÷ 6 = ?
+    answer: "10"
+  - id: div_complete_70_7
+    question: 70 ÷ 7 = ?
+    answer: "10"
+  - id: div_complete_9_1
+    question: 9 ÷ 1 = ?
+    answer: "9"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 40 128\" width=\"40\" height=\"128\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"22\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"34\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"46\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"58\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"70\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"82\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"94\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"106\" r=\"4\" fill=\"#8b5cf6\"/></svg>"
+  - id: div_complete_27_9
+    question: 27 ÷ 9 = ?
+    answer: "3"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 200 56\" width=\"200\" height=\"56\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"22\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"34\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"30\" cy=\"10\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"22\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"34\" r=\"4\" fill=\"#f97316\"/><circle cx=\"50\" cy=\"10\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"22\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"34\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"70\" cy=\"10\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"22\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"34\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"90\" cy=\"10\" r=\"4\" fill=\"#ec4899\"/><circle cx=\"90\" cy=\"22\" r=\"4\" fill=\"#ec4899\"/><circle cx=\"90\" cy=\"34\" r=\"4\" fill=\"#ec4899\"/><circle cx=\"110\" cy=\"10\" r=\"4\" fill=\"#14b8a6\"/><circle cx=\"110\" cy=\"22\" r=\"4\" fill=\"#14b8a6\"/><circle cx=\"110\" cy=\"34\" r=\"4\" fill=\"#14b8a6\"/><circle cx=\"130\" cy=\"10\" r=\"4\" fill=\"#f59e0b\"/><circle cx=\"130\" cy=\"22\" r=\"4\" fill=\"#f59e0b\"/><circle cx=\"130\" cy=\"34\" r=\"4\" fill=\"#f59e0b\"/><circle cx=\"150\" cy=\"10\" r=\"4\" fill=\"#6366f1\"/><circle cx=\"150\" cy=\"22\" r=\"4\" fill=\"#6366f1\"/><circle cx=\"150\" cy=\"34\" r=\"4\" fill=\"#6366f1\"/><circle cx=\"170\" cy=\"10\" r=\"4\" fill=\"#84cc16\"/><circle cx=\"170\" cy=\"22\" r=\"4\" fill=\"#84cc16\"/><circle cx=\"170\" cy=\"34\" r=\"4\" fill=\"#84cc16\"/></svg>"
+  - id: div_complete_32_4
+    question: 32 ÷ 4 = ?
+    answer: "8"
+  - id: div_complete_64_8
+    question: 64 ÷ 8 = ?
+    answer: "8"
+  - id: div_complete_54_6
+    question: 54 ÷ 6 = ?
+    answer: "9"
+  - id: div_complete_63_9
+    question: 63 ÷ 9 = ?
+    answer: "7"
+  - id: div_complete_3_1
+    question: 3 ÷ 1 = ?
+    answer: "3"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 40 56\" width=\"40\" height=\"56\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"22\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"34\" r=\"4\" fill=\"#8b5cf6\"/></svg>"
+  - id: div_complete_20_5
+    question: 20 ÷ 5 = ?
+    answer: "4"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 120 68\" width=\"120\" height=\"68\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"22\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"34\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"46\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"30\" cy=\"10\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"22\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"34\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"46\" r=\"4\" fill=\"#f97316\"/><circle cx=\"50\" cy=\"10\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"22\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"34\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"46\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"70\" cy=\"10\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"22\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"34\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"46\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"90\" cy=\"10\" r=\"4\" fill=\"#ec4899\"/><circle cx=\"90\" cy=\"22\" r=\"4\" fill=\"#ec4899\"/><circle cx=\"90\" cy=\"34\" r=\"4\" fill=\"#ec4899\"/><circle cx=\"90\" cy=\"46\" r=\"4\" fill=\"#ec4899\"/></svg>"
+  - id: div_complete_15_3
+    question: 15 ÷ 3 = ?
+    answer: "5"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 80 80\" width=\"80\" height=\"80\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"22\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"34\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"46\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"58\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"30\" cy=\"10\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"22\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"34\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"46\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"58\" r=\"4\" fill=\"#f97316\"/><circle cx=\"50\" cy=\"10\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"22\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"34\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"46\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"58\" r=\"4\" fill=\"#22c55e\"/></svg>"
+  - id: div_complete_30_6
+    question: 30 ÷ 6 = ?
+    answer: "5"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 140 80\" width=\"140\" height=\"80\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"22\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"34\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"46\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"58\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"30\" cy=\"10\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"22\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"34\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"46\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"58\" r=\"4\" fill=\"#f97316\"/><circle cx=\"50\" cy=\"10\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"22\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"34\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"46\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"58\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"70\" cy=\"10\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"22\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"34\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"46\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"58\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"90\" cy=\"10\" r=\"4\" fill=\"#ec4899\"/><circle cx=\"90\" cy=\"22\" r=\"4\" fill=\"#ec4899\"/><circle cx=\"90\" cy=\"34\" r=\"4\" fill=\"#ec4899\"/><circle cx=\"90\" cy=\"46\" r=\"4\" fill=\"#ec4899\"/><circle cx=\"90\" cy=\"58\" r=\"4\" fill=\"#ec4899\"/><circle cx=\"110\" cy=\"10\" r=\"4\" fill=\"#14b8a6\"/><circle cx=\"110\" cy=\"22\" r=\"4\" fill=\"#14b8a6\"/><circle cx=\"110\" cy=\"34\" r=\"4\" fill=\"#14b8a6\"/><circle cx=\"110\" cy=\"46\" r=\"4\" fill=\"#14b8a6\"/><circle cx=\"110\" cy=\"58\" r=\"4\" fill=\"#14b8a6\"/></svg>"
+  - id: div_complete_100_10
+    question: 100 ÷ 10 = ?
+    answer: "10"
+  - id: div_complete_7_1
+    question: 7 ÷ 1 = ?
+    answer: "7"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 40 104\" width=\"40\" height=\"104\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"22\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"34\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"46\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"58\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"70\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"82\" r=\"4\" fill=\"#8b5cf6\"/></svg>"
+  - id: div_complete_60_10
+    question: 60 ÷ 10 = ?
+    answer: "6"
+  - id: div_complete_90_9
+    question: 90 ÷ 9 = ?
+    answer: "10"
+  - id: div_complete_20_10
+    question: 20 ÷ 10 = ?
+    answer: "2"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 220 44\" width=\"220\" height=\"44\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"22\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"30\" cy=\"10\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"22\" r=\"4\" fill=\"#f97316\"/><circle cx=\"50\" cy=\"10\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"22\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"70\" cy=\"10\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"22\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"90\" cy=\"10\" r=\"4\" fill=\"#ec4899\"/><circle cx=\"90\" cy=\"22\" r=\"4\" fill=\"#ec4899\"/><circle cx=\"110\" cy=\"10\" r=\"4\" fill=\"#14b8a6\"/><circle cx=\"110\" cy=\"22\" r=\"4\" fill=\"#14b8a6\"/><circle cx=\"130\" cy=\"10\" r=\"4\" fill=\"#f59e0b\"/><circle cx=\"130\" cy=\"22\" r=\"4\" fill=\"#f59e0b\"/><circle cx=\"150\" cy=\"10\" r=\"4\" fill=\"#6366f1\"/><circle cx=\"150\" cy=\"22\" r=\"4\" fill=\"#6366f1\"/><circle cx=\"170\" cy=\"10\" r=\"4\" fill=\"#84cc16\"/><circle cx=\"170\" cy=\"22\" r=\"4\" fill=\"#84cc16\"/><circle cx=\"190\" cy=\"10\" r=\"4\" fill=\"#ef4444\"/><circle cx=\"190\" cy=\"22\" r=\"4\" fill=\"#ef4444\"/></svg>"
+  - id: div_complete_48_8
+    question: 48 ÷ 8 = ?
+    answer: "6"
+  - id: div_complete_16_4
+    question: 16 ÷ 4 = ?
+    answer: "4"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 100 68\" width=\"100\" height=\"68\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"22\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"34\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"46\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"30\" cy=\"10\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"22\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"34\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"46\" r=\"4\" fill=\"#f97316\"/><circle cx=\"50\" cy=\"10\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"22\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"34\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"46\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"70\" cy=\"10\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"22\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"34\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"46\" r=\"4\" fill=\"#3b82f6\"/></svg>"
+  - id: div_complete_63_7
+    question: 63 ÷ 7 = ?
+    answer: "9"
+  - id: div_complete_56_7
+    question: 56 ÷ 7 = ?
+    answer: "8"
+  - id: div_complete_2_2
+    question: 2 ÷ 2 = ?
+    answer: "1"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 60 32\" width=\"60\" height=\"32\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"30\" cy=\"10\" r=\"4\" fill=\"#f97316\"/></svg>"
+  - id: div_complete_45_5
+    question: 45 ÷ 5 = ?
+    answer: "9"

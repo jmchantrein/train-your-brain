@@ -1,0 +1,124 @@
+name: Racines carrées parfaites
+description: Racines carrées des carrés parfaits de 1 à 400
+tags: [math, racines, carres, quatrieme, troisieme]
+category: [sciences, maths, arithmetique, puissances, racines, quatrieme, troisieme]
+settings:
+  sequential: false
+  bidirectional: false
+metadata:
+  license: CC-BY-SA-4.0
+  source:
+    type: procedural
+    generator: powers
+    version: 1.0.0
+    generatedAt: "2026-11-22"
+    parameters:
+      type: square-roots
+resources:
+  - type: summary
+    title: "Qu'est-ce qu'une puissance ?"
+    content: "Une **puissance** indique combien de fois un nombre est multiplié par lui-même.\n\n**Notation** : aⁿ = a × a × ... × a (n fois)\n\nExemples :\n- 3² = 3 × 3 = 9 (carré de 3)\n- 2³ = 2 × 2 × 2 = 8 (cube de 2)\n- 10⁴ = 10 × 10 × 10 × 10 = 10000\n\nLes puissances sont essentielles en :\n- Sciences (notation scientifique)\n- Informatique (puissances de 2)\n- Géométrie (aires et volumes)"
+    aiGenerated: true
+    icon: 📝
+  - type: link
+    title: "Wikipedia : Puissance"
+    url: https://fr.wikipedia.org/wiki/Puissance_(mathématiques)
+    icon: 📖
+  - type: glossary
+    title: Vocabulaire clé
+    content: "- **Puissance** : Multiplication répétée d'un nombre\n- **Base** : Le nombre qui est multiplié\n- **Exposant** : Le nombre de fois qu'on multiplie\n- **Carré** : Puissance 2 (n²)\n- **Cube** : Puissance 3 (n³)\n- **Racine carrée** : Opération inverse du carré (√)"
+    icon: 📚
+  - type: image
+    title: Carrés parfaits
+    image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMjAgMjUwIiB3aWR0aD0iMjIwIiBoZWlnaHQ9IjI1MCI+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjIyMCIgaGVpZ2h0PSIyNTAiIGZpbGw9IiMxZTI5M2IiIHJ4PSI4Ii8+PHRleHQgeD0iMTEwIiB5PSIxOCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTIiIGZpbGw9IiM4YjVjZjYiIGZvbnQtd2VpZ2h0PSJib2xkIj5DYXJyw6lzIHBhcmZhaXRzPC90ZXh0Pjx0ZXh0IHg9IjEwIiB5PSI0NCIgZm9udC1mYW1pbHk9Im1vbm9zcGFjZSIgZm9udC1zaXplPSIxMiIgZmlsbD0iI2Y4ZmFmYyI+IDHCsiA9ICAgMTwvdGV4dD48dGV4dCB4PSIxMCIgeT0iNjYiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iMTIiIGZpbGw9IiNmOGZhZmMiPiAywrIgPSAgIDQ8L3RleHQ+PHRleHQgeD0iMTAiIHk9Ijg4IiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiBmb250LXNpemU9IjEyIiBmaWxsPSIjZjhmYWZjIj4gM8KyID0gICA5PC90ZXh0Pjx0ZXh0IHg9IjEwIiB5PSIxMTAiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iMTIiIGZpbGw9IiNmOGZhZmMiPiA0wrIgPSAgMTY8L3RleHQ+PHRleHQgeD0iMTAiIHk9IjEzMiIgZm9udC1mYW1pbHk9Im1vbm9zcGFjZSIgZm9udC1zaXplPSIxMiIgZmlsbD0iI2Y4ZmFmYyI+IDXCsiA9ICAyNTwvdGV4dD48dGV4dCB4PSIxMCIgeT0iMTU0IiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiBmb250LXNpemU9IjEyIiBmaWxsPSIjZjhmYWZjIj4gNsKyID0gIDM2PC90ZXh0Pjx0ZXh0IHg9IjEwIiB5PSIxNzYiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iMTIiIGZpbGw9IiNmOGZhZmMiPiA3wrIgPSAgNDk8L3RleHQ+PHRleHQgeD0iMTAiIHk9IjE5OCIgZm9udC1mYW1pbHk9Im1vbm9zcGFjZSIgZm9udC1zaXplPSIxMiIgZmlsbD0iI2Y4ZmFmYyI+IDjCsiA9ICA2NDwvdGV4dD48dGV4dCB4PSIxMCIgeT0iMjIwIiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiBmb250LXNpemU9IjEyIiBmaWxsPSIjZjhmYWZjIj4gOcKyID0gIDgxPC90ZXh0Pjx0ZXh0IHg9IjEwIiB5PSIyNDIiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iMTIiIGZpbGw9IiNmOGZhZmMiPjEwwrIgPSAxMDA8L3RleHQ+PHRleHQgeD0iMTEwIiB5PSI0NCIgZm9udC1mYW1pbHk9Im1vbm9zcGFjZSIgZm9udC1zaXplPSIxMiIgZmlsbD0iI2Y4ZmFmYyI+MTHCsiA9IDEyMTwvdGV4dD48dGV4dCB4PSIxMTAiIHk9IjY2IiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiBmb250LXNpemU9IjEyIiBmaWxsPSIjZjhmYWZjIj4xMsKyID0gMTQ0PC90ZXh0Pjx0ZXh0IHg9IjExMCIgeT0iODgiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iMTIiIGZpbGw9IiNmOGZhZmMiPjEzwrIgPSAxNjk8L3RleHQ+PHRleHQgeD0iMTEwIiB5PSIxMTAiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iMTIiIGZpbGw9IiNmOGZhZmMiPjE0wrIgPSAxOTY8L3RleHQ+PHRleHQgeD0iMTEwIiB5PSIxMzIiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iMTIiIGZpbGw9IiNmOGZhZmMiPjE1wrIgPSAyMjU8L3RleHQ+PHRleHQgeD0iMTEwIiB5PSIxNTQiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iMTIiIGZpbGw9IiNmOGZhZmMiPjE2wrIgPSAyNTY8L3RleHQ+PHRleHQgeD0iMTEwIiB5PSIxNzYiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iMTIiIGZpbGw9IiNmOGZhZmMiPjE3wrIgPSAyODk8L3RleHQ+PHRleHQgeD0iMTEwIiB5PSIxOTgiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iMTIiIGZpbGw9IiNmOGZhZmMiPjE4wrIgPSAzMjQ8L3RleHQ+PHRleHQgeD0iMTEwIiB5PSIyMjAiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iMTIiIGZpbGw9IiNmOGZhZmMiPjE5wrIgPSAzNjE8L3RleHQ+PHRleHQgeD0iMTEwIiB5PSIyNDIiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iMTIiIGZpbGw9IiNmOGZhZmMiPjIwwrIgPSA0MDA8L3RleHQ+PC9zdmc+"
+    aiGenerated: false
+    icon: 📊
+  - type: objective
+    title: "Objectifs d'apprentissage"
+    content: "- ✅ Reconnaître les carrés parfaits\n- ✅ Trouver leur racine carrée\n- ✅ Faire le lien carré ↔ racine"
+    icon: 🎯
+  - type: tip
+    title: Racines carrées
+    content: "La racine carrée est l'opération inverse du carré :\n√n = x signifie que x² = n\n\nExemples :\n- √9 = 3 car 3² = 9\n- √144 = 12 car 12² = 144\n- √400 = 20 car 20² = 400"
+    icon: 💡
+cards:
+  - id: pow_sqrt_1
+    question: √1 = ?
+    answer: "1"
+    feedback: √1 = 1 car 1² = 1
+  - id: pow_sqrt_4
+    question: √4 = ?
+    answer: "2"
+    feedback: √4 = 2 car 2² = 4
+  - id: pow_sqrt_9
+    question: √9 = ?
+    answer: "3"
+    feedback: √9 = 3 car 3² = 9
+  - id: pow_sqrt_16
+    question: √16 = ?
+    answer: "4"
+    feedback: √16 = 4 car 4² = 16
+  - id: pow_sqrt_25
+    question: √25 = ?
+    answer: "5"
+    feedback: √25 = 5 car 5² = 25
+  - id: pow_sqrt_36
+    question: √36 = ?
+    answer: "6"
+    feedback: √36 = 6 car 6² = 36
+  - id: pow_sqrt_49
+    question: √49 = ?
+    answer: "7"
+    feedback: √49 = 7 car 7² = 49
+  - id: pow_sqrt_64
+    question: √64 = ?
+    answer: "8"
+    feedback: √64 = 8 car 8² = 64
+  - id: pow_sqrt_81
+    question: √81 = ?
+    answer: "9"
+    feedback: √81 = 9 car 9² = 81
+  - id: pow_sqrt_100
+    question: √100 = ?
+    answer: "10"
+    feedback: √100 = 10 car 10² = 100
+  - id: pow_sqrt_121
+    question: √121 = ?
+    answer: "11"
+    feedback: √121 = 11 car 11² = 121
+  - id: pow_sqrt_144
+    question: √144 = ?
+    answer: "12"
+    feedback: √144 = 12 car 12² = 144
+  - id: pow_sqrt_169
+    question: √169 = ?
+    answer: "13"
+    feedback: √169 = 13 car 13² = 169
+  - id: pow_sqrt_196
+    question: √196 = ?
+    answer: "14"
+    feedback: √196 = 14 car 14² = 196
+  - id: pow_sqrt_225
+    question: √225 = ?
+    answer: "15"
+    feedback: √225 = 15 car 15² = 225
+  - id: pow_sqrt_256
+    question: √256 = ?
+    answer: "16"
+    feedback: √256 = 16 car 16² = 256
+  - id: pow_sqrt_289
+    question: √289 = ?
+    answer: "17"
+    feedback: √289 = 17 car 17² = 289
+  - id: pow_sqrt_324
+    question: √324 = ?
+    answer: "18"
+    feedback: √324 = 18 car 18² = 324
+  - id: pow_sqrt_361
+    question: √361 = ?
+    answer: "19"
+    feedback: √361 = 19 car 19² = 361
+  - id: pow_sqrt_400
+    question: √400 = ?
+    answer: "20"
+    feedback: √400 = 20 car 20² = 400

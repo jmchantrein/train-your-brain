@@ -1,0 +1,62 @@
+name: Signaler un bug
+description: Quelque chose ne fonctionne pas comme prévu.
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Merci de prendre le temps de signaler ce problème. Quelques lignes suffisent.
+        Pour une faille de sécurité, n'utilise pas ce formulaire : lis [SECURITY.md](https://github.com/jmchantrein/train-your-brain/blob/main/SECURITY.md).
+  - type: textarea
+    id: description
+    attributes:
+      label: Ce qui se passe
+      description: Décris le problème avec tes mots.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Comment le reproduire
+      description: Les étapes, de l'ouverture de l'application jusqu'au problème.
+      placeholder: |
+        1. Ouvrir l'application
+        2. Choisir le deck « … »
+        3. …
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Ce que tu attendais
+    validations:
+      required: true
+  - type: dropdown
+    id: source
+    attributes:
+      label: Comment utilises-tu l'application ?
+      options:
+        - Site en ligne (GitHub Pages)
+        - Fichier index.html téléchargé
+        - Construit depuis le code source
+        - Je ne sais pas
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Navigateur et système
+      description: Par exemple « Firefox 130 sous Windows 11 » ou « Safari sur iPad ».
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: Visible dans la page Paramètres, ou dans `package.json` si tu construis toi-même.
+  - type: textarea
+    id: extra
+    attributes:
+      label: Autres informations
+      description: Captures d'écran, message d'erreur de la console du navigateur, outil d'accessibilité utilisé. N'y mets pas de données personnelles.

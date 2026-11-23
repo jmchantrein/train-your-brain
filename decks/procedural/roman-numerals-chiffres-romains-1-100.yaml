@@ -1,0 +1,233 @@
+name: Chiffres romains - 1 à 100
+description: Nombres clés de 1 à 100 en chiffres romains
+tags: [sciences, maths, arithmetique, chiffres-romains, numeration, cm2]
+category: [sciences, maths, arithmetique, cm2]
+settings:
+  sequential: false
+  bidirectional: false
+metadata:
+  license: CC-BY-SA-4.0
+  source:
+    type: procedural
+    generator: roman-numerals
+    version: 1.0.0
+    generatedAt: "2026-11-22"
+    parameters:
+      type: intermediate
+cards:
+  - id: roman_int_1_to_roman
+    question: 1 en chiffres romains ?
+    answer: I
+  - id: roman_int_1_from_roman
+    question: I en chiffres arabes ?
+    answer: "1"
+  - id: roman_int_2_to_roman
+    question: 2 en chiffres romains ?
+    answer: II
+  - id: roman_int_2_from_roman
+    question: II en chiffres arabes ?
+    answer: "2"
+  - id: roman_int_3_to_roman
+    question: 3 en chiffres romains ?
+    answer: III
+  - id: roman_int_3_from_roman
+    question: III en chiffres arabes ?
+    answer: "3"
+  - id: roman_int_4_to_roman
+    question: 4 en chiffres romains ?
+    answer: IV
+  - id: roman_int_4_from_roman
+    question: IV en chiffres arabes ?
+    answer: "4"
+  - id: roman_int_5_to_roman
+    question: 5 en chiffres romains ?
+    answer: V
+  - id: roman_int_5_from_roman
+    question: V en chiffres arabes ?
+    answer: "5"
+  - id: roman_int_6_to_roman
+    question: 6 en chiffres romains ?
+    answer: VI
+  - id: roman_int_6_from_roman
+    question: VI en chiffres arabes ?
+    answer: "6"
+  - id: roman_int_7_to_roman
+    question: 7 en chiffres romains ?
+    answer: VII
+  - id: roman_int_7_from_roman
+    question: VII en chiffres arabes ?
+    answer: "7"
+  - id: roman_int_8_to_roman
+    question: 8 en chiffres romains ?
+    answer: VIII
+  - id: roman_int_8_from_roman
+    question: VIII en chiffres arabes ?
+    answer: "8"
+  - id: roman_int_9_to_roman
+    question: 9 en chiffres romains ?
+    answer: IX
+  - id: roman_int_9_from_roman
+    question: IX en chiffres arabes ?
+    answer: "9"
+  - id: roman_int_10_to_roman
+    question: 10 en chiffres romains ?
+    answer: X
+  - id: roman_int_10_from_roman
+    question: X en chiffres arabes ?
+    answer: "10"
+  - id: roman_int_11_to_roman
+    question: 11 en chiffres romains ?
+    answer: XI
+  - id: roman_int_11_from_roman
+    question: XI en chiffres arabes ?
+    answer: "11"
+  - id: roman_int_12_to_roman
+    question: 12 en chiffres romains ?
+    answer: XII
+  - id: roman_int_12_from_roman
+    question: XII en chiffres arabes ?
+    answer: "12"
+  - id: roman_int_13_to_roman
+    question: 13 en chiffres romains ?
+    answer: XIII
+  - id: roman_int_13_from_roman
+    question: XIII en chiffres arabes ?
+    answer: "13"
+  - id: roman_int_14_to_roman
+    question: 14 en chiffres romains ?
+    answer: XIV
+  - id: roman_int_14_from_roman
+    question: XIV en chiffres arabes ?
+    answer: "14"
+  - id: roman_int_15_to_roman
+    question: 15 en chiffres romains ?
+    answer: XV
+  - id: roman_int_15_from_roman
+    question: XV en chiffres arabes ?
+    answer: "15"
+  - id: roman_int_16_to_roman
+    question: 16 en chiffres romains ?
+    answer: XVI
+  - id: roman_int_16_from_roman
+    question: XVI en chiffres arabes ?
+    answer: "16"
+  - id: roman_int_17_to_roman
+    question: 17 en chiffres romains ?
+    answer: XVII
+  - id: roman_int_17_from_roman
+    question: XVII en chiffres arabes ?
+    answer: "17"
+  - id: roman_int_18_to_roman
+    question: 18 en chiffres romains ?
+    answer: XVIII
+  - id: roman_int_18_from_roman
+    question: XVIII en chiffres arabes ?
+    answer: "18"
+  - id: roman_int_19_to_roman
+    question: 19 en chiffres romains ?
+    answer: XIX
+  - id: roman_int_19_from_roman
+    question: XIX en chiffres arabes ?
+    answer: "19"
+  - id: roman_int_20_to_roman
+    question: 20 en chiffres romains ?
+    answer: XX
+  - id: roman_int_20_from_roman
+    question: XX en chiffres arabes ?
+    answer: "20"
+  - id: roman_int_25_to_roman
+    question: 25 en chiffres romains ?
+    answer: XXV
+  - id: roman_int_25_from_roman
+    question: XXV en chiffres arabes ?
+    answer: "25"
+  - id: roman_int_30_to_roman
+    question: 30 en chiffres romains ?
+    answer: XXX
+  - id: roman_int_30_from_roman
+    question: XXX en chiffres arabes ?
+    answer: "30"
+  - id: roman_int_35_to_roman
+    question: 35 en chiffres romains ?
+    answer: XXXV
+  - id: roman_int_35_from_roman
+    question: XXXV en chiffres arabes ?
+    answer: "35"
+  - id: roman_int_40_to_roman
+    question: 40 en chiffres romains ?
+    answer: XL
+  - id: roman_int_40_from_roman
+    question: XL en chiffres arabes ?
+    answer: "40"
+  - id: roman_int_45_to_roman
+    question: 45 en chiffres romains ?
+    answer: XLV
+  - id: roman_int_45_from_roman
+    question: XLV en chiffres arabes ?
+    answer: "45"
+  - id: roman_int_50_to_roman
+    question: 50 en chiffres romains ?
+    answer: L
+  - id: roman_int_50_from_roman
+    question: L en chiffres arabes ?
+    answer: "50"
+  - id: roman_int_55_to_roman
+    question: 55 en chiffres romains ?
+    answer: LV
+  - id: roman_int_55_from_roman
+    question: LV en chiffres arabes ?
+    answer: "55"
+  - id: roman_int_60_to_roman
+    question: 60 en chiffres romains ?
+    answer: LX
+  - id: roman_int_60_from_roman
+    question: LX en chiffres arabes ?
+    answer: "60"
+  - id: roman_int_65_to_roman
+    question: 65 en chiffres romains ?
+    answer: LXV
+  - id: roman_int_65_from_roman
+    question: LXV en chiffres arabes ?
+    answer: "65"
+  - id: roman_int_70_to_roman
+    question: 70 en chiffres romains ?
+    answer: LXX
+  - id: roman_int_70_from_roman
+    question: LXX en chiffres arabes ?
+    answer: "70"
+  - id: roman_int_75_to_roman
+    question: 75 en chiffres romains ?
+    answer: LXXV
+  - id: roman_int_75_from_roman
+    question: LXXV en chiffres arabes ?
+    answer: "75"
+  - id: roman_int_80_to_roman
+    question: 80 en chiffres romains ?
+    answer: LXXX
+  - id: roman_int_80_from_roman
+    question: LXXX en chiffres arabes ?
+    answer: "80"
+  - id: roman_int_85_to_roman
+    question: 85 en chiffres romains ?
+    answer: LXXXV
+  - id: roman_int_85_from_roman
+    question: LXXXV en chiffres arabes ?
+    answer: "85"
+  - id: roman_int_90_to_roman
+    question: 90 en chiffres romains ?
+    answer: XC
+  - id: roman_int_90_from_roman
+    question: XC en chiffres arabes ?
+    answer: "90"
+  - id: roman_int_95_to_roman
+    question: 95 en chiffres romains ?
+    answer: XCV
+  - id: roman_int_95_from_roman
+    question: XCV en chiffres arabes ?
+    answer: "95"
+  - id: roman_int_100_to_roman
+    question: 100 en chiffres romains ?
+    answer: C
+  - id: roman_int_100_from_roman
+    question: C en chiffres arabes ?
+    answer: "100"

@@ -1,0 +1,120 @@
+name: Fractions et pourcentages
+description: Conversions fractions ↔ pourcentages
+tags: [math, pourcentages, fractions, cm2, sixieme]
+category: [sciences, maths, arithmetique, pourcentages, fractions, cm2, sixieme]
+settings:
+  sequential: false
+  bidirectional: false
+metadata:
+  license: CC-BY-SA-4.0
+  source:
+    type: procedural
+    generator: percentages
+    version: 1.0.0
+    generatedAt: "2026-11-22"
+    parameters:
+      type: fraction-conversions
+resources:
+  - type: summary
+    title: "Qu'est-ce qu'un pourcentage ?"
+    content: "Un **pourcentage** exprime une proportion sur 100.\n\n**25%** signifie \"25 pour 100\" ou \"25 centièmes\" ou encore ¼.\n\nLes pourcentages sont partout :\n- Soldes et réductions (-20%)\n- TVA et taxes (+20%)\n- Statistiques et sondages\n- Notes et résultats\n\nFormule : X% de N = (X × N) / 100"
+    aiGenerated: true
+    icon: 📝
+  - type: link
+    title: "Wikipedia : Pourcentage"
+    url: https://fr.wikipedia.org/wiki/Pourcentage
+    icon: 📖
+  - type: glossary
+    title: Vocabulaire clé
+    content: "- **Pourcentage** : Proportion exprimée sur 100\n- **Pour cent** : Division par 100 (le symbole %)\n- **Taux** : Pourcentage utilisé pour calculs\n- **Remise** : Réduction en pourcentage\n- **Augmentation** : Ajout d'un pourcentage"
+    icon: 📚
+  - type: objective
+    title: "Objectifs d'apprentissage"
+    content: "- ✅ Convertir fractions en pourcentages\n- ✅ Convertir pourcentages en fractions\n- ✅ Mémoriser les équivalences courantes"
+    icon: 🎯
+  - type: tip
+    title: Équivalences à retenir
+    content: "Les plus courantes :\n• 1/2 = 50%\n• 1/4 = 25% et 3/4 = 75%\n• 1/5 = 20%\n• 1/10 = 10%\n• 1/3 ≈ 33% et 2/3 ≈ 67%"
+    icon: 💡
+cards:
+  - id: pct_frac_to_pct_1_2
+    question: 1/2 = ?%
+    answer: "50"
+    feedback: 1/2 = 50%
+  - id: pct_pct_to_frac_50
+    question: 50% = quelle fraction ?
+    answer: 1/2
+    alternatives: [1 sur 2]
+    feedback: 50% = 1/2
+  - id: pct_frac_to_pct_1_4
+    question: 1/4 = ?%
+    answer: "25"
+    feedback: 1/4 = 25%
+  - id: pct_pct_to_frac_25
+    question: 25% = quelle fraction ?
+    answer: 1/4
+    alternatives: [1 sur 4]
+    feedback: 25% = 1/4
+  - id: pct_frac_to_pct_3_4
+    question: 3/4 = ?%
+    answer: "75"
+    feedback: 3/4 = 75%
+  - id: pct_pct_to_frac_75
+    question: 75% = quelle fraction ?
+    answer: 3/4
+    alternatives: [3 sur 4]
+    feedback: 75% = 3/4
+  - id: pct_frac_to_pct_1_5
+    question: 1/5 = ?%
+    answer: "20"
+    feedback: 1/5 = 20%
+  - id: pct_pct_to_frac_20
+    question: 20% = quelle fraction ?
+    answer: 1/5
+    alternatives: [1 sur 5]
+    feedback: 20% = 1/5
+  - id: pct_frac_to_pct_2_5
+    question: 2/5 = ?%
+    answer: "40"
+    feedback: 2/5 = 40%
+  - id: pct_frac_to_pct_3_5
+    question: 3/5 = ?%
+    answer: "60"
+    feedback: 3/5 = 60%
+  - id: pct_frac_to_pct_4_5
+    question: 4/5 = ?%
+    answer: "80"
+    feedback: 4/5 = 80%
+  - id: pct_frac_to_pct_1_10
+    question: 1/10 = ?%
+    answer: "10"
+    feedback: 1/10 = 10%
+  - id: pct_pct_to_frac_10
+    question: 10% = quelle fraction ?
+    answer: 1/10
+    alternatives: [1 sur 10]
+    feedback: 10% = 1/10
+  - id: pct_frac_to_pct_1_3
+    question: "1/3 = ?% (arrondi à l'unité)"
+    answer: "33"
+    feedback: "1/3 ≈ 33% (arrondi à l'unité)"
+  - id: pct_frac_to_pct_2_3
+    question: "2/3 = ?% (arrondi à l'unité)"
+    answer: "67"
+    feedback: "2/3 ≈ 67% (arrondi à l'unité)"
+  - id: pct_frac_to_pct_1_8
+    question: 1/8 = ?%
+    answer: "12.5"
+    feedback: 1/8 = 12.5%
+  - id: pct_frac_to_pct_3_8
+    question: 3/8 = ?%
+    answer: "37.5"
+    feedback: 3/8 = 37.5%
+  - id: pct_frac_to_pct_5_8
+    question: 5/8 = ?%
+    answer: "62.5"
+    feedback: 5/8 = 62.5%
+  - id: pct_frac_to_pct_7_8
+    question: 7/8 = ?%
+    answer: "87.5"
+    feedback: 7/8 = 87.5%

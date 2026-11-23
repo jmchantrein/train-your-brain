@@ -1,0 +1,102 @@
+name: "Départements d'Outre-Mer (DROM)"
+description: "Départements et régions d'outre-mer"
+tags: [geographie, france, departements, outre-mer, culture-generale, cinquieme]
+category: [geographie, culture-generale, cinquieme]
+settings:
+  sequential: false
+  bidirectional: false
+metadata:
+  license: CC-BY-SA-4.0
+  source:
+    type: procedural
+    generator: fr-departments
+    version: 1.0.0
+    generatedAt: "2026-11-22"
+    parameters:
+      type: overseas
+cards:
+  - id: dept_971_num_to_name
+    question: Département n°971 ?
+    answer: Guadeloupe
+    feedback: "Le département 971 est Guadeloupe (préfecture: Basse-Terre)."
+  - id: dept_971_name_to_num
+    question: Numéro du département Guadeloupe ?
+    answer: "971"
+    feedback: Guadeloupe est le département n°971.
+  - id: dept_972_num_to_name
+    question: Département n°972 ?
+    answer: Martinique
+    feedback: "Le département 972 est Martinique (préfecture: Fort-de-France)."
+  - id: dept_972_name_to_num
+    question: Numéro du département Martinique ?
+    answer: "972"
+    feedback: Martinique est le département n°972.
+  - id: dept_973_num_to_name
+    question: Département n°973 ?
+    answer: Guyane
+    feedback: "Le département 973 est Guyane (préfecture: Cayenne)."
+  - id: dept_973_name_to_num
+    question: Numéro du département Guyane ?
+    answer: "973"
+    feedback: Guyane est le département n°973.
+  - id: dept_974_num_to_name
+    question: Département n°974 ?
+    answer: La Réunion
+    feedback: "Le département 974 est La Réunion (préfecture: Saint-Denis)."
+  - id: dept_974_name_to_num
+    question: Numéro du département La Réunion ?
+    answer: "974"
+    feedback: La Réunion est le département n°974.
+  - id: dept_976_num_to_name
+    question: Département n°976 ?
+    answer: Mayotte
+    feedback: "Le département 976 est Mayotte (préfecture: Mamoudzou)."
+  - id: dept_976_name_to_num
+    question: Numéro du département Mayotte ?
+    answer: "976"
+    feedback: Mayotte est le département n°976.
+  - id: dept_971_to_pref
+    question: Préfecture de Guadeloupe ?
+    answer: Basse-Terre
+    feedback: Basse-Terre est la préfecture de Guadeloupe (971).
+  - id: dept_971_from_pref
+    question: Basse-Terre est la préfecture de quel département ?
+    answer: Guadeloupe
+    alternatives: ["971"]
+    feedback: Basse-Terre est la préfecture de Guadeloupe (971).
+  - id: dept_972_to_pref
+    question: Préfecture de Martinique ?
+    answer: Fort-de-France
+    feedback: Fort-de-France est la préfecture de Martinique (972).
+  - id: dept_972_from_pref
+    question: Fort-de-France est la préfecture de quel département ?
+    answer: Martinique
+    alternatives: ["972"]
+    feedback: Fort-de-France est la préfecture de Martinique (972).
+  - id: dept_973_to_pref
+    question: Préfecture de Guyane ?
+    answer: Cayenne
+    feedback: Cayenne est la préfecture de Guyane (973).
+  - id: dept_973_from_pref
+    question: Cayenne est la préfecture de quel département ?
+    answer: Guyane
+    alternatives: ["973"]
+    feedback: Cayenne est la préfecture de Guyane (973).
+  - id: dept_974_to_pref
+    question: Préfecture de La Réunion ?
+    answer: Saint-Denis
+    feedback: Saint-Denis est la préfecture de La Réunion (974).
+  - id: dept_974_from_pref
+    question: Saint-Denis est la préfecture de quel département ?
+    answer: La Réunion
+    alternatives: ["974"]
+    feedback: Saint-Denis est la préfecture de La Réunion (974).
+  - id: dept_976_to_pref
+    question: Préfecture de Mayotte ?
+    answer: Mamoudzou
+    feedback: Mamoudzou est la préfecture de Mayotte (976).
+  - id: dept_976_from_pref
+    question: Mamoudzou est la préfecture de quel département ?
+    answer: Mayotte
+    alternatives: ["976"]
+    feedback: Mamoudzou est la préfecture de Mayotte (976).

@@ -1,0 +1,385 @@
+name: Katakana - Base (46 caractères)
+description: Les 46 katakana de base du syllabaire japonais
+tags: [langues, japonais, katakana, ja-katakana, alphabet, autodidacte]
+category: [langues, japonais, ja-katakana, autodidacte]
+settings:
+  sequential: true
+  bidirectional: false
+metadata:
+  license: CC-BY-SA-4.0
+  source:
+    type: procedural
+    generator: japanese-kana
+    version: 1.0.0
+    generatedAt: "2026-11-22"
+    parameters:
+      type: katakana-base
+cards:
+  - id: kata_30a2_to_romaji
+    question: "Comment se lit \"ア\" ?"
+    answer: a
+    feedback: "ア se lit \"a\""
+  - id: kata_30a2_from_romaji
+    question: "Écrivez \"a\" en katakana :"
+    answer: ア
+    feedback: "\"a\" s'écrit ア en katakana"
+  - id: kata_30a4_to_romaji
+    question: "Comment se lit \"イ\" ?"
+    answer: i
+    feedback: "イ se lit \"i\""
+  - id: kata_30a4_from_romaji
+    question: "Écrivez \"i\" en katakana :"
+    answer: イ
+    feedback: "\"i\" s'écrit イ en katakana"
+  - id: kata_30a6_to_romaji
+    question: "Comment se lit \"ウ\" ?"
+    answer: u
+    feedback: "ウ se lit \"u\""
+  - id: kata_30a6_from_romaji
+    question: "Écrivez \"u\" en katakana :"
+    answer: ウ
+    feedback: "\"u\" s'écrit ウ en katakana"
+  - id: kata_30a8_to_romaji
+    question: "Comment se lit \"エ\" ?"
+    answer: e
+    feedback: "エ se lit \"e\""
+  - id: kata_30a8_from_romaji
+    question: "Écrivez \"e\" en katakana :"
+    answer: エ
+    feedback: "\"e\" s'écrit エ en katakana"
+  - id: kata_30aa_to_romaji
+    question: "Comment se lit \"オ\" ?"
+    answer: o
+    feedback: "オ se lit \"o\""
+  - id: kata_30aa_from_romaji
+    question: "Écrivez \"o\" en katakana :"
+    answer: オ
+    feedback: "\"o\" s'écrit オ en katakana"
+  - id: kata_30ab_to_romaji
+    question: "Comment se lit \"カ\" ?"
+    answer: ka
+    feedback: "カ se lit \"ka\""
+  - id: kata_30ab_from_romaji
+    question: "Écrivez \"ka\" en katakana :"
+    answer: カ
+    feedback: "\"ka\" s'écrit カ en katakana"
+  - id: kata_30ad_to_romaji
+    question: "Comment se lit \"キ\" ?"
+    answer: ki
+    feedback: "キ se lit \"ki\""
+  - id: kata_30ad_from_romaji
+    question: "Écrivez \"ki\" en katakana :"
+    answer: キ
+    feedback: "\"ki\" s'écrit キ en katakana"
+  - id: kata_30af_to_romaji
+    question: "Comment se lit \"ク\" ?"
+    answer: ku
+    feedback: "ク se lit \"ku\""
+  - id: kata_30af_from_romaji
+    question: "Écrivez \"ku\" en katakana :"
+    answer: ク
+    feedback: "\"ku\" s'écrit ク en katakana"
+  - id: kata_30b1_to_romaji
+    question: "Comment se lit \"ケ\" ?"
+    answer: ke
+    feedback: "ケ se lit \"ke\""
+  - id: kata_30b1_from_romaji
+    question: "Écrivez \"ke\" en katakana :"
+    answer: ケ
+    feedback: "\"ke\" s'écrit ケ en katakana"
+  - id: kata_30b3_to_romaji
+    question: "Comment se lit \"コ\" ?"
+    answer: ko
+    feedback: "コ se lit \"ko\""
+  - id: kata_30b3_from_romaji
+    question: "Écrivez \"ko\" en katakana :"
+    answer: コ
+    feedback: "\"ko\" s'écrit コ en katakana"
+  - id: kata_30b5_to_romaji
+    question: "Comment se lit \"サ\" ?"
+    answer: sa
+    feedback: "サ se lit \"sa\""
+  - id: kata_30b5_from_romaji
+    question: "Écrivez \"sa\" en katakana :"
+    answer: サ
+    feedback: "\"sa\" s'écrit サ en katakana"
+  - id: kata_30b7_to_romaji
+    question: "Comment se lit \"シ\" ?"
+    answer: shi
+    feedback: "シ se lit \"shi\""
+  - id: kata_30b7_from_romaji
+    question: "Écrivez \"shi\" en katakana :"
+    answer: シ
+    feedback: "\"shi\" s'écrit シ en katakana"
+  - id: kata_30b9_to_romaji
+    question: "Comment se lit \"ス\" ?"
+    answer: su
+    feedback: "ス se lit \"su\""
+  - id: kata_30b9_from_romaji
+    question: "Écrivez \"su\" en katakana :"
+    answer: ス
+    feedback: "\"su\" s'écrit ス en katakana"
+  - id: kata_30bb_to_romaji
+    question: "Comment se lit \"セ\" ?"
+    answer: se
+    feedback: "セ se lit \"se\""
+  - id: kata_30bb_from_romaji
+    question: "Écrivez \"se\" en katakana :"
+    answer: セ
+    feedback: "\"se\" s'écrit セ en katakana"
+  - id: kata_30bd_to_romaji
+    question: "Comment se lit \"ソ\" ?"
+    answer: so
+    feedback: "ソ se lit \"so\""
+  - id: kata_30bd_from_romaji
+    question: "Écrivez \"so\" en katakana :"
+    answer: ソ
+    feedback: "\"so\" s'écrit ソ en katakana"
+  - id: kata_30bf_to_romaji
+    question: "Comment se lit \"タ\" ?"
+    answer: ta
+    feedback: "タ se lit \"ta\""
+  - id: kata_30bf_from_romaji
+    question: "Écrivez \"ta\" en katakana :"
+    answer: タ
+    feedback: "\"ta\" s'écrit タ en katakana"
+  - id: kata_30c1_to_romaji
+    question: "Comment se lit \"チ\" ?"
+    answer: chi
+    feedback: "チ se lit \"chi\""
+  - id: kata_30c1_from_romaji
+    question: "Écrivez \"chi\" en katakana :"
+    answer: チ
+    feedback: "\"chi\" s'écrit チ en katakana"
+  - id: kata_30c4_to_romaji
+    question: "Comment se lit \"ツ\" ?"
+    answer: tsu
+    feedback: "ツ se lit \"tsu\""
+  - id: kata_30c4_from_romaji
+    question: "Écrivez \"tsu\" en katakana :"
+    answer: ツ
+    feedback: "\"tsu\" s'écrit ツ en katakana"
+  - id: kata_30c6_to_romaji
+    question: "Comment se lit \"テ\" ?"
+    answer: te
+    feedback: "テ se lit \"te\""
+  - id: kata_30c6_from_romaji
+    question: "Écrivez \"te\" en katakana :"
+    answer: テ
+    feedback: "\"te\" s'écrit テ en katakana"
+  - id: kata_30c8_to_romaji
+    question: "Comment se lit \"ト\" ?"
+    answer: to
+    feedback: "ト se lit \"to\""
+  - id: kata_30c8_from_romaji
+    question: "Écrivez \"to\" en katakana :"
+    answer: ト
+    feedback: "\"to\" s'écrit ト en katakana"
+  - id: kata_30ca_to_romaji
+    question: "Comment se lit \"ナ\" ?"
+    answer: na
+    feedback: "ナ se lit \"na\""
+  - id: kata_30ca_from_romaji
+    question: "Écrivez \"na\" en katakana :"
+    answer: ナ
+    feedback: "\"na\" s'écrit ナ en katakana"
+  - id: kata_30cb_to_romaji
+    question: "Comment se lit \"ニ\" ?"
+    answer: ni
+    feedback: "ニ se lit \"ni\""
+  - id: kata_30cb_from_romaji
+    question: "Écrivez \"ni\" en katakana :"
+    answer: ニ
+    feedback: "\"ni\" s'écrit ニ en katakana"
+  - id: kata_30cc_to_romaji
+    question: "Comment se lit \"ヌ\" ?"
+    answer: nu
+    feedback: "ヌ se lit \"nu\""
+  - id: kata_30cc_from_romaji
+    question: "Écrivez \"nu\" en katakana :"
+    answer: ヌ
+    feedback: "\"nu\" s'écrit ヌ en katakana"
+  - id: kata_30cd_to_romaji
+    question: "Comment se lit \"ネ\" ?"
+    answer: ne
+    feedback: "ネ se lit \"ne\""
+  - id: kata_30cd_from_romaji
+    question: "Écrivez \"ne\" en katakana :"
+    answer: ネ
+    feedback: "\"ne\" s'écrit ネ en katakana"
+  - id: kata_30ce_to_romaji
+    question: "Comment se lit \"ノ\" ?"
+    answer: "no"
+    feedback: "ノ se lit \"no\""
+  - id: kata_30ce_from_romaji
+    question: "Écrivez \"no\" en katakana :"
+    answer: ノ
+    feedback: "\"no\" s'écrit ノ en katakana"
+  - id: kata_30cf_to_romaji
+    question: "Comment se lit \"ハ\" ?"
+    answer: ha
+    feedback: "ハ se lit \"ha\""
+  - id: kata_30cf_from_romaji
+    question: "Écrivez \"ha\" en katakana :"
+    answer: ハ
+    feedback: "\"ha\" s'écrit ハ en katakana"
+  - id: kata_30d2_to_romaji
+    question: "Comment se lit \"ヒ\" ?"
+    answer: hi
+    feedback: "ヒ se lit \"hi\""
+  - id: kata_30d2_from_romaji
+    question: "Écrivez \"hi\" en katakana :"
+    answer: ヒ
+    feedback: "\"hi\" s'écrit ヒ en katakana"
+  - id: kata_30d5_to_romaji
+    question: "Comment se lit \"フ\" ?"
+    answer: fu
+    feedback: "フ se lit \"fu\""
+  - id: kata_30d5_from_romaji
+    question: "Écrivez \"fu\" en katakana :"
+    answer: フ
+    feedback: "\"fu\" s'écrit フ en katakana"
+  - id: kata_30d8_to_romaji
+    question: "Comment se lit \"ヘ\" ?"
+    answer: he
+    feedback: "ヘ se lit \"he\""
+  - id: kata_30d8_from_romaji
+    question: "Écrivez \"he\" en katakana :"
+    answer: ヘ
+    feedback: "\"he\" s'écrit ヘ en katakana"
+  - id: kata_30db_to_romaji
+    question: "Comment se lit \"ホ\" ?"
+    answer: ho
+    feedback: "ホ se lit \"ho\""
+  - id: kata_30db_from_romaji
+    question: "Écrivez \"ho\" en katakana :"
+    answer: ホ
+    feedback: "\"ho\" s'écrit ホ en katakana"
+  - id: kata_30de_to_romaji
+    question: "Comment se lit \"マ\" ?"
+    answer: ma
+    feedback: "マ se lit \"ma\""
+  - id: kata_30de_from_romaji
+    question: "Écrivez \"ma\" en katakana :"
+    answer: マ
+    feedback: "\"ma\" s'écrit マ en katakana"
+  - id: kata_30df_to_romaji
+    question: "Comment se lit \"ミ\" ?"
+    answer: mi
+    feedback: "ミ se lit \"mi\""
+  - id: kata_30df_from_romaji
+    question: "Écrivez \"mi\" en katakana :"
+    answer: ミ
+    feedback: "\"mi\" s'écrit ミ en katakana"
+  - id: kata_30e0_to_romaji
+    question: "Comment se lit \"ム\" ?"
+    answer: mu
+    feedback: "ム se lit \"mu\""
+  - id: kata_30e0_from_romaji
+    question: "Écrivez \"mu\" en katakana :"
+    answer: ム
+    feedback: "\"mu\" s'écrit ム en katakana"
+  - id: kata_30e1_to_romaji
+    question: "Comment se lit \"メ\" ?"
+    answer: me
+    feedback: "メ se lit \"me\""
+  - id: kata_30e1_from_romaji
+    question: "Écrivez \"me\" en katakana :"
+    answer: メ
+    feedback: "\"me\" s'écrit メ en katakana"
+  - id: kata_30e2_to_romaji
+    question: "Comment se lit \"モ\" ?"
+    answer: mo
+    feedback: "モ se lit \"mo\""
+  - id: kata_30e2_from_romaji
+    question: "Écrivez \"mo\" en katakana :"
+    answer: モ
+    feedback: "\"mo\" s'écrit モ en katakana"
+  - id: kata_30e4_to_romaji
+    question: "Comment se lit \"ヤ\" ?"
+    answer: ya
+    feedback: "ヤ se lit \"ya\""
+  - id: kata_30e4_from_romaji
+    question: "Écrivez \"ya\" en katakana :"
+    answer: ヤ
+    feedback: "\"ya\" s'écrit ヤ en katakana"
+  - id: kata_30e6_to_romaji
+    question: "Comment se lit \"ユ\" ?"
+    answer: yu
+    feedback: "ユ se lit \"yu\""
+  - id: kata_30e6_from_romaji
+    question: "Écrivez \"yu\" en katakana :"
+    answer: ユ
+    feedback: "\"yu\" s'écrit ユ en katakana"
+  - id: kata_30e8_to_romaji
+    question: "Comment se lit \"ヨ\" ?"
+    answer: yo
+    feedback: "ヨ se lit \"yo\""
+  - id: kata_30e8_from_romaji
+    question: "Écrivez \"yo\" en katakana :"
+    answer: ヨ
+    feedback: "\"yo\" s'écrit ヨ en katakana"
+  - id: kata_30e9_to_romaji
+    question: "Comment se lit \"ラ\" ?"
+    answer: ra
+    feedback: "ラ se lit \"ra\""
+  - id: kata_30e9_from_romaji
+    question: "Écrivez \"ra\" en katakana :"
+    answer: ラ
+    feedback: "\"ra\" s'écrit ラ en katakana"
+  - id: kata_30ea_to_romaji
+    question: "Comment se lit \"リ\" ?"
+    answer: ri
+    feedback: "リ se lit \"ri\""
+  - id: kata_30ea_from_romaji
+    question: "Écrivez \"ri\" en katakana :"
+    answer: リ
+    feedback: "\"ri\" s'écrit リ en katakana"
+  - id: kata_30eb_to_romaji
+    question: "Comment se lit \"ル\" ?"
+    answer: ru
+    feedback: "ル se lit \"ru\""
+  - id: kata_30eb_from_romaji
+    question: "Écrivez \"ru\" en katakana :"
+    answer: ル
+    feedback: "\"ru\" s'écrit ル en katakana"
+  - id: kata_30ec_to_romaji
+    question: "Comment se lit \"レ\" ?"
+    answer: re
+    feedback: "レ se lit \"re\""
+  - id: kata_30ec_from_romaji
+    question: "Écrivez \"re\" en katakana :"
+    answer: レ
+    feedback: "\"re\" s'écrit レ en katakana"
+  - id: kata_30ed_to_romaji
+    question: "Comment se lit \"ロ\" ?"
+    answer: ro
+    feedback: "ロ se lit \"ro\""
+  - id: kata_30ed_from_romaji
+    question: "Écrivez \"ro\" en katakana :"
+    answer: ロ
+    feedback: "\"ro\" s'écrit ロ en katakana"
+  - id: kata_30ef_to_romaji
+    question: "Comment se lit \"ワ\" ?"
+    answer: wa
+    feedback: "ワ se lit \"wa\""
+  - id: kata_30ef_from_romaji
+    question: "Écrivez \"wa\" en katakana :"
+    answer: ワ
+    feedback: "\"wa\" s'écrit ワ en katakana"
+  - id: kata_30f2_to_romaji
+    question: "Comment se lit \"ヲ\" ?"
+    answer: wo
+    feedback: "ヲ se lit \"wo\""
+  - id: kata_30f2_from_romaji
+    question: "Écrivez \"wo\" en katakana :"
+    answer: ヲ
+    feedback: "\"wo\" s'écrit ヲ en katakana"
+  - id: kata_30f3_to_romaji
+    question: "Comment se lit \"ン\" ?"
+    answer: "n"
+    feedback: "ン se lit \"n\""
+  - id: kata_30f3_from_romaji
+    question: "Écrivez \"n\" en katakana :"
+    answer: ン
+    feedback: "\"n\" s'écrit ン en katakana"

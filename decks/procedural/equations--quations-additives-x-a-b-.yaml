@@ -1,0 +1,440 @@
+name: Équations additives (x + a = b)
+description: Trouver x dans les équations de type x + a = b
+tags: [math, equations, addition, cm1]
+category: [sciences, maths, algebre, equations, equations-premier-degre, cm1]
+settings:
+  maxCards: 20
+  sequential: false
+  bidirectional: false
+metadata:
+  license: CC-BY-SA-4.0
+  source:
+    type: procedural
+    generator: equations
+    version: 1.0.0
+    generatedAt: "2026-11-22"
+    parameters:
+      type: addition-equations
+resources:
+  - type: summary
+    title: "Qu'est-ce qu'une équation ?"
+    content: "Une **équation** est une égalité contenant une inconnue (souvent notée x) qu'il faut trouver.\n\nPar exemple : **x + 5 = 12** → On cherche quel nombre additionné à 5 donne 12.\n\nLa réponse est x = 7 car 7 + 5 = 12.\n\nLes équations sont la base de l'algèbre et permettent de :\n- Résoudre des problèmes mathématiques\n- Modéliser des situations réelles\n- Comprendre les relations entre les nombres"
+    aiGenerated: true
+    icon: 📝
+  - type: link
+    title: "Wikipedia : Équation"
+    url: https://fr.wikipedia.org/wiki/Équation
+    icon: 📖
+  - type: glossary
+    title: Vocabulaire clé
+    content: "- **Équation** : Égalité contenant une inconnue\n- **Inconnue** : La valeur que l'on cherche (x)\n- **Solution** : La valeur qui rend l'équation vraie\n- **Membre** : Chaque côté de l'égalité (gauche/droit)"
+    icon: 📚
+  - type: objective
+    title: "Objectifs d'apprentissage"
+    content: "- ✅ Résoudre des équations de type x + a = b\n- ✅ Comprendre l'opération inverse (soustraction)\n- ✅ Répondre en moins de 5 secondes"
+    icon: 🎯
+  - type: tip
+    title: Méthode de résolution
+    content: "Pour résoudre x + a = b :\n\n1. Isoler x en soustrayant a des deux côtés\n2. x = b - a\n\nExemple : x + 5 = 12 → x = 12 - 5 = 7"
+    icon: 💡
+cards:
+  - id: eq_add_1_1
+    question: x + 1 = 2
+    answer: "1"
+    feedback: x = 2 - 1 = 1
+  - id: eq_add_1_2
+    question: x + 2 = 3
+    answer: "1"
+    feedback: x = 3 - 2 = 1
+  - id: eq_add_1_3
+    question: x + 3 = 4
+    answer: "1"
+    feedback: x = 4 - 3 = 1
+  - id: eq_add_1_4
+    question: x + 4 = 5
+    answer: "1"
+    feedback: x = 5 - 4 = 1
+  - id: eq_add_1_5
+    question: x + 5 = 6
+    answer: "1"
+    feedback: x = 6 - 5 = 1
+  - id: eq_add_1_6
+    question: x + 6 = 7
+    answer: "1"
+    feedback: x = 7 - 6 = 1
+  - id: eq_add_1_7
+    question: x + 7 = 8
+    answer: "1"
+    feedback: x = 8 - 7 = 1
+  - id: eq_add_1_8
+    question: x + 8 = 9
+    answer: "1"
+    feedback: x = 9 - 8 = 1
+  - id: eq_add_1_9
+    question: x + 9 = 10
+    answer: "1"
+    feedback: x = 10 - 9 = 1
+  - id: eq_add_1_10
+    question: x + 10 = 11
+    answer: "1"
+    feedback: x = 11 - 10 = 1
+  - id: eq_add_2_1
+    question: x + 1 = 3
+    answer: "2"
+    feedback: x = 3 - 1 = 2
+  - id: eq_add_2_2
+    question: x + 2 = 4
+    answer: "2"
+    feedback: x = 4 - 2 = 2
+  - id: eq_add_2_3
+    question: x + 3 = 5
+    answer: "2"
+    feedback: x = 5 - 3 = 2
+  - id: eq_add_2_4
+    question: x + 4 = 6
+    answer: "2"
+    feedback: x = 6 - 4 = 2
+  - id: eq_add_2_5
+    question: x + 5 = 7
+    answer: "2"
+    feedback: x = 7 - 5 = 2
+  - id: eq_add_2_6
+    question: x + 6 = 8
+    answer: "2"
+    feedback: x = 8 - 6 = 2
+  - id: eq_add_2_7
+    question: x + 7 = 9
+    answer: "2"
+    feedback: x = 9 - 7 = 2
+  - id: eq_add_2_8
+    question: x + 8 = 10
+    answer: "2"
+    feedback: x = 10 - 8 = 2
+  - id: eq_add_2_9
+    question: x + 9 = 11
+    answer: "2"
+    feedback: x = 11 - 9 = 2
+  - id: eq_add_2_10
+    question: x + 10 = 12
+    answer: "2"
+    feedback: x = 12 - 10 = 2
+  - id: eq_add_3_1
+    question: x + 1 = 4
+    answer: "3"
+    feedback: x = 4 - 1 = 3
+  - id: eq_add_3_2
+    question: x + 2 = 5
+    answer: "3"
+    feedback: x = 5 - 2 = 3
+  - id: eq_add_3_3
+    question: x + 3 = 6
+    answer: "3"
+    feedback: x = 6 - 3 = 3
+  - id: eq_add_3_4
+    question: x + 4 = 7
+    answer: "3"
+    feedback: x = 7 - 4 = 3
+  - id: eq_add_3_5
+    question: x + 5 = 8
+    answer: "3"
+    feedback: x = 8 - 5 = 3
+  - id: eq_add_3_6
+    question: x + 6 = 9
+    answer: "3"
+    feedback: x = 9 - 6 = 3
+  - id: eq_add_3_7
+    question: x + 7 = 10
+    answer: "3"
+    feedback: x = 10 - 7 = 3
+  - id: eq_add_3_8
+    question: x + 8 = 11
+    answer: "3"
+    feedback: x = 11 - 8 = 3
+  - id: eq_add_3_9
+    question: x + 9 = 12
+    answer: "3"
+    feedback: x = 12 - 9 = 3
+  - id: eq_add_3_10
+    question: x + 10 = 13
+    answer: "3"
+    feedback: x = 13 - 10 = 3
+  - id: eq_add_4_1
+    question: x + 1 = 5
+    answer: "4"
+    feedback: x = 5 - 1 = 4
+  - id: eq_add_4_2
+    question: x + 2 = 6
+    answer: "4"
+    feedback: x = 6 - 2 = 4
+  - id: eq_add_4_3
+    question: x + 3 = 7
+    answer: "4"
+    feedback: x = 7 - 3 = 4
+  - id: eq_add_4_4
+    question: x + 4 = 8
+    answer: "4"
+    feedback: x = 8 - 4 = 4
+  - id: eq_add_4_5
+    question: x + 5 = 9
+    answer: "4"
+    feedback: x = 9 - 5 = 4
+  - id: eq_add_4_6
+    question: x + 6 = 10
+    answer: "4"
+    feedback: x = 10 - 6 = 4
+  - id: eq_add_4_7
+    question: x + 7 = 11
+    answer: "4"
+    feedback: x = 11 - 7 = 4
+  - id: eq_add_4_8
+    question: x + 8 = 12
+    answer: "4"
+    feedback: x = 12 - 8 = 4
+  - id: eq_add_4_9
+    question: x + 9 = 13
+    answer: "4"
+    feedback: x = 13 - 9 = 4
+  - id: eq_add_4_10
+    question: x + 10 = 14
+    answer: "4"
+    feedback: x = 14 - 10 = 4
+  - id: eq_add_5_1
+    question: x + 1 = 6
+    answer: "5"
+    feedback: x = 6 - 1 = 5
+  - id: eq_add_5_2
+    question: x + 2 = 7
+    answer: "5"
+    feedback: x = 7 - 2 = 5
+  - id: eq_add_5_3
+    question: x + 3 = 8
+    answer: "5"
+    feedback: x = 8 - 3 = 5
+  - id: eq_add_5_4
+    question: x + 4 = 9
+    answer: "5"
+    feedback: x = 9 - 4 = 5
+  - id: eq_add_5_5
+    question: x + 5 = 10
+    answer: "5"
+    feedback: x = 10 - 5 = 5
+  - id: eq_add_5_6
+    question: x + 6 = 11
+    answer: "5"
+    feedback: x = 11 - 6 = 5
+  - id: eq_add_5_7
+    question: x + 7 = 12
+    answer: "5"
+    feedback: x = 12 - 7 = 5
+  - id: eq_add_5_8
+    question: x + 8 = 13
+    answer: "5"
+    feedback: x = 13 - 8 = 5
+  - id: eq_add_5_9
+    question: x + 9 = 14
+    answer: "5"
+    feedback: x = 14 - 9 = 5
+  - id: eq_add_5_10
+    question: x + 10 = 15
+    answer: "5"
+    feedback: x = 15 - 10 = 5
+  - id: eq_add_6_1
+    question: x + 1 = 7
+    answer: "6"
+    feedback: x = 7 - 1 = 6
+  - id: eq_add_6_2
+    question: x + 2 = 8
+    answer: "6"
+    feedback: x = 8 - 2 = 6
+  - id: eq_add_6_3
+    question: x + 3 = 9
+    answer: "6"
+    feedback: x = 9 - 3 = 6
+  - id: eq_add_6_4
+    question: x + 4 = 10
+    answer: "6"
+    feedback: x = 10 - 4 = 6
+  - id: eq_add_6_5
+    question: x + 5 = 11
+    answer: "6"
+    feedback: x = 11 - 5 = 6
+  - id: eq_add_6_6
+    question: x + 6 = 12
+    answer: "6"
+    feedback: x = 12 - 6 = 6
+  - id: eq_add_6_7
+    question: x + 7 = 13
+    answer: "6"
+    feedback: x = 13 - 7 = 6
+  - id: eq_add_6_8
+    question: x + 8 = 14
+    answer: "6"
+    feedback: x = 14 - 8 = 6
+  - id: eq_add_6_9
+    question: x + 9 = 15
+    answer: "6"
+    feedback: x = 15 - 9 = 6
+  - id: eq_add_6_10
+    question: x + 10 = 16
+    answer: "6"
+    feedback: x = 16 - 10 = 6
+  - id: eq_add_7_1
+    question: x + 1 = 8
+    answer: "7"
+    feedback: x = 8 - 1 = 7
+  - id: eq_add_7_2
+    question: x + 2 = 9
+    answer: "7"
+    feedback: x = 9 - 2 = 7
+  - id: eq_add_7_3
+    question: x + 3 = 10
+    answer: "7"
+    feedback: x = 10 - 3 = 7
+  - id: eq_add_7_4
+    question: x + 4 = 11
+    answer: "7"
+    feedback: x = 11 - 4 = 7
+  - id: eq_add_7_5
+    question: x + 5 = 12
+    answer: "7"
+    feedback: x = 12 - 5 = 7
+  - id: eq_add_7_6
+    question: x + 6 = 13
+    answer: "7"
+    feedback: x = 13 - 6 = 7
+  - id: eq_add_7_7
+    question: x + 7 = 14
+    answer: "7"
+    feedback: x = 14 - 7 = 7
+  - id: eq_add_7_8
+    question: x + 8 = 15
+    answer: "7"
+    feedback: x = 15 - 8 = 7
+  - id: eq_add_7_9
+    question: x + 9 = 16
+    answer: "7"
+    feedback: x = 16 - 9 = 7
+  - id: eq_add_7_10
+    question: x + 10 = 17
+    answer: "7"
+    feedback: x = 17 - 10 = 7
+  - id: eq_add_8_1
+    question: x + 1 = 9
+    answer: "8"
+    feedback: x = 9 - 1 = 8
+  - id: eq_add_8_2
+    question: x + 2 = 10
+    answer: "8"
+    feedback: x = 10 - 2 = 8
+  - id: eq_add_8_3
+    question: x + 3 = 11
+    answer: "8"
+    feedback: x = 11 - 3 = 8
+  - id: eq_add_8_4
+    question: x + 4 = 12
+    answer: "8"
+    feedback: x = 12 - 4 = 8
+  - id: eq_add_8_5
+    question: x + 5 = 13
+    answer: "8"
+    feedback: x = 13 - 5 = 8
+  - id: eq_add_8_6
+    question: x + 6 = 14
+    answer: "8"
+    feedback: x = 14 - 6 = 8
+  - id: eq_add_8_7
+    question: x + 7 = 15
+    answer: "8"
+    feedback: x = 15 - 7 = 8
+  - id: eq_add_8_8
+    question: x + 8 = 16
+    answer: "8"
+    feedback: x = 16 - 8 = 8
+  - id: eq_add_8_9
+    question: x + 9 = 17
+    answer: "8"
+    feedback: x = 17 - 9 = 8
+  - id: eq_add_8_10
+    question: x + 10 = 18
+    answer: "8"
+    feedback: x = 18 - 10 = 8
+  - id: eq_add_9_1
+    question: x + 1 = 10
+    answer: "9"
+    feedback: x = 10 - 1 = 9
+  - id: eq_add_9_2
+    question: x + 2 = 11
+    answer: "9"
+    feedback: x = 11 - 2 = 9
+  - id: eq_add_9_3
+    question: x + 3 = 12
+    answer: "9"
+    feedback: x = 12 - 3 = 9
+  - id: eq_add_9_4
+    question: x + 4 = 13
+    answer: "9"
+    feedback: x = 13 - 4 = 9
+  - id: eq_add_9_5
+    question: x + 5 = 14
+    answer: "9"
+    feedback: x = 14 - 5 = 9
+  - id: eq_add_9_6
+    question: x + 6 = 15
+    answer: "9"
+    feedback: x = 15 - 6 = 9
+  - id: eq_add_9_7
+    question: x + 7 = 16
+    answer: "9"
+    feedback: x = 16 - 7 = 9
+  - id: eq_add_9_8
+    question: x + 8 = 17
+    answer: "9"
+    feedback: x = 17 - 8 = 9
+  - id: eq_add_9_9
+    question: x + 9 = 18
+    answer: "9"
+    feedback: x = 18 - 9 = 9
+  - id: eq_add_9_10
+    question: x + 10 = 19
+    answer: "9"
+    feedback: x = 19 - 10 = 9
+  - id: eq_add_10_1
+    question: x + 1 = 11
+    answer: "10"
+    feedback: x = 11 - 1 = 10
+  - id: eq_add_10_2
+    question: x + 2 = 12
+    answer: "10"
+    feedback: x = 12 - 2 = 10
+  - id: eq_add_10_3
+    question: x + 3 = 13
+    answer: "10"
+    feedback: x = 13 - 3 = 10
+  - id: eq_add_10_4
+    question: x + 4 = 14
+    answer: "10"
+    feedback: x = 14 - 4 = 10
+  - id: eq_add_10_5
+    question: x + 5 = 15
+    answer: "10"
+    feedback: x = 15 - 5 = 10
+  - id: eq_add_10_6
+    question: x + 6 = 16
+    answer: "10"
+    feedback: x = 16 - 6 = 10
+  - id: eq_add_10_7
+    question: x + 7 = 17
+    answer: "10"
+    feedback: x = 17 - 7 = 10
+  - id: eq_add_10_8
+    question: x + 8 = 18
+    answer: "10"
+    feedback: x = 18 - 8 = 10
+  - id: eq_add_10_9
+    question: x + 9 = 19
+    answer: "10"
+    feedback: x = 19 - 9 = 10
+  - id: eq_add_10_10
+    question: x + 10 = 20
+    answer: "10"
+    feedback: x = 20 - 10 = 10

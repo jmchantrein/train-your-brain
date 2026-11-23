@@ -1,0 +1,124 @@
+name: Carrés parfaits (1² à 20²)
+description: Les carrés des nombres de 1 à 20
+tags: [math, puissances, carres, cm2]
+category: [sciences, maths, arithmetique, puissances, cm2]
+settings:
+  sequential: false
+  bidirectional: false
+metadata:
+  license: CC-BY-SA-4.0
+  source:
+    type: procedural
+    generator: powers
+    version: 1.0.0
+    generatedAt: "2026-11-22"
+    parameters:
+      type: squares
+resources:
+  - type: summary
+    title: "Qu'est-ce qu'une puissance ?"
+    content: "Une **puissance** indique combien de fois un nombre est multiplié par lui-même.\n\n**Notation** : aⁿ = a × a × ... × a (n fois)\n\nExemples :\n- 3² = 3 × 3 = 9 (carré de 3)\n- 2³ = 2 × 2 × 2 = 8 (cube de 2)\n- 10⁴ = 10 × 10 × 10 × 10 = 10000\n\nLes puissances sont essentielles en :\n- Sciences (notation scientifique)\n- Informatique (puissances de 2)\n- Géométrie (aires et volumes)"
+    aiGenerated: true
+    icon: 📝
+  - type: link
+    title: "Wikipedia : Puissance"
+    url: https://fr.wikipedia.org/wiki/Puissance_(mathématiques)
+    icon: 📖
+  - type: glossary
+    title: Vocabulaire clé
+    content: "- **Puissance** : Multiplication répétée d'un nombre\n- **Base** : Le nombre qui est multiplié\n- **Exposant** : Le nombre de fois qu'on multiplie\n- **Carré** : Puissance 2 (n²)\n- **Cube** : Puissance 3 (n³)\n- **Racine carrée** : Opération inverse du carré (√)"
+    icon: 📚
+  - type: image
+    title: Carrés parfaits
+    image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMjAgMjUwIiB3aWR0aD0iMjIwIiBoZWlnaHQ9IjI1MCI+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjIyMCIgaGVpZ2h0PSIyNTAiIGZpbGw9IiMxZTI5M2IiIHJ4PSI4Ii8+PHRleHQgeD0iMTEwIiB5PSIxOCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTIiIGZpbGw9IiM4YjVjZjYiIGZvbnQtd2VpZ2h0PSJib2xkIj5DYXJyw6lzIHBhcmZhaXRzPC90ZXh0Pjx0ZXh0IHg9IjEwIiB5PSI0NCIgZm9udC1mYW1pbHk9Im1vbm9zcGFjZSIgZm9udC1zaXplPSIxMiIgZmlsbD0iI2Y4ZmFmYyI+IDHCsiA9ICAgMTwvdGV4dD48dGV4dCB4PSIxMCIgeT0iNjYiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iMTIiIGZpbGw9IiNmOGZhZmMiPiAywrIgPSAgIDQ8L3RleHQ+PHRleHQgeD0iMTAiIHk9Ijg4IiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiBmb250LXNpemU9IjEyIiBmaWxsPSIjZjhmYWZjIj4gM8KyID0gICA5PC90ZXh0Pjx0ZXh0IHg9IjEwIiB5PSIxMTAiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iMTIiIGZpbGw9IiNmOGZhZmMiPiA0wrIgPSAgMTY8L3RleHQ+PHRleHQgeD0iMTAiIHk9IjEzMiIgZm9udC1mYW1pbHk9Im1vbm9zcGFjZSIgZm9udC1zaXplPSIxMiIgZmlsbD0iI2Y4ZmFmYyI+IDXCsiA9ICAyNTwvdGV4dD48dGV4dCB4PSIxMCIgeT0iMTU0IiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiBmb250LXNpemU9IjEyIiBmaWxsPSIjZjhmYWZjIj4gNsKyID0gIDM2PC90ZXh0Pjx0ZXh0IHg9IjEwIiB5PSIxNzYiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iMTIiIGZpbGw9IiNmOGZhZmMiPiA3wrIgPSAgNDk8L3RleHQ+PHRleHQgeD0iMTAiIHk9IjE5OCIgZm9udC1mYW1pbHk9Im1vbm9zcGFjZSIgZm9udC1zaXplPSIxMiIgZmlsbD0iI2Y4ZmFmYyI+IDjCsiA9ICA2NDwvdGV4dD48dGV4dCB4PSIxMCIgeT0iMjIwIiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiBmb250LXNpemU9IjEyIiBmaWxsPSIjZjhmYWZjIj4gOcKyID0gIDgxPC90ZXh0Pjx0ZXh0IHg9IjEwIiB5PSIyNDIiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iMTIiIGZpbGw9IiNmOGZhZmMiPjEwwrIgPSAxMDA8L3RleHQ+PHRleHQgeD0iMTEwIiB5PSI0NCIgZm9udC1mYW1pbHk9Im1vbm9zcGFjZSIgZm9udC1zaXplPSIxMiIgZmlsbD0iI2Y4ZmFmYyI+MTHCsiA9IDEyMTwvdGV4dD48dGV4dCB4PSIxMTAiIHk9IjY2IiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiBmb250LXNpemU9IjEyIiBmaWxsPSIjZjhmYWZjIj4xMsKyID0gMTQ0PC90ZXh0Pjx0ZXh0IHg9IjExMCIgeT0iODgiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iMTIiIGZpbGw9IiNmOGZhZmMiPjEzwrIgPSAxNjk8L3RleHQ+PHRleHQgeD0iMTEwIiB5PSIxMTAiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iMTIiIGZpbGw9IiNmOGZhZmMiPjE0wrIgPSAxOTY8L3RleHQ+PHRleHQgeD0iMTEwIiB5PSIxMzIiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iMTIiIGZpbGw9IiNmOGZhZmMiPjE1wrIgPSAyMjU8L3RleHQ+PHRleHQgeD0iMTEwIiB5PSIxNTQiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iMTIiIGZpbGw9IiNmOGZhZmMiPjE2wrIgPSAyNTY8L3RleHQ+PHRleHQgeD0iMTEwIiB5PSIxNzYiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iMTIiIGZpbGw9IiNmOGZhZmMiPjE3wrIgPSAyODk8L3RleHQ+PHRleHQgeD0iMTEwIiB5PSIxOTgiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iMTIiIGZpbGw9IiNmOGZhZmMiPjE4wrIgPSAzMjQ8L3RleHQ+PHRleHQgeD0iMTEwIiB5PSIyMjAiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iMTIiIGZpbGw9IiNmOGZhZmMiPjE5wrIgPSAzNjE8L3RleHQ+PHRleHQgeD0iMTEwIiB5PSIyNDIiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iMTIiIGZpbGw9IiNmOGZhZmMiPjIwwrIgPSA0MDA8L3RleHQ+PC9zdmc+"
+    aiGenerated: false
+    icon: 📊
+  - type: objective
+    title: "Objectifs d'apprentissage"
+    content: "- ✅ Mémoriser les carrés de 1 à 20\n- ✅ Reconnaître les carrés parfaits\n- ✅ Calculer mentalement"
+    icon: 🎯
+  - type: tip
+    title: Astuces pour les carrés
+    content: "Quelques carrés à retenir :\n- Les carrés jusqu'à 12 sont les plus courants\n- 11² = 121, 12² = 144, 13² = 169\n- 14² = 196, 15² = 225\n- Les carrés finissent par 0, 1, 4, 5, 6 ou 9 (jamais 2, 3, 7, 8)"
+    icon: 💡
+cards:
+  - id: pow_square_1
+    question: 1² = ?
+    answer: "1"
+    feedback: 1² = 1 × 1 = 1
+  - id: pow_square_2
+    question: 2² = ?
+    answer: "4"
+    feedback: 2² = 2 × 2 = 4
+  - id: pow_square_3
+    question: 3² = ?
+    answer: "9"
+    feedback: 3² = 3 × 3 = 9
+  - id: pow_square_4
+    question: 4² = ?
+    answer: "16"
+    feedback: 4² = 4 × 4 = 16
+  - id: pow_square_5
+    question: 5² = ?
+    answer: "25"
+    feedback: 5² = 5 × 5 = 25
+  - id: pow_square_6
+    question: 6² = ?
+    answer: "36"
+    feedback: 6² = 6 × 6 = 36
+  - id: pow_square_7
+    question: 7² = ?
+    answer: "49"
+    feedback: 7² = 7 × 7 = 49
+  - id: pow_square_8
+    question: 8² = ?
+    answer: "64"
+    feedback: 8² = 8 × 8 = 64
+  - id: pow_square_9
+    question: 9² = ?
+    answer: "81"
+    feedback: 9² = 9 × 9 = 81
+  - id: pow_square_10
+    question: 10² = ?
+    answer: "100"
+    feedback: 10² = 10 × 10 = 100
+  - id: pow_square_11
+    question: 11² = ?
+    answer: "121"
+    feedback: 11² = 11 × 11 = 121
+  - id: pow_square_12
+    question: 12² = ?
+    answer: "144"
+    feedback: 12² = 12 × 12 = 144
+  - id: pow_square_13
+    question: 13² = ?
+    answer: "169"
+    feedback: 13² = 13 × 13 = 169
+  - id: pow_square_14
+    question: 14² = ?
+    answer: "196"
+    feedback: 14² = 14 × 14 = 196
+  - id: pow_square_15
+    question: 15² = ?
+    answer: "225"
+    feedback: 15² = 15 × 15 = 225
+  - id: pow_square_16
+    question: 16² = ?
+    answer: "256"
+    feedback: 16² = 16 × 16 = 256
+  - id: pow_square_17
+    question: 17² = ?
+    answer: "289"
+    feedback: 17² = 17 × 17 = 289
+  - id: pow_square_18
+    question: 18² = ?
+    answer: "324"
+    feedback: 18² = 18 × 18 = 324
+  - id: pow_square_19
+    question: 19² = ?
+    answer: "361"
+    feedback: 19² = 19 × 19 = 361
+  - id: pow_square_20
+    question: 20² = ?
+    answer: "400"
+    feedback: 20² = 20 × 20 = 400

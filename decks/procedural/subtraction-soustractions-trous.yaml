@@ -1,0 +1,71 @@
+name: Soustractions à trous
+description: Trouver le nombre manquant (10 - ? = X)
+tags: [math, soustraction, calcul-mental, cp]
+category: [sciences, maths, arithmetique, operations-base, soustractions, calcul-mental, cp]
+settings:
+  sequential: false
+  bidirectional: false
+metadata:
+  license: CC-BY-SA-4.0
+  source:
+    type: procedural
+    generator: subtraction
+    version: 1.0.0
+    generatedAt: "2026-11-22"
+    parameters:
+      type: hole-subtractions
+resources:
+  - type: summary
+    title: Les soustractions à trous
+    content: "Les **soustractions à trous** demandent de trouver le nombre manquant.\n\nPar exemple : **10 - ? = 7** → Il faut trouver 3\n\nC'est un excellent exercice pour :\n- Renforcer la compréhension de la soustraction\n- Préparer la résolution d'équations\n- Développer le raisonnement inverse"
+    aiGenerated: true
+    icon: 📝
+  - type: objective
+    title: "Objectifs d'apprentissage"
+    content: "- ✅ Trouver rapidement le nombre manquant\n- ✅ Comprendre la relation entre les termes\n- ✅ Préparer les équations du type a - x = b"
+    icon: 🎯
+cards:
+  - id: sub_hole_10_0
+    question: 10 - ? = 0
+    answer: "10"
+    feedback: 10 - 10 = 0
+  - id: sub_hole_10_1
+    question: 10 - ? = 1
+    answer: "9"
+    feedback: 10 - 9 = 1
+  - id: sub_hole_10_2
+    question: 10 - ? = 2
+    answer: "8"
+    feedback: 10 - 8 = 2
+  - id: sub_hole_10_3
+    question: 10 - ? = 3
+    answer: "7"
+    feedback: 10 - 7 = 3
+  - id: sub_hole_10_4
+    question: 10 - ? = 4
+    answer: "6"
+    feedback: 10 - 6 = 4
+  - id: sub_hole_10_5
+    question: 10 - ? = 5
+    answer: "5"
+    feedback: 10 - 5 = 5
+  - id: sub_hole_10_6
+    question: 10 - ? = 6
+    answer: "4"
+    feedback: 10 - 4 = 6
+  - id: sub_hole_10_7
+    question: 10 - ? = 7
+    answer: "3"
+    feedback: 10 - 3 = 7
+  - id: sub_hole_10_8
+    question: 10 - ? = 8
+    answer: "2"
+    feedback: 10 - 2 = 8
+  - id: sub_hole_10_9
+    question: 10 - ? = 9
+    answer: "1"
+    feedback: 10 - 1 = 9
+  - id: sub_hole_10_10
+    question: 10 - ? = 10
+    answer: "0"
+    feedback: 10 - 0 = 10

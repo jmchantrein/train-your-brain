@@ -1,0 +1,128 @@
+name: Table de multiplication de 5
+description: Table de multiplication par 5 (5 × 0 à 5 × 10)
+tags: [math, multiplication, calcul-mental, ce1, ce2]
+category: [sciences, maths, arithmetique, operations-base, multiplications, calcul-mental, ce1, ce2]
+settings:
+  sequential: false
+  bidirectional: false
+metadata:
+  license: CC-BY-SA-4.0
+  source:
+    type: procedural
+    generator: multiplication
+    version: 1.0.0
+    generatedAt: "2026-11-22"
+    parameters:
+      table: 5
+resources:
+  - type: summary
+    title: "Qu'est-ce que la multiplication ?"
+    content: "La **multiplication** est une opération arithmétique qui permet de calculer rapidement une somme de nombres identiques.\n\nPar exemple : **3 × 4 = 12** signifie 3 + 3 + 3 + 3 = 12\n\nLes tables de multiplication sont essentielles pour :\n- Le calcul mental rapide\n- La résolution de problèmes mathématiques\n- Les divisions, fractions et pourcentages"
+    aiGenerated: true
+    icon: 📝
+  - type: link
+    title: "Wikipedia : Table de multiplication"
+    url: https://fr.wikipedia.org/wiki/Table_de_multiplication
+    icon: 📖
+  - type: glossary
+    title: Vocabulaire clé
+    content: "- **Multiplication** : Opération qui donne le produit de deux nombres\n- **Facteur** : Nombre que l'on multiplie (ex: dans 3 × 4, les facteurs sont 3 et 4)\n- **Produit** : Résultat d'une multiplication\n- **Commutativité** : Propriété : l'ordre des facteurs ne change pas le produit (3 × 4 = 4 × 3)"
+    icon: 📚
+  - type: image
+    title: Table de 5
+    image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxODAgMjg0IiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjI4NCI+CiAgICAgIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxODAiIGhlaWdodD0iMjg0IiBmaWxsPSIjMWUyOTNiIiByeD0iOCIvPgogICAgICA8dGV4dCB4PSI5MCIgeT0iMTIiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIiBmaWxsPSIjOGI1Y2Y2IiBmb250LXdlaWdodD0iYm9sZCI+VGFibGUgZGUgNTwvdGV4dD4KICAgICAgPGxpbmUgeDE9IjEwIiB5MT0iMTgiIHgyPSIxNzAiIHkyPSIxOCIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEiLz4KICAgICAgPHRleHQgeD0iMTAiIHk9IjI2IiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiBmb250LXNpemU9IjE0IiBmaWxsPSIjZjhmYWZjIj41IMOXICAwID0gICAwPC90ZXh0Pjx0ZXh0IHg9IjEwIiB5PSI1MCIgZm9udC1mYW1pbHk9Im1vbm9zcGFjZSIgZm9udC1zaXplPSIxNCIgZmlsbD0iI2Y4ZmFmYyI+NSDDlyAgMSA9ICAgNTwvdGV4dD48dGV4dCB4PSIxMCIgeT0iNzQiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iMTQiIGZpbGw9IiNmOGZhZmMiPjUgw5cgIDIgPSAgMTA8L3RleHQ+PHRleHQgeD0iMTAiIHk9Ijk4IiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiBmb250LXNpemU9IjE0IiBmaWxsPSIjZjhmYWZjIj41IMOXICAzID0gIDE1PC90ZXh0Pjx0ZXh0IHg9IjEwIiB5PSIxMjIiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iMTQiIGZpbGw9IiNmOGZhZmMiPjUgw5cgIDQgPSAgMjA8L3RleHQ+PHRleHQgeD0iMTAiIHk9IjE0NiIgZm9udC1mYW1pbHk9Im1vbm9zcGFjZSIgZm9udC1zaXplPSIxNCIgZmlsbD0iI2Y4ZmFmYyI+NSDDlyAgNSA9ICAyNTwvdGV4dD48dGV4dCB4PSIxMCIgeT0iMTcwIiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiBmb250LXNpemU9IjE0IiBmaWxsPSIjZjhmYWZjIj41IMOXICA2ID0gIDMwPC90ZXh0Pjx0ZXh0IHg9IjEwIiB5PSIxOTQiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iMTQiIGZpbGw9IiNmOGZhZmMiPjUgw5cgIDcgPSAgMzU8L3RleHQ+PHRleHQgeD0iMTAiIHk9IjIxOCIgZm9udC1mYW1pbHk9Im1vbm9zcGFjZSIgZm9udC1zaXplPSIxNCIgZmlsbD0iI2Y4ZmFmYyI+NSDDlyAgOCA9ICA0MDwvdGV4dD48dGV4dCB4PSIxMCIgeT0iMjQyIiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiBmb250LXNpemU9IjE0IiBmaWxsPSIjZjhmYWZjIj41IMOXICA5ID0gIDQ1PC90ZXh0Pjx0ZXh0IHg9IjEwIiB5PSIyNjYiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iMTQiIGZpbGw9IiNmOGZhZmMiPjUgw5cgMTAgPSAgNTA8L3RleHQ+CiAgICA8L3N2Zz4="
+    aiGenerated: false
+    icon: 📊
+  - type: objective
+    title: "Objectifs d'apprentissage"
+    content: "- ✅ Mémoriser la table de 5\n- ✅ Répondre en moins de 3 secondes\n- ✅ Reconnaître les résultats de la table"
+    icon: 🎯
+  - type: tip
+    title: Astuce pour la table de 5
+    content: Les résultats se terminent toujours par 0 ou 5. Compter de 5 en 5 sur les doigts.
+    icon: 💡
+cards:
+  - id: mult_5_x_0
+    question: 5 × 0 = ?
+    answer: "0"
+    alternatives: ["0"]
+  - id: mult_5_x_1
+    question: 5 × 1 = ?
+    answer: "5"
+    alternatives: ["5"]
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 28 84\" width=\"28\" height=\"84\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"24\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"38\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"52\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"66\" r=\"4\" fill=\"#8b5cf6\"/></svg>"
+  - id: mult_5_x_2
+    question: 5 × 2 = ?
+    answer: "10"
+    alternatives: ["10"]
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 42 84\" width=\"42\" height=\"84\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"24\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"24\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"24\" cy=\"24\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"38\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"24\" cy=\"38\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"52\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"24\" cy=\"52\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"66\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"24\" cy=\"66\" r=\"4\" fill=\"#8b5cf6\"/></svg>"
+  - id: mult_5_x_3
+    question: 5 × 3 = ?
+    answer: "15"
+    alternatives: ["15"]
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 56 84\" width=\"56\" height=\"84\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"24\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"38\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"24\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"24\" cy=\"24\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"38\" cy=\"24\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"38\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"24\" cy=\"38\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"38\" cy=\"38\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"52\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"24\" cy=\"52\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"38\" cy=\"52\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"66\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"24\" cy=\"66\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"38\" cy=\"66\" r=\"4\" fill=\"#8b5cf6\"/></svg>"
+  - id: mult_5_x_4
+    question: 5 × 4 = ?
+    answer: "20"
+    alternatives: ["20"]
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 70 84\" width=\"70\" height=\"84\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"24\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"38\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"52\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"24\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"24\" cy=\"24\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"38\" cy=\"24\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"52\" cy=\"24\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"38\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"24\" cy=\"38\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"38\" cy=\"38\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"52\" cy=\"38\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"52\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"24\" cy=\"52\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"38\" cy=\"52\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"52\" cy=\"52\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"66\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"24\" cy=\"66\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"38\" cy=\"66\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"52\" cy=\"66\" r=\"4\" fill=\"#8b5cf6\"/></svg>"
+  - id: mult_5_x_5
+    question: 5 × 5 = ?
+    answer: "25"
+    alternatives: ["25"]
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 84 84\" width=\"84\" height=\"84\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"24\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"38\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"52\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"66\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"24\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"24\" cy=\"24\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"38\" cy=\"24\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"52\" cy=\"24\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"66\" cy=\"24\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"38\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"24\" cy=\"38\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"38\" cy=\"38\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"52\" cy=\"38\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"66\" cy=\"38\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"52\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"24\" cy=\"52\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"38\" cy=\"52\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"52\" cy=\"52\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"66\" cy=\"52\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"66\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"24\" cy=\"66\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"38\" cy=\"66\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"52\" cy=\"66\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"66\" cy=\"66\" r=\"4\" fill=\"#8b5cf6\"/></svg>"
+  - id: mult_5_x_6
+    question: 5 × 6 = ?
+    answer: "30"
+    alternatives: ["30"]
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 98 84\" width=\"98\" height=\"84\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"24\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"38\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"52\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"66\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"80\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"24\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"24\" cy=\"24\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"38\" cy=\"24\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"52\" cy=\"24\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"66\" cy=\"24\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"80\" cy=\"24\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"38\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"24\" cy=\"38\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"38\" cy=\"38\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"52\" cy=\"38\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"66\" cy=\"38\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"80\" cy=\"38\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"52\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"24\" cy=\"52\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"38\" cy=\"52\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"52\" cy=\"52\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"66\" cy=\"52\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"80\" cy=\"52\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"66\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"24\" cy=\"66\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"38\" cy=\"66\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"52\" cy=\"66\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"66\" cy=\"66\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"80\" cy=\"66\" r=\"4\" fill=\"#8b5cf6\"/></svg>"
+  - id: mult_5_x_7
+    question: 5 × 7 = ?
+    answer: "35"
+    alternatives: ["35"]
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 112 84\" width=\"112\" height=\"84\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"24\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"38\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"52\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"66\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"80\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"94\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"24\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"24\" cy=\"24\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"38\" cy=\"24\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"52\" cy=\"24\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"66\" cy=\"24\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"80\" cy=\"24\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"94\" cy=\"24\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"38\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"24\" cy=\"38\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"38\" cy=\"38\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"52\" cy=\"38\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"66\" cy=\"38\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"80\" cy=\"38\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"94\" cy=\"38\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"52\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"24\" cy=\"52\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"38\" cy=\"52\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"52\" cy=\"52\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"66\" cy=\"52\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"80\" cy=\"52\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"94\" cy=\"52\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"66\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"24\" cy=\"66\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"38\" cy=\"66\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"52\" cy=\"66\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"66\" cy=\"66\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"80\" cy=\"66\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"94\" cy=\"66\" r=\"4\" fill=\"#8b5cf6\"/></svg>"
+  - id: mult_5_x_8
+    question: 5 × 8 = ?
+    answer: "40"
+    alternatives: ["40"]
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 126 84\" width=\"126\" height=\"84\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"24\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"38\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"52\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"66\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"80\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"94\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"108\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"24\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"24\" cy=\"24\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"38\" cy=\"24\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"52\" cy=\"24\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"66\" cy=\"24\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"80\" cy=\"24\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"94\" cy=\"24\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"108\" cy=\"24\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"38\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"24\" cy=\"38\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"38\" cy=\"38\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"52\" cy=\"38\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"66\" cy=\"38\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"80\" cy=\"38\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"94\" cy=\"38\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"108\" cy=\"38\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"52\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"24\" cy=\"52\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"38\" cy=\"52\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"52\" cy=\"52\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"66\" cy=\"52\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"80\" cy=\"52\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"94\" cy=\"52\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"108\" cy=\"52\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"66\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"24\" cy=\"66\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"38\" cy=\"66\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"52\" cy=\"66\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"66\" cy=\"66\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"80\" cy=\"66\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"94\" cy=\"66\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"108\" cy=\"66\" r=\"4\" fill=\"#8b5cf6\"/></svg>"
+  - id: mult_5_x_9
+    question: 5 × 9 = ?
+    answer: "45"
+    alternatives: ["45"]
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 140 84\" width=\"140\" height=\"84\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"24\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"38\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"52\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"66\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"80\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"94\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"108\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"122\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"24\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"24\" cy=\"24\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"38\" cy=\"24\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"52\" cy=\"24\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"66\" cy=\"24\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"80\" cy=\"24\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"94\" cy=\"24\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"108\" cy=\"24\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"122\" cy=\"24\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"38\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"24\" cy=\"38\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"38\" cy=\"38\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"52\" cy=\"38\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"66\" cy=\"38\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"80\" cy=\"38\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"94\" cy=\"38\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"108\" cy=\"38\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"122\" cy=\"38\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"52\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"24\" cy=\"52\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"38\" cy=\"52\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"52\" cy=\"52\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"66\" cy=\"52\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"80\" cy=\"52\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"94\" cy=\"52\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"108\" cy=\"52\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"122\" cy=\"52\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"66\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"24\" cy=\"66\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"38\" cy=\"66\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"52\" cy=\"66\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"66\" cy=\"66\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"80\" cy=\"66\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"94\" cy=\"66\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"108\" cy=\"66\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"122\" cy=\"66\" r=\"4\" fill=\"#8b5cf6\"/></svg>"
+  - id: mult_5_x_10
+    question: 5 × 10 = ?
+    answer: "50"
+    alternatives: ["50"]
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 154 84\" width=\"154\" height=\"84\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"24\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"38\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"52\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"66\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"80\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"94\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"108\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"122\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"136\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"24\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"24\" cy=\"24\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"38\" cy=\"24\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"52\" cy=\"24\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"66\" cy=\"24\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"80\" cy=\"24\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"94\" cy=\"24\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"108\" cy=\"24\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"122\" cy=\"24\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"136\" cy=\"24\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"38\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"24\" cy=\"38\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"38\" cy=\"38\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"52\" cy=\"38\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"66\" cy=\"38\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"80\" cy=\"38\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"94\" cy=\"38\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"108\" cy=\"38\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"122\" cy=\"38\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"136\" cy=\"38\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"52\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"24\" cy=\"52\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"38\" cy=\"52\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"52\" cy=\"52\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"66\" cy=\"52\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"80\" cy=\"52\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"94\" cy=\"52\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"108\" cy=\"52\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"122\" cy=\"52\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"136\" cy=\"52\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"66\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"24\" cy=\"66\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"38\" cy=\"66\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"52\" cy=\"66\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"66\" cy=\"66\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"80\" cy=\"66\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"94\" cy=\"66\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"108\" cy=\"66\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"122\" cy=\"66\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"136\" cy=\"66\" r=\"4\" fill=\"#8b5cf6\"/></svg>"

@@ -1,0 +1,155 @@
+name: Conversions de volumes
+description: "L, cL, mL"
+tags: [math, conversions, volumes, cm1, cm2]
+category: [sciences, maths, arithmetique, mesures, conversions, volumes, cm1, cm2]
+settings:
+  sequential: false
+  bidirectional: false
+metadata:
+  license: CC-BY-SA-4.0
+  source:
+    type: procedural
+    generator: conversions
+    version: 1.0.0
+    generatedAt: "2026-11-22"
+    parameters:
+      type: volume
+resources:
+  - type: summary
+    title: "Les conversions d'unités"
+    content: "Les **conversions** permettent d'exprimer une même mesure avec différentes unités.\n\nLe système métrique est basé sur des puissances de 10 :\n- kilo (k) = 1000\n- hecto (h) = 100\n- déca (da) = 10\n- unité = 1\n- déci (d) = 0,1\n- centi (c) = 0,01\n- milli (m) = 0,001\n\nConvertir c'est multiplier ou diviser par 10, 100, 1000..."
+    aiGenerated: true
+    icon: 📝
+  - type: link
+    title: "Wikipedia : Système métrique"
+    url: https://fr.wikipedia.org/wiki/Système_métrique
+    icon: 📖
+  - type: glossary
+    title: Vocabulaire clé
+    content: "- **Conversion** : Changement d'unité pour une même mesure\n- **Préfixe** : Symbole indiquant le multiple (k, c, m...)\n- **Unité SI** : Unité du Système International\n- **Multiple** : Unité plus grande (km, kg)\n- **Sous-multiple** : Unité plus petite (mm, mg)"
+    icon: 📚
+  - type: objective
+    title: "Objectifs d'apprentissage"
+    content: "- ✅ Convertir L ↔ cL ↔ mL\n- ✅ Reconnaître les contenances courantes\n- ✅ Applications cuisine et vie quotidienne"
+    icon: 🎯
+  - type: tip
+    title: Conversions de volumes
+    content: "Rappels :\n• 1 L = 100 cL = 1000 mL\n• 1 cL = 10 mL\n\nRepères pratiques :\n• Canette = 33 cL\n• Bouteille d'eau = 50 cL ou 1,5 L\n• Verre = 20-25 cL\n• Cuillère à soupe = 1,5 cL"
+    icon: 💡
+cards:
+  - id: conv_l_to_ml_1
+    question: 1 L = ? mL
+    answer: "1000"
+    feedback: 1 L × 1000 = 1000 mL
+  - id: conv_l_to_ml_2
+    question: 2 L = ? mL
+    answer: "2000"
+    feedback: 2 L × 1000 = 2000 mL
+  - id: conv_l_to_ml_0_5
+    question: 0.5 L = ? mL
+    answer: "500"
+    feedback: 0.5 L × 1000 = 500 mL
+  - id: conv_l_to_ml_0_25
+    question: 0.25 L = ? mL
+    answer: "250"
+    feedback: 0.25 L × 1000 = 250 mL
+  - id: conv_l_to_ml_1_5
+    question: 1.5 L = ? mL
+    answer: "1500"
+    feedback: 1.5 L × 1000 = 1500 mL
+  - id: conv_l_to_ml_0_1
+    question: 0.1 L = ? mL
+    answer: "100"
+    feedback: 0.1 L × 1000 = 100 mL
+  - id: conv_l_to_ml_0_75
+    question: 0.75 L = ? mL
+    answer: "750"
+    feedback: 0.75 L × 1000 = 750 mL
+  - id: conv_l_to_ml_3
+    question: 3 L = ? mL
+    answer: "3000"
+    feedback: 3 L × 1000 = 3000 mL
+  - id: conv_ml_to_l_1000
+    question: 1000 mL = ? L
+    answer: "1"
+    feedback: 1000 mL ÷ 1000 = 1 L
+  - id: conv_ml_to_l_500
+    question: 500 mL = ? L
+    answer: "0.5"
+    feedback: 500 mL ÷ 1000 = 0.5 L
+  - id: conv_ml_to_l_250
+    question: 250 mL = ? L
+    answer: "0.25"
+    feedback: 250 mL ÷ 1000 = 0.25 L
+  - id: conv_ml_to_l_100
+    question: 100 mL = ? L
+    answer: "0.1"
+    feedback: 100 mL ÷ 1000 = 0.1 L
+  - id: conv_ml_to_l_750
+    question: 750 mL = ? L
+    answer: "0.75"
+    feedback: 750 mL ÷ 1000 = 0.75 L
+  - id: conv_ml_to_l_1500
+    question: 1500 mL = ? L
+    answer: "1.5"
+    feedback: 1500 mL ÷ 1000 = 1.5 L
+  - id: conv_ml_to_l_2000
+    question: 2000 mL = ? L
+    answer: "2"
+    feedback: 2000 mL ÷ 1000 = 2 L
+  - id: conv_ml_to_l_50
+    question: 50 mL = ? L
+    answer: "0.05"
+    feedback: 50 mL ÷ 1000 = 0.05 L
+  - id: conv_l_to_cl_1
+    question: 1 L = ? cL
+    answer: "100"
+    feedback: 1 L × 100 = 100 cL
+  - id: conv_l_to_cl_2
+    question: 2 L = ? cL
+    answer: "200"
+    feedback: 2 L × 100 = 200 cL
+  - id: conv_l_to_cl_0_5
+    question: 0.5 L = ? cL
+    answer: "50"
+    feedback: 0.5 L × 100 = 50 cL
+  - id: conv_l_to_cl_1_5
+    question: 1.5 L = ? cL
+    answer: "150"
+    feedback: 1.5 L × 100 = 150 cL
+  - id: conv_l_to_cl_0_25
+    question: 0.25 L = ? cL
+    answer: "25"
+    feedback: 0.25 L × 100 = 25 cL
+  - id: conv_l_to_cl_0_75
+    question: 0.75 L = ? cL
+    answer: "75"
+    feedback: 0.75 L × 100 = 75 cL
+  - id: conv_cl_to_l_100
+    question: 100 cL = ? L
+    answer: "1"
+    feedback: 100 cL ÷ 100 = 1 L
+  - id: conv_cl_to_l_50
+    question: 50 cL = ? L
+    answer: "0.5"
+    feedback: 50 cL ÷ 100 = 0.5 L
+  - id: conv_cl_to_l_25
+    question: 25 cL = ? L
+    answer: "0.25"
+    feedback: 25 cL ÷ 100 = 0.25 L
+  - id: conv_cl_to_l_75
+    question: 75 cL = ? L
+    answer: "0.75"
+    feedback: 75 cL ÷ 100 = 0.75 L
+  - id: conv_cl_to_l_33
+    question: 33 cL = ? L
+    answer: "0.33"
+    feedback: 33 cL ÷ 100 = 0.33 L
+  - id: conv_cl_to_l_150
+    question: 150 cL = ? L
+    answer: "1.5"
+    feedback: 150 cL ÷ 100 = 1.5 L
+  - id: conv_cl_to_l_200
+    question: 200 cL = ? L
+    answer: "2"
+    feedback: 200 cL ÷ 100 = 2 L

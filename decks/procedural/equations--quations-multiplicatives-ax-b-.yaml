@@ -1,0 +1,400 @@
+name: Équations multiplicatives (ax = b)
+description: Trouver x dans les équations de type ax = b
+tags: [math, equations, multiplication, cm2]
+category: [sciences, maths, algebre, equations, equations-premier-degre, cm2]
+settings:
+  maxCards: 20
+  sequential: false
+  bidirectional: false
+metadata:
+  license: CC-BY-SA-4.0
+  source:
+    type: procedural
+    generator: equations
+    version: 1.0.0
+    generatedAt: "2026-11-22"
+    parameters:
+      type: multiplication-equations
+resources:
+  - type: summary
+    title: "Qu'est-ce qu'une équation ?"
+    content: "Une **équation** est une égalité contenant une inconnue (souvent notée x) qu'il faut trouver.\n\nPar exemple : **x + 5 = 12** → On cherche quel nombre additionné à 5 donne 12.\n\nLa réponse est x = 7 car 7 + 5 = 12.\n\nLes équations sont la base de l'algèbre et permettent de :\n- Résoudre des problèmes mathématiques\n- Modéliser des situations réelles\n- Comprendre les relations entre les nombres"
+    aiGenerated: true
+    icon: 📝
+  - type: link
+    title: "Wikipedia : Équation"
+    url: https://fr.wikipedia.org/wiki/Équation
+    icon: 📖
+  - type: glossary
+    title: Vocabulaire clé
+    content: "- **Équation** : Égalité contenant une inconnue\n- **Inconnue** : La valeur que l'on cherche (x)\n- **Solution** : La valeur qui rend l'équation vraie\n- **Membre** : Chaque côté de l'égalité (gauche/droit)"
+    icon: 📚
+  - type: objective
+    title: "Objectifs d'apprentissage"
+    content: "- ✅ Résoudre des équations de type ax = b\n- ✅ Utiliser les tables de multiplication/division\n- ✅ Répondre en moins de 5 secondes"
+    icon: 🎯
+  - type: tip
+    title: Méthode de résolution
+    content: "Pour résoudre ax = b :\n\n1. Isoler x en divisant par a des deux côtés\n2. x = b ÷ a\n\nExemple : 5x = 35 → x = 35 ÷ 5 = 7"
+    icon: 💡
+cards:
+  - id: eq_mult_2_1
+    question: 2x = 2
+    answer: "1"
+    feedback: x = 2 ÷ 2 = 1
+  - id: eq_mult_2_2
+    question: 2x = 4
+    answer: "2"
+    feedback: x = 4 ÷ 2 = 2
+  - id: eq_mult_2_3
+    question: 2x = 6
+    answer: "3"
+    feedback: x = 6 ÷ 2 = 3
+  - id: eq_mult_2_4
+    question: 2x = 8
+    answer: "4"
+    feedback: x = 8 ÷ 2 = 4
+  - id: eq_mult_2_5
+    question: 2x = 10
+    answer: "5"
+    feedback: x = 10 ÷ 2 = 5
+  - id: eq_mult_2_6
+    question: 2x = 12
+    answer: "6"
+    feedback: x = 12 ÷ 2 = 6
+  - id: eq_mult_2_7
+    question: 2x = 14
+    answer: "7"
+    feedback: x = 14 ÷ 2 = 7
+  - id: eq_mult_2_8
+    question: 2x = 16
+    answer: "8"
+    feedback: x = 16 ÷ 2 = 8
+  - id: eq_mult_2_9
+    question: 2x = 18
+    answer: "9"
+    feedback: x = 18 ÷ 2 = 9
+  - id: eq_mult_2_10
+    question: 2x = 20
+    answer: "10"
+    feedback: x = 20 ÷ 2 = 10
+  - id: eq_mult_3_1
+    question: 3x = 3
+    answer: "1"
+    feedback: x = 3 ÷ 3 = 1
+  - id: eq_mult_3_2
+    question: 3x = 6
+    answer: "2"
+    feedback: x = 6 ÷ 3 = 2
+  - id: eq_mult_3_3
+    question: 3x = 9
+    answer: "3"
+    feedback: x = 9 ÷ 3 = 3
+  - id: eq_mult_3_4
+    question: 3x = 12
+    answer: "4"
+    feedback: x = 12 ÷ 3 = 4
+  - id: eq_mult_3_5
+    question: 3x = 15
+    answer: "5"
+    feedback: x = 15 ÷ 3 = 5
+  - id: eq_mult_3_6
+    question: 3x = 18
+    answer: "6"
+    feedback: x = 18 ÷ 3 = 6
+  - id: eq_mult_3_7
+    question: 3x = 21
+    answer: "7"
+    feedback: x = 21 ÷ 3 = 7
+  - id: eq_mult_3_8
+    question: 3x = 24
+    answer: "8"
+    feedback: x = 24 ÷ 3 = 8
+  - id: eq_mult_3_9
+    question: 3x = 27
+    answer: "9"
+    feedback: x = 27 ÷ 3 = 9
+  - id: eq_mult_3_10
+    question: 3x = 30
+    answer: "10"
+    feedback: x = 30 ÷ 3 = 10
+  - id: eq_mult_4_1
+    question: 4x = 4
+    answer: "1"
+    feedback: x = 4 ÷ 4 = 1
+  - id: eq_mult_4_2
+    question: 4x = 8
+    answer: "2"
+    feedback: x = 8 ÷ 4 = 2
+  - id: eq_mult_4_3
+    question: 4x = 12
+    answer: "3"
+    feedback: x = 12 ÷ 4 = 3
+  - id: eq_mult_4_4
+    question: 4x = 16
+    answer: "4"
+    feedback: x = 16 ÷ 4 = 4
+  - id: eq_mult_4_5
+    question: 4x = 20
+    answer: "5"
+    feedback: x = 20 ÷ 4 = 5
+  - id: eq_mult_4_6
+    question: 4x = 24
+    answer: "6"
+    feedback: x = 24 ÷ 4 = 6
+  - id: eq_mult_4_7
+    question: 4x = 28
+    answer: "7"
+    feedback: x = 28 ÷ 4 = 7
+  - id: eq_mult_4_8
+    question: 4x = 32
+    answer: "8"
+    feedback: x = 32 ÷ 4 = 8
+  - id: eq_mult_4_9
+    question: 4x = 36
+    answer: "9"
+    feedback: x = 36 ÷ 4 = 9
+  - id: eq_mult_4_10
+    question: 4x = 40
+    answer: "10"
+    feedback: x = 40 ÷ 4 = 10
+  - id: eq_mult_5_1
+    question: 5x = 5
+    answer: "1"
+    feedback: x = 5 ÷ 5 = 1
+  - id: eq_mult_5_2
+    question: 5x = 10
+    answer: "2"
+    feedback: x = 10 ÷ 5 = 2
+  - id: eq_mult_5_3
+    question: 5x = 15
+    answer: "3"
+    feedback: x = 15 ÷ 5 = 3
+  - id: eq_mult_5_4
+    question: 5x = 20
+    answer: "4"
+    feedback: x = 20 ÷ 5 = 4
+  - id: eq_mult_5_5
+    question: 5x = 25
+    answer: "5"
+    feedback: x = 25 ÷ 5 = 5
+  - id: eq_mult_5_6
+    question: 5x = 30
+    answer: "6"
+    feedback: x = 30 ÷ 5 = 6
+  - id: eq_mult_5_7
+    question: 5x = 35
+    answer: "7"
+    feedback: x = 35 ÷ 5 = 7
+  - id: eq_mult_5_8
+    question: 5x = 40
+    answer: "8"
+    feedback: x = 40 ÷ 5 = 8
+  - id: eq_mult_5_9
+    question: 5x = 45
+    answer: "9"
+    feedback: x = 45 ÷ 5 = 9
+  - id: eq_mult_5_10
+    question: 5x = 50
+    answer: "10"
+    feedback: x = 50 ÷ 5 = 10
+  - id: eq_mult_6_1
+    question: 6x = 6
+    answer: "1"
+    feedback: x = 6 ÷ 6 = 1
+  - id: eq_mult_6_2
+    question: 6x = 12
+    answer: "2"
+    feedback: x = 12 ÷ 6 = 2
+  - id: eq_mult_6_3
+    question: 6x = 18
+    answer: "3"
+    feedback: x = 18 ÷ 6 = 3
+  - id: eq_mult_6_4
+    question: 6x = 24
+    answer: "4"
+    feedback: x = 24 ÷ 6 = 4
+  - id: eq_mult_6_5
+    question: 6x = 30
+    answer: "5"
+    feedback: x = 30 ÷ 6 = 5
+  - id: eq_mult_6_6
+    question: 6x = 36
+    answer: "6"
+    feedback: x = 36 ÷ 6 = 6
+  - id: eq_mult_6_7
+    question: 6x = 42
+    answer: "7"
+    feedback: x = 42 ÷ 6 = 7
+  - id: eq_mult_6_8
+    question: 6x = 48
+    answer: "8"
+    feedback: x = 48 ÷ 6 = 8
+  - id: eq_mult_6_9
+    question: 6x = 54
+    answer: "9"
+    feedback: x = 54 ÷ 6 = 9
+  - id: eq_mult_6_10
+    question: 6x = 60
+    answer: "10"
+    feedback: x = 60 ÷ 6 = 10
+  - id: eq_mult_7_1
+    question: 7x = 7
+    answer: "1"
+    feedback: x = 7 ÷ 7 = 1
+  - id: eq_mult_7_2
+    question: 7x = 14
+    answer: "2"
+    feedback: x = 14 ÷ 7 = 2
+  - id: eq_mult_7_3
+    question: 7x = 21
+    answer: "3"
+    feedback: x = 21 ÷ 7 = 3
+  - id: eq_mult_7_4
+    question: 7x = 28
+    answer: "4"
+    feedback: x = 28 ÷ 7 = 4
+  - id: eq_mult_7_5
+    question: 7x = 35
+    answer: "5"
+    feedback: x = 35 ÷ 7 = 5
+  - id: eq_mult_7_6
+    question: 7x = 42
+    answer: "6"
+    feedback: x = 42 ÷ 7 = 6
+  - id: eq_mult_7_7
+    question: 7x = 49
+    answer: "7"
+    feedback: x = 49 ÷ 7 = 7
+  - id: eq_mult_7_8
+    question: 7x = 56
+    answer: "8"
+    feedback: x = 56 ÷ 7 = 8
+  - id: eq_mult_7_9
+    question: 7x = 63
+    answer: "9"
+    feedback: x = 63 ÷ 7 = 9
+  - id: eq_mult_7_10
+    question: 7x = 70
+    answer: "10"
+    feedback: x = 70 ÷ 7 = 10
+  - id: eq_mult_8_1
+    question: 8x = 8
+    answer: "1"
+    feedback: x = 8 ÷ 8 = 1
+  - id: eq_mult_8_2
+    question: 8x = 16
+    answer: "2"
+    feedback: x = 16 ÷ 8 = 2
+  - id: eq_mult_8_3
+    question: 8x = 24
+    answer: "3"
+    feedback: x = 24 ÷ 8 = 3
+  - id: eq_mult_8_4
+    question: 8x = 32
+    answer: "4"
+    feedback: x = 32 ÷ 8 = 4
+  - id: eq_mult_8_5
+    question: 8x = 40
+    answer: "5"
+    feedback: x = 40 ÷ 8 = 5
+  - id: eq_mult_8_6
+    question: 8x = 48
+    answer: "6"
+    feedback: x = 48 ÷ 8 = 6
+  - id: eq_mult_8_7
+    question: 8x = 56
+    answer: "7"
+    feedback: x = 56 ÷ 8 = 7
+  - id: eq_mult_8_8
+    question: 8x = 64
+    answer: "8"
+    feedback: x = 64 ÷ 8 = 8
+  - id: eq_mult_8_9
+    question: 8x = 72
+    answer: "9"
+    feedback: x = 72 ÷ 8 = 9
+  - id: eq_mult_8_10
+    question: 8x = 80
+    answer: "10"
+    feedback: x = 80 ÷ 8 = 10
+  - id: eq_mult_9_1
+    question: 9x = 9
+    answer: "1"
+    feedback: x = 9 ÷ 9 = 1
+  - id: eq_mult_9_2
+    question: 9x = 18
+    answer: "2"
+    feedback: x = 18 ÷ 9 = 2
+  - id: eq_mult_9_3
+    question: 9x = 27
+    answer: "3"
+    feedback: x = 27 ÷ 9 = 3
+  - id: eq_mult_9_4
+    question: 9x = 36
+    answer: "4"
+    feedback: x = 36 ÷ 9 = 4
+  - id: eq_mult_9_5
+    question: 9x = 45
+    answer: "5"
+    feedback: x = 45 ÷ 9 = 5
+  - id: eq_mult_9_6
+    question: 9x = 54
+    answer: "6"
+    feedback: x = 54 ÷ 9 = 6
+  - id: eq_mult_9_7
+    question: 9x = 63
+    answer: "7"
+    feedback: x = 63 ÷ 9 = 7
+  - id: eq_mult_9_8
+    question: 9x = 72
+    answer: "8"
+    feedback: x = 72 ÷ 9 = 8
+  - id: eq_mult_9_9
+    question: 9x = 81
+    answer: "9"
+    feedback: x = 81 ÷ 9 = 9
+  - id: eq_mult_9_10
+    question: 9x = 90
+    answer: "10"
+    feedback: x = 90 ÷ 9 = 10
+  - id: eq_mult_10_1
+    question: 10x = 10
+    answer: "1"
+    feedback: x = 10 ÷ 10 = 1
+  - id: eq_mult_10_2
+    question: 10x = 20
+    answer: "2"
+    feedback: x = 20 ÷ 10 = 2
+  - id: eq_mult_10_3
+    question: 10x = 30
+    answer: "3"
+    feedback: x = 30 ÷ 10 = 3
+  - id: eq_mult_10_4
+    question: 10x = 40
+    answer: "4"
+    feedback: x = 40 ÷ 10 = 4
+  - id: eq_mult_10_5
+    question: 10x = 50
+    answer: "5"
+    feedback: x = 50 ÷ 10 = 5
+  - id: eq_mult_10_6
+    question: 10x = 60
+    answer: "6"
+    feedback: x = 60 ÷ 10 = 6
+  - id: eq_mult_10_7
+    question: 10x = 70
+    answer: "7"
+    feedback: x = 70 ÷ 10 = 7
+  - id: eq_mult_10_8
+    question: 10x = 80
+    answer: "8"
+    feedback: x = 80 ÷ 10 = 8
+  - id: eq_mult_10_9
+    question: 10x = 90
+    answer: "9"
+    feedback: x = 90 ÷ 10 = 9
+  - id: eq_mult_10_10
+    question: 10x = 100
+    answer: "10"
+    feedback: x = 100 ÷ 10 = 10

@@ -1,0 +1,105 @@
+name: Table de division par 4
+description: Divisions par 4 (0 ÷ 4 à 40 ÷ 4)
+tags: [math, division, calcul-mental, ce2, cm1]
+category: [sciences, maths, arithmetique, operations-base, divisions, calcul-mental, ce2, cm1]
+settings:
+  sequential: false
+  bidirectional: false
+metadata:
+  license: CC-BY-SA-4.0
+  source:
+    type: procedural
+    generator: division
+    version: 1.0.0
+    generatedAt: "2026-11-22"
+    parameters:
+      divisor: 4
+resources:
+  - type: summary
+    title: "Qu'est-ce que la division ?"
+    content: "La **division** est l'opération inverse de la multiplication. Elle permet de partager une quantité en parts égales ou de savoir combien de fois un nombre est contenu dans un autre.\n\nPar exemple : **12 ÷ 4 = 3** signifie que 12 partagé en 4 parts égales donne 3 par part.\n\nLes tables de division sont essentielles pour :\n- Le calcul mental rapide\n- Les fractions et pourcentages\n- La résolution de problèmes"
+    aiGenerated: true
+    icon: 📝
+  - type: link
+    title: "Wikipedia : Division"
+    url: https://fr.wikipedia.org/wiki/Division
+    icon: 📖
+  - type: glossary
+    title: Vocabulaire clé
+    content: "- **Division** : Opération qui partage un nombre en parts égales\n- **Dividende** : Le nombre que l'on divise\n- **Diviseur** : Le nombre par lequel on divise\n- **Quotient** : Résultat d'une division\n- **Reste** : Ce qui reste quand la division n'est pas exacte"
+    icon: 📚
+  - type: image
+    title: Diviser par 4
+    image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjg0IiB3aWR0aD0iMjAwIiBoZWlnaHQ9IjI4NCI+CiAgICAgIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIyMDAiIGhlaWdodD0iMjg0IiBmaWxsPSIjMWUyOTNiIiByeD0iOCIvPgogICAgICA8dGV4dCB4PSIxMDAiIHk9IjEyIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMiIgZmlsbD0iI2Y5NzMxNiIgZm9udC13ZWlnaHQ9ImJvbGQiPkRpdmlzZXIgcGFyIDQ8L3RleHQ+CiAgICAgIDxsaW5lIHgxPSIxMCIgeTE9IjE4IiB4Mj0iMTkwIiB5Mj0iMTgiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxIi8+CiAgICAgIDx0ZXh0IHg9IjEwIiB5PSIyNiIgZm9udC1mYW1pbHk9Im1vbm9zcGFjZSIgZm9udC1zaXplPSIxNCIgZmlsbD0iI2Y4ZmFmYyI+ICAwIMO3IDQgPSAgMDwvdGV4dD48dGV4dCB4PSIxMCIgeT0iNTAiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iMTQiIGZpbGw9IiNmOGZhZmMiPiAgNCDDtyA0ID0gIDE8L3RleHQ+PHRleHQgeD0iMTAiIHk9Ijc0IiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiBmb250LXNpemU9IjE0IiBmaWxsPSIjZjhmYWZjIj4gIDggw7cgNCA9ICAyPC90ZXh0Pjx0ZXh0IHg9IjEwIiB5PSI5OCIgZm9udC1mYW1pbHk9Im1vbm9zcGFjZSIgZm9udC1zaXplPSIxNCIgZmlsbD0iI2Y4ZmFmYyI+IDEyIMO3IDQgPSAgMzwvdGV4dD48dGV4dCB4PSIxMCIgeT0iMTIyIiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiBmb250LXNpemU9IjE0IiBmaWxsPSIjZjhmYWZjIj4gMTYgw7cgNCA9ICA0PC90ZXh0Pjx0ZXh0IHg9IjEwIiB5PSIxNDYiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iMTQiIGZpbGw9IiNmOGZhZmMiPiAyMCDDtyA0ID0gIDU8L3RleHQ+PHRleHQgeD0iMTAiIHk9IjE3MCIgZm9udC1mYW1pbHk9Im1vbm9zcGFjZSIgZm9udC1zaXplPSIxNCIgZmlsbD0iI2Y4ZmFmYyI+IDI0IMO3IDQgPSAgNjwvdGV4dD48dGV4dCB4PSIxMCIgeT0iMTk0IiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiBmb250LXNpemU9IjE0IiBmaWxsPSIjZjhmYWZjIj4gMjggw7cgNCA9ICA3PC90ZXh0Pjx0ZXh0IHg9IjEwIiB5PSIyMTgiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iMTQiIGZpbGw9IiNmOGZhZmMiPiAzMiDDtyA0ID0gIDg8L3RleHQ+PHRleHQgeD0iMTAiIHk9IjI0MiIgZm9udC1mYW1pbHk9Im1vbm9zcGFjZSIgZm9udC1zaXplPSIxNCIgZmlsbD0iI2Y4ZmFmYyI+IDM2IMO3IDQgPSAgOTwvdGV4dD48dGV4dCB4PSIxMCIgeT0iMjY2IiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiBmb250LXNpemU9IjE0IiBmaWxsPSIjZjhmYWZjIj4gNDAgw7cgNCA9IDEwPC90ZXh0PgogICAgPC9zdmc+"
+    aiGenerated: false
+    icon: 📊
+  - type: objective
+    title: "Objectifs d'apprentissage"
+    content: "- ✅ Mémoriser la table de division par 4\n- ✅ Répondre en moins de 3 secondes\n- ✅ Faire le lien avec la table de multiplication correspondante"
+    icon: 🎯
+  - type: tip
+    title: Lien avec la multiplication
+    content: "Division et multiplication sont inverses !\n\nSi 4 × 4 = 16, alors 16 ÷ 4 = 4\n\nConnaître les tables de multiplication aide beaucoup pour les divisions."
+    icon: 💡
+cards:
+  - id: div_0_by_4
+    question: 0 ÷ 4 = ?
+    answer: "0"
+  - id: div_4_by_4
+    question: 4 ÷ 4 = ?
+    answer: "1"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 100 32\" width=\"100\" height=\"32\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"30\" cy=\"10\" r=\"4\" fill=\"#f97316\"/><circle cx=\"50\" cy=\"10\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"70\" cy=\"10\" r=\"4\" fill=\"#3b82f6\"/></svg>"
+  - id: div_8_by_4
+    question: 8 ÷ 4 = ?
+    answer: "2"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 100 44\" width=\"100\" height=\"44\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"22\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"30\" cy=\"10\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"22\" r=\"4\" fill=\"#f97316\"/><circle cx=\"50\" cy=\"10\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"22\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"70\" cy=\"10\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"22\" r=\"4\" fill=\"#3b82f6\"/></svg>"
+  - id: div_12_by_4
+    question: 12 ÷ 4 = ?
+    answer: "3"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 100 56\" width=\"100\" height=\"56\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"22\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"34\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"30\" cy=\"10\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"22\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"34\" r=\"4\" fill=\"#f97316\"/><circle cx=\"50\" cy=\"10\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"22\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"34\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"70\" cy=\"10\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"22\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"34\" r=\"4\" fill=\"#3b82f6\"/></svg>"
+  - id: div_16_by_4
+    question: 16 ÷ 4 = ?
+    answer: "4"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 100 68\" width=\"100\" height=\"68\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"22\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"34\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"46\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"30\" cy=\"10\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"22\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"34\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"46\" r=\"4\" fill=\"#f97316\"/><circle cx=\"50\" cy=\"10\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"22\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"34\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"46\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"70\" cy=\"10\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"22\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"34\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"46\" r=\"4\" fill=\"#3b82f6\"/></svg>"
+  - id: div_20_by_4
+    question: 20 ÷ 4 = ?
+    answer: "5"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 100 80\" width=\"100\" height=\"80\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"22\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"34\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"46\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"58\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"30\" cy=\"10\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"22\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"34\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"46\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"58\" r=\"4\" fill=\"#f97316\"/><circle cx=\"50\" cy=\"10\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"22\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"34\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"46\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"58\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"70\" cy=\"10\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"22\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"34\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"46\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"58\" r=\"4\" fill=\"#3b82f6\"/></svg>"
+  - id: div_24_by_4
+    question: 24 ÷ 4 = ?
+    answer: "6"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 100 92\" width=\"100\" height=\"92\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"22\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"34\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"46\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"58\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"70\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"30\" cy=\"10\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"22\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"34\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"46\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"58\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"70\" r=\"4\" fill=\"#f97316\"/><circle cx=\"50\" cy=\"10\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"22\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"34\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"46\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"58\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"70\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"70\" cy=\"10\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"22\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"34\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"46\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"58\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"70\" r=\"4\" fill=\"#3b82f6\"/></svg>"
+  - id: div_28_by_4
+    question: 28 ÷ 4 = ?
+    answer: "7"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 100 104\" width=\"100\" height=\"104\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"22\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"34\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"46\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"58\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"70\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"82\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"30\" cy=\"10\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"22\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"34\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"46\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"58\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"70\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"82\" r=\"4\" fill=\"#f97316\"/><circle cx=\"50\" cy=\"10\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"22\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"34\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"46\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"58\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"70\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"82\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"70\" cy=\"10\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"22\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"34\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"46\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"58\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"70\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"82\" r=\"4\" fill=\"#3b82f6\"/></svg>"
+  - id: div_32_by_4
+    question: 32 ÷ 4 = ?
+    answer: "8"
+  - id: div_36_by_4
+    question: 36 ÷ 4 = ?
+    answer: "9"
+  - id: div_40_by_4
+    question: 40 ÷ 4 = ?
+    answer: "10"

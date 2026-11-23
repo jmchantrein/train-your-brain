@@ -1,0 +1,88 @@
+name: Table de multiplication de 0
+description: Table de multiplication par 0 (0 × 0 à 0 × 10)
+tags: [math, multiplication, calcul-mental, ce1, ce2]
+category: [sciences, maths, arithmetique, operations-base, multiplications, calcul-mental, ce1, ce2]
+settings:
+  sequential: false
+  bidirectional: false
+metadata:
+  license: CC-BY-SA-4.0
+  source:
+    type: procedural
+    generator: multiplication
+    version: 1.0.0
+    generatedAt: "2026-11-22"
+    parameters:
+      table: 0
+resources:
+  - type: summary
+    title: "Qu'est-ce que la multiplication ?"
+    content: "La **multiplication** est une opération arithmétique qui permet de calculer rapidement une somme de nombres identiques.\n\nPar exemple : **3 × 4 = 12** signifie 3 + 3 + 3 + 3 = 12\n\nLes tables de multiplication sont essentielles pour :\n- Le calcul mental rapide\n- La résolution de problèmes mathématiques\n- Les divisions, fractions et pourcentages"
+    aiGenerated: true
+    icon: 📝
+  - type: link
+    title: "Wikipedia : Table de multiplication"
+    url: https://fr.wikipedia.org/wiki/Table_de_multiplication
+    icon: 📖
+  - type: glossary
+    title: Vocabulaire clé
+    content: "- **Multiplication** : Opération qui donne le produit de deux nombres\n- **Facteur** : Nombre que l'on multiplie (ex: dans 3 × 4, les facteurs sont 3 et 4)\n- **Produit** : Résultat d'une multiplication\n- **Commutativité** : Propriété : l'ordre des facteurs ne change pas le produit (3 × 4 = 4 × 3)"
+    icon: 📚
+  - type: image
+    title: Table de 0
+    image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxODAgMjg0IiB3aWR0aD0iMTgwIiBoZWlnaHQ9IjI4NCI+CiAgICAgIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxODAiIGhlaWdodD0iMjg0IiBmaWxsPSIjMWUyOTNiIiByeD0iOCIvPgogICAgICA8dGV4dCB4PSI5MCIgeT0iMTIiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIiBmaWxsPSIjOGI1Y2Y2IiBmb250LXdlaWdodD0iYm9sZCI+VGFibGUgZGUgMDwvdGV4dD4KICAgICAgPGxpbmUgeDE9IjEwIiB5MT0iMTgiIHgyPSIxNzAiIHkyPSIxOCIgc3Ryb2tlPSIjMzM0MTU1IiBzdHJva2Utd2lkdGg9IjEiLz4KICAgICAgPHRleHQgeD0iMTAiIHk9IjI2IiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiBmb250LXNpemU9IjE0IiBmaWxsPSIjZjhmYWZjIj4wIMOXICAwID0gICAwPC90ZXh0Pjx0ZXh0IHg9IjEwIiB5PSI1MCIgZm9udC1mYW1pbHk9Im1vbm9zcGFjZSIgZm9udC1zaXplPSIxNCIgZmlsbD0iI2Y4ZmFmYyI+MCDDlyAgMSA9ICAgMDwvdGV4dD48dGV4dCB4PSIxMCIgeT0iNzQiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iMTQiIGZpbGw9IiNmOGZhZmMiPjAgw5cgIDIgPSAgIDA8L3RleHQ+PHRleHQgeD0iMTAiIHk9Ijk4IiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiBmb250LXNpemU9IjE0IiBmaWxsPSIjZjhmYWZjIj4wIMOXICAzID0gICAwPC90ZXh0Pjx0ZXh0IHg9IjEwIiB5PSIxMjIiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iMTQiIGZpbGw9IiNmOGZhZmMiPjAgw5cgIDQgPSAgIDA8L3RleHQ+PHRleHQgeD0iMTAiIHk9IjE0NiIgZm9udC1mYW1pbHk9Im1vbm9zcGFjZSIgZm9udC1zaXplPSIxNCIgZmlsbD0iI2Y4ZmFmYyI+MCDDlyAgNSA9ICAgMDwvdGV4dD48dGV4dCB4PSIxMCIgeT0iMTcwIiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiBmb250LXNpemU9IjE0IiBmaWxsPSIjZjhmYWZjIj4wIMOXICA2ID0gICAwPC90ZXh0Pjx0ZXh0IHg9IjEwIiB5PSIxOTQiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iMTQiIGZpbGw9IiNmOGZhZmMiPjAgw5cgIDcgPSAgIDA8L3RleHQ+PHRleHQgeD0iMTAiIHk9IjIxOCIgZm9udC1mYW1pbHk9Im1vbm9zcGFjZSIgZm9udC1zaXplPSIxNCIgZmlsbD0iI2Y4ZmFmYyI+MCDDlyAgOCA9ICAgMDwvdGV4dD48dGV4dCB4PSIxMCIgeT0iMjQyIiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiBmb250LXNpemU9IjE0IiBmaWxsPSIjZjhmYWZjIj4wIMOXICA5ID0gICAwPC90ZXh0Pjx0ZXh0IHg9IjEwIiB5PSIyNjYiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iMTQiIGZpbGw9IiNmOGZhZmMiPjAgw5cgMTAgPSAgIDA8L3RleHQ+CiAgICA8L3N2Zz4="
+    aiGenerated: false
+    icon: 📊
+  - type: objective
+    title: "Objectifs d'apprentissage"
+    content: "- ✅ Mémoriser la table de 0\n- ✅ Répondre en moins de 3 secondes\n- ✅ Reconnaître les résultats de la table"
+    icon: 🎯
+  - type: tip
+    title: Astuce pour la table de 0
+    content: "Tout nombre multiplié par 0 donne 0. C'est la propriété absorbante de 0."
+    icon: 💡
+cards:
+  - id: mult_0_x_0
+    question: 0 × 0 = ?
+    answer: "0"
+    alternatives: ["0"]
+  - id: mult_0_x_1
+    question: 0 × 1 = ?
+    answer: "0"
+    alternatives: ["0"]
+  - id: mult_0_x_2
+    question: 0 × 2 = ?
+    answer: "0"
+    alternatives: ["0"]
+  - id: mult_0_x_3
+    question: 0 × 3 = ?
+    answer: "0"
+    alternatives: ["0"]
+  - id: mult_0_x_4
+    question: 0 × 4 = ?
+    answer: "0"
+    alternatives: ["0"]
+  - id: mult_0_x_5
+    question: 0 × 5 = ?
+    answer: "0"
+    alternatives: ["0"]
+  - id: mult_0_x_6
+    question: 0 × 6 = ?
+    answer: "0"
+    alternatives: ["0"]
+  - id: mult_0_x_7
+    question: 0 × 7 = ?
+    answer: "0"
+    alternatives: ["0"]
+  - id: mult_0_x_8
+    question: 0 × 8 = ?
+    answer: "0"
+    alternatives: ["0"]
+  - id: mult_0_x_9
+    question: 0 × 9 = ?
+    answer: "0"
+    alternatives: ["0"]
+  - id: mult_0_x_10
+    question: 0 × 10 = ?
+    answer: "0"
+    alternatives: ["0"]

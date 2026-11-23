@@ -1,0 +1,585 @@
+name: Addition de fractions
+description: Additionner des fractions de même dénominateur
+tags: [math, fractions, calcul-mental, cm2, sixieme]
+category: [sciences, maths, arithmetique, fractions, calcul-mental, cm2, sixieme]
+settings:
+  sequential: false
+  bidirectional: false
+  maxCards: 20
+metadata:
+  license: CC-BY-SA-4.0
+  source:
+    type: procedural
+    generator: fractions
+    version: 1.0.0
+    generatedAt: "2026-11-22"
+    parameters:
+      type: additions
+resources:
+  - type: summary
+    title: "Qu'est-ce qu'une fraction ?"
+    content: "Une **fraction** représente une partie d'un tout. Elle s'écrit sous la forme a/b où :\n- **a** est le numérateur (nombre de parts prises)\n- **b** est le dénominateur (nombre total de parts)\n\nPar exemple : **3/4** signifie 3 parts sur 4 au total.\n\nLes fractions sont utilisées pour :\n- Exprimer des proportions\n- Représenter des divisions\n- Calculer des pourcentages"
+    aiGenerated: true
+    icon: 📝
+  - type: link
+    title: "Wikipedia : Fraction"
+    url: https://fr.wikipedia.org/wiki/Fraction_(mathématiques)
+    icon: 📖
+  - type: glossary
+    title: Vocabulaire clé
+    content: "- **Fraction** : Nombre qui représente une partie d'un tout (a/b)\n- **Numérateur** : Nombre au-dessus de la barre de fraction\n- **Dénominateur** : Nombre en-dessous de la barre de fraction\n- **Fraction irréductible** : Fraction simplifiée au maximum\n- **Fractions équivalentes** : Fractions représentant le même nombre (1/2 = 2/4)\n- **PGCD** : Plus Grand Commun Diviseur (pour simplifier)"
+    icon: 📚
+  - type: summary
+    title: Addition de fractions
+    content: "Pour additionner des fractions de **même dénominateur**, on additionne les numérateurs et on garde le même dénominateur.\n\nExemple : 2/5 + 1/5 = 3/5\n\n⚠️ On n'additionne JAMAIS les dénominateurs !"
+    aiGenerated: true
+    icon: 📝
+  - type: objective
+    title: "Objectifs d'apprentissage"
+    content: "- ✅ Additionner des fractions de même dénominateur\n- ✅ Simplifier le résultat si possible\n- ✅ Ne pas confondre avec l'addition des dénominateurs"
+    icon: 🎯
+  - type: tip
+    title: Méthode
+    content: "Pour a/d + b/d :\n1. Vérifier que les dénominateurs sont égaux\n2. Additionner les numérateurs : (a + b)\n3. Garder le même dénominateur : d\n4. Simplifier si possible"
+    icon: 💡
+cards:
+  - id: frac_add_1_2_1_2
+    question: 1/2 + 1/2 = ?
+    answer: "1"
+    alternatives: ["1", 2/2]
+    feedback: 1/2 + 1/2 = 2/2 = 1/1
+  - id: frac_add_1_3_1_3
+    question: 1/3 + 1/3 = ?
+    answer: 2/3
+    alternatives: [2/3, 2/3]
+    feedback: 1/3 + 1/3 = 2/3
+  - id: frac_add_1_3_2_3
+    question: 1/3 + 2/3 = ?
+    answer: "1"
+    alternatives: ["1", 3/3]
+    feedback: 1/3 + 2/3 = 3/3 = 1/1
+  - id: frac_add_2_3_1_3
+    question: 2/3 + 1/3 = ?
+    answer: "1"
+    alternatives: ["1", 3/3]
+    feedback: 2/3 + 1/3 = 3/3 = 1/1
+  - id: frac_add_1_4_1_4
+    question: 1/4 + 1/4 = ?
+    answer: 1/2
+    alternatives: [1/2, 2/4]
+    feedback: 1/4 + 1/4 = 2/4 = 1/2
+  - id: frac_add_1_4_2_4
+    question: 1/4 + 2/4 = ?
+    answer: 3/4
+    alternatives: [3/4, 3/4]
+    feedback: 1/4 + 2/4 = 3/4
+  - id: frac_add_1_4_3_4
+    question: 1/4 + 3/4 = ?
+    answer: "1"
+    alternatives: ["1", 4/4]
+    feedback: 1/4 + 3/4 = 4/4 = 1/1
+  - id: frac_add_2_4_1_4
+    question: 2/4 + 1/4 = ?
+    answer: 3/4
+    alternatives: [3/4, 3/4]
+    feedback: 2/4 + 1/4 = 3/4
+  - id: frac_add_2_4_2_4
+    question: 2/4 + 2/4 = ?
+    answer: "1"
+    alternatives: ["1", 4/4]
+    feedback: 2/4 + 2/4 = 4/4 = 1/1
+  - id: frac_add_3_4_1_4
+    question: 3/4 + 1/4 = ?
+    answer: "1"
+    alternatives: ["1", 4/4]
+    feedback: 3/4 + 1/4 = 4/4 = 1/1
+  - id: frac_add_1_5_1_5
+    question: 1/5 + 1/5 = ?
+    answer: 2/5
+    alternatives: [2/5, 2/5]
+    feedback: 1/5 + 1/5 = 2/5
+  - id: frac_add_1_5_2_5
+    question: 1/5 + 2/5 = ?
+    answer: 3/5
+    alternatives: [3/5, 3/5]
+    feedback: 1/5 + 2/5 = 3/5
+  - id: frac_add_1_5_3_5
+    question: 1/5 + 3/5 = ?
+    answer: 4/5
+    alternatives: [4/5, 4/5]
+    feedback: 1/5 + 3/5 = 4/5
+  - id: frac_add_1_5_4_5
+    question: 1/5 + 4/5 = ?
+    answer: "1"
+    alternatives: ["1", 5/5]
+    feedback: 1/5 + 4/5 = 5/5 = 1/1
+  - id: frac_add_2_5_1_5
+    question: 2/5 + 1/5 = ?
+    answer: 3/5
+    alternatives: [3/5, 3/5]
+    feedback: 2/5 + 1/5 = 3/5
+  - id: frac_add_2_5_2_5
+    question: 2/5 + 2/5 = ?
+    answer: 4/5
+    alternatives: [4/5, 4/5]
+    feedback: 2/5 + 2/5 = 4/5
+  - id: frac_add_2_5_3_5
+    question: 2/5 + 3/5 = ?
+    answer: "1"
+    alternatives: ["1", 5/5]
+    feedback: 2/5 + 3/5 = 5/5 = 1/1
+  - id: frac_add_3_5_1_5
+    question: 3/5 + 1/5 = ?
+    answer: 4/5
+    alternatives: [4/5, 4/5]
+    feedback: 3/5 + 1/5 = 4/5
+  - id: frac_add_3_5_2_5
+    question: 3/5 + 2/5 = ?
+    answer: "1"
+    alternatives: ["1", 5/5]
+    feedback: 3/5 + 2/5 = 5/5 = 1/1
+  - id: frac_add_4_5_1_5
+    question: 4/5 + 1/5 = ?
+    answer: "1"
+    alternatives: ["1", 5/5]
+    feedback: 4/5 + 1/5 = 5/5 = 1/1
+  - id: frac_add_1_6_1_6
+    question: 1/6 + 1/6 = ?
+    answer: 1/3
+    alternatives: [1/3, 2/6]
+    feedback: 1/6 + 1/6 = 2/6 = 1/3
+  - id: frac_add_1_6_2_6
+    question: 1/6 + 2/6 = ?
+    answer: 1/2
+    alternatives: [1/2, 3/6]
+    feedback: 1/6 + 2/6 = 3/6 = 1/2
+  - id: frac_add_1_6_3_6
+    question: 1/6 + 3/6 = ?
+    answer: 2/3
+    alternatives: [2/3, 4/6]
+    feedback: 1/6 + 3/6 = 4/6 = 2/3
+  - id: frac_add_1_6_4_6
+    question: 1/6 + 4/6 = ?
+    answer: 5/6
+    alternatives: [5/6, 5/6]
+    feedback: 1/6 + 4/6 = 5/6
+  - id: frac_add_1_6_5_6
+    question: 1/6 + 5/6 = ?
+    answer: "1"
+    alternatives: ["1", 6/6]
+    feedback: 1/6 + 5/6 = 6/6 = 1/1
+  - id: frac_add_2_6_1_6
+    question: 2/6 + 1/6 = ?
+    answer: 1/2
+    alternatives: [1/2, 3/6]
+    feedback: 2/6 + 1/6 = 3/6 = 1/2
+  - id: frac_add_2_6_2_6
+    question: 2/6 + 2/6 = ?
+    answer: 2/3
+    alternatives: [2/3, 4/6]
+    feedback: 2/6 + 2/6 = 4/6 = 2/3
+  - id: frac_add_2_6_3_6
+    question: 2/6 + 3/6 = ?
+    answer: 5/6
+    alternatives: [5/6, 5/6]
+    feedback: 2/6 + 3/6 = 5/6
+  - id: frac_add_2_6_4_6
+    question: 2/6 + 4/6 = ?
+    answer: "1"
+    alternatives: ["1", 6/6]
+    feedback: 2/6 + 4/6 = 6/6 = 1/1
+  - id: frac_add_3_6_1_6
+    question: 3/6 + 1/6 = ?
+    answer: 2/3
+    alternatives: [2/3, 4/6]
+    feedback: 3/6 + 1/6 = 4/6 = 2/3
+  - id: frac_add_3_6_2_6
+    question: 3/6 + 2/6 = ?
+    answer: 5/6
+    alternatives: [5/6, 5/6]
+    feedback: 3/6 + 2/6 = 5/6
+  - id: frac_add_3_6_3_6
+    question: 3/6 + 3/6 = ?
+    answer: "1"
+    alternatives: ["1", 6/6]
+    feedback: 3/6 + 3/6 = 6/6 = 1/1
+  - id: frac_add_4_6_1_6
+    question: 4/6 + 1/6 = ?
+    answer: 5/6
+    alternatives: [5/6, 5/6]
+    feedback: 4/6 + 1/6 = 5/6
+  - id: frac_add_4_6_2_6
+    question: 4/6 + 2/6 = ?
+    answer: "1"
+    alternatives: ["1", 6/6]
+    feedback: 4/6 + 2/6 = 6/6 = 1/1
+  - id: frac_add_5_6_1_6
+    question: 5/6 + 1/6 = ?
+    answer: "1"
+    alternatives: ["1", 6/6]
+    feedback: 5/6 + 1/6 = 6/6 = 1/1
+  - id: frac_add_1_8_1_8
+    question: 1/8 + 1/8 = ?
+    answer: 1/4
+    alternatives: [1/4, 2/8]
+    feedback: 1/8 + 1/8 = 2/8 = 1/4
+  - id: frac_add_1_8_2_8
+    question: 1/8 + 2/8 = ?
+    answer: 3/8
+    alternatives: [3/8, 3/8]
+    feedback: 1/8 + 2/8 = 3/8
+  - id: frac_add_1_8_3_8
+    question: 1/8 + 3/8 = ?
+    answer: 1/2
+    alternatives: [1/2, 4/8]
+    feedback: 1/8 + 3/8 = 4/8 = 1/2
+  - id: frac_add_1_8_4_8
+    question: 1/8 + 4/8 = ?
+    answer: 5/8
+    alternatives: [5/8, 5/8]
+    feedback: 1/8 + 4/8 = 5/8
+  - id: frac_add_1_8_5_8
+    question: 1/8 + 5/8 = ?
+    answer: 3/4
+    alternatives: [3/4, 6/8]
+    feedback: 1/8 + 5/8 = 6/8 = 3/4
+  - id: frac_add_1_8_6_8
+    question: 1/8 + 6/8 = ?
+    answer: 7/8
+    alternatives: [7/8, 7/8]
+    feedback: 1/8 + 6/8 = 7/8
+  - id: frac_add_1_8_7_8
+    question: 1/8 + 7/8 = ?
+    answer: "1"
+    alternatives: ["1", 8/8]
+    feedback: 1/8 + 7/8 = 8/8 = 1/1
+  - id: frac_add_2_8_1_8
+    question: 2/8 + 1/8 = ?
+    answer: 3/8
+    alternatives: [3/8, 3/8]
+    feedback: 2/8 + 1/8 = 3/8
+  - id: frac_add_2_8_2_8
+    question: 2/8 + 2/8 = ?
+    answer: 1/2
+    alternatives: [1/2, 4/8]
+    feedback: 2/8 + 2/8 = 4/8 = 1/2
+  - id: frac_add_2_8_3_8
+    question: 2/8 + 3/8 = ?
+    answer: 5/8
+    alternatives: [5/8, 5/8]
+    feedback: 2/8 + 3/8 = 5/8
+  - id: frac_add_2_8_4_8
+    question: 2/8 + 4/8 = ?
+    answer: 3/4
+    alternatives: [3/4, 6/8]
+    feedback: 2/8 + 4/8 = 6/8 = 3/4
+  - id: frac_add_2_8_5_8
+    question: 2/8 + 5/8 = ?
+    answer: 7/8
+    alternatives: [7/8, 7/8]
+    feedback: 2/8 + 5/8 = 7/8
+  - id: frac_add_2_8_6_8
+    question: 2/8 + 6/8 = ?
+    answer: "1"
+    alternatives: ["1", 8/8]
+    feedback: 2/8 + 6/8 = 8/8 = 1/1
+  - id: frac_add_3_8_1_8
+    question: 3/8 + 1/8 = ?
+    answer: 1/2
+    alternatives: [1/2, 4/8]
+    feedback: 3/8 + 1/8 = 4/8 = 1/2
+  - id: frac_add_3_8_2_8
+    question: 3/8 + 2/8 = ?
+    answer: 5/8
+    alternatives: [5/8, 5/8]
+    feedback: 3/8 + 2/8 = 5/8
+  - id: frac_add_3_8_3_8
+    question: 3/8 + 3/8 = ?
+    answer: 3/4
+    alternatives: [3/4, 6/8]
+    feedback: 3/8 + 3/8 = 6/8 = 3/4
+  - id: frac_add_3_8_4_8
+    question: 3/8 + 4/8 = ?
+    answer: 7/8
+    alternatives: [7/8, 7/8]
+    feedback: 3/8 + 4/8 = 7/8
+  - id: frac_add_3_8_5_8
+    question: 3/8 + 5/8 = ?
+    answer: "1"
+    alternatives: ["1", 8/8]
+    feedback: 3/8 + 5/8 = 8/8 = 1/1
+  - id: frac_add_4_8_1_8
+    question: 4/8 + 1/8 = ?
+    answer: 5/8
+    alternatives: [5/8, 5/8]
+    feedback: 4/8 + 1/8 = 5/8
+  - id: frac_add_4_8_2_8
+    question: 4/8 + 2/8 = ?
+    answer: 3/4
+    alternatives: [3/4, 6/8]
+    feedback: 4/8 + 2/8 = 6/8 = 3/4
+  - id: frac_add_4_8_3_8
+    question: 4/8 + 3/8 = ?
+    answer: 7/8
+    alternatives: [7/8, 7/8]
+    feedback: 4/8 + 3/8 = 7/8
+  - id: frac_add_4_8_4_8
+    question: 4/8 + 4/8 = ?
+    answer: "1"
+    alternatives: ["1", 8/8]
+    feedback: 4/8 + 4/8 = 8/8 = 1/1
+  - id: frac_add_5_8_1_8
+    question: 5/8 + 1/8 = ?
+    answer: 3/4
+    alternatives: [3/4, 6/8]
+    feedback: 5/8 + 1/8 = 6/8 = 3/4
+  - id: frac_add_5_8_2_8
+    question: 5/8 + 2/8 = ?
+    answer: 7/8
+    alternatives: [7/8, 7/8]
+    feedback: 5/8 + 2/8 = 7/8
+  - id: frac_add_5_8_3_8
+    question: 5/8 + 3/8 = ?
+    answer: "1"
+    alternatives: ["1", 8/8]
+    feedback: 5/8 + 3/8 = 8/8 = 1/1
+  - id: frac_add_6_8_1_8
+    question: 6/8 + 1/8 = ?
+    answer: 7/8
+    alternatives: [7/8, 7/8]
+    feedback: 6/8 + 1/8 = 7/8
+  - id: frac_add_6_8_2_8
+    question: 6/8 + 2/8 = ?
+    answer: "1"
+    alternatives: ["1", 8/8]
+    feedback: 6/8 + 2/8 = 8/8 = 1/1
+  - id: frac_add_7_8_1_8
+    question: 7/8 + 1/8 = ?
+    answer: "1"
+    alternatives: ["1", 8/8]
+    feedback: 7/8 + 1/8 = 8/8 = 1/1
+  - id: frac_add_1_10_1_10
+    question: 1/10 + 1/10 = ?
+    answer: 1/5
+    alternatives: [1/5, 2/10]
+    feedback: 1/10 + 1/10 = 2/10 = 1/5
+  - id: frac_add_1_10_2_10
+    question: 1/10 + 2/10 = ?
+    answer: 3/10
+    alternatives: [3/10, 3/10]
+    feedback: 1/10 + 2/10 = 3/10
+  - id: frac_add_1_10_3_10
+    question: 1/10 + 3/10 = ?
+    answer: 2/5
+    alternatives: [2/5, 4/10]
+    feedback: 1/10 + 3/10 = 4/10 = 2/5
+  - id: frac_add_1_10_4_10
+    question: 1/10 + 4/10 = ?
+    answer: 1/2
+    alternatives: [1/2, 5/10]
+    feedback: 1/10 + 4/10 = 5/10 = 1/2
+  - id: frac_add_1_10_5_10
+    question: 1/10 + 5/10 = ?
+    answer: 3/5
+    alternatives: [3/5, 6/10]
+    feedback: 1/10 + 5/10 = 6/10 = 3/5
+  - id: frac_add_1_10_6_10
+    question: 1/10 + 6/10 = ?
+    answer: 7/10
+    alternatives: [7/10, 7/10]
+    feedback: 1/10 + 6/10 = 7/10
+  - id: frac_add_1_10_7_10
+    question: 1/10 + 7/10 = ?
+    answer: 4/5
+    alternatives: [4/5, 8/10]
+    feedback: 1/10 + 7/10 = 8/10 = 4/5
+  - id: frac_add_1_10_8_10
+    question: 1/10 + 8/10 = ?
+    answer: 9/10
+    alternatives: [9/10, 9/10]
+    feedback: 1/10 + 8/10 = 9/10
+  - id: frac_add_1_10_9_10
+    question: 1/10 + 9/10 = ?
+    answer: "1"
+    alternatives: ["1", 10/10]
+    feedback: 1/10 + 9/10 = 10/10 = 1/1
+  - id: frac_add_2_10_1_10
+    question: 2/10 + 1/10 = ?
+    answer: 3/10
+    alternatives: [3/10, 3/10]
+    feedback: 2/10 + 1/10 = 3/10
+  - id: frac_add_2_10_2_10
+    question: 2/10 + 2/10 = ?
+    answer: 2/5
+    alternatives: [2/5, 4/10]
+    feedback: 2/10 + 2/10 = 4/10 = 2/5
+  - id: frac_add_2_10_3_10
+    question: 2/10 + 3/10 = ?
+    answer: 1/2
+    alternatives: [1/2, 5/10]
+    feedback: 2/10 + 3/10 = 5/10 = 1/2
+  - id: frac_add_2_10_4_10
+    question: 2/10 + 4/10 = ?
+    answer: 3/5
+    alternatives: [3/5, 6/10]
+    feedback: 2/10 + 4/10 = 6/10 = 3/5
+  - id: frac_add_2_10_5_10
+    question: 2/10 + 5/10 = ?
+    answer: 7/10
+    alternatives: [7/10, 7/10]
+    feedback: 2/10 + 5/10 = 7/10
+  - id: frac_add_2_10_6_10
+    question: 2/10 + 6/10 = ?
+    answer: 4/5
+    alternatives: [4/5, 8/10]
+    feedback: 2/10 + 6/10 = 8/10 = 4/5
+  - id: frac_add_2_10_7_10
+    question: 2/10 + 7/10 = ?
+    answer: 9/10
+    alternatives: [9/10, 9/10]
+    feedback: 2/10 + 7/10 = 9/10
+  - id: frac_add_2_10_8_10
+    question: 2/10 + 8/10 = ?
+    answer: "1"
+    alternatives: ["1", 10/10]
+    feedback: 2/10 + 8/10 = 10/10 = 1/1
+  - id: frac_add_3_10_1_10
+    question: 3/10 + 1/10 = ?
+    answer: 2/5
+    alternatives: [2/5, 4/10]
+    feedback: 3/10 + 1/10 = 4/10 = 2/5
+  - id: frac_add_3_10_2_10
+    question: 3/10 + 2/10 = ?
+    answer: 1/2
+    alternatives: [1/2, 5/10]
+    feedback: 3/10 + 2/10 = 5/10 = 1/2
+  - id: frac_add_3_10_3_10
+    question: 3/10 + 3/10 = ?
+    answer: 3/5
+    alternatives: [3/5, 6/10]
+    feedback: 3/10 + 3/10 = 6/10 = 3/5
+  - id: frac_add_3_10_4_10
+    question: 3/10 + 4/10 = ?
+    answer: 7/10
+    alternatives: [7/10, 7/10]
+    feedback: 3/10 + 4/10 = 7/10
+  - id: frac_add_3_10_5_10
+    question: 3/10 + 5/10 = ?
+    answer: 4/5
+    alternatives: [4/5, 8/10]
+    feedback: 3/10 + 5/10 = 8/10 = 4/5
+  - id: frac_add_3_10_6_10
+    question: 3/10 + 6/10 = ?
+    answer: 9/10
+    alternatives: [9/10, 9/10]
+    feedback: 3/10 + 6/10 = 9/10
+  - id: frac_add_3_10_7_10
+    question: 3/10 + 7/10 = ?
+    answer: "1"
+    alternatives: ["1", 10/10]
+    feedback: 3/10 + 7/10 = 10/10 = 1/1
+  - id: frac_add_4_10_1_10
+    question: 4/10 + 1/10 = ?
+    answer: 1/2
+    alternatives: [1/2, 5/10]
+    feedback: 4/10 + 1/10 = 5/10 = 1/2
+  - id: frac_add_4_10_2_10
+    question: 4/10 + 2/10 = ?
+    answer: 3/5
+    alternatives: [3/5, 6/10]
+    feedback: 4/10 + 2/10 = 6/10 = 3/5
+  - id: frac_add_4_10_3_10
+    question: 4/10 + 3/10 = ?
+    answer: 7/10
+    alternatives: [7/10, 7/10]
+    feedback: 4/10 + 3/10 = 7/10
+  - id: frac_add_4_10_4_10
+    question: 4/10 + 4/10 = ?
+    answer: 4/5
+    alternatives: [4/5, 8/10]
+    feedback: 4/10 + 4/10 = 8/10 = 4/5
+  - id: frac_add_4_10_5_10
+    question: 4/10 + 5/10 = ?
+    answer: 9/10
+    alternatives: [9/10, 9/10]
+    feedback: 4/10 + 5/10 = 9/10
+  - id: frac_add_4_10_6_10
+    question: 4/10 + 6/10 = ?
+    answer: "1"
+    alternatives: ["1", 10/10]
+    feedback: 4/10 + 6/10 = 10/10 = 1/1
+  - id: frac_add_5_10_1_10
+    question: 5/10 + 1/10 = ?
+    answer: 3/5
+    alternatives: [3/5, 6/10]
+    feedback: 5/10 + 1/10 = 6/10 = 3/5
+  - id: frac_add_5_10_2_10
+    question: 5/10 + 2/10 = ?
+    answer: 7/10
+    alternatives: [7/10, 7/10]
+    feedback: 5/10 + 2/10 = 7/10
+  - id: frac_add_5_10_3_10
+    question: 5/10 + 3/10 = ?
+    answer: 4/5
+    alternatives: [4/5, 8/10]
+    feedback: 5/10 + 3/10 = 8/10 = 4/5
+  - id: frac_add_5_10_4_10
+    question: 5/10 + 4/10 = ?
+    answer: 9/10
+    alternatives: [9/10, 9/10]
+    feedback: 5/10 + 4/10 = 9/10
+  - id: frac_add_5_10_5_10
+    question: 5/10 + 5/10 = ?
+    answer: "1"
+    alternatives: ["1", 10/10]
+    feedback: 5/10 + 5/10 = 10/10 = 1/1
+  - id: frac_add_6_10_1_10
+    question: 6/10 + 1/10 = ?
+    answer: 7/10
+    alternatives: [7/10, 7/10]
+    feedback: 6/10 + 1/10 = 7/10
+  - id: frac_add_6_10_2_10
+    question: 6/10 + 2/10 = ?
+    answer: 4/5
+    alternatives: [4/5, 8/10]
+    feedback: 6/10 + 2/10 = 8/10 = 4/5
+  - id: frac_add_6_10_3_10
+    question: 6/10 + 3/10 = ?
+    answer: 9/10
+    alternatives: [9/10, 9/10]
+    feedback: 6/10 + 3/10 = 9/10
+  - id: frac_add_6_10_4_10
+    question: 6/10 + 4/10 = ?
+    answer: "1"
+    alternatives: ["1", 10/10]
+    feedback: 6/10 + 4/10 = 10/10 = 1/1
+  - id: frac_add_7_10_1_10
+    question: 7/10 + 1/10 = ?
+    answer: 4/5
+    alternatives: [4/5, 8/10]
+    feedback: 7/10 + 1/10 = 8/10 = 4/5
+  - id: frac_add_7_10_2_10
+    question: 7/10 + 2/10 = ?
+    answer: 9/10
+    alternatives: [9/10, 9/10]
+    feedback: 7/10 + 2/10 = 9/10
+  - id: frac_add_7_10_3_10
+    question: 7/10 + 3/10 = ?
+    answer: "1"
+    alternatives: ["1", 10/10]
+    feedback: 7/10 + 3/10 = 10/10 = 1/1
+  - id: frac_add_8_10_1_10
+    question: 8/10 + 1/10 = ?
+    answer: 9/10
+    alternatives: [9/10, 9/10]
+    feedback: 8/10 + 1/10 = 9/10
+  - id: frac_add_8_10_2_10
+    question: 8/10 + 2/10 = ?
+    answer: "1"
+    alternatives: ["1", 10/10]
+    feedback: 8/10 + 2/10 = 10/10 = 1/1
+  - id: frac_add_9_10_1_10
+    question: 9/10 + 1/10 = ?
+    answer: "1"
+    alternatives: ["1", 10/10]
+    feedback: 9/10 + 1/10 = 10/10 = 1/1

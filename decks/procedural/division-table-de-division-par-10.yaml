@@ -1,0 +1,93 @@
+name: Table de division par 10
+description: Divisions par 10 (0 ÷ 10 à 100 ÷ 10)
+tags: [math, division, calcul-mental, ce2, cm1]
+category: [sciences, maths, arithmetique, operations-base, divisions, calcul-mental, ce2, cm1]
+settings:
+  sequential: false
+  bidirectional: false
+metadata:
+  license: CC-BY-SA-4.0
+  source:
+    type: procedural
+    generator: division
+    version: 1.0.0
+    generatedAt: "2026-11-22"
+    parameters:
+      divisor: 10
+resources:
+  - type: summary
+    title: "Qu'est-ce que la division ?"
+    content: "La **division** est l'opération inverse de la multiplication. Elle permet de partager une quantité en parts égales ou de savoir combien de fois un nombre est contenu dans un autre.\n\nPar exemple : **12 ÷ 4 = 3** signifie que 12 partagé en 4 parts égales donne 3 par part.\n\nLes tables de division sont essentielles pour :\n- Le calcul mental rapide\n- Les fractions et pourcentages\n- La résolution de problèmes"
+    aiGenerated: true
+    icon: 📝
+  - type: link
+    title: "Wikipedia : Division"
+    url: https://fr.wikipedia.org/wiki/Division
+    icon: 📖
+  - type: glossary
+    title: Vocabulaire clé
+    content: "- **Division** : Opération qui partage un nombre en parts égales\n- **Dividende** : Le nombre que l'on divise\n- **Diviseur** : Le nombre par lequel on divise\n- **Quotient** : Résultat d'une division\n- **Reste** : Ce qui reste quand la division n'est pas exacte"
+    icon: 📚
+  - type: image
+    title: Diviser par 10
+    image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjg0IiB3aWR0aD0iMjAwIiBoZWlnaHQ9IjI4NCI+CiAgICAgIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIyMDAiIGhlaWdodD0iMjg0IiBmaWxsPSIjMWUyOTNiIiByeD0iOCIvPgogICAgICA8dGV4dCB4PSIxMDAiIHk9IjEyIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMiIgZmlsbD0iI2Y5NzMxNiIgZm9udC13ZWlnaHQ9ImJvbGQiPkRpdmlzZXIgcGFyIDEwPC90ZXh0PgogICAgICA8bGluZSB4MT0iMTAiIHkxPSIxOCIgeDI9IjE5MCIgeTI9IjE4IiBzdHJva2U9IiMzMzQxNTUiIHN0cm9rZS13aWR0aD0iMSIvPgogICAgICA8dGV4dCB4PSIxMCIgeT0iMjYiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iMTQiIGZpbGw9IiNmOGZhZmMiPiAgMCDDtyAxMCA9ICAwPC90ZXh0Pjx0ZXh0IHg9IjEwIiB5PSI1MCIgZm9udC1mYW1pbHk9Im1vbm9zcGFjZSIgZm9udC1zaXplPSIxNCIgZmlsbD0iI2Y4ZmFmYyI+IDEwIMO3IDEwID0gIDE8L3RleHQ+PHRleHQgeD0iMTAiIHk9Ijc0IiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiBmb250LXNpemU9IjE0IiBmaWxsPSIjZjhmYWZjIj4gMjAgw7cgMTAgPSAgMjwvdGV4dD48dGV4dCB4PSIxMCIgeT0iOTgiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iMTQiIGZpbGw9IiNmOGZhZmMiPiAzMCDDtyAxMCA9ICAzPC90ZXh0Pjx0ZXh0IHg9IjEwIiB5PSIxMjIiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iMTQiIGZpbGw9IiNmOGZhZmMiPiA0MCDDtyAxMCA9ICA0PC90ZXh0Pjx0ZXh0IHg9IjEwIiB5PSIxNDYiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iMTQiIGZpbGw9IiNmOGZhZmMiPiA1MCDDtyAxMCA9ICA1PC90ZXh0Pjx0ZXh0IHg9IjEwIiB5PSIxNzAiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iMTQiIGZpbGw9IiNmOGZhZmMiPiA2MCDDtyAxMCA9ICA2PC90ZXh0Pjx0ZXh0IHg9IjEwIiB5PSIxOTQiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iMTQiIGZpbGw9IiNmOGZhZmMiPiA3MCDDtyAxMCA9ICA3PC90ZXh0Pjx0ZXh0IHg9IjEwIiB5PSIyMTgiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iMTQiIGZpbGw9IiNmOGZhZmMiPiA4MCDDtyAxMCA9ICA4PC90ZXh0Pjx0ZXh0IHg9IjEwIiB5PSIyNDIiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iMTQiIGZpbGw9IiNmOGZhZmMiPiA5MCDDtyAxMCA9ICA5PC90ZXh0Pjx0ZXh0IHg9IjEwIiB5PSIyNjYiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iMTQiIGZpbGw9IiNmOGZhZmMiPjEwMCDDtyAxMCA9IDEwPC90ZXh0PgogICAgPC9zdmc+"
+    aiGenerated: false
+    icon: 📊
+  - type: objective
+    title: "Objectifs d'apprentissage"
+    content: "- ✅ Mémoriser la table de division par 10\n- ✅ Répondre en moins de 3 secondes\n- ✅ Faire le lien avec la table de multiplication correspondante"
+    icon: 🎯
+  - type: tip
+    title: Astuce pour diviser par 10
+    content: Diviser par 10 revient à enlever un 0 (ou déplacer la virgule).
+    icon: 💡
+  - type: tip
+    title: Lien avec la multiplication
+    content: "Division et multiplication sont inverses !\n\nSi 10 × 4 = 40, alors 40 ÷ 10 = 4\n\nConnaître les tables de multiplication aide beaucoup pour les divisions."
+    icon: 💡
+cards:
+  - id: div_0_by_10
+    question: 0 ÷ 10 = ?
+    answer: "0"
+  - id: div_10_by_10
+    question: 10 ÷ 10 = ?
+    answer: "1"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 220 32\" width=\"220\" height=\"32\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"30\" cy=\"10\" r=\"4\" fill=\"#f97316\"/><circle cx=\"50\" cy=\"10\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"70\" cy=\"10\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"90\" cy=\"10\" r=\"4\" fill=\"#ec4899\"/><circle cx=\"110\" cy=\"10\" r=\"4\" fill=\"#14b8a6\"/><circle cx=\"130\" cy=\"10\" r=\"4\" fill=\"#f59e0b\"/><circle cx=\"150\" cy=\"10\" r=\"4\" fill=\"#6366f1\"/><circle cx=\"170\" cy=\"10\" r=\"4\" fill=\"#84cc16\"/><circle cx=\"190\" cy=\"10\" r=\"4\" fill=\"#ef4444\"/></svg>"
+  - id: div_20_by_10
+    question: 20 ÷ 10 = ?
+    answer: "2"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 220 44\" width=\"220\" height=\"44\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"22\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"30\" cy=\"10\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"22\" r=\"4\" fill=\"#f97316\"/><circle cx=\"50\" cy=\"10\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"22\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"70\" cy=\"10\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"22\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"90\" cy=\"10\" r=\"4\" fill=\"#ec4899\"/><circle cx=\"90\" cy=\"22\" r=\"4\" fill=\"#ec4899\"/><circle cx=\"110\" cy=\"10\" r=\"4\" fill=\"#14b8a6\"/><circle cx=\"110\" cy=\"22\" r=\"4\" fill=\"#14b8a6\"/><circle cx=\"130\" cy=\"10\" r=\"4\" fill=\"#f59e0b\"/><circle cx=\"130\" cy=\"22\" r=\"4\" fill=\"#f59e0b\"/><circle cx=\"150\" cy=\"10\" r=\"4\" fill=\"#6366f1\"/><circle cx=\"150\" cy=\"22\" r=\"4\" fill=\"#6366f1\"/><circle cx=\"170\" cy=\"10\" r=\"4\" fill=\"#84cc16\"/><circle cx=\"170\" cy=\"22\" r=\"4\" fill=\"#84cc16\"/><circle cx=\"190\" cy=\"10\" r=\"4\" fill=\"#ef4444\"/><circle cx=\"190\" cy=\"22\" r=\"4\" fill=\"#ef4444\"/></svg>"
+  - id: div_30_by_10
+    question: 30 ÷ 10 = ?
+    answer: "3"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 220 56\" width=\"220\" height=\"56\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"22\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"34\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"30\" cy=\"10\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"22\" r=\"4\" fill=\"#f97316\"/><circle cx=\"30\" cy=\"34\" r=\"4\" fill=\"#f97316\"/><circle cx=\"50\" cy=\"10\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"22\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"50\" cy=\"34\" r=\"4\" fill=\"#22c55e\"/><circle cx=\"70\" cy=\"10\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"22\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"70\" cy=\"34\" r=\"4\" fill=\"#3b82f6\"/><circle cx=\"90\" cy=\"10\" r=\"4\" fill=\"#ec4899\"/><circle cx=\"90\" cy=\"22\" r=\"4\" fill=\"#ec4899\"/><circle cx=\"90\" cy=\"34\" r=\"4\" fill=\"#ec4899\"/><circle cx=\"110\" cy=\"10\" r=\"4\" fill=\"#14b8a6\"/><circle cx=\"110\" cy=\"22\" r=\"4\" fill=\"#14b8a6\"/><circle cx=\"110\" cy=\"34\" r=\"4\" fill=\"#14b8a6\"/><circle cx=\"130\" cy=\"10\" r=\"4\" fill=\"#f59e0b\"/><circle cx=\"130\" cy=\"22\" r=\"4\" fill=\"#f59e0b\"/><circle cx=\"130\" cy=\"34\" r=\"4\" fill=\"#f59e0b\"/><circle cx=\"150\" cy=\"10\" r=\"4\" fill=\"#6366f1\"/><circle cx=\"150\" cy=\"22\" r=\"4\" fill=\"#6366f1\"/><circle cx=\"150\" cy=\"34\" r=\"4\" fill=\"#6366f1\"/><circle cx=\"170\" cy=\"10\" r=\"4\" fill=\"#84cc16\"/><circle cx=\"170\" cy=\"22\" r=\"4\" fill=\"#84cc16\"/><circle cx=\"170\" cy=\"34\" r=\"4\" fill=\"#84cc16\"/><circle cx=\"190\" cy=\"10\" r=\"4\" fill=\"#ef4444\"/><circle cx=\"190\" cy=\"22\" r=\"4\" fill=\"#ef4444\"/><circle cx=\"190\" cy=\"34\" r=\"4\" fill=\"#ef4444\"/></svg>"
+  - id: div_40_by_10
+    question: 40 ÷ 10 = ?
+    answer: "4"
+  - id: div_50_by_10
+    question: 50 ÷ 10 = ?
+    answer: "5"
+  - id: div_60_by_10
+    question: 60 ÷ 10 = ?
+    answer: "6"
+  - id: div_70_by_10
+    question: 70 ÷ 10 = ?
+    answer: "7"
+  - id: div_80_by_10
+    question: 80 ÷ 10 = ?
+    answer: "8"
+  - id: div_90_by_10
+    question: 90 ÷ 10 = ?
+    answer: "9"
+  - id: div_100_by_10
+    question: 100 ÷ 10 = ?
+    answer: "10"

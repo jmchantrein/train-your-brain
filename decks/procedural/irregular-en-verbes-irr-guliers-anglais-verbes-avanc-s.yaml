@@ -1,0 +1,1190 @@
+name: Verbes irréguliers anglais - Verbes avancés
+description: 69 verbes irréguliers anglais (niveau 3)
+tags: [langues, anglais, verbes, grammaire, en-grammar, en-conjugation]
+category: [langues, anglais, en-grammar, en-conjugation]
+settings:
+  sequential: false
+  bidirectional: false
+metadata:
+  license: CC-BY-SA-4.0
+  source:
+    type: procedural
+    generator: irregular-en
+    version: 1.0.0
+    generatedAt: "2026-11-22"
+    parameters:
+      frequency: 3
+cards:
+  - id: irreg_fight_to_past
+    question: "Quel est le prétérit de \"fight\" ?"
+    answer: fought
+    feedback: fight → fought → fought (se battre)
+  - id: irreg_fight_to_pp
+    question: "Quel est le participe passé de \"fight\" ?"
+    answer: fought
+    feedback: fight → fought → fought (se battre)
+  - id: irreg_fight_from_past
+    question: "\"fought\" est le prétérit de quel verbe ?"
+    answer: fight
+    feedback: fight → fought → fought (se battre)
+  - id: irreg_fight_fr_to_en
+    question: "Comment dit-on \"se battre\" en anglais ? (infinitif)"
+    answer: fight
+    alternatives: [to fight]
+    feedback: "se battre = fight (fought, fought)"
+  - id: irreg_throw_to_past
+    question: "Quel est le prétérit de \"throw\" ?"
+    answer: threw
+    feedback: throw → threw → thrown (jeter)
+  - id: irreg_throw_to_pp
+    question: "Quel est le participe passé de \"throw\" ?"
+    answer: thrown
+    feedback: throw → threw → thrown (jeter)
+  - id: irreg_throw_from_past
+    question: "\"threw\" est le prétérit de quel verbe ?"
+    answer: throw
+    feedback: throw → threw → thrown (jeter)
+  - id: irreg_throw_fr_to_en
+    question: "Comment dit-on \"jeter\" en anglais ? (infinitif)"
+    answer: throw
+    alternatives: [to throw]
+    feedback: "jeter = throw (threw, thrown)"
+  - id: irreg_wear_to_past
+    question: "Quel est le prétérit de \"wear\" ?"
+    answer: wore
+    feedback: wear → wore → worn (porter (vêtement))
+  - id: irreg_wear_to_pp
+    question: "Quel est le participe passé de \"wear\" ?"
+    answer: worn
+    feedback: wear → wore → worn (porter (vêtement))
+  - id: irreg_wear_from_past
+    question: "\"wore\" est le prétérit de quel verbe ?"
+    answer: wear
+    feedback: wear → wore → worn (porter (vêtement))
+  - id: irreg_wear_fr_to_en
+    question: "Comment dit-on \"porter (vêtement)\" en anglais ? (infinitif)"
+    answer: wear
+    alternatives: [to wear]
+    feedback: "porter (vêtement) = wear (wore, worn)"
+  - id: irreg_hide_to_past
+    question: "Quel est le prétérit de \"hide\" ?"
+    answer: hid
+    feedback: hide → hid → hidden (cacher)
+  - id: irreg_hide_to_pp
+    question: "Quel est le participe passé de \"hide\" ?"
+    answer: hidden
+    feedback: hide → hid → hidden (cacher)
+  - id: irreg_hide_from_past
+    question: "\"hid\" est le prétérit de quel verbe ?"
+    answer: hide
+    feedback: hide → hid → hidden (cacher)
+  - id: irreg_hide_fr_to_en
+    question: "Comment dit-on \"cacher\" en anglais ? (infinitif)"
+    answer: hide
+    alternatives: [to hide]
+    feedback: "cacher = hide (hid, hidden)"
+  - id: irreg_sell_to_past
+    question: "Quel est le prétérit de \"sell\" ?"
+    answer: sold
+    feedback: sell → sold → sold (vendre)
+  - id: irreg_sell_to_pp
+    question: "Quel est le participe passé de \"sell\" ?"
+    answer: sold
+    feedback: sell → sold → sold (vendre)
+  - id: irreg_sell_from_past
+    question: "\"sold\" est le prétérit de quel verbe ?"
+    answer: sell
+    feedback: sell → sold → sold (vendre)
+  - id: irreg_sell_fr_to_en
+    question: "Comment dit-on \"vendre\" en anglais ? (infinitif)"
+    answer: sell
+    alternatives: [to sell]
+    feedback: "vendre = sell (sold, sold)"
+  - id: irreg_shake_to_past
+    question: "Quel est le prétérit de \"shake\" ?"
+    answer: shook
+    feedback: shake → shook → shaken (secouer)
+  - id: irreg_shake_to_pp
+    question: "Quel est le participe passé de \"shake\" ?"
+    answer: shaken
+    feedback: shake → shook → shaken (secouer)
+  - id: irreg_shake_from_past
+    question: "\"shook\" est le prétérit de quel verbe ?"
+    answer: shake
+    feedback: shake → shook → shaken (secouer)
+  - id: irreg_shake_fr_to_en
+    question: "Comment dit-on \"secouer\" en anglais ? (infinitif)"
+    answer: shake
+    alternatives: [to shake]
+    feedback: "secouer = shake (shook, shaken)"
+  - id: irreg_beat_to_past
+    question: "Quel est le prétérit de \"beat\" ?"
+    answer: beat
+    feedback: beat → beat → beaten (battre)
+  - id: irreg_beat_to_pp
+    question: "Quel est le participe passé de \"beat\" ?"
+    answer: beaten
+    feedback: beat → beat → beaten (battre)
+  - id: irreg_beat_from_past
+    question: "\"beat\" est le prétérit de quel verbe ?"
+    answer: beat
+    feedback: beat → beat → beaten (battre)
+  - id: irreg_beat_fr_to_en
+    question: "Comment dit-on \"battre\" en anglais ? (infinitif)"
+    answer: beat
+    alternatives: [to beat]
+    feedback: "battre = beat (beat, beaten)"
+  - id: irreg_blow_to_past
+    question: "Quel est le prétérit de \"blow\" ?"
+    answer: blew
+    feedback: blow → blew → blown (souffler)
+  - id: irreg_blow_to_pp
+    question: "Quel est le participe passé de \"blow\" ?"
+    answer: blown
+    feedback: blow → blew → blown (souffler)
+  - id: irreg_blow_from_past
+    question: "\"blew\" est le prétérit de quel verbe ?"
+    answer: blow
+    feedback: blow → blew → blown (souffler)
+  - id: irreg_blow_fr_to_en
+    question: "Comment dit-on \"souffler\" en anglais ? (infinitif)"
+    answer: blow
+    alternatives: [to blow]
+    feedback: "souffler = blow (blew, blown)"
+  - id: irreg_lie_to_past
+    question: "Quel est le prétérit de \"lie\" ?"
+    answer: lay
+    feedback: lie → lay → lain (être allongé)
+  - id: irreg_lie_to_pp
+    question: "Quel est le participe passé de \"lie\" ?"
+    answer: lain
+    feedback: lie → lay → lain (être allongé)
+  - id: irreg_lie_from_past
+    question: "\"lay\" est le prétérit de quel verbe ?"
+    answer: lie
+    feedback: lie → lay → lain (être allongé)
+  - id: irreg_lie_fr_to_en
+    question: "Comment dit-on \"être allongé\" en anglais ? (infinitif)"
+    answer: lie
+    alternatives: [to lie]
+    feedback: "être allongé = lie (lay, lain)"
+  - id: irreg_lay_to_past
+    question: "Quel est le prétérit de \"lay\" ?"
+    answer: laid
+    feedback: lay → laid → laid (poser/pondre)
+  - id: irreg_lay_to_pp
+    question: "Quel est le participe passé de \"lay\" ?"
+    answer: laid
+    feedback: lay → laid → laid (poser/pondre)
+  - id: irreg_lay_from_past
+    question: "\"laid\" est le prétérit de quel verbe ?"
+    answer: lay
+    feedback: lay → laid → laid (poser/pondre)
+  - id: irreg_lay_fr_to_en
+    question: "Comment dit-on \"poser/pondre\" en anglais ? (infinitif)"
+    answer: lay
+    alternatives: [to lay]
+    feedback: "poser/pondre = lay (laid, laid)"
+  - id: irreg_rise_to_past
+    question: "Quel est le prétérit de \"rise\" ?"
+    answer: rose
+    feedback: rise → rose → risen (se lever/monter)
+  - id: irreg_rise_to_pp
+    question: "Quel est le participe passé de \"rise\" ?"
+    answer: risen
+    feedback: rise → rose → risen (se lever/monter)
+  - id: irreg_rise_from_past
+    question: "\"rose\" est le prétérit de quel verbe ?"
+    answer: rise
+    feedback: rise → rose → risen (se lever/monter)
+  - id: irreg_rise_fr_to_en
+    question: "Comment dit-on \"se lever/monter\" en anglais ? (infinitif)"
+    answer: rise
+    alternatives: [to rise]
+    feedback: "se lever/monter = rise (rose, risen)"
+  - id: irreg_sing_to_past
+    question: "Quel est le prétérit de \"sing\" ?"
+    answer: sang
+    feedback: sing → sang → sung (chanter)
+  - id: irreg_sing_to_pp
+    question: "Quel est le participe passé de \"sing\" ?"
+    answer: sung
+    feedback: sing → sang → sung (chanter)
+  - id: irreg_sing_from_past
+    question: "\"sang\" est le prétérit de quel verbe ?"
+    answer: sing
+    feedback: sing → sang → sung (chanter)
+  - id: irreg_sing_fr_to_en
+    question: "Comment dit-on \"chanter\" en anglais ? (infinitif)"
+    answer: sing
+    alternatives: [to sing]
+    feedback: "chanter = sing (sang, sung)"
+  - id: irreg_swim_to_past
+    question: "Quel est le prétérit de \"swim\" ?"
+    answer: swam
+    feedback: swim → swam → swum (nager)
+  - id: irreg_swim_to_pp
+    question: "Quel est le participe passé de \"swim\" ?"
+    answer: swum
+    feedback: swim → swam → swum (nager)
+  - id: irreg_swim_from_past
+    question: "\"swam\" est le prétérit de quel verbe ?"
+    answer: swim
+    feedback: swim → swam → swum (nager)
+  - id: irreg_swim_fr_to_en
+    question: "Comment dit-on \"nager\" en anglais ? (infinitif)"
+    answer: swim
+    alternatives: [to swim]
+    feedback: "nager = swim (swam, swum)"
+  - id: irreg_ring_to_past
+    question: "Quel est le prétérit de \"ring\" ?"
+    answer: rang
+    feedback: ring → rang → rung (sonner)
+  - id: irreg_ring_to_pp
+    question: "Quel est le participe passé de \"ring\" ?"
+    answer: rung
+    feedback: ring → rang → rung (sonner)
+  - id: irreg_ring_from_past
+    question: "\"rang\" est le prétérit de quel verbe ?"
+    answer: ring
+    feedback: ring → rang → rung (sonner)
+  - id: irreg_ring_fr_to_en
+    question: "Comment dit-on \"sonner\" en anglais ? (infinitif)"
+    answer: ring
+    alternatives: [to ring]
+    feedback: "sonner = ring (rang, rung)"
+  - id: irreg_steal_to_past
+    question: "Quel est le prétérit de \"steal\" ?"
+    answer: stole
+    feedback: steal → stole → stolen (voler (dérober))
+  - id: irreg_steal_to_pp
+    question: "Quel est le participe passé de \"steal\" ?"
+    answer: stolen
+    feedback: steal → stole → stolen (voler (dérober))
+  - id: irreg_steal_from_past
+    question: "\"stole\" est le prétérit de quel verbe ?"
+    answer: steal
+    feedback: steal → stole → stolen (voler (dérober))
+  - id: irreg_steal_fr_to_en
+    question: "Comment dit-on \"voler (dérober)\" en anglais ? (infinitif)"
+    answer: steal
+    alternatives: [to steal]
+    feedback: "voler (dérober) = steal (stole, stolen)"
+  - id: irreg_wake_to_past
+    question: "Quel est le prétérit de \"wake\" ?"
+    answer: woke
+    feedback: wake → woke → woken (se réveiller)
+  - id: irreg_wake_to_pp
+    question: "Quel est le participe passé de \"wake\" ?"
+    answer: woken
+    feedback: wake → woke → woken (se réveiller)
+  - id: irreg_wake_from_past
+    question: "\"woke\" est le prétérit de quel verbe ?"
+    answer: wake
+    feedback: wake → woke → woken (se réveiller)
+  - id: irreg_wake_fr_to_en
+    question: "Comment dit-on \"se réveiller\" en anglais ? (infinitif)"
+    answer: wake
+    alternatives: [to wake]
+    feedback: "se réveiller = wake (woke, woken)"
+  - id: irreg_burn_to_past
+    question: "Quel est le prétérit de \"burn\" ?"
+    answer: burnt/burned
+    feedback: burn → burnt/burned → burnt/burned (brûler)
+  - id: irreg_burn_to_pp
+    question: "Quel est le participe passé de \"burn\" ?"
+    answer: burnt/burned
+    feedback: burn → burnt/burned → burnt/burned (brûler)
+  - id: irreg_burn_from_past
+    question: "\"burnt/burned\" est le prétérit de quel verbe ?"
+    answer: burn
+    feedback: burn → burnt/burned → burnt/burned (brûler)
+  - id: irreg_burn_fr_to_en
+    question: "Comment dit-on \"brûler\" en anglais ? (infinitif)"
+    answer: burn
+    alternatives: [to burn]
+    feedback: "brûler = burn (burnt/burned, burnt/burned)"
+  - id: irreg_dream_to_past
+    question: "Quel est le prétérit de \"dream\" ?"
+    answer: dreamt/dreamed
+    feedback: dream → dreamt/dreamed → dreamt/dreamed (rêver)
+  - id: irreg_dream_to_pp
+    question: "Quel est le participe passé de \"dream\" ?"
+    answer: dreamt/dreamed
+    feedback: dream → dreamt/dreamed → dreamt/dreamed (rêver)
+  - id: irreg_dream_from_past
+    question: "\"dreamt/dreamed\" est le prétérit de quel verbe ?"
+    answer: dream
+    feedback: dream → dreamt/dreamed → dreamt/dreamed (rêver)
+  - id: irreg_dream_fr_to_en
+    question: "Comment dit-on \"rêver\" en anglais ? (infinitif)"
+    answer: dream
+    alternatives: [to dream]
+    feedback: "rêver = dream (dreamt/dreamed, dreamt/dreamed)"
+  - id: irreg_smell_to_past
+    question: "Quel est le prétérit de \"smell\" ?"
+    answer: smelt/smelled
+    feedback: smell → smelt/smelled → smelt/smelled (sentir (odeur))
+  - id: irreg_smell_to_pp
+    question: "Quel est le participe passé de \"smell\" ?"
+    answer: smelt/smelled
+    feedback: smell → smelt/smelled → smelt/smelled (sentir (odeur))
+  - id: irreg_smell_from_past
+    question: "\"smelt/smelled\" est le prétérit de quel verbe ?"
+    answer: smell
+    feedback: smell → smelt/smelled → smelt/smelled (sentir (odeur))
+  - id: irreg_smell_fr_to_en
+    question: "Comment dit-on \"sentir (odeur)\" en anglais ? (infinitif)"
+    answer: smell
+    alternatives: [to smell]
+    feedback: "sentir (odeur) = smell (smelt/smelled, smelt/smelled)"
+  - id: irreg_spell_to_past
+    question: "Quel est le prétérit de \"spell\" ?"
+    answer: spelt/spelled
+    feedback: spell → spelt/spelled → spelt/spelled (épeler)
+  - id: irreg_spell_to_pp
+    question: "Quel est le participe passé de \"spell\" ?"
+    answer: spelt/spelled
+    feedback: spell → spelt/spelled → spelt/spelled (épeler)
+  - id: irreg_spell_from_past
+    question: "\"spelt/spelled\" est le prétérit de quel verbe ?"
+    answer: spell
+    feedback: spell → spelt/spelled → spelt/spelled (épeler)
+  - id: irreg_spell_fr_to_en
+    question: "Comment dit-on \"épeler\" en anglais ? (infinitif)"
+    answer: spell
+    alternatives: [to spell]
+    feedback: "épeler = spell (spelt/spelled, spelt/spelled)"
+  - id: irreg_hang_to_past
+    question: "Quel est le prétérit de \"hang\" ?"
+    answer: hung
+    feedback: hang → hung → hung (accrocher/pendre)
+  - id: irreg_hang_to_pp
+    question: "Quel est le participe passé de \"hang\" ?"
+    answer: hung
+    feedback: hang → hung → hung (accrocher/pendre)
+  - id: irreg_hang_from_past
+    question: "\"hung\" est le prétérit de quel verbe ?"
+    answer: hang
+    feedback: hang → hung → hung (accrocher/pendre)
+  - id: irreg_hang_fr_to_en
+    question: "Comment dit-on \"accrocher/pendre\" en anglais ? (infinitif)"
+    answer: hang
+    alternatives: [to hang]
+    feedback: "accrocher/pendre = hang (hung, hung)"
+  - id: irreg_hurt_to_past
+    question: "Quel est le prétérit de \"hurt\" ?"
+    answer: hurt
+    feedback: hurt → hurt → hurt (faire mal/blesser)
+  - id: irreg_hurt_to_pp
+    question: "Quel est le participe passé de \"hurt\" ?"
+    answer: hurt
+    feedback: hurt → hurt → hurt (faire mal/blesser)
+  - id: irreg_hurt_from_past
+    question: "\"hurt\" est le prétérit de quel verbe ?"
+    answer: hurt
+    feedback: hurt → hurt → hurt (faire mal/blesser)
+  - id: irreg_hurt_fr_to_en
+    question: "Comment dit-on \"faire mal/blesser\" en anglais ? (infinitif)"
+    answer: hurt
+    alternatives: [to hurt]
+    feedback: "faire mal/blesser = hurt (hurt, hurt)"
+  - id: irreg_shut_to_past
+    question: "Quel est le prétérit de \"shut\" ?"
+    answer: shut
+    feedback: shut → shut → shut (fermer)
+  - id: irreg_shut_to_pp
+    question: "Quel est le participe passé de \"shut\" ?"
+    answer: shut
+    feedback: shut → shut → shut (fermer)
+  - id: irreg_shut_from_past
+    question: "\"shut\" est le prétérit de quel verbe ?"
+    answer: shut
+    feedback: shut → shut → shut (fermer)
+  - id: irreg_shut_fr_to_en
+    question: "Comment dit-on \"fermer\" en anglais ? (infinitif)"
+    answer: shut
+    alternatives: [to shut]
+    feedback: "fermer = shut (shut, shut)"
+  - id: irreg_spread_to_past
+    question: "Quel est le prétérit de \"spread\" ?"
+    answer: spread
+    feedback: spread → spread → spread (répandre/étaler)
+  - id: irreg_spread_to_pp
+    question: "Quel est le participe passé de \"spread\" ?"
+    answer: spread
+    feedback: spread → spread → spread (répandre/étaler)
+  - id: irreg_spread_from_past
+    question: "\"spread\" est le prétérit de quel verbe ?"
+    answer: spread
+    feedback: spread → spread → spread (répandre/étaler)
+  - id: irreg_spread_fr_to_en
+    question: "Comment dit-on \"répandre/étaler\" en anglais ? (infinitif)"
+    answer: spread
+    alternatives: [to spread]
+    feedback: "répandre/étaler = spread (spread, spread)"
+  - id: irreg_cost_to_past
+    question: "Quel est le prétérit de \"cost\" ?"
+    answer: cost
+    feedback: cost → cost → cost (coûter)
+  - id: irreg_cost_to_pp
+    question: "Quel est le participe passé de \"cost\" ?"
+    answer: cost
+    feedback: cost → cost → cost (coûter)
+  - id: irreg_cost_from_past
+    question: "\"cost\" est le prétérit de quel verbe ?"
+    answer: cost
+    feedback: cost → cost → cost (coûter)
+  - id: irreg_cost_fr_to_en
+    question: "Comment dit-on \"coûter\" en anglais ? (infinitif)"
+    answer: cost
+    alternatives: [to cost]
+    feedback: "coûter = cost (cost, cost)"
+  - id: irreg_hit_to_past
+    question: "Quel est le prétérit de \"hit\" ?"
+    answer: hit
+    feedback: hit → hit → hit (frapper)
+  - id: irreg_hit_to_pp
+    question: "Quel est le participe passé de \"hit\" ?"
+    answer: hit
+    feedback: hit → hit → hit (frapper)
+  - id: irreg_hit_from_past
+    question: "\"hit\" est le prétérit de quel verbe ?"
+    answer: hit
+    feedback: hit → hit → hit (frapper)
+  - id: irreg_hit_fr_to_en
+    question: "Comment dit-on \"frapper (donner un coup)\" en anglais ? (infinitif)"
+    answer: hit
+    alternatives: [to hit, strike, to strike]
+    feedback: "frapper (donner un coup) = hit (hit, hit)"
+  - id: irreg_split_to_past
+    question: "Quel est le prétérit de \"split\" ?"
+    answer: split
+    feedback: split → split → split (fendre/diviser)
+  - id: irreg_split_to_pp
+    question: "Quel est le participe passé de \"split\" ?"
+    answer: split
+    feedback: split → split → split (fendre/diviser)
+  - id: irreg_split_from_past
+    question: "\"split\" est le prétérit de quel verbe ?"
+    answer: split
+    feedback: split → split → split (fendre/diviser)
+  - id: irreg_split_fr_to_en
+    question: "Comment dit-on \"fendre/diviser\" en anglais ? (infinitif)"
+    answer: split
+    alternatives: [to split]
+    feedback: "fendre/diviser = split (split, split)"
+  - id: irreg_quit_to_past
+    question: "Quel est le prétérit de \"quit\" ?"
+    answer: quit
+    feedback: quit → quit → quit (quitter/arrêter)
+  - id: irreg_quit_to_pp
+    question: "Quel est le participe passé de \"quit\" ?"
+    answer: quit
+    feedback: quit → quit → quit (quitter/arrêter)
+  - id: irreg_quit_from_past
+    question: "\"quit\" est le prétérit de quel verbe ?"
+    answer: quit
+    feedback: quit → quit → quit (quitter/arrêter)
+  - id: irreg_quit_fr_to_en
+    question: "Comment dit-on \"quitter/arrêter\" en anglais ? (infinitif)"
+    answer: quit
+    alternatives: [to quit]
+    feedback: "quitter/arrêter = quit (quit, quit)"
+  - id: irreg_bet_to_past
+    question: "Quel est le prétérit de \"bet\" ?"
+    answer: bet
+    feedback: bet → bet → bet (parier)
+  - id: irreg_bet_to_pp
+    question: "Quel est le participe passé de \"bet\" ?"
+    answer: bet
+    feedback: bet → bet → bet (parier)
+  - id: irreg_bet_from_past
+    question: "\"bet\" est le prétérit de quel verbe ?"
+    answer: bet
+    feedback: bet → bet → bet (parier)
+  - id: irreg_bet_fr_to_en
+    question: "Comment dit-on \"parier\" en anglais ? (infinitif)"
+    answer: bet
+    alternatives: [to bet]
+    feedback: "parier = bet (bet, bet)"
+  - id: irreg_bind_to_past
+    question: "Quel est le prétérit de \"bind\" ?"
+    answer: bound
+    feedback: bind → bound → bound (lier/attacher)
+  - id: irreg_bind_to_pp
+    question: "Quel est le participe passé de \"bind\" ?"
+    answer: bound
+    feedback: bind → bound → bound (lier/attacher)
+  - id: irreg_bind_from_past
+    question: "\"bound\" est le prétérit de quel verbe ?"
+    answer: bind
+    feedback: bind → bound → bound (lier/attacher)
+  - id: irreg_bind_fr_to_en
+    question: "Comment dit-on \"lier/attacher\" en anglais ? (infinitif)"
+    answer: bind
+    alternatives: [to bind]
+    feedback: "lier/attacher = bind (bound, bound)"
+  - id: irreg_bite_to_past
+    question: "Quel est le prétérit de \"bite\" ?"
+    answer: bit
+    feedback: bite → bit → bitten (mordre)
+  - id: irreg_bite_to_pp
+    question: "Quel est le participe passé de \"bite\" ?"
+    answer: bitten
+    feedback: bite → bit → bitten (mordre)
+  - id: irreg_bite_from_past
+    question: "\"bit\" est le prétérit de quel verbe ?"
+    answer: bite
+    feedback: bite → bit → bitten (mordre)
+  - id: irreg_bite_fr_to_en
+    question: "Comment dit-on \"mordre\" en anglais ? (infinitif)"
+    answer: bite
+    alternatives: [to bite]
+    feedback: "mordre = bite (bit, bitten)"
+  - id: irreg_bleed_to_past
+    question: "Quel est le prétérit de \"bleed\" ?"
+    answer: bled
+    feedback: bleed → bled → bled (saigner)
+  - id: irreg_bleed_to_pp
+    question: "Quel est le participe passé de \"bleed\" ?"
+    answer: bled
+    feedback: bleed → bled → bled (saigner)
+  - id: irreg_bleed_from_past
+    question: "\"bled\" est le prétérit de quel verbe ?"
+    answer: bleed
+    feedback: bleed → bled → bled (saigner)
+  - id: irreg_bleed_fr_to_en
+    question: "Comment dit-on \"saigner\" en anglais ? (infinitif)"
+    answer: bleed
+    alternatives: [to bleed]
+    feedback: "saigner = bleed (bled, bled)"
+  - id: irreg_breed_to_past
+    question: "Quel est le prétérit de \"breed\" ?"
+    answer: bred
+    feedback: breed → bred → bred (élever (animaux))
+  - id: irreg_breed_to_pp
+    question: "Quel est le participe passé de \"breed\" ?"
+    answer: bred
+    feedback: breed → bred → bred (élever (animaux))
+  - id: irreg_breed_from_past
+    question: "\"bred\" est le prétérit de quel verbe ?"
+    answer: breed
+    feedback: breed → bred → bred (élever (animaux))
+  - id: irreg_breed_fr_to_en
+    question: "Comment dit-on \"élever (animaux)\" en anglais ? (infinitif)"
+    answer: breed
+    alternatives: [to breed]
+    feedback: "élever (animaux) = breed (bred, bred)"
+  - id: irreg_broadcast_to_past
+    question: "Quel est le prétérit de \"broadcast\" ?"
+    answer: broadcast
+    feedback: broadcast → broadcast → broadcast (diffuser)
+  - id: irreg_broadcast_to_pp
+    question: "Quel est le participe passé de \"broadcast\" ?"
+    answer: broadcast
+    feedback: broadcast → broadcast → broadcast (diffuser)
+  - id: irreg_broadcast_from_past
+    question: "\"broadcast\" est le prétérit de quel verbe ?"
+    answer: broadcast
+    feedback: broadcast → broadcast → broadcast (diffuser)
+  - id: irreg_broadcast_fr_to_en
+    question: "Comment dit-on \"diffuser\" en anglais ? (infinitif)"
+    answer: broadcast
+    alternatives: [to broadcast]
+    feedback: "diffuser = broadcast (broadcast, broadcast)"
+  - id: irreg_burst_to_past
+    question: "Quel est le prétérit de \"burst\" ?"
+    answer: burst
+    feedback: burst → burst → burst (éclater)
+  - id: irreg_burst_to_pp
+    question: "Quel est le participe passé de \"burst\" ?"
+    answer: burst
+    feedback: burst → burst → burst (éclater)
+  - id: irreg_burst_from_past
+    question: "\"burst\" est le prétérit de quel verbe ?"
+    answer: burst
+    feedback: burst → burst → burst (éclater)
+  - id: irreg_burst_fr_to_en
+    question: "Comment dit-on \"éclater\" en anglais ? (infinitif)"
+    answer: burst
+    alternatives: [to burst]
+    feedback: "éclater = burst (burst, burst)"
+  - id: irreg_creep_to_past
+    question: "Quel est le prétérit de \"creep\" ?"
+    answer: crept
+    feedback: creep → crept → crept (ramper)
+  - id: irreg_creep_to_pp
+    question: "Quel est le participe passé de \"creep\" ?"
+    answer: crept
+    feedback: creep → crept → crept (ramper)
+  - id: irreg_creep_from_past
+    question: "\"crept\" est le prétérit de quel verbe ?"
+    answer: creep
+    feedback: creep → crept → crept (ramper)
+  - id: irreg_creep_fr_to_en
+    question: "Comment dit-on \"ramper\" en anglais ? (infinitif)"
+    answer: creep
+    alternatives: [to creep]
+    feedback: "ramper = creep (crept, crept)"
+  - id: irreg_deal_to_past
+    question: "Quel est le prétérit de \"deal\" ?"
+    answer: dealt
+    feedback: deal → dealt → dealt (traiter/distribuer)
+  - id: irreg_deal_to_pp
+    question: "Quel est le participe passé de \"deal\" ?"
+    answer: dealt
+    feedback: deal → dealt → dealt (traiter/distribuer)
+  - id: irreg_deal_from_past
+    question: "\"dealt\" est le prétérit de quel verbe ?"
+    answer: deal
+    feedback: deal → dealt → dealt (traiter/distribuer)
+  - id: irreg_deal_fr_to_en
+    question: "Comment dit-on \"traiter/distribuer\" en anglais ? (infinitif)"
+    answer: deal
+    alternatives: [to deal]
+    feedback: "traiter/distribuer = deal (dealt, dealt)"
+  - id: irreg_dig_to_past
+    question: "Quel est le prétérit de \"dig\" ?"
+    answer: dug
+    feedback: dig → dug → dug (creuser)
+  - id: irreg_dig_to_pp
+    question: "Quel est le participe passé de \"dig\" ?"
+    answer: dug
+    feedback: dig → dug → dug (creuser)
+  - id: irreg_dig_from_past
+    question: "\"dug\" est le prétérit de quel verbe ?"
+    answer: dig
+    feedback: dig → dug → dug (creuser)
+  - id: irreg_dig_fr_to_en
+    question: "Comment dit-on \"creuser\" en anglais ? (infinitif)"
+    answer: dig
+    alternatives: [to dig]
+    feedback: "creuser = dig (dug, dug)"
+  - id: irreg_feed_to_past
+    question: "Quel est le prétérit de \"feed\" ?"
+    answer: fed
+    feedback: feed → fed → fed (nourrir)
+  - id: irreg_feed_to_pp
+    question: "Quel est le participe passé de \"feed\" ?"
+    answer: fed
+    feedback: feed → fed → fed (nourrir)
+  - id: irreg_feed_from_past
+    question: "\"fed\" est le prétérit de quel verbe ?"
+    answer: feed
+    feedback: feed → fed → fed (nourrir)
+  - id: irreg_feed_fr_to_en
+    question: "Comment dit-on \"nourrir\" en anglais ? (infinitif)"
+    answer: feed
+    alternatives: [to feed]
+    feedback: "nourrir = feed (fed, fed)"
+  - id: irreg_flee_to_past
+    question: "Quel est le prétérit de \"flee\" ?"
+    answer: fled
+    feedback: flee → fled → fled (fuir)
+  - id: irreg_flee_to_pp
+    question: "Quel est le participe passé de \"flee\" ?"
+    answer: fled
+    feedback: flee → fled → fled (fuir)
+  - id: irreg_flee_from_past
+    question: "\"fled\" est le prétérit de quel verbe ?"
+    answer: flee
+    feedback: flee → fled → fled (fuir)
+  - id: irreg_flee_fr_to_en
+    question: "Comment dit-on \"fuir\" en anglais ? (infinitif)"
+    answer: flee
+    alternatives: [to flee]
+    feedback: "fuir = flee (fled, fled)"
+  - id: irreg_forbid_to_past
+    question: "Quel est le prétérit de \"forbid\" ?"
+    answer: forbade
+    feedback: forbid → forbade → forbidden (interdire)
+  - id: irreg_forbid_to_pp
+    question: "Quel est le participe passé de \"forbid\" ?"
+    answer: forbidden
+    feedback: forbid → forbade → forbidden (interdire)
+  - id: irreg_forbid_from_past
+    question: "\"forbade\" est le prétérit de quel verbe ?"
+    answer: forbid
+    feedback: forbid → forbade → forbidden (interdire)
+  - id: irreg_forbid_fr_to_en
+    question: "Comment dit-on \"interdire\" en anglais ? (infinitif)"
+    answer: forbid
+    alternatives: [to forbid]
+    feedback: "interdire = forbid (forbade, forbidden)"
+  - id: irreg_freeze_to_past
+    question: "Quel est le prétérit de \"freeze\" ?"
+    answer: froze
+    feedback: freeze → froze → frozen (geler)
+  - id: irreg_freeze_to_pp
+    question: "Quel est le participe passé de \"freeze\" ?"
+    answer: frozen
+    feedback: freeze → froze → frozen (geler)
+  - id: irreg_freeze_from_past
+    question: "\"froze\" est le prétérit de quel verbe ?"
+    answer: freeze
+    feedback: freeze → froze → frozen (geler)
+  - id: irreg_freeze_fr_to_en
+    question: "Comment dit-on \"geler\" en anglais ? (infinitif)"
+    answer: freeze
+    alternatives: [to freeze]
+    feedback: "geler = freeze (froze, frozen)"
+  - id: irreg_grind_to_past
+    question: "Quel est le prétérit de \"grind\" ?"
+    answer: ground
+    feedback: grind → ground → ground (moudre)
+  - id: irreg_grind_to_pp
+    question: "Quel est le participe passé de \"grind\" ?"
+    answer: ground
+    feedback: grind → ground → ground (moudre)
+  - id: irreg_grind_from_past
+    question: "\"ground\" est le prétérit de quel verbe ?"
+    answer: grind
+    feedback: grind → ground → ground (moudre)
+  - id: irreg_grind_fr_to_en
+    question: "Comment dit-on \"moudre\" en anglais ? (infinitif)"
+    answer: grind
+    alternatives: [to grind]
+    feedback: "moudre = grind (ground, ground)"
+  - id: irreg_kneel_to_past
+    question: "Quel est le prétérit de \"kneel\" ?"
+    answer: knelt
+    feedback: "kneel → knelt → knelt (s'agenouiller)"
+  - id: irreg_kneel_to_pp
+    question: "Quel est le participe passé de \"kneel\" ?"
+    answer: knelt
+    feedback: "kneel → knelt → knelt (s'agenouiller)"
+  - id: irreg_kneel_from_past
+    question: "\"knelt\" est le prétérit de quel verbe ?"
+    answer: kneel
+    feedback: "kneel → knelt → knelt (s'agenouiller)"
+  - id: irreg_kneel_fr_to_en
+    question: "Comment dit-on \"s'agenouiller\" en anglais ? (infinitif)"
+    answer: kneel
+    alternatives: [to kneel]
+    feedback: "s'agenouiller = kneel (knelt, knelt)"
+  - id: irreg_lean_to_past
+    question: "Quel est le prétérit de \"lean\" ?"
+    answer: leant/leaned
+    feedback: lean → leant/leaned → leant/leaned (se pencher)
+  - id: irreg_lean_to_pp
+    question: "Quel est le participe passé de \"lean\" ?"
+    answer: leant/leaned
+    feedback: lean → leant/leaned → leant/leaned (se pencher)
+  - id: irreg_lean_from_past
+    question: "\"leant/leaned\" est le prétérit de quel verbe ?"
+    answer: lean
+    feedback: lean → leant/leaned → leant/leaned (se pencher)
+  - id: irreg_lean_fr_to_en
+    question: "Comment dit-on \"se pencher\" en anglais ? (infinitif)"
+    answer: lean
+    alternatives: [to lean]
+    feedback: "se pencher = lean (leant/leaned, leant/leaned)"
+  - id: irreg_leap_to_past
+    question: "Quel est le prétérit de \"leap\" ?"
+    answer: leapt/leaped
+    feedback: leap → leapt/leaped → leapt/leaped (sauter/bondir)
+  - id: irreg_leap_to_pp
+    question: "Quel est le participe passé de \"leap\" ?"
+    answer: leapt/leaped
+    feedback: leap → leapt/leaped → leapt/leaped (sauter/bondir)
+  - id: irreg_leap_from_past
+    question: "\"leapt/leaped\" est le prétérit de quel verbe ?"
+    answer: leap
+    feedback: leap → leapt/leaped → leapt/leaped (sauter/bondir)
+  - id: irreg_leap_fr_to_en
+    question: "Comment dit-on \"sauter/bondir\" en anglais ? (infinitif)"
+    answer: leap
+    alternatives: [to leap]
+    feedback: "sauter/bondir = leap (leapt/leaped, leapt/leaped)"
+  - id: irreg_lend_to_past
+    question: "Quel est le prétérit de \"lend\" ?"
+    answer: lent
+    feedback: lend → lent → lent (prêter)
+  - id: irreg_lend_to_pp
+    question: "Quel est le participe passé de \"lend\" ?"
+    answer: lent
+    feedback: lend → lent → lent (prêter)
+  - id: irreg_lend_from_past
+    question: "\"lent\" est le prétérit de quel verbe ?"
+    answer: lend
+    feedback: lend → lent → lent (prêter)
+  - id: irreg_lend_fr_to_en
+    question: "Comment dit-on \"prêter\" en anglais ? (infinitif)"
+    answer: lend
+    alternatives: [to lend]
+    feedback: "prêter = lend (lent, lent)"
+  - id: irreg_light_to_past
+    question: "Quel est le prétérit de \"light\" ?"
+    answer: lit
+    feedback: light → lit → lit (allumer)
+  - id: irreg_light_to_pp
+    question: "Quel est le participe passé de \"light\" ?"
+    answer: lit
+    feedback: light → lit → lit (allumer)
+  - id: irreg_light_from_past
+    question: "\"lit\" est le prétérit de quel verbe ?"
+    answer: light
+    feedback: light → lit → lit (allumer)
+  - id: irreg_light_fr_to_en
+    question: "Comment dit-on \"allumer\" en anglais ? (infinitif)"
+    answer: light
+    alternatives: [to light]
+    feedback: "allumer = light (lit, lit)"
+  - id: irreg_overcome_to_past
+    question: "Quel est le prétérit de \"overcome\" ?"
+    answer: overcame
+    feedback: overcome → overcame → overcome (surmonter)
+  - id: irreg_overcome_to_pp
+    question: "Quel est le participe passé de \"overcome\" ?"
+    answer: overcome
+    feedback: overcome → overcame → overcome (surmonter)
+  - id: irreg_overcome_from_past
+    question: "\"overcame\" est le prétérit de quel verbe ?"
+    answer: overcome
+    feedback: overcome → overcame → overcome (surmonter)
+  - id: irreg_overcome_fr_to_en
+    question: "Comment dit-on \"surmonter\" en anglais ? (infinitif)"
+    answer: overcome
+    alternatives: [to overcome]
+    feedback: "surmonter = overcome (overcame, overcome)"
+  - id: irreg_seek_to_past
+    question: "Quel est le prétérit de \"seek\" ?"
+    answer: sought
+    feedback: seek → sought → sought (chercher)
+  - id: irreg_seek_to_pp
+    question: "Quel est le participe passé de \"seek\" ?"
+    answer: sought
+    feedback: seek → sought → sought (chercher)
+  - id: irreg_seek_from_past
+    question: "\"sought\" est le prétérit de quel verbe ?"
+    answer: seek
+    feedback: seek → sought → sought (chercher)
+  - id: irreg_seek_fr_to_en
+    question: "Comment dit-on \"chercher\" en anglais ? (infinitif)"
+    answer: seek
+    alternatives: [to seek]
+    feedback: "chercher = seek (sought, sought)"
+  - id: irreg_shine_to_past
+    question: "Quel est le prétérit de \"shine\" ?"
+    answer: shone
+    feedback: shine → shone → shone (briller)
+  - id: irreg_shine_to_pp
+    question: "Quel est le participe passé de \"shine\" ?"
+    answer: shone
+    feedback: shine → shone → shone (briller)
+  - id: irreg_shine_from_past
+    question: "\"shone\" est le prétérit de quel verbe ?"
+    answer: shine
+    feedback: shine → shone → shone (briller)
+  - id: irreg_shine_fr_to_en
+    question: "Comment dit-on \"briller\" en anglais ? (infinitif)"
+    answer: shine
+    alternatives: [to shine]
+    feedback: "briller = shine (shone, shone)"
+  - id: irreg_shoot_to_past
+    question: "Quel est le prétérit de \"shoot\" ?"
+    answer: shot
+    feedback: shoot → shot → shot (tirer (arme))
+  - id: irreg_shoot_to_pp
+    question: "Quel est le participe passé de \"shoot\" ?"
+    answer: shot
+    feedback: shoot → shot → shot (tirer (arme))
+  - id: irreg_shoot_from_past
+    question: "\"shot\" est le prétérit de quel verbe ?"
+    answer: shoot
+    feedback: shoot → shot → shot (tirer (arme))
+  - id: irreg_shoot_fr_to_en
+    question: "Comment dit-on \"tirer (arme)\" en anglais ? (infinitif)"
+    answer: shoot
+    alternatives: [to shoot]
+    feedback: "tirer (arme) = shoot (shot, shot)"
+  - id: irreg_shrink_to_past
+    question: "Quel est le prétérit de \"shrink\" ?"
+    answer: shrank
+    feedback: shrink → shrank → shrunk (rétrécir)
+  - id: irreg_shrink_to_pp
+    question: "Quel est le participe passé de \"shrink\" ?"
+    answer: shrunk
+    feedback: shrink → shrank → shrunk (rétrécir)
+  - id: irreg_shrink_from_past
+    question: "\"shrank\" est le prétérit de quel verbe ?"
+    answer: shrink
+    feedback: shrink → shrank → shrunk (rétrécir)
+  - id: irreg_shrink_fr_to_en
+    question: "Comment dit-on \"rétrécir\" en anglais ? (infinitif)"
+    answer: shrink
+    alternatives: [to shrink]
+    feedback: "rétrécir = shrink (shrank, shrunk)"
+  - id: irreg_sink_to_past
+    question: "Quel est le prétérit de \"sink\" ?"
+    answer: sank
+    feedback: sink → sank → sunk (couler)
+  - id: irreg_sink_to_pp
+    question: "Quel est le participe passé de \"sink\" ?"
+    answer: sunk
+    feedback: sink → sank → sunk (couler)
+  - id: irreg_sink_from_past
+    question: "\"sank\" est le prétérit de quel verbe ?"
+    answer: sink
+    feedback: sink → sank → sunk (couler)
+  - id: irreg_sink_fr_to_en
+    question: "Comment dit-on \"couler\" en anglais ? (infinitif)"
+    answer: sink
+    alternatives: [to sink]
+    feedback: "couler = sink (sank, sunk)"
+  - id: irreg_slide_to_past
+    question: "Quel est le prétérit de \"slide\" ?"
+    answer: slid
+    feedback: slide → slid → slid (glisser)
+  - id: irreg_slide_to_pp
+    question: "Quel est le participe passé de \"slide\" ?"
+    answer: slid
+    feedback: slide → slid → slid (glisser)
+  - id: irreg_slide_from_past
+    question: "\"slid\" est le prétérit de quel verbe ?"
+    answer: slide
+    feedback: slide → slid → slid (glisser)
+  - id: irreg_slide_fr_to_en
+    question: "Comment dit-on \"glisser\" en anglais ? (infinitif)"
+    answer: slide
+    alternatives: [to slide]
+    feedback: "glisser = slide (slid, slid)"
+  - id: irreg_spin_to_past
+    question: "Quel est le prétérit de \"spin\" ?"
+    answer: spun
+    feedback: spin → spun → spun (tourner)
+  - id: irreg_spin_to_pp
+    question: "Quel est le participe passé de \"spin\" ?"
+    answer: spun
+    feedback: spin → spun → spun (tourner)
+  - id: irreg_spin_from_past
+    question: "\"spun\" est le prétérit de quel verbe ?"
+    answer: spin
+    feedback: spin → spun → spun (tourner)
+  - id: irreg_spin_fr_to_en
+    question: "Comment dit-on \"tourner\" en anglais ? (infinitif)"
+    answer: spin
+    alternatives: [to spin]
+    feedback: "tourner = spin (spun, spun)"
+  - id: irreg_spit_to_past
+    question: "Quel est le prétérit de \"spit\" ?"
+    answer: spat
+    feedback: spit → spat → spat (cracher)
+  - id: irreg_spit_to_pp
+    question: "Quel est le participe passé de \"spit\" ?"
+    answer: spat
+    feedback: spit → spat → spat (cracher)
+  - id: irreg_spit_from_past
+    question: "\"spat\" est le prétérit de quel verbe ?"
+    answer: spit
+    feedback: spit → spat → spat (cracher)
+  - id: irreg_spit_fr_to_en
+    question: "Comment dit-on \"cracher\" en anglais ? (infinitif)"
+    answer: spit
+    alternatives: [to spit]
+    feedback: "cracher = spit (spat, spat)"
+  - id: irreg_spring_to_past
+    question: "Quel est le prétérit de \"spring\" ?"
+    answer: sprang
+    feedback: spring → sprang → sprung (bondir)
+  - id: irreg_spring_to_pp
+    question: "Quel est le participe passé de \"spring\" ?"
+    answer: sprung
+    feedback: spring → sprang → sprung (bondir)
+  - id: irreg_spring_from_past
+    question: "\"sprang\" est le prétérit de quel verbe ?"
+    answer: spring
+    feedback: spring → sprang → sprung (bondir)
+  - id: irreg_spring_fr_to_en
+    question: "Comment dit-on \"bondir\" en anglais ? (infinitif)"
+    answer: spring
+    alternatives: [to spring]
+    feedback: "bondir = spring (sprang, sprung)"
+  - id: irreg_stick_to_past
+    question: "Quel est le prétérit de \"stick\" ?"
+    answer: stuck
+    feedback: stick → stuck → stuck (coller)
+  - id: irreg_stick_to_pp
+    question: "Quel est le participe passé de \"stick\" ?"
+    answer: stuck
+    feedback: stick → stuck → stuck (coller)
+  - id: irreg_stick_from_past
+    question: "\"stuck\" est le prétérit de quel verbe ?"
+    answer: stick
+    feedback: stick → stuck → stuck (coller)
+  - id: irreg_stick_fr_to_en
+    question: "Comment dit-on \"coller\" en anglais ? (infinitif)"
+    answer: stick
+    alternatives: [to stick]
+    feedback: "coller = stick (stuck, stuck)"
+  - id: irreg_sting_to_past
+    question: "Quel est le prétérit de \"sting\" ?"
+    answer: stung
+    feedback: sting → stung → stung (piquer)
+  - id: irreg_sting_to_pp
+    question: "Quel est le participe passé de \"sting\" ?"
+    answer: stung
+    feedback: sting → stung → stung (piquer)
+  - id: irreg_sting_from_past
+    question: "\"stung\" est le prétérit de quel verbe ?"
+    answer: sting
+    feedback: sting → stung → stung (piquer)
+  - id: irreg_sting_fr_to_en
+    question: "Comment dit-on \"piquer\" en anglais ? (infinitif)"
+    answer: sting
+    alternatives: [to sting]
+    feedback: "piquer = sting (stung, stung)"
+  - id: irreg_stink_to_past
+    question: "Quel est le prétérit de \"stink\" ?"
+    answer: stank
+    feedback: stink → stank → stunk (puer)
+  - id: irreg_stink_to_pp
+    question: "Quel est le participe passé de \"stink\" ?"
+    answer: stunk
+    feedback: stink → stank → stunk (puer)
+  - id: irreg_stink_from_past
+    question: "\"stank\" est le prétérit de quel verbe ?"
+    answer: stink
+    feedback: stink → stank → stunk (puer)
+  - id: irreg_stink_fr_to_en
+    question: "Comment dit-on \"puer\" en anglais ? (infinitif)"
+    answer: stink
+    alternatives: [to stink]
+    feedback: "puer = stink (stank, stunk)"
+  - id: irreg_strike_to_past
+    question: "Quel est le prétérit de \"strike\" ?"
+    answer: struck
+    feedback: strike → struck → struck (frapper)
+  - id: irreg_strike_to_pp
+    question: "Quel est le participe passé de \"strike\" ?"
+    answer: struck
+    feedback: strike → struck → struck (frapper)
+  - id: irreg_strike_from_past
+    question: "\"struck\" est le prétérit de quel verbe ?"
+    answer: strike
+    feedback: strike → struck → struck (frapper)
+  - id: irreg_strike_fr_to_en
+    question: "Comment dit-on \"frapper (heurter, percuter ; sonner, pour une horloge)\" en anglais ? (infinitif)"
+    answer: strike
+    alternatives: [to strike, hit, to hit]
+    feedback: "frapper (heurter, percuter ; sonner, pour une horloge) = strike (struck, struck)"
+  - id: irreg_swear_to_past
+    question: "Quel est le prétérit de \"swear\" ?"
+    answer: swore
+    feedback: swear → swore → sworn (jurer)
+  - id: irreg_swear_to_pp
+    question: "Quel est le participe passé de \"swear\" ?"
+    answer: sworn
+    feedback: swear → swore → sworn (jurer)
+  - id: irreg_swear_from_past
+    question: "\"swore\" est le prétérit de quel verbe ?"
+    answer: swear
+    feedback: swear → swore → sworn (jurer)
+  - id: irreg_swear_fr_to_en
+    question: "Comment dit-on \"jurer\" en anglais ? (infinitif)"
+    answer: swear
+    alternatives: [to swear]
+    feedback: "jurer = swear (swore, sworn)"
+  - id: irreg_sweep_to_past
+    question: "Quel est le prétérit de \"sweep\" ?"
+    answer: swept
+    feedback: sweep → swept → swept (balayer)
+  - id: irreg_sweep_to_pp
+    question: "Quel est le participe passé de \"sweep\" ?"
+    answer: swept
+    feedback: sweep → swept → swept (balayer)
+  - id: irreg_sweep_from_past
+    question: "\"swept\" est le prétérit de quel verbe ?"
+    answer: sweep
+    feedback: sweep → swept → swept (balayer)
+  - id: irreg_sweep_fr_to_en
+    question: "Comment dit-on \"balayer\" en anglais ? (infinitif)"
+    answer: sweep
+    alternatives: [to sweep]
+    feedback: "balayer = sweep (swept, swept)"
+  - id: irreg_swing_to_past
+    question: "Quel est le prétérit de \"swing\" ?"
+    answer: swung
+    feedback: swing → swung → swung (balancer)
+  - id: irreg_swing_to_pp
+    question: "Quel est le participe passé de \"swing\" ?"
+    answer: swung
+    feedback: swing → swung → swung (balancer)
+  - id: irreg_swing_from_past
+    question: "\"swung\" est le prétérit de quel verbe ?"
+    answer: swing
+    feedback: swing → swung → swung (balancer)
+  - id: irreg_swing_fr_to_en
+    question: "Comment dit-on \"balancer\" en anglais ? (infinitif)"
+    answer: swing
+    alternatives: [to swing]
+    feedback: "balancer = swing (swung, swung)"
+  - id: irreg_tear_to_past
+    question: "Quel est le prétérit de \"tear\" ?"
+    answer: tore
+    feedback: tear → tore → torn (déchirer)
+  - id: irreg_tear_to_pp
+    question: "Quel est le participe passé de \"tear\" ?"
+    answer: torn
+    feedback: tear → tore → torn (déchirer)
+  - id: irreg_tear_from_past
+    question: "\"tore\" est le prétérit de quel verbe ?"
+    answer: tear
+    feedback: tear → tore → torn (déchirer)
+  - id: irreg_tear_fr_to_en
+    question: "Comment dit-on \"déchirer\" en anglais ? (infinitif)"
+    answer: tear
+    alternatives: [to tear]
+    feedback: "déchirer = tear (tore, torn)"
+  - id: irreg_weave_to_past
+    question: "Quel est le prétérit de \"weave\" ?"
+    answer: wove
+    feedback: weave → wove → woven (tisser)
+  - id: irreg_weave_to_pp
+    question: "Quel est le participe passé de \"weave\" ?"
+    answer: woven
+    feedback: weave → wove → woven (tisser)
+  - id: irreg_weave_from_past
+    question: "\"wove\" est le prétérit de quel verbe ?"
+    answer: weave
+    feedback: weave → wove → woven (tisser)
+  - id: irreg_weave_fr_to_en
+    question: "Comment dit-on \"tisser\" en anglais ? (infinitif)"
+    answer: weave
+    alternatives: [to weave]
+    feedback: "tisser = weave (wove, woven)"
+  - id: irreg_weep_to_past
+    question: "Quel est le prétérit de \"weep\" ?"
+    answer: wept
+    feedback: weep → wept → wept (pleurer)
+  - id: irreg_weep_to_pp
+    question: "Quel est le participe passé de \"weep\" ?"
+    answer: wept
+    feedback: weep → wept → wept (pleurer)
+  - id: irreg_weep_from_past
+    question: "\"wept\" est le prétérit de quel verbe ?"
+    answer: weep
+    feedback: weep → wept → wept (pleurer)
+  - id: irreg_weep_fr_to_en
+    question: "Comment dit-on \"pleurer\" en anglais ? (infinitif)"
+    answer: weep
+    alternatives: [to weep]
+    feedback: "pleurer = weep (wept, wept)"
+  - id: irreg_wind_to_past
+    question: "Quel est le prétérit de \"wind\" ?"
+    answer: wound
+    feedback: wind → wound → wound (enrouler)
+  - id: irreg_wind_to_pp
+    question: "Quel est le participe passé de \"wind\" ?"
+    answer: wound
+    feedback: wind → wound → wound (enrouler)
+  - id: irreg_wind_from_past
+    question: "\"wound\" est le prétérit de quel verbe ?"
+    answer: wind
+    feedback: wind → wound → wound (enrouler)
+  - id: irreg_wind_fr_to_en
+    question: "Comment dit-on \"enrouler\" en anglais ? (infinitif)"
+    answer: wind
+    alternatives: [to wind]
+    feedback: "enrouler = wind (wound, wound)"

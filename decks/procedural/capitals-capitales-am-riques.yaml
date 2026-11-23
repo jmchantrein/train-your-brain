@@ -1,0 +1,320 @@
+name: Capitales - Amériques
+description: Capitales des pays des Amériques (35 pays)
+tags: [geographie, capitales, pays, culture-generale]
+category: [geographie, culture-generale]
+settings:
+  sequential: false
+  bidirectional: false
+metadata:
+  license: CC-BY-SA-4.0
+  source:
+    type: procedural
+    generator: capitals
+    version: 1.0.0
+    generatedAt: "2026-11-22"
+    parameters:
+      region: Americas
+cards:
+  - id: cap_ag_to_cap
+    question: "Quelle est la capitale d'Antigua-et-Barbuda 🇦🇬 ?"
+    answer: "Saint John's"
+    feedback: "Saint John's est la capitale d'Antigua-et-Barbuda."
+    alternatives: ["St. John's"]
+  - id: cap_ag_from_cap
+    question: "Saint John's est la capitale de quel pays ?"
+    answer: Antigua-et-Barbuda
+    feedback: "Saint John's est la capitale d'Antigua-et-Barbuda 🇦🇬."
+    alternatives: [Antigua and Barbuda]
+  - id: cap_ar_to_cap
+    question: "Quelle est la capitale de l'Argentine 🇦🇷 ?"
+    answer: Buenos Aires
+    feedback: "Buenos Aires est la capitale de l'Argentine."
+  - id: cap_ar_from_cap
+    question: Buenos Aires est la capitale de quel pays ?
+    answer: Argentine
+    feedback: "Buenos Aires est la capitale de l'Argentine 🇦🇷."
+    alternatives: [Argentina]
+  - id: cap_bs_to_cap
+    question: Quelle est la capitale des Bahamas 🇧🇸 ?
+    answer: Nassau
+    feedback: Nassau est la capitale des Bahamas.
+  - id: cap_bs_from_cap
+    question: Nassau est la capitale de quel pays ?
+    answer: Bahamas
+    feedback: Nassau est la capitale des Bahamas 🇧🇸.
+  - id: cap_bb_to_cap
+    question: Quelle est la capitale de la Barbade 🇧🇧 ?
+    answer: Bridgetown
+    feedback: Bridgetown est la capitale de la Barbade.
+  - id: cap_bb_from_cap
+    question: Bridgetown est la capitale de quel pays ?
+    answer: Barbade
+    feedback: Bridgetown est la capitale de la Barbade 🇧🇧.
+    alternatives: [Barbados]
+  - id: cap_bz_to_cap
+    question: Quelle est la capitale du Belize 🇧🇿 ?
+    answer: Belmopan
+    feedback: Belmopan est la capitale du Belize.
+  - id: cap_bz_from_cap
+    question: Belmopan est la capitale de quel pays ?
+    answer: Belize
+    feedback: Belmopan est la capitale du Belize 🇧🇿.
+  - id: cap_bo_to_cap
+    question: Quelle est la capitale de la Bolivie 🇧🇴 ?
+    answer: Sucre
+    feedback: Sucre est la capitale constitutionnelle de la Bolivie ; La Paz est le siège du gouvernement.
+    alternatives: [La Paz]
+  - id: cap_bo_from_cap
+    question: Sucre est la capitale de quel pays ?
+    answer: Bolivie
+    feedback: Sucre est la capitale constitutionnelle de la Bolivie ; La Paz est le siège du gouvernement.
+    alternatives: [Bolivia]
+  - id: cap_br_to_cap
+    question: Quelle est la capitale du Brésil 🇧🇷 ?
+    answer: Brasilia
+    feedback: Brasilia est la capitale du Brésil.
+  - id: cap_br_from_cap
+    question: Brasilia est la capitale de quel pays ?
+    answer: Brésil
+    feedback: Brasilia est la capitale du Brésil 🇧🇷.
+    alternatives: [Brazil]
+  - id: cap_ca_to_cap
+    question: Quelle est la capitale du Canada 🇨🇦 ?
+    answer: Ottawa
+    feedback: Ottawa est la capitale du Canada.
+  - id: cap_ca_from_cap
+    question: Ottawa est la capitale de quel pays ?
+    answer: Canada
+    feedback: Ottawa est la capitale du Canada 🇨🇦.
+  - id: cap_cl_to_cap
+    question: Quelle est la capitale du Chili 🇨🇱 ?
+    answer: Santiago
+    feedback: Santiago est la capitale du Chili.
+    alternatives: [Santiago du Chili]
+  - id: cap_cl_from_cap
+    question: Santiago est la capitale de quel pays ?
+    answer: Chili
+    feedback: Santiago est la capitale du Chili 🇨🇱.
+    alternatives: [Chile]
+  - id: cap_co_to_cap
+    question: Quelle est la capitale de la Colombie 🇨🇴 ?
+    answer: Bogota
+    feedback: Bogota est la capitale de la Colombie.
+  - id: cap_co_from_cap
+    question: Bogota est la capitale de quel pays ?
+    answer: Colombie
+    feedback: Bogota est la capitale de la Colombie 🇨🇴.
+    alternatives: [Colombia]
+  - id: cap_cr_to_cap
+    question: Quelle est la capitale du Costa Rica 🇨🇷 ?
+    answer: San José
+    feedback: San José est la capitale du Costa Rica.
+  - id: cap_cr_from_cap
+    question: San José est la capitale de quel pays ?
+    answer: Costa Rica
+    feedback: San José est la capitale du Costa Rica 🇨🇷.
+  - id: cap_cu_to_cap
+    question: Quelle est la capitale de Cuba 🇨🇺 ?
+    answer: La Havane
+    feedback: La Havane est la capitale de Cuba.
+    alternatives: [Havana, Havane]
+  - id: cap_cu_from_cap
+    question: La Havane est la capitale de quel pays ?
+    answer: Cuba
+    feedback: La Havane est la capitale de Cuba 🇨🇺.
+  - id: cap_dm_to_cap
+    question: Quelle est la capitale de la Dominique 🇩🇲 ?
+    answer: Roseau
+    feedback: Roseau est la capitale de la Dominique.
+  - id: cap_dm_from_cap
+    question: Roseau est la capitale de quel pays ?
+    answer: Dominique
+    feedback: Roseau est la capitale de la Dominique 🇩🇲.
+    alternatives: [Dominica]
+  - id: cap_do_to_cap
+    question: Quelle est la capitale de la République dominicaine 🇩🇴 ?
+    answer: Saint-Domingue
+    feedback: Saint-Domingue est la capitale de la République dominicaine.
+    alternatives: [Santo Domingo]
+  - id: cap_do_from_cap
+    question: Saint-Domingue est la capitale de quel pays ?
+    answer: République dominicaine
+    feedback: Saint-Domingue est la capitale de la République dominicaine 🇩🇴.
+    alternatives: [Dominican Republic]
+  - id: cap_ec_to_cap
+    question: "Quelle est la capitale de l'Équateur 🇪🇨 ?"
+    answer: Quito
+    feedback: "Quito est la capitale de l'Équateur."
+  - id: cap_ec_from_cap
+    question: Quito est la capitale de quel pays ?
+    answer: Équateur
+    feedback: "Quito est la capitale de l'Équateur 🇪🇨."
+    alternatives: [Ecuador]
+  - id: cap_sv_to_cap
+    question: Quelle est la capitale du Salvador 🇸🇻 ?
+    answer: San Salvador
+    feedback: San Salvador est la capitale du Salvador.
+  - id: cap_sv_from_cap
+    question: San Salvador est la capitale de quel pays ?
+    answer: Salvador
+    feedback: San Salvador est la capitale du Salvador 🇸🇻.
+    alternatives: [El Salvador]
+  - id: cap_gd_to_cap
+    question: Quelle est la capitale de la Grenade 🇬🇩 ?
+    answer: Saint-Georges
+    feedback: Saint-Georges est la capitale de la Grenade.
+    alternatives: ["St. George's"]
+  - id: cap_gd_from_cap
+    question: Saint-Georges est la capitale de quel pays ?
+    answer: Grenade
+    feedback: Saint-Georges est la capitale de la Grenade 🇬🇩.
+    alternatives: [Grenada]
+  - id: cap_gt_to_cap
+    question: Quelle est la capitale du Guatemala 🇬🇹 ?
+    answer: Guatemala
+    feedback: Guatemala est la capitale du Guatemala.
+    alternatives: [Guatemala City, Ciudad de Guatemala]
+  - id: cap_gy_to_cap
+    question: Quelle est la capitale du Guyana 🇬🇾 ?
+    answer: Georgetown
+    feedback: Georgetown est la capitale du Guyana.
+  - id: cap_gy_from_cap
+    question: Georgetown est la capitale de quel pays ?
+    answer: Guyana
+    feedback: Georgetown est la capitale du Guyana 🇬🇾.
+  - id: cap_ht_to_cap
+    question: "Quelle est la capitale d'Haïti 🇭🇹 ?"
+    answer: Port-au-Prince
+    feedback: "Port-au-Prince est la capitale d'Haïti."
+  - id: cap_ht_from_cap
+    question: Port-au-Prince est la capitale de quel pays ?
+    answer: Haïti
+    feedback: "Port-au-Prince est la capitale d'Haïti 🇭🇹."
+  - id: cap_hn_to_cap
+    question: Quelle est la capitale du Honduras 🇭🇳 ?
+    answer: Tegucigalpa
+    feedback: Tegucigalpa est la capitale du Honduras.
+  - id: cap_hn_from_cap
+    question: Tegucigalpa est la capitale de quel pays ?
+    answer: Honduras
+    feedback: Tegucigalpa est la capitale du Honduras 🇭🇳.
+  - id: cap_jm_to_cap
+    question: Quelle est la capitale de la Jamaïque 🇯🇲 ?
+    answer: Kingston
+    feedback: Kingston est la capitale de la Jamaïque.
+  - id: cap_jm_from_cap
+    question: Kingston est la capitale de quel pays ?
+    answer: Jamaïque
+    feedback: Kingston est la capitale de la Jamaïque 🇯🇲.
+    alternatives: [Jamaica]
+  - id: cap_mx_to_cap
+    question: Quelle est la capitale du Mexique 🇲🇽 ?
+    answer: Mexico
+    feedback: Mexico est la capitale du Mexique.
+    alternatives: [Mexico City, Ciudad de México, Mexico DF]
+  - id: cap_mx_from_cap
+    question: Mexico est la capitale de quel pays ?
+    answer: Mexique
+    feedback: Mexico est la capitale du Mexique 🇲🇽.
+  - id: cap_ni_to_cap
+    question: Quelle est la capitale du Nicaragua 🇳🇮 ?
+    answer: Managua
+    feedback: Managua est la capitale du Nicaragua.
+  - id: cap_ni_from_cap
+    question: Managua est la capitale de quel pays ?
+    answer: Nicaragua
+    feedback: Managua est la capitale du Nicaragua 🇳🇮.
+  - id: cap_pa_to_cap
+    question: Quelle est la capitale du Panama 🇵🇦 ?
+    answer: Panama
+    feedback: Panama est la capitale du Panama.
+    alternatives: [Panama City, Ciudad de Panamá, Panama (ville)]
+  - id: cap_py_to_cap
+    question: Quelle est la capitale du Paraguay 🇵🇾 ?
+    answer: Asuncion
+    feedback: Asuncion est la capitale du Paraguay.
+  - id: cap_py_from_cap
+    question: Asuncion est la capitale de quel pays ?
+    answer: Paraguay
+    feedback: Asuncion est la capitale du Paraguay 🇵🇾.
+  - id: cap_pe_to_cap
+    question: Quelle est la capitale du Pérou 🇵🇪 ?
+    answer: Lima
+    feedback: Lima est la capitale du Pérou.
+  - id: cap_pe_from_cap
+    question: Lima est la capitale de quel pays ?
+    answer: Pérou
+    feedback: Lima est la capitale du Pérou 🇵🇪.
+    alternatives: [Peru]
+  - id: cap_kn_to_cap
+    question: Quelle est la capitale de Saint-Christophe-et-Niévès 🇰🇳 ?
+    answer: Basseterre
+    feedback: Basseterre est la capitale de Saint-Christophe-et-Niévès.
+  - id: cap_kn_from_cap
+    question: Basseterre est la capitale de quel pays ?
+    answer: Saint-Christophe-et-Niévès
+    feedback: Basseterre est la capitale de Saint-Christophe-et-Niévès 🇰🇳.
+    alternatives: [Saint Kitts and Nevis, Saint-Kitts-et-Nevis]
+  - id: cap_lc_to_cap
+    question: Quelle est la capitale de Sainte-Lucie 🇱🇨 ?
+    answer: Castries
+    feedback: Castries est la capitale de Sainte-Lucie.
+  - id: cap_lc_from_cap
+    question: Castries est la capitale de quel pays ?
+    answer: Sainte-Lucie
+    feedback: Castries est la capitale de Sainte-Lucie 🇱🇨.
+    alternatives: [Saint Lucia]
+  - id: cap_vc_to_cap
+    question: Quelle est la capitale de Saint-Vincent-et-les-Grenadines 🇻🇨 ?
+    answer: Kingstown
+    feedback: Kingstown est la capitale de Saint-Vincent-et-les-Grenadines.
+  - id: cap_vc_from_cap
+    question: Kingstown est la capitale de quel pays ?
+    answer: Saint-Vincent-et-les-Grenadines
+    feedback: Kingstown est la capitale de Saint-Vincent-et-les-Grenadines 🇻🇨.
+    alternatives: [Saint Vincent and the Grenadines]
+  - id: cap_sr_to_cap
+    question: Quelle est la capitale du Suriname 🇸🇷 ?
+    answer: Paramaribo
+    feedback: Paramaribo est la capitale du Suriname.
+  - id: cap_sr_from_cap
+    question: Paramaribo est la capitale de quel pays ?
+    answer: Suriname
+    feedback: Paramaribo est la capitale du Suriname 🇸🇷.
+    alternatives: [Surinam]
+  - id: cap_tt_to_cap
+    question: Quelle est la capitale de Trinité-et-Tobago 🇹🇹 ?
+    answer: "Port-d'Espagne"
+    feedback: "Port-d'Espagne est la capitale de Trinité-et-Tobago."
+    alternatives: [Port of Spain]
+  - id: cap_tt_from_cap
+    question: "Port-d'Espagne est la capitale de quel pays ?"
+    answer: Trinité-et-Tobago
+    feedback: "Port-d'Espagne est la capitale de Trinité-et-Tobago 🇹🇹."
+    alternatives: [Trinidad and Tobago]
+  - id: cap_us_to_cap
+    question: Quelle est la capitale des États-Unis 🇺🇸 ?
+    answer: Washington
+    feedback: Washington est la capitale des États-Unis.
+    alternatives: [Washington D.C.]
+  - id: cap_us_from_cap
+    question: Washington est la capitale de quel pays ?
+    answer: États-Unis
+    feedback: Washington est la capitale des États-Unis 🇺🇸.
+    alternatives: [United States]
+  - id: cap_uy_to_cap
+    question: "Quelle est la capitale de l'Uruguay 🇺🇾 ?"
+    answer: Montevideo
+    feedback: "Montevideo est la capitale de l'Uruguay."
+  - id: cap_uy_from_cap
+    question: Montevideo est la capitale de quel pays ?
+    answer: Uruguay
+    feedback: "Montevideo est la capitale de l'Uruguay 🇺🇾."
+  - id: cap_ve_to_cap
+    question: Quelle est la capitale du Venezuela 🇻🇪 ?
+    answer: Caracas
+    feedback: Caracas est la capitale du Venezuela.
+  - id: cap_ve_from_cap
+    question: Caracas est la capitale de quel pays ?
+    answer: Venezuela
+    feedback: Caracas est la capitale du Venezuela 🇻🇪.

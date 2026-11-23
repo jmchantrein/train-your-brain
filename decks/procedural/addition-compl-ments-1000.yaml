@@ -1,0 +1,75 @@
+name: Compléments à 1000
+description: Trouver le nombre qui complète à 1000 (centaines)
+tags: [math, addition, calcul-mental, ce2]
+category: [sciences, maths, arithmetique, operations-base, additions, calcul-mental, ce2]
+settings:
+  sequential: false
+  bidirectional: false
+metadata:
+  license: CC-BY-SA-4.0
+  source:
+    type: procedural
+    generator: addition
+    version: 1.0.0
+    generatedAt: "2026-11-22"
+    parameters:
+      type: complements-1000
+resources:
+  - type: summary
+    title: Les compléments à 1000
+    content: "Les **compléments à 1000** (par centaines) sont les paires de nombres dont la somme fait 1000.\n\nCe deck se concentre sur les centaines : 100+900, 200+800, 300+700, etc.\n\nCette compétence est utile pour :\n- Manipuler les grands nombres facilement\n- Les additions et soustractions à 4 chiffres\n- Le calcul mental avec des montants en euros"
+    aiGenerated: true
+    icon: 📝
+  - type: objective
+    title: "Objectifs d'apprentissage"
+    content: "- ✅ Connaître par cœur les compléments à 1000 (centaines)\n- ✅ Faire le lien avec les compléments à 10 et 100\n- ✅ Appliquer au calcul mental quotidien"
+    icon: 🎯
+  - type: tip
+    title: Lien avec les compléments à 10
+    content: "Les compléments à 1000 suivent la même logique que les compléments à 10 !\n\n300 + 700 = 1000 → car 3 + 7 = 10\n400 + 600 = 1000 → car 4 + 6 = 10\n\nIl suffit d'ajouter deux 0 à droite."
+    icon: 💡
+cards:
+  - id: add_comp1000_0
+    question: 0 + ? = 1000
+    answer: "1000"
+    feedback: 0 + 1000 = 1000
+  - id: add_comp1000_100
+    question: 100 + ? = 1000
+    answer: "900"
+    feedback: 100 + 900 = 1000
+  - id: add_comp1000_200
+    question: 200 + ? = 1000
+    answer: "800"
+    feedback: 200 + 800 = 1000
+  - id: add_comp1000_300
+    question: 300 + ? = 1000
+    answer: "700"
+    feedback: 300 + 700 = 1000
+  - id: add_comp1000_400
+    question: 400 + ? = 1000
+    answer: "600"
+    feedback: 400 + 600 = 1000
+  - id: add_comp1000_500
+    question: 500 + ? = 1000
+    answer: "500"
+    feedback: 500 + 500 = 1000
+  - id: add_comp1000_600
+    question: 600 + ? = 1000
+    answer: "400"
+    feedback: 600 + 400 = 1000
+  - id: add_comp1000_700
+    question: 700 + ? = 1000
+    answer: "300"
+    feedback: 700 + 300 = 1000
+  - id: add_comp1000_800
+    question: 800 + ? = 1000
+    answer: "200"
+    feedback: 800 + 200 = 1000
+  - id: add_comp1000_900
+    question: 900 + ? = 1000
+    answer: "100"
+    feedback: 900 + 100 = 1000
+  - id: add_comp1000_1000
+    question: 1000 + ? = 1000
+    answer: "0"
+    feedback: 1000 + 0 = 1000

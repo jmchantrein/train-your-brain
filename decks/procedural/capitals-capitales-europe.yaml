@@ -1,0 +1,416 @@
+name: Capitales - Europe
+description: "Capitales des pays d'Europe (45 pays)"
+tags: [geographie, capitales, pays, culture-generale]
+category: [geographie, culture-generale]
+settings:
+  sequential: false
+  bidirectional: false
+metadata:
+  license: CC-BY-SA-4.0
+  source:
+    type: procedural
+    generator: capitals
+    version: 1.0.0
+    generatedAt: "2026-11-22"
+    parameters:
+      region: Europe
+cards:
+  - id: cap_al_to_cap
+    question: "Quelle est la capitale de l'Albanie 🇦🇱 ?"
+    answer: Tirana
+    feedback: "Tirana est la capitale de l'Albanie."
+  - id: cap_al_from_cap
+    question: Tirana est la capitale de quel pays ?
+    answer: Albanie
+    feedback: "Tirana est la capitale de l'Albanie 🇦🇱."
+    alternatives: [Albania]
+  - id: cap_ad_to_cap
+    question: "Quelle est la capitale de l'Andorre 🇦🇩 ?"
+    answer: Andorre-la-Vieille
+    feedback: "Andorre-la-Vieille est la capitale de l'Andorre."
+    alternatives: [Andorra la Vella]
+  - id: cap_ad_from_cap
+    question: Andorre-la-Vieille est la capitale de quel pays ?
+    answer: Andorre
+    feedback: "Andorre-la-Vieille est la capitale de l'Andorre 🇦🇩."
+    alternatives: [Andorra]
+  - id: cap_at_to_cap
+    question: "Quelle est la capitale de l'Autriche 🇦🇹 ?"
+    answer: Vienne
+    feedback: "Vienne est la capitale de l'Autriche."
+    alternatives: [Vienna]
+  - id: cap_at_from_cap
+    question: Vienne est la capitale de quel pays ?
+    answer: Autriche
+    feedback: "Vienne est la capitale de l'Autriche 🇦🇹."
+    alternatives: [Austria]
+  - id: cap_by_to_cap
+    question: Quelle est la capitale de la Biélorussie 🇧🇾 ?
+    answer: Minsk
+    feedback: Minsk est la capitale de la Biélorussie.
+  - id: cap_by_from_cap
+    question: Minsk est la capitale de quel pays ?
+    answer: Biélorussie
+    feedback: Minsk est la capitale de la Biélorussie 🇧🇾.
+    alternatives: [Belarus]
+  - id: cap_be_to_cap
+    question: Quelle est la capitale de la Belgique 🇧🇪 ?
+    answer: Bruxelles
+    feedback: Bruxelles est la capitale de la Belgique.
+    alternatives: [Brussels]
+  - id: cap_be_from_cap
+    question: Bruxelles est la capitale de quel pays ?
+    answer: Belgique
+    feedback: Bruxelles est la capitale de la Belgique 🇧🇪.
+    alternatives: [Belgium]
+  - id: cap_ba_to_cap
+    question: Quelle est la capitale de la Bosnie-Herzégovine 🇧🇦 ?
+    answer: Sarajevo
+    feedback: Sarajevo est la capitale de la Bosnie-Herzégovine.
+  - id: cap_ba_from_cap
+    question: Sarajevo est la capitale de quel pays ?
+    answer: Bosnie-Herzégovine
+    feedback: Sarajevo est la capitale de la Bosnie-Herzégovine 🇧🇦.
+    alternatives: [Bosnia and Herzegovina]
+  - id: cap_bg_to_cap
+    question: Quelle est la capitale de la Bulgarie 🇧🇬 ?
+    answer: Sofia
+    feedback: Sofia est la capitale de la Bulgarie.
+  - id: cap_bg_from_cap
+    question: Sofia est la capitale de quel pays ?
+    answer: Bulgarie
+    feedback: Sofia est la capitale de la Bulgarie 🇧🇬.
+    alternatives: [Bulgaria]
+  - id: cap_hr_to_cap
+    question: Quelle est la capitale de la Croatie 🇭🇷 ?
+    answer: Zagreb
+    feedback: Zagreb est la capitale de la Croatie.
+  - id: cap_hr_from_cap
+    question: Zagreb est la capitale de quel pays ?
+    answer: Croatie
+    feedback: Zagreb est la capitale de la Croatie 🇭🇷.
+    alternatives: [Croatia]
+  - id: cap_cy_to_cap
+    question: Quelle est la capitale de Chypre 🇨🇾 ?
+    answer: Nicosie
+    feedback: Nicosie est la capitale de Chypre.
+    alternatives: [Nicosia]
+  - id: cap_cy_from_cap
+    question: Nicosie est la capitale de quel pays ?
+    answer: Chypre
+    feedback: Nicosie est la capitale de Chypre 🇨🇾.
+    alternatives: [Cyprus]
+  - id: cap_cz_to_cap
+    question: Quelle est la capitale de la Tchéquie 🇨🇿 ?
+    answer: Prague
+    feedback: Prague est la capitale de la Tchéquie.
+  - id: cap_cz_from_cap
+    question: Prague est la capitale de quel pays ?
+    answer: Tchéquie
+    feedback: Prague est la capitale de la Tchéquie 🇨🇿.
+    alternatives: [Czechia, République tchèque]
+  - id: cap_dk_to_cap
+    question: Quelle est la capitale du Danemark 🇩🇰 ?
+    answer: Copenhague
+    feedback: Copenhague est la capitale du Danemark.
+    alternatives: [Copenhagen]
+  - id: cap_dk_from_cap
+    question: Copenhague est la capitale de quel pays ?
+    answer: Danemark
+    feedback: Copenhague est la capitale du Danemark 🇩🇰.
+    alternatives: [Denmark]
+  - id: cap_ee_to_cap
+    question: "Quelle est la capitale de l'Estonie 🇪🇪 ?"
+    answer: Tallinn
+    feedback: "Tallinn est la capitale de l'Estonie."
+  - id: cap_ee_from_cap
+    question: Tallinn est la capitale de quel pays ?
+    answer: Estonie
+    feedback: "Tallinn est la capitale de l'Estonie 🇪🇪."
+    alternatives: [Estonia]
+  - id: cap_fi_to_cap
+    question: Quelle est la capitale de la Finlande 🇫🇮 ?
+    answer: Helsinki
+    feedback: Helsinki est la capitale de la Finlande.
+  - id: cap_fi_from_cap
+    question: Helsinki est la capitale de quel pays ?
+    answer: Finlande
+    feedback: Helsinki est la capitale de la Finlande 🇫🇮.
+    alternatives: [Finland]
+  - id: cap_fr_to_cap
+    question: Quelle est la capitale de la France 🇫🇷 ?
+    answer: Paris
+    feedback: Paris est la capitale de la France.
+  - id: cap_fr_from_cap
+    question: Paris est la capitale de quel pays ?
+    answer: France
+    feedback: Paris est la capitale de la France 🇫🇷.
+  - id: cap_de_to_cap
+    question: "Quelle est la capitale de l'Allemagne 🇩🇪 ?"
+    answer: Berlin
+    feedback: "Berlin est la capitale de l'Allemagne."
+  - id: cap_de_from_cap
+    question: Berlin est la capitale de quel pays ?
+    answer: Allemagne
+    feedback: "Berlin est la capitale de l'Allemagne 🇩🇪."
+    alternatives: [Germany]
+  - id: cap_gr_to_cap
+    question: Quelle est la capitale de la Grèce 🇬🇷 ?
+    answer: Athènes
+    feedback: Athènes est la capitale de la Grèce.
+    alternatives: [Athens]
+  - id: cap_gr_from_cap
+    question: Athènes est la capitale de quel pays ?
+    answer: Grèce
+    feedback: Athènes est la capitale de la Grèce 🇬🇷.
+    alternatives: [Greece]
+  - id: cap_hu_to_cap
+    question: Quelle est la capitale de la Hongrie 🇭🇺 ?
+    answer: Budapest
+    feedback: Budapest est la capitale de la Hongrie.
+  - id: cap_hu_from_cap
+    question: Budapest est la capitale de quel pays ?
+    answer: Hongrie
+    feedback: Budapest est la capitale de la Hongrie 🇭🇺.
+    alternatives: [Hungary]
+  - id: cap_is_to_cap
+    question: "Quelle est la capitale de l'Islande 🇮🇸 ?"
+    answer: Reykjavik
+    feedback: "Reykjavik est la capitale de l'Islande."
+  - id: cap_is_from_cap
+    question: Reykjavik est la capitale de quel pays ?
+    answer: Islande
+    feedback: "Reykjavik est la capitale de l'Islande 🇮🇸."
+    alternatives: [Iceland]
+  - id: cap_ie_to_cap
+    question: "Quelle est la capitale de l'Irlande 🇮🇪 ?"
+    answer: Dublin
+    feedback: "Dublin est la capitale de l'Irlande."
+  - id: cap_ie_from_cap
+    question: Dublin est la capitale de quel pays ?
+    answer: Irlande
+    feedback: "Dublin est la capitale de l'Irlande 🇮🇪."
+    alternatives: [Ireland]
+  - id: cap_it_to_cap
+    question: "Quelle est la capitale de l'Italie 🇮🇹 ?"
+    answer: Rome
+    feedback: "Rome est la capitale de l'Italie."
+  - id: cap_it_from_cap
+    question: Rome est la capitale de quel pays ?
+    answer: Italie
+    feedback: "Rome est la capitale de l'Italie 🇮🇹."
+    alternatives: [Italy]
+  - id: cap_lv_to_cap
+    question: Quelle est la capitale de la Lettonie 🇱🇻 ?
+    answer: Riga
+    feedback: Riga est la capitale de la Lettonie.
+  - id: cap_lv_from_cap
+    question: Riga est la capitale de quel pays ?
+    answer: Lettonie
+    feedback: Riga est la capitale de la Lettonie 🇱🇻.
+    alternatives: [Latvia]
+  - id: cap_li_to_cap
+    question: Quelle est la capitale du Liechtenstein 🇱🇮 ?
+    answer: Vaduz
+    feedback: Vaduz est la capitale du Liechtenstein.
+  - id: cap_li_from_cap
+    question: Vaduz est la capitale de quel pays ?
+    answer: Liechtenstein
+    feedback: Vaduz est la capitale du Liechtenstein 🇱🇮.
+  - id: cap_lt_to_cap
+    question: Quelle est la capitale de la Lituanie 🇱🇹 ?
+    answer: Vilnius
+    feedback: Vilnius est la capitale de la Lituanie.
+  - id: cap_lt_from_cap
+    question: Vilnius est la capitale de quel pays ?
+    answer: Lituanie
+    feedback: Vilnius est la capitale de la Lituanie 🇱🇹.
+    alternatives: [Lithuania]
+  - id: cap_lu_to_cap
+    question: Quelle est la capitale du Luxembourg 🇱🇺 ?
+    answer: Luxembourg
+    feedback: Luxembourg est la capitale du Luxembourg.
+    alternatives: [Luxembourg-Ville]
+  - id: cap_mt_to_cap
+    question: Quelle est la capitale de Malte 🇲🇹 ?
+    answer: La Valette
+    feedback: La Valette est la capitale de Malte.
+    alternatives: [Valletta, Valette]
+  - id: cap_mt_from_cap
+    question: La Valette est la capitale de quel pays ?
+    answer: Malte
+    feedback: La Valette est la capitale de Malte 🇲🇹.
+    alternatives: [Malta]
+  - id: cap_md_to_cap
+    question: Quelle est la capitale de la Moldavie 🇲🇩 ?
+    answer: Chisinau
+    feedback: Chisinau est la capitale de la Moldavie.
+    alternatives: [Kichinev]
+  - id: cap_md_from_cap
+    question: Chisinau est la capitale de quel pays ?
+    answer: Moldavie
+    feedback: Chisinau est la capitale de la Moldavie 🇲🇩.
+    alternatives: [Moldova]
+  - id: cap_mc_to_cap
+    question: Quelle est la capitale de Monaco 🇲🇨 ?
+    answer: Monaco
+    feedback: Monaco est la capitale de Monaco.
+    alternatives: [Monaco-Ville]
+  - id: cap_me_to_cap
+    question: Quelle est la capitale du Monténégro 🇲🇪 ?
+    answer: Podgorica
+    feedback: Podgorica est la capitale du Monténégro.
+  - id: cap_me_from_cap
+    question: Podgorica est la capitale de quel pays ?
+    answer: Monténégro
+    feedback: Podgorica est la capitale du Monténégro 🇲🇪.
+  - id: cap_nl_to_cap
+    question: Quelle est la capitale des Pays-Bas 🇳🇱 ?
+    answer: Amsterdam
+    feedback: Amsterdam est la capitale constitutionnelle des Pays-Bas ; le gouvernement et le parlement siègent à La Haye.
+  - id: cap_nl_from_cap
+    question: Amsterdam est la capitale de quel pays ?
+    answer: Pays-Bas
+    feedback: Amsterdam est la capitale constitutionnelle des Pays-Bas ; le gouvernement et le parlement siègent à La Haye.
+    alternatives: [Netherlands, Hollande]
+  - id: cap_mk_to_cap
+    question: Quelle est la capitale de la Macédoine du Nord 🇲🇰 ?
+    answer: Skopje
+    feedback: Skopje est la capitale de la Macédoine du Nord.
+  - id: cap_mk_from_cap
+    question: Skopje est la capitale de quel pays ?
+    answer: Macédoine du Nord
+    feedback: Skopje est la capitale de la Macédoine du Nord 🇲🇰.
+    alternatives: [North Macedonia, Macédoine]
+  - id: cap_no_to_cap
+    question: Quelle est la capitale de la Norvège 🇳🇴 ?
+    answer: Oslo
+    feedback: Oslo est la capitale de la Norvège.
+  - id: cap_no_from_cap
+    question: Oslo est la capitale de quel pays ?
+    answer: Norvège
+    feedback: Oslo est la capitale de la Norvège 🇳🇴.
+    alternatives: [Norway]
+  - id: cap_pl_to_cap
+    question: Quelle est la capitale de la Pologne 🇵🇱 ?
+    answer: Varsovie
+    feedback: Varsovie est la capitale de la Pologne.
+    alternatives: [Warsaw]
+  - id: cap_pl_from_cap
+    question: Varsovie est la capitale de quel pays ?
+    answer: Pologne
+    feedback: Varsovie est la capitale de la Pologne 🇵🇱.
+    alternatives: [Poland]
+  - id: cap_pt_to_cap
+    question: Quelle est la capitale du Portugal 🇵🇹 ?
+    answer: Lisbonne
+    feedback: Lisbonne est la capitale du Portugal.
+    alternatives: [Lisbon]
+  - id: cap_pt_from_cap
+    question: Lisbonne est la capitale de quel pays ?
+    answer: Portugal
+    feedback: Lisbonne est la capitale du Portugal 🇵🇹.
+  - id: cap_ro_to_cap
+    question: Quelle est la capitale de la Roumanie 🇷🇴 ?
+    answer: Bucarest
+    feedback: Bucarest est la capitale de la Roumanie.
+    alternatives: [Bucharest]
+  - id: cap_ro_from_cap
+    question: Bucarest est la capitale de quel pays ?
+    answer: Roumanie
+    feedback: Bucarest est la capitale de la Roumanie 🇷🇴.
+    alternatives: [Romania]
+  - id: cap_ru_to_cap
+    question: Quelle est la capitale de la Russie 🇷🇺 ?
+    answer: Moscou
+    feedback: Moscou est la capitale de la Russie.
+    alternatives: [Moscow]
+  - id: cap_ru_from_cap
+    question: Moscou est la capitale de quel pays ?
+    answer: Russie
+    feedback: Moscou est la capitale de la Russie 🇷🇺.
+    alternatives: [Russia]
+  - id: cap_sm_to_cap
+    question: Quelle est la capitale de Saint-Marin 🇸🇲 ?
+    answer: Saint-Marin
+    feedback: Saint-Marin est la capitale de Saint-Marin.
+    alternatives: [City of San Marino, San Marino]
+  - id: cap_rs_to_cap
+    question: Quelle est la capitale de la Serbie 🇷🇸 ?
+    answer: Belgrade
+    feedback: Belgrade est la capitale de la Serbie.
+  - id: cap_rs_from_cap
+    question: Belgrade est la capitale de quel pays ?
+    answer: Serbie
+    feedback: Belgrade est la capitale de la Serbie 🇷🇸.
+    alternatives: [Serbia]
+  - id: cap_sk_to_cap
+    question: Quelle est la capitale de la Slovaquie 🇸🇰 ?
+    answer: Bratislava
+    feedback: Bratislava est la capitale de la Slovaquie.
+  - id: cap_sk_from_cap
+    question: Bratislava est la capitale de quel pays ?
+    answer: Slovaquie
+    feedback: Bratislava est la capitale de la Slovaquie 🇸🇰.
+    alternatives: [Slovakia]
+  - id: cap_si_to_cap
+    question: Quelle est la capitale de la Slovénie 🇸🇮 ?
+    answer: Ljubljana
+    feedback: Ljubljana est la capitale de la Slovénie.
+  - id: cap_si_from_cap
+    question: Ljubljana est la capitale de quel pays ?
+    answer: Slovénie
+    feedback: Ljubljana est la capitale de la Slovénie 🇸🇮.
+    alternatives: [Slovenia]
+  - id: cap_es_to_cap
+    question: "Quelle est la capitale de l'Espagne 🇪🇸 ?"
+    answer: Madrid
+    feedback: "Madrid est la capitale de l'Espagne."
+  - id: cap_es_from_cap
+    question: Madrid est la capitale de quel pays ?
+    answer: Espagne
+    feedback: "Madrid est la capitale de l'Espagne 🇪🇸."
+    alternatives: [Spain]
+  - id: cap_se_to_cap
+    question: Quelle est la capitale de la Suède 🇸🇪 ?
+    answer: Stockholm
+    feedback: Stockholm est la capitale de la Suède.
+  - id: cap_se_from_cap
+    question: Stockholm est la capitale de quel pays ?
+    answer: Suède
+    feedback: Stockholm est la capitale de la Suède 🇸🇪.
+    alternatives: [Sweden]
+  - id: cap_ch_to_cap
+    question: Quelle est la capitale de la Suisse 🇨🇭 ?
+    answer: Berne
+    feedback: Berne est la capitale de la Suisse.
+    alternatives: [Bern]
+  - id: cap_ch_from_cap
+    question: Berne est la capitale de quel pays ?
+    answer: Suisse
+    feedback: Berne est la capitale de la Suisse 🇨🇭.
+    alternatives: [Switzerland]
+  - id: cap_ua_to_cap
+    question: "Quelle est la capitale de l'Ukraine 🇺🇦 ?"
+    answer: Kiev
+    feedback: "Kiev est la capitale de l'Ukraine."
+    alternatives: [Kyiv, Kiyv]
+  - id: cap_ua_from_cap
+    question: Kiev est la capitale de quel pays ?
+    answer: Ukraine
+    feedback: "Kiev est la capitale de l'Ukraine 🇺🇦."
+  - id: cap_gb_to_cap
+    question: Quelle est la capitale du Royaume-Uni 🇬🇧 ?
+    answer: Londres
+    feedback: Londres est la capitale du Royaume-Uni.
+    alternatives: [London]
+  - id: cap_gb_from_cap
+    question: Londres est la capitale de quel pays ?
+    answer: Royaume-Uni
+    feedback: Londres est la capitale du Royaume-Uni 🇬🇧.
+    alternatives: [United Kingdom]
+  - id: cap_va_to_cap
+    question: Quelle est la capitale de la Cité du Vatican 🇻🇦 ?
+    answer: Cité du Vatican
+    feedback: Cité du Vatican est la capitale de la Cité du Vatican.
+    alternatives: [Vatican City, Vatican]

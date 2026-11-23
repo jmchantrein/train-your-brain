@@ -1,0 +1,139 @@
+name: Capitales - Océanie
+description: "Capitales des pays d'Océanie (14 pays)"
+tags: [geographie, capitales, pays, culture-generale]
+category: [geographie, culture-generale]
+settings:
+  sequential: false
+  bidirectional: false
+metadata:
+  license: CC-BY-SA-4.0
+  source:
+    type: procedural
+    generator: capitals
+    version: 1.0.0
+    generatedAt: "2026-11-22"
+    parameters:
+      region: Oceania
+cards:
+  - id: cap_au_to_cap
+    question: "Quelle est la capitale de l'Australie 🇦🇺 ?"
+    answer: Canberra
+    feedback: "Canberra est la capitale de l'Australie."
+  - id: cap_au_from_cap
+    question: Canberra est la capitale de quel pays ?
+    answer: Australie
+    feedback: "Canberra est la capitale de l'Australie 🇦🇺."
+    alternatives: [Australia]
+  - id: cap_fj_to_cap
+    question: Quelle est la capitale des Fidji 🇫🇯 ?
+    answer: Suva
+    feedback: Suva est la capitale des Fidji.
+  - id: cap_fj_from_cap
+    question: Suva est la capitale de quel pays ?
+    answer: Fidji
+    feedback: Suva est la capitale des Fidji 🇫🇯.
+    alternatives: [Fiji]
+  - id: cap_ki_to_cap
+    question: Quelle est la capitale de Kiribati 🇰🇮 ?
+    answer: Tarawa-Sud
+    feedback: Tarawa-Sud est la capitale de Kiribati.
+    alternatives: [South Tarawa, Tarawa]
+  - id: cap_ki_from_cap
+    question: Tarawa-Sud est la capitale de quel pays ?
+    answer: Kiribati
+    feedback: Tarawa-Sud est la capitale de Kiribati 🇰🇮.
+  - id: cap_mh_to_cap
+    question: Quelle est la capitale des îles Marshall 🇲🇭 ?
+    answer: Majuro
+    feedback: Majuro est la capitale des îles Marshall.
+  - id: cap_mh_from_cap
+    question: Majuro est la capitale de quel pays ?
+    answer: Îles Marshall
+    feedback: Majuro est la capitale des îles Marshall 🇲🇭.
+    alternatives: [Marshall Islands, Marshall]
+  - id: cap_fm_to_cap
+    question: Quelle est la capitale de la Micronésie 🇫🇲 ?
+    answer: Palikir
+    feedback: Palikir est la capitale de la Micronésie.
+  - id: cap_fm_from_cap
+    question: Palikir est la capitale de quel pays ?
+    answer: Micronésie
+    feedback: Palikir est la capitale de la Micronésie 🇫🇲.
+    alternatives: [Micronesia, États fédérés de Micronésie]
+  - id: cap_nr_to_cap
+    question: Quelle est la capitale de Nauru 🇳🇷 ?
+    answer: Yaren
+    feedback: "Nauru n'a pas de capitale officielle ; Yaren est le siège du gouvernement."
+  - id: cap_nr_from_cap
+    question: Yaren est la capitale de quel pays ?
+    answer: Nauru
+    feedback: "Nauru n'a pas de capitale officielle ; Yaren est le siège du gouvernement."
+  - id: cap_nz_to_cap
+    question: Quelle est la capitale de la Nouvelle-Zélande 🇳🇿 ?
+    answer: Wellington
+    feedback: Wellington est la capitale de la Nouvelle-Zélande.
+  - id: cap_nz_from_cap
+    question: Wellington est la capitale de quel pays ?
+    answer: Nouvelle-Zélande
+    feedback: Wellington est la capitale de la Nouvelle-Zélande 🇳🇿.
+    alternatives: [New Zealand]
+  - id: cap_pw_to_cap
+    question: Quelle est la capitale des Palaos 🇵🇼 ?
+    answer: Ngerulmud
+    feedback: Ngerulmud est la capitale des Palaos.
+    alternatives: [Melekeok]
+  - id: cap_pw_from_cap
+    question: Ngerulmud est la capitale de quel pays ?
+    answer: Palaos
+    feedback: Ngerulmud est la capitale des Palaos 🇵🇼.
+    alternatives: [Palau]
+  - id: cap_pg_to_cap
+    question: Quelle est la capitale de la Papouasie-Nouvelle-Guinée 🇵🇬 ?
+    answer: Port Moresby
+    feedback: Port Moresby est la capitale de la Papouasie-Nouvelle-Guinée.
+  - id: cap_pg_from_cap
+    question: Port Moresby est la capitale de quel pays ?
+    answer: Papouasie-Nouvelle-Guinée
+    feedback: Port Moresby est la capitale de la Papouasie-Nouvelle-Guinée 🇵🇬.
+    alternatives: [Papua New Guinea]
+  - id: cap_ws_to_cap
+    question: Quelle est la capitale de Samoa 🇼🇸 ?
+    answer: Apia
+    feedback: Apia est la capitale de Samoa.
+  - id: cap_ws_from_cap
+    question: Apia est la capitale de quel pays ?
+    answer: Samoa
+    feedback: Apia est la capitale de Samoa 🇼🇸.
+  - id: cap_sb_to_cap
+    question: Quelle est la capitale des îles Salomon 🇸🇧 ?
+    answer: Honiara
+    feedback: Honiara est la capitale des îles Salomon.
+  - id: cap_sb_from_cap
+    question: Honiara est la capitale de quel pays ?
+    answer: Îles Salomon
+    feedback: Honiara est la capitale des îles Salomon 🇸🇧.
+    alternatives: [Solomon Islands, Salomon]
+  - id: cap_to_to_cap
+    question: Quelle est la capitale de Tonga 🇹🇴 ?
+    answer: "Nuku'alofa"
+    feedback: "Nuku'alofa est la capitale de Tonga."
+  - id: cap_to_from_cap
+    question: "Nuku'alofa est la capitale de quel pays ?"
+    answer: Tonga
+    feedback: "Nuku'alofa est la capitale de Tonga 🇹🇴."
+  - id: cap_tv_to_cap
+    question: Quelle est la capitale de Tuvalu 🇹🇻 ?
+    answer: Funafuti
+    feedback: Funafuti est la capitale de Tuvalu.
+  - id: cap_tv_from_cap
+    question: Funafuti est la capitale de quel pays ?
+    answer: Tuvalu
+    feedback: Funafuti est la capitale de Tuvalu 🇹🇻.
+  - id: cap_vu_to_cap
+    question: Quelle est la capitale du Vanuatu 🇻🇺 ?
+    answer: Port-Vila
+    feedback: Port-Vila est la capitale du Vanuatu.
+  - id: cap_vu_from_cap
+    question: Port-Vila est la capitale de quel pays ?
+    answer: Vanuatu
+    feedback: Port-Vila est la capitale du Vanuatu 🇻🇺.

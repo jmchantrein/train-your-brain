@@ -1,0 +1,785 @@
+name: Départements - Numéros (Métropole)
+description: Numéros et noms des départements métropolitains (96)
+tags: [geographie, france, departements, culture-generale]
+category: [geographie, culture-generale]
+settings:
+  sequential: false
+  bidirectional: false
+metadata:
+  license: CC-BY-SA-4.0
+  source:
+    type: procedural
+    generator: fr-departments
+    version: 1.0.0
+    generatedAt: "2026-11-22"
+    parameters:
+      type: numbers-metro
+cards:
+  - id: dept_01_num_to_name
+    question: Département n°01 ?
+    answer: Ain
+    feedback: "Le département 01 est Ain (préfecture: Bourg-en-Bresse)."
+  - id: dept_01_name_to_num
+    question: Numéro du département Ain ?
+    answer: "01"
+    feedback: Ain est le département n°01.
+  - id: dept_02_num_to_name
+    question: Département n°02 ?
+    answer: Aisne
+    feedback: "Le département 02 est Aisne (préfecture: Laon)."
+  - id: dept_02_name_to_num
+    question: Numéro du département Aisne ?
+    answer: "02"
+    feedback: Aisne est le département n°02.
+  - id: dept_03_num_to_name
+    question: Département n°03 ?
+    answer: Allier
+    feedback: "Le département 03 est Allier (préfecture: Moulins)."
+  - id: dept_03_name_to_num
+    question: Numéro du département Allier ?
+    answer: "03"
+    feedback: Allier est le département n°03.
+  - id: dept_04_num_to_name
+    question: Département n°04 ?
+    answer: Alpes-de-Haute-Provence
+    feedback: "Le département 04 est Alpes-de-Haute-Provence (préfecture: Digne-les-Bains)."
+  - id: dept_04_name_to_num
+    question: Numéro du département Alpes-de-Haute-Provence ?
+    answer: "04"
+    feedback: Alpes-de-Haute-Provence est le département n°04.
+  - id: dept_05_num_to_name
+    question: Département n°05 ?
+    answer: Hautes-Alpes
+    feedback: "Le département 05 est Hautes-Alpes (préfecture: Gap)."
+  - id: dept_05_name_to_num
+    question: Numéro du département Hautes-Alpes ?
+    answer: "05"
+    feedback: Hautes-Alpes est le département n°05.
+  - id: dept_06_num_to_name
+    question: Département n°06 ?
+    answer: Alpes-Maritimes
+    feedback: "Le département 06 est Alpes-Maritimes (préfecture: Nice)."
+  - id: dept_06_name_to_num
+    question: Numéro du département Alpes-Maritimes ?
+    answer: "06"
+    feedback: Alpes-Maritimes est le département n°06.
+  - id: dept_07_num_to_name
+    question: Département n°07 ?
+    answer: Ardèche
+    feedback: "Le département 07 est Ardèche (préfecture: Privas)."
+  - id: dept_07_name_to_num
+    question: Numéro du département Ardèche ?
+    answer: "07"
+    feedback: Ardèche est le département n°07.
+  - id: dept_08_num_to_name
+    question: Département n°08 ?
+    answer: Ardennes
+    feedback: "Le département 08 est Ardennes (préfecture: Charleville-Mézières)."
+  - id: dept_08_name_to_num
+    question: Numéro du département Ardennes ?
+    answer: "08"
+    feedback: Ardennes est le département n°08.
+  - id: dept_09_num_to_name
+    question: Département n°09 ?
+    answer: Ariège
+    feedback: "Le département 09 est Ariège (préfecture: Foix)."
+  - id: dept_09_name_to_num
+    question: Numéro du département Ariège ?
+    answer: "09"
+    feedback: Ariège est le département n°09.
+  - id: dept_10_num_to_name
+    question: Département n°10 ?
+    answer: Aube
+    feedback: "Le département 10 est Aube (préfecture: Troyes)."
+  - id: dept_10_name_to_num
+    question: Numéro du département Aube ?
+    answer: "10"
+    feedback: Aube est le département n°10.
+  - id: dept_11_num_to_name
+    question: Département n°11 ?
+    answer: Aude
+    feedback: "Le département 11 est Aude (préfecture: Carcassonne)."
+  - id: dept_11_name_to_num
+    question: Numéro du département Aude ?
+    answer: "11"
+    feedback: Aude est le département n°11.
+  - id: dept_12_num_to_name
+    question: Département n°12 ?
+    answer: Aveyron
+    feedback: "Le département 12 est Aveyron (préfecture: Rodez)."
+  - id: dept_12_name_to_num
+    question: Numéro du département Aveyron ?
+    answer: "12"
+    feedback: Aveyron est le département n°12.
+  - id: dept_13_num_to_name
+    question: Département n°13 ?
+    answer: Bouches-du-Rhône
+    feedback: "Le département 13 est Bouches-du-Rhône (préfecture: Marseille)."
+  - id: dept_13_name_to_num
+    question: Numéro du département Bouches-du-Rhône ?
+    answer: "13"
+    feedback: Bouches-du-Rhône est le département n°13.
+  - id: dept_14_num_to_name
+    question: Département n°14 ?
+    answer: Calvados
+    feedback: "Le département 14 est Calvados (préfecture: Caen)."
+  - id: dept_14_name_to_num
+    question: Numéro du département Calvados ?
+    answer: "14"
+    feedback: Calvados est le département n°14.
+  - id: dept_15_num_to_name
+    question: Département n°15 ?
+    answer: Cantal
+    feedback: "Le département 15 est Cantal (préfecture: Aurillac)."
+  - id: dept_15_name_to_num
+    question: Numéro du département Cantal ?
+    answer: "15"
+    feedback: Cantal est le département n°15.
+  - id: dept_16_num_to_name
+    question: Département n°16 ?
+    answer: Charente
+    feedback: "Le département 16 est Charente (préfecture: Angoulême)."
+  - id: dept_16_name_to_num
+    question: Numéro du département Charente ?
+    answer: "16"
+    feedback: Charente est le département n°16.
+  - id: dept_17_num_to_name
+    question: Département n°17 ?
+    answer: Charente-Maritime
+    feedback: "Le département 17 est Charente-Maritime (préfecture: La Rochelle)."
+  - id: dept_17_name_to_num
+    question: Numéro du département Charente-Maritime ?
+    answer: "17"
+    feedback: Charente-Maritime est le département n°17.
+  - id: dept_18_num_to_name
+    question: Département n°18 ?
+    answer: Cher
+    feedback: "Le département 18 est Cher (préfecture: Bourges)."
+  - id: dept_18_name_to_num
+    question: Numéro du département Cher ?
+    answer: "18"
+    feedback: Cher est le département n°18.
+  - id: dept_19_num_to_name
+    question: Département n°19 ?
+    answer: Corrèze
+    feedback: "Le département 19 est Corrèze (préfecture: Tulle)."
+  - id: dept_19_name_to_num
+    question: Numéro du département Corrèze ?
+    answer: "19"
+    feedback: Corrèze est le département n°19.
+  - id: dept_2A_num_to_name
+    question: Département n°2A ?
+    answer: Corse-du-Sud
+    feedback: "Le département 2A est Corse-du-Sud (préfecture: Ajaccio)."
+  - id: dept_2A_name_to_num
+    question: Numéro du département Corse-du-Sud ?
+    answer: 2A
+    feedback: Corse-du-Sud est le département n°2A.
+  - id: dept_2B_num_to_name
+    question: Département n°2B ?
+    answer: Haute-Corse
+    feedback: "Le département 2B est Haute-Corse (préfecture: Bastia)."
+  - id: dept_2B_name_to_num
+    question: Numéro du département Haute-Corse ?
+    answer: 2B
+    feedback: Haute-Corse est le département n°2B.
+  - id: dept_21_num_to_name
+    question: Département n°21 ?
+    answer: "Côte-d'Or"
+    feedback: "Le département 21 est Côte-d'Or (préfecture: Dijon)."
+  - id: dept_21_name_to_num
+    question: "Numéro du département Côte-d'Or ?"
+    answer: "21"
+    feedback: "Côte-d'Or est le département n°21."
+  - id: dept_22_num_to_name
+    question: Département n°22 ?
+    answer: "Côtes-d'Armor"
+    feedback: "Le département 22 est Côtes-d'Armor (préfecture: Saint-Brieuc)."
+  - id: dept_22_name_to_num
+    question: "Numéro du département Côtes-d'Armor ?"
+    answer: "22"
+    feedback: "Côtes-d'Armor est le département n°22."
+  - id: dept_23_num_to_name
+    question: Département n°23 ?
+    answer: Creuse
+    feedback: "Le département 23 est Creuse (préfecture: Guéret)."
+  - id: dept_23_name_to_num
+    question: Numéro du département Creuse ?
+    answer: "23"
+    feedback: Creuse est le département n°23.
+  - id: dept_24_num_to_name
+    question: Département n°24 ?
+    answer: Dordogne
+    feedback: "Le département 24 est Dordogne (préfecture: Périgueux)."
+  - id: dept_24_name_to_num
+    question: Numéro du département Dordogne ?
+    answer: "24"
+    feedback: Dordogne est le département n°24.
+  - id: dept_25_num_to_name
+    question: Département n°25 ?
+    answer: Doubs
+    feedback: "Le département 25 est Doubs (préfecture: Besançon)."
+  - id: dept_25_name_to_num
+    question: Numéro du département Doubs ?
+    answer: "25"
+    feedback: Doubs est le département n°25.
+  - id: dept_26_num_to_name
+    question: Département n°26 ?
+    answer: Drôme
+    feedback: "Le département 26 est Drôme (préfecture: Valence)."
+  - id: dept_26_name_to_num
+    question: Numéro du département Drôme ?
+    answer: "26"
+    feedback: Drôme est le département n°26.
+  - id: dept_27_num_to_name
+    question: Département n°27 ?
+    answer: Eure
+    feedback: "Le département 27 est Eure (préfecture: Évreux)."
+  - id: dept_27_name_to_num
+    question: Numéro du département Eure ?
+    answer: "27"
+    feedback: Eure est le département n°27.
+  - id: dept_28_num_to_name
+    question: Département n°28 ?
+    answer: Eure-et-Loir
+    feedback: "Le département 28 est Eure-et-Loir (préfecture: Chartres)."
+  - id: dept_28_name_to_num
+    question: Numéro du département Eure-et-Loir ?
+    answer: "28"
+    feedback: Eure-et-Loir est le département n°28.
+  - id: dept_29_num_to_name
+    question: Département n°29 ?
+    answer: Finistère
+    feedback: "Le département 29 est Finistère (préfecture: Quimper)."
+  - id: dept_29_name_to_num
+    question: Numéro du département Finistère ?
+    answer: "29"
+    feedback: Finistère est le département n°29.
+  - id: dept_30_num_to_name
+    question: Département n°30 ?
+    answer: Gard
+    feedback: "Le département 30 est Gard (préfecture: Nîmes)."
+  - id: dept_30_name_to_num
+    question: Numéro du département Gard ?
+    answer: "30"
+    feedback: Gard est le département n°30.
+  - id: dept_31_num_to_name
+    question: Département n°31 ?
+    answer: Haute-Garonne
+    feedback: "Le département 31 est Haute-Garonne (préfecture: Toulouse)."
+  - id: dept_31_name_to_num
+    question: Numéro du département Haute-Garonne ?
+    answer: "31"
+    feedback: Haute-Garonne est le département n°31.
+  - id: dept_32_num_to_name
+    question: Département n°32 ?
+    answer: Gers
+    feedback: "Le département 32 est Gers (préfecture: Auch)."
+  - id: dept_32_name_to_num
+    question: Numéro du département Gers ?
+    answer: "32"
+    feedback: Gers est le département n°32.
+  - id: dept_33_num_to_name
+    question: Département n°33 ?
+    answer: Gironde
+    feedback: "Le département 33 est Gironde (préfecture: Bordeaux)."
+  - id: dept_33_name_to_num
+    question: Numéro du département Gironde ?
+    answer: "33"
+    feedback: Gironde est le département n°33.
+  - id: dept_34_num_to_name
+    question: Département n°34 ?
+    answer: Hérault
+    feedback: "Le département 34 est Hérault (préfecture: Montpellier)."
+  - id: dept_34_name_to_num
+    question: Numéro du département Hérault ?
+    answer: "34"
+    feedback: Hérault est le département n°34.
+  - id: dept_35_num_to_name
+    question: Département n°35 ?
+    answer: Ille-et-Vilaine
+    feedback: "Le département 35 est Ille-et-Vilaine (préfecture: Rennes)."
+  - id: dept_35_name_to_num
+    question: Numéro du département Ille-et-Vilaine ?
+    answer: "35"
+    feedback: Ille-et-Vilaine est le département n°35.
+  - id: dept_36_num_to_name
+    question: Département n°36 ?
+    answer: Indre
+    feedback: "Le département 36 est Indre (préfecture: Châteauroux)."
+  - id: dept_36_name_to_num
+    question: Numéro du département Indre ?
+    answer: "36"
+    feedback: Indre est le département n°36.
+  - id: dept_37_num_to_name
+    question: Département n°37 ?
+    answer: Indre-et-Loire
+    feedback: "Le département 37 est Indre-et-Loire (préfecture: Tours)."
+  - id: dept_37_name_to_num
+    question: Numéro du département Indre-et-Loire ?
+    answer: "37"
+    feedback: Indre-et-Loire est le département n°37.
+  - id: dept_38_num_to_name
+    question: Département n°38 ?
+    answer: Isère
+    feedback: "Le département 38 est Isère (préfecture: Grenoble)."
+  - id: dept_38_name_to_num
+    question: Numéro du département Isère ?
+    answer: "38"
+    feedback: Isère est le département n°38.
+  - id: dept_39_num_to_name
+    question: Département n°39 ?
+    answer: Jura
+    feedback: "Le département 39 est Jura (préfecture: Lons-le-Saunier)."
+  - id: dept_39_name_to_num
+    question: Numéro du département Jura ?
+    answer: "39"
+    feedback: Jura est le département n°39.
+  - id: dept_40_num_to_name
+    question: Département n°40 ?
+    answer: Landes
+    feedback: "Le département 40 est Landes (préfecture: Mont-de-Marsan)."
+  - id: dept_40_name_to_num
+    question: Numéro du département Landes ?
+    answer: "40"
+    feedback: Landes est le département n°40.
+  - id: dept_41_num_to_name
+    question: Département n°41 ?
+    answer: Loir-et-Cher
+    feedback: "Le département 41 est Loir-et-Cher (préfecture: Blois)."
+  - id: dept_41_name_to_num
+    question: Numéro du département Loir-et-Cher ?
+    answer: "41"
+    feedback: Loir-et-Cher est le département n°41.
+  - id: dept_42_num_to_name
+    question: Département n°42 ?
+    answer: Loire
+    feedback: "Le département 42 est Loire (préfecture: Saint-Étienne)."
+  - id: dept_42_name_to_num
+    question: Numéro du département Loire ?
+    answer: "42"
+    feedback: Loire est le département n°42.
+  - id: dept_43_num_to_name
+    question: Département n°43 ?
+    answer: Haute-Loire
+    feedback: "Le département 43 est Haute-Loire (préfecture: Le Puy-en-Velay)."
+  - id: dept_43_name_to_num
+    question: Numéro du département Haute-Loire ?
+    answer: "43"
+    feedback: Haute-Loire est le département n°43.
+  - id: dept_44_num_to_name
+    question: Département n°44 ?
+    answer: Loire-Atlantique
+    feedback: "Le département 44 est Loire-Atlantique (préfecture: Nantes)."
+  - id: dept_44_name_to_num
+    question: Numéro du département Loire-Atlantique ?
+    answer: "44"
+    feedback: Loire-Atlantique est le département n°44.
+  - id: dept_45_num_to_name
+    question: Département n°45 ?
+    answer: Loiret
+    feedback: "Le département 45 est Loiret (préfecture: Orléans)."
+  - id: dept_45_name_to_num
+    question: Numéro du département Loiret ?
+    answer: "45"
+    feedback: Loiret est le département n°45.
+  - id: dept_46_num_to_name
+    question: Département n°46 ?
+    answer: Lot
+    feedback: "Le département 46 est Lot (préfecture: Cahors)."
+  - id: dept_46_name_to_num
+    question: Numéro du département Lot ?
+    answer: "46"
+    feedback: Lot est le département n°46.
+  - id: dept_47_num_to_name
+    question: Département n°47 ?
+    answer: Lot-et-Garonne
+    feedback: "Le département 47 est Lot-et-Garonne (préfecture: Agen)."
+  - id: dept_47_name_to_num
+    question: Numéro du département Lot-et-Garonne ?
+    answer: "47"
+    feedback: Lot-et-Garonne est le département n°47.
+  - id: dept_48_num_to_name
+    question: Département n°48 ?
+    answer: Lozère
+    feedback: "Le département 48 est Lozère (préfecture: Mende)."
+  - id: dept_48_name_to_num
+    question: Numéro du département Lozère ?
+    answer: "48"
+    feedback: Lozère est le département n°48.
+  - id: dept_49_num_to_name
+    question: Département n°49 ?
+    answer: Maine-et-Loire
+    feedback: "Le département 49 est Maine-et-Loire (préfecture: Angers)."
+  - id: dept_49_name_to_num
+    question: Numéro du département Maine-et-Loire ?
+    answer: "49"
+    feedback: Maine-et-Loire est le département n°49.
+  - id: dept_50_num_to_name
+    question: Département n°50 ?
+    answer: Manche
+    feedback: "Le département 50 est Manche (préfecture: Saint-Lô)."
+  - id: dept_50_name_to_num
+    question: Numéro du département Manche ?
+    answer: "50"
+    feedback: Manche est le département n°50.
+  - id: dept_51_num_to_name
+    question: Département n°51 ?
+    answer: Marne
+    feedback: "Le département 51 est Marne (préfecture: Châlons-en-Champagne)."
+  - id: dept_51_name_to_num
+    question: Numéro du département Marne ?
+    answer: "51"
+    feedback: Marne est le département n°51.
+  - id: dept_52_num_to_name
+    question: Département n°52 ?
+    answer: Haute-Marne
+    feedback: "Le département 52 est Haute-Marne (préfecture: Chaumont)."
+  - id: dept_52_name_to_num
+    question: Numéro du département Haute-Marne ?
+    answer: "52"
+    feedback: Haute-Marne est le département n°52.
+  - id: dept_53_num_to_name
+    question: Département n°53 ?
+    answer: Mayenne
+    feedback: "Le département 53 est Mayenne (préfecture: Laval)."
+  - id: dept_53_name_to_num
+    question: Numéro du département Mayenne ?
+    answer: "53"
+    feedback: Mayenne est le département n°53.
+  - id: dept_54_num_to_name
+    question: Département n°54 ?
+    answer: Meurthe-et-Moselle
+    feedback: "Le département 54 est Meurthe-et-Moselle (préfecture: Nancy)."
+  - id: dept_54_name_to_num
+    question: Numéro du département Meurthe-et-Moselle ?
+    answer: "54"
+    feedback: Meurthe-et-Moselle est le département n°54.
+  - id: dept_55_num_to_name
+    question: Département n°55 ?
+    answer: Meuse
+    feedback: "Le département 55 est Meuse (préfecture: Bar-le-Duc)."
+  - id: dept_55_name_to_num
+    question: Numéro du département Meuse ?
+    answer: "55"
+    feedback: Meuse est le département n°55.
+  - id: dept_56_num_to_name
+    question: Département n°56 ?
+    answer: Morbihan
+    feedback: "Le département 56 est Morbihan (préfecture: Vannes)."
+  - id: dept_56_name_to_num
+    question: Numéro du département Morbihan ?
+    answer: "56"
+    feedback: Morbihan est le département n°56.
+  - id: dept_57_num_to_name
+    question: Département n°57 ?
+    answer: Moselle
+    feedback: "Le département 57 est Moselle (préfecture: Metz)."
+  - id: dept_57_name_to_num
+    question: Numéro du département Moselle ?
+    answer: "57"
+    feedback: Moselle est le département n°57.
+  - id: dept_58_num_to_name
+    question: Département n°58 ?
+    answer: Nièvre
+    feedback: "Le département 58 est Nièvre (préfecture: Nevers)."
+  - id: dept_58_name_to_num
+    question: Numéro du département Nièvre ?
+    answer: "58"
+    feedback: Nièvre est le département n°58.
+  - id: dept_59_num_to_name
+    question: Département n°59 ?
+    answer: Nord
+    feedback: "Le département 59 est Nord (préfecture: Lille)."
+  - id: dept_59_name_to_num
+    question: Numéro du département Nord ?
+    answer: "59"
+    feedback: Nord est le département n°59.
+  - id: dept_60_num_to_name
+    question: Département n°60 ?
+    answer: Oise
+    feedback: "Le département 60 est Oise (préfecture: Beauvais)."
+  - id: dept_60_name_to_num
+    question: Numéro du département Oise ?
+    answer: "60"
+    feedback: Oise est le département n°60.
+  - id: dept_61_num_to_name
+    question: Département n°61 ?
+    answer: Orne
+    feedback: "Le département 61 est Orne (préfecture: Alençon)."
+  - id: dept_61_name_to_num
+    question: Numéro du département Orne ?
+    answer: "61"
+    feedback: Orne est le département n°61.
+  - id: dept_62_num_to_name
+    question: Département n°62 ?
+    answer: Pas-de-Calais
+    feedback: "Le département 62 est Pas-de-Calais (préfecture: Arras)."
+  - id: dept_62_name_to_num
+    question: Numéro du département Pas-de-Calais ?
+    answer: "62"
+    feedback: Pas-de-Calais est le département n°62.
+  - id: dept_63_num_to_name
+    question: Département n°63 ?
+    answer: Puy-de-Dôme
+    feedback: "Le département 63 est Puy-de-Dôme (préfecture: Clermont-Ferrand)."
+  - id: dept_63_name_to_num
+    question: Numéro du département Puy-de-Dôme ?
+    answer: "63"
+    feedback: Puy-de-Dôme est le département n°63.
+  - id: dept_64_num_to_name
+    question: Département n°64 ?
+    answer: Pyrénées-Atlantiques
+    feedback: "Le département 64 est Pyrénées-Atlantiques (préfecture: Pau)."
+  - id: dept_64_name_to_num
+    question: Numéro du département Pyrénées-Atlantiques ?
+    answer: "64"
+    feedback: Pyrénées-Atlantiques est le département n°64.
+  - id: dept_65_num_to_name
+    question: Département n°65 ?
+    answer: Hautes-Pyrénées
+    feedback: "Le département 65 est Hautes-Pyrénées (préfecture: Tarbes)."
+  - id: dept_65_name_to_num
+    question: Numéro du département Hautes-Pyrénées ?
+    answer: "65"
+    feedback: Hautes-Pyrénées est le département n°65.
+  - id: dept_66_num_to_name
+    question: Département n°66 ?
+    answer: Pyrénées-Orientales
+    feedback: "Le département 66 est Pyrénées-Orientales (préfecture: Perpignan)."
+  - id: dept_66_name_to_num
+    question: Numéro du département Pyrénées-Orientales ?
+    answer: "66"
+    feedback: Pyrénées-Orientales est le département n°66.
+  - id: dept_67_num_to_name
+    question: Département n°67 ?
+    answer: Bas-Rhin
+    feedback: "Le département 67 est Bas-Rhin (préfecture: Strasbourg)."
+  - id: dept_67_name_to_num
+    question: Numéro du département Bas-Rhin ?
+    answer: "67"
+    feedback: Bas-Rhin est le département n°67.
+  - id: dept_68_num_to_name
+    question: Département n°68 ?
+    answer: Haut-Rhin
+    feedback: "Le département 68 est Haut-Rhin (préfecture: Colmar)."
+  - id: dept_68_name_to_num
+    question: Numéro du département Haut-Rhin ?
+    answer: "68"
+    feedback: Haut-Rhin est le département n°68.
+  - id: dept_69_num_to_name
+    question: Département n°69 ?
+    answer: Rhône
+    feedback: "Le département 69 est Rhône (préfecture: Lyon)."
+  - id: dept_69_name_to_num
+    question: Numéro du département Rhône ?
+    answer: "69"
+    feedback: Rhône est le département n°69.
+  - id: dept_70_num_to_name
+    question: Département n°70 ?
+    answer: Haute-Saône
+    feedback: "Le département 70 est Haute-Saône (préfecture: Vesoul)."
+  - id: dept_70_name_to_num
+    question: Numéro du département Haute-Saône ?
+    answer: "70"
+    feedback: Haute-Saône est le département n°70.
+  - id: dept_71_num_to_name
+    question: Département n°71 ?
+    answer: Saône-et-Loire
+    feedback: "Le département 71 est Saône-et-Loire (préfecture: Mâcon)."
+  - id: dept_71_name_to_num
+    question: Numéro du département Saône-et-Loire ?
+    answer: "71"
+    feedback: Saône-et-Loire est le département n°71.
+  - id: dept_72_num_to_name
+    question: Département n°72 ?
+    answer: Sarthe
+    feedback: "Le département 72 est Sarthe (préfecture: Le Mans)."
+  - id: dept_72_name_to_num
+    question: Numéro du département Sarthe ?
+    answer: "72"
+    feedback: Sarthe est le département n°72.
+  - id: dept_73_num_to_name
+    question: Département n°73 ?
+    answer: Savoie
+    feedback: "Le département 73 est Savoie (préfecture: Chambéry)."
+  - id: dept_73_name_to_num
+    question: Numéro du département Savoie ?
+    answer: "73"
+    feedback: Savoie est le département n°73.
+  - id: dept_74_num_to_name
+    question: Département n°74 ?
+    answer: Haute-Savoie
+    feedback: "Le département 74 est Haute-Savoie (préfecture: Annecy)."
+  - id: dept_74_name_to_num
+    question: Numéro du département Haute-Savoie ?
+    answer: "74"
+    feedback: Haute-Savoie est le département n°74.
+  - id: dept_75_num_to_name
+    question: Département n°75 ?
+    answer: Paris
+    feedback: "Le département 75 est Paris (préfecture: Paris)."
+  - id: dept_75_name_to_num
+    question: Numéro du département Paris ?
+    answer: "75"
+    feedback: Paris est le département n°75.
+  - id: dept_76_num_to_name
+    question: Département n°76 ?
+    answer: Seine-Maritime
+    feedback: "Le département 76 est Seine-Maritime (préfecture: Rouen)."
+  - id: dept_76_name_to_num
+    question: Numéro du département Seine-Maritime ?
+    answer: "76"
+    feedback: Seine-Maritime est le département n°76.
+  - id: dept_77_num_to_name
+    question: Département n°77 ?
+    answer: Seine-et-Marne
+    feedback: "Le département 77 est Seine-et-Marne (préfecture: Melun)."
+  - id: dept_77_name_to_num
+    question: Numéro du département Seine-et-Marne ?
+    answer: "77"
+    feedback: Seine-et-Marne est le département n°77.
+  - id: dept_78_num_to_name
+    question: Département n°78 ?
+    answer: Yvelines
+    feedback: "Le département 78 est Yvelines (préfecture: Versailles)."
+  - id: dept_78_name_to_num
+    question: Numéro du département Yvelines ?
+    answer: "78"
+    feedback: Yvelines est le département n°78.
+  - id: dept_79_num_to_name
+    question: Département n°79 ?
+    answer: Deux-Sèvres
+    feedback: "Le département 79 est Deux-Sèvres (préfecture: Niort)."
+  - id: dept_79_name_to_num
+    question: Numéro du département Deux-Sèvres ?
+    answer: "79"
+    feedback: Deux-Sèvres est le département n°79.
+  - id: dept_80_num_to_name
+    question: Département n°80 ?
+    answer: Somme
+    feedback: "Le département 80 est Somme (préfecture: Amiens)."
+  - id: dept_80_name_to_num
+    question: Numéro du département Somme ?
+    answer: "80"
+    feedback: Somme est le département n°80.
+  - id: dept_81_num_to_name
+    question: Département n°81 ?
+    answer: Tarn
+    feedback: "Le département 81 est Tarn (préfecture: Albi)."
+  - id: dept_81_name_to_num
+    question: Numéro du département Tarn ?
+    answer: "81"
+    feedback: Tarn est le département n°81.
+  - id: dept_82_num_to_name
+    question: Département n°82 ?
+    answer: Tarn-et-Garonne
+    feedback: "Le département 82 est Tarn-et-Garonne (préfecture: Montauban)."
+  - id: dept_82_name_to_num
+    question: Numéro du département Tarn-et-Garonne ?
+    answer: "82"
+    feedback: Tarn-et-Garonne est le département n°82.
+  - id: dept_83_num_to_name
+    question: Département n°83 ?
+    answer: Var
+    feedback: "Le département 83 est Var (préfecture: Toulon)."
+  - id: dept_83_name_to_num
+    question: Numéro du département Var ?
+    answer: "83"
+    feedback: Var est le département n°83.
+  - id: dept_84_num_to_name
+    question: Département n°84 ?
+    answer: Vaucluse
+    feedback: "Le département 84 est Vaucluse (préfecture: Avignon)."
+  - id: dept_84_name_to_num
+    question: Numéro du département Vaucluse ?
+    answer: "84"
+    feedback: Vaucluse est le département n°84.
+  - id: dept_85_num_to_name
+    question: Département n°85 ?
+    answer: Vendée
+    feedback: "Le département 85 est Vendée (préfecture: La Roche-sur-Yon)."
+  - id: dept_85_name_to_num
+    question: Numéro du département Vendée ?
+    answer: "85"
+    feedback: Vendée est le département n°85.
+  - id: dept_86_num_to_name
+    question: Département n°86 ?
+    answer: Vienne
+    feedback: "Le département 86 est Vienne (préfecture: Poitiers)."
+  - id: dept_86_name_to_num
+    question: Numéro du département Vienne ?
+    answer: "86"
+    feedback: Vienne est le département n°86.
+  - id: dept_87_num_to_name
+    question: Département n°87 ?
+    answer: Haute-Vienne
+    feedback: "Le département 87 est Haute-Vienne (préfecture: Limoges)."
+  - id: dept_87_name_to_num
+    question: Numéro du département Haute-Vienne ?
+    answer: "87"
+    feedback: Haute-Vienne est le département n°87.
+  - id: dept_88_num_to_name
+    question: Département n°88 ?
+    answer: Vosges
+    feedback: "Le département 88 est Vosges (préfecture: Épinal)."
+  - id: dept_88_name_to_num
+    question: Numéro du département Vosges ?
+    answer: "88"
+    feedback: Vosges est le département n°88.
+  - id: dept_89_num_to_name
+    question: Département n°89 ?
+    answer: Yonne
+    feedback: "Le département 89 est Yonne (préfecture: Auxerre)."
+  - id: dept_89_name_to_num
+    question: Numéro du département Yonne ?
+    answer: "89"
+    feedback: Yonne est le département n°89.
+  - id: dept_90_num_to_name
+    question: Département n°90 ?
+    answer: Territoire de Belfort
+    feedback: "Le département 90 est Territoire de Belfort (préfecture: Belfort)."
+  - id: dept_90_name_to_num
+    question: Numéro du département Territoire de Belfort ?
+    answer: "90"
+    feedback: Territoire de Belfort est le département n°90.
+  - id: dept_91_num_to_name
+    question: Département n°91 ?
+    answer: Essonne
+    feedback: "Le département 91 est Essonne (préfecture: Évry-Courcouronnes)."
+  - id: dept_91_name_to_num
+    question: Numéro du département Essonne ?
+    answer: "91"
+    feedback: Essonne est le département n°91.
+  - id: dept_92_num_to_name
+    question: Département n°92 ?
+    answer: Hauts-de-Seine
+    feedback: "Le département 92 est Hauts-de-Seine (préfecture: Nanterre)."
+  - id: dept_92_name_to_num
+    question: Numéro du département Hauts-de-Seine ?
+    answer: "92"
+    feedback: Hauts-de-Seine est le département n°92.
+  - id: dept_93_num_to_name
+    question: Département n°93 ?
+    answer: Seine-Saint-Denis
+    feedback: "Le département 93 est Seine-Saint-Denis (préfecture: Bobigny)."
+  - id: dept_93_name_to_num
+    question: Numéro du département Seine-Saint-Denis ?
+    answer: "93"
+    feedback: Seine-Saint-Denis est le département n°93.
+  - id: dept_94_num_to_name
+    question: Département n°94 ?
+    answer: Val-de-Marne
+    feedback: "Le département 94 est Val-de-Marne (préfecture: Créteil)."
+  - id: dept_94_name_to_num
+    question: Numéro du département Val-de-Marne ?
+    answer: "94"
+    feedback: Val-de-Marne est le département n°94.
+  - id: dept_95_num_to_name
+    question: Département n°95 ?
+    answer: "Val-d'Oise"
+    feedback: "Le département 95 est Val-d'Oise (préfecture: Cergy)."
+  - id: dept_95_name_to_num
+    question: "Numéro du département Val-d'Oise ?"
+    answer: "95"
+    feedback: "Val-d'Oise est le département n°95."

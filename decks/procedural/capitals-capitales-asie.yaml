@@ -1,0 +1,431 @@
+name: Capitales - Asie
+description: "Capitales des pays d'Asie (46 pays)"
+tags: [geographie, capitales, pays, culture-generale]
+category: [geographie, culture-generale]
+settings:
+  sequential: false
+  bidirectional: false
+metadata:
+  license: CC-BY-SA-4.0
+  source:
+    type: procedural
+    generator: capitals
+    version: 1.0.0
+    generatedAt: "2026-11-22"
+    parameters:
+      region: Asia
+cards:
+  - id: cap_af_to_cap
+    question: "Quelle est la capitale de l'Afghanistan 🇦🇫 ?"
+    answer: Kaboul
+    feedback: "Kaboul est la capitale de l'Afghanistan."
+    alternatives: [Kabul]
+  - id: cap_af_from_cap
+    question: Kaboul est la capitale de quel pays ?
+    answer: Afghanistan
+    feedback: "Kaboul est la capitale de l'Afghanistan 🇦🇫."
+  - id: cap_am_to_cap
+    question: "Quelle est la capitale de l'Arménie 🇦🇲 ?"
+    answer: Erevan
+    feedback: "Erevan est la capitale de l'Arménie."
+    alternatives: [Yerevan]
+  - id: cap_am_from_cap
+    question: Erevan est la capitale de quel pays ?
+    answer: Arménie
+    feedback: "Erevan est la capitale de l'Arménie 🇦🇲."
+    alternatives: [Armenia]
+  - id: cap_az_to_cap
+    question: "Quelle est la capitale de l'Azerbaïdjan 🇦🇿 ?"
+    answer: Bakou
+    feedback: "Bakou est la capitale de l'Azerbaïdjan."
+    alternatives: [Baku]
+  - id: cap_az_from_cap
+    question: Bakou est la capitale de quel pays ?
+    answer: Azerbaïdjan
+    feedback: "Bakou est la capitale de l'Azerbaïdjan 🇦🇿."
+    alternatives: [Azerbaijan]
+  - id: cap_bh_to_cap
+    question: Quelle est la capitale de Bahreïn 🇧🇭 ?
+    answer: Manama
+    feedback: Manama est la capitale de Bahreïn.
+  - id: cap_bh_from_cap
+    question: Manama est la capitale de quel pays ?
+    answer: Bahreïn
+    feedback: Manama est la capitale de Bahreïn 🇧🇭.
+    alternatives: [Bahrain]
+  - id: cap_bd_to_cap
+    question: Quelle est la capitale du Bangladesh 🇧🇩 ?
+    answer: Dacca
+    feedback: Dacca est la capitale du Bangladesh.
+    alternatives: [Dhaka]
+  - id: cap_bd_from_cap
+    question: Dacca est la capitale de quel pays ?
+    answer: Bangladesh
+    feedback: Dacca est la capitale du Bangladesh 🇧🇩.
+  - id: cap_bt_to_cap
+    question: Quelle est la capitale du Bhoutan 🇧🇹 ?
+    answer: Thimphou
+    feedback: Thimphou est la capitale du Bhoutan.
+    alternatives: [Thimphu]
+  - id: cap_bt_from_cap
+    question: Thimphou est la capitale de quel pays ?
+    answer: Bhoutan
+    feedback: Thimphou est la capitale du Bhoutan 🇧🇹.
+    alternatives: [Bhutan]
+  - id: cap_bn_to_cap
+    question: Quelle est la capitale du Brunei 🇧🇳 ?
+    answer: Bandar Seri Begawan
+    feedback: Bandar Seri Begawan est la capitale du Brunei.
+  - id: cap_bn_from_cap
+    question: Bandar Seri Begawan est la capitale de quel pays ?
+    answer: Brunei
+    feedback: Bandar Seri Begawan est la capitale du Brunei 🇧🇳.
+  - id: cap_kh_to_cap
+    question: Quelle est la capitale du Cambodge 🇰🇭 ?
+    answer: Phnom Penh
+    feedback: Phnom Penh est la capitale du Cambodge.
+  - id: cap_kh_from_cap
+    question: Phnom Penh est la capitale de quel pays ?
+    answer: Cambodge
+    feedback: Phnom Penh est la capitale du Cambodge 🇰🇭.
+    alternatives: [Cambodia]
+  - id: cap_cn_to_cap
+    question: Quelle est la capitale de la Chine 🇨🇳 ?
+    answer: Pékin
+    feedback: Pékin est la capitale de la Chine.
+    alternatives: [Beijing]
+  - id: cap_cn_from_cap
+    question: Pékin est la capitale de quel pays ?
+    answer: Chine
+    feedback: Pékin est la capitale de la Chine 🇨🇳.
+    alternatives: [China]
+  - id: cap_ge_to_cap
+    question: Quelle est la capitale de la Géorgie 🇬🇪 ?
+    answer: Tbilissi
+    feedback: Tbilissi est la capitale de la Géorgie.
+    alternatives: [Tbilisi]
+  - id: cap_ge_from_cap
+    question: Tbilissi est la capitale de quel pays ?
+    answer: Géorgie
+    feedback: Tbilissi est la capitale de la Géorgie 🇬🇪.
+    alternatives: [Georgia]
+  - id: cap_in_to_cap
+    question: "Quelle est la capitale de l'Inde 🇮🇳 ?"
+    answer: New Delhi
+    feedback: "New Delhi est la capitale de l'Inde."
+    alternatives: [Delhi, Nouvelle-Delhi]
+  - id: cap_in_from_cap
+    question: New Delhi est la capitale de quel pays ?
+    answer: Inde
+    feedback: "New Delhi est la capitale de l'Inde 🇮🇳."
+    alternatives: [India]
+  - id: cap_id_to_cap
+    question: "Quelle est la capitale de l'Indonésie 🇮🇩 ?"
+    answer: Jakarta
+    feedback: "Jakarta est la capitale de l'Indonésie."
+  - id: cap_id_from_cap
+    question: Jakarta est la capitale de quel pays ?
+    answer: Indonésie
+    feedback: "Jakarta est la capitale de l'Indonésie 🇮🇩."
+    alternatives: [Indonesia]
+  - id: cap_ir_to_cap
+    question: "Quelle est la capitale de l'Iran 🇮🇷 ?"
+    answer: Téhéran
+    feedback: "Téhéran est la capitale de l'Iran."
+    alternatives: [Tehran]
+  - id: cap_ir_from_cap
+    question: Téhéran est la capitale de quel pays ?
+    answer: Iran
+    feedback: "Téhéran est la capitale de l'Iran 🇮🇷."
+  - id: cap_iq_to_cap
+    question: "Quelle est la capitale de l'Irak 🇮🇶 ?"
+    answer: Bagdad
+    feedback: "Bagdad est la capitale de l'Irak."
+    alternatives: [Baghdad]
+  - id: cap_iq_from_cap
+    question: Bagdad est la capitale de quel pays ?
+    answer: Irak
+    feedback: "Bagdad est la capitale de l'Irak 🇮🇶."
+    alternatives: [Iraq]
+  - id: cap_il_to_cap
+    question: "Quelle est la capitale d'Israël 🇮🇱 ?"
+    answer: Jérusalem
+    feedback: "Israël a fixé sa capitale à Jérusalem, dont le statut ne fait pas l'objet d'un accord international ; la plupart des ambassades sont installées à Tel-Aviv."
+  - id: cap_il_from_cap
+    question: Jérusalem est la capitale de quel pays ?
+    answer: Israël
+    feedback: "Israël a fixé sa capitale à Jérusalem, dont le statut ne fait pas l'objet d'un accord international ; la plupart des ambassades sont installées à Tel-Aviv."
+  - id: cap_jp_to_cap
+    question: Quelle est la capitale du Japon 🇯🇵 ?
+    answer: Tokyo
+    feedback: Tokyo est la capitale du Japon.
+  - id: cap_jp_from_cap
+    question: Tokyo est la capitale de quel pays ?
+    answer: Japon
+    feedback: Tokyo est la capitale du Japon 🇯🇵.
+    alternatives: [Japan]
+  - id: cap_jo_to_cap
+    question: Quelle est la capitale de la Jordanie 🇯🇴 ?
+    answer: Amman
+    feedback: Amman est la capitale de la Jordanie.
+  - id: cap_jo_from_cap
+    question: Amman est la capitale de quel pays ?
+    answer: Jordanie
+    feedback: Amman est la capitale de la Jordanie 🇯🇴.
+    alternatives: [Jordan]
+  - id: cap_kz_to_cap
+    question: Quelle est la capitale du Kazakhstan 🇰🇿 ?
+    answer: Astana
+    feedback: Astana est la capitale du Kazakhstan.
+  - id: cap_kz_from_cap
+    question: Astana est la capitale de quel pays ?
+    answer: Kazakhstan
+    feedback: Astana est la capitale du Kazakhstan 🇰🇿.
+  - id: cap_kw_to_cap
+    question: Quelle est la capitale du Koweït 🇰🇼 ?
+    answer: Koweït
+    feedback: Koweït est la capitale du Koweït.
+    alternatives: [Kuwait City, Koweït City, Kuwait]
+  - id: cap_kg_to_cap
+    question: Quelle est la capitale du Kirghizistan 🇰🇬 ?
+    answer: Bichkek
+    feedback: Bichkek est la capitale du Kirghizistan.
+    alternatives: [Bishkek]
+  - id: cap_kg_from_cap
+    question: Bichkek est la capitale de quel pays ?
+    answer: Kirghizistan
+    feedback: Bichkek est la capitale du Kirghizistan 🇰🇬.
+    alternatives: [Kyrgyzstan]
+  - id: cap_la_to_cap
+    question: Quelle est la capitale du Laos 🇱🇦 ?
+    answer: Vientiane
+    feedback: Vientiane est la capitale du Laos.
+  - id: cap_la_from_cap
+    question: Vientiane est la capitale de quel pays ?
+    answer: Laos
+    feedback: Vientiane est la capitale du Laos 🇱🇦.
+  - id: cap_lb_to_cap
+    question: Quelle est la capitale du Liban 🇱🇧 ?
+    answer: Beyrouth
+    feedback: Beyrouth est la capitale du Liban.
+    alternatives: [Beirut]
+  - id: cap_lb_from_cap
+    question: Beyrouth est la capitale de quel pays ?
+    answer: Liban
+    feedback: Beyrouth est la capitale du Liban 🇱🇧.
+    alternatives: [Lebanon]
+  - id: cap_my_to_cap
+    question: Quelle est la capitale de la Malaisie 🇲🇾 ?
+    answer: Kuala Lumpur
+    feedback: Kuala Lumpur est la capitale de la Malaisie.
+  - id: cap_my_from_cap
+    question: Kuala Lumpur est la capitale de quel pays ?
+    answer: Malaisie
+    feedback: Kuala Lumpur est la capitale de la Malaisie 🇲🇾.
+    alternatives: [Malaysia]
+  - id: cap_mv_to_cap
+    question: Quelle est la capitale des Maldives 🇲🇻 ?
+    answer: Malé
+    feedback: Malé est la capitale des Maldives.
+  - id: cap_mv_from_cap
+    question: Malé est la capitale de quel pays ?
+    answer: Maldives
+    feedback: Malé est la capitale des Maldives 🇲🇻.
+  - id: cap_mn_to_cap
+    question: Quelle est la capitale de la Mongolie 🇲🇳 ?
+    answer: Oulan-Bator
+    feedback: Oulan-Bator est la capitale de la Mongolie.
+    alternatives: [Ulan Bator, Ulaanbaatar]
+  - id: cap_mn_from_cap
+    question: Oulan-Bator est la capitale de quel pays ?
+    answer: Mongolie
+    feedback: Oulan-Bator est la capitale de la Mongolie 🇲🇳.
+    alternatives: [Mongolia]
+  - id: cap_mm_to_cap
+    question: Quelle est la capitale de la Birmanie 🇲🇲 ?
+    answer: Naypyidaw
+    feedback: Naypyidaw est la capitale de la Birmanie.
+    alternatives: [Nay Pyi Taw]
+  - id: cap_mm_from_cap
+    question: Naypyidaw est la capitale de quel pays ?
+    answer: Birmanie
+    feedback: Naypyidaw est la capitale de la Birmanie 🇲🇲.
+    alternatives: [Myanmar]
+  - id: cap_np_to_cap
+    question: Quelle est la capitale du Népal 🇳🇵 ?
+    answer: Katmandou
+    feedback: Katmandou est la capitale du Népal.
+    alternatives: [Kathmandu]
+  - id: cap_np_from_cap
+    question: Katmandou est la capitale de quel pays ?
+    answer: Népal
+    feedback: Katmandou est la capitale du Népal 🇳🇵.
+  - id: cap_kp_to_cap
+    question: Quelle est la capitale de la Corée du Nord 🇰🇵 ?
+    answer: Pyongyang
+    feedback: Pyongyang est la capitale de la Corée du Nord.
+  - id: cap_kp_from_cap
+    question: Pyongyang est la capitale de quel pays ?
+    answer: Corée du Nord
+    feedback: Pyongyang est la capitale de la Corée du Nord 🇰🇵.
+    alternatives: [North Korea]
+  - id: cap_om_to_cap
+    question: "Quelle est la capitale d'Oman 🇴🇲 ?"
+    answer: Mascate
+    feedback: "Mascate est la capitale d'Oman."
+    alternatives: [Muscat]
+  - id: cap_om_from_cap
+    question: Mascate est la capitale de quel pays ?
+    answer: Oman
+    feedback: "Mascate est la capitale d'Oman 🇴🇲."
+  - id: cap_pk_to_cap
+    question: Quelle est la capitale du Pakistan 🇵🇰 ?
+    answer: Islamabad
+    feedback: Islamabad est la capitale du Pakistan.
+  - id: cap_pk_from_cap
+    question: Islamabad est la capitale de quel pays ?
+    answer: Pakistan
+    feedback: Islamabad est la capitale du Pakistan 🇵🇰.
+  - id: cap_ph_to_cap
+    question: Quelle est la capitale des Philippines 🇵🇭 ?
+    answer: Manille
+    feedback: Manille est la capitale des Philippines.
+    alternatives: [Manila]
+  - id: cap_ph_from_cap
+    question: Manille est la capitale de quel pays ?
+    answer: Philippines
+    feedback: Manille est la capitale des Philippines 🇵🇭.
+  - id: cap_qa_to_cap
+    question: Quelle est la capitale du Qatar 🇶🇦 ?
+    answer: Doha
+    feedback: Doha est la capitale du Qatar.
+  - id: cap_qa_from_cap
+    question: Doha est la capitale de quel pays ?
+    answer: Qatar
+    feedback: Doha est la capitale du Qatar 🇶🇦.
+  - id: cap_sa_to_cap
+    question: "Quelle est la capitale de l'Arabie saoudite 🇸🇦 ?"
+    answer: Riyad
+    feedback: "Riyad est la capitale de l'Arabie saoudite."
+    alternatives: [Riyadh, Ryad]
+  - id: cap_sa_from_cap
+    question: Riyad est la capitale de quel pays ?
+    answer: Arabie saoudite
+    feedback: "Riyad est la capitale de l'Arabie saoudite 🇸🇦."
+    alternatives: [Saudi Arabia]
+  - id: cap_sg_to_cap
+    question: Quelle est la capitale de Singapour 🇸🇬 ?
+    answer: Singapour
+    feedback: Singapour est la capitale de Singapour.
+    alternatives: [Singapore]
+  - id: cap_kr_to_cap
+    question: Quelle est la capitale de la Corée du Sud 🇰🇷 ?
+    answer: Séoul
+    feedback: Séoul est la capitale de la Corée du Sud.
+  - id: cap_kr_from_cap
+    question: Séoul est la capitale de quel pays ?
+    answer: Corée du Sud
+    feedback: Séoul est la capitale de la Corée du Sud 🇰🇷.
+    alternatives: [South Korea]
+  - id: cap_lk_to_cap
+    question: Quelle est la capitale du Sri Lanka 🇱🇰 ?
+    answer: Colombo
+    feedback: "Colombo, capitale commerciale, est le siège de l'exécutif ; Sri Jayawardenapura Kotté, capitale administrative et législative, abrite le Parlement."
+    alternatives: [Sri Jayawardenapura Kotté, Sri Jayawardenepura Kotte, Kotte]
+  - id: cap_lk_from_cap
+    question: Colombo est la capitale de quel pays ?
+    answer: Sri Lanka
+    feedback: "Colombo, capitale commerciale, est le siège de l'exécutif ; Sri Jayawardenapura Kotté, capitale administrative et législative, abrite le Parlement."
+  - id: cap_sy_to_cap
+    question: Quelle est la capitale de la Syrie 🇸🇾 ?
+    answer: Damas
+    feedback: Damas est la capitale de la Syrie.
+    alternatives: [Damascus]
+  - id: cap_sy_from_cap
+    question: Damas est la capitale de quel pays ?
+    answer: Syrie
+    feedback: Damas est la capitale de la Syrie 🇸🇾.
+    alternatives: [Syria]
+  - id: cap_tj_to_cap
+    question: Quelle est la capitale du Tadjikistan 🇹🇯 ?
+    answer: Douchanbé
+    feedback: Douchanbé est la capitale du Tadjikistan.
+    alternatives: [Dushanbe]
+  - id: cap_tj_from_cap
+    question: Douchanbé est la capitale de quel pays ?
+    answer: Tadjikistan
+    feedback: Douchanbé est la capitale du Tadjikistan 🇹🇯.
+    alternatives: [Tajikistan]
+  - id: cap_th_to_cap
+    question: Quelle est la capitale de la Thaïlande 🇹🇭 ?
+    answer: Bangkok
+    feedback: Bangkok est la capitale de la Thaïlande.
+  - id: cap_th_from_cap
+    question: Bangkok est la capitale de quel pays ?
+    answer: Thaïlande
+    feedback: Bangkok est la capitale de la Thaïlande 🇹🇭.
+    alternatives: [Thailand]
+  - id: cap_tl_to_cap
+    question: Quelle est la capitale du Timor oriental 🇹🇱 ?
+    answer: Dili
+    feedback: Dili est la capitale du Timor oriental.
+  - id: cap_tl_from_cap
+    question: Dili est la capitale de quel pays ?
+    answer: Timor oriental
+    feedback: Dili est la capitale du Timor oriental 🇹🇱.
+    alternatives: [Timor-Leste]
+  - id: cap_tr_to_cap
+    question: Quelle est la capitale de la Turquie 🇹🇷 ?
+    answer: Ankara
+    feedback: Ankara est la capitale de la Turquie.
+  - id: cap_tr_from_cap
+    question: Ankara est la capitale de quel pays ?
+    answer: Turquie
+    feedback: Ankara est la capitale de la Turquie 🇹🇷.
+    alternatives: [Türkiye]
+  - id: cap_tm_to_cap
+    question: Quelle est la capitale du Turkménistan 🇹🇲 ?
+    answer: Achgabat
+    feedback: Achgabat est la capitale du Turkménistan.
+    alternatives: [Ashgabat, Ashkhabad]
+  - id: cap_tm_from_cap
+    question: Achgabat est la capitale de quel pays ?
+    answer: Turkménistan
+    feedback: Achgabat est la capitale du Turkménistan 🇹🇲.
+  - id: cap_ae_to_cap
+    question: Quelle est la capitale des Émirats arabes unis 🇦🇪 ?
+    answer: Abou Dabi
+    feedback: Abou Dabi est la capitale des Émirats arabes unis.
+    alternatives: [Abu Dhabi, Abou Dhabi]
+  - id: cap_ae_from_cap
+    question: Abou Dabi est la capitale de quel pays ?
+    answer: Émirats arabes unis
+    feedback: Abou Dabi est la capitale des Émirats arabes unis 🇦🇪.
+    alternatives: [United Arab Emirates]
+  - id: cap_uz_to_cap
+    question: "Quelle est la capitale de l'Ouzbékistan 🇺🇿 ?"
+    answer: Tachkent
+    feedback: "Tachkent est la capitale de l'Ouzbékistan."
+    alternatives: [Tashkent]
+  - id: cap_uz_from_cap
+    question: Tachkent est la capitale de quel pays ?
+    answer: Ouzbékistan
+    feedback: "Tachkent est la capitale de l'Ouzbékistan 🇺🇿."
+    alternatives: [Uzbekistan]
+  - id: cap_vn_to_cap
+    question: Quelle est la capitale du Viêt Nam 🇻🇳 ?
+    answer: Hanoï
+    feedback: Hanoï est la capitale du Viêt Nam.
+  - id: cap_vn_from_cap
+    question: Hanoï est la capitale de quel pays ?
+    answer: Viêt Nam
+    feedback: Hanoï est la capitale du Viêt Nam 🇻🇳.
+    alternatives: [Vietnam]
+  - id: cap_ye_to_cap
+    question: Quelle est la capitale du Yémen 🇾🇪 ?
+    answer: Sanaa
+    feedback: Sanaa est la capitale du Yémen.
+  - id: cap_ye_from_cap
+    question: Sanaa est la capitale de quel pays ?
+    answer: Yémen
+    feedback: Sanaa est la capitale du Yémen 🇾🇪.

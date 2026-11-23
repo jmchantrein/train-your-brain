@@ -1,0 +1,3930 @@
+[
+  {
+    "name": {
+      "en": "Afghanistan",
+      "fr": "Afghanistan"
+    },
+    "capital": "Kabul",
+    "capital_fr": "Kaboul",
+    "capital_alt": [
+      "Kabul"
+    ],
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "cca2": "AF",
+    "flag": "🇦🇫",
+    "grammar": {
+      "gender": "m",
+      "number": "s",
+      "article": "l'",
+      "de": "de l'Afghanistan"
+    }
+  },
+  {
+    "name": {
+      "en": "Albania",
+      "fr": "Albanie"
+    },
+    "capital": "Tirana",
+    "capital_fr": "Tirana",
+    "capital_alt": [],
+    "region": "Europe",
+    "subregion": "Southeast Europe",
+    "cca2": "AL",
+    "flag": "🇦🇱",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "l'",
+      "de": "de l'Albanie"
+    }
+  },
+  {
+    "name": {
+      "en": "Algeria",
+      "fr": "Algérie"
+    },
+    "capital": "Algiers",
+    "capital_fr": "Alger",
+    "capital_alt": [
+      "Algiers"
+    ],
+    "region": "Africa",
+    "subregion": "Northern Africa",
+    "cca2": "DZ",
+    "flag": "🇩🇿",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "l'",
+      "de": "de l'Algérie"
+    }
+  },
+  {
+    "name": {
+      "en": "Andorra",
+      "fr": "Andorre"
+    },
+    "capital": "Andorra la Vella",
+    "capital_fr": "Andorre-la-Vieille",
+    "capital_alt": [
+      "Andorra la Vella"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "cca2": "AD",
+    "flag": "🇦🇩",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "l'",
+      "de": "de l'Andorre"
+    }
+  },
+  {
+    "name": {
+      "en": "Angola",
+      "fr": "Angola"
+    },
+    "capital": "Luanda",
+    "capital_fr": "Luanda",
+    "capital_alt": [],
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "cca2": "AO",
+    "flag": "🇦🇴",
+    "grammar": {
+      "gender": "m",
+      "number": "s",
+      "article": "l'",
+      "de": "de l'Angola"
+    }
+  },
+  {
+    "name": {
+      "en": "Antigua and Barbuda",
+      "fr": "Antigua-et-Barbuda"
+    },
+    "capital": "Saint John's",
+    "capital_fr": "Saint John's",
+    "capital_alt": [
+      "St. John's"
+    ],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "cca2": "AG",
+    "flag": "🇦🇬",
+    "grammar": {
+      "gender": null,
+      "number": "s",
+      "article": "",
+      "de": "d'Antigua-et-Barbuda"
+    }
+  },
+  {
+    "name": {
+      "en": "Argentina",
+      "fr": "Argentine"
+    },
+    "capital": "Buenos Aires",
+    "capital_fr": "Buenos Aires",
+    "capital_alt": [],
+    "region": "Americas",
+    "subregion": "South America",
+    "cca2": "AR",
+    "flag": "🇦🇷",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "l'",
+      "de": "de l'Argentine"
+    }
+  },
+  {
+    "name": {
+      "en": "Armenia",
+      "fr": "Arménie"
+    },
+    "capital": "Yerevan",
+    "capital_fr": "Erevan",
+    "capital_alt": [
+      "Yerevan"
+    ],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "cca2": "AM",
+    "flag": "🇦🇲",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "l'",
+      "de": "de l'Arménie"
+    }
+  },
+  {
+    "name": {
+      "en": "Australia",
+      "fr": "Australie"
+    },
+    "capital": "Canberra",
+    "capital_fr": "Canberra",
+    "capital_alt": [],
+    "region": "Oceania",
+    "subregion": "Australia and New Zealand",
+    "cca2": "AU",
+    "flag": "🇦🇺",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "l'",
+      "de": "de l'Australie"
+    }
+  },
+  {
+    "name": {
+      "en": "Austria",
+      "fr": "Autriche"
+    },
+    "capital": "Vienna",
+    "capital_fr": "Vienne",
+    "capital_alt": [
+      "Vienna"
+    ],
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "cca2": "AT",
+    "flag": "🇦🇹",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "l'",
+      "de": "de l'Autriche"
+    }
+  },
+  {
+    "name": {
+      "en": "Azerbaijan",
+      "fr": "Azerbaïdjan"
+    },
+    "capital": "Baku",
+    "capital_fr": "Bakou",
+    "capital_alt": [
+      "Baku"
+    ],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "cca2": "AZ",
+    "flag": "🇦🇿",
+    "grammar": {
+      "gender": "m",
+      "number": "s",
+      "article": "l'",
+      "de": "de l'Azerbaïdjan"
+    }
+  },
+  {
+    "name": {
+      "en": "Bahamas",
+      "fr": "Bahamas"
+    },
+    "capital": "Nassau",
+    "capital_fr": "Nassau",
+    "capital_alt": [],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "cca2": "BS",
+    "flag": "🇧🇸",
+    "grammar": {
+      "gender": "f",
+      "number": "p",
+      "article": "les",
+      "de": "des Bahamas"
+    }
+  },
+  {
+    "name": {
+      "en": "Bahrain",
+      "fr": "Bahreïn"
+    },
+    "capital": "Manama",
+    "capital_fr": "Manama",
+    "capital_alt": [],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "cca2": "BH",
+    "flag": "🇧🇭",
+    "grammar": {
+      "gender": null,
+      "number": "s",
+      "article": "",
+      "de": "de Bahreïn"
+    }
+  },
+  {
+    "name": {
+      "en": "Bangladesh",
+      "fr": "Bangladesh"
+    },
+    "capital": "Dhaka",
+    "capital_fr": "Dacca",
+    "capital_alt": [
+      "Dhaka"
+    ],
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "cca2": "BD",
+    "flag": "🇧🇩",
+    "grammar": {
+      "gender": "m",
+      "number": "s",
+      "article": "le",
+      "de": "du Bangladesh"
+    }
+  },
+  {
+    "name": {
+      "en": "Barbados",
+      "fr": "Barbade"
+    },
+    "capital": "Bridgetown",
+    "capital_fr": "Bridgetown",
+    "capital_alt": [],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "cca2": "BB",
+    "flag": "🇧🇧",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "la",
+      "de": "de la Barbade"
+    }
+  },
+  {
+    "name": {
+      "en": "Belarus",
+      "fr": "Biélorussie",
+      "fr_alt": [
+        "Bélarus",
+        "Belarus"
+      ]
+    },
+    "capital": "Minsk",
+    "capital_fr": "Minsk",
+    "capital_alt": [],
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "cca2": "BY",
+    "flag": "🇧🇾",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "la",
+      "de": "de la Biélorussie"
+    }
+  },
+  {
+    "name": {
+      "en": "Belgium",
+      "fr": "Belgique"
+    },
+    "capital": "Brussels",
+    "capital_fr": "Bruxelles",
+    "capital_alt": [
+      "Brussels"
+    ],
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "cca2": "BE",
+    "flag": "🇧🇪",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "la",
+      "de": "de la Belgique"
+    }
+  },
+  {
+    "name": {
+      "en": "Belize",
+      "fr": "Belize"
+    },
+    "capital": "Belmopan",
+    "capital_fr": "Belmopan",
+    "capital_alt": [],
+    "region": "Americas",
+    "subregion": "Central America",
+    "cca2": "BZ",
+    "flag": "🇧🇿",
+    "grammar": {
+      "gender": "m",
+      "number": "s",
+      "article": "le",
+      "de": "du Belize"
+    }
+  },
+  {
+    "name": {
+      "en": "Benin",
+      "fr": "Bénin"
+    },
+    "capital": "Porto-Novo",
+    "capital_fr": "Porto-Novo",
+    "capital_alt": [
+      "Cotonou"
+    ],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "cca2": "BJ",
+    "flag": "🇧🇯",
+    "grammar": {
+      "gender": "m",
+      "number": "s",
+      "article": "le",
+      "de": "du Bénin"
+    },
+    "capital_note": "Porto-Novo est la capitale officielle du Bénin ; Cotonou, capitale économique, est le siège du gouvernement."
+  },
+  {
+    "name": {
+      "en": "Bhutan",
+      "fr": "Bhoutan"
+    },
+    "capital": "Thimphu",
+    "capital_fr": "Thimphou",
+    "capital_alt": [
+      "Thimphu"
+    ],
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "cca2": "BT",
+    "flag": "🇧🇹",
+    "grammar": {
+      "gender": "m",
+      "number": "s",
+      "article": "le",
+      "de": "du Bhoutan"
+    }
+  },
+  {
+    "name": {
+      "en": "Bolivia",
+      "fr": "Bolivie"
+    },
+    "capital": "Sucre",
+    "capital_fr": "Sucre",
+    "capital_alt": [
+      "La Paz"
+    ],
+    "region": "Americas",
+    "subregion": "South America",
+    "cca2": "BO",
+    "flag": "🇧🇴",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "la",
+      "de": "de la Bolivie"
+    },
+    "capital_note": "Sucre est la capitale constitutionnelle de la Bolivie ; La Paz est le siège du gouvernement."
+  },
+  {
+    "name": {
+      "en": "Bosnia and Herzegovina",
+      "fr": "Bosnie-Herzégovine"
+    },
+    "capital": "Sarajevo",
+    "capital_fr": "Sarajevo",
+    "capital_alt": [],
+    "region": "Europe",
+    "subregion": "Southeast Europe",
+    "cca2": "BA",
+    "flag": "🇧🇦",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "la",
+      "de": "de la Bosnie-Herzégovine"
+    }
+  },
+  {
+    "name": {
+      "en": "Botswana",
+      "fr": "Botswana"
+    },
+    "capital": "Gaborone",
+    "capital_fr": "Gaborone",
+    "capital_alt": [],
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "cca2": "BW",
+    "flag": "🇧🇼",
+    "grammar": {
+      "gender": "m",
+      "number": "s",
+      "article": "le",
+      "de": "du Botswana"
+    }
+  },
+  {
+    "name": {
+      "en": "Brazil",
+      "fr": "Brésil"
+    },
+    "capital": "Brasília",
+    "capital_fr": "Brasilia",
+    "capital_alt": [],
+    "region": "Americas",
+    "subregion": "South America",
+    "cca2": "BR",
+    "flag": "🇧🇷",
+    "grammar": {
+      "gender": "m",
+      "number": "s",
+      "article": "le",
+      "de": "du Brésil"
+    }
+  },
+  {
+    "name": {
+      "en": "Brunei",
+      "fr": "Brunei"
+    },
+    "capital": "Bandar Seri Begawan",
+    "capital_fr": "Bandar Seri Begawan",
+    "capital_alt": [],
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "cca2": "BN",
+    "flag": "🇧🇳",
+    "grammar": {
+      "gender": "m",
+      "number": "s",
+      "article": "le",
+      "de": "du Brunei"
+    }
+  },
+  {
+    "name": {
+      "en": "Bulgaria",
+      "fr": "Bulgarie"
+    },
+    "capital": "Sofia",
+    "capital_fr": "Sofia",
+    "capital_alt": [],
+    "region": "Europe",
+    "subregion": "Southeast Europe",
+    "cca2": "BG",
+    "flag": "🇧🇬",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "la",
+      "de": "de la Bulgarie"
+    }
+  },
+  {
+    "name": {
+      "en": "Burkina Faso",
+      "fr": "Burkina Faso"
+    },
+    "capital": "Ouagadougou",
+    "capital_fr": "Ouagadougou",
+    "capital_alt": [],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "cca2": "BF",
+    "flag": "🇧🇫",
+    "grammar": {
+      "gender": "m",
+      "number": "s",
+      "article": "le",
+      "de": "du Burkina Faso"
+    }
+  },
+  {
+    "name": {
+      "en": "Burundi",
+      "fr": "Burundi"
+    },
+    "capital": "Gitega",
+    "capital_fr": "Gitega",
+    "capital_alt": [
+      "Bujumbura"
+    ],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "cca2": "BI",
+    "flag": "🇧🇮",
+    "grammar": {
+      "gender": "m",
+      "number": "s",
+      "article": "le",
+      "de": "du Burundi"
+    },
+    "capital_note": "Gitega est la capitale politique du Burundi depuis 2019 ; Bujumbura reste sa capitale économique."
+  },
+  {
+    "name": {
+      "en": "Cambodia",
+      "fr": "Cambodge"
+    },
+    "capital": "Phnom Penh",
+    "capital_fr": "Phnom Penh",
+    "capital_alt": [],
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "cca2": "KH",
+    "flag": "🇰🇭",
+    "grammar": {
+      "gender": "m",
+      "number": "s",
+      "article": "le",
+      "de": "du Cambodge"
+    }
+  },
+  {
+    "name": {
+      "en": "Cameroon",
+      "fr": "Cameroun"
+    },
+    "capital": "Yaoundé",
+    "capital_fr": "Yaoundé",
+    "capital_alt": [],
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "cca2": "CM",
+    "flag": "🇨🇲",
+    "grammar": {
+      "gender": "m",
+      "number": "s",
+      "article": "le",
+      "de": "du Cameroun"
+    }
+  },
+  {
+    "name": {
+      "en": "Canada",
+      "fr": "Canada"
+    },
+    "capital": "Ottawa",
+    "capital_fr": "Ottawa",
+    "capital_alt": [],
+    "region": "Americas",
+    "subregion": "North America",
+    "cca2": "CA",
+    "flag": "🇨🇦",
+    "grammar": {
+      "gender": "m",
+      "number": "s",
+      "article": "le",
+      "de": "du Canada"
+    }
+  },
+  {
+    "name": {
+      "en": "Cape Verde",
+      "fr": "Cap-Vert",
+      "fr_alt": [
+        "Cabo Verde",
+        "Îles du Cap-Vert"
+      ]
+    },
+    "capital": "Praia",
+    "capital_fr": "Praia",
+    "capital_alt": [],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "cca2": "CV",
+    "flag": "🇨🇻",
+    "grammar": {
+      "gender": "m",
+      "number": "s",
+      "article": "le",
+      "de": "du Cap-Vert"
+    }
+  },
+  {
+    "name": {
+      "en": "Central African Republic",
+      "fr": "République centrafricaine",
+      "fr_alt": [
+        "Centrafrique"
+      ]
+    },
+    "capital": "Bangui",
+    "capital_fr": "Bangui",
+    "capital_alt": [],
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "cca2": "CF",
+    "flag": "🇨🇫",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "la",
+      "de": "de la République centrafricaine"
+    }
+  },
+  {
+    "name": {
+      "en": "Chad",
+      "fr": "Tchad"
+    },
+    "capital": "N'Djamena",
+    "capital_fr": "N'Djamena",
+    "capital_alt": [],
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "cca2": "TD",
+    "flag": "🇹🇩",
+    "grammar": {
+      "gender": "m",
+      "number": "s",
+      "article": "le",
+      "de": "du Tchad"
+    }
+  },
+  {
+    "name": {
+      "en": "Chile",
+      "fr": "Chili"
+    },
+    "capital": "Santiago",
+    "capital_fr": "Santiago",
+    "capital_alt": [
+      "Santiago du Chili"
+    ],
+    "region": "Americas",
+    "subregion": "South America",
+    "cca2": "CL",
+    "flag": "🇨🇱",
+    "grammar": {
+      "gender": "m",
+      "number": "s",
+      "article": "le",
+      "de": "du Chili"
+    }
+  },
+  {
+    "name": {
+      "en": "China",
+      "fr": "Chine"
+    },
+    "capital": "Beijing",
+    "capital_fr": "Pékin",
+    "capital_alt": [
+      "Beijing"
+    ],
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "cca2": "CN",
+    "flag": "🇨🇳",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "la",
+      "de": "de la Chine"
+    }
+  },
+  {
+    "name": {
+      "en": "Colombia",
+      "fr": "Colombie"
+    },
+    "capital": "Bogotá",
+    "capital_fr": "Bogota",
+    "capital_alt": [],
+    "region": "Americas",
+    "subregion": "South America",
+    "cca2": "CO",
+    "flag": "🇨🇴",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "la",
+      "de": "de la Colombie"
+    }
+  },
+  {
+    "name": {
+      "en": "Comoros",
+      "fr": "Comores"
+    },
+    "capital": "Moroni",
+    "capital_fr": "Moroni",
+    "capital_alt": [],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "cca2": "KM",
+    "flag": "🇰🇲",
+    "grammar": {
+      "gender": "f",
+      "number": "p",
+      "article": "les",
+      "de": "des Comores"
+    }
+  },
+  {
+    "name": {
+      "en": "Congo",
+      "fr": "République du Congo",
+      "fr_alt": [
+        "Congo",
+        "Congo-Brazzaville"
+      ]
+    },
+    "capital": "Brazzaville",
+    "capital_fr": "Brazzaville",
+    "capital_alt": [],
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "cca2": "CG",
+    "flag": "🇨🇬",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "la",
+      "de": "de la République du Congo"
+    }
+  },
+  {
+    "name": {
+      "en": "Costa Rica",
+      "fr": "Costa Rica"
+    },
+    "capital": "San José",
+    "capital_fr": "San José",
+    "capital_alt": [],
+    "region": "Americas",
+    "subregion": "Central America",
+    "cca2": "CR",
+    "flag": "🇨🇷",
+    "grammar": {
+      "gender": "m",
+      "number": "s",
+      "article": "le",
+      "de": "du Costa Rica"
+    }
+  },
+  {
+    "name": {
+      "en": "Croatia",
+      "fr": "Croatie"
+    },
+    "capital": "Zagreb",
+    "capital_fr": "Zagreb",
+    "capital_alt": [],
+    "region": "Europe",
+    "subregion": "Southeast Europe",
+    "cca2": "HR",
+    "flag": "🇭🇷",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "la",
+      "de": "de la Croatie"
+    }
+  },
+  {
+    "name": {
+      "en": "Cuba",
+      "fr": "Cuba"
+    },
+    "capital": "Havana",
+    "capital_fr": "La Havane",
+    "capital_alt": [
+      "Havana",
+      "Havane"
+    ],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "cca2": "CU",
+    "flag": "🇨🇺",
+    "grammar": {
+      "gender": null,
+      "number": "s",
+      "article": "",
+      "de": "de Cuba"
+    }
+  },
+  {
+    "name": {
+      "en": "Cyprus",
+      "fr": "Chypre"
+    },
+    "capital": "Nicosia",
+    "capital_fr": "Nicosie",
+    "capital_alt": [
+      "Nicosia"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "cca2": "CY",
+    "flag": "🇨🇾",
+    "grammar": {
+      "gender": null,
+      "number": "s",
+      "article": "",
+      "de": "de Chypre"
+    }
+  },
+  {
+    "name": {
+      "en": "Czechia",
+      "fr": "Tchéquie",
+      "fr_alt": [
+        "République tchèque"
+      ]
+    },
+    "capital": "Prague",
+    "capital_fr": "Prague",
+    "capital_alt": [],
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "cca2": "CZ",
+    "flag": "🇨🇿",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "la",
+      "de": "de la Tchéquie"
+    }
+  },
+  {
+    "name": {
+      "en": "Denmark",
+      "fr": "Danemark"
+    },
+    "capital": "Copenhagen",
+    "capital_fr": "Copenhague",
+    "capital_alt": [
+      "Copenhagen"
+    ],
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "cca2": "DK",
+    "flag": "🇩🇰",
+    "grammar": {
+      "gender": "m",
+      "number": "s",
+      "article": "le",
+      "de": "du Danemark"
+    }
+  },
+  {
+    "name": {
+      "en": "Djibouti",
+      "fr": "Djibouti"
+    },
+    "capital": "Djibouti",
+    "capital_fr": "Djibouti",
+    "capital_alt": [],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "cca2": "DJ",
+    "flag": "🇩🇯",
+    "grammar": {
+      "gender": null,
+      "number": "s",
+      "article": "",
+      "de": "de Djibouti"
+    }
+  },
+  {
+    "name": {
+      "en": "Dominica",
+      "fr": "Dominique"
+    },
+    "capital": "Roseau",
+    "capital_fr": "Roseau",
+    "capital_alt": [],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "cca2": "DM",
+    "flag": "🇩🇲",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "la",
+      "de": "de la Dominique"
+    }
+  },
+  {
+    "name": {
+      "en": "Dominican Republic",
+      "fr": "République dominicaine"
+    },
+    "capital": "Santo Domingo",
+    "capital_fr": "Saint-Domingue",
+    "capital_alt": [
+      "Santo Domingo"
+    ],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "cca2": "DO",
+    "flag": "🇩🇴",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "la",
+      "de": "de la République dominicaine"
+    }
+  },
+  {
+    "name": {
+      "en": "DR Congo",
+      "fr": "République démocratique du Congo",
+      "fr_alt": [
+        "RDC",
+        "Congo-Kinshasa",
+        "Congo (Rép. dém.)"
+      ]
+    },
+    "capital": "Kinshasa",
+    "capital_fr": "Kinshasa",
+    "capital_alt": [],
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "cca2": "CD",
+    "flag": "🇨🇩",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "la",
+      "de": "de la République démocratique du Congo"
+    }
+  },
+  {
+    "name": {
+      "en": "Ecuador",
+      "fr": "Équateur"
+    },
+    "capital": "Quito",
+    "capital_fr": "Quito",
+    "capital_alt": [],
+    "region": "Americas",
+    "subregion": "South America",
+    "cca2": "EC",
+    "flag": "🇪🇨",
+    "grammar": {
+      "gender": "m",
+      "number": "s",
+      "article": "l'",
+      "de": "de l'Équateur"
+    }
+  },
+  {
+    "name": {
+      "en": "Egypt",
+      "fr": "Égypte"
+    },
+    "capital": "Cairo",
+    "capital_fr": "Le Caire",
+    "capital_alt": [
+      "Cairo",
+      "Caire"
+    ],
+    "region": "Africa",
+    "subregion": "Northern Africa",
+    "cca2": "EG",
+    "flag": "🇪🇬",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "l'",
+      "de": "de l'Égypte"
+    }
+  },
+  {
+    "name": {
+      "en": "El Salvador",
+      "fr": "Salvador",
+      "fr_alt": [
+        "El Salvador"
+      ]
+    },
+    "capital": "San Salvador",
+    "capital_fr": "San Salvador",
+    "capital_alt": [],
+    "region": "Americas",
+    "subregion": "Central America",
+    "cca2": "SV",
+    "flag": "🇸🇻",
+    "grammar": {
+      "gender": "m",
+      "number": "s",
+      "article": "le",
+      "de": "du Salvador"
+    }
+  },
+  {
+    "name": {
+      "en": "Equatorial Guinea",
+      "fr": "Guinée équatoriale"
+    },
+    "capital": "Ciudad de la Paz",
+    "capital_fr": "Ciudad de la Paz",
+    "capital_alt": [],
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "cca2": "GQ",
+    "flag": "🇬🇶",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "la",
+      "de": "de la Guinée équatoriale"
+    },
+    "capital_note": "Ciudad de la Paz (province de Djibloho) est la capitale de la Guinée équatoriale depuis le décret-loi du 2 janvier 2026 ; Malabo était la capitale jusque-là."
+  },
+  {
+    "name": {
+      "en": "Eritrea",
+      "fr": "Érythrée"
+    },
+    "capital": "Asmara",
+    "capital_fr": "Asmara",
+    "capital_alt": [],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "cca2": "ER",
+    "flag": "🇪🇷",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "l'",
+      "de": "de l'Érythrée"
+    }
+  },
+  {
+    "name": {
+      "en": "Estonia",
+      "fr": "Estonie"
+    },
+    "capital": "Tallinn",
+    "capital_fr": "Tallinn",
+    "capital_alt": [],
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "cca2": "EE",
+    "flag": "🇪🇪",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "l'",
+      "de": "de l'Estonie"
+    }
+  },
+  {
+    "name": {
+      "en": "Eswatini",
+      "fr": "Eswatini",
+      "fr_alt": [
+        "Swaziland"
+      ]
+    },
+    "capital": "Mbabane",
+    "capital_fr": "Mbabane",
+    "capital_alt": [
+      "Lobamba"
+    ],
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "cca2": "SZ",
+    "flag": "🇸🇿",
+    "grammar": {
+      "gender": "m",
+      "number": "s",
+      "article": "l'",
+      "de": "de l'Eswatini"
+    },
+    "capital_note": "Mbabane est la capitale administrative de l'Eswatini ; Lobamba en est la capitale législative et royale."
+  },
+  {
+    "name": {
+      "en": "Ethiopia",
+      "fr": "Éthiopie"
+    },
+    "capital": "Addis Ababa",
+    "capital_fr": "Addis-Abeba",
+    "capital_alt": [
+      "Addis Ababa"
+    ],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "cca2": "ET",
+    "flag": "🇪🇹",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "l'",
+      "de": "de l'Éthiopie"
+    }
+  },
+  {
+    "name": {
+      "en": "Fiji",
+      "fr": "Fidji"
+    },
+    "capital": "Suva",
+    "capital_fr": "Suva",
+    "capital_alt": [],
+    "region": "Oceania",
+    "subregion": "Melanesia",
+    "cca2": "FJ",
+    "flag": "🇫🇯",
+    "grammar": {
+      "gender": "f",
+      "number": "p",
+      "article": "les",
+      "de": "des Fidji"
+    }
+  },
+  {
+    "name": {
+      "en": "Finland",
+      "fr": "Finlande"
+    },
+    "capital": "Helsinki",
+    "capital_fr": "Helsinki",
+    "capital_alt": [],
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "cca2": "FI",
+    "flag": "🇫🇮",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "la",
+      "de": "de la Finlande"
+    }
+  },
+  {
+    "name": {
+      "en": "France",
+      "fr": "France"
+    },
+    "capital": "Paris",
+    "capital_fr": "Paris",
+    "capital_alt": [],
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "cca2": "FR",
+    "flag": "🇫🇷",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "la",
+      "de": "de la France"
+    }
+  },
+  {
+    "name": {
+      "en": "Gabon",
+      "fr": "Gabon"
+    },
+    "capital": "Libreville",
+    "capital_fr": "Libreville",
+    "capital_alt": [],
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "cca2": "GA",
+    "flag": "🇬🇦",
+    "grammar": {
+      "gender": "m",
+      "number": "s",
+      "article": "le",
+      "de": "du Gabon"
+    }
+  },
+  {
+    "name": {
+      "en": "Gambia",
+      "fr": "Gambie"
+    },
+    "capital": "Banjul",
+    "capital_fr": "Banjul",
+    "capital_alt": [],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "cca2": "GM",
+    "flag": "🇬🇲",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "la",
+      "de": "de la Gambie"
+    }
+  },
+  {
+    "name": {
+      "en": "Georgia",
+      "fr": "Géorgie"
+    },
+    "capital": "Tbilisi",
+    "capital_fr": "Tbilissi",
+    "capital_alt": [
+      "Tbilisi"
+    ],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "cca2": "GE",
+    "flag": "🇬🇪",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "la",
+      "de": "de la Géorgie"
+    }
+  },
+  {
+    "name": {
+      "en": "Germany",
+      "fr": "Allemagne"
+    },
+    "capital": "Berlin",
+    "capital_fr": "Berlin",
+    "capital_alt": [],
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "cca2": "DE",
+    "flag": "🇩🇪",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "l'",
+      "de": "de l'Allemagne"
+    }
+  },
+  {
+    "name": {
+      "en": "Ghana",
+      "fr": "Ghana"
+    },
+    "capital": "Accra",
+    "capital_fr": "Accra",
+    "capital_alt": [],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "cca2": "GH",
+    "flag": "🇬🇭",
+    "grammar": {
+      "gender": "m",
+      "number": "s",
+      "article": "le",
+      "de": "du Ghana"
+    }
+  },
+  {
+    "name": {
+      "en": "Greece",
+      "fr": "Grèce"
+    },
+    "capital": "Athens",
+    "capital_fr": "Athènes",
+    "capital_alt": [
+      "Athens"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "cca2": "GR",
+    "flag": "🇬🇷",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "la",
+      "de": "de la Grèce"
+    }
+  },
+  {
+    "name": {
+      "en": "Grenada",
+      "fr": "Grenade"
+    },
+    "capital": "St. George's",
+    "capital_fr": "Saint-Georges",
+    "capital_alt": [
+      "St. George's"
+    ],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "cca2": "GD",
+    "flag": "🇬🇩",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "la",
+      "de": "de la Grenade"
+    }
+  },
+  {
+    "name": {
+      "en": "Guatemala",
+      "fr": "Guatemala"
+    },
+    "capital": "Guatemala City",
+    "capital_fr": "Guatemala",
+    "capital_alt": [
+      "Guatemala City",
+      "Ciudad de Guatemala"
+    ],
+    "region": "Americas",
+    "subregion": "Central America",
+    "cca2": "GT",
+    "flag": "🇬🇹",
+    "grammar": {
+      "gender": "m",
+      "number": "s",
+      "article": "le",
+      "de": "du Guatemala"
+    }
+  },
+  {
+    "name": {
+      "en": "Guinea",
+      "fr": "Guinée"
+    },
+    "capital": "Conakry",
+    "capital_fr": "Conakry",
+    "capital_alt": [],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "cca2": "GN",
+    "flag": "🇬🇳",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "la",
+      "de": "de la Guinée"
+    }
+  },
+  {
+    "name": {
+      "en": "Guinea-Bissau",
+      "fr": "Guinée-Bissau"
+    },
+    "capital": "Bissau",
+    "capital_fr": "Bissau",
+    "capital_alt": [],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "cca2": "GW",
+    "flag": "🇬🇼",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "la",
+      "de": "de la Guinée-Bissau"
+    }
+  },
+  {
+    "name": {
+      "en": "Guyana",
+      "fr": "Guyana"
+    },
+    "capital": "Georgetown",
+    "capital_fr": "Georgetown",
+    "capital_alt": [],
+    "region": "Americas",
+    "subregion": "South America",
+    "cca2": "GY",
+    "flag": "🇬🇾",
+    "grammar": {
+      "gender": "m",
+      "number": "s",
+      "article": "le",
+      "de": "du Guyana"
+    }
+  },
+  {
+    "name": {
+      "en": "Haiti",
+      "fr": "Haïti"
+    },
+    "capital": "Port-au-Prince",
+    "capital_fr": "Port-au-Prince",
+    "capital_alt": [],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "cca2": "HT",
+    "flag": "🇭🇹",
+    "grammar": {
+      "gender": null,
+      "number": "s",
+      "article": "",
+      "de": "d'Haïti"
+    }
+  },
+  {
+    "name": {
+      "en": "Honduras",
+      "fr": "Honduras"
+    },
+    "capital": "Tegucigalpa",
+    "capital_fr": "Tegucigalpa",
+    "capital_alt": [],
+    "region": "Americas",
+    "subregion": "Central America",
+    "cca2": "HN",
+    "flag": "🇭🇳",
+    "grammar": {
+      "gender": "m",
+      "number": "s",
+      "article": "le",
+      "de": "du Honduras"
+    }
+  },
+  {
+    "name": {
+      "en": "Hungary",
+      "fr": "Hongrie"
+    },
+    "capital": "Budapest",
+    "capital_fr": "Budapest",
+    "capital_alt": [],
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "cca2": "HU",
+    "flag": "🇭🇺",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "la",
+      "de": "de la Hongrie"
+    }
+  },
+  {
+    "name": {
+      "en": "Iceland",
+      "fr": "Islande"
+    },
+    "capital": "Reykjavik",
+    "capital_fr": "Reykjavik",
+    "capital_alt": [],
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "cca2": "IS",
+    "flag": "🇮🇸",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "l'",
+      "de": "de l'Islande"
+    }
+  },
+  {
+    "name": {
+      "en": "India",
+      "fr": "Inde"
+    },
+    "capital": "New Delhi",
+    "capital_fr": "New Delhi",
+    "capital_alt": [
+      "Delhi",
+      "Nouvelle-Delhi"
+    ],
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "cca2": "IN",
+    "flag": "🇮🇳",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "l'",
+      "de": "de l'Inde"
+    }
+  },
+  {
+    "name": {
+      "en": "Indonesia",
+      "fr": "Indonésie"
+    },
+    "capital": "Jakarta",
+    "capital_fr": "Jakarta",
+    "capital_alt": [],
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "cca2": "ID",
+    "flag": "🇮🇩",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "l'",
+      "de": "de l'Indonésie"
+    }
+  },
+  {
+    "name": {
+      "en": "Iran",
+      "fr": "Iran"
+    },
+    "capital": "Tehran",
+    "capital_fr": "Téhéran",
+    "capital_alt": [
+      "Tehran"
+    ],
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "cca2": "IR",
+    "flag": "🇮🇷",
+    "grammar": {
+      "gender": "m",
+      "number": "s",
+      "article": "l'",
+      "de": "de l'Iran"
+    }
+  },
+  {
+    "name": {
+      "en": "Iraq",
+      "fr": "Irak"
+    },
+    "capital": "Baghdad",
+    "capital_fr": "Bagdad",
+    "capital_alt": [
+      "Baghdad"
+    ],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "cca2": "IQ",
+    "flag": "🇮🇶",
+    "grammar": {
+      "gender": "m",
+      "number": "s",
+      "article": "l'",
+      "de": "de l'Irak"
+    }
+  },
+  {
+    "name": {
+      "en": "Ireland",
+      "fr": "Irlande"
+    },
+    "capital": "Dublin",
+    "capital_fr": "Dublin",
+    "capital_alt": [],
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "cca2": "IE",
+    "flag": "🇮🇪",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "l'",
+      "de": "de l'Irlande"
+    }
+  },
+  {
+    "name": {
+      "en": "Israel",
+      "fr": "Israël"
+    },
+    "capital": "Jerusalem",
+    "capital_fr": "Jérusalem",
+    "capital_alt": [],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "cca2": "IL",
+    "flag": "🇮🇱",
+    "grammar": {
+      "gender": null,
+      "number": "s",
+      "article": "",
+      "de": "d'Israël"
+    },
+    "capital_note": "Israël a fixé sa capitale à Jérusalem, dont le statut ne fait pas l'objet d'un accord international ; la plupart des ambassades sont installées à Tel-Aviv."
+  },
+  {
+    "name": {
+      "en": "Italy",
+      "fr": "Italie"
+    },
+    "capital": "Rome",
+    "capital_fr": "Rome",
+    "capital_alt": [],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "cca2": "IT",
+    "flag": "🇮🇹",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "l'",
+      "de": "de l'Italie"
+    }
+  },
+  {
+    "name": {
+      "en": "Ivory Coast",
+      "fr": "Côte d'Ivoire",
+      "fr_alt": [
+        "Ivory Coast"
+      ]
+    },
+    "capital": "Yamoussoukro",
+    "capital_fr": "Yamoussoukro",
+    "capital_alt": [
+      "Abidjan"
+    ],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "cca2": "CI",
+    "flag": "🇨🇮",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "la",
+      "de": "de la Côte d'Ivoire"
+    },
+    "capital_note": "Yamoussoukro est la capitale officielle de la Côte d'Ivoire ; Abidjan, capitale économique, abrite le siège effectif du gouvernement."
+  },
+  {
+    "name": {
+      "en": "Jamaica",
+      "fr": "Jamaïque"
+    },
+    "capital": "Kingston",
+    "capital_fr": "Kingston",
+    "capital_alt": [],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "cca2": "JM",
+    "flag": "🇯🇲",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "la",
+      "de": "de la Jamaïque"
+    }
+  },
+  {
+    "name": {
+      "en": "Japan",
+      "fr": "Japon"
+    },
+    "capital": "Tokyo",
+    "capital_fr": "Tokyo",
+    "capital_alt": [],
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "cca2": "JP",
+    "flag": "🇯🇵",
+    "grammar": {
+      "gender": "m",
+      "number": "s",
+      "article": "le",
+      "de": "du Japon"
+    }
+  },
+  {
+    "name": {
+      "en": "Jordan",
+      "fr": "Jordanie"
+    },
+    "capital": "Amman",
+    "capital_fr": "Amman",
+    "capital_alt": [],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "cca2": "JO",
+    "flag": "🇯🇴",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "la",
+      "de": "de la Jordanie"
+    }
+  },
+  {
+    "name": {
+      "en": "Kazakhstan",
+      "fr": "Kazakhstan"
+    },
+    "capital": "Astana",
+    "capital_fr": "Astana",
+    "capital_alt": [],
+    "region": "Asia",
+    "subregion": "Central Asia",
+    "cca2": "KZ",
+    "flag": "🇰🇿",
+    "grammar": {
+      "gender": "m",
+      "number": "s",
+      "article": "le",
+      "de": "du Kazakhstan"
+    }
+  },
+  {
+    "name": {
+      "en": "Kenya",
+      "fr": "Kenya"
+    },
+    "capital": "Nairobi",
+    "capital_fr": "Nairobi",
+    "capital_alt": [],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "cca2": "KE",
+    "flag": "🇰🇪",
+    "grammar": {
+      "gender": "m",
+      "number": "s",
+      "article": "le",
+      "de": "du Kenya"
+    }
+  },
+  {
+    "name": {
+      "en": "Kiribati",
+      "fr": "Kiribati"
+    },
+    "capital": "South Tarawa",
+    "capital_fr": "Tarawa-Sud",
+    "capital_alt": [
+      "South Tarawa",
+      "Tarawa"
+    ],
+    "region": "Oceania",
+    "subregion": "Micronesia",
+    "cca2": "KI",
+    "flag": "🇰🇮",
+    "grammar": {
+      "gender": null,
+      "number": "s",
+      "article": "",
+      "de": "de Kiribati"
+    }
+  },
+  {
+    "name": {
+      "en": "Kuwait",
+      "fr": "Koweït"
+    },
+    "capital": "Kuwait City",
+    "capital_fr": "Koweït",
+    "capital_alt": [
+      "Kuwait City",
+      "Koweït City",
+      "Kuwait"
+    ],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "cca2": "KW",
+    "flag": "🇰🇼",
+    "grammar": {
+      "gender": "m",
+      "number": "s",
+      "article": "le",
+      "de": "du Koweït"
+    }
+  },
+  {
+    "name": {
+      "en": "Kyrgyzstan",
+      "fr": "Kirghizistan"
+    },
+    "capital": "Bishkek",
+    "capital_fr": "Bichkek",
+    "capital_alt": [
+      "Bishkek"
+    ],
+    "region": "Asia",
+    "subregion": "Central Asia",
+    "cca2": "KG",
+    "flag": "🇰🇬",
+    "grammar": {
+      "gender": "m",
+      "number": "s",
+      "article": "le",
+      "de": "du Kirghizistan"
+    }
+  },
+  {
+    "name": {
+      "en": "Laos",
+      "fr": "Laos"
+    },
+    "capital": "Vientiane",
+    "capital_fr": "Vientiane",
+    "capital_alt": [],
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "cca2": "LA",
+    "flag": "🇱🇦",
+    "grammar": {
+      "gender": "m",
+      "number": "s",
+      "article": "le",
+      "de": "du Laos"
+    }
+  },
+  {
+    "name": {
+      "en": "Latvia",
+      "fr": "Lettonie"
+    },
+    "capital": "Riga",
+    "capital_fr": "Riga",
+    "capital_alt": [],
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "cca2": "LV",
+    "flag": "🇱🇻",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "la",
+      "de": "de la Lettonie"
+    }
+  },
+  {
+    "name": {
+      "en": "Lebanon",
+      "fr": "Liban"
+    },
+    "capital": "Beirut",
+    "capital_fr": "Beyrouth",
+    "capital_alt": [
+      "Beirut"
+    ],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "cca2": "LB",
+    "flag": "🇱🇧",
+    "grammar": {
+      "gender": "m",
+      "number": "s",
+      "article": "le",
+      "de": "du Liban"
+    }
+  },
+  {
+    "name": {
+      "en": "Lesotho",
+      "fr": "Lesotho"
+    },
+    "capital": "Maseru",
+    "capital_fr": "Maseru",
+    "capital_alt": [],
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "cca2": "LS",
+    "flag": "🇱🇸",
+    "grammar": {
+      "gender": "m",
+      "number": "s",
+      "article": "le",
+      "de": "du Lesotho"
+    }
+  },
+  {
+    "name": {
+      "en": "Liberia",
+      "fr": "Liberia"
+    },
+    "capital": "Monrovia",
+    "capital_fr": "Monrovia",
+    "capital_alt": [],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "cca2": "LR",
+    "flag": "🇱🇷",
+    "grammar": {
+      "gender": "m",
+      "number": "s",
+      "article": "le",
+      "de": "du Liberia"
+    }
+  },
+  {
+    "name": {
+      "en": "Libya",
+      "fr": "Libye"
+    },
+    "capital": "Tripoli",
+    "capital_fr": "Tripoli",
+    "capital_alt": [],
+    "region": "Africa",
+    "subregion": "Northern Africa",
+    "cca2": "LY",
+    "flag": "🇱🇾",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "la",
+      "de": "de la Libye"
+    }
+  },
+  {
+    "name": {
+      "en": "Liechtenstein",
+      "fr": "Liechtenstein"
+    },
+    "capital": "Vaduz",
+    "capital_fr": "Vaduz",
+    "capital_alt": [],
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "cca2": "LI",
+    "flag": "🇱🇮",
+    "grammar": {
+      "gender": "m",
+      "number": "s",
+      "article": "le",
+      "de": "du Liechtenstein"
+    }
+  },
+  {
+    "name": {
+      "en": "Lithuania",
+      "fr": "Lituanie"
+    },
+    "capital": "Vilnius",
+    "capital_fr": "Vilnius",
+    "capital_alt": [],
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "cca2": "LT",
+    "flag": "🇱🇹",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "la",
+      "de": "de la Lituanie"
+    }
+  },
+  {
+    "name": {
+      "en": "Luxembourg",
+      "fr": "Luxembourg"
+    },
+    "capital": "Luxembourg",
+    "capital_fr": "Luxembourg",
+    "capital_alt": [
+      "Luxembourg-Ville"
+    ],
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "cca2": "LU",
+    "flag": "🇱🇺",
+    "grammar": {
+      "gender": "m",
+      "number": "s",
+      "article": "le",
+      "de": "du Luxembourg"
+    }
+  },
+  {
+    "name": {
+      "en": "Madagascar",
+      "fr": "Madagascar"
+    },
+    "capital": "Antananarivo",
+    "capital_fr": "Antananarivo",
+    "capital_alt": [],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "cca2": "MG",
+    "flag": "🇲🇬",
+    "grammar": {
+      "gender": null,
+      "number": "s",
+      "article": "",
+      "de": "de Madagascar"
+    }
+  },
+  {
+    "name": {
+      "en": "Malawi",
+      "fr": "Malawi"
+    },
+    "capital": "Lilongwe",
+    "capital_fr": "Lilongwe",
+    "capital_alt": [],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "cca2": "MW",
+    "flag": "🇲🇼",
+    "grammar": {
+      "gender": "m",
+      "number": "s",
+      "article": "le",
+      "de": "du Malawi"
+    }
+  },
+  {
+    "name": {
+      "en": "Malaysia",
+      "fr": "Malaisie"
+    },
+    "capital": "Kuala Lumpur",
+    "capital_fr": "Kuala Lumpur",
+    "capital_alt": [],
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "cca2": "MY",
+    "flag": "🇲🇾",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "la",
+      "de": "de la Malaisie"
+    }
+  },
+  {
+    "name": {
+      "en": "Maldives",
+      "fr": "Maldives"
+    },
+    "capital": "Malé",
+    "capital_fr": "Malé",
+    "capital_alt": [],
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "cca2": "MV",
+    "flag": "🇲🇻",
+    "grammar": {
+      "gender": "f",
+      "number": "p",
+      "article": "les",
+      "de": "des Maldives"
+    }
+  },
+  {
+    "name": {
+      "en": "Mali",
+      "fr": "Mali"
+    },
+    "capital": "Bamako",
+    "capital_fr": "Bamako",
+    "capital_alt": [],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "cca2": "ML",
+    "flag": "🇲🇱",
+    "grammar": {
+      "gender": "m",
+      "number": "s",
+      "article": "le",
+      "de": "du Mali"
+    }
+  },
+  {
+    "name": {
+      "en": "Malta",
+      "fr": "Malte"
+    },
+    "capital": "Valletta",
+    "capital_fr": "La Valette",
+    "capital_alt": [
+      "Valletta",
+      "Valette"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "cca2": "MT",
+    "flag": "🇲🇹",
+    "grammar": {
+      "gender": null,
+      "number": "s",
+      "article": "",
+      "de": "de Malte"
+    }
+  },
+  {
+    "name": {
+      "en": "Marshall Islands",
+      "fr": "Îles Marshall",
+      "fr_alt": [
+        "Marshall"
+      ]
+    },
+    "capital": "Majuro",
+    "capital_fr": "Majuro",
+    "capital_alt": [],
+    "region": "Oceania",
+    "subregion": "Micronesia",
+    "cca2": "MH",
+    "flag": "🇲🇭",
+    "grammar": {
+      "gender": "f",
+      "number": "p",
+      "article": "les",
+      "de": "des îles Marshall"
+    }
+  },
+  {
+    "name": {
+      "en": "Mauritania",
+      "fr": "Mauritanie"
+    },
+    "capital": "Nouakchott",
+    "capital_fr": "Nouakchott",
+    "capital_alt": [],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "cca2": "MR",
+    "flag": "🇲🇷",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "la",
+      "de": "de la Mauritanie"
+    }
+  },
+  {
+    "name": {
+      "en": "Mauritius",
+      "fr": "Île Maurice",
+      "fr_alt": [
+        "Maurice"
+      ]
+    },
+    "capital": "Port Louis",
+    "capital_fr": "Port-Louis",
+    "capital_alt": [],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "cca2": "MU",
+    "flag": "🇲🇺",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "l'",
+      "de": "de l'île Maurice"
+    }
+  },
+  {
+    "name": {
+      "en": "Mexico",
+      "fr": "Mexique"
+    },
+    "capital": "Mexico City",
+    "capital_fr": "Mexico",
+    "capital_alt": [
+      "Mexico City",
+      "Ciudad de México",
+      "Mexico DF"
+    ],
+    "region": "Americas",
+    "subregion": "North America",
+    "cca2": "MX",
+    "flag": "🇲🇽",
+    "grammar": {
+      "gender": "m",
+      "number": "s",
+      "article": "le",
+      "de": "du Mexique"
+    }
+  },
+  {
+    "name": {
+      "en": "Micronesia",
+      "fr": "Micronésie",
+      "fr_alt": [
+        "États fédérés de Micronésie"
+      ]
+    },
+    "capital": "Palikir",
+    "capital_fr": "Palikir",
+    "capital_alt": [],
+    "region": "Oceania",
+    "subregion": "Micronesia",
+    "cca2": "FM",
+    "flag": "🇫🇲",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "la",
+      "de": "de la Micronésie"
+    }
+  },
+  {
+    "name": {
+      "en": "Moldova",
+      "fr": "Moldavie",
+      "fr_alt": [
+        "Moldova"
+      ]
+    },
+    "capital": "Chișinău",
+    "capital_fr": "Chisinau",
+    "capital_alt": [
+      "Kichinev"
+    ],
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "cca2": "MD",
+    "flag": "🇲🇩",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "la",
+      "de": "de la Moldavie"
+    }
+  },
+  {
+    "name": {
+      "en": "Monaco",
+      "fr": "Monaco"
+    },
+    "capital": "Monaco",
+    "capital_fr": "Monaco",
+    "capital_alt": [
+      "Monaco-Ville"
+    ],
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "cca2": "MC",
+    "flag": "🇲🇨",
+    "grammar": {
+      "gender": null,
+      "number": "s",
+      "article": "",
+      "de": "de Monaco"
+    }
+  },
+  {
+    "name": {
+      "en": "Mongolia",
+      "fr": "Mongolie"
+    },
+    "capital": "Ulan Bator",
+    "capital_fr": "Oulan-Bator",
+    "capital_alt": [
+      "Ulan Bator",
+      "Ulaanbaatar"
+    ],
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "cca2": "MN",
+    "flag": "🇲🇳",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "la",
+      "de": "de la Mongolie"
+    }
+  },
+  {
+    "name": {
+      "en": "Montenegro",
+      "fr": "Monténégro"
+    },
+    "capital": "Podgorica",
+    "capital_fr": "Podgorica",
+    "capital_alt": [],
+    "region": "Europe",
+    "subregion": "Southeast Europe",
+    "cca2": "ME",
+    "flag": "🇲🇪",
+    "grammar": {
+      "gender": "m",
+      "number": "s",
+      "article": "le",
+      "de": "du Monténégro"
+    }
+  },
+  {
+    "name": {
+      "en": "Morocco",
+      "fr": "Maroc"
+    },
+    "capital": "Rabat",
+    "capital_fr": "Rabat",
+    "capital_alt": [],
+    "region": "Africa",
+    "subregion": "Northern Africa",
+    "cca2": "MA",
+    "flag": "🇲🇦",
+    "grammar": {
+      "gender": "m",
+      "number": "s",
+      "article": "le",
+      "de": "du Maroc"
+    }
+  },
+  {
+    "name": {
+      "en": "Mozambique",
+      "fr": "Mozambique"
+    },
+    "capital": "Maputo",
+    "capital_fr": "Maputo",
+    "capital_alt": [],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "cca2": "MZ",
+    "flag": "🇲🇿",
+    "grammar": {
+      "gender": "m",
+      "number": "s",
+      "article": "le",
+      "de": "du Mozambique"
+    }
+  },
+  {
+    "name": {
+      "en": "Myanmar",
+      "fr": "Birmanie",
+      "fr_alt": [
+        "Myanmar"
+      ]
+    },
+    "capital": "Naypyidaw",
+    "capital_fr": "Naypyidaw",
+    "capital_alt": [
+      "Nay Pyi Taw"
+    ],
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "cca2": "MM",
+    "flag": "🇲🇲",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "la",
+      "de": "de la Birmanie"
+    }
+  },
+  {
+    "name": {
+      "en": "Namibia",
+      "fr": "Namibie"
+    },
+    "capital": "Windhoek",
+    "capital_fr": "Windhoek",
+    "capital_alt": [],
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "cca2": "NA",
+    "flag": "🇳🇦",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "la",
+      "de": "de la Namibie"
+    }
+  },
+  {
+    "name": {
+      "en": "Nauru",
+      "fr": "Nauru"
+    },
+    "capital": "Yaren",
+    "capital_fr": "Yaren",
+    "capital_alt": [],
+    "region": "Oceania",
+    "subregion": "Micronesia",
+    "cca2": "NR",
+    "flag": "🇳🇷",
+    "grammar": {
+      "gender": null,
+      "number": "s",
+      "article": "",
+      "de": "de Nauru"
+    },
+    "capital_note": "Nauru n'a pas de capitale officielle ; Yaren est le siège du gouvernement."
+  },
+  {
+    "name": {
+      "en": "Nepal",
+      "fr": "Népal"
+    },
+    "capital": "Kathmandu",
+    "capital_fr": "Katmandou",
+    "capital_alt": [
+      "Kathmandu"
+    ],
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "cca2": "NP",
+    "flag": "🇳🇵",
+    "grammar": {
+      "gender": "m",
+      "number": "s",
+      "article": "le",
+      "de": "du Népal"
+    }
+  },
+  {
+    "name": {
+      "en": "Netherlands",
+      "fr": "Pays-Bas",
+      "fr_alt": [
+        "Hollande"
+      ]
+    },
+    "capital": "Amsterdam",
+    "capital_fr": "Amsterdam",
+    "capital_alt": [],
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "cca2": "NL",
+    "flag": "🇳🇱",
+    "grammar": {
+      "gender": "m",
+      "number": "p",
+      "article": "les",
+      "de": "des Pays-Bas"
+    },
+    "capital_note": "Amsterdam est la capitale constitutionnelle des Pays-Bas ; le gouvernement et le parlement siègent à La Haye."
+  },
+  {
+    "name": {
+      "en": "New Zealand",
+      "fr": "Nouvelle-Zélande"
+    },
+    "capital": "Wellington",
+    "capital_fr": "Wellington",
+    "capital_alt": [],
+    "region": "Oceania",
+    "subregion": "Australia and New Zealand",
+    "cca2": "NZ",
+    "flag": "🇳🇿",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "la",
+      "de": "de la Nouvelle-Zélande"
+    }
+  },
+  {
+    "name": {
+      "en": "Nicaragua",
+      "fr": "Nicaragua"
+    },
+    "capital": "Managua",
+    "capital_fr": "Managua",
+    "capital_alt": [],
+    "region": "Americas",
+    "subregion": "Central America",
+    "cca2": "NI",
+    "flag": "🇳🇮",
+    "grammar": {
+      "gender": "m",
+      "number": "s",
+      "article": "le",
+      "de": "du Nicaragua"
+    }
+  },
+  {
+    "name": {
+      "en": "Niger",
+      "fr": "Niger"
+    },
+    "capital": "Niamey",
+    "capital_fr": "Niamey",
+    "capital_alt": [],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "cca2": "NE",
+    "flag": "🇳🇪",
+    "grammar": {
+      "gender": "m",
+      "number": "s",
+      "article": "le",
+      "de": "du Niger"
+    }
+  },
+  {
+    "name": {
+      "en": "Nigeria",
+      "fr": "Nigéria"
+    },
+    "capital": "Abuja",
+    "capital_fr": "Abuja",
+    "capital_alt": [],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "cca2": "NG",
+    "flag": "🇳🇬",
+    "grammar": {
+      "gender": "m",
+      "number": "s",
+      "article": "le",
+      "de": "du Nigéria"
+    }
+  },
+  {
+    "name": {
+      "en": "North Korea",
+      "fr": "Corée du Nord"
+    },
+    "capital": "Pyongyang",
+    "capital_fr": "Pyongyang",
+    "capital_alt": [],
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "cca2": "KP",
+    "flag": "🇰🇵",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "la",
+      "de": "de la Corée du Nord"
+    }
+  },
+  {
+    "name": {
+      "en": "North Macedonia",
+      "fr": "Macédoine du Nord",
+      "fr_alt": [
+        "Macédoine"
+      ]
+    },
+    "capital": "Skopje",
+    "capital_fr": "Skopje",
+    "capital_alt": [],
+    "region": "Europe",
+    "subregion": "Southeast Europe",
+    "cca2": "MK",
+    "flag": "🇲🇰",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "la",
+      "de": "de la Macédoine du Nord"
+    }
+  },
+  {
+    "name": {
+      "en": "Norway",
+      "fr": "Norvège"
+    },
+    "capital": "Oslo",
+    "capital_fr": "Oslo",
+    "capital_alt": [],
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "cca2": "NO",
+    "flag": "🇳🇴",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "la",
+      "de": "de la Norvège"
+    }
+  },
+  {
+    "name": {
+      "en": "Oman",
+      "fr": "Oman"
+    },
+    "capital": "Muscat",
+    "capital_fr": "Mascate",
+    "capital_alt": [
+      "Muscat"
+    ],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "cca2": "OM",
+    "flag": "🇴🇲",
+    "grammar": {
+      "gender": null,
+      "number": "s",
+      "article": "",
+      "de": "d'Oman"
+    }
+  },
+  {
+    "name": {
+      "en": "Pakistan",
+      "fr": "Pakistan"
+    },
+    "capital": "Islamabad",
+    "capital_fr": "Islamabad",
+    "capital_alt": [],
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "cca2": "PK",
+    "flag": "🇵🇰",
+    "grammar": {
+      "gender": "m",
+      "number": "s",
+      "article": "le",
+      "de": "du Pakistan"
+    }
+  },
+  {
+    "name": {
+      "en": "Palau",
+      "fr": "Palaos",
+      "fr_alt": [
+        "Palau"
+      ]
+    },
+    "capital": "Ngerulmud",
+    "capital_fr": "Ngerulmud",
+    "capital_alt": [
+      "Melekeok"
+    ],
+    "region": "Oceania",
+    "subregion": "Micronesia",
+    "cca2": "PW",
+    "flag": "🇵🇼",
+    "grammar": {
+      "gender": "m",
+      "number": "p",
+      "article": "les",
+      "de": "des Palaos"
+    }
+  },
+  {
+    "name": {
+      "en": "Panama",
+      "fr": "Panama"
+    },
+    "capital": "Panama City",
+    "capital_fr": "Panama",
+    "capital_alt": [
+      "Panama City",
+      "Ciudad de Panamá",
+      "Panama (ville)"
+    ],
+    "region": "Americas",
+    "subregion": "Central America",
+    "cca2": "PA",
+    "flag": "🇵🇦",
+    "grammar": {
+      "gender": "m",
+      "number": "s",
+      "article": "le",
+      "de": "du Panama"
+    }
+  },
+  {
+    "name": {
+      "en": "Papua New Guinea",
+      "fr": "Papouasie-Nouvelle-Guinée"
+    },
+    "capital": "Port Moresby",
+    "capital_fr": "Port Moresby",
+    "capital_alt": [],
+    "region": "Oceania",
+    "subregion": "Melanesia",
+    "cca2": "PG",
+    "flag": "🇵🇬",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "la",
+      "de": "de la Papouasie-Nouvelle-Guinée"
+    }
+  },
+  {
+    "name": {
+      "en": "Paraguay",
+      "fr": "Paraguay"
+    },
+    "capital": "Asunción",
+    "capital_fr": "Asuncion",
+    "capital_alt": [],
+    "region": "Americas",
+    "subregion": "South America",
+    "cca2": "PY",
+    "flag": "🇵🇾",
+    "grammar": {
+      "gender": "m",
+      "number": "s",
+      "article": "le",
+      "de": "du Paraguay"
+    }
+  },
+  {
+    "name": {
+      "en": "Peru",
+      "fr": "Pérou"
+    },
+    "capital": "Lima",
+    "capital_fr": "Lima",
+    "capital_alt": [],
+    "region": "Americas",
+    "subregion": "South America",
+    "cca2": "PE",
+    "flag": "🇵🇪",
+    "grammar": {
+      "gender": "m",
+      "number": "s",
+      "article": "le",
+      "de": "du Pérou"
+    }
+  },
+  {
+    "name": {
+      "en": "Philippines",
+      "fr": "Philippines"
+    },
+    "capital": "Manila",
+    "capital_fr": "Manille",
+    "capital_alt": [
+      "Manila"
+    ],
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "cca2": "PH",
+    "flag": "🇵🇭",
+    "grammar": {
+      "gender": "f",
+      "number": "p",
+      "article": "les",
+      "de": "des Philippines"
+    }
+  },
+  {
+    "name": {
+      "en": "Poland",
+      "fr": "Pologne"
+    },
+    "capital": "Warsaw",
+    "capital_fr": "Varsovie",
+    "capital_alt": [
+      "Warsaw"
+    ],
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "cca2": "PL",
+    "flag": "🇵🇱",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "la",
+      "de": "de la Pologne"
+    }
+  },
+  {
+    "name": {
+      "en": "Portugal",
+      "fr": "Portugal"
+    },
+    "capital": "Lisbon",
+    "capital_fr": "Lisbonne",
+    "capital_alt": [
+      "Lisbon"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "cca2": "PT",
+    "flag": "🇵🇹",
+    "grammar": {
+      "gender": "m",
+      "number": "s",
+      "article": "le",
+      "de": "du Portugal"
+    }
+  },
+  {
+    "name": {
+      "en": "Qatar",
+      "fr": "Qatar"
+    },
+    "capital": "Doha",
+    "capital_fr": "Doha",
+    "capital_alt": [],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "cca2": "QA",
+    "flag": "🇶🇦",
+    "grammar": {
+      "gender": "m",
+      "number": "s",
+      "article": "le",
+      "de": "du Qatar"
+    }
+  },
+  {
+    "name": {
+      "en": "Romania",
+      "fr": "Roumanie"
+    },
+    "capital": "Bucharest",
+    "capital_fr": "Bucarest",
+    "capital_alt": [
+      "Bucharest"
+    ],
+    "region": "Europe",
+    "subregion": "Southeast Europe",
+    "cca2": "RO",
+    "flag": "🇷🇴",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "la",
+      "de": "de la Roumanie"
+    }
+  },
+  {
+    "name": {
+      "en": "Russia",
+      "fr": "Russie"
+    },
+    "capital": "Moscow",
+    "capital_fr": "Moscou",
+    "capital_alt": [
+      "Moscow"
+    ],
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "cca2": "RU",
+    "flag": "🇷🇺",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "la",
+      "de": "de la Russie"
+    }
+  },
+  {
+    "name": {
+      "en": "Rwanda",
+      "fr": "Rwanda"
+    },
+    "capital": "Kigali",
+    "capital_fr": "Kigali",
+    "capital_alt": [],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "cca2": "RW",
+    "flag": "🇷🇼",
+    "grammar": {
+      "gender": "m",
+      "number": "s",
+      "article": "le",
+      "de": "du Rwanda"
+    }
+  },
+  {
+    "name": {
+      "en": "Saint Kitts and Nevis",
+      "fr": "Saint-Christophe-et-Niévès",
+      "fr_alt": [
+        "Saint-Kitts-et-Nevis"
+      ]
+    },
+    "capital": "Basseterre",
+    "capital_fr": "Basseterre",
+    "capital_alt": [],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "cca2": "KN",
+    "flag": "🇰🇳",
+    "grammar": {
+      "gender": null,
+      "number": "s",
+      "article": "",
+      "de": "de Saint-Christophe-et-Niévès"
+    }
+  },
+  {
+    "name": {
+      "en": "Saint Lucia",
+      "fr": "Sainte-Lucie"
+    },
+    "capital": "Castries",
+    "capital_fr": "Castries",
+    "capital_alt": [],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "cca2": "LC",
+    "flag": "🇱🇨",
+    "grammar": {
+      "gender": null,
+      "number": "s",
+      "article": "",
+      "de": "de Sainte-Lucie"
+    }
+  },
+  {
+    "name": {
+      "en": "Saint Vincent and the Grenadines",
+      "fr": "Saint-Vincent-et-les-Grenadines"
+    },
+    "capital": "Kingstown",
+    "capital_fr": "Kingstown",
+    "capital_alt": [],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "cca2": "VC",
+    "flag": "🇻🇨",
+    "grammar": {
+      "gender": null,
+      "number": "s",
+      "article": "",
+      "de": "de Saint-Vincent-et-les-Grenadines"
+    }
+  },
+  {
+    "name": {
+      "en": "Samoa",
+      "fr": "Samoa"
+    },
+    "capital": "Apia",
+    "capital_fr": "Apia",
+    "capital_alt": [],
+    "region": "Oceania",
+    "subregion": "Polynesia",
+    "cca2": "WS",
+    "flag": "🇼🇸",
+    "grammar": {
+      "gender": null,
+      "number": "s",
+      "article": "",
+      "de": "de Samoa"
+    }
+  },
+  {
+    "name": {
+      "en": "San Marino",
+      "fr": "Saint-Marin"
+    },
+    "capital": "City of San Marino",
+    "capital_fr": "Saint-Marin",
+    "capital_alt": [
+      "City of San Marino",
+      "San Marino"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "cca2": "SM",
+    "flag": "🇸🇲",
+    "grammar": {
+      "gender": null,
+      "number": "s",
+      "article": "",
+      "de": "de Saint-Marin"
+    }
+  },
+  {
+    "name": {
+      "en": "São Tomé and Príncipe",
+      "fr": "São Tomé-et-Príncipe"
+    },
+    "capital": "São Tomé",
+    "capital_fr": "São Tomé",
+    "capital_alt": [],
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "cca2": "ST",
+    "flag": "🇸🇹",
+    "grammar": {
+      "gender": null,
+      "number": "s",
+      "article": "",
+      "de": "de São Tomé-et-Príncipe"
+    }
+  },
+  {
+    "name": {
+      "en": "Saudi Arabia",
+      "fr": "Arabie saoudite"
+    },
+    "capital": "Riyadh",
+    "capital_fr": "Riyad",
+    "capital_alt": [
+      "Riyadh",
+      "Ryad"
+    ],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "cca2": "SA",
+    "flag": "🇸🇦",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "l'",
+      "de": "de l'Arabie saoudite"
+    }
+  },
+  {
+    "name": {
+      "en": "Senegal",
+      "fr": "Sénégal"
+    },
+    "capital": "Dakar",
+    "capital_fr": "Dakar",
+    "capital_alt": [],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "cca2": "SN",
+    "flag": "🇸🇳",
+    "grammar": {
+      "gender": "m",
+      "number": "s",
+      "article": "le",
+      "de": "du Sénégal"
+    }
+  },
+  {
+    "name": {
+      "en": "Serbia",
+      "fr": "Serbie"
+    },
+    "capital": "Belgrade",
+    "capital_fr": "Belgrade",
+    "capital_alt": [],
+    "region": "Europe",
+    "subregion": "Southeast Europe",
+    "cca2": "RS",
+    "flag": "🇷🇸",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "la",
+      "de": "de la Serbie"
+    }
+  },
+  {
+    "name": {
+      "en": "Seychelles",
+      "fr": "Seychelles"
+    },
+    "capital": "Victoria",
+    "capital_fr": "Victoria",
+    "capital_alt": [],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "cca2": "SC",
+    "flag": "🇸🇨",
+    "grammar": {
+      "gender": "f",
+      "number": "p",
+      "article": "les",
+      "de": "des Seychelles"
+    }
+  },
+  {
+    "name": {
+      "en": "Sierra Leone",
+      "fr": "Sierra Leone"
+    },
+    "capital": "Freetown",
+    "capital_fr": "Freetown",
+    "capital_alt": [],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "cca2": "SL",
+    "flag": "🇸🇱",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "la",
+      "de": "de la Sierra Leone"
+    }
+  },
+  {
+    "name": {
+      "en": "Singapore",
+      "fr": "Singapour"
+    },
+    "capital": "Singapore",
+    "capital_fr": "Singapour",
+    "capital_alt": [
+      "Singapore"
+    ],
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "cca2": "SG",
+    "flag": "🇸🇬",
+    "grammar": {
+      "gender": null,
+      "number": "s",
+      "article": "",
+      "de": "de Singapour"
+    }
+  },
+  {
+    "name": {
+      "en": "Slovakia",
+      "fr": "Slovaquie"
+    },
+    "capital": "Bratislava",
+    "capital_fr": "Bratislava",
+    "capital_alt": [],
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "cca2": "SK",
+    "flag": "🇸🇰",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "la",
+      "de": "de la Slovaquie"
+    }
+  },
+  {
+    "name": {
+      "en": "Slovenia",
+      "fr": "Slovénie"
+    },
+    "capital": "Ljubljana",
+    "capital_fr": "Ljubljana",
+    "capital_alt": [],
+    "region": "Europe",
+    "subregion": "Central Europe",
+    "cca2": "SI",
+    "flag": "🇸🇮",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "la",
+      "de": "de la Slovénie"
+    }
+  },
+  {
+    "name": {
+      "en": "Solomon Islands",
+      "fr": "Îles Salomon",
+      "fr_alt": [
+        "Salomon"
+      ]
+    },
+    "capital": "Honiara",
+    "capital_fr": "Honiara",
+    "capital_alt": [],
+    "region": "Oceania",
+    "subregion": "Melanesia",
+    "cca2": "SB",
+    "flag": "🇸🇧",
+    "grammar": {
+      "gender": "f",
+      "number": "p",
+      "article": "les",
+      "de": "des îles Salomon"
+    }
+  },
+  {
+    "name": {
+      "en": "Somalia",
+      "fr": "Somalie"
+    },
+    "capital": "Mogadishu",
+    "capital_fr": "Mogadiscio",
+    "capital_alt": [
+      "Mogadishu"
+    ],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "cca2": "SO",
+    "flag": "🇸🇴",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "la",
+      "de": "de la Somalie"
+    }
+  },
+  {
+    "name": {
+      "en": "South Africa",
+      "fr": "Afrique du Sud"
+    },
+    "capital": "Pretoria",
+    "capital_fr": "Pretoria",
+    "capital_alt": [
+      "Le Cap",
+      "Cape Town",
+      "Bloemfontein",
+      "Tshwane"
+    ],
+    "region": "Africa",
+    "subregion": "Southern Africa",
+    "cca2": "ZA",
+    "flag": "🇿🇦",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "l'",
+      "de": "de l'Afrique du Sud"
+    },
+    "capital_note": "L'Afrique du Sud compte trois capitales : Pretoria (exécutive), Le Cap (législative) et Bloemfontein (judiciaire)."
+  },
+  {
+    "name": {
+      "en": "South Korea",
+      "fr": "Corée du Sud"
+    },
+    "capital": "Seoul",
+    "capital_fr": "Séoul",
+    "capital_alt": [],
+    "region": "Asia",
+    "subregion": "Eastern Asia",
+    "cca2": "KR",
+    "flag": "🇰🇷",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "la",
+      "de": "de la Corée du Sud"
+    }
+  },
+  {
+    "name": {
+      "en": "South Sudan",
+      "fr": "Soudan du Sud"
+    },
+    "capital": "Juba",
+    "capital_fr": "Djouba",
+    "capital_alt": [
+      "Juba"
+    ],
+    "region": "Africa",
+    "subregion": "Middle Africa",
+    "cca2": "SS",
+    "flag": "🇸🇸",
+    "grammar": {
+      "gender": "m",
+      "number": "s",
+      "article": "le",
+      "de": "du Soudan du Sud"
+    }
+  },
+  {
+    "name": {
+      "en": "Spain",
+      "fr": "Espagne"
+    },
+    "capital": "Madrid",
+    "capital_fr": "Madrid",
+    "capital_alt": [],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "cca2": "ES",
+    "flag": "🇪🇸",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "l'",
+      "de": "de l'Espagne"
+    }
+  },
+  {
+    "name": {
+      "en": "Sri Lanka",
+      "fr": "Sri Lanka"
+    },
+    "capital": "Colombo",
+    "capital_fr": "Colombo",
+    "capital_alt": [
+      "Sri Jayawardenapura Kotté",
+      "Sri Jayawardenepura Kotte",
+      "Kotte"
+    ],
+    "region": "Asia",
+    "subregion": "Southern Asia",
+    "cca2": "LK",
+    "flag": "🇱🇰",
+    "grammar": {
+      "gender": "m",
+      "number": "s",
+      "article": "le",
+      "de": "du Sri Lanka"
+    },
+    "capital_note": "Colombo, capitale commerciale, est le siège de l'exécutif ; Sri Jayawardenapura Kotté, capitale administrative et législative, abrite le Parlement."
+  },
+  {
+    "name": {
+      "en": "Sudan",
+      "fr": "Soudan"
+    },
+    "capital": "Khartoum",
+    "capital_fr": "Khartoum",
+    "capital_alt": [],
+    "region": "Africa",
+    "subregion": "Northern Africa",
+    "cca2": "SD",
+    "flag": "🇸🇩",
+    "grammar": {
+      "gender": "m",
+      "number": "s",
+      "article": "le",
+      "de": "du Soudan"
+    }
+  },
+  {
+    "name": {
+      "en": "Suriname",
+      "fr": "Suriname",
+      "fr_alt": [
+        "Surinam"
+      ]
+    },
+    "capital": "Paramaribo",
+    "capital_fr": "Paramaribo",
+    "capital_alt": [],
+    "region": "Americas",
+    "subregion": "South America",
+    "cca2": "SR",
+    "flag": "🇸🇷",
+    "grammar": {
+      "gender": "m",
+      "number": "s",
+      "article": "le",
+      "de": "du Suriname"
+    }
+  },
+  {
+    "name": {
+      "en": "Sweden",
+      "fr": "Suède"
+    },
+    "capital": "Stockholm",
+    "capital_fr": "Stockholm",
+    "capital_alt": [],
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "cca2": "SE",
+    "flag": "🇸🇪",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "la",
+      "de": "de la Suède"
+    }
+  },
+  {
+    "name": {
+      "en": "Switzerland",
+      "fr": "Suisse"
+    },
+    "capital": "Bern",
+    "capital_fr": "Berne",
+    "capital_alt": [
+      "Bern"
+    ],
+    "region": "Europe",
+    "subregion": "Western Europe",
+    "cca2": "CH",
+    "flag": "🇨🇭",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "la",
+      "de": "de la Suisse"
+    }
+  },
+  {
+    "name": {
+      "en": "Syria",
+      "fr": "Syrie"
+    },
+    "capital": "Damascus",
+    "capital_fr": "Damas",
+    "capital_alt": [
+      "Damascus"
+    ],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "cca2": "SY",
+    "flag": "🇸🇾",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "la",
+      "de": "de la Syrie"
+    }
+  },
+  {
+    "name": {
+      "en": "Tajikistan",
+      "fr": "Tadjikistan"
+    },
+    "capital": "Dushanbe",
+    "capital_fr": "Douchanbé",
+    "capital_alt": [
+      "Dushanbe"
+    ],
+    "region": "Asia",
+    "subregion": "Central Asia",
+    "cca2": "TJ",
+    "flag": "🇹🇯",
+    "grammar": {
+      "gender": "m",
+      "number": "s",
+      "article": "le",
+      "de": "du Tadjikistan"
+    }
+  },
+  {
+    "name": {
+      "en": "Tanzania",
+      "fr": "Tanzanie"
+    },
+    "capital": "Dodoma",
+    "capital_fr": "Dodoma",
+    "capital_alt": [],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "cca2": "TZ",
+    "flag": "🇹🇿",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "la",
+      "de": "de la Tanzanie"
+    }
+  },
+  {
+    "name": {
+      "en": "Thailand",
+      "fr": "Thaïlande"
+    },
+    "capital": "Bangkok",
+    "capital_fr": "Bangkok",
+    "capital_alt": [],
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "cca2": "TH",
+    "flag": "🇹🇭",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "la",
+      "de": "de la Thaïlande"
+    }
+  },
+  {
+    "name": {
+      "en": "Timor-Leste",
+      "fr": "Timor oriental",
+      "fr_alt": [
+        "Timor-Leste"
+      ]
+    },
+    "capital": "Dili",
+    "capital_fr": "Dili",
+    "capital_alt": [],
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "cca2": "TL",
+    "flag": "🇹🇱",
+    "grammar": {
+      "gender": "m",
+      "number": "s",
+      "article": "le",
+      "de": "du Timor oriental"
+    }
+  },
+  {
+    "name": {
+      "en": "Togo",
+      "fr": "Togo"
+    },
+    "capital": "Lomé",
+    "capital_fr": "Lomé",
+    "capital_alt": [],
+    "region": "Africa",
+    "subregion": "Western Africa",
+    "cca2": "TG",
+    "flag": "🇹🇬",
+    "grammar": {
+      "gender": "m",
+      "number": "s",
+      "article": "le",
+      "de": "du Togo"
+    }
+  },
+  {
+    "name": {
+      "en": "Tonga",
+      "fr": "Tonga"
+    },
+    "capital": "Nuku'alofa",
+    "capital_fr": "Nuku'alofa",
+    "capital_alt": [],
+    "region": "Oceania",
+    "subregion": "Polynesia",
+    "cca2": "TO",
+    "flag": "🇹🇴",
+    "grammar": {
+      "gender": null,
+      "number": "s",
+      "article": "",
+      "de": "de Tonga"
+    }
+  },
+  {
+    "name": {
+      "en": "Trinidad and Tobago",
+      "fr": "Trinité-et-Tobago"
+    },
+    "capital": "Port of Spain",
+    "capital_fr": "Port-d'Espagne",
+    "capital_alt": [
+      "Port of Spain"
+    ],
+    "region": "Americas",
+    "subregion": "Caribbean",
+    "cca2": "TT",
+    "flag": "🇹🇹",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "la",
+      "de": "de Trinité-et-Tobago"
+    }
+  },
+  {
+    "name": {
+      "en": "Tunisia",
+      "fr": "Tunisie"
+    },
+    "capital": "Tunis",
+    "capital_fr": "Tunis",
+    "capital_alt": [],
+    "region": "Africa",
+    "subregion": "Northern Africa",
+    "cca2": "TN",
+    "flag": "🇹🇳",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "la",
+      "de": "de la Tunisie"
+    }
+  },
+  {
+    "name": {
+      "en": "Türkiye",
+      "fr": "Turquie",
+      "fr_alt": [
+        "Türkiye"
+      ]
+    },
+    "capital": "Ankara",
+    "capital_fr": "Ankara",
+    "capital_alt": [],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "cca2": "TR",
+    "flag": "🇹🇷",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "la",
+      "de": "de la Turquie"
+    }
+  },
+  {
+    "name": {
+      "en": "Turkmenistan",
+      "fr": "Turkménistan"
+    },
+    "capital": "Ashgabat",
+    "capital_fr": "Achgabat",
+    "capital_alt": [
+      "Ashgabat",
+      "Ashkhabad"
+    ],
+    "region": "Asia",
+    "subregion": "Central Asia",
+    "cca2": "TM",
+    "flag": "🇹🇲",
+    "grammar": {
+      "gender": "m",
+      "number": "s",
+      "article": "le",
+      "de": "du Turkménistan"
+    }
+  },
+  {
+    "name": {
+      "en": "Tuvalu",
+      "fr": "Tuvalu"
+    },
+    "capital": "Funafuti",
+    "capital_fr": "Funafuti",
+    "capital_alt": [],
+    "region": "Oceania",
+    "subregion": "Polynesia",
+    "cca2": "TV",
+    "flag": "🇹🇻",
+    "grammar": {
+      "gender": null,
+      "number": "s",
+      "article": "",
+      "de": "de Tuvalu"
+    }
+  },
+  {
+    "name": {
+      "en": "Uganda",
+      "fr": "Ouganda"
+    },
+    "capital": "Kampala",
+    "capital_fr": "Kampala",
+    "capital_alt": [],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "cca2": "UG",
+    "flag": "🇺🇬",
+    "grammar": {
+      "gender": "m",
+      "number": "s",
+      "article": "l'",
+      "de": "de l'Ouganda"
+    }
+  },
+  {
+    "name": {
+      "en": "Ukraine",
+      "fr": "Ukraine"
+    },
+    "capital": "Kyiv",
+    "capital_fr": "Kiev",
+    "capital_alt": [
+      "Kyiv",
+      "Kiyv"
+    ],
+    "region": "Europe",
+    "subregion": "Eastern Europe",
+    "cca2": "UA",
+    "flag": "🇺🇦",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "l'",
+      "de": "de l'Ukraine"
+    }
+  },
+  {
+    "name": {
+      "en": "United Arab Emirates",
+      "fr": "Émirats arabes unis"
+    },
+    "capital": "Abu Dhabi",
+    "capital_fr": "Abou Dabi",
+    "capital_alt": [
+      "Abu Dhabi",
+      "Abou Dhabi"
+    ],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "cca2": "AE",
+    "flag": "🇦🇪",
+    "grammar": {
+      "gender": "m",
+      "number": "p",
+      "article": "les",
+      "de": "des Émirats arabes unis"
+    }
+  },
+  {
+    "name": {
+      "en": "United Kingdom",
+      "fr": "Royaume-Uni"
+    },
+    "capital": "London",
+    "capital_fr": "Londres",
+    "capital_alt": [
+      "London"
+    ],
+    "region": "Europe",
+    "subregion": "Northern Europe",
+    "cca2": "GB",
+    "flag": "🇬🇧",
+    "grammar": {
+      "gender": "m",
+      "number": "s",
+      "article": "le",
+      "de": "du Royaume-Uni"
+    }
+  },
+  {
+    "name": {
+      "en": "United States",
+      "fr": "États-Unis"
+    },
+    "capital": "Washington D.C.",
+    "capital_fr": "Washington",
+    "capital_alt": [
+      "Washington D.C."
+    ],
+    "region": "Americas",
+    "subregion": "North America",
+    "cca2": "US",
+    "flag": "🇺🇸",
+    "grammar": {
+      "gender": "m",
+      "number": "p",
+      "article": "les",
+      "de": "des États-Unis"
+    }
+  },
+  {
+    "name": {
+      "en": "Uruguay",
+      "fr": "Uruguay"
+    },
+    "capital": "Montevideo",
+    "capital_fr": "Montevideo",
+    "capital_alt": [],
+    "region": "Americas",
+    "subregion": "South America",
+    "cca2": "UY",
+    "flag": "🇺🇾",
+    "grammar": {
+      "gender": "m",
+      "number": "s",
+      "article": "l'",
+      "de": "de l'Uruguay"
+    }
+  },
+  {
+    "name": {
+      "en": "Uzbekistan",
+      "fr": "Ouzbékistan"
+    },
+    "capital": "Tashkent",
+    "capital_fr": "Tachkent",
+    "capital_alt": [
+      "Tashkent"
+    ],
+    "region": "Asia",
+    "subregion": "Central Asia",
+    "cca2": "UZ",
+    "flag": "🇺🇿",
+    "grammar": {
+      "gender": "m",
+      "number": "s",
+      "article": "l'",
+      "de": "de l'Ouzbékistan"
+    }
+  },
+  {
+    "name": {
+      "en": "Vanuatu",
+      "fr": "Vanuatu"
+    },
+    "capital": "Port Vila",
+    "capital_fr": "Port-Vila",
+    "capital_alt": [],
+    "region": "Oceania",
+    "subregion": "Melanesia",
+    "cca2": "VU",
+    "flag": "🇻🇺",
+    "grammar": {
+      "gender": "m",
+      "number": "s",
+      "article": "le",
+      "de": "du Vanuatu"
+    }
+  },
+  {
+    "name": {
+      "en": "Vatican City",
+      "fr": "Cité du Vatican"
+    },
+    "capital": "Vatican City",
+    "capital_fr": "Cité du Vatican",
+    "capital_alt": [
+      "Vatican City",
+      "Vatican"
+    ],
+    "region": "Europe",
+    "subregion": "Southern Europe",
+    "cca2": "VA",
+    "flag": "🇻🇦",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "la",
+      "de": "de la Cité du Vatican"
+    }
+  },
+  {
+    "name": {
+      "en": "Venezuela",
+      "fr": "Venezuela"
+    },
+    "capital": "Caracas",
+    "capital_fr": "Caracas",
+    "capital_alt": [],
+    "region": "Americas",
+    "subregion": "South America",
+    "cca2": "VE",
+    "flag": "🇻🇪",
+    "grammar": {
+      "gender": "m",
+      "number": "s",
+      "article": "le",
+      "de": "du Venezuela"
+    }
+  },
+  {
+    "name": {
+      "en": "Vietnam",
+      "fr": "Viêt Nam"
+    },
+    "capital": "Hanoi",
+    "capital_fr": "Hanoï",
+    "capital_alt": [],
+    "region": "Asia",
+    "subregion": "South-Eastern Asia",
+    "cca2": "VN",
+    "flag": "🇻🇳",
+    "grammar": {
+      "gender": "m",
+      "number": "s",
+      "article": "le",
+      "de": "du Viêt Nam"
+    }
+  },
+  {
+    "name": {
+      "en": "Yemen",
+      "fr": "Yémen"
+    },
+    "capital": "Sana'a",
+    "capital_fr": "Sanaa",
+    "capital_alt": [],
+    "region": "Asia",
+    "subregion": "Western Asia",
+    "cca2": "YE",
+    "flag": "🇾🇪",
+    "grammar": {
+      "gender": "m",
+      "number": "s",
+      "article": "le",
+      "de": "du Yémen"
+    }
+  },
+  {
+    "name": {
+      "en": "Zambia",
+      "fr": "Zambie"
+    },
+    "capital": "Lusaka",
+    "capital_fr": "Lusaka",
+    "capital_alt": [],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "cca2": "ZM",
+    "flag": "🇿🇲",
+    "grammar": {
+      "gender": "f",
+      "number": "s",
+      "article": "la",
+      "de": "de la Zambie"
+    }
+  },
+  {
+    "name": {
+      "en": "Zimbabwe",
+      "fr": "Zimbabwe"
+    },
+    "capital": "Harare",
+    "capital_fr": "Harare",
+    "capital_alt": [],
+    "region": "Africa",
+    "subregion": "Eastern Africa",
+    "cca2": "ZW",
+    "flag": "🇿🇼",
+    "grammar": {
+      "gender": "m",
+      "number": "s",
+      "article": "le",
+      "de": "du Zimbabwe"
+    }
+  }
+]

@@ -1,0 +1,440 @@
+name: Équations complètes (ax + b = c)
+description: Trouver x dans les équations de type ax + b = c
+tags: [math, equations, algebre, sixieme]
+category: [sciences, maths, algebre, equations, equations-premier-degre, sixieme]
+settings:
+  maxCards: 20
+  sequential: false
+  bidirectional: false
+metadata:
+  license: CC-BY-SA-4.0
+  source:
+    type: procedural
+    generator: equations
+    version: 1.0.0
+    generatedAt: "2026-11-22"
+    parameters:
+      type: complete-equations
+resources:
+  - type: summary
+    title: "Qu'est-ce qu'une équation ?"
+    content: "Une **équation** est une égalité contenant une inconnue (souvent notée x) qu'il faut trouver.\n\nPar exemple : **x + 5 = 12** → On cherche quel nombre additionné à 5 donne 12.\n\nLa réponse est x = 7 car 7 + 5 = 12.\n\nLes équations sont la base de l'algèbre et permettent de :\n- Résoudre des problèmes mathématiques\n- Modéliser des situations réelles\n- Comprendre les relations entre les nombres"
+    aiGenerated: true
+    icon: 📝
+  - type: link
+    title: "Wikipedia : Équation"
+    url: https://fr.wikipedia.org/wiki/Équation
+    icon: 📖
+  - type: glossary
+    title: Vocabulaire clé
+    content: "- **Équation** : Égalité contenant une inconnue\n- **Inconnue** : La valeur que l'on cherche (x)\n- **Solution** : La valeur qui rend l'équation vraie\n- **Membre** : Chaque côté de l'égalité (gauche/droit)"
+    icon: 📚
+  - type: objective
+    title: "Objectifs d'apprentissage"
+    content: "- ✅ Résoudre des équations de type ax + b = c\n- ✅ Combiner les opérations inverses\n- ✅ Structurer sa démarche de résolution"
+    icon: 🎯
+  - type: tip
+    title: Méthode de résolution
+    content: "Pour résoudre ax + b = c :\n\n1. D'abord soustraire b des deux côtés : ax = c - b\n2. Puis diviser par a : x = (c - b) ÷ a\n\nExemple : 3x + 4 = 19\n→ 3x = 19 - 4 = 15\n→ x = 15 ÷ 3 = 5"
+    icon: 💡
+cards:
+  - id: eq_complete_2_1_1
+    question: 2x + 1 = 3
+    answer: "1"
+    feedback: "2x = 3 - 1 = 2, donc x = 1"
+  - id: eq_complete_2_1_2
+    question: 2x + 2 = 4
+    answer: "1"
+    feedback: "2x = 4 - 2 = 2, donc x = 1"
+  - id: eq_complete_2_1_3
+    question: 2x + 3 = 5
+    answer: "1"
+    feedback: "2x = 5 - 3 = 2, donc x = 1"
+  - id: eq_complete_2_1_4
+    question: 2x + 4 = 6
+    answer: "1"
+    feedback: "2x = 6 - 4 = 2, donc x = 1"
+  - id: eq_complete_2_1_5
+    question: 2x + 5 = 7
+    answer: "1"
+    feedback: "2x = 7 - 5 = 2, donc x = 1"
+  - id: eq_complete_2_2_1
+    question: 2x + 1 = 5
+    answer: "2"
+    feedback: "2x = 5 - 1 = 4, donc x = 2"
+  - id: eq_complete_2_2_2
+    question: 2x + 2 = 6
+    answer: "2"
+    feedback: "2x = 6 - 2 = 4, donc x = 2"
+  - id: eq_complete_2_2_3
+    question: 2x + 3 = 7
+    answer: "2"
+    feedback: "2x = 7 - 3 = 4, donc x = 2"
+  - id: eq_complete_2_2_4
+    question: 2x + 4 = 8
+    answer: "2"
+    feedback: "2x = 8 - 4 = 4, donc x = 2"
+  - id: eq_complete_2_2_5
+    question: 2x + 5 = 9
+    answer: "2"
+    feedback: "2x = 9 - 5 = 4, donc x = 2"
+  - id: eq_complete_2_3_1
+    question: 2x + 1 = 7
+    answer: "3"
+    feedback: "2x = 7 - 1 = 6, donc x = 3"
+  - id: eq_complete_2_3_2
+    question: 2x + 2 = 8
+    answer: "3"
+    feedback: "2x = 8 - 2 = 6, donc x = 3"
+  - id: eq_complete_2_3_3
+    question: 2x + 3 = 9
+    answer: "3"
+    feedback: "2x = 9 - 3 = 6, donc x = 3"
+  - id: eq_complete_2_3_4
+    question: 2x + 4 = 10
+    answer: "3"
+    feedback: "2x = 10 - 4 = 6, donc x = 3"
+  - id: eq_complete_2_3_5
+    question: 2x + 5 = 11
+    answer: "3"
+    feedback: "2x = 11 - 5 = 6, donc x = 3"
+  - id: eq_complete_2_4_1
+    question: 2x + 1 = 9
+    answer: "4"
+    feedback: "2x = 9 - 1 = 8, donc x = 4"
+  - id: eq_complete_2_4_2
+    question: 2x + 2 = 10
+    answer: "4"
+    feedback: "2x = 10 - 2 = 8, donc x = 4"
+  - id: eq_complete_2_4_3
+    question: 2x + 3 = 11
+    answer: "4"
+    feedback: "2x = 11 - 3 = 8, donc x = 4"
+  - id: eq_complete_2_4_4
+    question: 2x + 4 = 12
+    answer: "4"
+    feedback: "2x = 12 - 4 = 8, donc x = 4"
+  - id: eq_complete_2_4_5
+    question: 2x + 5 = 13
+    answer: "4"
+    feedback: "2x = 13 - 5 = 8, donc x = 4"
+  - id: eq_complete_2_5_1
+    question: 2x + 1 = 11
+    answer: "5"
+    feedback: "2x = 11 - 1 = 10, donc x = 5"
+  - id: eq_complete_2_5_2
+    question: 2x + 2 = 12
+    answer: "5"
+    feedback: "2x = 12 - 2 = 10, donc x = 5"
+  - id: eq_complete_2_5_3
+    question: 2x + 3 = 13
+    answer: "5"
+    feedback: "2x = 13 - 3 = 10, donc x = 5"
+  - id: eq_complete_2_5_4
+    question: 2x + 4 = 14
+    answer: "5"
+    feedback: "2x = 14 - 4 = 10, donc x = 5"
+  - id: eq_complete_2_5_5
+    question: 2x + 5 = 15
+    answer: "5"
+    feedback: "2x = 15 - 5 = 10, donc x = 5"
+  - id: eq_complete_3_1_1
+    question: 3x + 1 = 4
+    answer: "1"
+    feedback: "3x = 4 - 1 = 3, donc x = 1"
+  - id: eq_complete_3_1_2
+    question: 3x + 2 = 5
+    answer: "1"
+    feedback: "3x = 5 - 2 = 3, donc x = 1"
+  - id: eq_complete_3_1_3
+    question: 3x + 3 = 6
+    answer: "1"
+    feedback: "3x = 6 - 3 = 3, donc x = 1"
+  - id: eq_complete_3_1_4
+    question: 3x + 4 = 7
+    answer: "1"
+    feedback: "3x = 7 - 4 = 3, donc x = 1"
+  - id: eq_complete_3_1_5
+    question: 3x + 5 = 8
+    answer: "1"
+    feedback: "3x = 8 - 5 = 3, donc x = 1"
+  - id: eq_complete_3_2_1
+    question: 3x + 1 = 7
+    answer: "2"
+    feedback: "3x = 7 - 1 = 6, donc x = 2"
+  - id: eq_complete_3_2_2
+    question: 3x + 2 = 8
+    answer: "2"
+    feedback: "3x = 8 - 2 = 6, donc x = 2"
+  - id: eq_complete_3_2_3
+    question: 3x + 3 = 9
+    answer: "2"
+    feedback: "3x = 9 - 3 = 6, donc x = 2"
+  - id: eq_complete_3_2_4
+    question: 3x + 4 = 10
+    answer: "2"
+    feedback: "3x = 10 - 4 = 6, donc x = 2"
+  - id: eq_complete_3_2_5
+    question: 3x + 5 = 11
+    answer: "2"
+    feedback: "3x = 11 - 5 = 6, donc x = 2"
+  - id: eq_complete_3_3_1
+    question: 3x + 1 = 10
+    answer: "3"
+    feedback: "3x = 10 - 1 = 9, donc x = 3"
+  - id: eq_complete_3_3_2
+    question: 3x + 2 = 11
+    answer: "3"
+    feedback: "3x = 11 - 2 = 9, donc x = 3"
+  - id: eq_complete_3_3_3
+    question: 3x + 3 = 12
+    answer: "3"
+    feedback: "3x = 12 - 3 = 9, donc x = 3"
+  - id: eq_complete_3_3_4
+    question: 3x + 4 = 13
+    answer: "3"
+    feedback: "3x = 13 - 4 = 9, donc x = 3"
+  - id: eq_complete_3_3_5
+    question: 3x + 5 = 14
+    answer: "3"
+    feedback: "3x = 14 - 5 = 9, donc x = 3"
+  - id: eq_complete_3_4_1
+    question: 3x + 1 = 13
+    answer: "4"
+    feedback: "3x = 13 - 1 = 12, donc x = 4"
+  - id: eq_complete_3_4_2
+    question: 3x + 2 = 14
+    answer: "4"
+    feedback: "3x = 14 - 2 = 12, donc x = 4"
+  - id: eq_complete_3_4_3
+    question: 3x + 3 = 15
+    answer: "4"
+    feedback: "3x = 15 - 3 = 12, donc x = 4"
+  - id: eq_complete_3_4_4
+    question: 3x + 4 = 16
+    answer: "4"
+    feedback: "3x = 16 - 4 = 12, donc x = 4"
+  - id: eq_complete_3_4_5
+    question: 3x + 5 = 17
+    answer: "4"
+    feedback: "3x = 17 - 5 = 12, donc x = 4"
+  - id: eq_complete_3_5_1
+    question: 3x + 1 = 16
+    answer: "5"
+    feedback: "3x = 16 - 1 = 15, donc x = 5"
+  - id: eq_complete_3_5_2
+    question: 3x + 2 = 17
+    answer: "5"
+    feedback: "3x = 17 - 2 = 15, donc x = 5"
+  - id: eq_complete_3_5_3
+    question: 3x + 3 = 18
+    answer: "5"
+    feedback: "3x = 18 - 3 = 15, donc x = 5"
+  - id: eq_complete_3_5_4
+    question: 3x + 4 = 19
+    answer: "5"
+    feedback: "3x = 19 - 4 = 15, donc x = 5"
+  - id: eq_complete_3_5_5
+    question: 3x + 5 = 20
+    answer: "5"
+    feedback: "3x = 20 - 5 = 15, donc x = 5"
+  - id: eq_complete_4_1_1
+    question: 4x + 1 = 5
+    answer: "1"
+    feedback: "4x = 5 - 1 = 4, donc x = 1"
+  - id: eq_complete_4_1_2
+    question: 4x + 2 = 6
+    answer: "1"
+    feedback: "4x = 6 - 2 = 4, donc x = 1"
+  - id: eq_complete_4_1_3
+    question: 4x + 3 = 7
+    answer: "1"
+    feedback: "4x = 7 - 3 = 4, donc x = 1"
+  - id: eq_complete_4_1_4
+    question: 4x + 4 = 8
+    answer: "1"
+    feedback: "4x = 8 - 4 = 4, donc x = 1"
+  - id: eq_complete_4_1_5
+    question: 4x + 5 = 9
+    answer: "1"
+    feedback: "4x = 9 - 5 = 4, donc x = 1"
+  - id: eq_complete_4_2_1
+    question: 4x + 1 = 9
+    answer: "2"
+    feedback: "4x = 9 - 1 = 8, donc x = 2"
+  - id: eq_complete_4_2_2
+    question: 4x + 2 = 10
+    answer: "2"
+    feedback: "4x = 10 - 2 = 8, donc x = 2"
+  - id: eq_complete_4_2_3
+    question: 4x + 3 = 11
+    answer: "2"
+    feedback: "4x = 11 - 3 = 8, donc x = 2"
+  - id: eq_complete_4_2_4
+    question: 4x + 4 = 12
+    answer: "2"
+    feedback: "4x = 12 - 4 = 8, donc x = 2"
+  - id: eq_complete_4_2_5
+    question: 4x + 5 = 13
+    answer: "2"
+    feedback: "4x = 13 - 5 = 8, donc x = 2"
+  - id: eq_complete_4_3_1
+    question: 4x + 1 = 13
+    answer: "3"
+    feedback: "4x = 13 - 1 = 12, donc x = 3"
+  - id: eq_complete_4_3_2
+    question: 4x + 2 = 14
+    answer: "3"
+    feedback: "4x = 14 - 2 = 12, donc x = 3"
+  - id: eq_complete_4_3_3
+    question: 4x + 3 = 15
+    answer: "3"
+    feedback: "4x = 15 - 3 = 12, donc x = 3"
+  - id: eq_complete_4_3_4
+    question: 4x + 4 = 16
+    answer: "3"
+    feedback: "4x = 16 - 4 = 12, donc x = 3"
+  - id: eq_complete_4_3_5
+    question: 4x + 5 = 17
+    answer: "3"
+    feedback: "4x = 17 - 5 = 12, donc x = 3"
+  - id: eq_complete_4_4_1
+    question: 4x + 1 = 17
+    answer: "4"
+    feedback: "4x = 17 - 1 = 16, donc x = 4"
+  - id: eq_complete_4_4_2
+    question: 4x + 2 = 18
+    answer: "4"
+    feedback: "4x = 18 - 2 = 16, donc x = 4"
+  - id: eq_complete_4_4_3
+    question: 4x + 3 = 19
+    answer: "4"
+    feedback: "4x = 19 - 3 = 16, donc x = 4"
+  - id: eq_complete_4_4_4
+    question: 4x + 4 = 20
+    answer: "4"
+    feedback: "4x = 20 - 4 = 16, donc x = 4"
+  - id: eq_complete_4_4_5
+    question: 4x + 5 = 21
+    answer: "4"
+    feedback: "4x = 21 - 5 = 16, donc x = 4"
+  - id: eq_complete_4_5_1
+    question: 4x + 1 = 21
+    answer: "5"
+    feedback: "4x = 21 - 1 = 20, donc x = 5"
+  - id: eq_complete_4_5_2
+    question: 4x + 2 = 22
+    answer: "5"
+    feedback: "4x = 22 - 2 = 20, donc x = 5"
+  - id: eq_complete_4_5_3
+    question: 4x + 3 = 23
+    answer: "5"
+    feedback: "4x = 23 - 3 = 20, donc x = 5"
+  - id: eq_complete_4_5_4
+    question: 4x + 4 = 24
+    answer: "5"
+    feedback: "4x = 24 - 4 = 20, donc x = 5"
+  - id: eq_complete_4_5_5
+    question: 4x + 5 = 25
+    answer: "5"
+    feedback: "4x = 25 - 5 = 20, donc x = 5"
+  - id: eq_complete_5_1_1
+    question: 5x + 1 = 6
+    answer: "1"
+    feedback: "5x = 6 - 1 = 5, donc x = 1"
+  - id: eq_complete_5_1_2
+    question: 5x + 2 = 7
+    answer: "1"
+    feedback: "5x = 7 - 2 = 5, donc x = 1"
+  - id: eq_complete_5_1_3
+    question: 5x + 3 = 8
+    answer: "1"
+    feedback: "5x = 8 - 3 = 5, donc x = 1"
+  - id: eq_complete_5_1_4
+    question: 5x + 4 = 9
+    answer: "1"
+    feedback: "5x = 9 - 4 = 5, donc x = 1"
+  - id: eq_complete_5_1_5
+    question: 5x + 5 = 10
+    answer: "1"
+    feedback: "5x = 10 - 5 = 5, donc x = 1"
+  - id: eq_complete_5_2_1
+    question: 5x + 1 = 11
+    answer: "2"
+    feedback: "5x = 11 - 1 = 10, donc x = 2"
+  - id: eq_complete_5_2_2
+    question: 5x + 2 = 12
+    answer: "2"
+    feedback: "5x = 12 - 2 = 10, donc x = 2"
+  - id: eq_complete_5_2_3
+    question: 5x + 3 = 13
+    answer: "2"
+    feedback: "5x = 13 - 3 = 10, donc x = 2"
+  - id: eq_complete_5_2_4
+    question: 5x + 4 = 14
+    answer: "2"
+    feedback: "5x = 14 - 4 = 10, donc x = 2"
+  - id: eq_complete_5_2_5
+    question: 5x + 5 = 15
+    answer: "2"
+    feedback: "5x = 15 - 5 = 10, donc x = 2"
+  - id: eq_complete_5_3_1
+    question: 5x + 1 = 16
+    answer: "3"
+    feedback: "5x = 16 - 1 = 15, donc x = 3"
+  - id: eq_complete_5_3_2
+    question: 5x + 2 = 17
+    answer: "3"
+    feedback: "5x = 17 - 2 = 15, donc x = 3"
+  - id: eq_complete_5_3_3
+    question: 5x + 3 = 18
+    answer: "3"
+    feedback: "5x = 18 - 3 = 15, donc x = 3"
+  - id: eq_complete_5_3_4
+    question: 5x + 4 = 19
+    answer: "3"
+    feedback: "5x = 19 - 4 = 15, donc x = 3"
+  - id: eq_complete_5_3_5
+    question: 5x + 5 = 20
+    answer: "3"
+    feedback: "5x = 20 - 5 = 15, donc x = 3"
+  - id: eq_complete_5_4_1
+    question: 5x + 1 = 21
+    answer: "4"
+    feedback: "5x = 21 - 1 = 20, donc x = 4"
+  - id: eq_complete_5_4_2
+    question: 5x + 2 = 22
+    answer: "4"
+    feedback: "5x = 22 - 2 = 20, donc x = 4"
+  - id: eq_complete_5_4_3
+    question: 5x + 3 = 23
+    answer: "4"
+    feedback: "5x = 23 - 3 = 20, donc x = 4"
+  - id: eq_complete_5_4_4
+    question: 5x + 4 = 24
+    answer: "4"
+    feedback: "5x = 24 - 4 = 20, donc x = 4"
+  - id: eq_complete_5_4_5
+    question: 5x + 5 = 25
+    answer: "4"
+    feedback: "5x = 25 - 5 = 20, donc x = 4"
+  - id: eq_complete_5_5_1
+    question: 5x + 1 = 26
+    answer: "5"
+    feedback: "5x = 26 - 1 = 25, donc x = 5"
+  - id: eq_complete_5_5_2
+    question: 5x + 2 = 27
+    answer: "5"
+    feedback: "5x = 27 - 2 = 25, donc x = 5"
+  - id: eq_complete_5_5_3
+    question: 5x + 3 = 28
+    answer: "5"
+    feedback: "5x = 28 - 3 = 25, donc x = 5"
+  - id: eq_complete_5_5_4
+    question: 5x + 4 = 29
+    answer: "5"
+    feedback: "5x = 29 - 4 = 25, donc x = 5"
+  - id: eq_complete_5_5_5
+    question: 5x + 5 = 30
+    answer: "5"
+    feedback: "5x = 30 - 5 = 25, donc x = 5"

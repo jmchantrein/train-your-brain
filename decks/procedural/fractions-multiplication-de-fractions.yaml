@@ -1,0 +1,224 @@
+name: Multiplication de fractions
+description: Multiplier des fractions simples
+tags: [math, fractions, calcul-mental, sixieme]
+category: [sciences, maths, arithmetique, fractions, calcul-mental, sixieme]
+settings:
+  sequential: false
+  bidirectional: false
+metadata:
+  license: CC-BY-SA-4.0
+  source:
+    type: procedural
+    generator: fractions
+    version: 1.0.0
+    generatedAt: "2026-11-22"
+    parameters:
+      type: multiplications
+resources:
+  - type: summary
+    title: "Qu'est-ce qu'une fraction ?"
+    content: "Une **fraction** représente une partie d'un tout. Elle s'écrit sous la forme a/b où :\n- **a** est le numérateur (nombre de parts prises)\n- **b** est le dénominateur (nombre total de parts)\n\nPar exemple : **3/4** signifie 3 parts sur 4 au total.\n\nLes fractions sont utilisées pour :\n- Exprimer des proportions\n- Représenter des divisions\n- Calculer des pourcentages"
+    aiGenerated: true
+    icon: 📝
+  - type: link
+    title: "Wikipedia : Fraction"
+    url: https://fr.wikipedia.org/wiki/Fraction_(mathématiques)
+    icon: 📖
+  - type: glossary
+    title: Vocabulaire clé
+    content: "- **Fraction** : Nombre qui représente une partie d'un tout (a/b)\n- **Numérateur** : Nombre au-dessus de la barre de fraction\n- **Dénominateur** : Nombre en-dessous de la barre de fraction\n- **Fraction irréductible** : Fraction simplifiée au maximum\n- **Fractions équivalentes** : Fractions représentant le même nombre (1/2 = 2/4)\n- **PGCD** : Plus Grand Commun Diviseur (pour simplifier)"
+    icon: 📚
+  - type: summary
+    title: Multiplication de fractions
+    content: "Pour multiplier des fractions, on multiplie les numérateurs entre eux et les dénominateurs entre eux.\n\nExemple : 2/3 × 3/4 = 6/12 = 1/2\n\nC'est plus simple que l'addition !"
+    aiGenerated: true
+    icon: 📝
+  - type: objective
+    title: "Objectifs d'apprentissage"
+    content: "- ✅ Multiplier numérateurs et dénominateurs\n- ✅ Simplifier le résultat\n- ✅ Reconnaître les simplifications avant de calculer"
+    icon: 🎯
+  - type: tip
+    title: "Astuce : simplifier avant"
+    content: "On peut simplifier AVANT de multiplier :\n\n2/3 × 3/4 → On simplifie le 3 du numérateur avec le 3 du dénominateur\n= 2/1 × 1/4 = 2/4 = 1/2"
+    icon: 💡
+cards:
+  - id: frac_mult_1_2_1_2
+    question: 1/2 × 1/2 = ?
+    answer: 1/4
+    alternatives: [1/4, 1/4]
+    feedback: 1/2 × 1/2 = 1/4
+  - id: frac_mult_1_2_1_3
+    question: 1/2 × 1/3 = ?
+    answer: 1/6
+    alternatives: [1/6, 1/6]
+    feedback: 1/2 × 1/3 = 1/6
+  - id: frac_mult_1_2_2_3
+    question: 1/2 × 2/3 = ?
+    answer: 1/3
+    alternatives: [1/3, 2/6]
+    feedback: 1/2 × 2/3 = 2/6 = 1/3
+  - id: frac_mult_1_2_1_4
+    question: 1/2 × 1/4 = ?
+    answer: 1/8
+    alternatives: [1/8, 1/8]
+    feedback: 1/2 × 1/4 = 1/8
+  - id: frac_mult_1_2_3_4
+    question: 1/2 × 3/4 = ?
+    answer: 3/8
+    alternatives: [3/8, 3/8]
+    feedback: 1/2 × 3/4 = 3/8
+  - id: frac_mult_1_2_1_5
+    question: 1/2 × 1/5 = ?
+    answer: 1/10
+    alternatives: [1/10, 1/10]
+    feedback: 1/2 × 1/5 = 1/10
+  - id: frac_mult_1_2_2_5
+    question: 1/2 × 2/5 = ?
+    answer: 1/5
+    alternatives: [1/5, 2/10]
+    feedback: 1/2 × 2/5 = 2/10 = 1/5
+  - id: frac_mult_1_2_1_6
+    question: 1/2 × 1/6 = ?
+    answer: 1/12
+    alternatives: [1/12, 1/12]
+    feedback: 1/2 × 1/6 = 1/12
+  - id: frac_mult_1_3_1_3
+    question: 1/3 × 1/3 = ?
+    answer: 1/9
+    alternatives: [1/9, 1/9]
+    feedback: 1/3 × 1/3 = 1/9
+  - id: frac_mult_1_3_2_3
+    question: 1/3 × 2/3 = ?
+    answer: 2/9
+    alternatives: [2/9, 2/9]
+    feedback: 1/3 × 2/3 = 2/9
+  - id: frac_mult_1_3_1_4
+    question: 1/3 × 1/4 = ?
+    answer: 1/12
+    alternatives: [1/12, 1/12]
+    feedback: 1/3 × 1/4 = 1/12
+  - id: frac_mult_1_3_3_4
+    question: 1/3 × 3/4 = ?
+    answer: 1/4
+    alternatives: [1/4, 3/12]
+    feedback: 1/3 × 3/4 = 3/12 = 1/4
+  - id: frac_mult_1_3_1_5
+    question: 1/3 × 1/5 = ?
+    answer: 1/15
+    alternatives: [1/15, 1/15]
+    feedback: 1/3 × 1/5 = 1/15
+  - id: frac_mult_1_3_2_5
+    question: 1/3 × 2/5 = ?
+    answer: 2/15
+    alternatives: [2/15, 2/15]
+    feedback: 1/3 × 2/5 = 2/15
+  - id: frac_mult_1_3_1_6
+    question: 1/3 × 1/6 = ?
+    answer: 1/18
+    alternatives: [1/18, 1/18]
+    feedback: 1/3 × 1/6 = 1/18
+  - id: frac_mult_2_3_2_3
+    question: 2/3 × 2/3 = ?
+    answer: 4/9
+    alternatives: [4/9, 4/9]
+    feedback: 2/3 × 2/3 = 4/9
+  - id: frac_mult_2_3_1_4
+    question: 2/3 × 1/4 = ?
+    answer: 1/6
+    alternatives: [1/6, 2/12]
+    feedback: 2/3 × 1/4 = 2/12 = 1/6
+  - id: frac_mult_2_3_3_4
+    question: 2/3 × 3/4 = ?
+    answer: 1/2
+    alternatives: [1/2, 6/12]
+    feedback: 2/3 × 3/4 = 6/12 = 1/2
+  - id: frac_mult_2_3_1_5
+    question: 2/3 × 1/5 = ?
+    answer: 2/15
+    alternatives: [2/15, 2/15]
+    feedback: 2/3 × 1/5 = 2/15
+  - id: frac_mult_2_3_2_5
+    question: 2/3 × 2/5 = ?
+    answer: 4/15
+    alternatives: [4/15, 4/15]
+    feedback: 2/3 × 2/5 = 4/15
+  - id: frac_mult_2_3_1_6
+    question: 2/3 × 1/6 = ?
+    answer: 1/9
+    alternatives: [1/9, 2/18]
+    feedback: 2/3 × 1/6 = 2/18 = 1/9
+  - id: frac_mult_1_4_1_4
+    question: 1/4 × 1/4 = ?
+    answer: 1/16
+    alternatives: [1/16, 1/16]
+    feedback: 1/4 × 1/4 = 1/16
+  - id: frac_mult_1_4_3_4
+    question: 1/4 × 3/4 = ?
+    answer: 3/16
+    alternatives: [3/16, 3/16]
+    feedback: 1/4 × 3/4 = 3/16
+  - id: frac_mult_1_4_1_5
+    question: 1/4 × 1/5 = ?
+    answer: 1/20
+    alternatives: [1/20, 1/20]
+    feedback: 1/4 × 1/5 = 1/20
+  - id: frac_mult_1_4_2_5
+    question: 1/4 × 2/5 = ?
+    answer: 1/10
+    alternatives: [1/10, 2/20]
+    feedback: 1/4 × 2/5 = 2/20 = 1/10
+  - id: frac_mult_1_4_1_6
+    question: 1/4 × 1/6 = ?
+    answer: 1/24
+    alternatives: [1/24, 1/24]
+    feedback: 1/4 × 1/6 = 1/24
+  - id: frac_mult_3_4_3_4
+    question: 3/4 × 3/4 = ?
+    answer: 9/16
+    alternatives: [9/16, 9/16]
+    feedback: 3/4 × 3/4 = 9/16
+  - id: frac_mult_3_4_1_5
+    question: 3/4 × 1/5 = ?
+    answer: 3/20
+    alternatives: [3/20, 3/20]
+    feedback: 3/4 × 1/5 = 3/20
+  - id: frac_mult_3_4_2_5
+    question: 3/4 × 2/5 = ?
+    answer: 3/10
+    alternatives: [3/10, 6/20]
+    feedback: 3/4 × 2/5 = 6/20 = 3/10
+  - id: frac_mult_3_4_1_6
+    question: 3/4 × 1/6 = ?
+    answer: 1/8
+    alternatives: [1/8, 3/24]
+    feedback: 3/4 × 1/6 = 3/24 = 1/8
+  - id: frac_mult_1_5_1_5
+    question: 1/5 × 1/5 = ?
+    answer: 1/25
+    alternatives: [1/25, 1/25]
+    feedback: 1/5 × 1/5 = 1/25
+  - id: frac_mult_1_5_2_5
+    question: 1/5 × 2/5 = ?
+    answer: 2/25
+    alternatives: [2/25, 2/25]
+    feedback: 1/5 × 2/5 = 2/25
+  - id: frac_mult_1_5_1_6
+    question: 1/5 × 1/6 = ?
+    answer: 1/30
+    alternatives: [1/30, 1/30]
+    feedback: 1/5 × 1/6 = 1/30
+  - id: frac_mult_2_5_2_5
+    question: 2/5 × 2/5 = ?
+    answer: 4/25
+    alternatives: [4/25, 4/25]
+    feedback: 2/5 × 2/5 = 4/25
+  - id: frac_mult_2_5_1_6
+    question: 2/5 × 1/6 = ?
+    answer: 1/15
+    alternatives: [1/15, 2/30]
+    feedback: 2/5 × 1/6 = 2/30 = 1/15
+  - id: frac_mult_1_6_1_6
+    question: 1/6 × 1/6 = ?
+    answer: 1/36
+    alternatives: [1/36, 1/36]
+    feedback: 1/6 × 1/6 = 1/36

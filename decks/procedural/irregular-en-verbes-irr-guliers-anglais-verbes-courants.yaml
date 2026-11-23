@@ -1,0 +1,527 @@
+name: Verbes irréguliers anglais - Verbes courants
+description: 30 verbes irréguliers anglais (niveau 2)
+tags: [langues, anglais, verbes, grammaire, en-grammar, en-conjugation]
+category: [langues, anglais, en-grammar, en-conjugation]
+settings:
+  sequential: false
+  bidirectional: false
+metadata:
+  license: CC-BY-SA-4.0
+  source:
+    type: procedural
+    generator: irregular-en
+    version: 1.0.0
+    generatedAt: "2026-11-22"
+    parameters:
+      frequency: 2
+cards:
+  - id: irreg_sit_to_past
+    question: "Quel est le prétérit de \"sit\" ?"
+    answer: sat
+    feedback: "sit → sat → sat (s'asseoir)"
+  - id: irreg_sit_to_pp
+    question: "Quel est le participe passé de \"sit\" ?"
+    answer: sat
+    feedback: "sit → sat → sat (s'asseoir)"
+  - id: irreg_sit_from_past
+    question: "\"sat\" est le prétérit de quel verbe ?"
+    answer: sit
+    feedback: "sit → sat → sat (s'asseoir)"
+  - id: irreg_sit_fr_to_en
+    question: "Comment dit-on \"s'asseoir\" en anglais ? (infinitif)"
+    answer: sit
+    alternatives: [to sit]
+    feedback: "s'asseoir = sit (sat, sat)"
+  - id: irreg_stand_to_past
+    question: "Quel est le prétérit de \"stand\" ?"
+    answer: stood
+    feedback: stand → stood → stood (être debout)
+  - id: irreg_stand_to_pp
+    question: "Quel est le participe passé de \"stand\" ?"
+    answer: stood
+    feedback: stand → stood → stood (être debout)
+  - id: irreg_stand_from_past
+    question: "\"stood\" est le prétérit de quel verbe ?"
+    answer: stand
+    feedback: stand → stood → stood (être debout)
+  - id: irreg_stand_fr_to_en
+    question: "Comment dit-on \"être debout\" en anglais ? (infinitif)"
+    answer: stand
+    alternatives: [to stand]
+    feedback: "être debout = stand (stood, stood)"
+  - id: irreg_lose_to_past
+    question: "Quel est le prétérit de \"lose\" ?"
+    answer: lost
+    feedback: lose → lost → lost (perdre)
+  - id: irreg_lose_to_pp
+    question: "Quel est le participe passé de \"lose\" ?"
+    answer: lost
+    feedback: lose → lost → lost (perdre)
+  - id: irreg_lose_from_past
+    question: "\"lost\" est le prétérit de quel verbe ?"
+    answer: lose
+    feedback: lose → lost → lost (perdre)
+  - id: irreg_lose_fr_to_en
+    question: "Comment dit-on \"perdre\" en anglais ? (infinitif)"
+    answer: lose
+    alternatives: [to lose]
+    feedback: "perdre = lose (lost, lost)"
+  - id: irreg_pay_to_past
+    question: "Quel est le prétérit de \"pay\" ?"
+    answer: paid
+    feedback: pay → paid → paid (payer)
+  - id: irreg_pay_to_pp
+    question: "Quel est le participe passé de \"pay\" ?"
+    answer: paid
+    feedback: pay → paid → paid (payer)
+  - id: irreg_pay_from_past
+    question: "\"paid\" est le prétérit de quel verbe ?"
+    answer: pay
+    feedback: pay → paid → paid (payer)
+  - id: irreg_pay_fr_to_en
+    question: "Comment dit-on \"payer\" en anglais ? (infinitif)"
+    answer: pay
+    alternatives: [to pay]
+    feedback: "payer = pay (paid, paid)"
+  - id: irreg_meet_to_past
+    question: "Quel est le prétérit de \"meet\" ?"
+    answer: met
+    feedback: meet → met → met (rencontrer)
+  - id: irreg_meet_to_pp
+    question: "Quel est le participe passé de \"meet\" ?"
+    answer: met
+    feedback: meet → met → met (rencontrer)
+  - id: irreg_meet_from_past
+    question: "\"met\" est le prétérit de quel verbe ?"
+    answer: meet
+    feedback: meet → met → met (rencontrer)
+  - id: irreg_meet_fr_to_en
+    question: "Comment dit-on \"rencontrer\" en anglais ? (infinitif)"
+    answer: meet
+    alternatives: [to meet]
+    feedback: "rencontrer = meet (met, met)"
+  - id: irreg_set_to_past
+    question: "Quel est le prétérit de \"set\" ?"
+    answer: set
+    feedback: set → set → set (fixer/établir)
+  - id: irreg_set_to_pp
+    question: "Quel est le participe passé de \"set\" ?"
+    answer: set
+    feedback: set → set → set (fixer/établir)
+  - id: irreg_set_from_past
+    question: "\"set\" est le prétérit de quel verbe ?"
+    answer: set
+    feedback: set → set → set (fixer/établir)
+  - id: irreg_set_fr_to_en
+    question: "Comment dit-on \"fixer/établir\" en anglais ? (infinitif)"
+    answer: set
+    alternatives: [to set]
+    feedback: "fixer/établir = set (set, set)"
+  - id: irreg_learn_to_past
+    question: "Quel est le prétérit de \"learn\" ?"
+    answer: learnt/learned
+    feedback: learn → learnt/learned → learnt/learned (apprendre)
+  - id: irreg_learn_to_pp
+    question: "Quel est le participe passé de \"learn\" ?"
+    answer: learnt/learned
+    feedback: learn → learnt/learned → learnt/learned (apprendre)
+  - id: irreg_learn_from_past
+    question: "\"learnt/learned\" est le prétérit de quel verbe ?"
+    answer: learn
+    feedback: learn → learnt/learned → learnt/learned (apprendre)
+  - id: irreg_learn_fr_to_en
+    question: "Comment dit-on \"apprendre\" en anglais ? (infinitif)"
+    answer: learn
+    alternatives: [to learn]
+    feedback: "apprendre = learn (learnt/learned, learnt/learned)"
+  - id: irreg_lead_to_past
+    question: "Quel est le prétérit de \"lead\" ?"
+    answer: led
+    feedback: lead → led → led (mener/diriger)
+  - id: irreg_lead_to_pp
+    question: "Quel est le participe passé de \"lead\" ?"
+    answer: led
+    feedback: lead → led → led (mener/diriger)
+  - id: irreg_lead_from_past
+    question: "\"led\" est le prétérit de quel verbe ?"
+    answer: lead
+    feedback: lead → led → led (mener/diriger)
+  - id: irreg_lead_fr_to_en
+    question: "Comment dit-on \"mener/diriger\" en anglais ? (infinitif)"
+    answer: lead
+    alternatives: [to lead]
+    feedback: "mener/diriger = lead (led, led)"
+  - id: irreg_understand_to_past
+    question: "Quel est le prétérit de \"understand\" ?"
+    answer: understood
+    feedback: understand → understood → understood (comprendre)
+  - id: irreg_understand_to_pp
+    question: "Quel est le participe passé de \"understand\" ?"
+    answer: understood
+    feedback: understand → understood → understood (comprendre)
+  - id: irreg_understand_from_past
+    question: "\"understood\" est le prétérit de quel verbe ?"
+    answer: understand
+    feedback: understand → understood → understood (comprendre)
+  - id: irreg_understand_fr_to_en
+    question: "Comment dit-on \"comprendre\" en anglais ? (infinitif)"
+    answer: understand
+    alternatives: [to understand]
+    feedback: "comprendre = understand (understood, understood)"
+  - id: irreg_speak_to_past
+    question: "Quel est le prétérit de \"speak\" ?"
+    answer: spoke
+    feedback: speak → spoke → spoken (parler)
+  - id: irreg_speak_to_pp
+    question: "Quel est le participe passé de \"speak\" ?"
+    answer: spoken
+    feedback: speak → spoke → spoken (parler)
+  - id: irreg_speak_from_past
+    question: "\"spoke\" est le prétérit de quel verbe ?"
+    answer: speak
+    feedback: speak → spoke → spoken (parler)
+  - id: irreg_speak_fr_to_en
+    question: "Comment dit-on \"parler\" en anglais ? (infinitif)"
+    answer: speak
+    alternatives: [to speak]
+    feedback: "parler = speak (spoke, spoken)"
+  - id: irreg_read_to_past
+    question: "Quel est le prétérit de \"read\" ?"
+    answer: read
+    feedback: read → read → read (lire)
+  - id: irreg_read_to_pp
+    question: "Quel est le participe passé de \"read\" ?"
+    answer: read
+    feedback: read → read → read (lire)
+  - id: irreg_read_from_past
+    question: "\"read\" est le prétérit de quel verbe ?"
+    answer: read
+    feedback: read → read → read (lire)
+  - id: irreg_read_fr_to_en
+    question: "Comment dit-on \"lire\" en anglais ? (infinitif)"
+    answer: read
+    alternatives: [to read]
+    feedback: "lire = read (read, read)"
+  - id: irreg_spend_to_past
+    question: "Quel est le prétérit de \"spend\" ?"
+    answer: spent
+    feedback: spend → spent → spent (dépenser/passer (temps))
+  - id: irreg_spend_to_pp
+    question: "Quel est le participe passé de \"spend\" ?"
+    answer: spent
+    feedback: spend → spent → spent (dépenser/passer (temps))
+  - id: irreg_spend_from_past
+    question: "\"spent\" est le prétérit de quel verbe ?"
+    answer: spend
+    feedback: spend → spent → spent (dépenser/passer (temps))
+  - id: irreg_spend_fr_to_en
+    question: "Comment dit-on \"dépenser/passer (temps)\" en anglais ? (infinitif)"
+    answer: spend
+    alternatives: [to spend]
+    feedback: "dépenser/passer (temps) = spend (spent, spent)"
+  - id: irreg_grow_to_past
+    question: "Quel est le prétérit de \"grow\" ?"
+    answer: grew
+    feedback: grow → grew → grown (grandir/pousser)
+  - id: irreg_grow_to_pp
+    question: "Quel est le participe passé de \"grow\" ?"
+    answer: grown
+    feedback: grow → grew → grown (grandir/pousser)
+  - id: irreg_grow_from_past
+    question: "\"grew\" est le prétérit de quel verbe ?"
+    answer: grow
+    feedback: grow → grew → grown (grandir/pousser)
+  - id: irreg_grow_fr_to_en
+    question: "Comment dit-on \"grandir/pousser\" en anglais ? (infinitif)"
+    answer: grow
+    alternatives: [to grow]
+    feedback: "grandir/pousser = grow (grew, grown)"
+  - id: irreg_win_to_past
+    question: "Quel est le prétérit de \"win\" ?"
+    answer: won
+    feedback: win → won → won (gagner)
+  - id: irreg_win_to_pp
+    question: "Quel est le participe passé de \"win\" ?"
+    answer: won
+    feedback: win → won → won (gagner)
+  - id: irreg_win_from_past
+    question: "\"won\" est le prétérit de quel verbe ?"
+    answer: win
+    feedback: win → won → won (gagner)
+  - id: irreg_win_fr_to_en
+    question: "Comment dit-on \"gagner\" en anglais ? (infinitif)"
+    answer: win
+    alternatives: [to win]
+    feedback: "gagner = win (won, won)"
+  - id: irreg_teach_to_past
+    question: "Quel est le prétérit de \"teach\" ?"
+    answer: taught
+    feedback: teach → taught → taught (enseigner)
+  - id: irreg_teach_to_pp
+    question: "Quel est le participe passé de \"teach\" ?"
+    answer: taught
+    feedback: teach → taught → taught (enseigner)
+  - id: irreg_teach_from_past
+    question: "\"taught\" est le prétérit de quel verbe ?"
+    answer: teach
+    feedback: teach → taught → taught (enseigner)
+  - id: irreg_teach_fr_to_en
+    question: "Comment dit-on \"enseigner\" en anglais ? (infinitif)"
+    answer: teach
+    alternatives: [to teach]
+    feedback: "enseigner = teach (taught, taught)"
+  - id: irreg_buy_to_past
+    question: "Quel est le prétérit de \"buy\" ?"
+    answer: bought
+    feedback: buy → bought → bought (acheter)
+  - id: irreg_buy_to_pp
+    question: "Quel est le participe passé de \"buy\" ?"
+    answer: bought
+    feedback: buy → bought → bought (acheter)
+  - id: irreg_buy_from_past
+    question: "\"bought\" est le prétérit de quel verbe ?"
+    answer: buy
+    feedback: buy → bought → bought (acheter)
+  - id: irreg_buy_fr_to_en
+    question: "Comment dit-on \"acheter\" en anglais ? (infinitif)"
+    answer: buy
+    alternatives: [to buy]
+    feedback: "acheter = buy (bought, bought)"
+  - id: irreg_send_to_past
+    question: "Quel est le prétérit de \"send\" ?"
+    answer: sent
+    feedback: send → sent → sent (envoyer)
+  - id: irreg_send_to_pp
+    question: "Quel est le participe passé de \"send\" ?"
+    answer: sent
+    feedback: send → sent → sent (envoyer)
+  - id: irreg_send_from_past
+    question: "\"sent\" est le prétérit de quel verbe ?"
+    answer: send
+    feedback: send → sent → sent (envoyer)
+  - id: irreg_send_fr_to_en
+    question: "Comment dit-on \"envoyer\" en anglais ? (infinitif)"
+    answer: send
+    alternatives: [to send]
+    feedback: "envoyer = send (sent, sent)"
+  - id: irreg_fall_to_past
+    question: "Quel est le prétérit de \"fall\" ?"
+    answer: fell
+    feedback: fall → fell → fallen (tomber)
+  - id: irreg_fall_to_pp
+    question: "Quel est le participe passé de \"fall\" ?"
+    answer: fallen
+    feedback: fall → fell → fallen (tomber)
+  - id: irreg_fall_from_past
+    question: "\"fell\" est le prétérit de quel verbe ?"
+    answer: fall
+    feedback: fall → fell → fallen (tomber)
+  - id: irreg_fall_fr_to_en
+    question: "Comment dit-on \"tomber\" en anglais ? (infinitif)"
+    answer: fall
+    alternatives: [to fall]
+    feedback: "tomber = fall (fell, fallen)"
+  - id: irreg_cut_to_past
+    question: "Quel est le prétérit de \"cut\" ?"
+    answer: cut
+    feedback: cut → cut → cut (couper)
+  - id: irreg_cut_to_pp
+    question: "Quel est le participe passé de \"cut\" ?"
+    answer: cut
+    feedback: cut → cut → cut (couper)
+  - id: irreg_cut_from_past
+    question: "\"cut\" est le prétérit de quel verbe ?"
+    answer: cut
+    feedback: cut → cut → cut (couper)
+  - id: irreg_cut_fr_to_en
+    question: "Comment dit-on \"couper\" en anglais ? (infinitif)"
+    answer: cut
+    alternatives: [to cut]
+    feedback: "couper = cut (cut, cut)"
+  - id: irreg_build_to_past
+    question: "Quel est le prétérit de \"build\" ?"
+    answer: built
+    feedback: build → built → built (construire)
+  - id: irreg_build_to_pp
+    question: "Quel est le participe passé de \"build\" ?"
+    answer: built
+    feedback: build → built → built (construire)
+  - id: irreg_build_from_past
+    question: "\"built\" est le prétérit de quel verbe ?"
+    answer: build
+    feedback: build → built → built (construire)
+  - id: irreg_build_fr_to_en
+    question: "Comment dit-on \"construire\" en anglais ? (infinitif)"
+    answer: build
+    alternatives: [to build]
+    feedback: "construire = build (built, built)"
+  - id: irreg_break_to_past
+    question: "Quel est le prétérit de \"break\" ?"
+    answer: broke
+    feedback: break → broke → broken (casser)
+  - id: irreg_break_to_pp
+    question: "Quel est le participe passé de \"break\" ?"
+    answer: broken
+    feedback: break → broke → broken (casser)
+  - id: irreg_break_from_past
+    question: "\"broke\" est le prétérit de quel verbe ?"
+    answer: break
+    feedback: break → broke → broken (casser)
+  - id: irreg_break_fr_to_en
+    question: "Comment dit-on \"casser\" en anglais ? (infinitif)"
+    answer: break
+    alternatives: [to break]
+    feedback: "casser = break (broke, broken)"
+  - id: irreg_drive_to_past
+    question: "Quel est le prétérit de \"drive\" ?"
+    answer: drove
+    feedback: drive → drove → driven (conduire)
+  - id: irreg_drive_to_pp
+    question: "Quel est le participe passé de \"drive\" ?"
+    answer: driven
+    feedback: drive → drove → driven (conduire)
+  - id: irreg_drive_from_past
+    question: "\"drove\" est le prétérit de quel verbe ?"
+    answer: drive
+    feedback: drive → drove → driven (conduire)
+  - id: irreg_drive_fr_to_en
+    question: "Comment dit-on \"conduire\" en anglais ? (infinitif)"
+    answer: drive
+    alternatives: [to drive]
+    feedback: "conduire = drive (drove, driven)"
+  - id: irreg_catch_to_past
+    question: "Quel est le prétérit de \"catch\" ?"
+    answer: caught
+    feedback: catch → caught → caught (attraper)
+  - id: irreg_catch_to_pp
+    question: "Quel est le participe passé de \"catch\" ?"
+    answer: caught
+    feedback: catch → caught → caught (attraper)
+  - id: irreg_catch_from_past
+    question: "\"caught\" est le prétérit de quel verbe ?"
+    answer: catch
+    feedback: catch → caught → caught (attraper)
+  - id: irreg_catch_fr_to_en
+    question: "Comment dit-on \"attraper\" en anglais ? (infinitif)"
+    answer: catch
+    alternatives: [to catch]
+    feedback: "attraper = catch (caught, caught)"
+  - id: irreg_choose_to_past
+    question: "Quel est le prétérit de \"choose\" ?"
+    answer: chose
+    feedback: choose → chose → chosen (choisir)
+  - id: irreg_choose_to_pp
+    question: "Quel est le participe passé de \"choose\" ?"
+    answer: chosen
+    feedback: choose → chose → chosen (choisir)
+  - id: irreg_choose_from_past
+    question: "\"chose\" est le prétérit de quel verbe ?"
+    answer: choose
+    feedback: choose → chose → chosen (choisir)
+  - id: irreg_choose_fr_to_en
+    question: "Comment dit-on \"choisir\" en anglais ? (infinitif)"
+    answer: choose
+    alternatives: [to choose]
+    feedback: "choisir = choose (chose, chosen)"
+  - id: irreg_sleep_to_past
+    question: "Quel est le prétérit de \"sleep\" ?"
+    answer: slept
+    feedback: sleep → slept → slept (dormir)
+  - id: irreg_sleep_to_pp
+    question: "Quel est le participe passé de \"sleep\" ?"
+    answer: slept
+    feedback: sleep → slept → slept (dormir)
+  - id: irreg_sleep_from_past
+    question: "\"slept\" est le prétérit de quel verbe ?"
+    answer: sleep
+    feedback: sleep → slept → slept (dormir)
+  - id: irreg_sleep_fr_to_en
+    question: "Comment dit-on \"dormir\" en anglais ? (infinitif)"
+    answer: sleep
+    alternatives: [to sleep]
+    feedback: "dormir = sleep (slept, slept)"
+  - id: irreg_eat_to_past
+    question: "Quel est le prétérit de \"eat\" ?"
+    answer: ate
+    feedback: eat → ate → eaten (manger)
+  - id: irreg_eat_to_pp
+    question: "Quel est le participe passé de \"eat\" ?"
+    answer: eaten
+    feedback: eat → ate → eaten (manger)
+  - id: irreg_eat_from_past
+    question: "\"ate\" est le prétérit de quel verbe ?"
+    answer: eat
+    feedback: eat → ate → eaten (manger)
+  - id: irreg_eat_fr_to_en
+    question: "Comment dit-on \"manger\" en anglais ? (infinitif)"
+    answer: eat
+    alternatives: [to eat]
+    feedback: "manger = eat (ate, eaten)"
+  - id: irreg_drink_to_past
+    question: "Quel est le prétérit de \"drink\" ?"
+    answer: drank
+    feedback: drink → drank → drunk (boire)
+  - id: irreg_drink_to_pp
+    question: "Quel est le participe passé de \"drink\" ?"
+    answer: drunk
+    feedback: drink → drank → drunk (boire)
+  - id: irreg_drink_from_past
+    question: "\"drank\" est le prétérit de quel verbe ?"
+    answer: drink
+    feedback: drink → drank → drunk (boire)
+  - id: irreg_drink_fr_to_en
+    question: "Comment dit-on \"boire\" en anglais ? (infinitif)"
+    answer: drink
+    alternatives: [to drink]
+    feedback: "boire = drink (drank, drunk)"
+  - id: irreg_draw_to_past
+    question: "Quel est le prétérit de \"draw\" ?"
+    answer: drew
+    feedback: draw → drew → drawn (dessiner)
+  - id: irreg_draw_to_pp
+    question: "Quel est le participe passé de \"draw\" ?"
+    answer: drawn
+    feedback: draw → drew → drawn (dessiner)
+  - id: irreg_draw_from_past
+    question: "\"drew\" est le prétérit de quel verbe ?"
+    answer: draw
+    feedback: draw → drew → drawn (dessiner)
+  - id: irreg_draw_fr_to_en
+    question: "Comment dit-on \"dessiner\" en anglais ? (infinitif)"
+    answer: draw
+    alternatives: [to draw]
+    feedback: "dessiner = draw (drew, drawn)"
+  - id: irreg_fly_to_past
+    question: "Quel est le prétérit de \"fly\" ?"
+    answer: flew
+    feedback: fly → flew → flown (voler)
+  - id: irreg_fly_to_pp
+    question: "Quel est le participe passé de \"fly\" ?"
+    answer: flown
+    feedback: fly → flew → flown (voler)
+  - id: irreg_fly_from_past
+    question: "\"flew\" est le prétérit de quel verbe ?"
+    answer: fly
+    feedback: fly → flew → flown (voler)
+  - id: irreg_fly_fr_to_en
+    question: "Comment dit-on \"voler\" en anglais ? (infinitif)"
+    answer: fly
+    alternatives: [to fly]
+    feedback: "voler = fly (flew, flown)"
+  - id: irreg_forget_to_past
+    question: "Quel est le prétérit de \"forget\" ?"
+    answer: forgot
+    feedback: forget → forgot → forgotten (oublier)
+  - id: irreg_forget_to_pp
+    question: "Quel est le participe passé de \"forget\" ?"
+    answer: forgotten
+    feedback: forget → forgot → forgotten (oublier)
+  - id: irreg_forget_from_past
+    question: "\"forgot\" est le prétérit de quel verbe ?"
+    answer: forget
+    feedback: forget → forgot → forgotten (oublier)
+  - id: irreg_forget_fr_to_en
+    question: "Comment dit-on \"oublier\" en anglais ? (infinitif)"
+    answer: forget
+    alternatives: [to forget]
+    feedback: "oublier = forget (forgot, forgotten)"

@@ -1,0 +1,486 @@
+name: Capitales - Afrique
+description: "Capitales des pays d'Afrique (54 pays)"
+tags: [geographie, capitales, pays, culture-generale]
+category: [geographie, culture-generale]
+settings:
+  sequential: false
+  bidirectional: false
+metadata:
+  license: CC-BY-SA-4.0
+  source:
+    type: procedural
+    generator: capitals
+    version: 1.0.0
+    generatedAt: "2026-11-22"
+    parameters:
+      region: Africa
+cards:
+  - id: cap_dz_to_cap
+    question: "Quelle est la capitale de l'Algérie 🇩🇿 ?"
+    answer: Alger
+    feedback: "Alger est la capitale de l'Algérie."
+    alternatives: [Algiers]
+  - id: cap_dz_from_cap
+    question: Alger est la capitale de quel pays ?
+    answer: Algérie
+    feedback: "Alger est la capitale de l'Algérie 🇩🇿."
+    alternatives: [Algeria]
+  - id: cap_ao_to_cap
+    question: "Quelle est la capitale de l'Angola 🇦🇴 ?"
+    answer: Luanda
+    feedback: "Luanda est la capitale de l'Angola."
+  - id: cap_ao_from_cap
+    question: Luanda est la capitale de quel pays ?
+    answer: Angola
+    feedback: "Luanda est la capitale de l'Angola 🇦🇴."
+  - id: cap_bj_to_cap
+    question: Quelle est la capitale du Bénin 🇧🇯 ?
+    answer: Porto-Novo
+    feedback: "Porto-Novo est la capitale officielle du Bénin ; Cotonou, capitale économique, est le siège du gouvernement."
+    alternatives: [Cotonou]
+  - id: cap_bj_from_cap
+    question: Porto-Novo est la capitale de quel pays ?
+    answer: Bénin
+    feedback: "Porto-Novo est la capitale officielle du Bénin ; Cotonou, capitale économique, est le siège du gouvernement."
+  - id: cap_bw_to_cap
+    question: Quelle est la capitale du Botswana 🇧🇼 ?
+    answer: Gaborone
+    feedback: Gaborone est la capitale du Botswana.
+  - id: cap_bw_from_cap
+    question: Gaborone est la capitale de quel pays ?
+    answer: Botswana
+    feedback: Gaborone est la capitale du Botswana 🇧🇼.
+  - id: cap_bf_to_cap
+    question: Quelle est la capitale du Burkina Faso 🇧🇫 ?
+    answer: Ouagadougou
+    feedback: Ouagadougou est la capitale du Burkina Faso.
+  - id: cap_bf_from_cap
+    question: Ouagadougou est la capitale de quel pays ?
+    answer: Burkina Faso
+    feedback: Ouagadougou est la capitale du Burkina Faso 🇧🇫.
+  - id: cap_bi_to_cap
+    question: Quelle est la capitale du Burundi 🇧🇮 ?
+    answer: Gitega
+    feedback: Gitega est la capitale politique du Burundi depuis 2019 ; Bujumbura reste sa capitale économique.
+    alternatives: [Bujumbura]
+  - id: cap_bi_from_cap
+    question: Gitega est la capitale de quel pays ?
+    answer: Burundi
+    feedback: Gitega est la capitale politique du Burundi depuis 2019 ; Bujumbura reste sa capitale économique.
+  - id: cap_cm_to_cap
+    question: Quelle est la capitale du Cameroun 🇨🇲 ?
+    answer: Yaoundé
+    feedback: Yaoundé est la capitale du Cameroun.
+  - id: cap_cm_from_cap
+    question: Yaoundé est la capitale de quel pays ?
+    answer: Cameroun
+    feedback: Yaoundé est la capitale du Cameroun 🇨🇲.
+    alternatives: [Cameroon]
+  - id: cap_cv_to_cap
+    question: Quelle est la capitale du Cap-Vert 🇨🇻 ?
+    answer: Praia
+    feedback: Praia est la capitale du Cap-Vert.
+  - id: cap_cv_from_cap
+    question: Praia est la capitale de quel pays ?
+    answer: Cap-Vert
+    feedback: Praia est la capitale du Cap-Vert 🇨🇻.
+    alternatives: [Cape Verde, Cabo Verde, Îles du Cap-Vert]
+  - id: cap_cf_to_cap
+    question: Quelle est la capitale de la République centrafricaine 🇨🇫 ?
+    answer: Bangui
+    feedback: Bangui est la capitale de la République centrafricaine.
+  - id: cap_cf_from_cap
+    question: Bangui est la capitale de quel pays ?
+    answer: République centrafricaine
+    feedback: Bangui est la capitale de la République centrafricaine 🇨🇫.
+    alternatives: [Central African Republic, Centrafrique]
+  - id: cap_td_to_cap
+    question: Quelle est la capitale du Tchad 🇹🇩 ?
+    answer: "N'Djamena"
+    feedback: "N'Djamena est la capitale du Tchad."
+  - id: cap_td_from_cap
+    question: "N'Djamena est la capitale de quel pays ?"
+    answer: Tchad
+    feedback: "N'Djamena est la capitale du Tchad 🇹🇩."
+    alternatives: [Chad]
+  - id: cap_km_to_cap
+    question: Quelle est la capitale des Comores 🇰🇲 ?
+    answer: Moroni
+    feedback: Moroni est la capitale des Comores.
+  - id: cap_km_from_cap
+    question: Moroni est la capitale de quel pays ?
+    answer: Comores
+    feedback: Moroni est la capitale des Comores 🇰🇲.
+    alternatives: [Comoros]
+  - id: cap_cg_to_cap
+    question: Quelle est la capitale de la République du Congo 🇨🇬 ?
+    answer: Brazzaville
+    feedback: Brazzaville est la capitale de la République du Congo.
+  - id: cap_cg_from_cap
+    question: Brazzaville est la capitale de quel pays ?
+    answer: République du Congo
+    feedback: Brazzaville est la capitale de la République du Congo 🇨🇬.
+    alternatives: [Congo, Congo-Brazzaville]
+  - id: cap_dj_to_cap
+    question: Quelle est la capitale de Djibouti 🇩🇯 ?
+    answer: Djibouti
+    feedback: Djibouti est la capitale de Djibouti.
+  - id: cap_cd_to_cap
+    question: Quelle est la capitale de la République démocratique du Congo 🇨🇩 ?
+    answer: Kinshasa
+    feedback: Kinshasa est la capitale de la République démocratique du Congo.
+  - id: cap_cd_from_cap
+    question: Kinshasa est la capitale de quel pays ?
+    answer: République démocratique du Congo
+    feedback: Kinshasa est la capitale de la République démocratique du Congo 🇨🇩.
+    alternatives: [DR Congo, RDC, Congo-Kinshasa, Congo (Rép. dém.)]
+  - id: cap_eg_to_cap
+    question: "Quelle est la capitale de l'Égypte 🇪🇬 ?"
+    answer: Le Caire
+    feedback: "Le Caire est la capitale de l'Égypte."
+    alternatives: [Cairo, Caire]
+  - id: cap_eg_from_cap
+    question: Le Caire est la capitale de quel pays ?
+    answer: Égypte
+    feedback: "Le Caire est la capitale de l'Égypte 🇪🇬."
+    alternatives: [Egypt]
+  - id: cap_gq_to_cap
+    question: Quelle est la capitale de la Guinée équatoriale 🇬🇶 ?
+    answer: Ciudad de la Paz
+    feedback: Ciudad de la Paz (province de Djibloho) est la capitale de la Guinée équatoriale depuis le décret-loi du 2 janvier 2026 ; Malabo était la capitale jusque-là.
+  - id: cap_gq_from_cap
+    question: Ciudad de la Paz est la capitale de quel pays ?
+    answer: Guinée équatoriale
+    feedback: Ciudad de la Paz (province de Djibloho) est la capitale de la Guinée équatoriale depuis le décret-loi du 2 janvier 2026 ; Malabo était la capitale jusque-là.
+    alternatives: [Equatorial Guinea]
+  - id: cap_er_to_cap
+    question: "Quelle est la capitale de l'Érythrée 🇪🇷 ?"
+    answer: Asmara
+    feedback: "Asmara est la capitale de l'Érythrée."
+  - id: cap_er_from_cap
+    question: Asmara est la capitale de quel pays ?
+    answer: Érythrée
+    feedback: "Asmara est la capitale de l'Érythrée 🇪🇷."
+    alternatives: [Eritrea]
+  - id: cap_sz_to_cap
+    question: "Quelle est la capitale de l'Eswatini 🇸🇿 ?"
+    answer: Mbabane
+    feedback: "Mbabane est la capitale administrative de l'Eswatini ; Lobamba en est la capitale législative et royale."
+    alternatives: [Lobamba]
+  - id: cap_sz_from_cap
+    question: Mbabane est la capitale de quel pays ?
+    answer: Eswatini
+    feedback: "Mbabane est la capitale administrative de l'Eswatini ; Lobamba en est la capitale législative et royale."
+    alternatives: [Swaziland]
+  - id: cap_et_to_cap
+    question: "Quelle est la capitale de l'Éthiopie 🇪🇹 ?"
+    answer: Addis-Abeba
+    feedback: "Addis-Abeba est la capitale de l'Éthiopie."
+    alternatives: [Addis Ababa]
+  - id: cap_et_from_cap
+    question: Addis-Abeba est la capitale de quel pays ?
+    answer: Éthiopie
+    feedback: "Addis-Abeba est la capitale de l'Éthiopie 🇪🇹."
+    alternatives: [Ethiopia]
+  - id: cap_ga_to_cap
+    question: Quelle est la capitale du Gabon 🇬🇦 ?
+    answer: Libreville
+    feedback: Libreville est la capitale du Gabon.
+  - id: cap_ga_from_cap
+    question: Libreville est la capitale de quel pays ?
+    answer: Gabon
+    feedback: Libreville est la capitale du Gabon 🇬🇦.
+  - id: cap_gm_to_cap
+    question: Quelle est la capitale de la Gambie 🇬🇲 ?
+    answer: Banjul
+    feedback: Banjul est la capitale de la Gambie.
+  - id: cap_gm_from_cap
+    question: Banjul est la capitale de quel pays ?
+    answer: Gambie
+    feedback: Banjul est la capitale de la Gambie 🇬🇲.
+    alternatives: [Gambia]
+  - id: cap_gh_to_cap
+    question: Quelle est la capitale du Ghana 🇬🇭 ?
+    answer: Accra
+    feedback: Accra est la capitale du Ghana.
+  - id: cap_gh_from_cap
+    question: Accra est la capitale de quel pays ?
+    answer: Ghana
+    feedback: Accra est la capitale du Ghana 🇬🇭.
+  - id: cap_gn_to_cap
+    question: Quelle est la capitale de la Guinée 🇬🇳 ?
+    answer: Conakry
+    feedback: Conakry est la capitale de la Guinée.
+  - id: cap_gn_from_cap
+    question: Conakry est la capitale de quel pays ?
+    answer: Guinée
+    feedback: Conakry est la capitale de la Guinée 🇬🇳.
+    alternatives: [Guinea]
+  - id: cap_gw_to_cap
+    question: Quelle est la capitale de la Guinée-Bissau 🇬🇼 ?
+    answer: Bissau
+    feedback: Bissau est la capitale de la Guinée-Bissau.
+  - id: cap_gw_from_cap
+    question: Bissau est la capitale de quel pays ?
+    answer: Guinée-Bissau
+    feedback: Bissau est la capitale de la Guinée-Bissau 🇬🇼.
+    alternatives: [Guinea-Bissau]
+  - id: cap_ci_to_cap
+    question: "Quelle est la capitale de la Côte d'Ivoire 🇨🇮 ?"
+    answer: Yamoussoukro
+    feedback: "Yamoussoukro est la capitale officielle de la Côte d'Ivoire ; Abidjan, capitale économique, abrite le siège effectif du gouvernement."
+    alternatives: [Abidjan]
+  - id: cap_ci_from_cap
+    question: Yamoussoukro est la capitale de quel pays ?
+    answer: "Côte d'Ivoire"
+    feedback: "Yamoussoukro est la capitale officielle de la Côte d'Ivoire ; Abidjan, capitale économique, abrite le siège effectif du gouvernement."
+    alternatives: [Ivory Coast]
+  - id: cap_ke_to_cap
+    question: Quelle est la capitale du Kenya 🇰🇪 ?
+    answer: Nairobi
+    feedback: Nairobi est la capitale du Kenya.
+  - id: cap_ke_from_cap
+    question: Nairobi est la capitale de quel pays ?
+    answer: Kenya
+    feedback: Nairobi est la capitale du Kenya 🇰🇪.
+  - id: cap_ls_to_cap
+    question: Quelle est la capitale du Lesotho 🇱🇸 ?
+    answer: Maseru
+    feedback: Maseru est la capitale du Lesotho.
+  - id: cap_ls_from_cap
+    question: Maseru est la capitale de quel pays ?
+    answer: Lesotho
+    feedback: Maseru est la capitale du Lesotho 🇱🇸.
+  - id: cap_lr_to_cap
+    question: Quelle est la capitale du Liberia 🇱🇷 ?
+    answer: Monrovia
+    feedback: Monrovia est la capitale du Liberia.
+  - id: cap_lr_from_cap
+    question: Monrovia est la capitale de quel pays ?
+    answer: Liberia
+    feedback: Monrovia est la capitale du Liberia 🇱🇷.
+  - id: cap_ly_to_cap
+    question: Quelle est la capitale de la Libye 🇱🇾 ?
+    answer: Tripoli
+    feedback: Tripoli est la capitale de la Libye.
+  - id: cap_ly_from_cap
+    question: Tripoli est la capitale de quel pays ?
+    answer: Libye
+    feedback: Tripoli est la capitale de la Libye 🇱🇾.
+    alternatives: [Libya]
+  - id: cap_mg_to_cap
+    question: Quelle est la capitale de Madagascar 🇲🇬 ?
+    answer: Antananarivo
+    feedback: Antananarivo est la capitale de Madagascar.
+  - id: cap_mg_from_cap
+    question: Antananarivo est la capitale de quel pays ?
+    answer: Madagascar
+    feedback: Antananarivo est la capitale de Madagascar 🇲🇬.
+  - id: cap_mw_to_cap
+    question: Quelle est la capitale du Malawi 🇲🇼 ?
+    answer: Lilongwe
+    feedback: Lilongwe est la capitale du Malawi.
+  - id: cap_mw_from_cap
+    question: Lilongwe est la capitale de quel pays ?
+    answer: Malawi
+    feedback: Lilongwe est la capitale du Malawi 🇲🇼.
+  - id: cap_ml_to_cap
+    question: Quelle est la capitale du Mali 🇲🇱 ?
+    answer: Bamako
+    feedback: Bamako est la capitale du Mali.
+  - id: cap_ml_from_cap
+    question: Bamako est la capitale de quel pays ?
+    answer: Mali
+    feedback: Bamako est la capitale du Mali 🇲🇱.
+  - id: cap_mr_to_cap
+    question: Quelle est la capitale de la Mauritanie 🇲🇷 ?
+    answer: Nouakchott
+    feedback: Nouakchott est la capitale de la Mauritanie.
+  - id: cap_mr_from_cap
+    question: Nouakchott est la capitale de quel pays ?
+    answer: Mauritanie
+    feedback: Nouakchott est la capitale de la Mauritanie 🇲🇷.
+    alternatives: [Mauritania]
+  - id: cap_mu_to_cap
+    question: "Quelle est la capitale de l'île Maurice 🇲🇺 ?"
+    answer: Port-Louis
+    feedback: "Port-Louis est la capitale de l'île Maurice."
+  - id: cap_mu_from_cap
+    question: Port-Louis est la capitale de quel pays ?
+    answer: Île Maurice
+    feedback: "Port-Louis est la capitale de l'île Maurice 🇲🇺."
+    alternatives: [Mauritius, Maurice]
+  - id: cap_ma_to_cap
+    question: Quelle est la capitale du Maroc 🇲🇦 ?
+    answer: Rabat
+    feedback: Rabat est la capitale du Maroc.
+  - id: cap_ma_from_cap
+    question: Rabat est la capitale de quel pays ?
+    answer: Maroc
+    feedback: Rabat est la capitale du Maroc 🇲🇦.
+    alternatives: [Morocco]
+  - id: cap_mz_to_cap
+    question: Quelle est la capitale du Mozambique 🇲🇿 ?
+    answer: Maputo
+    feedback: Maputo est la capitale du Mozambique.
+  - id: cap_mz_from_cap
+    question: Maputo est la capitale de quel pays ?
+    answer: Mozambique
+    feedback: Maputo est la capitale du Mozambique 🇲🇿.
+  - id: cap_na_to_cap
+    question: Quelle est la capitale de la Namibie 🇳🇦 ?
+    answer: Windhoek
+    feedback: Windhoek est la capitale de la Namibie.
+  - id: cap_na_from_cap
+    question: Windhoek est la capitale de quel pays ?
+    answer: Namibie
+    feedback: Windhoek est la capitale de la Namibie 🇳🇦.
+    alternatives: [Namibia]
+  - id: cap_ne_to_cap
+    question: Quelle est la capitale du Niger 🇳🇪 ?
+    answer: Niamey
+    feedback: Niamey est la capitale du Niger.
+  - id: cap_ne_from_cap
+    question: Niamey est la capitale de quel pays ?
+    answer: Niger
+    feedback: Niamey est la capitale du Niger 🇳🇪.
+  - id: cap_ng_to_cap
+    question: Quelle est la capitale du Nigéria 🇳🇬 ?
+    answer: Abuja
+    feedback: Abuja est la capitale du Nigéria.
+  - id: cap_ng_from_cap
+    question: Abuja est la capitale de quel pays ?
+    answer: Nigéria
+    feedback: Abuja est la capitale du Nigéria 🇳🇬.
+  - id: cap_rw_to_cap
+    question: Quelle est la capitale du Rwanda 🇷🇼 ?
+    answer: Kigali
+    feedback: Kigali est la capitale du Rwanda.
+  - id: cap_rw_from_cap
+    question: Kigali est la capitale de quel pays ?
+    answer: Rwanda
+    feedback: Kigali est la capitale du Rwanda 🇷🇼.
+  - id: cap_st_to_cap
+    question: Quelle est la capitale de São Tomé-et-Príncipe 🇸🇹 ?
+    answer: São Tomé
+    feedback: São Tomé est la capitale de São Tomé-et-Príncipe.
+  - id: cap_st_from_cap
+    question: São Tomé est la capitale de quel pays ?
+    answer: São Tomé-et-Príncipe
+    feedback: São Tomé est la capitale de São Tomé-et-Príncipe 🇸🇹.
+    alternatives: [São Tomé and Príncipe]
+  - id: cap_sn_to_cap
+    question: Quelle est la capitale du Sénégal 🇸🇳 ?
+    answer: Dakar
+    feedback: Dakar est la capitale du Sénégal.
+  - id: cap_sn_from_cap
+    question: Dakar est la capitale de quel pays ?
+    answer: Sénégal
+    feedback: Dakar est la capitale du Sénégal 🇸🇳.
+  - id: cap_sc_to_cap
+    question: Quelle est la capitale des Seychelles 🇸🇨 ?
+    answer: Victoria
+    feedback: Victoria est la capitale des Seychelles.
+  - id: cap_sc_from_cap
+    question: Victoria est la capitale de quel pays ?
+    answer: Seychelles
+    feedback: Victoria est la capitale des Seychelles 🇸🇨.
+  - id: cap_sl_to_cap
+    question: Quelle est la capitale de la Sierra Leone 🇸🇱 ?
+    answer: Freetown
+    feedback: Freetown est la capitale de la Sierra Leone.
+  - id: cap_sl_from_cap
+    question: Freetown est la capitale de quel pays ?
+    answer: Sierra Leone
+    feedback: Freetown est la capitale de la Sierra Leone 🇸🇱.
+  - id: cap_so_to_cap
+    question: Quelle est la capitale de la Somalie 🇸🇴 ?
+    answer: Mogadiscio
+    feedback: Mogadiscio est la capitale de la Somalie.
+    alternatives: [Mogadishu]
+  - id: cap_so_from_cap
+    question: Mogadiscio est la capitale de quel pays ?
+    answer: Somalie
+    feedback: Mogadiscio est la capitale de la Somalie 🇸🇴.
+    alternatives: [Somalia]
+  - id: cap_za_to_cap
+    question: "Quelle est la capitale de l'Afrique du Sud 🇿🇦 ?"
+    answer: Pretoria
+    feedback: "L'Afrique du Sud compte trois capitales : Pretoria (exécutive), Le Cap (législative) et Bloemfontein (judiciaire)."
+    alternatives: [Le Cap, Cape Town, Bloemfontein, Tshwane]
+  - id: cap_za_from_cap
+    question: Pretoria est la capitale de quel pays ?
+    answer: Afrique du Sud
+    feedback: "L'Afrique du Sud compte trois capitales : Pretoria (exécutive), Le Cap (législative) et Bloemfontein (judiciaire)."
+    alternatives: [South Africa]
+  - id: cap_ss_to_cap
+    question: Quelle est la capitale du Soudan du Sud 🇸🇸 ?
+    answer: Djouba
+    feedback: Djouba est la capitale du Soudan du Sud.
+    alternatives: [Juba]
+  - id: cap_ss_from_cap
+    question: Djouba est la capitale de quel pays ?
+    answer: Soudan du Sud
+    feedback: Djouba est la capitale du Soudan du Sud 🇸🇸.
+    alternatives: [South Sudan]
+  - id: cap_sd_to_cap
+    question: Quelle est la capitale du Soudan 🇸🇩 ?
+    answer: Khartoum
+    feedback: Khartoum est la capitale du Soudan.
+  - id: cap_sd_from_cap
+    question: Khartoum est la capitale de quel pays ?
+    answer: Soudan
+    feedback: Khartoum est la capitale du Soudan 🇸🇩.
+    alternatives: [Sudan]
+  - id: cap_tz_to_cap
+    question: Quelle est la capitale de la Tanzanie 🇹🇿 ?
+    answer: Dodoma
+    feedback: Dodoma est la capitale de la Tanzanie.
+  - id: cap_tz_from_cap
+    question: Dodoma est la capitale de quel pays ?
+    answer: Tanzanie
+    feedback: Dodoma est la capitale de la Tanzanie 🇹🇿.
+    alternatives: [Tanzania]
+  - id: cap_tg_to_cap
+    question: Quelle est la capitale du Togo 🇹🇬 ?
+    answer: Lomé
+    feedback: Lomé est la capitale du Togo.
+  - id: cap_tg_from_cap
+    question: Lomé est la capitale de quel pays ?
+    answer: Togo
+    feedback: Lomé est la capitale du Togo 🇹🇬.
+  - id: cap_tn_to_cap
+    question: Quelle est la capitale de la Tunisie 🇹🇳 ?
+    answer: Tunis
+    feedback: Tunis est la capitale de la Tunisie.
+  - id: cap_tn_from_cap
+    question: Tunis est la capitale de quel pays ?
+    answer: Tunisie
+    feedback: Tunis est la capitale de la Tunisie 🇹🇳.
+    alternatives: [Tunisia]
+  - id: cap_ug_to_cap
+    question: "Quelle est la capitale de l'Ouganda 🇺🇬 ?"
+    answer: Kampala
+    feedback: "Kampala est la capitale de l'Ouganda."
+  - id: cap_ug_from_cap
+    question: Kampala est la capitale de quel pays ?
+    answer: Ouganda
+    feedback: "Kampala est la capitale de l'Ouganda 🇺🇬."
+    alternatives: [Uganda]
+  - id: cap_zm_to_cap
+    question: Quelle est la capitale de la Zambie 🇿🇲 ?
+    answer: Lusaka
+    feedback: Lusaka est la capitale de la Zambie.
+  - id: cap_zm_from_cap
+    question: Lusaka est la capitale de quel pays ?
+    answer: Zambie
+    feedback: Lusaka est la capitale de la Zambie 🇿🇲.
+    alternatives: [Zambia]
+  - id: cap_zw_to_cap
+    question: Quelle est la capitale du Zimbabwe 🇿🇼 ?
+    answer: Harare
+    feedback: Harare est la capitale du Zimbabwe.
+  - id: cap_zw_from_cap
+    question: Harare est la capitale de quel pays ?
+    answer: Zimbabwe
+    feedback: Harare est la capitale du Zimbabwe 🇿🇼.

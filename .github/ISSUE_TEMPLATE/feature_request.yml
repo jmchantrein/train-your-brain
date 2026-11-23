@@ -1,0 +1,36 @@
+name: Proposer une amélioration
+description: Une idée pour rendre l'application plus utile ou plus agréable.
+title: "[Idée] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Merci pour ton idée. Elle sera discutée ici : une proposition n'est pas une promesse de réalisation.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Le besoin
+      description: Quelle difficulté rencontres-tu, ou que voudrais-tu pouvoir faire ?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Ton idée
+      description: Comment l'application pourrait y répondre.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Autres pistes
+      description: D'autres façons de répondre au besoin, ou la façon dont tu te débrouilles aujourd'hui.
+  - type: dropdown
+    id: contribute
+    attributes:
+      label: Souhaites-tu aider à la réaliser ?
+      options:
+        - Non, je propose seulement l'idée
+        - Oui, avec de l'aide
+        - Oui, je peux le faire

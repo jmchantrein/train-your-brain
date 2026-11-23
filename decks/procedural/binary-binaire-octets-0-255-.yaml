@@ -1,0 +1,215 @@
+name: Binaire - Octets (0-255)
+description: "Conversions pour les valeurs d'un octet"
+tags: [informatique, binaire, numeration, architecture-ordinateurs, premiere]
+category: [informatique, architecture-ordinateurs, premiere]
+settings:
+  sequential: false
+  bidirectional: false
+metadata:
+  license: CC-BY-SA-4.0
+  source:
+    type: procedural
+    generator: binary
+    version: 1.0.0
+    generatedAt: "2026-11-22"
+    parameters:
+      type: bytes
+cards:
+  - id: bin_byte_dec_to_bin_1
+    question: "Convertir 1 en binaire :"
+    answer: "1"
+    alternatives: ["00000001"]
+    feedback: 1₁₀ = 1₂
+  - id: bin_byte_bin_to_dec_1
+    question: "Convertir 1₂ en décimal :"
+    answer: "1"
+    feedback: 1₂ = 1₁₀
+  - id: bin_byte_dec_to_bin_2
+    question: "Convertir 2 en binaire :"
+    answer: "10"
+    alternatives: ["00000010"]
+    feedback: 2₁₀ = 10₂
+  - id: bin_byte_bin_to_dec_2
+    question: "Convertir 10₂ en décimal :"
+    answer: "2"
+    feedback: 10₂ = 2₁₀
+  - id: bin_byte_dec_to_bin_3
+    question: "Convertir 3 en binaire :"
+    answer: "11"
+    alternatives: ["00000011"]
+    feedback: 3₁₀ = 11₂
+  - id: bin_byte_bin_to_dec_3
+    question: "Convertir 11₂ en décimal :"
+    answer: "3"
+    feedback: 11₂ = 3₁₀
+  - id: bin_byte_dec_to_bin_4
+    question: "Convertir 4 en binaire :"
+    answer: "100"
+    alternatives: ["00000100"]
+    feedback: 4₁₀ = 100₂
+  - id: bin_byte_bin_to_dec_4
+    question: "Convertir 100₂ en décimal :"
+    answer: "4"
+    feedback: 100₂ = 4₁₀
+  - id: bin_byte_dec_to_bin_7
+    question: "Convertir 7 en binaire :"
+    answer: "111"
+    alternatives: ["00000111"]
+    feedback: 7₁₀ = 111₂
+  - id: bin_byte_bin_to_dec_7
+    question: "Convertir 111₂ en décimal :"
+    answer: "7"
+    feedback: 111₂ = 7₁₀
+  - id: bin_byte_dec_to_bin_8
+    question: "Convertir 8 en binaire :"
+    answer: "1000"
+    alternatives: ["00001000"]
+    feedback: 8₁₀ = 1000₂
+  - id: bin_byte_bin_to_dec_8
+    question: "Convertir 1000₂ en décimal :"
+    answer: "8"
+    feedback: 1000₂ = 8₁₀
+  - id: bin_byte_dec_to_bin_10
+    question: "Convertir 10 en binaire :"
+    answer: "1010"
+    alternatives: ["00001010"]
+    feedback: 10₁₀ = 1010₂
+  - id: bin_byte_bin_to_dec_10
+    question: "Convertir 1010₂ en décimal :"
+    answer: "10"
+    feedback: 1010₂ = 10₁₀
+  - id: bin_byte_dec_to_bin_15
+    question: "Convertir 15 en binaire :"
+    answer: "1111"
+    alternatives: ["00001111"]
+    feedback: 15₁₀ = 1111₂
+  - id: bin_byte_bin_to_dec_15
+    question: "Convertir 1111₂ en décimal :"
+    answer: "15"
+    feedback: 1111₂ = 15₁₀
+  - id: bin_byte_dec_to_bin_16
+    question: "Convertir 16 en binaire :"
+    answer: "10000"
+    alternatives: ["00010000"]
+    feedback: 16₁₀ = 10000₂
+  - id: bin_byte_bin_to_dec_16
+    question: "Convertir 10000₂ en décimal :"
+    answer: "16"
+    feedback: 10000₂ = 16₁₀
+  - id: bin_byte_dec_to_bin_31
+    question: "Convertir 31 en binaire :"
+    answer: "11111"
+    alternatives: ["00011111"]
+    feedback: 31₁₀ = 11111₂
+  - id: bin_byte_bin_to_dec_31
+    question: "Convertir 11111₂ en décimal :"
+    answer: "31"
+    feedback: 11111₂ = 31₁₀
+  - id: bin_byte_dec_to_bin_32
+    question: "Convertir 32 en binaire :"
+    answer: "100000"
+    alternatives: ["00100000"]
+    feedback: 32₁₀ = 100000₂
+  - id: bin_byte_bin_to_dec_32
+    question: "Convertir 100000₂ en décimal :"
+    answer: "32"
+    feedback: 100000₂ = 32₁₀
+  - id: bin_byte_dec_to_bin_42
+    question: "Convertir 42 en binaire :"
+    answer: "101010"
+    alternatives: ["00101010"]
+    feedback: 42₁₀ = 101010₂
+  - id: bin_byte_bin_to_dec_42
+    question: "Convertir 101010₂ en décimal :"
+    answer: "42"
+    feedback: 101010₂ = 42₁₀
+  - id: bin_byte_dec_to_bin_63
+    question: "Convertir 63 en binaire :"
+    answer: "111111"
+    alternatives: ["00111111"]
+    feedback: 63₁₀ = 111111₂
+  - id: bin_byte_bin_to_dec_63
+    question: "Convertir 111111₂ en décimal :"
+    answer: "63"
+    feedback: 111111₂ = 63₁₀
+  - id: bin_byte_dec_to_bin_64
+    question: "Convertir 64 en binaire :"
+    answer: "1000000"
+    alternatives: ["01000000"]
+    feedback: 64₁₀ = 1000000₂
+  - id: bin_byte_bin_to_dec_64
+    question: "Convertir 1000000₂ en décimal :"
+    answer: "64"
+    feedback: 1000000₂ = 64₁₀
+  - id: bin_byte_dec_to_bin_85
+    question: "Convertir 85 en binaire :"
+    answer: "1010101"
+    alternatives: ["01010101"]
+    feedback: 85₁₀ = 1010101₂
+  - id: bin_byte_bin_to_dec_85
+    question: "Convertir 1010101₂ en décimal :"
+    answer: "85"
+    feedback: 1010101₂ = 85₁₀
+  - id: bin_byte_dec_to_bin_99
+    question: "Convertir 99 en binaire :"
+    answer: "1100011"
+    alternatives: ["01100011"]
+    feedback: 99₁₀ = 1100011₂
+  - id: bin_byte_bin_to_dec_99
+    question: "Convertir 1100011₂ en décimal :"
+    answer: "99"
+    feedback: 1100011₂ = 99₁₀
+  - id: bin_byte_dec_to_bin_100
+    question: "Convertir 100 en binaire :"
+    answer: "1100100"
+    alternatives: ["01100100"]
+    feedback: 100₁₀ = 1100100₂
+  - id: bin_byte_bin_to_dec_100
+    question: "Convertir 1100100₂ en décimal :"
+    answer: "100"
+    feedback: 1100100₂ = 100₁₀
+  - id: bin_byte_dec_to_bin_127
+    question: "Convertir 127 en binaire :"
+    answer: "1111111"
+    alternatives: ["01111111"]
+    feedback: 127₁₀ = 1111111₂
+  - id: bin_byte_bin_to_dec_127
+    question: "Convertir 1111111₂ en décimal :"
+    answer: "127"
+    feedback: 1111111₂ = 127₁₀
+  - id: bin_byte_dec_to_bin_128
+    question: "Convertir 128 en binaire :"
+    answer: "10000000"
+    alternatives: ["10000000"]
+    feedback: 128₁₀ = 10000000₂
+  - id: bin_byte_bin_to_dec_128
+    question: "Convertir 10000000₂ en décimal :"
+    answer: "128"
+    feedback: 10000000₂ = 128₁₀
+  - id: bin_byte_dec_to_bin_170
+    question: "Convertir 170 en binaire :"
+    answer: "10101010"
+    alternatives: ["10101010"]
+    feedback: 170₁₀ = 10101010₂
+  - id: bin_byte_bin_to_dec_170
+    question: "Convertir 10101010₂ en décimal :"
+    answer: "170"
+    feedback: 10101010₂ = 170₁₀
+  - id: bin_byte_dec_to_bin_200
+    question: "Convertir 200 en binaire :"
+    answer: "11001000"
+    alternatives: ["11001000"]
+    feedback: 200₁₀ = 11001000₂
+  - id: bin_byte_bin_to_dec_200
+    question: "Convertir 11001000₂ en décimal :"
+    answer: "200"
+    feedback: 11001000₂ = 200₁₀
+  - id: bin_byte_dec_to_bin_255
+    question: "Convertir 255 en binaire :"
+    answer: "11111111"
+    alternatives: ["11111111"]
+    feedback: 255₁₀ = 11111111₂
+  - id: bin_byte_bin_to_dec_255
+    question: "Convertir 11111111₂ en décimal :"
+    answer: "255"
+    feedback: 11111111₂ = 255₁₀

@@ -1,0 +1,385 @@
+name: Hiragana - Base (46 caractères)
+description: Les 46 hiragana de base du syllabaire japonais
+tags: [langues, japonais, hiragana, ja-hiragana, alphabet, autodidacte]
+category: [langues, japonais, ja-hiragana, autodidacte]
+settings:
+  sequential: true
+  bidirectional: false
+metadata:
+  license: CC-BY-SA-4.0
+  source:
+    type: procedural
+    generator: japanese-kana
+    version: 1.0.0
+    generatedAt: "2026-11-22"
+    parameters:
+      type: hiragana-base
+cards:
+  - id: hira_3042_to_romaji
+    question: "Comment se lit \"あ\" ?"
+    answer: a
+    feedback: "あ se lit \"a\""
+  - id: hira_3042_from_romaji
+    question: "Écrivez \"a\" en hiragana :"
+    answer: あ
+    feedback: "\"a\" s'écrit あ en hiragana"
+  - id: hira_3044_to_romaji
+    question: "Comment se lit \"い\" ?"
+    answer: i
+    feedback: "い se lit \"i\""
+  - id: hira_3044_from_romaji
+    question: "Écrivez \"i\" en hiragana :"
+    answer: い
+    feedback: "\"i\" s'écrit い en hiragana"
+  - id: hira_3046_to_romaji
+    question: "Comment se lit \"う\" ?"
+    answer: u
+    feedback: "う se lit \"u\""
+  - id: hira_3046_from_romaji
+    question: "Écrivez \"u\" en hiragana :"
+    answer: う
+    feedback: "\"u\" s'écrit う en hiragana"
+  - id: hira_3048_to_romaji
+    question: "Comment se lit \"え\" ?"
+    answer: e
+    feedback: "え se lit \"e\""
+  - id: hira_3048_from_romaji
+    question: "Écrivez \"e\" en hiragana :"
+    answer: え
+    feedback: "\"e\" s'écrit え en hiragana"
+  - id: hira_304a_to_romaji
+    question: "Comment se lit \"お\" ?"
+    answer: o
+    feedback: "お se lit \"o\""
+  - id: hira_304a_from_romaji
+    question: "Écrivez \"o\" en hiragana :"
+    answer: お
+    feedback: "\"o\" s'écrit お en hiragana"
+  - id: hira_304b_to_romaji
+    question: "Comment se lit \"か\" ?"
+    answer: ka
+    feedback: "か se lit \"ka\""
+  - id: hira_304b_from_romaji
+    question: "Écrivez \"ka\" en hiragana :"
+    answer: か
+    feedback: "\"ka\" s'écrit か en hiragana"
+  - id: hira_304d_to_romaji
+    question: "Comment se lit \"き\" ?"
+    answer: ki
+    feedback: "き se lit \"ki\""
+  - id: hira_304d_from_romaji
+    question: "Écrivez \"ki\" en hiragana :"
+    answer: き
+    feedback: "\"ki\" s'écrit き en hiragana"
+  - id: hira_304f_to_romaji
+    question: "Comment se lit \"く\" ?"
+    answer: ku
+    feedback: "く se lit \"ku\""
+  - id: hira_304f_from_romaji
+    question: "Écrivez \"ku\" en hiragana :"
+    answer: く
+    feedback: "\"ku\" s'écrit く en hiragana"
+  - id: hira_3051_to_romaji
+    question: "Comment se lit \"け\" ?"
+    answer: ke
+    feedback: "け se lit \"ke\""
+  - id: hira_3051_from_romaji
+    question: "Écrivez \"ke\" en hiragana :"
+    answer: け
+    feedback: "\"ke\" s'écrit け en hiragana"
+  - id: hira_3053_to_romaji
+    question: "Comment se lit \"こ\" ?"
+    answer: ko
+    feedback: "こ se lit \"ko\""
+  - id: hira_3053_from_romaji
+    question: "Écrivez \"ko\" en hiragana :"
+    answer: こ
+    feedback: "\"ko\" s'écrit こ en hiragana"
+  - id: hira_3055_to_romaji
+    question: "Comment se lit \"さ\" ?"
+    answer: sa
+    feedback: "さ se lit \"sa\""
+  - id: hira_3055_from_romaji
+    question: "Écrivez \"sa\" en hiragana :"
+    answer: さ
+    feedback: "\"sa\" s'écrit さ en hiragana"
+  - id: hira_3057_to_romaji
+    question: "Comment se lit \"し\" ?"
+    answer: shi
+    feedback: "し se lit \"shi\""
+  - id: hira_3057_from_romaji
+    question: "Écrivez \"shi\" en hiragana :"
+    answer: し
+    feedback: "\"shi\" s'écrit し en hiragana"
+  - id: hira_3059_to_romaji
+    question: "Comment se lit \"す\" ?"
+    answer: su
+    feedback: "す se lit \"su\""
+  - id: hira_3059_from_romaji
+    question: "Écrivez \"su\" en hiragana :"
+    answer: す
+    feedback: "\"su\" s'écrit す en hiragana"
+  - id: hira_305b_to_romaji
+    question: "Comment se lit \"せ\" ?"
+    answer: se
+    feedback: "せ se lit \"se\""
+  - id: hira_305b_from_romaji
+    question: "Écrivez \"se\" en hiragana :"
+    answer: せ
+    feedback: "\"se\" s'écrit せ en hiragana"
+  - id: hira_305d_to_romaji
+    question: "Comment se lit \"そ\" ?"
+    answer: so
+    feedback: "そ se lit \"so\""
+  - id: hira_305d_from_romaji
+    question: "Écrivez \"so\" en hiragana :"
+    answer: そ
+    feedback: "\"so\" s'écrit そ en hiragana"
+  - id: hira_305f_to_romaji
+    question: "Comment se lit \"た\" ?"
+    answer: ta
+    feedback: "た se lit \"ta\""
+  - id: hira_305f_from_romaji
+    question: "Écrivez \"ta\" en hiragana :"
+    answer: た
+    feedback: "\"ta\" s'écrit た en hiragana"
+  - id: hira_3061_to_romaji
+    question: "Comment se lit \"ち\" ?"
+    answer: chi
+    feedback: "ち se lit \"chi\""
+  - id: hira_3061_from_romaji
+    question: "Écrivez \"chi\" en hiragana :"
+    answer: ち
+    feedback: "\"chi\" s'écrit ち en hiragana"
+  - id: hira_3064_to_romaji
+    question: "Comment se lit \"つ\" ?"
+    answer: tsu
+    feedback: "つ se lit \"tsu\""
+  - id: hira_3064_from_romaji
+    question: "Écrivez \"tsu\" en hiragana :"
+    answer: つ
+    feedback: "\"tsu\" s'écrit つ en hiragana"
+  - id: hira_3066_to_romaji
+    question: "Comment se lit \"て\" ?"
+    answer: te
+    feedback: "て se lit \"te\""
+  - id: hira_3066_from_romaji
+    question: "Écrivez \"te\" en hiragana :"
+    answer: て
+    feedback: "\"te\" s'écrit て en hiragana"
+  - id: hira_3068_to_romaji
+    question: "Comment se lit \"と\" ?"
+    answer: to
+    feedback: "と se lit \"to\""
+  - id: hira_3068_from_romaji
+    question: "Écrivez \"to\" en hiragana :"
+    answer: と
+    feedback: "\"to\" s'écrit と en hiragana"
+  - id: hira_306a_to_romaji
+    question: "Comment se lit \"な\" ?"
+    answer: na
+    feedback: "な se lit \"na\""
+  - id: hira_306a_from_romaji
+    question: "Écrivez \"na\" en hiragana :"
+    answer: な
+    feedback: "\"na\" s'écrit な en hiragana"
+  - id: hira_306b_to_romaji
+    question: "Comment se lit \"に\" ?"
+    answer: ni
+    feedback: "に se lit \"ni\""
+  - id: hira_306b_from_romaji
+    question: "Écrivez \"ni\" en hiragana :"
+    answer: に
+    feedback: "\"ni\" s'écrit に en hiragana"
+  - id: hira_306c_to_romaji
+    question: "Comment se lit \"ぬ\" ?"
+    answer: nu
+    feedback: "ぬ se lit \"nu\""
+  - id: hira_306c_from_romaji
+    question: "Écrivez \"nu\" en hiragana :"
+    answer: ぬ
+    feedback: "\"nu\" s'écrit ぬ en hiragana"
+  - id: hira_306d_to_romaji
+    question: "Comment se lit \"ね\" ?"
+    answer: ne
+    feedback: "ね se lit \"ne\""
+  - id: hira_306d_from_romaji
+    question: "Écrivez \"ne\" en hiragana :"
+    answer: ね
+    feedback: "\"ne\" s'écrit ね en hiragana"
+  - id: hira_306e_to_romaji
+    question: "Comment se lit \"の\" ?"
+    answer: "no"
+    feedback: "の se lit \"no\""
+  - id: hira_306e_from_romaji
+    question: "Écrivez \"no\" en hiragana :"
+    answer: の
+    feedback: "\"no\" s'écrit の en hiragana"
+  - id: hira_306f_to_romaji
+    question: "Comment se lit \"は\" ?"
+    answer: ha
+    feedback: "は se lit \"ha\""
+  - id: hira_306f_from_romaji
+    question: "Écrivez \"ha\" en hiragana :"
+    answer: は
+    feedback: "\"ha\" s'écrit は en hiragana"
+  - id: hira_3072_to_romaji
+    question: "Comment se lit \"ひ\" ?"
+    answer: hi
+    feedback: "ひ se lit \"hi\""
+  - id: hira_3072_from_romaji
+    question: "Écrivez \"hi\" en hiragana :"
+    answer: ひ
+    feedback: "\"hi\" s'écrit ひ en hiragana"
+  - id: hira_3075_to_romaji
+    question: "Comment se lit \"ふ\" ?"
+    answer: fu
+    feedback: "ふ se lit \"fu\""
+  - id: hira_3075_from_romaji
+    question: "Écrivez \"fu\" en hiragana :"
+    answer: ふ
+    feedback: "\"fu\" s'écrit ふ en hiragana"
+  - id: hira_3078_to_romaji
+    question: "Comment se lit \"へ\" ?"
+    answer: he
+    feedback: "へ se lit \"he\""
+  - id: hira_3078_from_romaji
+    question: "Écrivez \"he\" en hiragana :"
+    answer: へ
+    feedback: "\"he\" s'écrit へ en hiragana"
+  - id: hira_307b_to_romaji
+    question: "Comment se lit \"ほ\" ?"
+    answer: ho
+    feedback: "ほ se lit \"ho\""
+  - id: hira_307b_from_romaji
+    question: "Écrivez \"ho\" en hiragana :"
+    answer: ほ
+    feedback: "\"ho\" s'écrit ほ en hiragana"
+  - id: hira_307e_to_romaji
+    question: "Comment se lit \"ま\" ?"
+    answer: ma
+    feedback: "ま se lit \"ma\""
+  - id: hira_307e_from_romaji
+    question: "Écrivez \"ma\" en hiragana :"
+    answer: ま
+    feedback: "\"ma\" s'écrit ま en hiragana"
+  - id: hira_307f_to_romaji
+    question: "Comment se lit \"み\" ?"
+    answer: mi
+    feedback: "み se lit \"mi\""
+  - id: hira_307f_from_romaji
+    question: "Écrivez \"mi\" en hiragana :"
+    answer: み
+    feedback: "\"mi\" s'écrit み en hiragana"
+  - id: hira_3080_to_romaji
+    question: "Comment se lit \"む\" ?"
+    answer: mu
+    feedback: "む se lit \"mu\""
+  - id: hira_3080_from_romaji
+    question: "Écrivez \"mu\" en hiragana :"
+    answer: む
+    feedback: "\"mu\" s'écrit む en hiragana"
+  - id: hira_3081_to_romaji
+    question: "Comment se lit \"め\" ?"
+    answer: me
+    feedback: "め se lit \"me\""
+  - id: hira_3081_from_romaji
+    question: "Écrivez \"me\" en hiragana :"
+    answer: め
+    feedback: "\"me\" s'écrit め en hiragana"
+  - id: hira_3082_to_romaji
+    question: "Comment se lit \"も\" ?"
+    answer: mo
+    feedback: "も se lit \"mo\""
+  - id: hira_3082_from_romaji
+    question: "Écrivez \"mo\" en hiragana :"
+    answer: も
+    feedback: "\"mo\" s'écrit も en hiragana"
+  - id: hira_3084_to_romaji
+    question: "Comment se lit \"や\" ?"
+    answer: ya
+    feedback: "や se lit \"ya\""
+  - id: hira_3084_from_romaji
+    question: "Écrivez \"ya\" en hiragana :"
+    answer: や
+    feedback: "\"ya\" s'écrit や en hiragana"
+  - id: hira_3086_to_romaji
+    question: "Comment se lit \"ゆ\" ?"
+    answer: yu
+    feedback: "ゆ se lit \"yu\""
+  - id: hira_3086_from_romaji
+    question: "Écrivez \"yu\" en hiragana :"
+    answer: ゆ
+    feedback: "\"yu\" s'écrit ゆ en hiragana"
+  - id: hira_3088_to_romaji
+    question: "Comment se lit \"よ\" ?"
+    answer: yo
+    feedback: "よ se lit \"yo\""
+  - id: hira_3088_from_romaji
+    question: "Écrivez \"yo\" en hiragana :"
+    answer: よ
+    feedback: "\"yo\" s'écrit よ en hiragana"
+  - id: hira_3089_to_romaji
+    question: "Comment se lit \"ら\" ?"
+    answer: ra
+    feedback: "ら se lit \"ra\""
+  - id: hira_3089_from_romaji
+    question: "Écrivez \"ra\" en hiragana :"
+    answer: ら
+    feedback: "\"ra\" s'écrit ら en hiragana"
+  - id: hira_308a_to_romaji
+    question: "Comment se lit \"り\" ?"
+    answer: ri
+    feedback: "り se lit \"ri\""
+  - id: hira_308a_from_romaji
+    question: "Écrivez \"ri\" en hiragana :"
+    answer: り
+    feedback: "\"ri\" s'écrit り en hiragana"
+  - id: hira_308b_to_romaji
+    question: "Comment se lit \"る\" ?"
+    answer: ru
+    feedback: "る se lit \"ru\""
+  - id: hira_308b_from_romaji
+    question: "Écrivez \"ru\" en hiragana :"
+    answer: る
+    feedback: "\"ru\" s'écrit る en hiragana"
+  - id: hira_308c_to_romaji
+    question: "Comment se lit \"れ\" ?"
+    answer: re
+    feedback: "れ se lit \"re\""
+  - id: hira_308c_from_romaji
+    question: "Écrivez \"re\" en hiragana :"
+    answer: れ
+    feedback: "\"re\" s'écrit れ en hiragana"
+  - id: hira_308d_to_romaji
+    question: "Comment se lit \"ろ\" ?"
+    answer: ro
+    feedback: "ろ se lit \"ro\""
+  - id: hira_308d_from_romaji
+    question: "Écrivez \"ro\" en hiragana :"
+    answer: ろ
+    feedback: "\"ro\" s'écrit ろ en hiragana"
+  - id: hira_308f_to_romaji
+    question: "Comment se lit \"わ\" ?"
+    answer: wa
+    feedback: "わ se lit \"wa\""
+  - id: hira_308f_from_romaji
+    question: "Écrivez \"wa\" en hiragana :"
+    answer: わ
+    feedback: "\"wa\" s'écrit わ en hiragana"
+  - id: hira_3092_to_romaji
+    question: "Comment se lit \"を\" ?"
+    answer: wo
+    feedback: "を se lit \"wo\""
+  - id: hira_3092_from_romaji
+    question: "Écrivez \"wo\" en hiragana :"
+    answer: を
+    feedback: "\"wo\" s'écrit を en hiragana"
+  - id: hira_3093_to_romaji
+    question: "Comment se lit \"ん\" ?"
+    answer: "n"
+    feedback: "ん se lit \"n\""
+  - id: hira_3093_from_romaji
+    question: "Écrivez \"n\" en hiragana :"
+    answer: ん
+    feedback: "\"n\" s'écrit ん en hiragana"

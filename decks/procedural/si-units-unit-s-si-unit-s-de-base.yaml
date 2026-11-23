@@ -1,0 +1,108 @@
+name: Unités SI - Unités de base
+description: Les 7 unités de base du Système International
+tags: [sciences, sciences-physiques, physique, unites, SI, quatrieme]
+category: [sciences, sciences-physiques, physique, quatrieme]
+settings:
+  sequential: false
+  bidirectional: false
+metadata:
+  license: CC-BY-SA-4.0
+  source:
+    type: procedural
+    generator: si-units
+    version: 1.0.0
+    generatedAt: "2026-11-22"
+    parameters:
+      type: base-units
+cards:
+  - id: si_base_m_qty_to_unit
+    question: "Quelle est l'unité SI de longueur ?"
+    answer: mètre
+    alternatives: [m]
+    feedback: "L'unité SI de longueur est le mètre (m)."
+  - id: si_base_m_unit_to_sym
+    question: Quel est le symbole du mètre ?
+    answer: m
+    feedback: Le symbole du mètre est m.
+  - id: si_base_m_sym_to_qty
+    question: "Le m est l'unité de quelle grandeur ?"
+    answer: Longueur
+    feedback: Le m (mètre) mesure longueur.
+  - id: si_base_kg_qty_to_unit
+    question: "Quelle est l'unité SI de masse ?"
+    answer: kilogramme
+    alternatives: [kg]
+    feedback: "L'unité SI de masse est le kilogramme (kg)."
+  - id: si_base_kg_unit_to_sym
+    question: Quel est le symbole du kilogramme ?
+    answer: kg
+    feedback: Le symbole du kilogramme est kg.
+  - id: si_base_kg_sym_to_qty
+    question: "Le kg est l'unité de quelle grandeur ?"
+    answer: Masse
+    feedback: Le kg (kilogramme) mesure masse.
+  - id: si_base_s_qty_to_unit
+    question: "Quelle est l'unité SI de temps ?"
+    answer: seconde
+    alternatives: [s]
+    feedback: "L'unité SI de temps est la seconde (s)."
+  - id: si_base_s_unit_to_sym
+    question: Quel est le symbole de la seconde ?
+    answer: s
+    feedback: Le symbole de la seconde est s.
+  - id: si_base_s_sym_to_qty
+    question: "Le s est l'unité de quelle grandeur ?"
+    answer: Temps
+    feedback: Le s (seconde) mesure temps.
+  - id: si_base_A_qty_to_unit
+    question: "Quelle est l'unité SI de courant électrique ?"
+    answer: ampère
+    alternatives: [A]
+    feedback: "L'unité SI de courant électrique est l'ampère (A)."
+  - id: si_base_A_unit_to_sym
+    question: "Quel est le symbole de l'ampère ?"
+    answer: A
+    feedback: "Le symbole de l'ampère est A."
+  - id: si_base_A_sym_to_qty
+    question: "Le A est l'unité de quelle grandeur ?"
+    answer: Courant électrique
+    feedback: Le A (ampère) mesure courant électrique.
+  - id: si_base_K_qty_to_unit
+    question: "Quelle est l'unité SI de température ?"
+    answer: kelvin
+    alternatives: [K]
+    feedback: "L'unité SI de température est le kelvin (K)."
+  - id: si_base_K_unit_to_sym
+    question: Quel est le symbole du kelvin ?
+    answer: K
+    feedback: Le symbole du kelvin est K.
+  - id: si_base_K_sym_to_qty
+    question: "Le K est l'unité de quelle grandeur ?"
+    answer: Température
+    feedback: Le K (kelvin) mesure température.
+  - id: si_base_mol_qty_to_unit
+    question: "Quelle est l'unité SI de quantité de matière ?"
+    answer: mole
+    alternatives: [mol]
+    feedback: "L'unité SI de quantité de matière est la mole (mol)."
+  - id: si_base_mol_unit_to_sym
+    question: Quel est le symbole de la mole ?
+    answer: mol
+    feedback: Le symbole de la mole est mol.
+  - id: si_base_mol_sym_to_qty
+    question: "Le mol est l'unité de quelle grandeur ?"
+    answer: Quantité de matière
+    feedback: Le mol (mole) mesure quantité de matière.
+  - id: si_base_cd_qty_to_unit
+    question: "Quelle est l'unité SI d'intensité lumineuse ?"
+    answer: candela
+    alternatives: [cd]
+    feedback: "L'unité SI d'intensité lumineuse est la candela (cd)."
+  - id: si_base_cd_unit_to_sym
+    question: Quel est le symbole de la candela ?
+    answer: cd
+    feedback: Le symbole de la candela est cd.
+  - id: si_base_cd_sym_to_qty
+    question: "Le cd est l'unité de quelle grandeur ?"
+    answer: Intensité lumineuse
+    feedback: Le cd (candela) mesure intensité lumineuse.

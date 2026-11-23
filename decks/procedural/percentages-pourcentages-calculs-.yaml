@@ -1,0 +1,300 @@
+name: Pourcentages (calculs)
+description: Calculer X% de N
+tags: [math, pourcentages, calcul-mental, cm2, sixieme]
+category: [sciences, maths, arithmetique, pourcentages, calcul-mental, cm2, sixieme]
+settings:
+  sequential: false
+  bidirectional: false
+  maxCards: 20
+metadata:
+  license: CC-BY-SA-4.0
+  source:
+    type: procedural
+    generator: percentages
+    version: 1.0.0
+    generatedAt: "2026-11-22"
+    parameters:
+      type: simple-percentages
+resources:
+  - type: summary
+    title: "Qu'est-ce qu'un pourcentage ?"
+    content: "Un **pourcentage** exprime une proportion sur 100.\n\n**25%** signifie \"25 pour 100\" ou \"25 centièmes\" ou encore ¼.\n\nLes pourcentages sont partout :\n- Soldes et réductions (-20%)\n- TVA et taxes (+20%)\n- Statistiques et sondages\n- Notes et résultats\n\nFormule : X% de N = (X × N) / 100"
+    aiGenerated: true
+    icon: 📝
+  - type: link
+    title: "Wikipedia : Pourcentage"
+    url: https://fr.wikipedia.org/wiki/Pourcentage
+    icon: 📖
+  - type: glossary
+    title: Vocabulaire clé
+    content: "- **Pourcentage** : Proportion exprimée sur 100\n- **Pour cent** : Division par 100 (le symbole %)\n- **Taux** : Pourcentage utilisé pour calculs\n- **Remise** : Réduction en pourcentage\n- **Augmentation** : Ajout d'un pourcentage"
+    icon: 📚
+  - type: objective
+    title: "Objectifs d'apprentissage"
+    content: "- ✅ Calculer X% de N mentalement\n- ✅ Connaître les pourcentages courants\n- ✅ Appliquer les techniques de calcul rapide"
+    icon: 🎯
+  - type: tip
+    title: Astuces de calcul
+    content: "Techniques pour calculer rapidement :\n\n• 10% = diviser par 10\n• 50% = diviser par 2 (la moitié)\n• 25% = diviser par 4 (le quart)\n• 1% = diviser par 100\n\nCombinez : 15% = 10% + 5% (moitié de 10%)"
+    icon: 💡
+cards:
+  - id: pct_of100_10
+    question: 10% de 100 = ?
+    answer: "10"
+    feedback: 10% de 100 = 10
+  - id: pct_of100_20
+    question: 20% de 100 = ?
+    answer: "20"
+    feedback: 20% de 100 = 20
+  - id: pct_of100_25
+    question: 25% de 100 = ?
+    answer: "25"
+    feedback: 25% de 100 = 25
+  - id: pct_of100_30
+    question: 30% de 100 = ?
+    answer: "30"
+    feedback: 30% de 100 = 30
+  - id: pct_of100_40
+    question: 40% de 100 = ?
+    answer: "40"
+    feedback: 40% de 100 = 40
+  - id: pct_of100_50
+    question: 50% de 100 = ?
+    answer: "50"
+    feedback: 50% de 100 = 50
+  - id: pct_of100_60
+    question: 60% de 100 = ?
+    answer: "60"
+    feedback: 60% de 100 = 60
+  - id: pct_of100_70
+    question: 70% de 100 = ?
+    answer: "70"
+    feedback: 70% de 100 = 70
+  - id: pct_of100_75
+    question: 75% de 100 = ?
+    answer: "75"
+    feedback: 75% de 100 = 75
+  - id: pct_of100_80
+    question: 80% de 100 = ?
+    answer: "80"
+    feedback: 80% de 100 = 80
+  - id: pct_of100_90
+    question: 90% de 100 = ?
+    answer: "90"
+    feedback: 90% de 100 = 90
+  - id: pct_of100_100
+    question: 100% de 100 = ?
+    answer: "100"
+    feedback: 100% de 100 = 100
+  - id: pct_of100_5
+    question: 5% de 100 = ?
+    answer: "5"
+    feedback: 5% de 100 = 5
+  - id: pct_of100_15
+    question: 15% de 100 = ?
+    answer: "15"
+    feedback: 15% de 100 = 15
+  - id: pct_of100_33
+    question: 33% de 100 = ?
+    answer: "33"
+    feedback: 33% de 100 = 33
+  - id: pct_10_of_200
+    question: 10% de 200 = ?
+    answer: "20"
+    feedback: 10% de 200 = 20
+  - id: pct_20_of_200
+    question: 20% de 200 = ?
+    answer: "40"
+    feedback: 20% de 200 = 40
+  - id: pct_25_of_200
+    question: 25% de 200 = ?
+    answer: "50"
+    feedback: 25% de 200 = 50
+  - id: pct_50_of_200
+    question: 50% de 200 = ?
+    answer: "100"
+    feedback: 50% de 200 = 100
+  - id: pct_75_of_200
+    question: 75% de 200 = ?
+    answer: "150"
+    feedback: 75% de 200 = 150
+  - id: pct_100_of_200
+    question: 100% de 200 = ?
+    answer: "200"
+    feedback: 100% de 200 = 200
+  - id: pct_10_of_50
+    question: 10% de 50 = ?
+    answer: "5"
+    feedback: 10% de 50 = 5
+  - id: pct_20_of_50
+    question: 20% de 50 = ?
+    answer: "10"
+    feedback: 20% de 50 = 10
+  - id: pct_50_of_50
+    question: 50% de 50 = ?
+    answer: "25"
+    feedback: 50% de 50 = 25
+  - id: pct_100_of_50
+    question: 100% de 50 = ?
+    answer: "50"
+    feedback: 100% de 50 = 50
+  - id: pct_10_of_80
+    question: 10% de 80 = ?
+    answer: "8"
+    feedback: 10% de 80 = 8
+  - id: pct_20_of_80
+    question: 20% de 80 = ?
+    answer: "16"
+    feedback: 20% de 80 = 16
+  - id: pct_25_of_80
+    question: 25% de 80 = ?
+    answer: "20"
+    feedback: 25% de 80 = 20
+  - id: pct_50_of_80
+    question: 50% de 80 = ?
+    answer: "40"
+    feedback: 50% de 80 = 40
+  - id: pct_75_of_80
+    question: 75% de 80 = ?
+    answer: "60"
+    feedback: 75% de 80 = 60
+  - id: pct_100_of_80
+    question: 100% de 80 = ?
+    answer: "80"
+    feedback: 100% de 80 = 80
+  - id: pct_10_of_40
+    question: 10% de 40 = ?
+    answer: "4"
+    feedback: 10% de 40 = 4
+  - id: pct_20_of_40
+    question: 20% de 40 = ?
+    answer: "8"
+    feedback: 20% de 40 = 8
+  - id: pct_25_of_40
+    question: 25% de 40 = ?
+    answer: "10"
+    feedback: 25% de 40 = 10
+  - id: pct_50_of_40
+    question: 50% de 40 = ?
+    answer: "20"
+    feedback: 50% de 40 = 20
+  - id: pct_75_of_40
+    question: 75% de 40 = ?
+    answer: "30"
+    feedback: 75% de 40 = 30
+  - id: pct_100_of_40
+    question: 100% de 40 = ?
+    answer: "40"
+    feedback: 100% de 40 = 40
+  - id: pct_10_of_60
+    question: 10% de 60 = ?
+    answer: "6"
+    feedback: 10% de 60 = 6
+  - id: pct_20_of_60
+    question: 20% de 60 = ?
+    answer: "12"
+    feedback: 20% de 60 = 12
+  - id: pct_25_of_60
+    question: 25% de 60 = ?
+    answer: "15"
+    feedback: 25% de 60 = 15
+  - id: pct_50_of_60
+    question: 50% de 60 = ?
+    answer: "30"
+    feedback: 50% de 60 = 30
+  - id: pct_75_of_60
+    question: 75% de 60 = ?
+    answer: "45"
+    feedback: 75% de 60 = 45
+  - id: pct_100_of_60
+    question: 100% de 60 = ?
+    answer: "60"
+    feedback: 100% de 60 = 60
+  - id: pct_10_of_120
+    question: 10% de 120 = ?
+    answer: "12"
+    feedback: 10% de 120 = 12
+  - id: pct_20_of_120
+    question: 20% de 120 = ?
+    answer: "24"
+    feedback: 20% de 120 = 24
+  - id: pct_25_of_120
+    question: 25% de 120 = ?
+    answer: "30"
+    feedback: 25% de 120 = 30
+  - id: pct_50_of_120
+    question: 50% de 120 = ?
+    answer: "60"
+    feedback: 50% de 120 = 60
+  - id: pct_75_of_120
+    question: 75% de 120 = ?
+    answer: "90"
+    feedback: 75% de 120 = 90
+  - id: pct_100_of_120
+    question: 100% de 120 = ?
+    answer: "120"
+    feedback: 100% de 120 = 120
+  - id: pct_10_of_150
+    question: 10% de 150 = ?
+    answer: "15"
+    feedback: 10% de 150 = 15
+  - id: pct_20_of_150
+    question: 20% de 150 = ?
+    answer: "30"
+    feedback: 20% de 150 = 30
+  - id: pct_50_of_150
+    question: 50% de 150 = ?
+    answer: "75"
+    feedback: 50% de 150 = 75
+  - id: pct_100_of_150
+    question: 100% de 150 = ?
+    answer: "150"
+    feedback: 100% de 150 = 150
+  - id: pct_10_of_500
+    question: 10% de 500 = ?
+    answer: "50"
+    feedback: 10% de 500 = 50
+  - id: pct_20_of_500
+    question: 20% de 500 = ?
+    answer: "100"
+    feedback: 20% de 500 = 100
+  - id: pct_25_of_500
+    question: 25% de 500 = ?
+    answer: "125"
+    feedback: 25% de 500 = 125
+  - id: pct_50_of_500
+    question: 50% de 500 = ?
+    answer: "250"
+    feedback: 50% de 500 = 250
+  - id: pct_75_of_500
+    question: 75% de 500 = ?
+    answer: "375"
+    feedback: 75% de 500 = 375
+  - id: pct_100_of_500
+    question: 100% de 500 = ?
+    answer: "500"
+    feedback: 100% de 500 = 500
+  - id: pct_10_of_1000
+    question: 10% de 1000 = ?
+    answer: "100"
+    feedback: 10% de 1000 = 100
+  - id: pct_20_of_1000
+    question: 20% de 1000 = ?
+    answer: "200"
+    feedback: 20% de 1000 = 200
+  - id: pct_25_of_1000
+    question: 25% de 1000 = ?
+    answer: "250"
+    feedback: 25% de 1000 = 250
+  - id: pct_50_of_1000
+    question: 50% de 1000 = ?
+    answer: "500"
+    feedback: 50% de 1000 = 500
+  - id: pct_75_of_1000
+    question: 75% de 1000 = ?
+    answer: "750"
+    feedback: 75% de 1000 = 750
+  - id: pct_100_of_1000
+    question: 100% de 1000 = ?
+    answer: "1000"
+    feedback: 100% de 1000 = 1000

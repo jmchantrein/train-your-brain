@@ -1,0 +1,217 @@
+name: Hiragana - Dakuten (25 caractères)
+description: Hiragana avec dakuten (゛) et handakuten (゜)
+tags: [langues, japonais, hiragana, ja-hiragana, alphabet, autodidacte]
+category: [langues, japonais, ja-hiragana, autodidacte]
+settings:
+  sequential: true
+  bidirectional: false
+metadata:
+  license: CC-BY-SA-4.0
+  source:
+    type: procedural
+    generator: japanese-kana
+    version: 1.0.0
+    generatedAt: "2026-11-22"
+    parameters:
+      type: hiragana-dakuten
+cards:
+  - id: hira_304c_to_romaji
+    question: "Comment se lit \"が\" ?"
+    answer: ga
+    feedback: "が se lit \"ga\""
+  - id: hira_304c_from_romaji
+    question: "Écrivez \"ga\" en hiragana :"
+    answer: が
+    feedback: "\"ga\" s'écrit が en hiragana"
+  - id: hira_304e_to_romaji
+    question: "Comment se lit \"ぎ\" ?"
+    answer: gi
+    feedback: "ぎ se lit \"gi\""
+  - id: hira_304e_from_romaji
+    question: "Écrivez \"gi\" en hiragana :"
+    answer: ぎ
+    feedback: "\"gi\" s'écrit ぎ en hiragana"
+  - id: hira_3050_to_romaji
+    question: "Comment se lit \"ぐ\" ?"
+    answer: gu
+    feedback: "ぐ se lit \"gu\""
+  - id: hira_3050_from_romaji
+    question: "Écrivez \"gu\" en hiragana :"
+    answer: ぐ
+    feedback: "\"gu\" s'écrit ぐ en hiragana"
+  - id: hira_3052_to_romaji
+    question: "Comment se lit \"げ\" ?"
+    answer: ge
+    feedback: "げ se lit \"ge\""
+  - id: hira_3052_from_romaji
+    question: "Écrivez \"ge\" en hiragana :"
+    answer: げ
+    feedback: "\"ge\" s'écrit げ en hiragana"
+  - id: hira_3054_to_romaji
+    question: "Comment se lit \"ご\" ?"
+    answer: go
+    feedback: "ご se lit \"go\""
+  - id: hira_3054_from_romaji
+    question: "Écrivez \"go\" en hiragana :"
+    answer: ご
+    feedback: "\"go\" s'écrit ご en hiragana"
+  - id: hira_3056_to_romaji
+    question: "Comment se lit \"ざ\" ?"
+    answer: za
+    feedback: "ざ se lit \"za\""
+  - id: hira_3056_from_romaji
+    question: "Écrivez \"za\" en hiragana :"
+    answer: ざ
+    feedback: "\"za\" s'écrit ざ en hiragana"
+  - id: hira_3058_to_romaji
+    question: "Comment se lit \"じ\" ?"
+    answer: ji
+    feedback: "じ se lit \"ji\""
+  - id: hira_3058_from_romaji
+    question: "Écrivez \"ji\" en hiragana, ligne Z (ざ, ぜ, ぞ) :"
+    answer: じ
+    feedback: "\"ji\" s'écrit じ en hiragana (ligne Z (ざ, ぜ, ぞ))"
+  - id: hira_305a_to_romaji
+    question: "Comment se lit \"ず\" ?"
+    answer: zu
+    feedback: "ず se lit \"zu\""
+  - id: hira_305a_from_romaji
+    question: "Écrivez \"zu\" en hiragana, ligne Z (ざ, ぜ, ぞ) :"
+    answer: ず
+    feedback: "\"zu\" s'écrit ず en hiragana (ligne Z (ざ, ぜ, ぞ))"
+  - id: hira_305c_to_romaji
+    question: "Comment se lit \"ぜ\" ?"
+    answer: ze
+    feedback: "ぜ se lit \"ze\""
+  - id: hira_305c_from_romaji
+    question: "Écrivez \"ze\" en hiragana :"
+    answer: ぜ
+    feedback: "\"ze\" s'écrit ぜ en hiragana"
+  - id: hira_305e_to_romaji
+    question: "Comment se lit \"ぞ\" ?"
+    answer: zo
+    feedback: "ぞ se lit \"zo\""
+  - id: hira_305e_from_romaji
+    question: "Écrivez \"zo\" en hiragana :"
+    answer: ぞ
+    feedback: "\"zo\" s'écrit ぞ en hiragana"
+  - id: hira_3060_to_romaji
+    question: "Comment se lit \"だ\" ?"
+    answer: da
+    feedback: "だ se lit \"da\""
+  - id: hira_3060_from_romaji
+    question: "Écrivez \"da\" en hiragana :"
+    answer: だ
+    feedback: "\"da\" s'écrit だ en hiragana"
+  - id: hira_3062_to_romaji
+    question: "Comment se lit \"ぢ\" ?"
+    answer: ji
+    feedback: "ぢ se lit \"ji\""
+  - id: hira_3062_from_romaji
+    question: "Écrivez \"ji\" en hiragana, ligne D (だ, で, ど) :"
+    answer: ぢ
+    feedback: "\"ji\" s'écrit ぢ en hiragana (ligne D (だ, で, ど))"
+  - id: hira_3065_to_romaji
+    question: "Comment se lit \"づ\" ?"
+    answer: zu
+    feedback: "づ se lit \"zu\""
+  - id: hira_3065_from_romaji
+    question: "Écrivez \"zu\" en hiragana, ligne D (だ, で, ど) :"
+    answer: づ
+    feedback: "\"zu\" s'écrit づ en hiragana (ligne D (だ, で, ど))"
+  - id: hira_3067_to_romaji
+    question: "Comment se lit \"で\" ?"
+    answer: de
+    feedback: "で se lit \"de\""
+  - id: hira_3067_from_romaji
+    question: "Écrivez \"de\" en hiragana :"
+    answer: で
+    feedback: "\"de\" s'écrit で en hiragana"
+  - id: hira_3069_to_romaji
+    question: "Comment se lit \"ど\" ?"
+    answer: do
+    feedback: "ど se lit \"do\""
+  - id: hira_3069_from_romaji
+    question: "Écrivez \"do\" en hiragana :"
+    answer: ど
+    feedback: "\"do\" s'écrit ど en hiragana"
+  - id: hira_3070_to_romaji
+    question: "Comment se lit \"ば\" ?"
+    answer: ba
+    feedback: "ば se lit \"ba\""
+  - id: hira_3070_from_romaji
+    question: "Écrivez \"ba\" en hiragana :"
+    answer: ば
+    feedback: "\"ba\" s'écrit ば en hiragana"
+  - id: hira_3073_to_romaji
+    question: "Comment se lit \"び\" ?"
+    answer: bi
+    feedback: "び se lit \"bi\""
+  - id: hira_3073_from_romaji
+    question: "Écrivez \"bi\" en hiragana :"
+    answer: び
+    feedback: "\"bi\" s'écrit び en hiragana"
+  - id: hira_3076_to_romaji
+    question: "Comment se lit \"ぶ\" ?"
+    answer: bu
+    feedback: "ぶ se lit \"bu\""
+  - id: hira_3076_from_romaji
+    question: "Écrivez \"bu\" en hiragana :"
+    answer: ぶ
+    feedback: "\"bu\" s'écrit ぶ en hiragana"
+  - id: hira_3079_to_romaji
+    question: "Comment se lit \"べ\" ?"
+    answer: be
+    feedback: "べ se lit \"be\""
+  - id: hira_3079_from_romaji
+    question: "Écrivez \"be\" en hiragana :"
+    answer: べ
+    feedback: "\"be\" s'écrit べ en hiragana"
+  - id: hira_307c_to_romaji
+    question: "Comment se lit \"ぼ\" ?"
+    answer: bo
+    feedback: "ぼ se lit \"bo\""
+  - id: hira_307c_from_romaji
+    question: "Écrivez \"bo\" en hiragana :"
+    answer: ぼ
+    feedback: "\"bo\" s'écrit ぼ en hiragana"
+  - id: hira_3071_to_romaji
+    question: "Comment se lit \"ぱ\" ?"
+    answer: pa
+    feedback: "ぱ se lit \"pa\""
+  - id: hira_3071_from_romaji
+    question: "Écrivez \"pa\" en hiragana :"
+    answer: ぱ
+    feedback: "\"pa\" s'écrit ぱ en hiragana"
+  - id: hira_3074_to_romaji
+    question: "Comment se lit \"ぴ\" ?"
+    answer: pi
+    feedback: "ぴ se lit \"pi\""
+  - id: hira_3074_from_romaji
+    question: "Écrivez \"pi\" en hiragana :"
+    answer: ぴ
+    feedback: "\"pi\" s'écrit ぴ en hiragana"
+  - id: hira_3077_to_romaji
+    question: "Comment se lit \"ぷ\" ?"
+    answer: pu
+    feedback: "ぷ se lit \"pu\""
+  - id: hira_3077_from_romaji
+    question: "Écrivez \"pu\" en hiragana :"
+    answer: ぷ
+    feedback: "\"pu\" s'écrit ぷ en hiragana"
+  - id: hira_307a_to_romaji
+    question: "Comment se lit \"ぺ\" ?"
+    answer: pe
+    feedback: "ぺ se lit \"pe\""
+  - id: hira_307a_from_romaji
+    question: "Écrivez \"pe\" en hiragana :"
+    answer: ぺ
+    feedback: "\"pe\" s'écrit ぺ en hiragana"
+  - id: hira_307d_to_romaji
+    question: "Comment se lit \"ぽ\" ?"
+    answer: po
+    feedback: "ぽ se lit \"po\""
+  - id: hira_307d_from_romaji
+    question: "Écrivez \"po\" en hiragana :"
+    answer: ぽ
+    feedback: "\"po\" s'écrit ぽ en hiragana"

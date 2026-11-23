@@ -1,0 +1,87 @@
+name: Musique - Armures
+description: Armures et tonalités majeures
+tags: [musique, solfege, armures, tonalites, autodidacte]
+category: [musique, solfege, armures, tonalites, autodidacte]
+settings:
+  sequential: false
+  bidirectional: false
+metadata:
+  license: CC-BY-SA-4.0
+  source:
+    type: procedural
+    generator: notes-intervals
+    version: 1.0.0
+    generatedAt: "2026-11-22"
+    parameters:
+      type: key-signatures
+cards:
+  - id: key_sharp_order
+    question: "Dans quel ordre apparaissent les dièses à l'armure ?"
+    answer: "fa, do, sol, ré, la, mi, si"
+    alternatives: [fa do sol ré la mi si, fa do sol ré la mi si]
+    feedback: "Ordre des dièses : Fa Do Sol Ré La Mi Si"
+  - id: key_flat_order
+    question: "Dans quel ordre apparaissent les bémols à l'armure ?"
+    answer: "si, mi, la, ré, sol, do, fa"
+    alternatives: [si mi la ré sol do fa, si mi la ré sol do fa]
+    feedback: "Ordre des bémols : Si Mi La Ré Sol Do Fa (inverse des dièses)"
+  - id: key_sharps_1
+    question: Quelle tonalité majeure a 1 dièse(s) ?
+    answer: Sol majeur
+    alternatives: [G major]
+    feedback: 1 dièse(s) = Sol majeur (G major)
+  - id: key_sharps_2
+    question: Quelle tonalité majeure a 2 dièse(s) ?
+    answer: Ré majeur
+    alternatives: [D major]
+    feedback: 2 dièse(s) = Ré majeur (D major)
+  - id: key_sharps_3
+    question: Quelle tonalité majeure a 3 dièse(s) ?
+    answer: La majeur
+    alternatives: [A major]
+    feedback: 3 dièse(s) = La majeur (A major)
+  - id: key_sharps_4
+    question: Quelle tonalité majeure a 4 dièse(s) ?
+    answer: Mi majeur
+    alternatives: [E major]
+    feedback: 4 dièse(s) = Mi majeur (E major)
+  - id: key_sharps_5
+    question: Quelle tonalité majeure a 5 dièse(s) ?
+    answer: Si majeur
+    alternatives: [B major]
+    feedback: 5 dièse(s) = Si majeur (B major)
+  - id: key_sharps_6
+    question: Quelle tonalité majeure a 6 dièse(s) ?
+    answer: Fa# majeur
+    alternatives: [F# major]
+    feedback: 6 dièse(s) = Fa# majeur (F# major)
+  - id: key_flats_1
+    question: Quelle tonalité majeure a 1 bémol(s) ?
+    answer: Fa majeur
+    alternatives: [F major]
+    feedback: 1 bémol(s) = Fa majeur (F major)
+  - id: key_flats_2
+    question: Quelle tonalité majeure a 2 bémol(s) ?
+    answer: Si♭ majeur
+    alternatives: [Bb major]
+    feedback: 2 bémol(s) = Si♭ majeur (Bb major)
+  - id: key_flats_3
+    question: Quelle tonalité majeure a 3 bémol(s) ?
+    answer: Mi♭ majeur
+    alternatives: [Eb major]
+    feedback: 3 bémol(s) = Mi♭ majeur (Eb major)
+  - id: key_flats_4
+    question: Quelle tonalité majeure a 4 bémol(s) ?
+    answer: La♭ majeur
+    alternatives: [Ab major]
+    feedback: 4 bémol(s) = La♭ majeur (Ab major)
+  - id: key_flats_5
+    question: Quelle tonalité majeure a 5 bémol(s) ?
+    answer: Ré♭ majeur
+    alternatives: [Db major]
+    feedback: 5 bémol(s) = Ré♭ majeur (Db major)
+  - id: key_flats_6
+    question: Quelle tonalité majeure a 6 bémol(s) ?
+    answer: Sol♭ majeur
+    alternatives: [Gb major]
+    feedback: 6 bémol(s) = Sol♭ majeur (Gb major)

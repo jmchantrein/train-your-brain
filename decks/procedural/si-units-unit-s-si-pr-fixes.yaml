@@ -1,0 +1,161 @@
+name: Unités SI - Préfixes
+description: "Préfixes multiplicateurs du SI (kilo, méga, milli, etc.)"
+tags: [sciences, sciences-physiques, physique, unites, SI, cinquieme]
+category: [sciences, sciences-physiques, physique, cinquieme]
+settings:
+  sequential: false
+  bidirectional: false
+metadata:
+  license: CC-BY-SA-4.0
+  source:
+    type: procedural
+    generator: si-units
+    version: 1.0.0
+    generatedAt: "2026-11-22"
+    parameters:
+      type: prefixes
+cards:
+  - id: si_prefix_T_to_power
+    question: "Le préfixe \"téra\" correspond à 10 puissance combien ?"
+    answer: "12"
+    feedback: téra (T) = 10^12
+  - id: si_prefix_T_sym_to_name
+    question: "Quel préfixe correspond au symbole \"T\" ?"
+    answer: téra
+    feedback: T = téra = 10^12
+  - id: si_prefix_T_name_to_sym
+    question: "Quel est le symbole du préfixe \"téra\" ?"
+    answer: T
+    feedback: téra → T = 10^12
+  - id: si_prefix_G_to_power
+    question: "Le préfixe \"giga\" correspond à 10 puissance combien ?"
+    answer: "9"
+    feedback: giga (G) = 10^9
+  - id: si_prefix_G_sym_to_name
+    question: "Quel préfixe correspond au symbole \"G\" ?"
+    answer: giga
+    feedback: G = giga = 10^9
+  - id: si_prefix_G_name_to_sym
+    question: "Quel est le symbole du préfixe \"giga\" ?"
+    answer: G
+    feedback: giga → G = 10^9
+  - id: si_prefix_M_to_power
+    question: "Le préfixe \"méga\" correspond à 10 puissance combien ?"
+    answer: "6"
+    feedback: méga (M) = 10^6
+  - id: si_prefix_M_sym_to_name
+    question: "Quel préfixe correspond au symbole \"M\" (majuscule) ?"
+    answer: méga
+    feedback: M = méga = 10^6
+  - id: si_prefix_M_name_to_sym
+    question: "Quel est le symbole du préfixe \"méga\" (respecter la casse) ?"
+    answer: M
+    feedback: méga → M = 10^6
+  - id: si_prefix_k_to_power
+    question: "Le préfixe \"kilo\" correspond à 10 puissance combien ?"
+    answer: "3"
+    feedback: kilo (k) = 10^3
+  - id: si_prefix_k_sym_to_name
+    question: "Quel préfixe correspond au symbole \"k\" ?"
+    answer: kilo
+    feedback: k = kilo = 10^3
+  - id: si_prefix_k_name_to_sym
+    question: "Quel est le symbole du préfixe \"kilo\" ?"
+    answer: k
+    feedback: kilo → k = 10^3
+  - id: si_prefix_h_to_power
+    question: "Le préfixe \"hecto\" correspond à 10 puissance combien ?"
+    answer: "2"
+    feedback: hecto (h) = 10^2
+  - id: si_prefix_h_sym_to_name
+    question: "Quel préfixe correspond au symbole \"h\" ?"
+    answer: hecto
+    feedback: h = hecto = 10^2
+  - id: si_prefix_h_name_to_sym
+    question: "Quel est le symbole du préfixe \"hecto\" ?"
+    answer: h
+    feedback: hecto → h = 10^2
+  - id: si_prefix_da_to_power
+    question: "Le préfixe \"déca\" correspond à 10 puissance combien ?"
+    answer: "1"
+    feedback: déca (da) = 10^1
+  - id: si_prefix_da_sym_to_name
+    question: "Quel préfixe correspond au symbole \"da\" ?"
+    answer: déca
+    feedback: da = déca = 10^1
+  - id: si_prefix_da_name_to_sym
+    question: "Quel est le symbole du préfixe \"déca\" ?"
+    answer: da
+    feedback: déca → da = 10^1
+  - id: si_prefix_d_to_power
+    question: "Le préfixe \"déci\" correspond à 10 puissance combien ?"
+    answer: "-1"
+    feedback: déci (d) = 10^-1
+  - id: si_prefix_d_sym_to_name
+    question: "Quel préfixe correspond au symbole \"d\" ?"
+    answer: déci
+    feedback: d = déci = 10^-1
+  - id: si_prefix_d_name_to_sym
+    question: "Quel est le symbole du préfixe \"déci\" ?"
+    answer: d
+    feedback: déci → d = 10^-1
+  - id: si_prefix_c_to_power
+    question: "Le préfixe \"centi\" correspond à 10 puissance combien ?"
+    answer: "-2"
+    feedback: centi (c) = 10^-2
+  - id: si_prefix_c_sym_to_name
+    question: "Quel préfixe correspond au symbole \"c\" ?"
+    answer: centi
+    feedback: c = centi = 10^-2
+  - id: si_prefix_c_name_to_sym
+    question: "Quel est le symbole du préfixe \"centi\" ?"
+    answer: c
+    feedback: centi → c = 10^-2
+  - id: si_prefix_m_to_power
+    question: "Le préfixe \"milli\" correspond à 10 puissance combien ?"
+    answer: "-3"
+    feedback: milli (m) = 10^-3
+  - id: si_prefix_m_sym_to_name
+    question: "Quel préfixe correspond au symbole \"m\" (minuscule) ?"
+    answer: milli
+    feedback: m = milli = 10^-3
+  - id: si_prefix_m_name_to_sym
+    question: "Quel est le symbole du préfixe \"milli\" (respecter la casse) ?"
+    answer: m
+    feedback: milli → m = 10^-3
+  - id: si_prefix_μ_to_power
+    question: "Le préfixe \"micro\" correspond à 10 puissance combien ?"
+    answer: "-6"
+    feedback: micro (μ) = 10^-6
+  - id: si_prefix_μ_sym_to_name
+    question: "Quel préfixe correspond au symbole \"μ\" ?"
+    answer: micro
+    feedback: μ = micro = 10^-6
+  - id: si_prefix_μ_name_to_sym
+    question: "Quel est le symbole du préfixe \"micro\" ?"
+    answer: μ
+    feedback: micro → μ = 10^-6
+  - id: si_prefix_n_to_power
+    question: "Le préfixe \"nano\" correspond à 10 puissance combien ?"
+    answer: "-9"
+    feedback: nano (n) = 10^-9
+  - id: si_prefix_n_sym_to_name
+    question: "Quel préfixe correspond au symbole \"n\" ?"
+    answer: nano
+    feedback: n = nano = 10^-9
+  - id: si_prefix_n_name_to_sym
+    question: "Quel est le symbole du préfixe \"nano\" ?"
+    answer: "n"
+    feedback: nano → n = 10^-9
+  - id: si_prefix_p_to_power
+    question: "Le préfixe \"pico\" correspond à 10 puissance combien ?"
+    answer: "-12"
+    feedback: pico (p) = 10^-12
+  - id: si_prefix_p_sym_to_name
+    question: "Quel préfixe correspond au symbole \"p\" ?"
+    answer: pico
+    feedback: p = pico = 10^-12
+  - id: si_prefix_p_name_to_sym
+    question: "Quel est le symbole du préfixe \"pico\" ?"
+    answer: p
+    feedback: pico → p = 10^-12

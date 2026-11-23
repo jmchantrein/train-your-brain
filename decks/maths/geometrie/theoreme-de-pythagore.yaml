@@ -1,0 +1,525 @@
+id: "theoreme-de-pythagore-mjda8lk1"
+name: "Théorème de Pythagore"
+description: "Deck complet sur le théorème de Pythagore : définitions, formules, calculs de l'hypoténuse et des côtés, réciproque, et rédaction. Niveau 4ème-3ème."
+category:
+  - "pythagore"
+  - "triangles"
+  - "geometrie-plane"
+  - "geometrie"
+  - "maths"
+  - "sciences"
+  - "quatrieme"
+  - "college"
+  - "brevet"
+  - "troisieme"
+difficulty: 2
+metadata:
+  license: CC-BY-SA-4.0
+  source:
+    type: ai
+    model: claude
+settings:
+  bidirectional: false
+  sequential: false
+  similarityMatching: true
+
+cards:
+  # ═══════════════════════════════════════════════════════════════
+  # SECTION 1 : VOCABULAIRE ET DÉFINITIONS
+  # ═══════════════════════════════════════════════════════════════
+
+  - id: "pyth_vocab_001"
+    question: "Dans un triangle rectangle, comment s'appelle le côté opposé à l'angle droit ?"
+    answer: "hypoténuse"
+    alternatives:
+      - "l'hypoténuse"
+      - "Hypoténuse"
+    feedback: "L'hypoténuse est toujours le côté opposé à l'angle droit. C'est aussi le plus grand côté du triangle rectangle."
+
+  - id: "pyth_vocab_002"
+    question: "L'hypoténuse est le côté le plus {{long}} du triangle rectangle."
+    type: cloze
+    answer: "long"
+    alternatives:
+      - "grand"
+    feedback: "L'hypoténuse est toujours le plus grand côté d'un triangle rectangle car elle est opposée au plus grand angle (90°)."
+
+  - id: "pyth_vocab_003"
+    question: "Dans un triangle rectangle, les deux côtés qui forment l'angle droit s'appellent :"
+    type: mcq
+    choices:
+      - id: A
+        text: "les hypoténuses"
+      - id: B
+        text: "les côtés de l'angle droit"
+      - id: C
+        text: "les médianes"
+      - id: D
+        text: "les diagonales"
+    answer: "B"
+    feedback: "Les deux côtés adjacents à l'angle droit sont appelés « côtés de l'angle droit » ou parfois « cathètes »."
+
+  - id: "pyth_vocab_004"
+    question: "Un triangle rectangle possède un angle de 90°."
+    type: truefalse
+    answer: true
+    feedback: "Par définition, un triangle rectangle possède exactement un angle droit, c'est-à-dire un angle de 90°."
+
+  - id: "pyth_vocab_005"
+    question: "L'angle droit dans un triangle rectangle mesure {{90}} degrés."
+    type: cloze
+    answer: "90"
+    alternatives:
+      - "90°"
+      - "quatre-vingt-dix"
+    feedback: "L'angle droit mesure exactement 90°, ce qui définit le triangle rectangle."
+
+  # ═══════════════════════════════════════════════════════════════
+  # SECTION 2 : ÉNONCÉ DU THÉORÈME
+  # ═══════════════════════════════════════════════════════════════
+
+  - id: "pyth_enonce_001"
+    question: "Complète : Dans un triangle rectangle, le carré de l'hypoténuse est égal à la {{somme}} des carrés des deux autres côtés."
+    type: cloze
+    answer: "somme"
+    alternatives:
+      - "addition"
+    feedback: "C'est l'énoncé du théorème de Pythagore. Si l'hypoténuse est $c$ et les côtés de l'angle droit sont $a$ et $b$, alors $c^2 = a^2 + b^2$."
+
+  - id: "pyth_enonce_002"
+    question: |
+      Dans un triangle $ABC$ rectangle en $A$, quelle est la formule correcte du théorème de Pythagore ?
+    type: mcq
+    choices:
+      - id: A
+        text: "$BC^2 = AB^2 + AC^2$"
+      - id: B
+        text: "$AB^2 = BC^2 + AC^2$"
+      - id: C
+        text: "$AC^2 = AB^2 + BC^2$"
+      - id: D
+        text: "$BC^2 = AB^2 - AC^2$"
+    answer: "A"
+    feedback: "Le triangle est rectangle en $A$, donc $[BC]$ est l'hypoténuse (opposée à $A$). On a bien $BC^2 = AB^2 + AC^2$."
+
+  - id: "pyth_enonce_003"
+    question: |
+      Dans un triangle rectangle, si l'hypoténuse est notée $c$ et les côtés de l'angle droit $a$ et $b$, quelle formule est correcte ?
+    type: mcq
+    choices:
+      - id: A
+        text: "$c^2 = a^2 - b^2$"
+      - id: B
+        text: "$a^2 = b^2 + c^2$"
+      - id: C
+        text: "$c^2 = a^2 + b^2$"
+      - id: D
+        text: "$c = a + b$"
+    answer: "C"
+    feedback: "Le théorème de Pythagore s'écrit $c^2 = a^2 + b^2$ où $c$ est l'hypoténuse."
+
+  - id: "pyth_enonce_004"
+    question: "Le théorème de Pythagore ne s'applique qu'aux triangles rectangles."
+    type: truefalse
+    answer: true
+    feedback: "Le théorème de Pythagore est valable uniquement dans un triangle rectangle. Pour les autres triangles, on utilise d'autres formules (comme le théorème d'Al-Kashi)."
+
+  - id: "pyth_enonce_005"
+    question: "Avant d'appliquer le théorème de Pythagore, quelle condition doit-on vérifier ?"
+    type: mcq
+    choices:
+      - id: A
+        text: "Le triangle doit être isocèle"
+      - id: B
+        text: "Le triangle doit être rectangle"
+      - id: C
+        text: "Le triangle doit être équilatéral"
+      - id: D
+        text: "Le triangle doit avoir un angle de 60°"
+    answer: "B"
+    feedback: "Le théorème de Pythagore ne s'applique QUE dans un triangle rectangle. Il faut toujours vérifier cette condition avant de l'utiliser."
+
+  # ═══════════════════════════════════════════════════════════════
+  # SECTION 3 : CALCUL DE L'HYPOTÉNUSE
+  # ═══════════════════════════════════════════════════════════════
+
+  - id: "pyth_hyp_001"
+    question: |
+      Un triangle rectangle a des côtés de l'angle droit mesurant 3 cm et 4 cm.
+      Quelle est la longueur de l'hypoténuse en cm ?
+    type: numeric
+    answer: 5
+    feedback: "D'après Pythagore : $c^2 = 3^2 + 4^2 = 9 + 16 = 25$, donc $c = \\sqrt{25} = 5$ cm. C'est le célèbre triplet pythagoricien 3-4-5."
+
+  - id: "pyth_hyp_002"
+    question: |
+      Dans un triangle rectangle, les côtés de l'angle droit mesurent 6 cm et 8 cm.
+      Calculer l'hypoténuse en cm.
+    type: numeric
+    answer: 10
+    feedback: "D'après Pythagore : $c^2 = 6^2 + 8^2 = 36 + 64 = 100$, donc $c = \\sqrt{100} = 10$ cm. C'est le triplet 3-4-5 multiplié par 2."
+
+  - id: "pyth_hyp_003"
+    question: |
+      Un triangle rectangle a des côtés de l'angle droit de 5 cm et 12 cm.
+      Quelle est l'hypoténuse en cm ?
+    type: numeric
+    answer: 13
+    feedback: "D'après Pythagore : $c^2 = 5^2 + 12^2 = 25 + 144 = 169$, donc $c = \\sqrt{169} = 13$ cm. C'est le triplet pythagoricien 5-12-13."
+
+  - id: "pyth_hyp_004"
+    question: |
+      Dans un triangle rectangle, les côtés de l'angle droit mesurent 8 cm et 15 cm.
+      Calculer l'hypoténuse en cm.
+    type: numeric
+    answer: 17
+    feedback: "D'après Pythagore : $c^2 = 8^2 + 15^2 = 64 + 225 = 289$, donc $c = \\sqrt{289} = 17$ cm. C'est le triplet pythagoricien 8-15-17."
+
+  - id: "pyth_hyp_005"
+    question: |
+      Pour calculer l'hypoténuse $c$ à partir des côtés $a$ et $b$, quelle opération finale effectue-t-on ?
+    type: mcq
+    choices:
+      - id: A
+        text: "On calcule $a^2 + b^2$"
+      - id: B
+        text: "On calcule $\\sqrt{a^2 + b^2}$"
+      - id: C
+        text: "On calcule $a + b$"
+      - id: D
+        text: "On calcule $(a + b)^2$"
+    answer: "B"
+    feedback: "De $c^2 = a^2 + b^2$, on déduit $c = \\sqrt{a^2 + b^2}$. Il faut prendre la racine carrée pour obtenir $c$."
+
+  - id: "pyth_hyp_006"
+    question: |
+      Un triangle rectangle a des côtés de l'angle droit de 9 cm et 12 cm.
+      Calculer l'hypoténuse en cm.
+    type: numeric
+    answer: 15
+    feedback: "D'après Pythagore : $c^2 = 9^2 + 12^2 = 81 + 144 = 225$, donc $c = \\sqrt{225} = 15$ cm. C'est le triplet 3-4-5 multiplié par 3."
+
+  # ═══════════════════════════════════════════════════════════════
+  # SECTION 4 : CALCUL D'UN CÔTÉ DE L'ANGLE DROIT
+  # ═══════════════════════════════════════════════════════════════
+
+  - id: "pyth_cote_001"
+    question: |
+      Dans un triangle rectangle, l'hypoténuse mesure 5 cm et un côté de l'angle droit mesure 3 cm.
+      Calculer l'autre côté en cm.
+    type: numeric
+    answer: 4
+    feedback: "D'après Pythagore : $5^2 = 3^2 + b^2$, donc $25 = 9 + b^2$, soit $b^2 = 16$ et $b = 4$ cm."
+
+  - id: "pyth_cote_002"
+    question: |
+      Un triangle rectangle a une hypoténuse de 13 cm et un côté de l'angle droit de 5 cm.
+      Quelle est la longueur de l'autre côté en cm ?
+    type: numeric
+    answer: 12
+    feedback: "D'après Pythagore : $13^2 = 5^2 + b^2$, donc $169 = 25 + b^2$, soit $b^2 = 144$ et $b = 12$ cm."
+
+  - id: "pyth_cote_003"
+    question: |
+      Pour calculer un côté $a$ de l'angle droit connaissant l'hypoténuse $c$ et l'autre côté $b$, quelle formule utilise-t-on ?
+    type: mcq
+    choices:
+      - id: A
+        text: "$a = \\sqrt{c^2 + b^2}$"
+      - id: B
+        text: "$a = \\sqrt{c^2 - b^2}$"
+      - id: C
+        text: "$a = c^2 - b^2$"
+      - id: D
+        text: "$a = c - b$"
+    answer: "B"
+    feedback: "De $c^2 = a^2 + b^2$, on isole $a^2 = c^2 - b^2$, donc $a = \\sqrt{c^2 - b^2}$. Attention au signe moins !"
+
+  - id: "pyth_cote_004"
+    question: |
+      Dans un triangle rectangle, l'hypoténuse mesure 10 cm et un côté de l'angle droit mesure 6 cm.
+      Calculer l'autre côté en cm.
+    type: numeric
+    answer: 8
+    feedback: "D'après Pythagore : $10^2 = 6^2 + b^2$, donc $100 = 36 + b^2$, soit $b^2 = 64$ et $b = 8$ cm."
+
+  - id: "pyth_cote_005"
+    question: |
+      Un triangle rectangle a une hypoténuse de 17 cm et un côté de l'angle droit de 8 cm.
+      Quelle est la longueur de l'autre côté en cm ?
+    type: numeric
+    answer: 15
+    feedback: "D'après Pythagore : $17^2 = 8^2 + b^2$, donc $289 = 64 + b^2$, soit $b^2 = 225$ et $b = 15$ cm."
+
+  - id: "pyth_cote_006"
+    question: |
+      Dans un triangle rectangle, l'hypoténuse mesure 15 cm et un côté de l'angle droit mesure 9 cm.
+      Calculer l'autre côté en cm.
+    type: numeric
+    answer: 12
+    feedback: "D'après Pythagore : $15^2 = 9^2 + b^2$, donc $225 = 81 + b^2$, soit $b^2 = 144$ et $b = 12$ cm."
+
+  # ═══════════════════════════════════════════════════════════════
+  # SECTION 5 : RÉCIPROQUE DU THÉORÈME
+  # ═══════════════════════════════════════════════════════════════
+
+  - id: "pyth_recip_001"
+    question: "La réciproque du théorème de Pythagore sert à prouver qu'un triangle est {{rectangle}}."
+    type: cloze
+    answer: "rectangle"
+    alternatives:
+      - "un triangle rectangle"
+    feedback: "La réciproque permet de démontrer qu'un triangle est rectangle si le carré du plus grand côté est égal à la somme des carrés des deux autres."
+
+  - id: "pyth_recip_002"
+    question: |
+      Complète l'énoncé de la réciproque : Si dans un triangle, le carré du plus grand côté est égal à la somme des carrés des deux autres côtés, alors le triangle est :
+    type: mcq
+    choices:
+      - id: A
+        text: "isocèle"
+      - id: B
+        text: "équilatéral"
+      - id: C
+        text: "rectangle"
+      - id: D
+        text: "quelconque"
+    answer: "C"
+    feedback: "C'est la réciproque du théorème de Pythagore : si $c^2 = a^2 + b^2$ (avec $c$ le plus grand côté), alors le triangle est rectangle."
+
+  - id: "pyth_recip_003"
+    question: |
+      Un triangle a des côtés de 6 cm, 8 cm et 10 cm. Est-il rectangle ?
+    type: mcq
+    choices:
+      - id: A
+        text: "Oui, car $10^2 = 6^2 + 8^2$"
+      - id: B
+        text: "Non, car $10^2 \\neq 6^2 + 8^2$"
+      - id: C
+        text: "Oui, car $6 + 8 = 14$"
+      - id: D
+        text: "On ne peut pas savoir"
+    answer: "A"
+    feedback: "Vérifions : $10^2 = 100$ et $6^2 + 8^2 = 36 + 64 = 100$. Donc $10^2 = 6^2 + 8^2$, et d'après la réciproque, le triangle est rectangle."
+
+  - id: "pyth_recip_004"
+    question: |
+      Un triangle a des côtés de 5 cm, 6 cm et 8 cm. Est-il rectangle ?
+    type: mcq
+    choices:
+      - id: A
+        text: "Oui, car $8^2 = 5^2 + 6^2$"
+      - id: B
+        text: "Non, car $8^2 \\neq 5^2 + 6^2$"
+      - id: C
+        text: "Oui, car c'est un triplet pythagoricien"
+      - id: D
+        text: "On ne peut pas savoir"
+    answer: "B"
+    feedback: "Vérifions : $8^2 = 64$ et $5^2 + 6^2 = 25 + 36 = 61$. Or $64 \\neq 61$, donc le triangle n'est PAS rectangle."
+
+  - id: "pyth_recip_005"
+    question: "Pour utiliser la réciproque, on doit d'abord identifier le côté le plus {{grand}}."
+    type: cloze
+    answer: "grand"
+    alternatives:
+      - "long"
+    feedback: "Pour appliquer la réciproque, il faut comparer le carré du plus grand côté à la somme des carrés des deux autres."
+
+  - id: "pyth_recip_006"
+    question: |
+      Un triangle a des côtés de 7 cm, 24 cm et 25 cm. Le triangle est-il rectangle ?
+    type: mcq
+    choices:
+      - id: A
+        text: "Non, car $25^2 \\neq 7^2 + 24^2$"
+      - id: B
+        text: "Oui, car $25^2 = 7^2 + 24^2$"
+      - id: C
+        text: "Non, car 7 + 24 < 25"
+      - id: D
+        text: "On ne peut pas conclure"
+    answer: "B"
+    feedback: "Vérifions : $25^2 = 625$ et $7^2 + 24^2 = 49 + 576 = 625$. L'égalité est vérifiée, donc d'après la réciproque, le triangle est rectangle."
+
+  # ═══════════════════════════════════════════════════════════════
+  # SECTION 6 : TRIPLETS PYTHAGORICIENS
+  # ═══════════════════════════════════════════════════════════════
+
+  - id: "pyth_triplet_001"
+    question: "Le triplet pythagoricien le plus connu est 3 - 4 - {{5}}."
+    type: cloze
+    answer: "5"
+    alternatives:
+      - "cinq"
+    feedback: "Le triplet 3-4-5 est le plus simple : $3^2 + 4^2 = 9 + 16 = 25 = 5^2$. Il est utile à retenir pour vérifier rapidement ses calculs."
+
+  - id: "pyth_triplet_002"
+    question: "Associez chaque triplet pythagoricien à son hypoténuse :"
+    type: matching
+    pairs:
+      - term: "3 - 4 - ?"
+        response: "5"
+      - term: "5 - 12 - ?"
+        response: "13"
+      - term: "8 - 15 - ?"
+        response: "17"
+      - term: "7 - 24 - ?"
+        response: "25"
+    answer: "auto"
+    feedback: "Ces triplets classiques sont très utiles à connaître pour gagner du temps dans les exercices."
+
+  - id: "pyth_triplet_003"
+    question: "Le triplet 6-8-10 est un multiple du triplet 3-4-5."
+    type: truefalse
+    answer: true
+    feedback: "6-8-10 = 2 × (3-4-5). Tout multiple d'un triplet pythagoricien est aussi un triplet pythagoricien."
+
+  # ═══════════════════════════════════════════════════════════════
+  # SECTION 7 : RÉDACTION ET CONNECTEURS LOGIQUES
+  # ═══════════════════════════════════════════════════════════════
+
+  - id: "pyth_redac_001"
+    question: |
+      Quelle phrase d'introduction est correcte pour appliquer le théorème de Pythagore ?
+    type: mcq
+    choices:
+      - id: A
+        text: "Le triangle ABC est rectangle, donc on peut faire Pythagore."
+      - id: B
+        text: "Le triangle ABC est rectangle en A, donc d'après le théorème de Pythagore, on a : $BC^2 = AB^2 + AC^2$."
+      - id: C
+        text: "On calcule $BC^2 = AB^2 + AC^2$."
+      - id: D
+        text: "Pythagore donne $BC = AB + AC$."
+    answer: "B"
+    feedback: "Une bonne rédaction précise : (1) que le triangle est rectangle, (2) en quel sommet, (3) cite le théorème, (4) écrit la formule avec les bons côtés."
+
+  - id: "pyth_redac_002"
+    question: "Dans une rédaction, on doit préciser en quel {{sommet}} le triangle est rectangle."
+    type: cloze
+    answer: "sommet"
+    alternatives:
+      - "point"
+      - "angle"
+    feedback: "Dire « le triangle ABC est rectangle en A » est essentiel car cela détermine quelle est l'hypoténuse (ici [BC])."
+
+  - id: "pyth_redac_003"
+    question: "Associez chaque connecteur logique à son usage dans une rédaction :"
+    type: matching
+    pairs:
+      - term: "D'après le théorème de Pythagore"
+        response: "Justifier l'utilisation"
+      - term: "Donc"
+        response: "Introduire une conclusion"
+      - term: "Or"
+        response: "Ajouter une information"
+      - term: "On en déduit que"
+        response: "Conclure le raisonnement"
+    answer: "auto"
+    feedback: "Ces connecteurs structurent le raisonnement mathématique et montrent la logique de la démonstration."
+
+  - id: "pyth_redac_004"
+    question: |
+      Après avoir calculé $BC^2 = 25$, quelle phrase permet de conclure correctement ?
+    type: mcq
+    choices:
+      - id: A
+        text: "$BC = 25$ cm"
+      - id: B
+        text: "Donc $BC = \\sqrt{25} = 5$ cm"
+      - id: C
+        text: "Donc $BC = 5^2$ cm"
+      - id: D
+        text: "$BC = 25 : 5$ cm"
+    answer: "B"
+    feedback: "On passe de $BC^2 = 25$ à $BC = \\sqrt{25} = 5$ cm. Le mot « donc » introduit la conclusion et la racine carrée est obligatoire."
+
+  - id: "pyth_redac_005"
+    question: "Quand on utilise la réciproque, on doit d'abord écrire « Le triangle ABC est rectangle » avant de faire les calculs."
+    type: truefalse
+    answer: false
+    feedback: "Non ! Avec la réciproque, on fait d'ABORD les calculs, puis on conclut « donc le triangle est rectangle » (ou non). C'est l'inverse du théorème direct."
+
+  # ═══════════════════════════════════════════════════════════════
+  # SECTION 8 : VRAI/FAUX ET ERREURS CLASSIQUES
+  # ═══════════════════════════════════════════════════════════════
+
+  - id: "pyth_vf_001"
+    question: "Dans un triangle rectangle, l'hypoténuse est toujours le plus petit côté."
+    type: truefalse
+    answer: false
+    feedback: "FAUX ! L'hypoténuse est toujours le PLUS GRAND côté du triangle rectangle, car elle est opposée au plus grand angle (90°)."
+
+  - id: "pyth_vf_002"
+    question: "On peut appliquer le théorème de Pythagore dans tous les triangles."
+    type: truefalse
+    answer: false
+    feedback: "FAUX ! Le théorème de Pythagore ne s'applique QUE dans les triangles rectangles. C'est une condition indispensable."
+
+  - id: "pyth_vf_003"
+    question: "Si un triangle a des côtés de 3, 4 et 5, alors il est rectangle."
+    type: truefalse
+    answer: true
+    feedback: "VRAI ! Car $5^2 = 25 = 9 + 16 = 3^2 + 4^2$. D'après la réciproque du théorème de Pythagore, ce triangle est rectangle."
+
+  - id: "pyth_vf_004"
+    question: "Pour calculer l'hypoténuse, on fait une soustraction des carrés."
+    type: truefalse
+    answer: false
+    feedback: "FAUX ! Pour l'hypoténuse, on fait une ADDITION : $c^2 = a^2 + b^2$. La soustraction sert uniquement pour calculer un côté de l'angle droit."
+
+  - id: "pyth_vf_005"
+    question: "La réciproque et le théorème de Pythagore sont la même chose."
+    type: truefalse
+    answer: false
+    feedback: "FAUX ! Le théorème dit : « Si rectangle, alors égalité des carrés ». La réciproque dit : « Si égalité des carrés, alors rectangle ». Ce sont deux énoncés différents."
+
+  - id: "pyth_vf_006"
+    question: "Si $c^2 > a^2 + b^2$ (où $c$ est le plus grand côté), le triangle a un angle obtus."
+    type: truefalse
+    answer: true
+    feedback: "VRAI ! Si le carré du plus grand côté est strictement supérieur à la somme des carrés des deux autres, le triangle possède un angle obtus (> 90°)."
+
+  # ═══════════════════════════════════════════════════════════════
+  # SECTION 9 : APPLICATIONS SUPPLÉMENTAIRES
+  # ═══════════════════════════════════════════════════════════════
+
+  - id: "pyth_app_001"
+    question: |
+      Une échelle de 5 m est posée contre un mur. Son pied est à 3 m du mur.
+      À quelle hauteur atteint-elle le mur (en m) ?
+    type: numeric
+    answer: 4
+    feedback: "Le triangle formé est rectangle. L'échelle est l'hypoténuse (5 m). D'après Pythagore : $5^2 = 3^2 + h^2$, donc $h^2 = 25 - 9 = 16$ et $h = 4$ m."
+
+  - id: "pyth_app_002"
+    question: |
+      Un écran de télévision mesure 80 cm de largeur et 60 cm de hauteur.
+      Quelle est la diagonale de l'écran en cm ?
+    type: numeric
+    answer: 100
+    feedback: "La diagonale est l'hypoténuse du triangle rectangle formé. D'après Pythagore : $d^2 = 80^2 + 60^2 = 6400 + 3600 = 10000$, donc $d = 100$ cm."
+
+  - id: "pyth_app_003"
+    question: |
+      Un carré a un côté de 7 cm. Calculer sa diagonale (arrondie au cm près).
+    type: numeric
+    answer: 10
+    tolerance: 0.5
+    feedback: "Dans un carré, la diagonale forme un triangle rectangle isocèle. $d^2 = 7^2 + 7^2 = 98$, donc $d = \\sqrt{98} \\approx 9,9 \\approx 10$ cm."
+
+  - id: "pyth_app_004"
+    question: |
+      Un terrain rectangulaire mesure 40 m sur 30 m.
+      Quelle est la longueur de sa diagonale en m ?
+    type: numeric
+    answer: 50
+    feedback: "D'après Pythagore : $d^2 = 40^2 + 30^2 = 1600 + 900 = 2500$, donc $d = \\sqrt{2500} = 50$ m. C'est le triplet 3-4-5 multiplié par 10."
+
+  - id: "pyth_app_005"
+    question: "La diagonale d'un rectangle forme un triangle {{rectangle}} avec ses côtés."
+    type: cloze
+    answer: "rectangle"
+    feedback: "La diagonale d'un rectangle divise celui-ci en deux triangles rectangles, ce qui permet d'appliquer le théorème de Pythagore."

@@ -1,0 +1,175 @@
+name: Conversions de temps
+description: "heures, minutes, secondes"
+tags: [math, conversions, temps, cm1, cm2]
+category: [sciences, maths, arithmetique, mesures, conversions, cm1, cm2]
+settings:
+  sequential: false
+  bidirectional: false
+metadata:
+  license: CC-BY-SA-4.0
+  source:
+    type: procedural
+    generator: conversions
+    version: 1.0.0
+    generatedAt: "2026-11-22"
+    parameters:
+      type: time
+resources:
+  - type: summary
+    title: "Les conversions d'unités"
+    content: "Les **conversions** permettent d'exprimer une même mesure avec différentes unités.\n\nLe système métrique est basé sur des puissances de 10 :\n- kilo (k) = 1000\n- hecto (h) = 100\n- déca (da) = 10\n- unité = 1\n- déci (d) = 0,1\n- centi (c) = 0,01\n- milli (m) = 0,001\n\nConvertir c'est multiplier ou diviser par 10, 100, 1000..."
+    aiGenerated: true
+    icon: 📝
+  - type: link
+    title: "Wikipedia : Système métrique"
+    url: https://fr.wikipedia.org/wiki/Système_métrique
+    icon: 📖
+  - type: glossary
+    title: Vocabulaire clé
+    content: "- **Conversion** : Changement d'unité pour une même mesure\n- **Préfixe** : Symbole indiquant le multiple (k, c, m...)\n- **Unité SI** : Unité du Système International\n- **Multiple** : Unité plus grande (km, kg)\n- **Sous-multiple** : Unité plus petite (mm, mg)"
+    icon: 📚
+  - type: objective
+    title: "Objectifs d'apprentissage"
+    content: "- ✅ Convertir heures ↔ minutes ↔ secondes\n- ✅ Maîtriser la base 60\n- ✅ Calculer des durées"
+    icon: 🎯
+  - type: tip
+    title: Conversions de temps
+    content: "Attention, le temps est en base 60 !\n\n• 1 h = 60 min = 3600 s\n• 1 min = 60 s\n\nFractions d'heure :\n• 0,5 h = 30 min\n• 0,25 h = 15 min\n• 0,75 h = 45 min"
+    icon: 💡
+cards:
+  - id: conv_h_to_min_1
+    question: 1 h = ? min
+    answer: "60"
+    feedback: 1 h × 60 = 60 min
+  - id: conv_h_to_min_2
+    question: 2 h = ? min
+    answer: "120"
+    feedback: 2 h × 60 = 120 min
+  - id: conv_h_to_min_3
+    question: 3 h = ? min
+    answer: "180"
+    feedback: 3 h × 60 = 180 min
+  - id: conv_h_to_min_0_5
+    question: 0.5 h = ? min
+    answer: "30"
+    feedback: 0.5 h × 60 = 30 min
+  - id: conv_h_to_min_1_5
+    question: 1.5 h = ? min
+    answer: "90"
+    feedback: 1.5 h × 60 = 90 min
+  - id: conv_h_to_min_2_5
+    question: 2.5 h = ? min
+    answer: "150"
+    feedback: 2.5 h × 60 = 150 min
+  - id: conv_h_to_min_0_25
+    question: 0.25 h = ? min
+    answer: "15"
+    feedback: 0.25 h × 60 = 15 min
+  - id: conv_h_to_min_0_75
+    question: 0.75 h = ? min
+    answer: "45"
+    feedback: 0.75 h × 60 = 45 min
+  - id: conv_min_to_h_60
+    question: 60 min = ? h
+    answer: "1"
+    alternatives: []
+    feedback: 60 min ÷ 60 = 1 h
+  - id: conv_min_to_h_120
+    question: 120 min = ? h
+    answer: "2"
+    alternatives: []
+    feedback: 120 min ÷ 60 = 2 h
+  - id: conv_min_to_h_30
+    question: 30 min = ? h
+    answer: "0.5"
+    alternatives: [0h30]
+    feedback: 30 min ÷ 60 = 0.5 h
+  - id: conv_min_to_h_90
+    question: 90 min = ? h
+    answer: "1.5"
+    alternatives: [1h30]
+    feedback: 90 min ÷ 60 = 1.5 h
+  - id: conv_min_to_h_45
+    question: 45 min = ? h
+    answer: "0.75"
+    alternatives: [0h45]
+    feedback: 45 min ÷ 60 = 0.75 h
+  - id: conv_min_to_h_15
+    question: 15 min = ? h
+    answer: "0.25"
+    alternatives: [0h15]
+    feedback: 15 min ÷ 60 = 0.25 h
+  - id: conv_min_to_h_180
+    question: 180 min = ? h
+    answer: "3"
+    alternatives: []
+    feedback: 180 min ÷ 60 = 3 h
+  - id: conv_min_to_h_150
+    question: 150 min = ? h
+    answer: "2.5"
+    alternatives: [2h30]
+    feedback: 150 min ÷ 60 = 2.5 h
+  - id: conv_min_to_s_1
+    question: 1 min = ? s
+    answer: "60"
+    feedback: 1 min × 60 = 60 s
+  - id: conv_min_to_s_2
+    question: 2 min = ? s
+    answer: "120"
+    feedback: 2 min × 60 = 120 s
+  - id: conv_min_to_s_5
+    question: 5 min = ? s
+    answer: "300"
+    feedback: 5 min × 60 = 300 s
+  - id: conv_min_to_s_10
+    question: 10 min = ? s
+    answer: "600"
+    feedback: 10 min × 60 = 600 s
+  - id: conv_min_to_s_0_5
+    question: 0.5 min = ? s
+    answer: "30"
+    feedback: 0.5 min × 60 = 30 s
+  - id: conv_min_to_s_1_5
+    question: 1.5 min = ? s
+    answer: "90"
+    feedback: 1.5 min × 60 = 90 s
+  - id: conv_min_to_s_3
+    question: 3 min = ? s
+    answer: "180"
+    feedback: 3 min × 60 = 180 s
+  - id: conv_min_to_s_15
+    question: 15 min = ? s
+    answer: "900"
+    feedback: 15 min × 60 = 900 s
+  - id: conv_s_to_min_60
+    question: 60 s = ? min
+    answer: "1"
+    feedback: 60 s ÷ 60 = 1 min
+  - id: conv_s_to_min_120
+    question: 120 s = ? min
+    answer: "2"
+    feedback: 120 s ÷ 60 = 2 min
+  - id: conv_s_to_min_180
+    question: 180 s = ? min
+    answer: "3"
+    feedback: 180 s ÷ 60 = 3 min
+  - id: conv_s_to_min_30
+    question: 30 s = ? min
+    answer: "0.5"
+    feedback: 30 s ÷ 60 = 0.5 min
+  - id: conv_s_to_min_90
+    question: 90 s = ? min
+    answer: "1.5"
+    feedback: 90 s ÷ 60 = 1.5 min
+  - id: conv_s_to_min_300
+    question: 300 s = ? min
+    answer: "5"
+    feedback: 300 s ÷ 60 = 5 min
+  - id: conv_s_to_min_600
+    question: 600 s = ? min
+    answer: "10"
+    feedback: 600 s ÷ 60 = 10 min
+  - id: conv_s_to_min_45
+    question: 45 s = ? min
+    answer: "0.75"
+    feedback: 45 s ÷ 60 = 0.75 min

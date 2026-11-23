@@ -1,0 +1,150 @@
+id: puissances-de-2
+name: Binaire - Puissances de 2 (2^0 à 2^16)
+description: Puissances de 2 de 2^0 à 2^16
+tags: [informatique, binaire, numeration, architecture-ordinateurs, premiere]
+category: [informatique, architecture-ordinateurs, premiere]
+settings:
+  sequential: true
+  bidirectional: false
+metadata:
+  license: CC-BY-SA-4.0
+  source:
+    type: procedural
+    generator: binary
+    version: 1.0.0
+    generatedAt: "2026-11-22"
+    parameters:
+      type: powers
+cards:
+  - id: bin_pow2_0
+    question: 2^0 = ?
+    answer: "1"
+    feedback: 2^0 = 1
+  - id: bin_pow2_1
+    question: 2^1 = ?
+    answer: "2"
+    feedback: 2^1 = 2
+  - id: bin_pow2_reverse_1
+    question: 2 = 2^?
+    answer: "1"
+    feedback: 2 = 2^1
+  - id: bin_pow2_2
+    question: 2^2 = ?
+    answer: "4"
+    feedback: 2^2 = 4
+  - id: bin_pow2_reverse_2
+    question: 4 = 2^?
+    answer: "2"
+    feedback: 4 = 2^2
+  - id: bin_pow2_3
+    question: 2^3 = ?
+    answer: "8"
+    feedback: 2^3 = 8
+  - id: bin_pow2_reverse_3
+    question: 8 = 2^?
+    answer: "3"
+    feedback: 8 = 2^3
+  - id: bin_pow2_4
+    question: 2^4 = ?
+    answer: "16"
+    feedback: 2^4 = 16
+  - id: bin_pow2_reverse_4
+    question: 16 = 2^?
+    answer: "4"
+    feedback: 16 = 2^4
+  - id: bin_pow2_5
+    question: 2^5 = ?
+    answer: "32"
+    feedback: 2^5 = 32
+  - id: bin_pow2_reverse_5
+    question: 32 = 2^?
+    answer: "5"
+    feedback: 32 = 2^5
+  - id: bin_pow2_6
+    question: 2^6 = ?
+    answer: "64"
+    feedback: 2^6 = 64
+  - id: bin_pow2_reverse_6
+    question: 64 = 2^?
+    answer: "6"
+    feedback: 64 = 2^6
+  - id: bin_pow2_7
+    question: 2^7 = ?
+    answer: "128"
+    feedback: 2^7 = 128
+  - id: bin_pow2_reverse_7
+    question: 128 = 2^?
+    answer: "7"
+    feedback: 128 = 2^7
+  - id: bin_pow2_8
+    question: 2^8 = ?
+    answer: "256"
+    feedback: 2^8 = 256
+  - id: bin_pow2_reverse_8
+    question: 256 = 2^?
+    answer: "8"
+    feedback: 256 = 2^8
+  - id: bin_pow2_9
+    question: 2^9 = ?
+    answer: "512"
+    feedback: 2^9 = 512
+  - id: bin_pow2_reverse_9
+    question: 512 = 2^?
+    answer: "9"
+    feedback: 512 = 2^9
+  - id: bin_pow2_10
+    question: 2^10 = ?
+    answer: "1024"
+    feedback: 2^10 = 1024
+  - id: bin_pow2_reverse_10
+    question: 1024 = 2^?
+    answer: "10"
+    feedback: 1024 = 2^10
+  - id: bin_pow2_11
+    question: 2^11 = ?
+    answer: "2048"
+    feedback: 2^11 = 2048
+  - id: bin_pow2_reverse_11
+    question: 2048 = 2^?
+    answer: "11"
+    feedback: 2048 = 2^11
+  - id: bin_pow2_12
+    question: 2^12 = ?
+    answer: "4096"
+    feedback: 2^12 = 4096
+  - id: bin_pow2_reverse_12
+    question: 4096 = 2^?
+    answer: "12"
+    feedback: 4096 = 2^12
+  - id: bin_pow2_13
+    question: 2^13 = ?
+    answer: "8192"
+    feedback: 2^13 = 8192
+  - id: bin_pow2_reverse_13
+    question: 8192 = 2^?
+    answer: "13"
+    feedback: 8192 = 2^13
+  - id: bin_pow2_14
+    question: 2^14 = ?
+    answer: "16384"
+    feedback: 2^14 = 16384
+  - id: bin_pow2_reverse_14
+    question: 16384 = 2^?
+    answer: "14"
+    feedback: 16384 = 2^14
+  - id: bin_pow2_15
+    question: 2^15 = ?
+    answer: "32768"
+    feedback: 2^15 = 32768
+  - id: bin_pow2_reverse_15
+    question: 32768 = 2^?
+    answer: "15"
+    feedback: 32768 = 2^15
+  - id: bin_pow2_16
+    question: 2^16 = ?
+    answer: "65536"
+    feedback: 2^16 = 65536
+  - id: bin_pow2_reverse_16
+    question: 65536 = 2^?
+    answer: "16"
+    feedback: 65536 = 2^16

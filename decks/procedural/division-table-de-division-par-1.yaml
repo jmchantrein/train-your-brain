@@ -1,0 +1,121 @@
+name: Table de division par 1
+description: Divisions par 1 (0 ÷ 1 à 10 ÷ 1)
+tags: [math, division, calcul-mental, ce2, cm1]
+category: [sciences, maths, arithmetique, operations-base, divisions, calcul-mental, ce2, cm1]
+settings:
+  sequential: false
+  bidirectional: false
+metadata:
+  license: CC-BY-SA-4.0
+  source:
+    type: procedural
+    generator: division
+    version: 1.0.0
+    generatedAt: "2026-11-22"
+    parameters:
+      divisor: 1
+resources:
+  - type: summary
+    title: "Qu'est-ce que la division ?"
+    content: "La **division** est l'opération inverse de la multiplication. Elle permet de partager une quantité en parts égales ou de savoir combien de fois un nombre est contenu dans un autre.\n\nPar exemple : **12 ÷ 4 = 3** signifie que 12 partagé en 4 parts égales donne 3 par part.\n\nLes tables de division sont essentielles pour :\n- Le calcul mental rapide\n- Les fractions et pourcentages\n- La résolution de problèmes"
+    aiGenerated: true
+    icon: 📝
+  - type: link
+    title: "Wikipedia : Division"
+    url: https://fr.wikipedia.org/wiki/Division
+    icon: 📖
+  - type: glossary
+    title: Vocabulaire clé
+    content: "- **Division** : Opération qui partage un nombre en parts égales\n- **Dividende** : Le nombre que l'on divise\n- **Diviseur** : Le nombre par lequel on divise\n- **Quotient** : Résultat d'une division\n- **Reste** : Ce qui reste quand la division n'est pas exacte"
+    icon: 📚
+  - type: image
+    title: Diviser par 1
+    image: "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyMDAgMjg0IiB3aWR0aD0iMjAwIiBoZWlnaHQ9IjI4NCI+CiAgICAgIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIyMDAiIGhlaWdodD0iMjg0IiBmaWxsPSIjMWUyOTNiIiByeD0iOCIvPgogICAgICA8dGV4dCB4PSIxMDAiIHk9IjEyIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMiIgZmlsbD0iI2Y5NzMxNiIgZm9udC13ZWlnaHQ9ImJvbGQiPkRpdmlzZXIgcGFyIDE8L3RleHQ+CiAgICAgIDxsaW5lIHgxPSIxMCIgeTE9IjE4IiB4Mj0iMTkwIiB5Mj0iMTgiIHN0cm9rZT0iIzMzNDE1NSIgc3Ryb2tlLXdpZHRoPSIxIi8+CiAgICAgIDx0ZXh0IHg9IjEwIiB5PSIyNiIgZm9udC1mYW1pbHk9Im1vbm9zcGFjZSIgZm9udC1zaXplPSIxNCIgZmlsbD0iI2Y4ZmFmYyI+ICAwIMO3IDEgPSAgMDwvdGV4dD48dGV4dCB4PSIxMCIgeT0iNTAiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iMTQiIGZpbGw9IiNmOGZhZmMiPiAgMSDDtyAxID0gIDE8L3RleHQ+PHRleHQgeD0iMTAiIHk9Ijc0IiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiBmb250LXNpemU9IjE0IiBmaWxsPSIjZjhmYWZjIj4gIDIgw7cgMSA9ICAyPC90ZXh0Pjx0ZXh0IHg9IjEwIiB5PSI5OCIgZm9udC1mYW1pbHk9Im1vbm9zcGFjZSIgZm9udC1zaXplPSIxNCIgZmlsbD0iI2Y4ZmFmYyI+ICAzIMO3IDEgPSAgMzwvdGV4dD48dGV4dCB4PSIxMCIgeT0iMTIyIiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiBmb250LXNpemU9IjE0IiBmaWxsPSIjZjhmYWZjIj4gIDQgw7cgMSA9ICA0PC90ZXh0Pjx0ZXh0IHg9IjEwIiB5PSIxNDYiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iMTQiIGZpbGw9IiNmOGZhZmMiPiAgNSDDtyAxID0gIDU8L3RleHQ+PHRleHQgeD0iMTAiIHk9IjE3MCIgZm9udC1mYW1pbHk9Im1vbm9zcGFjZSIgZm9udC1zaXplPSIxNCIgZmlsbD0iI2Y4ZmFmYyI+ICA2IMO3IDEgPSAgNjwvdGV4dD48dGV4dCB4PSIxMCIgeT0iMTk0IiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiBmb250LXNpemU9IjE0IiBmaWxsPSIjZjhmYWZjIj4gIDcgw7cgMSA9ICA3PC90ZXh0Pjx0ZXh0IHg9IjEwIiB5PSIyMTgiIGZvbnQtZmFtaWx5PSJtb25vc3BhY2UiIGZvbnQtc2l6ZT0iMTQiIGZpbGw9IiNmOGZhZmMiPiAgOCDDtyAxID0gIDg8L3RleHQ+PHRleHQgeD0iMTAiIHk9IjI0MiIgZm9udC1mYW1pbHk9Im1vbm9zcGFjZSIgZm9udC1zaXplPSIxNCIgZmlsbD0iI2Y4ZmFmYyI+ICA5IMO3IDEgPSAgOTwvdGV4dD48dGV4dCB4PSIxMCIgeT0iMjY2IiBmb250LWZhbWlseT0ibW9ub3NwYWNlIiBmb250LXNpemU9IjE0IiBmaWxsPSIjZjhmYWZjIj4gMTAgw7cgMSA9IDEwPC90ZXh0PgogICAgPC9zdmc+"
+    aiGenerated: false
+    icon: 📊
+  - type: objective
+    title: "Objectifs d'apprentissage"
+    content: "- ✅ Mémoriser la table de division par 1\n- ✅ Répondre en moins de 3 secondes\n- ✅ Faire le lien avec la table de multiplication correspondante"
+    icon: 🎯
+  - type: tip
+    title: Astuce pour diviser par 1
+    content: Tout nombre divisé par 1 reste inchangé.
+    icon: 💡
+  - type: tip
+    title: Lien avec la multiplication
+    content: "Division et multiplication sont inverses !\n\nSi 1 × 4 = 4, alors 4 ÷ 1 = 4\n\nConnaître les tables de multiplication aide beaucoup pour les divisions."
+    icon: 💡
+cards:
+  - id: div_0_by_1
+    question: 0 ÷ 1 = ?
+    answer: "0"
+  - id: div_1_by_1
+    question: 1 ÷ 1 = ?
+    answer: "1"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 40 32\" width=\"40\" height=\"32\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/></svg>"
+  - id: div_2_by_1
+    question: 2 ÷ 1 = ?
+    answer: "2"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 40 44\" width=\"40\" height=\"44\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"22\" r=\"4\" fill=\"#8b5cf6\"/></svg>"
+  - id: div_3_by_1
+    question: 3 ÷ 1 = ?
+    answer: "3"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 40 56\" width=\"40\" height=\"56\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"22\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"34\" r=\"4\" fill=\"#8b5cf6\"/></svg>"
+  - id: div_4_by_1
+    question: 4 ÷ 1 = ?
+    answer: "4"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 40 68\" width=\"40\" height=\"68\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"22\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"34\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"46\" r=\"4\" fill=\"#8b5cf6\"/></svg>"
+  - id: div_5_by_1
+    question: 5 ÷ 1 = ?
+    answer: "5"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 40 80\" width=\"40\" height=\"80\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"22\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"34\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"46\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"58\" r=\"4\" fill=\"#8b5cf6\"/></svg>"
+  - id: div_6_by_1
+    question: 6 ÷ 1 = ?
+    answer: "6"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 40 92\" width=\"40\" height=\"92\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"22\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"34\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"46\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"58\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"70\" r=\"4\" fill=\"#8b5cf6\"/></svg>"
+  - id: div_7_by_1
+    question: 7 ÷ 1 = ?
+    answer: "7"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 40 104\" width=\"40\" height=\"104\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"22\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"34\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"46\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"58\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"70\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"82\" r=\"4\" fill=\"#8b5cf6\"/></svg>"
+  - id: div_8_by_1
+    question: 8 ÷ 1 = ?
+    answer: "8"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 40 116\" width=\"40\" height=\"116\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"22\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"34\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"46\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"58\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"70\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"82\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"94\" r=\"4\" fill=\"#8b5cf6\"/></svg>"
+  - id: div_9_by_1
+    question: 9 ÷ 1 = ?
+    answer: "9"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 40 128\" width=\"40\" height=\"128\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"22\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"34\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"46\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"58\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"70\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"82\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"94\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"106\" r=\"4\" fill=\"#8b5cf6\"/></svg>"
+  - id: div_10_by_1
+    question: 10 ÷ 1 = ?
+    answer: "10"
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 40 140\" width=\"40\" height=\"140\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"10\" cy=\"10\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"22\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"34\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"46\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"58\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"70\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"82\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"94\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"106\" r=\"4\" fill=\"#8b5cf6\"/><circle cx=\"10\" cy=\"118\" r=\"4\" fill=\"#8b5cf6\"/></svg>"

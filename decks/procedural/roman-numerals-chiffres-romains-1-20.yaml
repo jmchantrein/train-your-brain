@@ -1,0 +1,177 @@
+name: Chiffres romains - 1 à 20
+description: Conversion arabe ↔ romain pour 1 à 20
+tags: [sciences, maths, arithmetique, chiffres-romains, numeration, cm1]
+category: [sciences, maths, arithmetique, cm1]
+settings:
+  sequential: false
+  bidirectional: false
+metadata:
+  license: CC-BY-SA-4.0
+  source:
+    type: procedural
+    generator: roman-numerals
+    version: 1.0.0
+    generatedAt: "2026-11-22"
+    parameters:
+      type: basics
+cards:
+  - id: roman_1_to_roman
+    question: 1 en chiffres romains ?
+    answer: I
+    feedback: 1 = I
+  - id: roman_1_from_roman
+    question: I en chiffres arabes ?
+    answer: "1"
+    feedback: I = 1
+  - id: roman_2_to_roman
+    question: 2 en chiffres romains ?
+    answer: II
+    feedback: 2 = II
+  - id: roman_2_from_roman
+    question: II en chiffres arabes ?
+    answer: "2"
+    feedback: II = 2
+  - id: roman_3_to_roman
+    question: 3 en chiffres romains ?
+    answer: III
+    feedback: 3 = III
+  - id: roman_3_from_roman
+    question: III en chiffres arabes ?
+    answer: "3"
+    feedback: III = 3
+  - id: roman_4_to_roman
+    question: 4 en chiffres romains ?
+    answer: IV
+    feedback: 4 = IV
+  - id: roman_4_from_roman
+    question: IV en chiffres arabes ?
+    answer: "4"
+    feedback: IV = 4
+  - id: roman_5_to_roman
+    question: 5 en chiffres romains ?
+    answer: V
+    feedback: 5 = V
+  - id: roman_5_from_roman
+    question: V en chiffres arabes ?
+    answer: "5"
+    feedback: V = 5
+  - id: roman_6_to_roman
+    question: 6 en chiffres romains ?
+    answer: VI
+    feedback: 6 = VI
+  - id: roman_6_from_roman
+    question: VI en chiffres arabes ?
+    answer: "6"
+    feedback: VI = 6
+  - id: roman_7_to_roman
+    question: 7 en chiffres romains ?
+    answer: VII
+    feedback: 7 = VII
+  - id: roman_7_from_roman
+    question: VII en chiffres arabes ?
+    answer: "7"
+    feedback: VII = 7
+  - id: roman_8_to_roman
+    question: 8 en chiffres romains ?
+    answer: VIII
+    feedback: 8 = VIII
+  - id: roman_8_from_roman
+    question: VIII en chiffres arabes ?
+    answer: "8"
+    feedback: VIII = 8
+  - id: roman_9_to_roman
+    question: 9 en chiffres romains ?
+    answer: IX
+    feedback: 9 = IX
+  - id: roman_9_from_roman
+    question: IX en chiffres arabes ?
+    answer: "9"
+    feedback: IX = 9
+  - id: roman_10_to_roman
+    question: 10 en chiffres romains ?
+    answer: X
+    feedback: 10 = X
+  - id: roman_10_from_roman
+    question: X en chiffres arabes ?
+    answer: "10"
+    feedback: X = 10
+  - id: roman_11_to_roman
+    question: 11 en chiffres romains ?
+    answer: XI
+    feedback: 11 = XI
+  - id: roman_11_from_roman
+    question: XI en chiffres arabes ?
+    answer: "11"
+    feedback: XI = 11
+  - id: roman_12_to_roman
+    question: 12 en chiffres romains ?
+    answer: XII
+    feedback: 12 = XII
+  - id: roman_12_from_roman
+    question: XII en chiffres arabes ?
+    answer: "12"
+    feedback: XII = 12
+  - id: roman_13_to_roman
+    question: 13 en chiffres romains ?
+    answer: XIII
+    feedback: 13 = XIII
+  - id: roman_13_from_roman
+    question: XIII en chiffres arabes ?
+    answer: "13"
+    feedback: XIII = 13
+  - id: roman_14_to_roman
+    question: 14 en chiffres romains ?
+    answer: XIV
+    feedback: 14 = XIV
+  - id: roman_14_from_roman
+    question: XIV en chiffres arabes ?
+    answer: "14"
+    feedback: XIV = 14
+  - id: roman_15_to_roman
+    question: 15 en chiffres romains ?
+    answer: XV
+    feedback: 15 = XV
+  - id: roman_15_from_roman
+    question: XV en chiffres arabes ?
+    answer: "15"
+    feedback: XV = 15
+  - id: roman_16_to_roman
+    question: 16 en chiffres romains ?
+    answer: XVI
+    feedback: 16 = XVI
+  - id: roman_16_from_roman
+    question: XVI en chiffres arabes ?
+    answer: "16"
+    feedback: XVI = 16
+  - id: roman_17_to_roman
+    question: 17 en chiffres romains ?
+    answer: XVII
+    feedback: 17 = XVII
+  - id: roman_17_from_roman
+    question: XVII en chiffres arabes ?
+    answer: "17"
+    feedback: XVII = 17
+  - id: roman_18_to_roman
+    question: 18 en chiffres romains ?
+    answer: XVIII
+    feedback: 18 = XVIII
+  - id: roman_18_from_roman
+    question: XVIII en chiffres arabes ?
+    answer: "18"
+    feedback: XVIII = 18
+  - id: roman_19_to_roman
+    question: 19 en chiffres romains ?
+    answer: XIX
+    feedback: 19 = XIX
+  - id: roman_19_from_roman
+    question: XIX en chiffres arabes ?
+    answer: "19"
+    feedback: XIX = 19
+  - id: roman_20_to_roman
+    question: 20 en chiffres romains ?
+    answer: XX
+    feedback: 20 = XX
+  - id: roman_20_from_roman
+    question: XX en chiffres arabes ?
+    answer: "20"
+    feedback: XX = 20

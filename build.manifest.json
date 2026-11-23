@@ -1,0 +1,174 @@
+{
+  "name": "Train Your Brain",
+  "version": "1.0.0-alpha",
+  "description": "Manifeste de build définissant l'ordre de chargement des modules",
+
+  "vendor": {
+    "description": "Bibliothèques tierces à inclure avant les modules",
+    "files": [
+      {
+        "name": "js-yaml",
+        "path": "node_modules/js-yaml/dist/js-yaml.min.js",
+        "global": "jsyaml"
+      },
+      {
+        "name": "katex",
+        "path": "node_modules/katex/dist/katex.min.js",
+        "global": "katex"
+      }
+    ],
+    "styles": [
+      {
+        "name": "katex",
+        "path": "node_modules/katex/dist/katex.min.css",
+        "fontsPath": "node_modules/katex/dist/fonts",
+        "embedFonts": true
+      },
+      {
+        "name": "opendyslexic-400",
+        "path": "node_modules/@fontsource/opendyslexic/latin-400.css",
+        "fontsPath": "node_modules/@fontsource/opendyslexic/files",
+        "embedFonts": true
+      },
+      {
+        "name": "opendyslexic-700",
+        "path": "node_modules/@fontsource/opendyslexic/latin-700.css",
+        "fontsPath": "node_modules/@fontsource/opendyslexic/files",
+        "embedFonts": true
+      }
+    ]
+  },
+
+  "modules": {
+    "description": "Modules métier - ordre de chargement important",
+    "order": [
+      "types.js",
+      "i18n.js",
+      "compression.js",
+      "error-handler.js",
+      "a11y.js",
+      "text-utils.js",
+      "state.js",
+      "storage.js",
+      "leitner.js",
+      "xp.js",
+      "validator.js",
+      "router.js",
+      "badges.js",
+      "challenges.js",
+      "tags-taxonomy.js",
+      "tags.js",
+      "themes.js",
+      "audio.js",
+      "latex.js",
+      "yaml.js",
+      "moodle.js",
+      "exporter.js",
+      "lingua-libre.js",
+      "multilingual.js",
+      "prompt-generator.js",
+      "deck-validator.js",
+      "prompt-learner.js"
+    ]
+  },
+
+  "ui": {
+    "description": "Composants UI - ordre de chargement critique",
+    "order": [
+      "components.js",
+      "components/card-media.js",
+      "components/deck-table.js",
+      "components/tag-selector.js",
+      "pages-base.js",
+      "page-utils.js",
+      "effects.js",
+      "tutorial.js",
+      "charts.js",
+      "page-splash.js",
+      "page-home.js",
+      "page-explore.js",
+      "page-stats.js",
+      "page-settings.js",
+      "game/card-type-renderer.js",
+      "game/answer-extractor.js",
+      "game/answer-validator.js",
+      "game/session-tracker.js",
+      "game/secret-stats.js",
+      "game/session-manager.js",
+      "page-game.js",
+      "deck-editor/card-renderer.js",
+      "deck-editor/card-binder.js",
+      "deck-editor/sync-controller.js",
+      "page-deck-editor.js",
+      "prompt-generator/dictation-mode.js",
+      "prompt-generator/multilingual-creator.js",
+      "prompt-generator/form-renderer.js",
+      "prompt-generator/yaml-editor-renderer.js",
+      "prompt-generator/yaml-editor-logic.js",
+      "page-prompt-generator.js",
+      "page-multilingual-config.js",
+      "page-exam.js",
+      "page-challenge.js",
+      "page-session-summary.js",
+      "page-deck-resources.js",
+      "page-deck-review.js",
+      "page-badges.js",
+      "page-challenges.js",
+      "page-deck-hub.js",
+      "page-deck-merger.js",
+      "page-multilingual-creator.js",
+      "app.js"
+    ]
+  },
+
+  "styles": {
+    "order": [
+      "main.css"
+    ]
+  },
+
+  "dependencies": {
+    "description": "Dépendances entre fichiers UI",
+    "page-utils.js": [
+      "pages-base.js"
+    ],
+    "page-game.js": [
+      "components.js",
+      "pages-base.js",
+      "page-utils.js",
+      "game/card-type-renderer.js",
+      "game/answer-extractor.js",
+      "game/answer-validator.js",
+      "game/session-tracker.js",
+      "game/secret-stats.js",
+      "game/session-manager.js"
+    ],
+    "page-deck-editor.js": [
+      "components.js",
+      "pages-base.js",
+      "page-utils.js",
+      "deck-editor/card-renderer.js",
+      "deck-editor/card-binder.js",
+      "deck-editor/sync-controller.js"
+    ],
+    "page-prompt-generator.js": [
+      "components.js",
+      "pages-base.js",
+      "page-utils.js",
+      "prompt-generator/dictation-mode.js",
+      "prompt-generator/multilingual-creator.js",
+      "prompt-generator/form-renderer.js",
+      "prompt-generator/yaml-editor-renderer.js",
+      "prompt-generator/yaml-editor-logic.js"
+    ],
+    "page-multilingual-config.js": [
+      "components.js",
+      "pages-base.js",
+      "page-utils.js"
+    ],
+    "app.js": [
+      "pages-base.js",
+      "page-utils.js"
+    ]
+  }
+}

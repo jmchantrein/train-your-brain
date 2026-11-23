@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Signaler une faille de sécurité (en privé)
+    url: https://github.com/jmchantrein/train-your-brain/security/advisories/new
+    about: Ne décris pas une faille dans un ticket public. Lis SECURITY.md puis utilise ce lien.
+  - name: Lire le guide de contribution
+    url: https://github.com/jmchantrein/train-your-brain/blob/main/CONTRIBUTING.md
+    about: Comment proposer un deck, corriger un texte ou modifier le code.

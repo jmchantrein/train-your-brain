@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<meta name="color-scheme" content="dark light">
+<title>Page introuvable – Train Your Brain</title>
+<link rel="icon" href="{{SITE_URL}}/assets/favicon.svg" type="image/svg+xml">
+<style>
+:root { --bg: #0a0f1a; --text: #f8fafc; --link: #a78bfa; --focus: #fbbf24; color-scheme: dark; }
+@media (prefers-color-scheme: light) { :root { --bg: #f8fafc; --text: #0f172a; --link: #6d28d9; --focus: #6d28d9; color-scheme: light; } }
+body { margin: 0; min-height: 100vh; display: grid; place-items: center; padding: 16px; background: var(--bg); color: var(--text); font: 1rem/1.65 system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif; }
+main { max-width: 32em; }
+h1 { font-size: clamp(1.6rem, 5vw, 2.2rem); line-height: 1.2; margin: 0 0 12px; }
+p { margin: 0 0 12px; }
+a { color: var(--link); text-underline-offset: .18em; }
+a:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; border-radius: 4px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Page introuvable</h1>
+  <p>Cette adresse ne mène à aucune page du site.</p>
+  <p><a href="{{SITE_URL}}/">Retourner à l’accueil</a></p>
+</main>
+</body>
+</html>

@@ -1,0 +1,226 @@
+name: Chiffres romains - Siècles et dates
+description: Siècles (I à XXI) et dates historiques
+tags: [sciences, maths, arithmetique, chiffres-romains, histoire, sixieme]
+category: [sciences, maths, arithmetique, histoire, sixieme]
+settings:
+  sequential: false
+  bidirectional: false
+metadata:
+  license: CC-BY-SA-4.0
+  source:
+    type: procedural
+    generator: roman-numerals
+    version: 1.0.0
+    generatedAt: "2026-11-22"
+    parameters:
+      type: centuries
+cards:
+  - id: roman_century_1_to_roman
+    question: 1er siècle en chiffres romains ?
+    answer: I
+    feedback: "Le 1er siècle s'écrit I."
+  - id: roman_century_1_from_roman
+    question: Siècle I en nombre ?
+    answer: "1"
+    alternatives: [1er]
+    feedback: I = 1er siècle.
+  - id: roman_century_2_to_roman
+    question: 2e siècle en chiffres romains ?
+    answer: II
+    feedback: "Le 2e siècle s'écrit II."
+  - id: roman_century_2_from_roman
+    question: Siècle II en nombre ?
+    answer: "2"
+    alternatives: [2e]
+    feedback: II = 2e siècle.
+  - id: roman_century_3_to_roman
+    question: 3e siècle en chiffres romains ?
+    answer: III
+    feedback: "Le 3e siècle s'écrit III."
+  - id: roman_century_3_from_roman
+    question: Siècle III en nombre ?
+    answer: "3"
+    alternatives: [3e]
+    feedback: III = 3e siècle.
+  - id: roman_century_4_to_roman
+    question: 4e siècle en chiffres romains ?
+    answer: IV
+    feedback: "Le 4e siècle s'écrit IV."
+  - id: roman_century_4_from_roman
+    question: Siècle IV en nombre ?
+    answer: "4"
+    alternatives: [4e]
+    feedback: IV = 4e siècle.
+  - id: roman_century_5_to_roman
+    question: 5e siècle en chiffres romains ?
+    answer: V
+    feedback: "Le 5e siècle s'écrit V."
+  - id: roman_century_5_from_roman
+    question: Siècle V en nombre ?
+    answer: "5"
+    alternatives: [5e]
+    feedback: V = 5e siècle.
+  - id: roman_century_6_to_roman
+    question: 6e siècle en chiffres romains ?
+    answer: VI
+    feedback: "Le 6e siècle s'écrit VI."
+  - id: roman_century_6_from_roman
+    question: Siècle VI en nombre ?
+    answer: "6"
+    alternatives: [6e]
+    feedback: VI = 6e siècle.
+  - id: roman_century_7_to_roman
+    question: 7e siècle en chiffres romains ?
+    answer: VII
+    feedback: "Le 7e siècle s'écrit VII."
+  - id: roman_century_7_from_roman
+    question: Siècle VII en nombre ?
+    answer: "7"
+    alternatives: [7e]
+    feedback: VII = 7e siècle.
+  - id: roman_century_8_to_roman
+    question: 8e siècle en chiffres romains ?
+    answer: VIII
+    feedback: "Le 8e siècle s'écrit VIII."
+  - id: roman_century_8_from_roman
+    question: Siècle VIII en nombre ?
+    answer: "8"
+    alternatives: [8e]
+    feedback: VIII = 8e siècle.
+  - id: roman_century_9_to_roman
+    question: 9e siècle en chiffres romains ?
+    answer: IX
+    feedback: "Le 9e siècle s'écrit IX."
+  - id: roman_century_9_from_roman
+    question: Siècle IX en nombre ?
+    answer: "9"
+    alternatives: [9e]
+    feedback: IX = 9e siècle.
+  - id: roman_century_10_to_roman
+    question: 10e siècle en chiffres romains ?
+    answer: X
+    feedback: "Le 10e siècle s'écrit X."
+  - id: roman_century_10_from_roman
+    question: Siècle X en nombre ?
+    answer: "10"
+    alternatives: [10e]
+    feedback: X = 10e siècle.
+  - id: roman_century_11_to_roman
+    question: 11e siècle en chiffres romains ?
+    answer: XI
+    feedback: "Le 11e siècle s'écrit XI."
+  - id: roman_century_11_from_roman
+    question: Siècle XI en nombre ?
+    answer: "11"
+    alternatives: [11e]
+    feedback: XI = 11e siècle.
+  - id: roman_century_12_to_roman
+    question: 12e siècle en chiffres romains ?
+    answer: XII
+    feedback: "Le 12e siècle s'écrit XII."
+  - id: roman_century_12_from_roman
+    question: Siècle XII en nombre ?
+    answer: "12"
+    alternatives: [12e]
+    feedback: XII = 12e siècle.
+  - id: roman_century_13_to_roman
+    question: 13e siècle en chiffres romains ?
+    answer: XIII
+    feedback: "Le 13e siècle s'écrit XIII."
+  - id: roman_century_13_from_roman
+    question: Siècle XIII en nombre ?
+    answer: "13"
+    alternatives: [13e]
+    feedback: XIII = 13e siècle.
+  - id: roman_century_14_to_roman
+    question: 14e siècle en chiffres romains ?
+    answer: XIV
+    feedback: "Le 14e siècle s'écrit XIV."
+  - id: roman_century_14_from_roman
+    question: Siècle XIV en nombre ?
+    answer: "14"
+    alternatives: [14e]
+    feedback: XIV = 14e siècle.
+  - id: roman_century_15_to_roman
+    question: 15e siècle en chiffres romains ?
+    answer: XV
+    feedback: "Le 15e siècle s'écrit XV."
+  - id: roman_century_15_from_roman
+    question: Siècle XV en nombre ?
+    answer: "15"
+    alternatives: [15e]
+    feedback: XV = 15e siècle.
+  - id: roman_century_16_to_roman
+    question: 16e siècle en chiffres romains ?
+    answer: XVI
+    feedback: "Le 16e siècle s'écrit XVI."
+  - id: roman_century_16_from_roman
+    question: Siècle XVI en nombre ?
+    answer: "16"
+    alternatives: [16e]
+    feedback: XVI = 16e siècle.
+  - id: roman_century_17_to_roman
+    question: 17e siècle en chiffres romains ?
+    answer: XVII
+    feedback: "Le 17e siècle s'écrit XVII."
+  - id: roman_century_17_from_roman
+    question: Siècle XVII en nombre ?
+    answer: "17"
+    alternatives: [17e]
+    feedback: XVII = 17e siècle.
+  - id: roman_century_18_to_roman
+    question: 18e siècle en chiffres romains ?
+    answer: XVIII
+    feedback: "Le 18e siècle s'écrit XVIII."
+  - id: roman_century_18_from_roman
+    question: Siècle XVIII en nombre ?
+    answer: "18"
+    alternatives: [18e]
+    feedback: XVIII = 18e siècle.
+  - id: roman_century_19_to_roman
+    question: 19e siècle en chiffres romains ?
+    answer: XIX
+    feedback: "Le 19e siècle s'écrit XIX."
+  - id: roman_century_19_from_roman
+    question: Siècle XIX en nombre ?
+    answer: "19"
+    alternatives: [19e]
+    feedback: XIX = 19e siècle.
+  - id: roman_century_20_to_roman
+    question: 20e siècle en chiffres romains ?
+    answer: XX
+    feedback: "Le 20e siècle s'écrit XX."
+  - id: roman_century_20_from_roman
+    question: Siècle XX en nombre ?
+    answer: "20"
+    alternatives: [20e]
+    feedback: XX = 20e siècle.
+  - id: roman_century_21_to_roman
+    question: 21e siècle en chiffres romains ?
+    answer: XXI
+    feedback: "Le 21e siècle s'écrit XXI."
+  - id: roman_century_21_from_roman
+    question: Siècle XXI en nombre ?
+    answer: "21"
+    alternatives: [21e]
+    feedback: XXI = 21e siècle.
+  - id: roman_date_1789
+    question: 1789 en chiffres romains ?
+    answer: MDCCLXXXIX
+    feedback: 1789 (Révolution française) = MDCCLXXXIX
+  - id: roman_date_1945
+    question: 1945 en chiffres romains ?
+    answer: MCMXLV
+    feedback: 1945 (Fin WWII) = MCMXLV
+  - id: roman_date_2000
+    question: 2000 en chiffres romains ?
+    answer: MM
+    feedback: 2000 (An 2000) = MM
+  - id: roman_date_1515
+    question: 1515 en chiffres romains ?
+    answer: MDXV
+    feedback: 1515 (Bataille de Marignan) = MDXV
+  - id: roman_date_1492
+    question: 1492 en chiffres romains ?
+    answer: MCDXCII
+    feedback: 1492 (Découverte Amérique) = MCDXCII

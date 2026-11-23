@@ -1,0 +1,65 @@
+name: Alphabet grec - Usage scientifique
+description: Usage des lettres grecques en mathématiques et physique
+tags: [langues, grec, alphabet, grc-alphabet, sciences, maths]
+category: [langues, grc-alphabet, sciences, maths]
+settings:
+  sequential: false
+  bidirectional: false
+metadata:
+  license: CC-BY-SA-4.0
+  source:
+    type: procedural
+    generator: greek-alphabet
+    version: 1.0.0
+    generatedAt: "2026-11-22"
+    parameters:
+      type: science-usage
+cards:
+  - id: greek_usage_alpha
+    question: La lettre α (alpha) est utilisée pour représenter quoi ?
+    answer: "angles, coefficients"
+    feedback: "α (alpha) : angles, coefficients"
+  - id: greek_usage_beta
+    question: La lettre β (bêta) est utilisée pour représenter quoi ?
+    answer: "angles, coefficients"
+    feedback: "β (bêta) : angles, coefficients"
+  - id: greek_usage_gamma
+    question: La lettre γ (gamma) est utilisée pour représenter quoi ?
+    answer: "angles, facteur de Lorentz"
+    feedback: "γ (gamma) : angles, facteur de Lorentz"
+  - id: greek_usage_delta
+    question: La lettre δ (delta) est utilisée pour représenter quoi ?
+    answer: "variation, différence"
+    feedback: "δ (delta) : variation, différence"
+  - id: greek_usage_epsilon
+    question: La lettre ε (epsilon) est utilisée pour représenter quoi ?
+    answer: "petites quantités, permittivité"
+    feedback: "ε (epsilon) : petites quantités, permittivité"
+  - id: greek_usage_theta
+    question: La lettre θ (thêta) est utilisée pour représenter quoi ?
+    answer: angles
+    feedback: "θ (thêta) : angles"
+  - id: greek_usage_lambda
+    question: La lettre λ (lambda) est utilisée pour représenter quoi ?
+    answer: "longueur d'onde, fonction anonyme"
+    feedback: "λ (lambda) : longueur d'onde, fonction anonyme"
+  - id: greek_usage_mu
+    question: La lettre μ (mu) est utilisée pour représenter quoi ?
+    answer: "coefficient de frottement, micro-"
+    feedback: "μ (mu) : coefficient de frottement, micro-"
+  - id: greek_usage_pi
+    question: La lettre π (pi) est utilisée pour représenter quoi ?
+    answer: nombre pi (3.14159...)
+    feedback: "π (pi) : nombre pi (3.14159...)"
+  - id: greek_usage_sigma
+    question: La lettre σ (sigma) est utilisée pour représenter quoi ?
+    answer: "somme, écart-type"
+    feedback: "σ (sigma) : somme, écart-type"
+  - id: greek_usage_phi
+    question: La lettre φ (phi) est utilisée pour représenter quoi ?
+    answer: "flux, nombre d'or"
+    feedback: "φ (phi) : flux, nombre d'or"
+  - id: greek_usage_omega
+    question: La lettre ω (oméga) est utilisée pour représenter quoi ?
+    answer: "ohm (Ω), vitesse angulaire (ω)"
+    feedback: "ω (oméga) : ohm (Ω), vitesse angulaire (ω)"

@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Train Your Brain – Révise par cartes mémoire, sans internet</title>
+<meta name="description" content="Application libre de révision par cartes mémoire et répétition espacée (système Leitner). Un seul fichier HTML, sans compte, qui fonctionne hors-ligne ; tes données de révision restent dans ton navigateur.">
+<link rel="canonical" href="{{SITE_URL}}/">
+<meta name="color-scheme" content="dark light">
+<meta name="theme-color" content="#0a0f1a">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{SITE_URL}}/">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:site_name" content="Train Your Brain">
+<meta property="og:title" content="Train Your Brain – Révise par cartes mémoire, sans internet">
+<meta property="og:description" content="Révision par répétition espacée (Leitner), 132 decks fournis, 4 760 cartes. Un seul fichier HTML, hors-ligne, sans compte. Logiciel libre (AGPL version 3 ou ultérieure).">
+<meta property="og:image" content="{{SITE_URL}}/assets/app-accueil.png">
+<meta property="og:image:width" content="1024">
+<meta property="og:image:height" content="640">
+<meta property="og:image:alt" content="Page d’accueil de l’application : la liste des decks à réviser avec leur progression.">
+<meta name="twitter:card" content="summary_large_image">
+
+<style>
+:root {
+  --bg: #0a0f1a;
+  --surface: #111827;
+  --card: #1f2937;
+  --border: #374151;
+  --text: #f8fafc;
+  --muted: #cbd5e1;
+  --link: #a78bfa;
+  --btn: #7c3aed;
+  --btn-hover: #6d28d9;
+  --btn-text: #ffffff;
+  --focus: #fbbf24;
+  --purple: #8b5cf6;
+  --orange: #f97316;
+  --green: #22c55e;
+  --gray: #6b7280;
+  --shadow: 0 10px 30px rgba(0, 0, 0, .35);
+  --radius: 14px;
+  color-scheme: dark;
+}
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg: #f8fafc;
+    --surface: #ffffff;
+    --card: #ffffff;
+    --border: #cbd5e1;
+    --text: #0f172a;
+    --muted: #475569;
+    --link: #6d28d9;
+    --btn: #6d28d9;
+    --btn-hover: #5b21b6;
+    --focus: #6d28d9;
+    --shadow: 0 10px 30px rgba(15, 23, 42, .12);
+    color-scheme: light;
+  }
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+@media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font: 1rem/1.65 system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+img { max-width: 100%; height: auto; display: block; }
+a { color: var(--link); text-underline-offset: .18em; }
+a:hover { text-decoration-thickness: 2px; }
+:focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; border-radius: 4px; }
+h1, h2, h3 { line-height: 1.2; margin: 0; }
+p { margin: 0; }
+ul { margin: 0; padding: 0; list-style: none; }
+
+.wrap { width: min(100% - 32px, 1120px); margin-inline: auto; }
+
+.skip {
+  position: absolute; left: 16px; top: -100px; z-index: 10;
+  background: var(--btn); color: var(--btn-text); padding: 10px 16px; border-radius: 8px;
+}
+.skip:focus { top: 12px; }
+
+/* En-tête */
+.site-header { border-bottom: 1px solid var(--border); background: var(--surface); }
+.site-header .wrap { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 8px 24px; padding-block: 12px; }
+.brand { display: inline-flex; align-items: center; gap: 10px; font-weight: 700; color: var(--text); text-decoration: none; }
+.brand img { width: 32px; height: 32px; }
+.site-nav ul { display: flex; flex-wrap: wrap; gap: 4px 20px; }
+.site-nav a { color: var(--text); display: inline-block; padding: 8px 2px; }
+
+/* Héros */
+.hero { padding-block: clamp(40px, 8vw, 88px); }
+.hero .wrap { display: grid; gap: 40px; align-items: center; }
+@media (min-width: 960px) { .hero .wrap { grid-template-columns: 1fr 1.1fr; } }
+.eyebrow { color: var(--muted); font-size: .95rem; margin-bottom: 12px; }
+h1 { font-size: clamp(2rem, 5vw, 3.1rem); letter-spacing: -.01em; }
+.lead { font-size: clamp(1.1rem, 2.2vw, 1.3rem); color: var(--muted); margin-top: 20px; max-width: 38em; }
+.actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 28px; }
+.btn {
+  display: inline-flex; align-items: center; justify-content: center;
+  min-height: 48px; padding: 10px 24px; border-radius: 10px;
+  font-weight: 700; font-size: 1.05rem; text-decoration: none;
+  border: 2px solid var(--btn); background: var(--btn); color: var(--btn-text);
+}
+.btn:hover { background: var(--btn-hover); border-color: var(--btn-hover); }
+.btn--ghost { background: transparent; color: var(--text); border-color: var(--muted); }
+.btn--ghost:hover { background: var(--card); border-color: var(--text); }
+@media (prefers-reduced-motion: no-preference) { .btn { transition: background-color .15s, border-color .15s; } }
+.note { margin-top: 18px; color: var(--muted); font-size: .98rem; max-width: 38em; }
+.shot { border-radius: var(--radius); border: 1px solid var(--border); box-shadow: var(--shadow); width: 100%; background: var(--surface); }
+
+/* Sections */
+section { padding-block: clamp(36px, 6vw, 64px); }
+.alt { background: var(--surface); border-block: 1px solid var(--border); }
+h2 { font-size: clamp(1.5rem, 3.4vw, 2rem); margin-bottom: 12px; }
+.intro { color: var(--muted); max-width: 44em; margin-bottom: 28px; }
+
+.grid { display: grid; gap: 20px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr)); }
+.card { background: var(--card); border: 1px solid var(--border); border-radius: var(--radius); padding: 22px; }
+.card h3 { font-size: 1.15rem; margin-bottom: 8px; }
+.card p, .card li { color: var(--muted); }
+.card p + p { margin-top: 10px; }
+.card ul { margin-top: 10px; padding-left: 1.1em; list-style: disc; }
+.card li { padding-left: .2em; }
+
+.boxes { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+.card .boxes { padding-left: 0; list-style: none; }
+.card .boxes li { padding-left: 0; }
+.box { display: inline-flex; align-items: center; gap: 8px; font-size: .9rem; color: var(--text); border: 1px solid var(--border); border-radius: 999px; padding: 4px 12px 4px 8px; background: var(--bg); }
+.box::before { content: ""; width: 14px; height: 14px; border-radius: 4px; background: var(--c); }
+.box--never { --c: var(--gray); }
+.box--purple { --c: var(--purple); }
+.box--orange { --c: var(--orange); }
+.box--green { --c: var(--green); }
+
+.shots { display: grid; gap: 28px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr)); }
+figure { margin: 0; }
+figcaption { margin-top: 10px; color: var(--muted); font-size: .95rem; }
+
+.two { display: grid; gap: 28px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr)); }
+.two h3 { font-size: 1.2rem; margin-bottom: 8px; }
+.two p + p { margin-top: 10px; }
+.two p { color: var(--muted); }
+.two ul { margin-top: 10px; padding-left: 1.1em; list-style: disc; color: var(--muted); }
+
+code { font: .92em ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; background: var(--card); border: 1px solid var(--border); border-radius: 5px; padding: 1px 6px; overflow-wrap: anywhere; }
+
+/* Pied de page */
+.site-footer { border-top: 1px solid var(--border); background: var(--surface); padding-block: 28px; color: var(--muted); font-size: .95rem; }
+.site-footer .wrap { display: flex; flex-wrap: wrap; gap: 8px 28px; justify-content: space-between; }
+.site-footer ul { display: flex; flex-wrap: wrap; gap: 4px 20px; }
+.site-footer a { display: inline-block; padding: 6px 0; }
+
+@media (forced-colors: active) {
+  .btn { border: 2px solid ButtonText; }
+  .box::before { border: 1px solid CanvasText; }
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#contenu">Aller au contenu</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="./"><img src="assets/favicon.svg" alt="" width="32" height="32"><span>Train Your Brain</span></a>
+    <nav class="site-nav" aria-label="Sections de la page">
+      <ul>
+        <li><a href="#points-forts">Points forts</a></li>
+        <li><a href="#captures">Captures</a></li>
+        <li><a href="#vie-privee">Vie privée</a></li>
+        <li><a href="#logiciel-libre">Logiciel libre</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="contenu">
+  <section class="hero" aria-labelledby="titre">
+    <div class="wrap">
+      <div>
+        <p class="eyebrow">Application de révision par cartes mémoire</p>
+        <h1 id="titre">Train Your Brain</h1>
+        <p class="lead">Cette application sert à apprendre et à réviser avec des cartes mémoire : tables de calcul, capitales, vocabulaire, ou tes propres cours. Elle espace automatiquement les révisions. Elle se lance d’un double-clic, sans internet ni compte.</p>
+        <div class="actions">
+          <a class="btn" href="app/">Lancer l’application</a>
+          <a class="btn btn--ghost" href="app/index.html" download="train-your-brain.html">Télécharger l’application (fichier HTML, environ 5&nbsp;Mo)</a>
+        </div>
+        <p class="note">Le fichier téléchargé est l’application complète : il fonctionne hors-ligne par double-clic dans un navigateur récent, et tes profils et ta progression restent enregistrés sur ton appareil, dans le navigateur.</p>
+      </div>
+      <img class="shot" src="assets/app-accueil.png" width="1024" height="640" alt="Page d’accueil : la liste des decks à réviser, avec leur progression.">
+    </div>
+  </section>
+
+  <section id="points-forts" class="alt" aria-labelledby="t-forts">
+    <div class="wrap">
+      <h2 id="t-forts">Ce que fait l’application</h2>
+      <p class="intro">Tout ce qui est décrit ici est disponible dans la version actuelle ({{VERSION}}, encore en phase de test).</p>
+      <ul class="grid">
+        <li class="card">
+          <h3>Répétition espacée (Leitner)</h3>
+          <p>Chaque carte vit dans l’une de quatre boîtes. Une réponse fausse la renvoie en violet. Une réponse juste et rapide la fait passer en vert : elle se repose quelques jours avant de revenir. Le seuil de rapidité s’adapte à ta vitesse, carte par carte.</p>
+          <ul class="boxes" aria-label="Les quatre boîtes">
+            <li class="box box--never">Non jouée</li>
+            <li class="box box--purple">Violette : à revoir</li>
+            <li class="box box--orange">Orange : en cours</li>
+            <li class="box box--green">Verte : maîtrisées</li>
+          </ul>
+        </li>
+        <li class="card">
+          <h3>Des récompenses au service de la mémorisation</h3>
+          <p>Les points et les défis suivent ta révision : ils ne cherchent pas à te faire jouer plus longtemps. Tu gagnes de l’XP (points d’expérience) à chaque carte, de 1 à 3 selon la boîte, avec des bonus de série de cartes vertes, et tu montes de niveau. 43 badges marquent des étapes.</p>
+          <ul>
+            <li>Jusqu’à 3 défis par jour, fixés d’après les cartes à réviser ce jour-là.</li>
+            <li>Un mode défi, une autre façon de faire ses révisions : mêmes cartes, même progression, avec un objectif. Le chronomètre est facultatif.</li>
+            <li>Des quêtes hebdomadaires, dont les cibles restent à ta portée.</li>
+            <li>Une série de jours de révision : un jour sans carte à réviser ne la casse pas.</li>
+            <li>Un bilan de séance qui indique ce qui a progressé et la prochaine révision utile.</li>
+          </ul>
+          <p>Un mode examen est aussi proposé.</p>
+        </li>
+        <li class="card">
+          <h3>132 decks fournis</h3>
+          <p>4 760 cartes prêtes à jouer, en français : tables d’addition, de soustraction, de multiplication et de division, fractions, pourcentages, conversions, équations, capitales, départements français, alphabets grec et cyrillique, kana japonais, verbes irréguliers anglais, tableau périodique, chiffres romains, binaire, notions de musique.</p>
+        </li>
+        <li class="card">
+          <h3>Créer et importer ses decks</h3>
+          <p>Un éditeur intégré gère les questions à réponse libre, numériques, QCM, vrai/faux, textes à trous et associations, avec formules LaTeX. Les decks s’importent et s’exportent en YAML et en Moodle XML.</p>
+          <p>Un générateur de prompts prépare des consignes pour un assistant IA de ton choix. Tu réimportes ensuite le résultat. Rien n’est envoyé à un assistant par l’application.</p>
+        </li>
+        <li class="card">
+          <h3>Vocabulaire multilingue</h3>
+          <p>Des decks de vocabulaire avec traduction, dictée audio et mode image. Leur création passe par des services Wikimedia, à ta demande (voir « Vie privée et réseau »). Réviser ne demande aucune connexion.</p>
+        </li>
+        <li class="card">
+          <h3>Plusieurs profils</h3>
+          <p>Chaque personne a son profil, avec sa progression, ses badges et ses statistiques sur le même appareil. Un profil peut être sauvegardé dans un fichier puis restauré ailleurs.</p>
+        </li>
+        <li class="card">
+          <h3>Thèmes et accessibilité</h3>
+          <p>Huit thèmes de couleurs, un mode dyslexie (avec la police OpenDyslexic, embarquée), un mode contraste élevé, un espacement large du texte et un mode daltonien. L’interface s’adapte aux écrans de téléphone comme d’ordinateur et se commande au clavier.</p>
+          <p>L’interface existe en français et en anglais, au choix de chaque profil. L’interface française te tutoie et accorde les textes au féminin par défaut ; un réglage permet de choisir le masculin ou la forme à point médian. Le contenu des decks reste en français, même quand l’interface est en anglais.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="captures" aria-labelledby="t-captures">
+    <div class="wrap">
+      <h2 id="t-captures">L’application en images</h2>
+      <p class="intro">Captures de la version actuelle ({{VERSION}}), avec un profil d’exemple.</p>
+      <div class="shots">
+        <figure>
+          <img class="shot" src="assets/app-jeu.png" width="1024" height="640" loading="lazy" alt="Une carte en cours de jeu : une question de capitale et un champ de réponse.">
+          <figcaption>En jeu : une question, une réponse libre. À gauche, la pioche ; en haut, les cartes réussies ; à droite, la série et l’XP de la séance.</figcaption>
+        </figure>
+        <figure>
+          <img class="shot" src="assets/app-bilan.png" width="1024" height="640" loading="lazy" alt="Le bilan d’une séance : 8 cartes, 100 % de réussite, 44 XP.">
+          <figcaption>Le bilan : ce que la séance a changé (ici, 8 cartes passées en boîte verte), les défis terminés et, quand il n’y a plus rien à réviser, la prochaine révision utile.</figcaption>
+        </figure>
+        <figure>
+          <img class="shot" src="assets/app-badges.png" width="1024" height="640" loading="lazy" alt="La page des badges : les badges obtenus en couleur, les autres avec un cadenas.">
+          <figcaption>Les badges, par rubrique : 12 sur 43 sont obtenus dans cet exemple.</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <section id="vie-privee" class="alt" aria-labelledby="t-privee">
+    <div class="wrap">
+      <h2 id="t-privee">Vie privée et réseau</h2>
+      <p class="intro">Voici ce que l’application fait, et ne fait pas, avec internet.</p>
+      <ul class="grid">
+        <li class="card">
+          <h3>Réviser : aucune connexion</h3>
+          <p>Réviser, jouer, créer un deck à la main et importer ou exporter un deck n’ont besoin d’aucune connexion. L’application ne charge aucune ressource distante, y compris celles qu’un deck importé référencerait (images, sons).</p>
+        </li>
+        <li class="card">
+          <h3>Seuls accès réseau : deux créateurs de decks</h3>
+          <p>Les créateurs de decks de dictée et multilingues interrogent Lingua Libre, Wikimedia Commons et Wikidata, uniquement quand tu le demandes. Ils leur envoient le mot cherché et sa langue.</p>
+        </li>
+        <li class="card">
+          <h3>Tes données restent dans le navigateur</h3>
+          <p>Tes profils et ta progression sont enregistrés dans le stockage de ton navigateur, sur ton appareil. Rien n’est envoyé à un serveur du projet : il n’y en a pas. Cette page d’accueil n’utilise aucun script et aucune mesure d’audience.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="logiciel-libre" aria-labelledby="t-libre">
+    <div class="wrap">
+      <h2 id="t-libre">Logiciel libre</h2>
+      <p class="intro">Train Your Brain est publié sous licence <strong>AGPL version 3 ou ultérieure</strong> (<a href="https://github.com/jmchantrein/train-your-brain/blob/main/LICENSE">texte de la licence</a>) : tu peux l’utiliser, l’étudier, le modifier et le redistribuer. Les decks (paquets de cartes) fournis sont sous licence <strong>CC BY-SA 4.0</strong> (<a href="https://github.com/jmchantrein/train-your-brain/blob/main/decks/LICENSE">texte de la licence</a>). Copyright © 2025-2026 Jean-Mathieu Chantrein. Le code source est sur <a href="https://github.com/jmchantrein/train-your-brain">github.com/jmchantrein/train-your-brain</a>.</p>
+      <div class="two">
+        <div>
+          <h3>Contribuer</h3>
+          <p>Les decks de qualité sont les bienvenus : propose-les par <em>pull request</em> dans le dossier <code>decks/</code> du dépôt. Les corrections et idées de fonctionnalités passent aussi par une pull request, et les conventions de code sont décrites dans le dépôt.</p>
+        </div>
+        <div>
+          <h3>Un projet IA et humain</h3>
+          <p>Le code, les tests et la documentation sont produits par une IA (Claude) sous supervision humaine. Le projet est expérimental : la version actuelle est une alpha, des erreurs peuvent subsister, y compris dans les decks.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>Train Your Brain, version {{VERSION}} · © 2025-2026 Jean-Mathieu Chantrein · code sous licence <a href="https://github.com/jmchantrein/train-your-brain/blob/main/LICENSE">AGPL version 3 ou ultérieure</a>, decks sous licence <a href="https://github.com/jmchantrein/train-your-brain/blob/main/decks/LICENSE">CC BY-SA 4.0</a></p>
+    <ul aria-label="Liens du pied de page">
+      <li><a href="app/">Application</a></li>
+      <li><a href="api/">Documentation de l’API</a></li>
+      <li><a href="https://github.com/jmchantrein/train-your-brain">Dépôt GitHub</a></li>
+    </ul>
+  </div>
+</footer>
+</body>
+</html>

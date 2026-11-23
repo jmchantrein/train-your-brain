@@ -1,0 +1,127 @@
+name: Conversions de masses
+description: "kg, g, mg"
+tags: [math, conversions, masses, ce2, cm1]
+category: [sciences, maths, arithmetique, mesures, conversions, ce2, cm1]
+settings:
+  sequential: false
+  bidirectional: false
+metadata:
+  license: CC-BY-SA-4.0
+  source:
+    type: procedural
+    generator: conversions
+    version: 1.0.0
+    generatedAt: "2026-11-22"
+    parameters:
+      type: mass
+resources:
+  - type: summary
+    title: "Les conversions d'unités"
+    content: "Les **conversions** permettent d'exprimer une même mesure avec différentes unités.\n\nLe système métrique est basé sur des puissances de 10 :\n- kilo (k) = 1000\n- hecto (h) = 100\n- déca (da) = 10\n- unité = 1\n- déci (d) = 0,1\n- centi (c) = 0,01\n- milli (m) = 0,001\n\nConvertir c'est multiplier ou diviser par 10, 100, 1000..."
+    aiGenerated: true
+    icon: 📝
+  - type: link
+    title: "Wikipedia : Système métrique"
+    url: https://fr.wikipedia.org/wiki/Système_métrique
+    icon: 📖
+  - type: glossary
+    title: Vocabulaire clé
+    content: "- **Conversion** : Changement d'unité pour une même mesure\n- **Préfixe** : Symbole indiquant le multiple (k, c, m...)\n- **Unité SI** : Unité du Système International\n- **Multiple** : Unité plus grande (km, kg)\n- **Sous-multiple** : Unité plus petite (mm, mg)"
+    icon: 📚
+  - type: objective
+    title: "Objectifs d'apprentissage"
+    content: "- ✅ Convertir kg ↔ g ↔ mg\n- ✅ Manipuler les multiples de 1000\n- ✅ Applications pratiques (courses, cuisine)"
+    icon: 🎯
+  - type: tip
+    title: Conversions de masses
+    content: "Rappels :\n• 1 kg = 1000 g\n• 1 g = 1000 mg\n• 1 tonne = 1000 kg\n\nExemples pratiques :\n• 500 g = 0,5 kg (demi-kilo)\n• 250 g = 0,25 kg (quart de kilo)"
+    icon: 💡
+cards:
+  - id: conv_kg_to_g_1
+    question: 1 kg = ? g
+    answer: "1000"
+    feedback: 1 kg × 1000 = 1000 g
+  - id: conv_kg_to_g_2
+    question: 2 kg = ? g
+    answer: "2000"
+    feedback: 2 kg × 1000 = 2000 g
+  - id: conv_kg_to_g_5
+    question: 5 kg = ? g
+    answer: "5000"
+    feedback: 5 kg × 1000 = 5000 g
+  - id: conv_kg_to_g_0_5
+    question: 0.5 kg = ? g
+    answer: "500"
+    feedback: 0.5 kg × 1000 = 500 g
+  - id: conv_kg_to_g_0_1
+    question: 0.1 kg = ? g
+    answer: "100"
+    feedback: 0.1 kg × 1000 = 100 g
+  - id: conv_kg_to_g_1_5
+    question: 1.5 kg = ? g
+    answer: "1500"
+    feedback: 1.5 kg × 1000 = 1500 g
+  - id: conv_kg_to_g_2_5
+    question: 2.5 kg = ? g
+    answer: "2500"
+    feedback: 2.5 kg × 1000 = 2500 g
+  - id: conv_kg_to_g_0_25
+    question: 0.25 kg = ? g
+    answer: "250"
+    feedback: 0.25 kg × 1000 = 250 g
+  - id: conv_g_to_kg_1000
+    question: 1000 g = ? kg
+    answer: "1"
+    feedback: 1000 g ÷ 1000 = 1 kg
+  - id: conv_g_to_kg_2000
+    question: 2000 g = ? kg
+    answer: "2"
+    feedback: 2000 g ÷ 1000 = 2 kg
+  - id: conv_g_to_kg_500
+    question: 500 g = ? kg
+    answer: "0.5"
+    feedback: 500 g ÷ 1000 = 0.5 kg
+  - id: conv_g_to_kg_250
+    question: 250 g = ? kg
+    answer: "0.25"
+    feedback: 250 g ÷ 1000 = 0.25 kg
+  - id: conv_g_to_kg_100
+    question: 100 g = ? kg
+    answer: "0.1"
+    feedback: 100 g ÷ 1000 = 0.1 kg
+  - id: conv_g_to_kg_1500
+    question: 1500 g = ? kg
+    answer: "1.5"
+    feedback: 1500 g ÷ 1000 = 1.5 kg
+  - id: conv_g_to_kg_750
+    question: 750 g = ? kg
+    answer: "0.75"
+    feedback: 750 g ÷ 1000 = 0.75 kg
+  - id: conv_g_to_kg_3000
+    question: 3000 g = ? kg
+    answer: "3"
+    feedback: 3000 g ÷ 1000 = 3 kg
+  - id: conv_g_to_mg_1
+    question: 1 g = ? mg
+    answer: "1000"
+    feedback: 1 g × 1000 = 1000 mg
+  - id: conv_g_to_mg_2
+    question: 2 g = ? mg
+    answer: "2000"
+    feedback: 2 g × 1000 = 2000 mg
+  - id: conv_g_to_mg_5
+    question: 5 g = ? mg
+    answer: "5000"
+    feedback: 5 g × 1000 = 5000 mg
+  - id: conv_g_to_mg_0_5
+    question: 0.5 g = ? mg
+    answer: "500"
+    feedback: 0.5 g × 1000 = 500 mg
+  - id: conv_g_to_mg_0_1
+    question: 0.1 g = ? mg
+    answer: "100"
+    feedback: 0.1 g × 1000 = 100 mg
+  - id: conv_g_to_mg_10
+    question: 10 g = ? mg
+    answer: "10000"
+    feedback: 10 g × 1000 = 10000 mg

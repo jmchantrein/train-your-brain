@@ -1,0 +1,67 @@
+name: Puissances de 10
+description: Les puissances de 10 de 10⁰ à 10⁶
+tags: [math, puissances, notation-scientifique, quatrieme]
+category: [sciences, maths, arithmetique, puissances, quatrieme]
+settings:
+  sequential: false
+  bidirectional: false
+metadata:
+  license: CC-BY-SA-4.0
+  source:
+    type: procedural
+    generator: powers
+    version: 1.0.0
+    generatedAt: "2026-11-22"
+    parameters:
+      type: powers-of-10
+resources:
+  - type: summary
+    title: "Qu'est-ce qu'une puissance ?"
+    content: "Une **puissance** indique combien de fois un nombre est multiplié par lui-même.\n\n**Notation** : aⁿ = a × a × ... × a (n fois)\n\nExemples :\n- 3² = 3 × 3 = 9 (carré de 3)\n- 2³ = 2 × 2 × 2 = 8 (cube de 2)\n- 10⁴ = 10 × 10 × 10 × 10 = 10000\n\nLes puissances sont essentielles en :\n- Sciences (notation scientifique)\n- Informatique (puissances de 2)\n- Géométrie (aires et volumes)"
+    aiGenerated: true
+    icon: 📝
+  - type: link
+    title: "Wikipedia : Puissance"
+    url: https://fr.wikipedia.org/wiki/Puissance_(mathématiques)
+    icon: 📖
+  - type: glossary
+    title: Vocabulaire clé
+    content: "- **Puissance** : Multiplication répétée d'un nombre\n- **Base** : Le nombre qui est multiplié\n- **Exposant** : Le nombre de fois qu'on multiplie\n- **Carré** : Puissance 2 (n²)\n- **Cube** : Puissance 3 (n³)\n- **Racine carrée** : Opération inverse du carré (√)"
+    icon: 📚
+  - type: objective
+    title: "Objectifs d'apprentissage"
+    content: "- ✅ Mémoriser les puissances de 10\n- ✅ Comprendre la notation scientifique\n- ✅ Manipuler les ordres de grandeur"
+    icon: 🎯
+  - type: tip
+    title: Puissances de 10
+    content: "Règle simple : 10ⁿ = 1 suivi de n zéros\n\n- 10⁰ = 1\n- 10¹ = 10\n- 10² = 100\n- 10³ = 1000 (mille)\n- 10⁶ = 1 000 000 (million)\n- 10⁹ = milliard"
+    icon: 💡
+cards:
+  - id: pow_10_0
+    question: 10^0 = ?
+    answer: "1"
+    feedback: 10^0 = 1 (0 zéro après le 1)
+  - id: pow_10_1
+    question: 10^1 = ?
+    answer: "10"
+    feedback: 10^1 = 10 (1 zéro après le 1)
+  - id: pow_10_2
+    question: 10^2 = ?
+    answer: "100"
+    feedback: 10^2 = 100 (2 zéros après le 1)
+  - id: pow_10_3
+    question: 10^3 = ?
+    answer: "1000"
+    feedback: 10^3 = 1000 (3 zéros après le 1)
+  - id: pow_10_4
+    question: 10^4 = ?
+    answer: "10000"
+    feedback: 10^4 = 10000 (4 zéros après le 1)
+  - id: pow_10_5
+    question: 10^5 = ?
+    answer: "100000"
+    feedback: 10^5 = 100000 (5 zéros après le 1)
+  - id: pow_10_6
+    question: 10^6 = ?
+    answer: "1000000"
+    feedback: 10^6 = 1000000 (6 zéros après le 1)

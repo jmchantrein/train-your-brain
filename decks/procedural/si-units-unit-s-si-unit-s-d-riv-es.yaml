@@ -1,0 +1,134 @@
+name: Unités SI - Unités dérivées
+description: "Unités dérivées courantes (newton, joule, watt, etc.)"
+tags: [sciences, sciences-physiques, physique, unites, SI, seconde]
+category: [sciences, sciences-physiques, physique, seconde]
+settings:
+  sequential: false
+  bidirectional: false
+metadata:
+  license: CC-BY-SA-4.0
+  source:
+    type: procedural
+    generator: si-units
+    version: 1.0.0
+    generatedAt: "2026-11-22"
+    parameters:
+      type: derived-units
+cards:
+  - id: si_derived_N_qty_to_unit
+    question: "Quelle est l'unité de force ?"
+    answer: newton
+    alternatives: ["N"]
+    feedback: "L'unité de force est le newton (N = kg·m/s²)."
+  - id: si_derived_N_unit_to_sym
+    question: Quel est le symbole du newton ?
+    answer: "N"
+    feedback: newton → N
+  - id: si_derived_N_sym_to_unit
+    question: N est le symbole de quelle unité ?
+    answer: newton
+    feedback: N = newton (force)
+  - id: si_derived_J_qty_to_unit
+    question: "Quelle est l'unité d'énergie ?"
+    answer: joule
+    alternatives: [J]
+    feedback: "L'unité d'énergie est le joule (J = kg·m²/s²)."
+  - id: si_derived_J_unit_to_sym
+    question: Quel est le symbole du joule ?
+    answer: J
+    feedback: joule → J
+  - id: si_derived_J_sym_to_unit
+    question: J est le symbole de quelle unité ?
+    answer: joule
+    feedback: J = joule (énergie)
+  - id: si_derived_W_qty_to_unit
+    question: "Quelle est l'unité de puissance ?"
+    answer: watt
+    alternatives: [W]
+    feedback: "L'unité de puissance est le watt (W = J/s)."
+  - id: si_derived_W_unit_to_sym
+    question: Quel est le symbole du watt ?
+    answer: W
+    feedback: watt → W
+  - id: si_derived_W_sym_to_unit
+    question: W est le symbole de quelle unité ?
+    answer: watt
+    feedback: W = watt (puissance)
+  - id: si_derived_Pa_qty_to_unit
+    question: "Quelle est l'unité de pression ?"
+    answer: pascal
+    alternatives: [Pa]
+    feedback: "L'unité de pression est le pascal (Pa = N/m²)."
+  - id: si_derived_Pa_unit_to_sym
+    question: Quel est le symbole du pascal ?
+    answer: Pa
+    feedback: pascal → Pa
+  - id: si_derived_Pa_sym_to_unit
+    question: Pa est le symbole de quelle unité ?
+    answer: pascal
+    feedback: Pa = pascal (pression)
+  - id: si_derived_Hz_qty_to_unit
+    question: "Quelle est l'unité de fréquence ?"
+    answer: hertz
+    alternatives: [Hz]
+    feedback: "L'unité de fréquence est le hertz (Hz = s⁻¹)."
+  - id: si_derived_Hz_unit_to_sym
+    question: Quel est le symbole du hertz ?
+    answer: Hz
+    feedback: hertz → Hz
+  - id: si_derived_Hz_sym_to_unit
+    question: Hz est le symbole de quelle unité ?
+    answer: hertz
+    feedback: Hz = hertz (fréquence)
+  - id: si_derived_C_qty_to_unit
+    question: "Quelle est l'unité de charge électrique ?"
+    answer: coulomb
+    alternatives: [C]
+    feedback: "L'unité de charge électrique est le coulomb (C = A·s)."
+  - id: si_derived_C_unit_to_sym
+    question: Quel est le symbole du coulomb ?
+    answer: C
+    feedback: coulomb → C
+  - id: si_derived_C_sym_to_unit
+    question: C est le symbole de quelle unité ?
+    answer: coulomb
+    feedback: C = coulomb (charge électrique)
+  - id: si_derived_V_qty_to_unit
+    question: "Quelle est l'unité de tension électrique ?"
+    answer: volt
+    alternatives: [V]
+    feedback: "L'unité de tension électrique est le volt (V = W/A)."
+  - id: si_derived_V_unit_to_sym
+    question: Quel est le symbole du volt ?
+    answer: V
+    feedback: volt → V
+  - id: si_derived_V_sym_to_unit
+    question: V est le symbole de quelle unité ?
+    answer: volt
+    feedback: V = volt (tension électrique)
+  - id: si_derived_Ω_qty_to_unit
+    question: "Quelle est l'unité de résistance ?"
+    answer: ohm
+    alternatives: [Ω]
+    feedback: "L'unité de résistance est l'ohm (Ω = V/A)."
+  - id: si_derived_Ω_unit_to_sym
+    question: "Quel est le symbole de l'ohm ?"
+    answer: Ω
+    feedback: ohm → Ω
+  - id: si_derived_Ω_sym_to_unit
+    question: Ω est le symbole de quelle unité ?
+    answer: ohm
+    feedback: Ω = ohm (résistance)
+  - id: si_derived_F_qty_to_unit
+    question: "Quelle est l'unité de capacité ?"
+    answer: farad
+    alternatives: [F]
+    feedback: "L'unité de capacité est le farad (F = C/V)."
+  - id: si_derived_F_unit_to_sym
+    question: Quel est le symbole du farad ?
+    answer: F
+    feedback: farad → F
+  - id: si_derived_F_sym_to_unit
+    question: F est le symbole de quelle unité ?
+    answer: farad
+    feedback: F = farad (capacité)

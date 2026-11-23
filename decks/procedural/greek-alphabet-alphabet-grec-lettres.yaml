@@ -1,0 +1,425 @@
+name: Alphabet grec - Lettres
+description: "Les 24 lettres de l'alphabet grec"
+tags: [langues, grec, alphabet, grc-alphabet]
+category: [langues, grc-alphabet]
+settings:
+  sequential: true
+  bidirectional: false
+metadata:
+  license: CC-BY-SA-4.0
+  source:
+    type: procedural
+    generator: greek-alphabet
+    version: 1.0.0
+    generatedAt: "2026-11-22"
+    parameters:
+      type: letters
+cards:
+  - id: greek_alpha_name_to_lower
+    question: "Quelle est la lettre grecque \"alpha\" (minuscule) ?"
+    answer: α
+    feedback: "alpha : Α (majuscule), α (minuscule)"
+  - id: greek_alpha_lower_to_name
+    question: "Comment s'appelle la lettre \"α\" ?"
+    answer: alpha
+    alternatives: [alpha]
+    feedback: α est la lettre alpha (alpha)
+  - id: greek_alpha_name_to_upper
+    question: "Quelle est la lettre grecque \"alpha\" (majuscule) ?"
+    answer: Α
+    feedback: "alpha : Α (majuscule), α (minuscule)"
+  - id: greek_alpha_lower_to_upper
+    question: Majuscule de α ?
+    answer: Α
+    feedback: α → Α (alpha)
+  - id: greek_beta_name_to_lower
+    question: "Quelle est la lettre grecque \"bêta\" (minuscule) ?"
+    answer: β
+    feedback: "bêta : Β (majuscule), β (minuscule)"
+  - id: greek_beta_lower_to_name
+    question: "Comment s'appelle la lettre \"β\" ?"
+    answer: bêta
+    alternatives: [beta]
+    feedback: β est la lettre bêta (beta)
+  - id: greek_beta_name_to_upper
+    question: "Quelle est la lettre grecque \"bêta\" (majuscule) ?"
+    answer: Β
+    feedback: "bêta : Β (majuscule), β (minuscule)"
+  - id: greek_beta_lower_to_upper
+    question: Majuscule de β ?
+    answer: Β
+    feedback: β → Β (bêta)
+  - id: greek_gamma_name_to_lower
+    question: "Quelle est la lettre grecque \"gamma\" (minuscule) ?"
+    answer: γ
+    feedback: "gamma : Γ (majuscule), γ (minuscule)"
+  - id: greek_gamma_lower_to_name
+    question: "Comment s'appelle la lettre \"γ\" ?"
+    answer: gamma
+    alternatives: [gamma]
+    feedback: γ est la lettre gamma (gamma)
+  - id: greek_gamma_name_to_upper
+    question: "Quelle est la lettre grecque \"gamma\" (majuscule) ?"
+    answer: Γ
+    feedback: "gamma : Γ (majuscule), γ (minuscule)"
+  - id: greek_gamma_lower_to_upper
+    question: Majuscule de γ ?
+    answer: Γ
+    feedback: γ → Γ (gamma)
+  - id: greek_delta_name_to_lower
+    question: "Quelle est la lettre grecque \"delta\" (minuscule) ?"
+    answer: δ
+    feedback: "delta : Δ (majuscule), δ (minuscule)"
+  - id: greek_delta_lower_to_name
+    question: "Comment s'appelle la lettre \"δ\" ?"
+    answer: delta
+    alternatives: [delta]
+    feedback: δ est la lettre delta (delta)
+  - id: greek_delta_name_to_upper
+    question: "Quelle est la lettre grecque \"delta\" (majuscule) ?"
+    answer: Δ
+    feedback: "delta : Δ (majuscule), δ (minuscule)"
+  - id: greek_delta_lower_to_upper
+    question: Majuscule de δ ?
+    answer: Δ
+    feedback: δ → Δ (delta)
+  - id: greek_epsilon_name_to_lower
+    question: "Quelle est la lettre grecque \"epsilon\" (minuscule) ?"
+    answer: ε
+    feedback: "epsilon : Ε (majuscule), ε (minuscule)"
+  - id: greek_epsilon_lower_to_name
+    question: "Comment s'appelle la lettre \"ε\" ?"
+    answer: epsilon
+    alternatives: [epsilon]
+    feedback: ε est la lettre epsilon (epsilon)
+  - id: greek_epsilon_name_to_upper
+    question: "Quelle est la lettre grecque \"epsilon\" (majuscule) ?"
+    answer: Ε
+    feedback: "epsilon : Ε (majuscule), ε (minuscule)"
+  - id: greek_epsilon_lower_to_upper
+    question: Majuscule de ε ?
+    answer: Ε
+    feedback: ε → Ε (epsilon)
+  - id: greek_zeta_name_to_lower
+    question: "Quelle est la lettre grecque \"zêta\" (minuscule) ?"
+    answer: ζ
+    feedback: "zêta : Ζ (majuscule), ζ (minuscule)"
+  - id: greek_zeta_lower_to_name
+    question: "Comment s'appelle la lettre \"ζ\" ?"
+    answer: zêta
+    alternatives: [zeta]
+    feedback: ζ est la lettre zêta (zeta)
+  - id: greek_zeta_name_to_upper
+    question: "Quelle est la lettre grecque \"zêta\" (majuscule) ?"
+    answer: Ζ
+    feedback: "zêta : Ζ (majuscule), ζ (minuscule)"
+  - id: greek_zeta_lower_to_upper
+    question: Majuscule de ζ ?
+    answer: Ζ
+    feedback: ζ → Ζ (zêta)
+  - id: greek_eta_name_to_lower
+    question: "Quelle est la lettre grecque \"êta\" (minuscule) ?"
+    answer: η
+    feedback: "êta : Η (majuscule), η (minuscule)"
+  - id: greek_eta_lower_to_name
+    question: "Comment s'appelle la lettre \"η\" ?"
+    answer: êta
+    alternatives: [eta]
+    feedback: η est la lettre êta (eta)
+  - id: greek_eta_name_to_upper
+    question: "Quelle est la lettre grecque \"êta\" (majuscule) ?"
+    answer: Η
+    feedback: "êta : Η (majuscule), η (minuscule)"
+  - id: greek_eta_lower_to_upper
+    question: Majuscule de η ?
+    answer: Η
+    feedback: η → Η (êta)
+  - id: greek_theta_name_to_lower
+    question: "Quelle est la lettre grecque \"thêta\" (minuscule) ?"
+    answer: θ
+    feedback: "thêta : Θ (majuscule), θ (minuscule)"
+  - id: greek_theta_lower_to_name
+    question: "Comment s'appelle la lettre \"θ\" ?"
+    answer: thêta
+    alternatives: [theta]
+    feedback: θ est la lettre thêta (theta)
+  - id: greek_theta_name_to_upper
+    question: "Quelle est la lettre grecque \"thêta\" (majuscule) ?"
+    answer: Θ
+    feedback: "thêta : Θ (majuscule), θ (minuscule)"
+  - id: greek_theta_lower_to_upper
+    question: Majuscule de θ ?
+    answer: Θ
+    feedback: θ → Θ (thêta)
+  - id: greek_iota_name_to_lower
+    question: "Quelle est la lettre grecque \"iota\" (minuscule) ?"
+    answer: ι
+    feedback: "iota : Ι (majuscule), ι (minuscule)"
+  - id: greek_iota_lower_to_name
+    question: "Comment s'appelle la lettre \"ι\" ?"
+    answer: iota
+    alternatives: [iota]
+    feedback: ι est la lettre iota (iota)
+  - id: greek_iota_name_to_upper
+    question: "Quelle est la lettre grecque \"iota\" (majuscule) ?"
+    answer: Ι
+    feedback: "iota : Ι (majuscule), ι (minuscule)"
+  - id: greek_iota_lower_to_upper
+    question: Majuscule de ι ?
+    answer: Ι
+    feedback: ι → Ι (iota)
+  - id: greek_kappa_name_to_lower
+    question: "Quelle est la lettre grecque \"kappa\" (minuscule) ?"
+    answer: κ
+    feedback: "kappa : Κ (majuscule), κ (minuscule)"
+  - id: greek_kappa_lower_to_name
+    question: "Comment s'appelle la lettre \"κ\" ?"
+    answer: kappa
+    alternatives: [kappa]
+    feedback: κ est la lettre kappa (kappa)
+  - id: greek_kappa_name_to_upper
+    question: "Quelle est la lettre grecque \"kappa\" (majuscule) ?"
+    answer: Κ
+    feedback: "kappa : Κ (majuscule), κ (minuscule)"
+  - id: greek_kappa_lower_to_upper
+    question: Majuscule de κ ?
+    answer: Κ
+    feedback: κ → Κ (kappa)
+  - id: greek_lambda_name_to_lower
+    question: "Quelle est la lettre grecque \"lambda\" (minuscule) ?"
+    answer: λ
+    feedback: "lambda : Λ (majuscule), λ (minuscule)"
+  - id: greek_lambda_lower_to_name
+    question: "Comment s'appelle la lettre \"λ\" ?"
+    answer: lambda
+    alternatives: [lambda]
+    feedback: λ est la lettre lambda (lambda)
+  - id: greek_lambda_name_to_upper
+    question: "Quelle est la lettre grecque \"lambda\" (majuscule) ?"
+    answer: Λ
+    feedback: "lambda : Λ (majuscule), λ (minuscule)"
+  - id: greek_lambda_lower_to_upper
+    question: Majuscule de λ ?
+    answer: Λ
+    feedback: λ → Λ (lambda)
+  - id: greek_mu_name_to_lower
+    question: "Quelle est la lettre grecque \"mu\" (minuscule) ?"
+    answer: μ
+    feedback: "mu : Μ (majuscule), μ (minuscule)"
+  - id: greek_mu_lower_to_name
+    question: "Comment s'appelle la lettre \"μ\" ?"
+    answer: mu
+    alternatives: [mu]
+    feedback: μ est la lettre mu (mu)
+  - id: greek_mu_name_to_upper
+    question: "Quelle est la lettre grecque \"mu\" (majuscule) ?"
+    answer: Μ
+    feedback: "mu : Μ (majuscule), μ (minuscule)"
+  - id: greek_mu_lower_to_upper
+    question: Majuscule de μ ?
+    answer: Μ
+    feedback: μ → Μ (mu)
+  - id: greek_nu_name_to_lower
+    question: "Quelle est la lettre grecque \"nu\" (minuscule) ?"
+    answer: ν
+    feedback: "nu : Ν (majuscule), ν (minuscule)"
+  - id: greek_nu_lower_to_name
+    question: "Comment s'appelle la lettre \"ν\" ?"
+    answer: nu
+    alternatives: [nu]
+    feedback: ν est la lettre nu (nu)
+  - id: greek_nu_name_to_upper
+    question: "Quelle est la lettre grecque \"nu\" (majuscule) ?"
+    answer: Ν
+    feedback: "nu : Ν (majuscule), ν (minuscule)"
+  - id: greek_nu_lower_to_upper
+    question: Majuscule de ν ?
+    answer: Ν
+    feedback: ν → Ν (nu)
+  - id: greek_xi_name_to_lower
+    question: "Quelle est la lettre grecque \"xi\" (minuscule) ?"
+    answer: ξ
+    feedback: "xi : Ξ (majuscule), ξ (minuscule)"
+  - id: greek_xi_lower_to_name
+    question: "Comment s'appelle la lettre \"ξ\" ?"
+    answer: xi
+    alternatives: [xi]
+    feedback: ξ est la lettre xi (xi)
+  - id: greek_xi_name_to_upper
+    question: "Quelle est la lettre grecque \"xi\" (majuscule) ?"
+    answer: Ξ
+    feedback: "xi : Ξ (majuscule), ξ (minuscule)"
+  - id: greek_xi_lower_to_upper
+    question: Majuscule de ξ ?
+    answer: Ξ
+    feedback: ξ → Ξ (xi)
+  - id: greek_omicron_name_to_lower
+    question: "Quelle est la lettre grecque \"omicron\" (minuscule) ?"
+    answer: ο
+    feedback: "omicron : Ο (majuscule), ο (minuscule)"
+  - id: greek_omicron_lower_to_name
+    question: "Comment s'appelle la lettre \"ο\" ?"
+    answer: omicron
+    alternatives: [omicron]
+    feedback: ο est la lettre omicron (omicron)
+  - id: greek_omicron_name_to_upper
+    question: "Quelle est la lettre grecque \"omicron\" (majuscule) ?"
+    answer: Ο
+    feedback: "omicron : Ο (majuscule), ο (minuscule)"
+  - id: greek_omicron_lower_to_upper
+    question: Majuscule de ο ?
+    answer: Ο
+    feedback: ο → Ο (omicron)
+  - id: greek_pi_name_to_lower
+    question: "Quelle est la lettre grecque \"pi\" (minuscule) ?"
+    answer: π
+    feedback: "pi : Π (majuscule), π (minuscule)"
+  - id: greek_pi_lower_to_name
+    question: "Comment s'appelle la lettre \"π\" ?"
+    answer: pi
+    alternatives: [pi]
+    feedback: π est la lettre pi (pi)
+  - id: greek_pi_name_to_upper
+    question: "Quelle est la lettre grecque \"pi\" (majuscule) ?"
+    answer: Π
+    feedback: "pi : Π (majuscule), π (minuscule)"
+  - id: greek_pi_lower_to_upper
+    question: Majuscule de π ?
+    answer: Π
+    feedback: π → Π (pi)
+  - id: greek_rho_name_to_lower
+    question: "Quelle est la lettre grecque \"rhô\" (minuscule) ?"
+    answer: ρ
+    feedback: "rhô : Ρ (majuscule), ρ (minuscule)"
+  - id: greek_rho_lower_to_name
+    question: "Comment s'appelle la lettre \"ρ\" ?"
+    answer: rhô
+    alternatives: [rho]
+    feedback: ρ est la lettre rhô (rho)
+  - id: greek_rho_name_to_upper
+    question: "Quelle est la lettre grecque \"rhô\" (majuscule) ?"
+    answer: Ρ
+    feedback: "rhô : Ρ (majuscule), ρ (minuscule)"
+  - id: greek_rho_lower_to_upper
+    question: Majuscule de ρ ?
+    answer: Ρ
+    feedback: ρ → Ρ (rhô)
+  - id: greek_sigma_name_to_lower
+    question: "Quelle est la lettre grecque \"sigma\" (minuscule) ?"
+    answer: σ
+    feedback: "sigma : Σ (majuscule), σ (minuscule)"
+  - id: greek_sigma_lower_to_name
+    question: "Comment s'appelle la lettre \"σ\" ?"
+    answer: sigma
+    alternatives: [sigma]
+    feedback: σ est la lettre sigma (sigma)
+  - id: greek_sigma_name_to_upper
+    question: "Quelle est la lettre grecque \"sigma\" (majuscule) ?"
+    answer: Σ
+    feedback: "sigma : Σ (majuscule), σ (minuscule)"
+  - id: greek_sigma_lower_to_upper
+    question: Majuscule de σ ?
+    answer: Σ
+    feedback: σ → Σ (sigma)
+  - id: greek_tau_name_to_lower
+    question: "Quelle est la lettre grecque \"tau\" (minuscule) ?"
+    answer: τ
+    feedback: "tau : Τ (majuscule), τ (minuscule)"
+  - id: greek_tau_lower_to_name
+    question: "Comment s'appelle la lettre \"τ\" ?"
+    answer: tau
+    alternatives: [tau]
+    feedback: τ est la lettre tau (tau)
+  - id: greek_tau_name_to_upper
+    question: "Quelle est la lettre grecque \"tau\" (majuscule) ?"
+    answer: Τ
+    feedback: "tau : Τ (majuscule), τ (minuscule)"
+  - id: greek_tau_lower_to_upper
+    question: Majuscule de τ ?
+    answer: Τ
+    feedback: τ → Τ (tau)
+  - id: greek_upsilon_name_to_lower
+    question: "Quelle est la lettre grecque \"upsilon\" (minuscule) ?"
+    answer: υ
+    feedback: "upsilon : Υ (majuscule), υ (minuscule)"
+  - id: greek_upsilon_lower_to_name
+    question: "Comment s'appelle la lettre \"υ\" ?"
+    answer: upsilon
+    alternatives: [upsilon]
+    feedback: υ est la lettre upsilon (upsilon)
+  - id: greek_upsilon_name_to_upper
+    question: "Quelle est la lettre grecque \"upsilon\" (majuscule) ?"
+    answer: Υ
+    feedback: "upsilon : Υ (majuscule), υ (minuscule)"
+  - id: greek_upsilon_lower_to_upper
+    question: Majuscule de υ ?
+    answer: Υ
+    feedback: υ → Υ (upsilon)
+  - id: greek_phi_name_to_lower
+    question: "Quelle est la lettre grecque \"phi\" (minuscule) ?"
+    answer: φ
+    feedback: "phi : Φ (majuscule), φ (minuscule)"
+  - id: greek_phi_lower_to_name
+    question: "Comment s'appelle la lettre \"φ\" ?"
+    answer: phi
+    alternatives: [phi]
+    feedback: φ est la lettre phi (phi)
+  - id: greek_phi_name_to_upper
+    question: "Quelle est la lettre grecque \"phi\" (majuscule) ?"
+    answer: Φ
+    feedback: "phi : Φ (majuscule), φ (minuscule)"
+  - id: greek_phi_lower_to_upper
+    question: Majuscule de φ ?
+    answer: Φ
+    feedback: φ → Φ (phi)
+  - id: greek_chi_name_to_lower
+    question: "Quelle est la lettre grecque \"khi\" (minuscule) ?"
+    answer: χ
+    feedback: "khi : Χ (majuscule), χ (minuscule)"
+  - id: greek_chi_lower_to_name
+    question: "Comment s'appelle la lettre \"χ\" ?"
+    answer: khi
+    alternatives: [chi]
+    feedback: χ est la lettre khi (chi)
+  - id: greek_chi_name_to_upper
+    question: "Quelle est la lettre grecque \"khi\" (majuscule) ?"
+    answer: Χ
+    feedback: "khi : Χ (majuscule), χ (minuscule)"
+  - id: greek_chi_lower_to_upper
+    question: Majuscule de χ ?
+    answer: Χ
+    feedback: χ → Χ (khi)
+  - id: greek_psi_name_to_lower
+    question: "Quelle est la lettre grecque \"psi\" (minuscule) ?"
+    answer: ψ
+    feedback: "psi : Ψ (majuscule), ψ (minuscule)"
+  - id: greek_psi_lower_to_name
+    question: "Comment s'appelle la lettre \"ψ\" ?"
+    answer: psi
+    alternatives: [psi]
+    feedback: ψ est la lettre psi (psi)
+  - id: greek_psi_name_to_upper
+    question: "Quelle est la lettre grecque \"psi\" (majuscule) ?"
+    answer: Ψ
+    feedback: "psi : Ψ (majuscule), ψ (minuscule)"
+  - id: greek_psi_lower_to_upper
+    question: Majuscule de ψ ?
+    answer: Ψ
+    feedback: ψ → Ψ (psi)
+  - id: greek_omega_name_to_lower
+    question: "Quelle est la lettre grecque \"oméga\" (minuscule) ?"
+    answer: ω
+    feedback: "oméga : Ω (majuscule), ω (minuscule)"
+  - id: greek_omega_lower_to_name
+    question: "Comment s'appelle la lettre \"ω\" ?"
+    answer: oméga
+    alternatives: [omega]
+    feedback: ω est la lettre oméga (omega)
+  - id: greek_omega_name_to_upper
+    question: "Quelle est la lettre grecque \"oméga\" (majuscule) ?"
+    answer: Ω
+    feedback: "oméga : Ω (majuscule), ω (minuscule)"
+  - id: greek_omega_lower_to_upper
+    question: Majuscule de ω ?
+    answer: Ω
+    feedback: ω → Ω (oméga)

@@ -1,0 +1,185 @@
+name: Fractions et décimaux
+description: Convertir entre fractions et nombres décimaux
+tags: [math, fractions, decimaux, calcul-mental, cm1, cm2]
+category: [sciences, maths, arithmetique, fractions, decimaux, calcul-mental, cm1, cm2]
+settings:
+  sequential: false
+  bidirectional: false
+metadata:
+  license: CC-BY-SA-4.0
+  source:
+    type: procedural
+    generator: fractions
+    version: 1.0.0
+    generatedAt: "2026-11-22"
+    parameters:
+      type: conversions
+resources:
+  - type: summary
+    title: "Qu'est-ce qu'une fraction ?"
+    content: "Une **fraction** représente une partie d'un tout. Elle s'écrit sous la forme a/b où :\n- **a** est le numérateur (nombre de parts prises)\n- **b** est le dénominateur (nombre total de parts)\n\nPar exemple : **3/4** signifie 3 parts sur 4 au total.\n\nLes fractions sont utilisées pour :\n- Exprimer des proportions\n- Représenter des divisions\n- Calculer des pourcentages"
+    aiGenerated: true
+    icon: 📝
+  - type: link
+    title: "Wikipedia : Fraction"
+    url: https://fr.wikipedia.org/wiki/Fraction_(mathématiques)
+    icon: 📖
+  - type: glossary
+    title: Vocabulaire clé
+    content: "- **Fraction** : Nombre qui représente une partie d'un tout (a/b)\n- **Numérateur** : Nombre au-dessus de la barre de fraction\n- **Dénominateur** : Nombre en-dessous de la barre de fraction\n- **Fraction irréductible** : Fraction simplifiée au maximum\n- **Fractions équivalentes** : Fractions représentant le même nombre (1/2 = 2/4)\n- **PGCD** : Plus Grand Commun Diviseur (pour simplifier)"
+    icon: 📚
+  - type: summary
+    title: Fractions et décimaux
+    content: "Toute fraction peut s'écrire en nombre décimal (en divisant).\n\nFractions courantes à connaître :\n- 1/2 = 0.5\n- 1/4 = 0.25, 3/4 = 0.75\n- 1/5 = 0.2, 2/5 = 0.4, ...\n- 1/10 = 0.1, etc."
+    aiGenerated: true
+    icon: 📝
+  - type: objective
+    title: "Objectifs d'apprentissage"
+    content: "- ✅ Convertir les fractions usuelles en décimaux\n- ✅ Convertir les décimaux en fractions\n- ✅ Connaître par cœur les conversions courantes"
+    icon: 🎯
+cards:
+  - id: frac_to_dec_1_2
+    question: 1/2 = ? (décimal)
+    answer: "0.5"
+    alternatives: []
+    feedback: 1/2 = 1 ÷ 2 = 0.5
+  - id: dec_to_frac_0_5
+    question: 0.5 = ? (fraction)
+    answer: 1/2
+    feedback: 0.5 = 1/2
+  - id: frac_to_dec_1_4
+    question: 1/4 = ? (décimal)
+    answer: "0.25"
+    alternatives: []
+    feedback: 1/4 = 1 ÷ 4 = 0.25
+  - id: dec_to_frac_0_25
+    question: 0.25 = ? (fraction)
+    answer: 1/4
+    feedback: 0.25 = 1/4
+  - id: frac_to_dec_3_4
+    question: 3/4 = ? (décimal)
+    answer: "0.75"
+    alternatives: []
+    feedback: 3/4 = 3 ÷ 4 = 0.75
+  - id: dec_to_frac_0_75
+    question: 0.75 = ? (fraction)
+    answer: 3/4
+    feedback: 0.75 = 3/4
+  - id: frac_to_dec_1_5
+    question: 1/5 = ? (décimal)
+    answer: "0.2"
+    alternatives: []
+    feedback: 1/5 = 1 ÷ 5 = 0.2
+  - id: dec_to_frac_0_2
+    question: 0.2 = ? (fraction)
+    answer: 1/5
+    feedback: 0.2 = 1/5
+  - id: frac_to_dec_2_5
+    question: 2/5 = ? (décimal)
+    answer: "0.4"
+    alternatives: []
+    feedback: 2/5 = 2 ÷ 5 = 0.4
+  - id: dec_to_frac_0_4
+    question: 0.4 = ? (fraction)
+    answer: 2/5
+    feedback: 0.4 = 2/5
+  - id: frac_to_dec_3_5
+    question: 3/5 = ? (décimal)
+    answer: "0.6"
+    alternatives: []
+    feedback: 3/5 = 3 ÷ 5 = 0.6
+  - id: dec_to_frac_0_6
+    question: 0.6 = ? (fraction)
+    answer: 3/5
+    feedback: 0.6 = 3/5
+  - id: frac_to_dec_4_5
+    question: 4/5 = ? (décimal)
+    answer: "0.8"
+    alternatives: []
+    feedback: 4/5 = 4 ÷ 5 = 0.8
+  - id: dec_to_frac_0_8
+    question: 0.8 = ? (fraction)
+    answer: 4/5
+    feedback: 0.8 = 4/5
+  - id: frac_to_dec_1_10
+    question: 1/10 = ? (décimal)
+    answer: "0.1"
+    alternatives: []
+    feedback: 1/10 = 1 ÷ 10 = 0.1
+  - id: dec_to_frac_0_1
+    question: 0.1 = ? (fraction)
+    answer: 1/10
+    feedback: 0.1 = 1/10
+  - id: frac_to_dec_3_10
+    question: 3/10 = ? (décimal)
+    answer: "0.3"
+    alternatives: []
+    feedback: 3/10 = 3 ÷ 10 = 0.3
+  - id: dec_to_frac_0_3
+    question: 0.3 = ? (fraction)
+    answer: 3/10
+    feedback: 0.3 = 3/10
+  - id: frac_to_dec_7_10
+    question: 7/10 = ? (décimal)
+    answer: "0.7"
+    alternatives: []
+    feedback: 7/10 = 7 ÷ 10 = 0.7
+  - id: dec_to_frac_0_7
+    question: 0.7 = ? (fraction)
+    answer: 7/10
+    feedback: 0.7 = 7/10
+  - id: frac_to_dec_9_10
+    question: 9/10 = ? (décimal)
+    answer: "0.9"
+    alternatives: []
+    feedback: 9/10 = 9 ÷ 10 = 0.9
+  - id: dec_to_frac_0_9
+    question: 0.9 = ? (fraction)
+    answer: 9/10
+    feedback: 0.9 = 9/10
+  - id: frac_to_dec_1_8
+    question: 1/8 = ? (décimal)
+    answer: "0.125"
+    alternatives: []
+    feedback: 1/8 = 1 ÷ 8 = 0.125
+  - id: dec_to_frac_0_125
+    question: 0.125 = ? (fraction)
+    answer: 1/8
+    feedback: 0.125 = 1/8
+  - id: frac_to_dec_3_8
+    question: 3/8 = ? (décimal)
+    answer: "0.375"
+    alternatives: []
+    feedback: 3/8 = 3 ÷ 8 = 0.375
+  - id: dec_to_frac_0_375
+    question: 0.375 = ? (fraction)
+    answer: 3/8
+    feedback: 0.375 = 3/8
+  - id: frac_to_dec_5_8
+    question: 5/8 = ? (décimal)
+    answer: "0.625"
+    alternatives: []
+    feedback: 5/8 = 5 ÷ 8 = 0.625
+  - id: dec_to_frac_0_625
+    question: 0.625 = ? (fraction)
+    answer: 5/8
+    feedback: 0.625 = 5/8
+  - id: frac_to_dec_7_8
+    question: 7/8 = ? (décimal)
+    answer: "0.875"
+    alternatives: []
+    feedback: 7/8 = 7 ÷ 8 = 0.875
+  - id: dec_to_frac_0_875
+    question: 0.875 = ? (fraction)
+    answer: 7/8
+    feedback: 0.875 = 7/8
+  - id: frac_to_dec_1_3
+    question: "1/3 = ? (décimal, arrondi au millième)"
+    answer: "0.333"
+    alternatives: [0.333...]
+    feedback: 1/3 = 1 ÷ 3 = 0.333... ≈ 0.333 (arrondi au millième)
+  - id: frac_to_dec_2_3
+    question: "2/3 = ? (décimal, arrondi au millième)"
+    answer: "0.667"
+    alternatives: [0.666...]
+    feedback: 2/3 = 2 ÷ 3 = 0.666... ≈ 0.667 (arrondi au millième)

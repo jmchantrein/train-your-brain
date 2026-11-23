@@ -1,0 +1,527 @@
+name: Verbes irréguliers anglais - Verbes essentiels
+description: 30 verbes irréguliers anglais (niveau 1)
+tags: [langues, anglais, verbes, grammaire, en-grammar, en-conjugation]
+category: [langues, anglais, en-grammar, en-conjugation]
+settings:
+  sequential: false
+  bidirectional: false
+metadata:
+  license: CC-BY-SA-4.0
+  source:
+    type: procedural
+    generator: irregular-en
+    version: 1.0.0
+    generatedAt: "2026-11-22"
+    parameters:
+      frequency: 1
+cards:
+  - id: irreg_be_to_past
+    question: "Quel est le prétérit de \"be\" ?"
+    answer: was/were
+    feedback: be → was/were → been (être)
+  - id: irreg_be_to_pp
+    question: "Quel est le participe passé de \"be\" ?"
+    answer: been
+    feedback: be → was/were → been (être)
+  - id: irreg_be_from_past
+    question: "\"was/were\" est le prétérit de quel verbe ?"
+    answer: be
+    feedback: be → was/were → been (être)
+  - id: irreg_be_fr_to_en
+    question: "Comment dit-on \"être\" en anglais ? (infinitif)"
+    answer: be
+    alternatives: [to be]
+    feedback: "être = be (was/were, been)"
+  - id: irreg_have_to_past
+    question: "Quel est le prétérit de \"have\" ?"
+    answer: had
+    feedback: have → had → had (avoir)
+  - id: irreg_have_to_pp
+    question: "Quel est le participe passé de \"have\" ?"
+    answer: had
+    feedback: have → had → had (avoir)
+  - id: irreg_have_from_past
+    question: "\"had\" est le prétérit de quel verbe ?"
+    answer: have
+    feedback: have → had → had (avoir)
+  - id: irreg_have_fr_to_en
+    question: "Comment dit-on \"avoir\" en anglais ? (infinitif)"
+    answer: have
+    alternatives: [to have]
+    feedback: "avoir = have (had, had)"
+  - id: irreg_do_to_past
+    question: "Quel est le prétérit de \"do\" ?"
+    answer: did
+    feedback: do → did → done (faire)
+  - id: irreg_do_to_pp
+    question: "Quel est le participe passé de \"do\" ?"
+    answer: done
+    feedback: do → did → done (faire)
+  - id: irreg_do_from_past
+    question: "\"did\" est le prétérit de quel verbe ?"
+    answer: do
+    feedback: do → did → done (faire)
+  - id: irreg_do_fr_to_en
+    question: "Comment dit-on \"faire\" en anglais ? (infinitif)"
+    answer: do
+    alternatives: [to do]
+    feedback: "faire = do (did, done)"
+  - id: irreg_say_to_past
+    question: "Quel est le prétérit de \"say\" ?"
+    answer: said
+    feedback: say → said → said (dire)
+  - id: irreg_say_to_pp
+    question: "Quel est le participe passé de \"say\" ?"
+    answer: said
+    feedback: say → said → said (dire)
+  - id: irreg_say_from_past
+    question: "\"said\" est le prétérit de quel verbe ?"
+    answer: say
+    feedback: say → said → said (dire)
+  - id: irreg_say_fr_to_en
+    question: "Comment dit-on \"dire\" en anglais ? (infinitif)"
+    answer: say
+    alternatives: [to say]
+    feedback: "dire = say (said, said)"
+  - id: irreg_go_to_past
+    question: "Quel est le prétérit de \"go\" ?"
+    answer: went
+    feedback: go → went → gone (aller)
+  - id: irreg_go_to_pp
+    question: "Quel est le participe passé de \"go\" ?"
+    answer: gone
+    feedback: go → went → gone (aller)
+  - id: irreg_go_from_past
+    question: "\"went\" est le prétérit de quel verbe ?"
+    answer: go
+    feedback: go → went → gone (aller)
+  - id: irreg_go_fr_to_en
+    question: "Comment dit-on \"aller\" en anglais ? (infinitif)"
+    answer: go
+    alternatives: [to go]
+    feedback: "aller = go (went, gone)"
+  - id: irreg_get_to_past
+    question: "Quel est le prétérit de \"get\" ?"
+    answer: got
+    feedback: get → got → got/gotten (obtenir)
+  - id: irreg_get_to_pp
+    question: "Quel est le participe passé de \"get\" ?"
+    answer: got/gotten
+    feedback: get → got → got/gotten (obtenir)
+  - id: irreg_get_from_past
+    question: "\"got\" est le prétérit de quel verbe ?"
+    answer: get
+    feedback: get → got → got/gotten (obtenir)
+  - id: irreg_get_fr_to_en
+    question: "Comment dit-on \"obtenir\" en anglais ? (infinitif)"
+    answer: get
+    alternatives: [to get]
+    feedback: "obtenir = get (got, got/gotten)"
+  - id: irreg_make_to_past
+    question: "Quel est le prétérit de \"make\" ?"
+    answer: made
+    feedback: make → made → made (faire/fabriquer)
+  - id: irreg_make_to_pp
+    question: "Quel est le participe passé de \"make\" ?"
+    answer: made
+    feedback: make → made → made (faire/fabriquer)
+  - id: irreg_make_from_past
+    question: "\"made\" est le prétérit de quel verbe ?"
+    answer: make
+    feedback: make → made → made (faire/fabriquer)
+  - id: irreg_make_fr_to_en
+    question: "Comment dit-on \"faire/fabriquer\" en anglais ? (infinitif)"
+    answer: make
+    alternatives: [to make]
+    feedback: "faire/fabriquer = make (made, made)"
+  - id: irreg_know_to_past
+    question: "Quel est le prétérit de \"know\" ?"
+    answer: knew
+    feedback: know → knew → known (savoir/connaître)
+  - id: irreg_know_to_pp
+    question: "Quel est le participe passé de \"know\" ?"
+    answer: known
+    feedback: know → knew → known (savoir/connaître)
+  - id: irreg_know_from_past
+    question: "\"knew\" est le prétérit de quel verbe ?"
+    answer: know
+    feedback: know → knew → known (savoir/connaître)
+  - id: irreg_know_fr_to_en
+    question: "Comment dit-on \"savoir/connaître\" en anglais ? (infinitif)"
+    answer: know
+    alternatives: [to know]
+    feedback: "savoir/connaître = know (knew, known)"
+  - id: irreg_think_to_past
+    question: "Quel est le prétérit de \"think\" ?"
+    answer: thought
+    feedback: think → thought → thought (penser)
+  - id: irreg_think_to_pp
+    question: "Quel est le participe passé de \"think\" ?"
+    answer: thought
+    feedback: think → thought → thought (penser)
+  - id: irreg_think_from_past
+    question: "\"thought\" est le prétérit de quel verbe ?"
+    answer: think
+    feedback: think → thought → thought (penser)
+  - id: irreg_think_fr_to_en
+    question: "Comment dit-on \"penser\" en anglais ? (infinitif)"
+    answer: think
+    alternatives: [to think]
+    feedback: "penser = think (thought, thought)"
+  - id: irreg_take_to_past
+    question: "Quel est le prétérit de \"take\" ?"
+    answer: took
+    feedback: take → took → taken (prendre)
+  - id: irreg_take_to_pp
+    question: "Quel est le participe passé de \"take\" ?"
+    answer: taken
+    feedback: take → took → taken (prendre)
+  - id: irreg_take_from_past
+    question: "\"took\" est le prétérit de quel verbe ?"
+    answer: take
+    feedback: take → took → taken (prendre)
+  - id: irreg_take_fr_to_en
+    question: "Comment dit-on \"prendre\" en anglais ? (infinitif)"
+    answer: take
+    alternatives: [to take]
+    feedback: "prendre = take (took, taken)"
+  - id: irreg_see_to_past
+    question: "Quel est le prétérit de \"see\" ?"
+    answer: saw
+    feedback: see → saw → seen (voir)
+  - id: irreg_see_to_pp
+    question: "Quel est le participe passé de \"see\" ?"
+    answer: seen
+    feedback: see → saw → seen (voir)
+  - id: irreg_see_from_past
+    question: "\"saw\" est le prétérit de quel verbe ?"
+    answer: see
+    feedback: see → saw → seen (voir)
+  - id: irreg_see_fr_to_en
+    question: "Comment dit-on \"voir\" en anglais ? (infinitif)"
+    answer: see
+    alternatives: [to see]
+    feedback: "voir = see (saw, seen)"
+  - id: irreg_come_to_past
+    question: "Quel est le prétérit de \"come\" ?"
+    answer: came
+    feedback: come → came → come (venir)
+  - id: irreg_come_to_pp
+    question: "Quel est le participe passé de \"come\" ?"
+    answer: come
+    feedback: come → came → come (venir)
+  - id: irreg_come_from_past
+    question: "\"came\" est le prétérit de quel verbe ?"
+    answer: come
+    feedback: come → came → come (venir)
+  - id: irreg_come_fr_to_en
+    question: "Comment dit-on \"venir\" en anglais ? (infinitif)"
+    answer: come
+    alternatives: [to come]
+    feedback: "venir = come (came, come)"
+  - id: irreg_find_to_past
+    question: "Quel est le prétérit de \"find\" ?"
+    answer: found
+    feedback: find → found → found (trouver)
+  - id: irreg_find_to_pp
+    question: "Quel est le participe passé de \"find\" ?"
+    answer: found
+    feedback: find → found → found (trouver)
+  - id: irreg_find_from_past
+    question: "\"found\" est le prétérit de quel verbe ?"
+    answer: find
+    feedback: find → found → found (trouver)
+  - id: irreg_find_fr_to_en
+    question: "Comment dit-on \"trouver\" en anglais ? (infinitif)"
+    answer: find
+    alternatives: [to find]
+    feedback: "trouver = find (found, found)"
+  - id: irreg_give_to_past
+    question: "Quel est le prétérit de \"give\" ?"
+    answer: gave
+    feedback: give → gave → given (donner)
+  - id: irreg_give_to_pp
+    question: "Quel est le participe passé de \"give\" ?"
+    answer: given
+    feedback: give → gave → given (donner)
+  - id: irreg_give_from_past
+    question: "\"gave\" est le prétérit de quel verbe ?"
+    answer: give
+    feedback: give → gave → given (donner)
+  - id: irreg_give_fr_to_en
+    question: "Comment dit-on \"donner\" en anglais ? (infinitif)"
+    answer: give
+    alternatives: [to give]
+    feedback: "donner = give (gave, given)"
+  - id: irreg_tell_to_past
+    question: "Quel est le prétérit de \"tell\" ?"
+    answer: told
+    feedback: tell → told → told (raconter/dire)
+  - id: irreg_tell_to_pp
+    question: "Quel est le participe passé de \"tell\" ?"
+    answer: told
+    feedback: tell → told → told (raconter/dire)
+  - id: irreg_tell_from_past
+    question: "\"told\" est le prétérit de quel verbe ?"
+    answer: tell
+    feedback: tell → told → told (raconter/dire)
+  - id: irreg_tell_fr_to_en
+    question: "Comment dit-on \"raconter/dire\" en anglais ? (infinitif)"
+    answer: tell
+    alternatives: [to tell]
+    feedback: "raconter/dire = tell (told, told)"
+  - id: irreg_feel_to_past
+    question: "Quel est le prétérit de \"feel\" ?"
+    answer: felt
+    feedback: feel → felt → felt (sentir/ressentir)
+  - id: irreg_feel_to_pp
+    question: "Quel est le participe passé de \"feel\" ?"
+    answer: felt
+    feedback: feel → felt → felt (sentir/ressentir)
+  - id: irreg_feel_from_past
+    question: "\"felt\" est le prétérit de quel verbe ?"
+    answer: feel
+    feedback: feel → felt → felt (sentir/ressentir)
+  - id: irreg_feel_fr_to_en
+    question: "Comment dit-on \"sentir/ressentir\" en anglais ? (infinitif)"
+    answer: feel
+    alternatives: [to feel]
+    feedback: "sentir/ressentir = feel (felt, felt)"
+  - id: irreg_become_to_past
+    question: "Quel est le prétérit de \"become\" ?"
+    answer: became
+    feedback: become → became → become (devenir)
+  - id: irreg_become_to_pp
+    question: "Quel est le participe passé de \"become\" ?"
+    answer: become
+    feedback: become → became → become (devenir)
+  - id: irreg_become_from_past
+    question: "\"became\" est le prétérit de quel verbe ?"
+    answer: become
+    feedback: become → became → become (devenir)
+  - id: irreg_become_fr_to_en
+    question: "Comment dit-on \"devenir\" en anglais ? (infinitif)"
+    answer: become
+    alternatives: [to become]
+    feedback: "devenir = become (became, become)"
+  - id: irreg_leave_to_past
+    question: "Quel est le prétérit de \"leave\" ?"
+    answer: left
+    feedback: leave → left → left (partir/quitter)
+  - id: irreg_leave_to_pp
+    question: "Quel est le participe passé de \"leave\" ?"
+    answer: left
+    feedback: leave → left → left (partir/quitter)
+  - id: irreg_leave_from_past
+    question: "\"left\" est le prétérit de quel verbe ?"
+    answer: leave
+    feedback: leave → left → left (partir/quitter)
+  - id: irreg_leave_fr_to_en
+    question: "Comment dit-on \"partir/quitter\" en anglais ? (infinitif)"
+    answer: leave
+    alternatives: [to leave]
+    feedback: "partir/quitter = leave (left, left)"
+  - id: irreg_put_to_past
+    question: "Quel est le prétérit de \"put\" ?"
+    answer: put
+    feedback: put → put → put (mettre)
+  - id: irreg_put_to_pp
+    question: "Quel est le participe passé de \"put\" ?"
+    answer: put
+    feedback: put → put → put (mettre)
+  - id: irreg_put_from_past
+    question: "\"put\" est le prétérit de quel verbe ?"
+    answer: put
+    feedback: put → put → put (mettre)
+  - id: irreg_put_fr_to_en
+    question: "Comment dit-on \"mettre\" en anglais ? (infinitif)"
+    answer: put
+    alternatives: [to put]
+    feedback: "mettre = put (put, put)"
+  - id: irreg_mean_to_past
+    question: "Quel est le prétérit de \"mean\" ?"
+    answer: meant
+    feedback: mean → meant → meant (signifier/vouloir dire)
+  - id: irreg_mean_to_pp
+    question: "Quel est le participe passé de \"mean\" ?"
+    answer: meant
+    feedback: mean → meant → meant (signifier/vouloir dire)
+  - id: irreg_mean_from_past
+    question: "\"meant\" est le prétérit de quel verbe ?"
+    answer: mean
+    feedback: mean → meant → meant (signifier/vouloir dire)
+  - id: irreg_mean_fr_to_en
+    question: "Comment dit-on \"signifier/vouloir dire\" en anglais ? (infinitif)"
+    answer: mean
+    alternatives: [to mean]
+    feedback: "signifier/vouloir dire = mean (meant, meant)"
+  - id: irreg_keep_to_past
+    question: "Quel est le prétérit de \"keep\" ?"
+    answer: kept
+    feedback: keep → kept → kept (garder)
+  - id: irreg_keep_to_pp
+    question: "Quel est le participe passé de \"keep\" ?"
+    answer: kept
+    feedback: keep → kept → kept (garder)
+  - id: irreg_keep_from_past
+    question: "\"kept\" est le prétérit de quel verbe ?"
+    answer: keep
+    feedback: keep → kept → kept (garder)
+  - id: irreg_keep_fr_to_en
+    question: "Comment dit-on \"garder\" en anglais ? (infinitif)"
+    answer: keep
+    alternatives: [to keep]
+    feedback: "garder = keep (kept, kept)"
+  - id: irreg_let_to_past
+    question: "Quel est le prétérit de \"let\" ?"
+    answer: let
+    feedback: let → let → let (laisser/permettre)
+  - id: irreg_let_to_pp
+    question: "Quel est le participe passé de \"let\" ?"
+    answer: let
+    feedback: let → let → let (laisser/permettre)
+  - id: irreg_let_from_past
+    question: "\"let\" est le prétérit de quel verbe ?"
+    answer: let
+    feedback: let → let → let (laisser/permettre)
+  - id: irreg_let_fr_to_en
+    question: "Comment dit-on \"laisser/permettre\" en anglais ? (infinitif)"
+    answer: let
+    alternatives: [to let]
+    feedback: "laisser/permettre = let (let, let)"
+  - id: irreg_begin_to_past
+    question: "Quel est le prétérit de \"begin\" ?"
+    answer: began
+    feedback: begin → began → begun (commencer)
+  - id: irreg_begin_to_pp
+    question: "Quel est le participe passé de \"begin\" ?"
+    answer: begun
+    feedback: begin → began → begun (commencer)
+  - id: irreg_begin_from_past
+    question: "\"began\" est le prétérit de quel verbe ?"
+    answer: begin
+    feedback: begin → began → begun (commencer)
+  - id: irreg_begin_fr_to_en
+    question: "Comment dit-on \"commencer\" en anglais ? (infinitif)"
+    answer: begin
+    alternatives: [to begin]
+    feedback: "commencer = begin (began, begun)"
+  - id: irreg_seem_to_past
+    question: "Quel est le prétérit de \"seem\" ?"
+    answer: seemed
+    feedback: seem → seemed → seemed (sembler)
+  - id: irreg_seem_to_pp
+    question: "Quel est le participe passé de \"seem\" ?"
+    answer: seemed
+    feedback: seem → seemed → seemed (sembler)
+  - id: irreg_seem_from_past
+    question: "\"seemed\" est le prétérit de quel verbe ?"
+    answer: seem
+    feedback: seem → seemed → seemed (sembler)
+  - id: irreg_seem_fr_to_en
+    question: "Comment dit-on \"sembler\" en anglais ? (infinitif)"
+    answer: seem
+    alternatives: [to seem]
+    feedback: "sembler = seem (seemed, seemed)"
+  - id: irreg_show_to_past
+    question: "Quel est le prétérit de \"show\" ?"
+    answer: showed
+    feedback: show → showed → shown (montrer)
+  - id: irreg_show_to_pp
+    question: "Quel est le participe passé de \"show\" ?"
+    answer: shown
+    feedback: show → showed → shown (montrer)
+  - id: irreg_show_from_past
+    question: "\"showed\" est le prétérit de quel verbe ?"
+    answer: show
+    feedback: show → showed → shown (montrer)
+  - id: irreg_show_fr_to_en
+    question: "Comment dit-on \"montrer\" en anglais ? (infinitif)"
+    answer: show
+    alternatives: [to show]
+    feedback: "montrer = show (showed, shown)"
+  - id: irreg_hear_to_past
+    question: "Quel est le prétérit de \"hear\" ?"
+    answer: heard
+    feedback: hear → heard → heard (entendre)
+  - id: irreg_hear_to_pp
+    question: "Quel est le participe passé de \"hear\" ?"
+    answer: heard
+    feedback: hear → heard → heard (entendre)
+  - id: irreg_hear_from_past
+    question: "\"heard\" est le prétérit de quel verbe ?"
+    answer: hear
+    feedback: hear → heard → heard (entendre)
+  - id: irreg_hear_fr_to_en
+    question: "Comment dit-on \"entendre\" en anglais ? (infinitif)"
+    answer: hear
+    alternatives: [to hear]
+    feedback: "entendre = hear (heard, heard)"
+  - id: irreg_run_to_past
+    question: "Quel est le prétérit de \"run\" ?"
+    answer: ran
+    feedback: run → ran → run (courir)
+  - id: irreg_run_to_pp
+    question: "Quel est le participe passé de \"run\" ?"
+    answer: run
+    feedback: run → ran → run (courir)
+  - id: irreg_run_from_past
+    question: "\"ran\" est le prétérit de quel verbe ?"
+    answer: run
+    feedback: run → ran → run (courir)
+  - id: irreg_run_fr_to_en
+    question: "Comment dit-on \"courir\" en anglais ? (infinitif)"
+    answer: run
+    alternatives: [to run]
+    feedback: "courir = run (ran, run)"
+  - id: irreg_hold_to_past
+    question: "Quel est le prétérit de \"hold\" ?"
+    answer: held
+    feedback: hold → held → held (tenir)
+  - id: irreg_hold_to_pp
+    question: "Quel est le participe passé de \"hold\" ?"
+    answer: held
+    feedback: hold → held → held (tenir)
+  - id: irreg_hold_from_past
+    question: "\"held\" est le prétérit de quel verbe ?"
+    answer: hold
+    feedback: hold → held → held (tenir)
+  - id: irreg_hold_fr_to_en
+    question: "Comment dit-on \"tenir\" en anglais ? (infinitif)"
+    answer: hold
+    alternatives: [to hold]
+    feedback: "tenir = hold (held, held)"
+  - id: irreg_bring_to_past
+    question: "Quel est le prétérit de \"bring\" ?"
+    answer: brought
+    feedback: bring → brought → brought (apporter)
+  - id: irreg_bring_to_pp
+    question: "Quel est le participe passé de \"bring\" ?"
+    answer: brought
+    feedback: bring → brought → brought (apporter)
+  - id: irreg_bring_from_past
+    question: "\"brought\" est le prétérit de quel verbe ?"
+    answer: bring
+    feedback: bring → brought → brought (apporter)
+  - id: irreg_bring_fr_to_en
+    question: "Comment dit-on \"apporter\" en anglais ? (infinitif)"
+    answer: bring
+    alternatives: [to bring]
+    feedback: "apporter = bring (brought, brought)"
+  - id: irreg_write_to_past
+    question: "Quel est le prétérit de \"write\" ?"
+    answer: wrote
+    feedback: write → wrote → written (écrire)
+  - id: irreg_write_to_pp
+    question: "Quel est le participe passé de \"write\" ?"
+    answer: written
+    feedback: write → wrote → written (écrire)
+  - id: irreg_write_from_past
+    question: "\"wrote\" est le prétérit de quel verbe ?"
+    answer: write
+    feedback: write → wrote → written (écrire)
+  - id: irreg_write_fr_to_en
+    question: "Comment dit-on \"écrire\" en anglais ? (infinitif)"
+    answer: write
+    alternatives: [to write]
+    feedback: "écrire = write (wrote, written)"

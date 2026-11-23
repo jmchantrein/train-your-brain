@@ -1,0 +1,192 @@
+name: Fractions équivalentes
+description: Simplifier des fractions
+tags: [math, fractions, calcul-mental, cm2, sixieme]
+category: [sciences, maths, arithmetique, fractions, calcul-mental, cm2, sixieme]
+settings:
+  sequential: false
+  bidirectional: false
+metadata:
+  license: CC-BY-SA-4.0
+  source:
+    type: procedural
+    generator: fractions
+    version: 1.0.0
+    generatedAt: "2026-11-22"
+    parameters:
+      type: equivalences
+resources:
+  - type: summary
+    title: "Qu'est-ce qu'une fraction ?"
+    content: "Une **fraction** représente une partie d'un tout. Elle s'écrit sous la forme a/b où :\n- **a** est le numérateur (nombre de parts prises)\n- **b** est le dénominateur (nombre total de parts)\n\nPar exemple : **3/4** signifie 3 parts sur 4 au total.\n\nLes fractions sont utilisées pour :\n- Exprimer des proportions\n- Représenter des divisions\n- Calculer des pourcentages"
+    aiGenerated: true
+    icon: 📝
+  - type: link
+    title: "Wikipedia : Fraction"
+    url: https://fr.wikipedia.org/wiki/Fraction_(mathématiques)
+    icon: 📖
+  - type: glossary
+    title: Vocabulaire clé
+    content: "- **Fraction** : Nombre qui représente une partie d'un tout (a/b)\n- **Numérateur** : Nombre au-dessus de la barre de fraction\n- **Dénominateur** : Nombre en-dessous de la barre de fraction\n- **Fraction irréductible** : Fraction simplifiée au maximum\n- **Fractions équivalentes** : Fractions représentant le même nombre (1/2 = 2/4)\n- **PGCD** : Plus Grand Commun Diviseur (pour simplifier)"
+    icon: 📚
+  - type: summary
+    title: Fractions équivalentes
+    content: "Deux fractions sont **équivalentes** si elles représentent le même nombre.\n\nPour simplifier une fraction, on divise le numérateur et le dénominateur par leur PGCD.\n\nPar exemple : 4/8 = 2/4 = 1/2 (toutes représentent la moitié)"
+    aiGenerated: true
+    icon: 📝
+  - type: objective
+    title: "Objectifs d'apprentissage"
+    content: "- ✅ Reconnaître les fractions équivalentes\n- ✅ Simplifier une fraction\n- ✅ Trouver le PGCD pour simplifier"
+    icon: 🎯
+cards:
+  - id: frac_equiv_2_4
+    question: Simplifier 2/4
+    answer: 1/2
+    feedback: 2/4 = 1/2 (÷ 2)
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 30 30 L 30 5 A 25 25 0 0 1 30 55 Z\" fill=\"#8b5cf6\" stroke=\"#64748b\" stroke-width=\"1\"/><path d=\"M 30 30 L 30 55 A 25 25 0 0 1 29.999999999999996 5 Z\" fill=\"#e2e8f0\" stroke=\"#64748b\" stroke-width=\"1\"/></svg>"
+  - id: frac_equiv_3_6
+    question: Simplifier 3/6
+    answer: 1/2
+    feedback: 3/6 = 1/2 (÷ 3)
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 30 30 L 30 5 A 25 25 0 0 1 30 55 Z\" fill=\"#8b5cf6\" stroke=\"#64748b\" stroke-width=\"1\"/><path d=\"M 30 30 L 30 55 A 25 25 0 0 1 29.999999999999996 5 Z\" fill=\"#e2e8f0\" stroke=\"#64748b\" stroke-width=\"1\"/></svg>"
+  - id: frac_equiv_4_8
+    question: Simplifier 4/8
+    answer: 1/2
+    feedback: 4/8 = 1/2 (÷ 4)
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 30 30 L 30 5 A 25 25 0 0 1 30 55 Z\" fill=\"#8b5cf6\" stroke=\"#64748b\" stroke-width=\"1\"/><path d=\"M 30 30 L 30 55 A 25 25 0 0 1 29.999999999999996 5 Z\" fill=\"#e2e8f0\" stroke=\"#64748b\" stroke-width=\"1\"/></svg>"
+  - id: frac_equiv_2_6
+    question: Simplifier 2/6
+    answer: 1/3
+    feedback: 2/6 = 1/3 (÷ 2)
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 30 30 L 30 5 A 25 25 0 0 1 51.65063509461097 42.5 Z\" fill=\"#8b5cf6\" stroke=\"#64748b\" stroke-width=\"1\"/><path d=\"M 30 30 L 51.65063509461097 42.5 A 25 25 0 0 1 8.349364905389038 42.50000000000001 Z\" fill=\"#e2e8f0\" stroke=\"#64748b\" stroke-width=\"1\"/><path d=\"M 30 30 L 8.349364905389038 42.50000000000001 A 25 25 0 0 1 29.999999999999996 5 Z\" fill=\"#e2e8f0\" stroke=\"#64748b\" stroke-width=\"1\"/></svg>"
+  - id: frac_equiv_3_9
+    question: Simplifier 3/9
+    answer: 1/3
+    feedback: 3/9 = 1/3 (÷ 3)
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 30 30 L 30 5 A 25 25 0 0 1 51.65063509461097 42.5 Z\" fill=\"#8b5cf6\" stroke=\"#64748b\" stroke-width=\"1\"/><path d=\"M 30 30 L 51.65063509461097 42.5 A 25 25 0 0 1 8.349364905389038 42.50000000000001 Z\" fill=\"#e2e8f0\" stroke=\"#64748b\" stroke-width=\"1\"/><path d=\"M 30 30 L 8.349364905389038 42.50000000000001 A 25 25 0 0 1 29.999999999999996 5 Z\" fill=\"#e2e8f0\" stroke=\"#64748b\" stroke-width=\"1\"/></svg>"
+  - id: frac_equiv_4_12
+    question: Simplifier 4/12
+    answer: 1/3
+    feedback: 4/12 = 1/3 (÷ 4)
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 30 30 L 30 5 A 25 25 0 0 1 51.65063509461097 42.5 Z\" fill=\"#8b5cf6\" stroke=\"#64748b\" stroke-width=\"1\"/><path d=\"M 30 30 L 51.65063509461097 42.5 A 25 25 0 0 1 8.349364905389038 42.50000000000001 Z\" fill=\"#e2e8f0\" stroke=\"#64748b\" stroke-width=\"1\"/><path d=\"M 30 30 L 8.349364905389038 42.50000000000001 A 25 25 0 0 1 29.999999999999996 5 Z\" fill=\"#e2e8f0\" stroke=\"#64748b\" stroke-width=\"1\"/></svg>"
+  - id: frac_equiv_4_6
+    question: Simplifier 4/6
+    answer: 2/3
+    feedback: 4/6 = 2/3 (÷ 2)
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 30 30 L 30 5 A 25 25 0 0 1 51.65063509461097 42.5 Z\" fill=\"#8b5cf6\" stroke=\"#64748b\" stroke-width=\"1\"/><path d=\"M 30 30 L 51.65063509461097 42.5 A 25 25 0 0 1 8.349364905389038 42.50000000000001 Z\" fill=\"#8b5cf6\" stroke=\"#64748b\" stroke-width=\"1\"/><path d=\"M 30 30 L 8.349364905389038 42.50000000000001 A 25 25 0 0 1 29.999999999999996 5 Z\" fill=\"#e2e8f0\" stroke=\"#64748b\" stroke-width=\"1\"/></svg>"
+  - id: frac_equiv_6_9
+    question: Simplifier 6/9
+    answer: 2/3
+    feedback: 6/9 = 2/3 (÷ 3)
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 30 30 L 30 5 A 25 25 0 0 1 51.65063509461097 42.5 Z\" fill=\"#8b5cf6\" stroke=\"#64748b\" stroke-width=\"1\"/><path d=\"M 30 30 L 51.65063509461097 42.5 A 25 25 0 0 1 8.349364905389038 42.50000000000001 Z\" fill=\"#8b5cf6\" stroke=\"#64748b\" stroke-width=\"1\"/><path d=\"M 30 30 L 8.349364905389038 42.50000000000001 A 25 25 0 0 1 29.999999999999996 5 Z\" fill=\"#e2e8f0\" stroke=\"#64748b\" stroke-width=\"1\"/></svg>"
+  - id: frac_equiv_8_12
+    question: Simplifier 8/12
+    answer: 2/3
+    feedback: 8/12 = 2/3 (÷ 4)
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 30 30 L 30 5 A 25 25 0 0 1 51.65063509461097 42.5 Z\" fill=\"#8b5cf6\" stroke=\"#64748b\" stroke-width=\"1\"/><path d=\"M 30 30 L 51.65063509461097 42.5 A 25 25 0 0 1 8.349364905389038 42.50000000000001 Z\" fill=\"#8b5cf6\" stroke=\"#64748b\" stroke-width=\"1\"/><path d=\"M 30 30 L 8.349364905389038 42.50000000000001 A 25 25 0 0 1 29.999999999999996 5 Z\" fill=\"#e2e8f0\" stroke=\"#64748b\" stroke-width=\"1\"/></svg>"
+  - id: frac_equiv_2_8
+    question: Simplifier 2/8
+    answer: 1/4
+    feedback: 2/8 = 1/4 (÷ 2)
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 30 30 L 30 5 A 25 25 0 0 1 55 30 Z\" fill=\"#8b5cf6\" stroke=\"#64748b\" stroke-width=\"1\"/><path d=\"M 30 30 L 55 30 A 25 25 0 0 1 30 55 Z\" fill=\"#e2e8f0\" stroke=\"#64748b\" stroke-width=\"1\"/><path d=\"M 30 30 L 30 55 A 25 25 0 0 1 5 30.000000000000004 Z\" fill=\"#e2e8f0\" stroke=\"#64748b\" stroke-width=\"1\"/><path d=\"M 30 30 L 5 30.000000000000004 A 25 25 0 0 1 29.999999999999996 5 Z\" fill=\"#e2e8f0\" stroke=\"#64748b\" stroke-width=\"1\"/></svg>"
+  - id: frac_equiv_3_12
+    question: Simplifier 3/12
+    answer: 1/4
+    feedback: 3/12 = 1/4 (÷ 3)
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 30 30 L 30 5 A 25 25 0 0 1 55 30 Z\" fill=\"#8b5cf6\" stroke=\"#64748b\" stroke-width=\"1\"/><path d=\"M 30 30 L 55 30 A 25 25 0 0 1 30 55 Z\" fill=\"#e2e8f0\" stroke=\"#64748b\" stroke-width=\"1\"/><path d=\"M 30 30 L 30 55 A 25 25 0 0 1 5 30.000000000000004 Z\" fill=\"#e2e8f0\" stroke=\"#64748b\" stroke-width=\"1\"/><path d=\"M 30 30 L 5 30.000000000000004 A 25 25 0 0 1 29.999999999999996 5 Z\" fill=\"#e2e8f0\" stroke=\"#64748b\" stroke-width=\"1\"/></svg>"
+  - id: frac_equiv_6_8
+    question: Simplifier 6/8
+    answer: 3/4
+    feedback: 6/8 = 3/4 (÷ 2)
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 30 30 L 30 5 A 25 25 0 0 1 55 30 Z\" fill=\"#8b5cf6\" stroke=\"#64748b\" stroke-width=\"1\"/><path d=\"M 30 30 L 55 30 A 25 25 0 0 1 30 55 Z\" fill=\"#8b5cf6\" stroke=\"#64748b\" stroke-width=\"1\"/><path d=\"M 30 30 L 30 55 A 25 25 0 0 1 5 30.000000000000004 Z\" fill=\"#8b5cf6\" stroke=\"#64748b\" stroke-width=\"1\"/><path d=\"M 30 30 L 5 30.000000000000004 A 25 25 0 0 1 29.999999999999996 5 Z\" fill=\"#e2e8f0\" stroke=\"#64748b\" stroke-width=\"1\"/></svg>"
+  - id: frac_equiv_9_12
+    question: Simplifier 9/12
+    answer: 3/4
+    feedback: 9/12 = 3/4 (÷ 3)
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 30 30 L 30 5 A 25 25 0 0 1 55 30 Z\" fill=\"#8b5cf6\" stroke=\"#64748b\" stroke-width=\"1\"/><path d=\"M 30 30 L 55 30 A 25 25 0 0 1 30 55 Z\" fill=\"#8b5cf6\" stroke=\"#64748b\" stroke-width=\"1\"/><path d=\"M 30 30 L 30 55 A 25 25 0 0 1 5 30.000000000000004 Z\" fill=\"#8b5cf6\" stroke=\"#64748b\" stroke-width=\"1\"/><path d=\"M 30 30 L 5 30.000000000000004 A 25 25 0 0 1 29.999999999999996 5 Z\" fill=\"#e2e8f0\" stroke=\"#64748b\" stroke-width=\"1\"/></svg>"
+  - id: frac_equiv_2_10
+    question: Simplifier 2/10
+    answer: 1/5
+    feedback: 2/10 = 1/5 (÷ 2)
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 30 30 L 30 5 A 25 25 0 0 1 53.77641290737884 22.274575140626315 Z\" fill=\"#8b5cf6\" stroke=\"#64748b\" stroke-width=\"1\"/><path d=\"M 30 30 L 53.77641290737884 22.274575140626315 A 25 25 0 0 1 44.69463130731183 50.22542485937369 Z\" fill=\"#e2e8f0\" stroke=\"#64748b\" stroke-width=\"1\"/><path d=\"M 30 30 L 44.69463130731183 50.22542485937369 A 25 25 0 0 1 15.305368692688175 50.22542485937369 Z\" fill=\"#e2e8f0\" stroke=\"#64748b\" stroke-width=\"1\"/><path d=\"M 30 30 L 15.305368692688175 50.22542485937369 A 25 25 0 0 1 6.223587092621159 22.274575140626318 Z\" fill=\"#e2e8f0\" stroke=\"#64748b\" stroke-width=\"1\"/><path d=\"M 30 30 L 6.223587092621159 22.274575140626318 A 25 25 0 0 1 29.999999999999996 5 Z\" fill=\"#e2e8f0\" stroke=\"#64748b\" stroke-width=\"1\"/></svg>"
+  - id: frac_equiv_4_10
+    question: Simplifier 4/10
+    answer: 2/5
+    feedback: 4/10 = 2/5 (÷ 2)
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 30 30 L 30 5 A 25 25 0 0 1 53.77641290737884 22.274575140626315 Z\" fill=\"#8b5cf6\" stroke=\"#64748b\" stroke-width=\"1\"/><path d=\"M 30 30 L 53.77641290737884 22.274575140626315 A 25 25 0 0 1 44.69463130731183 50.22542485937369 Z\" fill=\"#8b5cf6\" stroke=\"#64748b\" stroke-width=\"1\"/><path d=\"M 30 30 L 44.69463130731183 50.22542485937369 A 25 25 0 0 1 15.305368692688175 50.22542485937369 Z\" fill=\"#e2e8f0\" stroke=\"#64748b\" stroke-width=\"1\"/><path d=\"M 30 30 L 15.305368692688175 50.22542485937369 A 25 25 0 0 1 6.223587092621159 22.274575140626318 Z\" fill=\"#e2e8f0\" stroke=\"#64748b\" stroke-width=\"1\"/><path d=\"M 30 30 L 6.223587092621159 22.274575140626318 A 25 25 0 0 1 29.999999999999996 5 Z\" fill=\"#e2e8f0\" stroke=\"#64748b\" stroke-width=\"1\"/></svg>"
+  - id: frac_equiv_6_10
+    question: Simplifier 6/10
+    answer: 3/5
+    feedback: 6/10 = 3/5 (÷ 2)
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 30 30 L 30 5 A 25 25 0 0 1 53.77641290737884 22.274575140626315 Z\" fill=\"#8b5cf6\" stroke=\"#64748b\" stroke-width=\"1\"/><path d=\"M 30 30 L 53.77641290737884 22.274575140626315 A 25 25 0 0 1 44.69463130731183 50.22542485937369 Z\" fill=\"#8b5cf6\" stroke=\"#64748b\" stroke-width=\"1\"/><path d=\"M 30 30 L 44.69463130731183 50.22542485937369 A 25 25 0 0 1 15.305368692688175 50.22542485937369 Z\" fill=\"#8b5cf6\" stroke=\"#64748b\" stroke-width=\"1\"/><path d=\"M 30 30 L 15.305368692688175 50.22542485937369 A 25 25 0 0 1 6.223587092621159 22.274575140626318 Z\" fill=\"#e2e8f0\" stroke=\"#64748b\" stroke-width=\"1\"/><path d=\"M 30 30 L 6.223587092621159 22.274575140626318 A 25 25 0 0 1 29.999999999999996 5 Z\" fill=\"#e2e8f0\" stroke=\"#64748b\" stroke-width=\"1\"/></svg>"
+  - id: frac_equiv_8_10
+    question: Simplifier 8/10
+    answer: 4/5
+    feedback: 8/10 = 4/5 (÷ 2)
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 30 30 L 30 5 A 25 25 0 0 1 53.77641290737884 22.274575140626315 Z\" fill=\"#8b5cf6\" stroke=\"#64748b\" stroke-width=\"1\"/><path d=\"M 30 30 L 53.77641290737884 22.274575140626315 A 25 25 0 0 1 44.69463130731183 50.22542485937369 Z\" fill=\"#8b5cf6\" stroke=\"#64748b\" stroke-width=\"1\"/><path d=\"M 30 30 L 44.69463130731183 50.22542485937369 A 25 25 0 0 1 15.305368692688175 50.22542485937369 Z\" fill=\"#8b5cf6\" stroke=\"#64748b\" stroke-width=\"1\"/><path d=\"M 30 30 L 15.305368692688175 50.22542485937369 A 25 25 0 0 1 6.223587092621159 22.274575140626318 Z\" fill=\"#8b5cf6\" stroke=\"#64748b\" stroke-width=\"1\"/><path d=\"M 30 30 L 6.223587092621159 22.274575140626318 A 25 25 0 0 1 29.999999999999996 5 Z\" fill=\"#e2e8f0\" stroke=\"#64748b\" stroke-width=\"1\"/></svg>"
+  - id: frac_equiv_2_12
+    question: Simplifier 2/12
+    answer: 1/6
+    feedback: 2/12 = 1/6 (÷ 2)
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 30 30 L 30 5 A 25 25 0 0 1 51.65063509461096 17.5 Z\" fill=\"#8b5cf6\" stroke=\"#64748b\" stroke-width=\"1\"/><path d=\"M 30 30 L 51.65063509461096 17.5 A 25 25 0 0 1 51.65063509461097 42.5 Z\" fill=\"#e2e8f0\" stroke=\"#64748b\" stroke-width=\"1\"/><path d=\"M 30 30 L 51.65063509461097 42.5 A 25 25 0 0 1 30 55 Z\" fill=\"#e2e8f0\" stroke=\"#64748b\" stroke-width=\"1\"/><path d=\"M 30 30 L 30 55 A 25 25 0 0 1 8.349364905389038 42.50000000000001 Z\" fill=\"#e2e8f0\" stroke=\"#64748b\" stroke-width=\"1\"/><path d=\"M 30 30 L 8.349364905389038 42.50000000000001 A 25 25 0 0 1 8.349364905389034 17.499999999999996 Z\" fill=\"#e2e8f0\" stroke=\"#64748b\" stroke-width=\"1\"/><path d=\"M 30 30 L 8.349364905389034 17.499999999999996 A 25 25 0 0 1 29.999999999999996 5 Z\" fill=\"#e2e8f0\" stroke=\"#64748b\" stroke-width=\"1\"/></svg>"
+  - id: frac_equiv_10_12
+    question: Simplifier 10/12
+    answer: 5/6
+    feedback: 10/12 = 5/6 (÷ 2)
+    media:
+      type: image
+      format: svg
+      data: "<svg viewBox=\"0 0 60 60\" width=\"60\" height=\"60\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 30 30 L 30 5 A 25 25 0 0 1 51.65063509461096 17.5 Z\" fill=\"#8b5cf6\" stroke=\"#64748b\" stroke-width=\"1\"/><path d=\"M 30 30 L 51.65063509461096 17.5 A 25 25 0 0 1 51.65063509461097 42.5 Z\" fill=\"#8b5cf6\" stroke=\"#64748b\" stroke-width=\"1\"/><path d=\"M 30 30 L 51.65063509461097 42.5 A 25 25 0 0 1 30 55 Z\" fill=\"#8b5cf6\" stroke=\"#64748b\" stroke-width=\"1\"/><path d=\"M 30 30 L 30 55 A 25 25 0 0 1 8.349364905389038 42.50000000000001 Z\" fill=\"#8b5cf6\" stroke=\"#64748b\" stroke-width=\"1\"/><path d=\"M 30 30 L 8.349364905389038 42.50000000000001 A 25 25 0 0 1 8.349364905389034 17.499999999999996 Z\" fill=\"#8b5cf6\" stroke=\"#64748b\" stroke-width=\"1\"/><path d=\"M 30 30 L 8.349364905389034 17.499999999999996 A 25 25 0 0 1 29.999999999999996 5 Z\" fill=\"#e2e8f0\" stroke=\"#64748b\" stroke-width=\"1\"/></svg>"

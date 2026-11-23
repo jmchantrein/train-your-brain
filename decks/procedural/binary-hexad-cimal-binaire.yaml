@@ -1,0 +1,177 @@
+name: Hexadécimal - Binaire
+description: Conversions hexadécimal ↔ binaire (0-F)
+tags: [informatique, binaire, hexadecimal, numeration, architecture-ordinateurs, premiere]
+category: [informatique, architecture-ordinateurs, premiere]
+settings:
+  sequential: false
+  bidirectional: false
+metadata:
+  license: CC-BY-SA-4.0
+  source:
+    type: procedural
+    generator: binary
+    version: 1.0.0
+    generatedAt: "2026-11-22"
+    parameters:
+      type: hex
+cards:
+  - id: bin_hex_to_bin_0
+    question: "Convertir 0x0 en binaire (4 bits) :"
+    answer: "0000"
+    alternatives: ["0"]
+    feedback: 0x0 = 0000₂ = 0₁₀
+  - id: bin_bin_to_hex_0
+    question: "Convertir 0000₂ en hexadécimal :"
+    answer: "0"
+    alternatives: ["0x0", "0"]
+    feedback: 0000₂ = 0x0 = 0₁₀
+  - id: bin_hex_to_bin_1
+    question: "Convertir 0x1 en binaire (4 bits) :"
+    answer: "0001"
+    alternatives: ["1"]
+    feedback: 0x1 = 0001₂ = 1₁₀
+  - id: bin_bin_to_hex_1
+    question: "Convertir 0001₂ en hexadécimal :"
+    answer: "1"
+    alternatives: ["0x1", "1"]
+    feedback: 0001₂ = 0x1 = 1₁₀
+  - id: bin_hex_to_bin_2
+    question: "Convertir 0x2 en binaire (4 bits) :"
+    answer: "0010"
+    alternatives: ["10"]
+    feedback: 0x2 = 0010₂ = 2₁₀
+  - id: bin_bin_to_hex_2
+    question: "Convertir 0010₂ en hexadécimal :"
+    answer: "2"
+    alternatives: ["0x2", "2"]
+    feedback: 0010₂ = 0x2 = 2₁₀
+  - id: bin_hex_to_bin_3
+    question: "Convertir 0x3 en binaire (4 bits) :"
+    answer: "0011"
+    alternatives: ["11"]
+    feedback: 0x3 = 0011₂ = 3₁₀
+  - id: bin_bin_to_hex_3
+    question: "Convertir 0011₂ en hexadécimal :"
+    answer: "3"
+    alternatives: ["0x3", "3"]
+    feedback: 0011₂ = 0x3 = 3₁₀
+  - id: bin_hex_to_bin_4
+    question: "Convertir 0x4 en binaire (4 bits) :"
+    answer: "0100"
+    alternatives: ["100"]
+    feedback: 0x4 = 0100₂ = 4₁₀
+  - id: bin_bin_to_hex_4
+    question: "Convertir 0100₂ en hexadécimal :"
+    answer: "4"
+    alternatives: ["0x4", "4"]
+    feedback: 0100₂ = 0x4 = 4₁₀
+  - id: bin_hex_to_bin_5
+    question: "Convertir 0x5 en binaire (4 bits) :"
+    answer: "0101"
+    alternatives: ["101"]
+    feedback: 0x5 = 0101₂ = 5₁₀
+  - id: bin_bin_to_hex_5
+    question: "Convertir 0101₂ en hexadécimal :"
+    answer: "5"
+    alternatives: ["0x5", "5"]
+    feedback: 0101₂ = 0x5 = 5₁₀
+  - id: bin_hex_to_bin_6
+    question: "Convertir 0x6 en binaire (4 bits) :"
+    answer: "0110"
+    alternatives: ["110"]
+    feedback: 0x6 = 0110₂ = 6₁₀
+  - id: bin_bin_to_hex_6
+    question: "Convertir 0110₂ en hexadécimal :"
+    answer: "6"
+    alternatives: ["0x6", "6"]
+    feedback: 0110₂ = 0x6 = 6₁₀
+  - id: bin_hex_to_bin_7
+    question: "Convertir 0x7 en binaire (4 bits) :"
+    answer: "0111"
+    alternatives: ["111"]
+    feedback: 0x7 = 0111₂ = 7₁₀
+  - id: bin_bin_to_hex_7
+    question: "Convertir 0111₂ en hexadécimal :"
+    answer: "7"
+    alternatives: ["0x7", "7"]
+    feedback: 0111₂ = 0x7 = 7₁₀
+  - id: bin_hex_to_bin_8
+    question: "Convertir 0x8 en binaire (4 bits) :"
+    answer: "1000"
+    alternatives: ["1000"]
+    feedback: 0x8 = 1000₂ = 8₁₀
+  - id: bin_bin_to_hex_8
+    question: "Convertir 1000₂ en hexadécimal :"
+    answer: "8"
+    alternatives: ["0x8", "8"]
+    feedback: 1000₂ = 0x8 = 8₁₀
+  - id: bin_hex_to_bin_9
+    question: "Convertir 0x9 en binaire (4 bits) :"
+    answer: "1001"
+    alternatives: ["1001"]
+    feedback: 0x9 = 1001₂ = 9₁₀
+  - id: bin_bin_to_hex_9
+    question: "Convertir 1001₂ en hexadécimal :"
+    answer: "9"
+    alternatives: ["0x9", "9"]
+    feedback: 1001₂ = 0x9 = 9₁₀
+  - id: bin_hex_to_bin_10
+    question: "Convertir 0xA en binaire (4 bits) :"
+    answer: "1010"
+    alternatives: ["1010"]
+    feedback: 0xA = 1010₂ = 10₁₀
+  - id: bin_bin_to_hex_10
+    question: "Convertir 1010₂ en hexadécimal :"
+    answer: A
+    alternatives: ["0xA", a]
+    feedback: 1010₂ = 0xA = 10₁₀
+  - id: bin_hex_to_bin_11
+    question: "Convertir 0xB en binaire (4 bits) :"
+    answer: "1011"
+    alternatives: ["1011"]
+    feedback: 0xB = 1011₂ = 11₁₀
+  - id: bin_bin_to_hex_11
+    question: "Convertir 1011₂ en hexadécimal :"
+    answer: B
+    alternatives: ["0xB", b]
+    feedback: 1011₂ = 0xB = 11₁₀
+  - id: bin_hex_to_bin_12
+    question: "Convertir 0xC en binaire (4 bits) :"
+    answer: "1100"
+    alternatives: ["1100"]
+    feedback: 0xC = 1100₂ = 12₁₀
+  - id: bin_bin_to_hex_12
+    question: "Convertir 1100₂ en hexadécimal :"
+    answer: C
+    alternatives: ["0xC", c]
+    feedback: 1100₂ = 0xC = 12₁₀
+  - id: bin_hex_to_bin_13
+    question: "Convertir 0xD en binaire (4 bits) :"
+    answer: "1101"
+    alternatives: ["1101"]
+    feedback: 0xD = 1101₂ = 13₁₀
+  - id: bin_bin_to_hex_13
+    question: "Convertir 1101₂ en hexadécimal :"
+    answer: D
+    alternatives: ["0xD", d]
+    feedback: 1101₂ = 0xD = 13₁₀
+  - id: bin_hex_to_bin_14
+    question: "Convertir 0xE en binaire (4 bits) :"
+    answer: "1110"
+    alternatives: ["1110"]
+    feedback: 0xE = 1110₂ = 14₁₀
+  - id: bin_bin_to_hex_14
+    question: "Convertir 1110₂ en hexadécimal :"
+    answer: E
+    alternatives: ["0xE", e]
+    feedback: 1110₂ = 0xE = 14₁₀
+  - id: bin_hex_to_bin_15
+    question: "Convertir 0xF en binaire (4 bits) :"
+    answer: "1111"
+    alternatives: ["1111"]
+    feedback: 0xF = 1111₂ = 15₁₀
+  - id: bin_bin_to_hex_15
+    question: "Convertir 1111₂ en hexadécimal :"
+    answer: F
+    alternatives: ["0xF", f]
+    feedback: 1111₂ = 0xF = 15₁₀

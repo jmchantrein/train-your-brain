@@ -1,0 +1,41 @@
+name: Cyrillique - Faux amis
+description: Lettres cyrilliques ressemblant au latin
+tags: [langues, russe, alphabet, cyrillique, ru-alphabet, autodidacte]
+category: [langues, russe, ru-alphabet, autodidacte]
+settings:
+  sequential: false
+  bidirectional: false
+metadata:
+  license: CC-BY-SA-4.0
+  source:
+    type: procedural
+    generator: cyrillic-alphabet
+    version: 1.0.0
+    generatedAt: "2026-11-22"
+    parameters:
+      type: false-amis
+cards:
+  - id: cyrillic_faux_ami_В
+    question: "La lettre russe \"В\" ressemble à \"B\" latin. Comment se prononce-t-elle vraiment ?"
+    answer: v
+    feedback: ressemble à B mais se lit V
+  - id: cyrillic_faux_ami_Н
+    question: "La lettre russe \"Н\" ressemble à \"H\" latin. Comment se prononce-t-elle vraiment ?"
+    answer: "n"
+    feedback: ressemble à H mais se lit N
+  - id: cyrillic_faux_ami_Р
+    question: "La lettre russe \"Р\" ressemble à \"P\" latin. Comment se prononce-t-elle vraiment ?"
+    answer: r
+    feedback: ressemble à P mais se lit R
+  - id: cyrillic_faux_ami_С
+    question: "La lettre russe \"С\" ressemble à \"C\" latin. Comment se prononce-t-elle vraiment ?"
+    answer: s
+    feedback: ressemble à C mais se lit S
+  - id: cyrillic_faux_ami_У
+    question: "La lettre russe \"У\" ressemble à \"Y\" latin. Comment se prononce-t-elle vraiment ?"
+    answer: ou
+    feedback: ressemble à Y mais se lit OU
+  - id: cyrillic_faux_ami_Х
+    question: "La lettre russe \"Х\" ressemble à \"X\" latin. Comment se prononce-t-elle vraiment ?"
+    answer: kh
+    feedback: ressemble à X mais se lit KH

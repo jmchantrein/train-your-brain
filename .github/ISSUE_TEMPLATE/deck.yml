@@ -1,0 +1,66 @@
+name: Proposer ou corriger un deck
+description: Un nouveau deck, une erreur dans un deck existant ou un contenu à retirer.
+title: "[Deck] "
+labels: ["deck"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Les decks sont lus par des enfants : les règles de contenu et de licence sont dans [CONTRIBUTING.md](https://github.com/jmchantrein/train-your-brain/blob/main/CONTRIBUTING.md#proposer-ou-corriger-un-deck).
+        Tu peux décrire ta proposition ici, ou ouvrir directement une pull request avec le fichier YAML.
+  - type: dropdown
+    id: kind
+    attributes:
+      label: De quoi s'agit-il ?
+      options:
+        - Proposer un nouveau deck
+        - Corriger une erreur dans un deck existant
+        - Signaler un contenu inadapté à un enfant
+    validations:
+      required: true
+  - type: input
+    id: deck
+    attributes:
+      label: Nom du deck concerné
+      description: Pour un nouveau deck, son titre prévu.
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Description
+      description: |
+        Nouveau deck : sujet, niveau visé (par exemple « cycle 3 »), nombre de cartes approximatif.
+        Correction : la carte concernée (question), ce qui est faux et ce qui est juste.
+    validations:
+      required: true
+  - type: textarea
+    id: sources
+    attributes:
+      label: Sources
+      description: Où vérifier les informations (livre, site, programme officiel). Pour un contenu repris d'ailleurs, indique l'origine.
+    validations:
+      required: true
+  - type: dropdown
+    id: license
+    attributes:
+      label: Licence du contenu proposé
+      description: Tu dois avoir le droit de partager ce contenu.
+      options:
+        - Contenu que j'ai écrit, partagé sous la licence CC BY-SA 4.0 (celle des decks du dépôt)
+        - Contenu sous licence libre d'un tiers, compatible avec la CC BY-SA 4.0 (précise dans les sources)
+        - Je ne sais pas
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Vérifications
+      options:
+        - label: Le contenu est adapté à des enfants.
+        - label: Je n'ai pas inclus de donnée personnelle.
+        - label: Si une IA a aidé à rédiger, j'ai relu chaque carte.
+  - type: textarea
+    id: yaml
+    attributes:
+      label: Fichier YAML (facultatif)
+      description: Colle le deck ou la partie à corriger. Pour un long deck, préfère une pull request.
+      render: yaml

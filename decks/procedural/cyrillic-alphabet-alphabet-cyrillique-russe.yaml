@@ -1,0 +1,446 @@
+name: Alphabet cyrillique russe
+description: "Les 33 lettres de l'alphabet russe"
+tags: [langues, russe, alphabet, cyrillique, ru-alphabet, autodidacte]
+category: [langues, russe, ru-alphabet, autodidacte]
+settings:
+  sequential: true
+  bidirectional: false
+metadata:
+  license: CC-BY-SA-4.0
+  source:
+    type: procedural
+    generator: cyrillic-alphabet
+    version: 1.0.0
+    generatedAt: "2026-11-22"
+    parameters:
+      type: main
+cards:
+  - id: cyrillic_0_to_sound
+    question: "Comment se prononce \"а\" en russe ?"
+    answer: a
+    feedback: "а (А) : a - se prononce \"a\" (ressemble à A latin)"
+  - id: cyrillic_0_name_to_letter
+    question: "Quelle lettre russe s'appelle \"a\" ?"
+    answer: а
+    alternatives: [А]
+    feedback: "a : а (А)"
+  - id: cyrillic_0_case
+    question: Majuscule de а ?
+    answer: А
+    feedback: а → А
+  - id: cyrillic_1_to_sound
+    question: "Comment se prononce \"б\" en russe ?"
+    answer: b
+    feedback: "б (Б) : bé - se prononce \"b\""
+  - id: cyrillic_1_name_to_letter
+    question: "Quelle lettre russe s'appelle \"bé\" ?"
+    answer: б
+    alternatives: [Б]
+    feedback: "bé : б (Б)"
+  - id: cyrillic_1_case
+    question: Majuscule de б ?
+    answer: Б
+    feedback: б → Б
+  - id: cyrillic_2_to_sound
+    question: "Comment se prononce \"в\" en russe ?"
+    answer: v
+    feedback: "в (В) : vé - se prononce \"v\" (ressemble à B inversé)"
+  - id: cyrillic_2_name_to_letter
+    question: "Quelle lettre russe s'appelle \"vé\" ?"
+    answer: в
+    alternatives: [В]
+    feedback: "vé : в (В)"
+  - id: cyrillic_2_case
+    question: Majuscule de в ?
+    answer: В
+    feedback: в → В
+  - id: cyrillic_3_to_sound
+    question: "Comment se prononce \"г\" en russe ?"
+    answer: g
+    feedback: "г (Г) : gué - se prononce \"g\""
+  - id: cyrillic_3_name_to_letter
+    question: "Quelle lettre russe s'appelle \"gué\" ?"
+    answer: г
+    alternatives: [Г]
+    feedback: "gué : г (Г)"
+  - id: cyrillic_3_case
+    question: Majuscule de г ?
+    answer: Г
+    feedback: г → Г
+  - id: cyrillic_4_to_sound
+    question: "Comment se prononce \"д\" en russe ?"
+    answer: d
+    feedback: "д (Д) : dé - se prononce \"d\""
+  - id: cyrillic_4_name_to_letter
+    question: "Quelle lettre russe s'appelle \"dé\" ?"
+    answer: д
+    alternatives: [Д]
+    feedback: "dé : д (Д)"
+  - id: cyrillic_4_case
+    question: Majuscule de д ?
+    answer: Д
+    feedback: д → Д
+  - id: cyrillic_5_to_sound
+    question: "Comment se prononce \"е\" en russe ?"
+    answer: ye/e
+    feedback: "е (Е) : ié - se prononce \"ye/e\" (ressemble à E latin)"
+  - id: cyrillic_5_name_to_letter
+    question: "Quelle lettre russe s'appelle \"ié\" ?"
+    answer: е
+    alternatives: [Е]
+    feedback: "ié : е (Е)"
+  - id: cyrillic_5_case
+    question: Majuscule de е ?
+    answer: Е
+    feedback: е → Е
+  - id: cyrillic_6_to_sound
+    question: "Comment se prononce \"ё\" en russe ?"
+    answer: yo
+    feedback: "ё (Ё) : io - se prononce \"yo\""
+  - id: cyrillic_6_name_to_letter
+    question: "Quelle lettre russe s'appelle \"io\" ?"
+    answer: ё
+    alternatives: [Ё]
+    feedback: "io : ё (Ё)"
+  - id: cyrillic_6_case
+    question: Majuscule de ё ?
+    answer: Ё
+    feedback: ё → Ё
+  - id: cyrillic_7_to_sound
+    question: "Comment se prononce \"ж\" en russe ?"
+    answer: j (jeu)
+    feedback: "ж (Ж) : jé - se prononce \"j (jeu)\""
+  - id: cyrillic_7_name_to_letter
+    question: "Quelle lettre russe s'appelle \"jé\" ?"
+    answer: ж
+    alternatives: [Ж]
+    feedback: "jé : ж (Ж)"
+  - id: cyrillic_7_case
+    question: Majuscule de ж ?
+    answer: Ж
+    feedback: ж → Ж
+  - id: cyrillic_8_to_sound
+    question: "Comment se prononce \"з\" en russe ?"
+    answer: z
+    feedback: "з (З) : zé - se prononce \"z\" (ressemble à 3 inversé)"
+  - id: cyrillic_8_name_to_letter
+    question: "Quelle lettre russe s'appelle \"zé\" ?"
+    answer: з
+    alternatives: [З]
+    feedback: "zé : з (З)"
+  - id: cyrillic_8_case
+    question: Majuscule de з ?
+    answer: З
+    feedback: з → З
+  - id: cyrillic_9_to_sound
+    question: "Comment se prononce \"и\" en russe ?"
+    answer: i
+    feedback: "и (И) : i - se prononce \"i\" (ressemble à N inversé)"
+  - id: cyrillic_9_name_to_letter
+    question: "Quelle lettre russe s'appelle \"i\" ?"
+    answer: и
+    alternatives: [И]
+    feedback: "i : и (И)"
+  - id: cyrillic_9_case
+    question: Majuscule de и ?
+    answer: И
+    feedback: и → И
+  - id: cyrillic_10_to_sound
+    question: "Comment se prononce \"й\" en russe ?"
+    answer: "y"
+    feedback: "й (Й) : i bref - se prononce \"y\""
+  - id: cyrillic_10_name_to_letter
+    question: "Quelle lettre russe s'appelle \"i bref\" ?"
+    answer: й
+    alternatives: [Й]
+    feedback: "i bref : й (Й)"
+  - id: cyrillic_10_case
+    question: Majuscule de й ?
+    answer: Й
+    feedback: й → Й
+  - id: cyrillic_11_to_sound
+    question: "Comment se prononce \"к\" en russe ?"
+    answer: k
+    feedback: "к (К) : ka - se prononce \"k\" (ressemble à K latin)"
+  - id: cyrillic_11_name_to_letter
+    question: "Quelle lettre russe s'appelle \"ka\" ?"
+    answer: к
+    alternatives: [К]
+    feedback: "ka : к (К)"
+  - id: cyrillic_11_case
+    question: Majuscule de к ?
+    answer: К
+    feedback: к → К
+  - id: cyrillic_12_to_sound
+    question: "Comment se prononce \"л\" en russe ?"
+    answer: l
+    feedback: "л (Л) : él - se prononce \"l\""
+  - id: cyrillic_12_name_to_letter
+    question: "Quelle lettre russe s'appelle \"él\" ?"
+    answer: л
+    alternatives: [Л]
+    feedback: "él : л (Л)"
+  - id: cyrillic_12_case
+    question: Majuscule de л ?
+    answer: Л
+    feedback: л → Л
+  - id: cyrillic_13_to_sound
+    question: "Comment se prononce \"м\" en russe ?"
+    answer: m
+    feedback: "м (М) : ém - se prononce \"m\" (ressemble à M latin)"
+  - id: cyrillic_13_name_to_letter
+    question: "Quelle lettre russe s'appelle \"ém\" ?"
+    answer: м
+    alternatives: [М]
+    feedback: "ém : м (М)"
+  - id: cyrillic_13_case
+    question: Majuscule de м ?
+    answer: М
+    feedback: м → М
+  - id: cyrillic_14_to_sound
+    question: "Comment se prononce \"н\" en russe ?"
+    answer: "n"
+    feedback: "н (Н) : én - se prononce \"n\" (ressemble à H latin)"
+  - id: cyrillic_14_name_to_letter
+    question: "Quelle lettre russe s'appelle \"én\" ?"
+    answer: н
+    alternatives: [Н]
+    feedback: "én : н (Н)"
+  - id: cyrillic_14_case
+    question: Majuscule de н ?
+    answer: Н
+    feedback: н → Н
+  - id: cyrillic_15_to_sound
+    question: "Comment se prononce \"о\" en russe ?"
+    answer: o
+    feedback: "о (О) : o - se prononce \"o\" (ressemble à O latin)"
+  - id: cyrillic_15_name_to_letter
+    question: "Quelle lettre russe s'appelle \"o\" ?"
+    answer: о
+    alternatives: [О]
+    feedback: "o : о (О)"
+  - id: cyrillic_15_case
+    question: Majuscule de о ?
+    answer: О
+    feedback: о → О
+  - id: cyrillic_16_to_sound
+    question: "Comment se prononce \"п\" en russe ?"
+    answer: p
+    feedback: "п (П) : pé - se prononce \"p\" (ressemble à Pi grec)"
+  - id: cyrillic_16_name_to_letter
+    question: "Quelle lettre russe s'appelle \"pé\" ?"
+    answer: п
+    alternatives: [П]
+    feedback: "pé : п (П)"
+  - id: cyrillic_16_case
+    question: Majuscule de п ?
+    answer: П
+    feedback: п → П
+  - id: cyrillic_17_to_sound
+    question: "Comment se prononce \"р\" en russe ?"
+    answer: r
+    feedback: "р (Р) : ér - se prononce \"r\" (ressemble à P latin)"
+  - id: cyrillic_17_name_to_letter
+    question: "Quelle lettre russe s'appelle \"ér\" ?"
+    answer: р
+    alternatives: [Р]
+    feedback: "ér : р (Р)"
+  - id: cyrillic_17_case
+    question: Majuscule de р ?
+    answer: Р
+    feedback: р → Р
+  - id: cyrillic_18_to_sound
+    question: "Comment se prononce \"с\" en russe ?"
+    answer: s
+    feedback: "с (С) : és - se prononce \"s\" (ressemble à C latin)"
+  - id: cyrillic_18_name_to_letter
+    question: "Quelle lettre russe s'appelle \"és\" ?"
+    answer: с
+    alternatives: [С]
+    feedback: "és : с (С)"
+  - id: cyrillic_18_case
+    question: Majuscule de с ?
+    answer: С
+    feedback: с → С
+  - id: cyrillic_19_to_sound
+    question: "Comment se prononce \"т\" en russe ?"
+    answer: t
+    feedback: "т (Т) : té - se prononce \"t\" (ressemble à T latin)"
+  - id: cyrillic_19_name_to_letter
+    question: "Quelle lettre russe s'appelle \"té\" ?"
+    answer: т
+    alternatives: [Т]
+    feedback: "té : т (Т)"
+  - id: cyrillic_19_case
+    question: Majuscule de т ?
+    answer: Т
+    feedback: т → Т
+  - id: cyrillic_20_to_sound
+    question: "Comment se prononce \"у\" en russe ?"
+    answer: ou
+    feedback: "у (У) : ou - se prononce \"ou\" (ressemble à Y latin)"
+  - id: cyrillic_20_name_to_letter
+    question: "Quelle lettre russe s'appelle \"ou\" ?"
+    answer: у
+    alternatives: [У]
+    feedback: "ou : у (У)"
+  - id: cyrillic_20_case
+    question: Majuscule de у ?
+    answer: У
+    feedback: у → У
+  - id: cyrillic_21_to_sound
+    question: "Comment se prononce \"ф\" en russe ?"
+    answer: f
+    feedback: "ф (Ф) : éf - se prononce \"f\" (ressemble à Phi grec)"
+  - id: cyrillic_21_name_to_letter
+    question: "Quelle lettre russe s'appelle \"éf\" ?"
+    answer: ф
+    alternatives: [Ф]
+    feedback: "éf : ф (Ф)"
+  - id: cyrillic_21_case
+    question: Majuscule de ф ?
+    answer: Ф
+    feedback: ф → Ф
+  - id: cyrillic_22_to_sound
+    question: "Comment se prononce \"х\" en russe ?"
+    answer: kh (jota)
+    feedback: "х (Х) : kha - se prononce \"kh (jota)\" (ressemble à X latin)"
+  - id: cyrillic_22_name_to_letter
+    question: "Quelle lettre russe s'appelle \"kha\" ?"
+    answer: х
+    alternatives: [Х]
+    feedback: "kha : х (Х)"
+  - id: cyrillic_22_case
+    question: Majuscule de х ?
+    answer: Х
+    feedback: х → Х
+  - id: cyrillic_23_to_sound
+    question: "Comment se prononce \"ц\" en russe ?"
+    answer: ts
+    feedback: "ц (Ц) : tsé - se prononce \"ts\""
+  - id: cyrillic_23_name_to_letter
+    question: "Quelle lettre russe s'appelle \"tsé\" ?"
+    answer: ц
+    alternatives: [Ц]
+    feedback: "tsé : ц (Ц)"
+  - id: cyrillic_23_case
+    question: Majuscule de ц ?
+    answer: Ц
+    feedback: ц → Ц
+  - id: cyrillic_24_to_sound
+    question: "Comment se prononce \"ч\" en russe ?"
+    answer: tch
+    feedback: "ч (Ч) : tché - se prononce \"tch\""
+  - id: cyrillic_24_name_to_letter
+    question: "Quelle lettre russe s'appelle \"tché\" ?"
+    answer: ч
+    alternatives: [Ч]
+    feedback: "tché : ч (Ч)"
+  - id: cyrillic_24_case
+    question: Majuscule de ч ?
+    answer: Ч
+    feedback: ч → Ч
+  - id: cyrillic_25_to_sound
+    question: "Comment se prononce \"ш\" en russe ?"
+    answer: ch
+    feedback: "ш (Ш) : cha - se prononce \"ch\""
+  - id: cyrillic_25_name_to_letter
+    question: "Quelle lettre russe s'appelle \"cha\" ?"
+    answer: ш
+    alternatives: [Ш]
+    feedback: "cha : ш (Ш)"
+  - id: cyrillic_25_case
+    question: Majuscule de ш ?
+    answer: Ш
+    feedback: ш → Ш
+  - id: cyrillic_26_to_sound
+    question: "Comment se prononce \"щ\" en russe ?"
+    answer: chtch
+    feedback: "щ (Щ) : chtcha - se prononce \"chtch\""
+  - id: cyrillic_26_name_to_letter
+    question: "Quelle lettre russe s'appelle \"chtcha\" ?"
+    answer: щ
+    alternatives: [Щ]
+    feedback: "chtcha : щ (Щ)"
+  - id: cyrillic_26_case
+    question: Majuscule de щ ?
+    answer: Щ
+    feedback: щ → Щ
+  - id: cyrillic_27_to_sound
+    question: "Comment se prononce \"ъ\" en russe ?"
+    answer: (pause)
+    feedback: "ъ (Ъ) : signe dur - se prononce \"(pause)\""
+  - id: cyrillic_27_name_to_letter
+    question: "Quelle lettre russe s'appelle \"signe dur\" ?"
+    answer: ъ
+    alternatives: [Ъ]
+    feedback: "signe dur : ъ (Ъ)"
+  - id: cyrillic_27_case
+    question: Majuscule de ъ ?
+    answer: Ъ
+    feedback: ъ → Ъ
+  - id: cyrillic_28_to_sound
+    question: "Comment se prononce \"ы\" en russe ?"
+    answer: y dur
+    feedback: "ы (Ы) : y - se prononce \"y dur\""
+  - id: cyrillic_28_name_to_letter
+    question: "Quelle lettre russe s'appelle \"y\" ?"
+    answer: ы
+    alternatives: [Ы]
+    feedback: "y : ы (Ы)"
+  - id: cyrillic_28_case
+    question: Majuscule de ы ?
+    answer: Ы
+    feedback: ы → Ы
+  - id: cyrillic_29_to_sound
+    question: "Comment se prononce \"ь\" en russe ?"
+    answer: (mouillure)
+    feedback: "ь (Ь) : signe mou - se prononce \"(mouillure)\""
+  - id: cyrillic_29_name_to_letter
+    question: "Quelle lettre russe s'appelle \"signe mou\" ?"
+    answer: ь
+    alternatives: [Ь]
+    feedback: "signe mou : ь (Ь)"
+  - id: cyrillic_29_case
+    question: Majuscule de ь ?
+    answer: Ь
+    feedback: ь → Ь
+  - id: cyrillic_30_to_sound
+    question: "Comment se prononce \"э\" en russe ?"
+    answer: é
+    feedback: "э (Э) : é - se prononce \"é\" (ressemble à E inversé)"
+  - id: cyrillic_30_name_to_letter
+    question: "Quelle lettre russe s'appelle \"é\" ?"
+    answer: э
+    alternatives: [Э]
+    feedback: "é : э (Э)"
+  - id: cyrillic_30_case
+    question: Majuscule de э ?
+    answer: Э
+    feedback: э → Э
+  - id: cyrillic_31_to_sound
+    question: "Comment se prononce \"ю\" en russe ?"
+    answer: you
+    feedback: "ю (Ю) : iou - se prononce \"you\""
+  - id: cyrillic_31_name_to_letter
+    question: "Quelle lettre russe s'appelle \"iou\" ?"
+    answer: ю
+    alternatives: [Ю]
+    feedback: "iou : ю (Ю)"
+  - id: cyrillic_31_case
+    question: Majuscule de ю ?
+    answer: Ю
+    feedback: ю → Ю
+  - id: cyrillic_32_to_sound
+    question: "Comment se prononce \"я\" en russe ?"
+    answer: ya
+    feedback: "я (Я) : ia - se prononce \"ya\" (ressemble à R inversé)"
+  - id: cyrillic_32_name_to_letter
+    question: "Quelle lettre russe s'appelle \"ia\" ?"
+    answer: я
+    alternatives: [Я]
+    feedback: "ia : я (Я)"
+  - id: cyrillic_32_case
+    question: Majuscule de я ?
+    answer: Я
+    feedback: я → Я
